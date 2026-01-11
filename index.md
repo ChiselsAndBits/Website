@@ -29,4 +29,4 @@ features:
     linkText: Read up
 ---
 
-If you want to contribute to the Chisels & Bits Documentation, you can find the source code on [GitHub](https://github.com/ChiselsAndBits/Website), and the relevant [contribution guidelines](./docs/contributors).
+If you want to contribute to the Chisels & Bits Documentation, you can find the source code on [GitHub](https://github.com/ChiselsAndBits/Website), and the relevant TODO: Create link.

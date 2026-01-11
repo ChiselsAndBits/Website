@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@primevue/auto-import-resolver": "^4.5.4",
+    "unplugin-vue-components": "^30.0.0",
+    "vitepress": "^2.0.0-alpha.15",
+    "vitepress-sidebar": "^1.33.1"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@primeuix/themes": "^2.0.2",
+    "@types/node": "^25.0.5",
+    "primevue": "^4.5.4"
+  }
+}

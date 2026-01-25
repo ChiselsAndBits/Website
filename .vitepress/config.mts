@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite';
 import {PrimeVueResolver} from '@primevue/auto-import-resolver';
 import {generateSidebar} from "vitepress-sidebar";
+import {tabsMarkdownPlugin} from "vitepress-plugin-tabs";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -37,6 +38,7 @@ export default defineConfig({
         hyphenToSpace: true,
         collapsed: false,
         debugPrint: true,
+        followSymlinks: true
       },
       {
         documentRootPath: '/docs/modders',
@@ -50,6 +52,8 @@ export default defineConfig({
         hyphenToSpace: true,
         collapsed: false,
         debugPrint: true,
+        followSymlinks: true,
+        excludeByFolderDepth: 1000
       }]),
 
     search: {
@@ -68,6 +72,14 @@ export default defineConfig({
           PrimeVueResolver()
         ]
       })
-    ]
+    ],
+    resolve: {
+      preserveSymlinks: true
+    }
+  },
+  markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin)
+    }
   }
 })

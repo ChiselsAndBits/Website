@@ -1,0 +1,82 @@
+--- 
+title: ISnapshotable
+aside: false 
+---
+_Package:_ [mod.chiselsandbits.api.util](index.md)  
+# Interface ISnapshotable\<T\>  
+**Type Parameters:**  
+T - The type of the object.  
+
+---
+<div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">ISnapshotable&lt;T&gt;</span></div>  
+
+  
+
+<div class="block">Defines an object which is capable of making a deep clone of itself.</div>
+  
+
+<dl class="notes"></dl>  
+
+<!-- ========== METHOD SUMMARY =========== -->
+<!-- JavaMarkContainer Depth: 1 -->
+::::: info Method Summary  
+:::tabs key:method-summary-table
+== All Methods
+<table>
+  <thead>
+    <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td><code><a href="ISnapshotable.html" title="type parameter in ISnapshotable">T</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td>&nbsp;</td></tr>
+  </tbody>
+</table>
+== Instance Methods
+<table>
+  <thead>
+    <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td><code><a href="ISnapshotable.html" title="type parameter in ISnapshotable">T</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td>&nbsp;</td></tr>
+  </tbody>
+</table>
+== Abstract Methods
+<table>
+  <thead>
+    <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td><code><a href="ISnapshotable.html" title="type parameter in ISnapshotable">T</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td>&nbsp;</td></tr>
+  </tbody>
+</table>
+:::
+:::::
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+<!-- JavaMarkContainer Depth: 1 -->
+::::: info Method Details  
+<section id="createSnapshot()">
+
+:::tabs
+== createSnapshot
+<div class="member-signature"><span class="return-type"><a href="ISnapshotable.html" title="type parameter in ISnapshotable">T</a></span>&nbsp;<span class="element-name">createSnapshot</span>()</div>
+<dl class="notes"></dl>
+:::
+
+
+</section>
+
+:::::
+  
+

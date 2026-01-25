@@ -4,6 +4,7 @@
     "@primevue/auto-import-resolver": "^4.5.4",
     "unplugin-vue-components": "^30.0.0",
     "vitepress": "^2.0.0-alpha.15",
+    "vitepress-plugin-tabs": "^0.7.3",
     "vitepress-sidebar": "^1.33.1"
   },
   "scripts": {

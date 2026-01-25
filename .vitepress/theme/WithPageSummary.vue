@@ -14,6 +14,7 @@ interface Summary {
 interface Frontmatter {
   summary : Summary
   title?: string
+  javadoc?: boolean
 }
 
 interface Data {
@@ -23,14 +24,13 @@ interface Data {
 const {Layout} = DefaultTheme
 const data : Data = useData() as unknown as Data;
 const frontmatter : Frontmatter = data.frontmatter
-
-console.log(frontmatter.summary?.summary)
-console.log(JSON.stringify(frontmatter.summary?.recipe))
-
 </script>
 
 <template>
   <Layout>
+    <template #layout-top>
+      <div v-if="frontmatter.javadoc">MARKER</div>
+    </template>
     <template #aside-outline-before>
       <div class="page-summary" v-if="frontmatter.summary">
         <div class="summary-icon">
@@ -75,5 +75,48 @@ p {
 .summary-description {
   text-align: center;
   padding-bottom: 0.25rem;
+}
+</style>
+
+<style>
+:root{
+  --code-font-family: 'DejaVu Sans Mono', monospace;
+}
+
+.module-signature,
+.package-signature,
+.type-signature,
+.member-signature {
+  font-family:var(--code-font-family),monospace;
+  font-size:1em;
+  margin:14px 0;
+  white-space: pre-wrap;
+}
+.module-signature,
+.package-signature,
+.type-signature {
+  margin-top: 0;
+}
+.member-signature .type-parameters-long,
+.member-signature .parameters,
+.member-signature .exceptions {
+  display: inline-block;
+  vertical-align: top;
+  white-space: pre;
+}
+.member-signature .type-parameters {
+  white-space: normal;
+}
+</style>
+
+<style>
+a.anchor-link {
+  text-decoration: none;
+  --vp-custom-block-info-text: var(--vp-c-text-1);
+  color: inherit !important;
+}
+
+a.anchor-link:hover {
+  color: initial;
 }
 </style>

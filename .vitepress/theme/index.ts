@@ -10,6 +10,9 @@ import ItemIcon from './ItemIcon.vue';
 import RecipeElement from './RecipeElement.vue';
 // @ts-ignore
 import RecipeDisplay from './RecipeDisplay.vue';
+// @ts-ignore
+import {enhanceAppWithTabs} from "vitepress-plugin-tabs/client";
+import {Theme} from "vitepress";
 
 
 export default {
@@ -25,9 +28,10 @@ export default {
                 preset: Aura
             }
         })
+        enhanceAppWithTabs(app)
 
         app.component('ItemIcon', ItemIcon)
         app.component('RecipeElement', RecipeElement)
         app.component('RecipeDisplay', RecipeDisplay)
     }
-}
+} satisfies Theme

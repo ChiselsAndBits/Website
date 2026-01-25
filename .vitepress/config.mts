@@ -41,7 +41,6 @@ export default defineConfig({
         capitalizeFirst: true,
         hyphenToSpace: true,
         collapsed: false,
-        debugPrint: true,
         followSymlinks: true
       },
       {
@@ -55,9 +54,11 @@ export default defineConfig({
         capitalizeFirst: true,
         hyphenToSpace: true,
         collapsed: false,
-        debugPrint: true,
         followSymlinks: true,
-        excludeByFolderDepth: 1000
+        excludeByGlobPattern: ['api/'],
+        includeRootIndexFile: true,
+        includeFolderIndexFile: true,
+        rootGroupText: 'Modder Documentation'
       }]),
 
     search: {

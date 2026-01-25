@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import ItemIcon from "./ItemIcon.vue";
 import type {Recipe} from "./DisplayRecipe.ts";
 import RecipeElement from "./RecipeElement.vue";
 

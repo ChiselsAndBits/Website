@@ -119,4 +119,56 @@ a.anchor-link {
 a.anchor-link:hover {
   color: initial;
 }
+
+@media (min-width: 1440px) {
+  .VPContent.has-sidebar {
+    padding-right: initial !important;
+    padding-left: initial !important;
+  }
+  .VPSidebar {
+    padding-left: 32px !important;
+    width: var(--vp-sidebar-width) !important;
+  }
+
+  .VPNavBar.has-sidebar > .wrapper > .container > .title {
+    padding-left: 32px !important;
+    width: initial !important;
+  }
+
+  .VPNavBar.has-sidebar > .wrapper > .container > .content {
+    padding-left: var(--vp-sidebar-width);
+    padding-right: calc((100% - var(--vp-layout-max-width)) / 2 + 32px);
+  }
+
+  .VPNavBar.has-sidebar .divider {
+    padding-left: var(--vp-sidebar-width) !important;
+  }
+}
+
+:root {
+  --vp-sidebar-width: 333px !important;
+}
+
+
+.VPDoc:not(.has-sidebar) .container {
+  max-width: initial !important;
+}
+
+.VPDoc.has-aside .content-container {
+  max-width: initial !important;
+  padding-left: var(--vp-sidebar-width);
+}
+
+.VPDoc:not(.has-sidebar) .content-container {
+  max-width: initial !important;
+  padding-left: 32px;
+}
+
+.VPDoc:not(.has-sidebar) .content {
+  max-width: initial !important;
+}
+
+.pager-link {
+  max-width: var(--vp-sidebar-width);
+}
 </style>

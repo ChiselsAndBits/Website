@@ -1,24 +1,12 @@
+---
+title: Modder Documentation
+order: 0
+---
+
 ## Chisels and Bits
 
 Welcome to the documentation for the API of Chisels & Bits mod
 
-::::: info Field Details  
-<a href="#finalStringField" class="anchor-link" aria-label="Link to this section">
-
-:::tabs
-== finalStringField
-<div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">finalStringField</span></div>
-<div class="block">A public field</div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#com.communi.suggestu.javamark.example.SimpleTestClass.finalStringField">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
-:::
-
-
-</a>
-:::::
+The documentation is made up out of several sections:
+- [Code Documentation](api/mod/chiselsandbits/api/IChiselsAndBitsAPI.md) gives you access to the documentation of the API Code
+- [Examples](examples/index.md) shows you how to implement several different aspects

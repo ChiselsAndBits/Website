@@ -19,7 +19,7 @@ Represents an entry point for a change that can be undone and redone.
 ::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -31,7 +31,7 @@ Represents an entry point for a change that can be undone and redone.
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -43,7 +43,7 @@ Represents an entry point for a change that can be undone and redone.
   </tbody>
 </table>
 == Abstract Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

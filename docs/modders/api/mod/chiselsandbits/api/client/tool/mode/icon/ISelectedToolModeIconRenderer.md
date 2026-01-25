@@ -19,7 +19,7 @@ Used to render the icons on the hot bar for the selected tool mode.
 ::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -29,7 +29,7 @@ Used to render the icons on the hot bar for the selected tool mode.
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -39,7 +39,7 @@ Used to render the icons on the hot bar for the selected tool mode.
   </tbody>
 </table>
 == Abstract Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

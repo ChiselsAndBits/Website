@@ -24,7 +24,7 @@ Annotation which marks a given class as being a chisels and bits plugin.
 ::::: info Optional Element Summary  
 :::tabs
 == Optional Elements
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Optional Element</th><th>Description</th></tr>
   </thead>

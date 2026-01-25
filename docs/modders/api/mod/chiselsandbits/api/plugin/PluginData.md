@@ -20,7 +20,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 ::::: info Constructor Summary  
 :::tabs
 == Constructors
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
@@ -37,7 +37,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 ::::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -49,7 +49,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -61,7 +61,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
   </tbody>
 </table>
 == Concrete Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

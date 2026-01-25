@@ -26,7 +26,7 @@ java.lang.Object
 ::::: info Field Summary  
 :::tabs
 == Fields
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
@@ -58,7 +58,7 @@ java.lang.Object
 ::::: info Constructor Summary  
 :::tabs
 == Constructors
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>

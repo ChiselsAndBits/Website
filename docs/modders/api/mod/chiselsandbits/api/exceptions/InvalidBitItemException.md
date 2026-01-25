@@ -32,7 +32,7 @@ Thrown when a ItemStack is not a valid chiseled bit, or contains invalid data.
 ::::: info Constructor Summary  
 :::tabs
 == Constructors
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>

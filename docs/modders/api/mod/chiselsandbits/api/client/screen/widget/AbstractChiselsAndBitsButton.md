@@ -67,7 +67,7 @@ active, alpha, height, isHovered, message, visible, width
 ::::: info Constructor Summary  
 :::tabs
 == Constructors
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
@@ -84,7 +84,7 @@ active, alpha, height, isHovered, message, visible, width
 ::::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -94,7 +94,7 @@ active, alpha, height, isHovered, message, visible, width
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -104,7 +104,7 @@ active, alpha, height, isHovered, message, visible, width
   </tbody>
 </table>
 == Concrete Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

@@ -29,7 +29,7 @@ Represents an object which can mutate the order of the coordinate members
 ::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -47,7 +47,7 @@ Represents an object which can mutate the order of the coordinate members
   </tbody>
 </table>
 == Static Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -63,7 +63,7 @@ Represents an object which can mutate the order of the coordinate members
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -73,7 +73,7 @@ Represents an object which can mutate the order of the coordinate members
   </tbody>
 </table>
 == Abstract Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -82,7 +82,7 @@ Represents an object which can mutate the order of the coordinate members
   </tbody>
 </table>
 == Default Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

@@ -24,7 +24,7 @@ Utility class for processing help texts,
 ::::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -34,7 +34,7 @@ Utility class for processing help texts,
   </tbody>
 </table>
 == Static Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -44,7 +44,7 @@ Utility class for processing help texts,
   </tbody>
 </table>
 == Concrete Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

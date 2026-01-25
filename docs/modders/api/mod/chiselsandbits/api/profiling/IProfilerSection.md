@@ -24,7 +24,7 @@ Represents a resource used for try-resource blocks that represents a
 ::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -33,7 +33,7 @@ Represents a resource used for try-resource blocks that represents a
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -42,7 +42,7 @@ Represents a resource used for try-resource blocks that represents a
   </tbody>
 </table>
 == Abstract Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

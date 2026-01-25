@@ -23,7 +23,7 @@ java.lang.Object
 ::::: info Field Summary  
 :::tabs
 == Fields
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>

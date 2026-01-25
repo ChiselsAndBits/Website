@@ -23,7 +23,7 @@ extends <a href="../item/wireframe/IWireframeProvidingItem.html" title="interfac
 ::::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -33,7 +33,7 @@ extends <a href="../item/wireframe/IWireframeProvidingItem.html" title="interfac
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -43,7 +43,7 @@ extends <a href="../item/wireframe/IWireframeProvidingItem.html" title="interfac
   </tbody>
 </table>
 == Default Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

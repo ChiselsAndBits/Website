@@ -19,7 +19,7 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
 ::::: info Field Summary  
 :::tabs
 == Fields
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
@@ -38,7 +38,7 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
 ::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -53,7 +53,7 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
   </tbody>
 </table>
 == Static Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

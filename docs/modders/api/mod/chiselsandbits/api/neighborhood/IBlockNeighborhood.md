@@ -19,7 +19,7 @@ Marker interface used to detect block neighborhoods in cache keys.
 ::::: info Field Summary  
 :::tabs
 == Fields
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
@@ -36,7 +36,7 @@ Marker interface used to detect block neighborhoods in cache keys.
 ::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -46,7 +46,7 @@ Marker interface used to detect block neighborhoods in cache keys.
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -56,7 +56,7 @@ Marker interface used to detect block neighborhoods in cache keys.
   </tbody>
 </table>
 == Abstract Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

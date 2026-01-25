@@ -22,7 +22,7 @@ All client configuration values that are relevant for the client side of C&amp;B
 ::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -61,7 +61,7 @@ All client configuration values that are relevant for the client side of C&amp;B
   </tbody>
 </table>
 == Static Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -70,7 +70,7 @@ All client configuration values that are relevant for the client side of C&amp;B
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -108,7 +108,7 @@ All client configuration values that are relevant for the client side of C&amp;B
   </tbody>
 </table>
 == Abstract Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

@@ -36,7 +36,7 @@ implements <a href="../../multistate/mutator/IMirrorAndRotateble.html" title="in
 ::::: info Field Summary  
 :::tabs
 == Fields
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
@@ -56,7 +56,7 @@ implements <a href="../../multistate/mutator/IMirrorAndRotateble.html" title="in
 ::::: info Constructor Summary  
 :::tabs
 == Constructors
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
@@ -75,7 +75,7 @@ implements <a href="../../multistate/mutator/IMirrorAndRotateble.html" title="in
 ::::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -107,7 +107,7 @@ implements <a href="../../multistate/mutator/IMirrorAndRotateble.html" title="in
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -139,7 +139,7 @@ implements <a href="../../multistate/mutator/IMirrorAndRotateble.html" title="in
   </tbody>
 </table>
 == Concrete Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

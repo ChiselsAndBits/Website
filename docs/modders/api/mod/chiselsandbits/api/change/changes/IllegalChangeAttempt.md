@@ -32,7 +32,7 @@ Exception thrown when change attempt is made before checking if the change attem
 ::::: info Constructor Summary  
 :::tabs
 == Constructors
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>

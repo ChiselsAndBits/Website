@@ -18,7 +18,7 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
 ::::: info Nested Class Summary  
 :::tabs
 == Nested Classes
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Interface</th><th>Description</th></tr>
   </thead>
@@ -35,7 +35,7 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
 ::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -45,7 +45,7 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
   </tbody>
 </table>
 == Static Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -54,7 +54,7 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -63,7 +63,7 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
   </tbody>
 </table>
 == Abstract Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

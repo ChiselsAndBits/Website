@@ -23,7 +23,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 ::::: info Field Summary  
 :::tabs
 == Fields
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
@@ -41,7 +41,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 ::::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -54,7 +54,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -67,7 +67,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
   </tbody>
 </table>
 == Abstract Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

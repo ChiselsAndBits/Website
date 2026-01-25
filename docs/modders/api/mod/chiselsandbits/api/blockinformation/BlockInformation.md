@@ -33,7 +33,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
 ::::: info Field Summary  
 :::tabs
 == Fields
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
@@ -54,7 +54,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
 ::::: info Constructor Summary  
 :::tabs
 == Constructors
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
@@ -71,7 +71,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
 ::::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -93,7 +93,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -115,7 +115,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
   </tbody>
 </table>
 == Concrete Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

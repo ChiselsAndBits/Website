@@ -32,7 +32,7 @@ Thrown when a bit cannot be placed in that space, this is not caused by bits alr
 ::::: info Constructor Summary  
 :::tabs
 == Constructors
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>

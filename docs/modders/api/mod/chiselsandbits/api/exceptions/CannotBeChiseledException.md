@@ -32,7 +32,7 @@ Thrown When a block cannot hold chiseled bits, or be converted to a chiseled blo
 ::::: info Constructor Summary  
 :::tabs
 == Constructors
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>

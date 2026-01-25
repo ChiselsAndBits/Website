@@ -28,7 +28,7 @@ The size of state entries in the current instance.
 ::::: info Enum Constant Summary  
 :::tabs
 == Enum Constants
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Enum Constant</th><th>Description</th></tr>
   </thead>
@@ -49,7 +49,7 @@ The size of state entries in the current instance.
 ::::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -73,7 +73,7 @@ The size of state entries in the current instance.
   </tbody>
 </table>
 == Static Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -84,7 +84,7 @@ The size of state entries in the current instance.
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -105,7 +105,7 @@ The size of state entries in the current instance.
   </tbody>
 </table>
 == Concrete Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

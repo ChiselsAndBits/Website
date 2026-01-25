@@ -20,7 +20,7 @@ Marker interface that uniquely identifies the shape of the contents that can be 
 ::::: info Field Summary  
 :::tabs
 == Fields
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>

@@ -26,7 +26,7 @@ Defines objects which can be serialized into an exact format.
 ::::: info Nested Class Summary  
 :::tabs
 == Nested Classes
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Interface</th><th>Description</th></tr>
   </thead>
@@ -43,7 +43,7 @@ Defines objects which can be serialized into an exact format.
 ::::: info Method Summary  
 :::tabs key:method-summary-table
 == All Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -54,7 +54,7 @@ Defines objects which can be serialized into an exact format.
   </tbody>
 </table>
 == Instance Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
@@ -65,7 +65,7 @@ Defines objects which can be serialized into an exact format.
   </tbody>
 </table>
 == Abstract Methods
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>

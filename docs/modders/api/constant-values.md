@@ -19,7 +19,7 @@ Contents
 
 :::tabs
 == mod.chiselsandbits.api.util.ColorUtils
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Constant Field</th><th>Value</th></tr>
   </thead>
@@ -31,7 +31,7 @@ Contents
 :::
 :::tabs
 == mod.chiselsandbits.api.util.VectorUtils
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Constant Field</th><th>Value</th></tr>
   </thead>
@@ -42,7 +42,7 @@ Contents
 :::
 :::tabs
 == mod.chiselsandbits.api.util.constants.Constants
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Constant Field</th><th>Value</th></tr>
   </thead>
@@ -58,7 +58,7 @@ Contents
 :::
 :::tabs
 == mod.chiselsandbits.api.util.constants.Constants.DataGenerator
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Constant Field</th><th>Value</th></tr>
   </thead>
@@ -81,7 +81,7 @@ Contents
 :::
 :::tabs
 == mod.chiselsandbits.api.util.constants.NbtConstants
-<table>
+<table class="stretched-table">
   <thead>
     <tr><th>Modifier and Type</th><th>Constant Field</th><th>Value</th></tr>
   </thead>

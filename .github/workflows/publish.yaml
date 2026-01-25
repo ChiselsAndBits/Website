@@ -25,7 +25,7 @@ concurrency:
 
 # Set the base path to /website
 env:
-  BASE: /website
+  BASE: /Website
 
 jobs:
   # Build job

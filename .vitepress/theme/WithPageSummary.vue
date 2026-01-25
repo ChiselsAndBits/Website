@@ -171,4 +171,8 @@ a.anchor-link:hover {
 .pager-link {
   max-width: var(--vp-sidebar-width);
 }
+
+.stretched-table { width: 100%; }
+.stretched-table td { width: 1px; }
+.stretched-table td:last-child { width: 100%; }
 </style>

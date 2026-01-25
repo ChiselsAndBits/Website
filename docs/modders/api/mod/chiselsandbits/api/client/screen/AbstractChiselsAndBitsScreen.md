@@ -20,8 +20,7 @@ implements <a href="IChiselsAndBitsScreen.html" title="interface in mod.chiselsa
 
   
 
-<div class="block">Custom screens which inherit from this class implement custom logic related to chisels and bits widgets and buttons.</div>
-  
+Custom screens which inherit from this class implement custom logic related to chisels and bits widgets and buttons.  
 
 <dl class="notes"></dl>  
 
@@ -162,7 +161,7 @@ getTabOrderGroup
 :::tabs
 == AbstractChiselsAndBitsScreen
 <div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="element-name">AbstractChiselsAndBitsScreen</span><wbr><span class="parameters">(net.minecraft.network.chat.Component&nbsp;narrationMessage)</span></div>
-<div class="block">Creates a new screen, playing the narration message when opened.</div>
+Creates a new screen, playing the narration message when opened.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>narrationMessage</code> - The narration message for the screen.</dd>
@@ -293,7 +292,7 @@ getTabOrderGroup
 == isInitialized
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isInitialized</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="IChiselsAndBitsScreen.html#isInitialized()">IChiselsAndBitsScreen</a></code></span></div>
-<div class="block">Indicates if the screen has been initialized or not.</div>
+Indicates if the screen has been initialized or not.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="IChiselsAndBitsScreen.html#isInitialized()">isInitialized</a></code>&nbsp;in interface&nbsp;<code><a href="IChiselsAndBitsScreen.html" title="interface in mod.chiselsandbits.api.client.screen">IChiselsAndBitsScreen</a></code></dd>
@@ -310,7 +309,7 @@ getTabOrderGroup
 :::tabs
 == getWidgets
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="widget/IChiselsAndBitsWidget.html" title="interface in mod.chiselsandbits.api.client.screen.widget">IChiselsAndBitsWidget</a>&gt;</span>&nbsp;<span class="element-name">getWidgets</span>()</div>
-<div class="block">Returns the widgets which are included in the screen.</div>
+Returns the widgets which are included in the screen.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The widgets on this screen.</dd>

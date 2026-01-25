@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
 
   
 
-<div class="block">Defines objects which can be serialized into a raw format.</div>
-  
+Defines objects which can be serialized into a raw format.  
 
 <dl class="notes"></dl>  
 
@@ -75,7 +74,7 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
 :::tabs
 == codec
 <div class="member-signature"><span class="return-type">com.mojang.serialization.Codec&lt;?&gt;</span>&nbsp;<span class="element-name">codec</span>()</div>
-<div class="block">Returns The codec used for direct serialization..</div>
+Returns The codec used for direct serialization..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec used for direct serialization.</dd>
@@ -90,7 +89,7 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
 :::tabs
 == mapCodec
 <div class="member-signature"><span class="return-type">com.mojang.serialization.MapCodec&lt;?&gt;</span>&nbsp;<span class="element-name">mapCodec</span>()</div>
-<div class="block">Returns The codec used for complex serialization..</div>
+Returns The codec used for complex serialization..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec used for complex serialization.</dd>
@@ -105,7 +104,7 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
 :::tabs
 == streamCodec
 <div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;?,<wbr>?&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
-<div class="block">Returns The codec used for streaming serialization..</div>
+Returns The codec used for streaming serialization..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec used for streaming serialization.</dd>

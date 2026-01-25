@@ -14,8 +14,7 @@ java.lang.Object
 
   
 
-<div class="block">Utility class for handling <code>BlockState</code>s.</div>
-  
+Utility class for handling <code>BlockState</code>s.  
 
 <dl class="notes"></dl>  
 
@@ -80,7 +79,7 @@ java.lang.Object
 :::tabs
 == getRandomSupportedInformation
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getRandomSupportedInformation</span><wbr><span class="parameters">(net.minecraft.util.RandomSource&nbsp;random)</span></div>
-<div class="block">Gets a random chiselable block information from the blocks in the registry.</div>
+Gets a random chiselable block information from the blocks in the registry.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>random</code> - The random to get the random ids from.</dd>
@@ -98,7 +97,7 @@ java.lang.Object
 == getRandomSupportedInformation
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>[]</span>&nbsp;<span class="element-name">getRandomSupportedInformation</span><wbr><span class="parameters">(net.minecraft.util.RandomSource&nbsp;random,
  int&nbsp;count)</span></div>
-<div class="block">Gets a random chiselable block information from the blocks in the registry.</div>
+Gets a random chiselable block information from the blocks in the registry.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>random</code> - The random to get the random ids from.</dd>

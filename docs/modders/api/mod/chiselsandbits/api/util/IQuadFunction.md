@@ -91,7 +91,7 @@ This is a functional interface and can therefore be used as the assignment targe
  <a href="IQuadFunction.html" title="type parameter in IQuadFunction">T2</a>&nbsp;two,
  <a href="IQuadFunction.html" title="type parameter in IQuadFunction">T3</a>&nbsp;three,
  <a href="IQuadFunction.html" title="type parameter in IQuadFunction">T4</a>&nbsp;four)</span></div>
-<div class="block">Applies to the function to the four arguments, getting the result out.</div>
+Applies to the function to the four arguments, getting the result out.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>one</code> - The primary argument.</dd>

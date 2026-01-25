@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 
   
 
-<div class="block">Do not implement it can be accessed via its <a href="IChiselsAndBitsAPI.html#getInstance()"><code>IChiselsAndBitsAPI.getInstance()</code></a>-method.</div>
-  
+Do not implement it can be accessed via its <a href="IChiselsAndBitsAPI.html#getInstance()"><code>IChiselsAndBitsAPI.getInstance()</code></a>-method.  
 
 <dl class="notes"></dl>  
 
@@ -217,7 +216,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 :::tabs
 == getInstance
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Gives access to the api instance.</div>
+Gives access to the api instance.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The api.</dd>
@@ -233,7 +232,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getAccessorFactory
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="multistate/accessor/IAccessorFactory.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAccessorFactory</a></span>&nbsp;<span class="element-name">getAccessorFactory</span>()</div>
-<div class="block">Gives access to the factory that can produce different accessors.</div>
+Gives access to the factory that can produce different accessors.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The factory used to create new accessors.</dd>
@@ -249,7 +248,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getMutatorFactory
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="multistate/mutator/IMutatorFactory.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutatorFactory</a></span>&nbsp;<span class="element-name">getMutatorFactory</span>()</div>
-<div class="block">Gives access to the factory that can produce different mutators.</div>
+Gives access to the factory that can produce different mutators.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The factory used to create new mutators.</dd>
@@ -265,7 +264,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getEligibilityManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="chiseling/eligibility/IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></span>&nbsp;<span class="element-name">getEligibilityManager</span>()</div>
-<div class="block">Manager which deals with chiseling eligibility.</div>
+Manager which deals with chiseling eligibility.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The manager.</dd>
@@ -281,8 +280,8 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getConversionManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="chiseling/conversion/IConversionManager.html" title="interface in mod.chiselsandbits.api.chiseling.conversion">IConversionManager</a></span>&nbsp;<span class="element-name">getConversionManager</span>()</div>
-<div class="block">Manager which deals with converting eligible blocks, blockstates and IItemProviders into their chiseled
- variants.</div>
+Manager which deals with converting eligible blocks, blockstates and IItemProviders into their chiseled
+ variants.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The conversion manager.</dd>
@@ -298,8 +297,8 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getVoxelShapeManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="voxelshape/IVoxelShapeManager.html" title="interface in mod.chiselsandbits.api.voxelshape">IVoxelShapeManager</a></span>&nbsp;<span class="element-name">getVoxelShapeManager</span>()</div>
-<div class="block">Manager which deals with calculating, and optionally caching, the voxel shapes, which
- can be constructed from a given area.</div>
+Manager which deals with calculating, and optionally caching, the voxel shapes, which
+ can be constructed from a given area.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The voxel shape manager.</dd>
@@ -315,7 +314,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getMultiStateItemFactory
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="item/multistate/IMultiStateItemFactory.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemFactory</a></span>&nbsp;<span class="element-name">getMultiStateItemFactory</span>()</div>
-<div class="block">A factory which can produce a multistate item from a given source.</div>
+A factory which can produce a multistate item from a given source.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The factory.</dd>
@@ -331,7 +330,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getDefaultChiselMode
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="chiseling/mode/IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a></span>&nbsp;<span class="element-name">getDefaultChiselMode</span>()</div>
-<div class="block">Represents the default mode for the chiseling system.</div>
+Represents the default mode for the chiseling system.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The default mode.</dd>
@@ -347,7 +346,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getRegistryManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="registries/IRegistryManager.html" title="interface in mod.chiselsandbits.api.registries">IRegistryManager</a></span>&nbsp;<span class="element-name">getRegistryManager</span>()</div>
-<div class="block">Gives access to all registries which are used by chisels and bits.</div>
+Gives access to all registries which are used by chisels and bits.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The manager for registries used by chisels and bits.</dd>
@@ -363,7 +362,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getChiselingManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="chiseling/IChiselingManager.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingManager</a></span>&nbsp;<span class="element-name">getChiselingManager</span>()</div>
-<div class="block">Gives access to the manager which controls chiseling operations.</div>
+Gives access to the manager which controls chiseling operations.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The current chiseling manager.</dd>
@@ -378,7 +377,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 :::tabs
 == getConfiguration
 <div class="member-signature"><span class="return-type"><a href="config/IChiselsAndBitsConfiguration.html" title="interface in mod.chiselsandbits.api.config">IChiselsAndBitsConfiguration</a></span>&nbsp;<span class="element-name">getConfiguration</span>()</div>
-<div class="block">The configuration on top of which chisels and bits is running.</div>
+The configuration on top of which chisels and bits is running.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The current configuration.</dd>
@@ -394,7 +393,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getBlockStateIdManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="block/state/id/IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></span>&nbsp;<span class="element-name">getBlockStateIdManager</span>()</div>
-<div class="block">The manager which deals with calculating the given blockstate ids in the current running session.</div>
+The manager which deals with calculating the given blockstate ids in the current running session.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The blockstate id manager.</dd>
@@ -410,8 +409,8 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getBitInventoryManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="inventory/management/IBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.management">IBitInventoryManager</a></span>&nbsp;<span class="element-name">getBitInventoryManager</span>()</div>
-<div class="block">Gives access to the bits inventory manager, which allows the conversion of normal inventory systems to bit inventories.
- These special bit inventories respect the core interfaces that make up an object that can hold or is a bit.</div>
+Gives access to the bits inventory manager, which allows the conversion of normal inventory systems to bit inventories.
+ These special bit inventories respect the core interfaces that make up an object that can hold or is a bit.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The manager for dealing with bits.</dd>
@@ -427,8 +426,8 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getBitItemManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="item/bit/IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></span>&nbsp;<span class="element-name">getBitItemManager</span>()</div>
-<div class="block">The bit item manager.
- Allows for the creation of bit based itemstacks.</div>
+The bit item manager.
+ Allows for the creation of bit based itemstacks.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The bit item manager.</dd>
@@ -444,8 +443,8 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getMeasuringManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="measuring/IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></span>&nbsp;<span class="element-name">getMeasuringManager</span>()</div>
-<div class="block">The measuring manager.
- Gives access to measurements created by a given player.</div>
+The measuring manager.
+ Gives access to measurements created by a given player.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The measuring manager.</dd>
@@ -461,7 +460,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getStateEntrySize
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="modifiers">default</span>&nbsp;<span class="return-type">@NotNull <a href="multistate/StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">getStateEntrySize</span>()</div>
-<div class="block">Represents the size of the bits in the current instance.</div>
+Represents the size of the bits in the current instance.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The size of the state entries in the current instance.</dd>
@@ -477,7 +476,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getProfilingManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="profiling/IProfilingManager.html" title="interface in mod.chiselsandbits.api.profiling">IProfilingManager</a></span>&nbsp;<span class="element-name">getProfilingManager</span>()</div>
-<div class="block">The profiling manager, allows for the profiling of operations related Chisels and Bits.</div>
+The profiling manager, allows for the profiling of operations related Chisels and Bits.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The profiling manager.</dd>
@@ -493,9 +492,9 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getLocalChiselingContextCache
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="chiseling/ILocalChiselingContextCache.html" title="interface in mod.chiselsandbits.api.chiseling">ILocalChiselingContextCache</a></span>&nbsp;<span class="element-name">getLocalChiselingContextCache</span>()</div>
-<div class="block">This method gives access to the client side local chiseling context cache.
+This method gives access to the client side local chiseling context cache.
  Although this method also exists on the server side, it should be considered a cross tick cache for the latest chiseling context in use by the current player,
- without it becoming the active context for that player.</div>
+ without it becoming the active context for that player.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The <a href="chiseling/ILocalChiselingContextCache.html" title="interface in mod.chiselsandbits.api.chiseling"><code>ILocalChiselingContextCache</code></a>.</dd>
@@ -511,8 +510,8 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getChangeTrackerManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="change/IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></span>&nbsp;<span class="element-name">getChangeTrackerManager</span>()</div>
-<div class="block">The change tracker manager.
- Gives access to each players change tracker.</div>
+The change tracker manager.
+ Gives access to each players change tracker.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The change tracker manager</dd>
@@ -528,8 +527,8 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getBlockNeighborhoodBuilder
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="neighborhood/IBlockNeighborhoodBuilder.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhoodBuilder</a></span>&nbsp;<span class="element-name">getBlockNeighborhoodBuilder</span>()</div>
-<div class="block">Gives access to the block neighborhood builder.
- Allows for building block specific cache keys when the block environment is required.</div>
+Gives access to the block neighborhood builder.
+ Allows for building block specific cache keys when the block environment is required.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The block neighborhood builder.</dd>
@@ -545,7 +544,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getDefaultModificationOperation
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="modification/operation/IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a></span>&nbsp;<span class="element-name">getDefaultModificationOperation</span>()</div>
-<div class="block">The default mode for performing modification operations if no other is supplied.</div>
+The default mode for performing modification operations if no other is supplied.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The default modification operation.</dd>
@@ -561,7 +560,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getPluginManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="plugin/IPluginManager.html" title="interface in mod.chiselsandbits.api.plugin">IPluginManager</a></span>&nbsp;<span class="element-name">getPluginManager</span>()</div>
-<div class="block">Gives access to the plugin manager that is used to process chisels and bits plugins</div>
+Gives access to the plugin manager that is used to process chisels and bits plugins
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The plugin manager</dd>
@@ -577,7 +576,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getChiselContextPreviewRendererRegistry
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="client/render/preview/chiseling/IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></span>&nbsp;<span class="element-name">getChiselContextPreviewRendererRegistry</span>()</div>
-<div class="block">Gives access to the chisel context preview renderer registry.</div>
+Gives access to the chisel context preview renderer registry.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The registry.</dd>
@@ -593,7 +592,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getSelectedToolModeIconRenderer
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="client/tool/mode/icon/ISelectedToolModeIconRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.tool.mode.icon">ISelectedToolModeIconRendererRegistry</a></span>&nbsp;<span class="element-name">getSelectedToolModeIconRenderer</span>()</div>
-<div class="block">Gives access to the selected tool mode icon renderer registry.</div>
+Gives access to the selected tool mode icon renderer registry.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The registry.</dd>
@@ -609,7 +608,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getForcedTag
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull net.minecraft.tags.TagKey&lt;net.minecraft.world.level.block.Block&gt;</span>&nbsp;<span class="element-name">getForcedTag</span>()</div>
-<div class="block">Returns the tag used in the eligibility system to force compatibility.</div>
+Returns the tag used in the eligibility system to force compatibility.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The forced compatibility tag.</dd>
@@ -625,7 +624,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getBlockedTag
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull net.minecraft.tags.TagKey&lt;net.minecraft.world.level.block.Block&gt;</span>&nbsp;<span class="element-name">getBlockedTag</span>()</div>
-<div class="block">Returns the tag used in the eligibility system to block compatibility.</div>
+Returns the tag used in the eligibility system to block compatibility.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The blocked compatibility tag.</dd>
@@ -641,8 +640,8 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getPermissionHandler
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="permissions/IPermissionHandler.html" title="interface in mod.chiselsandbits.api.permissions">IPermissionHandler</a></span>&nbsp;<span class="element-name">getPermissionHandler</span>()</div>
-<div class="block">Returns the permission handler which is used to check if a particular area
- is chiselable or not.</div>
+Returns the permission handler which is used to check if a particular area
+ is chiselable or not.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The permission handler.</dd>
@@ -658,7 +657,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getCreativeClipboardManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="client/clipboard/ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></span>&nbsp;<span class="element-name">getCreativeClipboardManager</span>()</div>
-<div class="block">Returns the clipboard manager for the creative clipboard.</div>
+Returns the clipboard manager for the creative clipboard.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The clipboard manager.</dd>
@@ -674,8 +673,8 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getPatternSharingManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="client/sharing/IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></span>&nbsp;<span class="element-name">getPatternSharingManager</span>()</div>
-<div class="block">The pattern sharing manager.
- This manager only works on the client side, and will do nothing on the server side.</div>
+The pattern sharing manager.
+ This manager only works on the client side, and will do nothing on the server side.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The pattern sharing manager.</dd>
@@ -691,7 +690,7 @@ _Package:_ [mod.chiselsandbits.api](index.md)
 == getNotificationManager
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="notifications/INotificationManager.html" title="interface in mod.chiselsandbits.api.notifications">INotificationManager</a></span>&nbsp;<span class="element-name">getNotificationManager</span>()</div>
-<div class="block">Handles showing notifications to the player.</div>
+Handles showing notifications to the player.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The notifications manager.</dd>

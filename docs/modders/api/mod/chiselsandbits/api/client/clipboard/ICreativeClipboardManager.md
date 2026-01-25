@@ -98,7 +98,7 @@ _Package:_ [mod.chiselsandbits.api.client.clipboard](index.md)
 :::tabs
 == getClipboard
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a>&gt;</span>&nbsp;<span class="element-name">getClipboard</span>()</div>
-<div class="block">The clipboard contents.</div>
+The clipboard contents.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The clipboard contents.</dd>
@@ -114,7 +114,7 @@ _Package:_ [mod.chiselsandbits.api.client.clipboard](index.md)
 == addEntry
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">addEntry</span><wbr><span class="parameters">(<a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a>&nbsp;multiStateItemStack,
  net.minecraft.core.HolderLookup.Provider&nbsp;provider)</span></div>
-<div class="block">Adds an entry to the clipboard.</div>
+Adds an entry to the clipboard.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>multiStateItemStack</code> - The multi-state item stack to add.</dd>
@@ -131,7 +131,7 @@ _Package:_ [mod.chiselsandbits.api.client.clipboard](index.md)
 == removeEntry
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">removeEntry</span><wbr><span class="parameters">(int&nbsp;index,
  net.minecraft.core.HolderLookup.Provider&nbsp;provider)</span></div>
-<div class="block">Removes an entry from the clipboard.</div>
+Removes an entry from the clipboard.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>index</code> - The index of the entry to remove.</dd>
@@ -146,7 +146,7 @@ _Package:_ [mod.chiselsandbits.api.client.clipboard](index.md)
 :::tabs
 == clear
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span><wbr><span class="parameters">(net.minecraft.core.HolderLookup.Provider&nbsp;provider)</span></div>
-<div class="block">Clears the entire clip board.</div>
+Clears the entire clip board.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>provider</code> - The provider.</dd>

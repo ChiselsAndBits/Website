@@ -10,9 +10,8 @@ _Package:_ [mod.chiselsandbits.api.chiseling](index.md)
 
   
 
-<div class="block">This small cache is used on the client side, primarily, to store a single active context
- which is valid across multiple frames.</div>
-  
+This small cache is used on the client side, primarily, to store a single active context
+ which is valid across multiple frames.  
 
 <dl class="notes"></dl>  
 
@@ -86,7 +85,7 @@ _Package:_ [mod.chiselsandbits.api.chiseling](index.md)
 :::tabs
 == getInstance
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="ILocalChiselingContextCache.html" title="interface in mod.chiselsandbits.api.chiseling">ILocalChiselingContextCache</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Gives access to the instance.</div>
+Gives access to the instance.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The instance.</dd>
@@ -101,8 +100,8 @@ _Package:_ [mod.chiselsandbits.api.chiseling](index.md)
 :::tabs
 == get
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&gt;</span>&nbsp;<span class="element-name">get</span><wbr><span class="parameters">(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</span></div>
-<div class="block">The current active context for the last few frames.
- The caller needs to validate that the returned value is still valid for his usage.</div>
+The current active context for the last few frames.
+ The caller needs to validate that the returned value is still valid for his usage.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>operation</code> - The operation to get the context for from the cache.</dd>
@@ -120,7 +119,7 @@ _Package:_ [mod.chiselsandbits.api.chiseling](index.md)
 == set
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">set</span><wbr><span class="parameters">(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation,
  <a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</span></div>
-<div class="block">Sets the current context in the cache.</div>
+Sets the current context in the cache.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>operation</code> - The operation to get the context for from the cache.</dd>
@@ -136,7 +135,7 @@ _Package:_ [mod.chiselsandbits.api.chiseling](index.md)
 :::tabs
 == clear
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span><wbr><span class="parameters">(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</span></div>
-<div class="block">Clears the current context.</div>
+Clears the current context.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>operation</code> - The operation to get the context for from the cache.</dd>

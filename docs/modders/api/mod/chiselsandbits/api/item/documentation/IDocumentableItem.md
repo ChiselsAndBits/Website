@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.item.documentation](index.md)
 
   
 
-<div class="block">Represents an item that is documented via the Chisels and Bits documentation export system.</div>
-  
+Represents an item that is documented via the Chisels and Bits documentation export system.  
 
 <dl class="notes"></dl>  
 
@@ -69,7 +68,7 @@ _Package:_ [mod.chiselsandbits.api.item.documentation](index.md)
 :::tabs
 == getDocumentableInstances
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>,<wbr>net.minecraft.world.item.ItemStack&gt;</span>&nbsp;<span class="element-name">getDocumentableInstances</span><wbr><span class="parameters">(net.minecraft.world.item.Item&nbsp;item)</span></div>
-<div class="block">Gives access to the variants of the item that are exportable.</div>
+Gives access to the variants of the item that are exportable.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>item</code> - The item instance in question.</dd>

@@ -10,12 +10,11 @@ _Package:_ [mod.chiselsandbits.api.change](index.md)
 
   
 
-<div class="block">The central change tracker manager which gives access to each players individual change tracker if applicable.
+The central change tracker manager which gives access to each players individual change tracker if applicable.
  This data is not synced.
  On the client generally this data is only available for the current player, all other players return an empty change tracker.
 
- All change trackers are reset upon server restart or datapack reload.</div>
-  
+ All change trackers are reset upon server restart or datapack reload.  
 
 <dl class="notes"></dl>  
 
@@ -84,7 +83,7 @@ _Package:_ [mod.chiselsandbits.api.change](index.md)
 == getInstance
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="modifiers">static</span>&nbsp;<span class="return-type">@NotNull <a href="IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Short circuit method to get the manager instance from the api.</div>
+Short circuit method to get the manager instance from the api.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The change tracker manager.</dd>
@@ -100,7 +99,7 @@ _Package:_ [mod.chiselsandbits.api.change](index.md)
 == getChangeTracker
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="IChangeTracker.html" title="interface in mod.chiselsandbits.api.change">IChangeTracker</a></span>&nbsp;<span class="element-name">getChangeTracker</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span></div>
-<div class="block">Gives access to the change tracker of the given player.</div>
+Gives access to the change tracker of the given player.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player in question.</dd>

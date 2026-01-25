@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.neighborhood](index.md)
 
   
 
-<div class="block">Represents a system which can build unique block neighborhoods.</div>
-  
+Represents a system which can build unique block neighborhoods.  
 
 <dl class="notes"></dl>  
 
@@ -80,8 +79,8 @@ _Package:_ [mod.chiselsandbits.api.neighborhood](index.md)
 == getInstance
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="modifiers">static</span>&nbsp;<span class="return-type">@NotNull <a href="IBlockNeighborhoodBuilder.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhoodBuilder</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Gives access to the current builder instance.
- Short circuit method for the central API call.</div>
+Gives access to the current builder instance.
+ Short circuit method for the central API call.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The current instance.</dd>
@@ -100,7 +99,7 @@ _Package:_ [mod.chiselsandbits.api.neighborhood](index.md)
  @Nullable <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;net.minecraft.core.Direction,<wbr><a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;&nbsp;neighborhoodBlockStateProvider,
  @Nullable
  @Nullable <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;net.minecraft.core.Direction,<wbr><a href="../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&gt;&nbsp;neighborhoodAreaAccessorProvider)</span></div>
-<div class="block">Builds a block neighborhood for the requested target.</div>
+Builds a block neighborhood for the requested target.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>neighborhoodBlockStateProvider</code> - The blockstate provider to pull the neighborhood data from.</dd>

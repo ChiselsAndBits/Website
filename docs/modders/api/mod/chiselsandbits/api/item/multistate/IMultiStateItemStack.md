@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.item.multistate](index.md)  
 # Interface IMultiStateItemStack  
 **All Extended Interfaces:**  
-[IAABBOwner](../aabb/IAABBOwner.md), [IAreaAccessor](../accessor/IAreaAccessor.md), [ISingleBlockAxisAlignedAreaAccessor](../accessor/ISingleBlockAxisAlignedAreaAccessor.md), [IStateAccessor](../accessor/IStateAccessor.md), [IMirrorAndRotateble](../mutator/IMirrorAndRotateble.md)  
+[IAABBOwner](../../aabb/IAABBOwner.md), [IAreaAccessor](../../multistate/accessor/IAreaAccessor.md), [ISingleBlockAxisAlignedAreaAccessor](../../multistate/accessor/ISingleBlockAxisAlignedAreaAccessor.md), [IStateAccessor](../../multistate/accessor/IStateAccessor.md), [IMirrorAndRotateble](../../multistate/mutator/IMirrorAndRotateble.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMultiStateItemStack</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends <a href="../../multistate/accessor/IAreaAccessor.html" title="interface 
 
   
 
-<div class="block">The itemstack sensitive version of the multistate item.</div>
-  
+The itemstack sensitive version of the multistate item.  
 
 <dl class="notes"></dl>  
 
@@ -102,7 +101,7 @@ extends <a href="../../multistate/accessor/IAreaAccessor.html" title="interface 
 :::tabs
 == toBlockStack
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">toBlockStack</span>()</div>
-<div class="block">Converts this multistate itemstack data to an actual use able itemstack.</div>
+Converts this multistate itemstack data to an actual use able itemstack.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The itemstack with the data of this multistate itemstack.</dd>
@@ -117,8 +116,8 @@ extends <a href="../../multistate/accessor/IAreaAccessor.html" title="interface 
 :::tabs
 == toPatternStack
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">toPatternStack</span>()</div>
-<div class="block">Converts this multistate itemstack data into a pattern that can be reused.
- By default converts this into a single use pattern.</div>
+Converts this multistate itemstack data into a pattern that can be reused.
+ By default converts this into a single use pattern.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The single use patter from this multi state itemstack.</dd>
@@ -133,7 +132,7 @@ extends <a href="../../multistate/accessor/IAreaAccessor.html" title="interface 
 :::tabs
 == writeDataTo
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">writeDataTo</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Writes the state data to the itemstack.</div>
+Writes the state data to the itemstack.
 <dl class="notes"></dl>
 :::
 
@@ -145,7 +144,7 @@ extends <a href="../../multistate/accessor/IAreaAccessor.html" title="interface 
 :::tabs
 == copy
 <div class="member-signature"><span class="return-type"><a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></span>&nbsp;<span class="element-name">copy</span>()</div>
-<div class="block">Copies the current stack.</div>
+Copies the current stack.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The stack copied.</dd>

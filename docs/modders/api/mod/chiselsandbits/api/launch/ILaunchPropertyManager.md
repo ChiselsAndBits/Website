@@ -10,10 +10,9 @@ _Package:_ [mod.chiselsandbits.api.launch](index.md)
 
   
 
-<div class="block">Defines a manager that handles properties related to how the game is launcher
+Defines a manager that handles properties related to how the game is launcher
  Important here is that these properties can effect launch and game behaviour and need to be
- the same as the properties of the server you are connecting to.</div>
-  
+ the same as the properties of the server you are connecting to.  
 
 <dl class="notes"></dl>  
 
@@ -81,7 +80,7 @@ _Package:_ [mod.chiselsandbits.api.launch](index.md)
 :::tabs
 == getInstance
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="ILaunchPropertyManager.html" title="interface in mod.chiselsandbits.api.launch">ILaunchPropertyManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">The current instance of the launch property manager.</div>
+The current instance of the launch property manager.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The current instance.</dd>
@@ -98,7 +97,7 @@ _Package:_ [mod.chiselsandbits.api.launch](index.md)
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">get</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;key,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;defaultValue)</span></div>
-<div class="block">Retrieves the value of the launch property with the given key.</div>
+Retrieves the value of the launch property with the given key.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>key</code> - The key to get the launch property of.</dd>

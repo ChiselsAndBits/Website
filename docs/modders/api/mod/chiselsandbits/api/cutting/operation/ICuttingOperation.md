@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.cutting.operation](index.md)  
 # Interface ICuttingOperation  
 **All Extended Interfaces:**  
-ICustomRegistryEntry, [IRenderableMode](../withmode/IRenderableMode.md), [IToolMode\<ICuttingOperationGroup\>](../withmode/IToolMode.md), [IWithColor](../util/IWithColor.md), [IWithDisplayName](../util/IWithDisplayName.md), [IWithIcon](../util/IWithIcon.md), [IWithIconAndColor](../util/IWithIconAndColor.md)  
+ICustomRegistryEntry, [IRenderableMode](../../item/withmode/IRenderableMode.md), [IToolMode\<ICuttingOperationGroup\>](../../item/withmode/IToolMode.md), [IWithColor](../../util/IWithColor.md), [IWithDisplayName](../../util/IWithDisplayName.md), [IWithIcon](../../util/IWithIcon.md), [IWithIconAndColor](../../util/IWithIconAndColor.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">ICuttingOperation</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends com.communi.suggestu.scena.core.registries.ICustomRegistryEntry, <a href
 
   
 
-<div class="block">A Cutting operation that can be performed in the Cutting table.</div>
-  
+A Cutting operation that can be performed in the Cutting table.  
 
 <dl class="notes"></dl>  
 
@@ -109,7 +108,7 @@ getRegistryName
 :::tabs
 == getDefaultMode
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a></span>&nbsp;<span class="element-name">getDefaultMode</span>()</div>
-<div class="block">The default Cutting operation.</div>
+The default Cutting operation.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The default operation.</dd>
@@ -124,7 +123,7 @@ getRegistryName
 :::tabs
 == getRegistry
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type">com.communi.suggestu.scena.core.registries.ICustomRegistry&lt;<a href="ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a>&gt;</span>&nbsp;<span class="element-name">getRegistry</span>()</div>
-<div class="block">The underlying registry that contains the different Cutting modes that can be performed.</div>
+The underlying registry that contains the different Cutting modes that can be performed.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The underlying forge registry.</dd>
@@ -139,12 +138,12 @@ getRegistryName
 :::tabs
 == apply
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="../../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&gt;</span>&nbsp;<span class="element-name">apply</span><wbr><span class="parameters">(<a href="../../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&nbsp;source)</span></div>
-<div class="block">Performs a Cutting on the snapshot.
+Performs a Cutting on the snapshot.
  The returned collection contains the individual pieces that result of this cut.
 
  In total a maximum 64 pieces can be returned.
 
- Note: The cutter generates a bundle if more than one unique piece is cut.</div>
+ Note: The cutter generates a bundle if more than one unique piece is cut.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>source</code> - The mutator to modify.</dd>

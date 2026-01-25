@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.multistate.accessor](index.md)  
 # Interface IAreaAccessorWithVoxelShape  
 **All Extended Interfaces:**  
-[IAABBOwner](../aabb/IAABBOwner.md), [IAreaAccessor](IAreaAccessor.md), [IStateAccessor](IStateAccessor.md)  
+[IAABBOwner](../../aabb/IAABBOwner.md), [IAreaAccessor](IAreaAccessor.md), [IStateAccessor](IStateAccessor.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IAreaAccessorWithVoxelShape</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends <a href="IAreaAccessor.html" title="interface in mod.chiselsandbits.api.
 
   
 
-<div class="block">A special <a href="IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor"><code>IAreaAccessor</code></a> that is capable of determining its own voxelshape.</div>
-  
+A special <a href="IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor"><code>IAreaAccessor</code></a> that is capable of determining its own voxelshape.  
 
 <dl class="notes"></dl>  
 
@@ -87,7 +86,7 @@ extends <a href="IAreaAccessor.html" title="interface in mod.chiselsandbits.api.
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.shapes.VoxelShape</span>&nbsp;<span class="element-name">provideShape</span><wbr><span class="parameters">(<a href="../../axissize/CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&nbsp;type,
  net.minecraft.core.BlockPos&nbsp;offset,
  boolean&nbsp;simplify)</span></div>
-<div class="block">Determines the voxelshape of the <a href="IAreaAccessorWithVoxelShape.html" title="interface in mod.chiselsandbits.api.multistate.accessor"><code>IAreaAccessorWithVoxelShape</code></a> at the given position.</div>
+Determines the voxelshape of the <a href="IAreaAccessorWithVoxelShape.html" title="interface in mod.chiselsandbits.api.multistate.accessor"><code>IAreaAccessorWithVoxelShape</code></a> at the given position.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>type</code> - The type of the voxel shape that is needed.</dd>

@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.aabb](index.md)
 
   
 
-<div class="block">Defines objects which have an axis-aligned bounding box.</div>
-  
+Defines objects which have an axis-aligned bounding box.  
 
 <dl class="notes"></dl>  
 
@@ -70,7 +69,7 @@ _Package:_ [mod.chiselsandbits.api.aabb](index.md)
 == getBoundingBox
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull net.minecraft.world.phys.AABB</span>&nbsp;<span class="element-name">getBoundingBox</span>()</div>
-<div class="block">Gives access to the bounding box of this object.</div>
+Gives access to the bounding box of this object.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The axis aligned bounding box.</dd>

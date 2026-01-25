@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.modification.operation](index.md)  
 # Interface IModificationOperation  
 **All Extended Interfaces:**  
-ICustomRegistryEntry, [IRenderableMode](../withmode/IRenderableMode.md), [IToolMode\<IModificationOperationGroup\>](../withmode/IToolMode.md), [IWithColor](../util/IWithColor.md), [IWithDisplayName](../util/IWithDisplayName.md), [IWithIcon](../util/IWithIcon.md), [IWithIconAndColor](../util/IWithIconAndColor.md)  
+ICustomRegistryEntry, [IRenderableMode](../../item/withmode/IRenderableMode.md), [IToolMode\<IModificationOperationGroup\>](../../item/withmode/IToolMode.md), [IWithColor](../../util/IWithColor.md), [IWithDisplayName](../../util/IWithDisplayName.md), [IWithIcon](../../util/IWithIcon.md), [IWithIconAndColor](../../util/IWithIconAndColor.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IModificationOperation</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends com.communi.suggestu.scena.core.registries.ICustomRegistryEntry, <a href
 
   
 
-<div class="block">A modification operation that can be performed in the modification table.</div>
-  
+A modification operation that can be performed in the modification table.  
 
 <dl class="notes"></dl>  
 
@@ -109,7 +108,7 @@ getRegistryName
 :::tabs
 == getDefaultMode
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a></span>&nbsp;<span class="element-name">getDefaultMode</span>()</div>
-<div class="block">The default modification operation.</div>
+The default modification operation.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The default operation.</dd>
@@ -124,7 +123,7 @@ getRegistryName
 :::tabs
 == getRegistry
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type">com.communi.suggestu.scena.core.registries.ICustomRegistry&lt;<a href="IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a>&gt;</span>&nbsp;<span class="element-name">getRegistry</span>()</div>
-<div class="block">The underlying registry that contains the different modification modes that can be performed.</div>
+The underlying registry that contains the different modification modes that can be performed.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The underlying forge registry.</dd>
@@ -139,7 +138,7 @@ getRegistryName
 :::tabs
 == apply
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">apply</span><wbr><span class="parameters">(<a href="../../multistate/mutator/IGenerallyModifiableAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IGenerallyModifiableAreaMutator</a>&nbsp;source)</span></div>
-<div class="block">Performs a modification on the snapshot.</div>
+Performs a modification on the snapshot.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>source</code> - The mutator to modify.</dd>

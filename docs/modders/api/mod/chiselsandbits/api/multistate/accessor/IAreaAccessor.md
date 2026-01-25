@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.multistate.accessor](index.md)  
 # Interface IAreaAccessor  
 **All Extended Interfaces:**  
-[IAABBOwner](../aabb/IAABBOwner.md), [IStateAccessor](IStateAccessor.md)  
+[IAABBOwner](../../aabb/IAABBOwner.md), [IStateAccessor](IStateAccessor.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IAreaAccessor</span><span class="extends-implements"><br/>  
@@ -14,9 +14,8 @@ extends <a href="IStateAccessor.html" title="interface in mod.chiselsandbits.api
 
   
 
-<div class="block">Gives access to all states in a given area.
- Might be larger than a single block.</div>
-  
+Gives access to all states in a given area.
+ Might be larger than a single block.  
 
 <dl class="notes"></dl>  
 
@@ -100,9 +99,9 @@ extends <a href="IStateAccessor.html" title="interface in mod.chiselsandbits.api
 :::tabs
 == createNewShapeIdentifier
 <div class="member-signature"><span class="return-type"><a href="identifier/IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a></span>&nbsp;<span class="element-name">createNewShapeIdentifier</span>()</div>
-<div class="block">Creates a new area shape identifier.
+Creates a new area shape identifier.
 
- Note: This method always returns a new instance.</div>
+ Note: This method always returns a new instance.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The new identifier.</dd>
@@ -117,7 +116,7 @@ extends <a href="IStateAccessor.html" title="interface in mod.chiselsandbits.api
 :::tabs
 == stream
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&gt;</span>&nbsp;<span class="element-name">stream</span>()</div>
-<div class="block">Gives access to a stream with the entry state info inside the accessors range.</div>
+Gives access to a stream with the entry state info inside the accessors range.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The stream with the inner states.</dd>
@@ -132,7 +131,7 @@ extends <a href="IStateAccessor.html" title="interface in mod.chiselsandbits.api
 :::tabs
 == isInside
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isInside</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;inAreaTarget)</span></div>
-<div class="block">Indicates if the given target is inside of the current accessor.</div>
+Indicates if the given target is inside of the current accessor.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inAreaTarget</code> - The area target to check.</dd>
@@ -150,7 +149,7 @@ extends <a href="IStateAccessor.html" title="interface in mod.chiselsandbits.api
 == isInside
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isInside</span><wbr><span class="parameters">(net.minecraft.core.BlockPos&nbsp;inAreaBlockPosOffset,
  net.minecraft.world.phys.Vec3&nbsp;inBlockTarget)</span></div>
-<div class="block">Indicates if the given target (with the given block position offset) is inside of the current accessor.</div>
+Indicates if the given target (with the given block position offset) is inside of the current accessor.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inAreaBlockPosOffset</code> - The offset of blocks in the current area.</dd>
@@ -168,7 +167,7 @@ extends <a href="IStateAccessor.html" title="interface in mod.chiselsandbits.api
 :::tabs
 == createSnapshot
 <div class="member-signature"><span class="return-type"><a href="../snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a></span>&nbsp;<span class="element-name">createSnapshot</span>()</div>
-<div class="block">Creates a snapshot of the current state.</div>
+Creates a snapshot of the current state.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The snapshot.</dd>
@@ -183,8 +182,8 @@ extends <a href="IStateAccessor.html" title="interface in mod.chiselsandbits.api
 :::tabs
 == streamWithPositionMutator
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&gt;</span>&nbsp;<span class="element-name">streamWithPositionMutator</span><wbr><span class="parameters">(<a href="sortable/IPositionMutator.html" title="interface in mod.chiselsandbits.api.multistate.accessor.sortable">IPositionMutator</a>&nbsp;positionMutator)</span></div>
-<div class="block">Gives access to a stream with the entry state info inside the accessors range.
- Allows for the entry state order to be mutated using a position mutator.</div>
+Gives access to a stream with the entry state info inside the accessors range.
+ Allows for the entry state order to be mutated using a position mutator.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>positionMutator</code> - The mutator for the positional order.</dd>
@@ -202,7 +201,7 @@ extends <a href="IStateAccessor.html" title="interface in mod.chiselsandbits.api
 == forEachWithPositionMutator
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">forEachWithPositionMutator</span><wbr><span class="parameters">(<a href="sortable/IPositionMutator.html" title="interface in mod.chiselsandbits.api.multistate.accessor.sortable">IPositionMutator</a>&nbsp;positionMutator,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&gt;&nbsp;consumer)</span></div>
-<div class="block">Runs a for each-loop over the states inside the accessor, with the ability to specify the loop order.</div>
+Runs a for each-loop over the states inside the accessor, with the ability to specify the loop order.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>positionMutator</code> - The position mutator to use.</dd>

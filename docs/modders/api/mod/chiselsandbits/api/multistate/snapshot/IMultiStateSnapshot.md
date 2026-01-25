@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.multistate.snapshot](index.md)  
 # Interface IMultiStateSnapshot  
 **All Extended Interfaces:**  
-Cloneable, [IAABBOwner](../aabb/IAABBOwner.md), [IAreaAccessor](../accessor/IAreaAccessor.md), [IStateAccessor](../accessor/IStateAccessor.md), [IAreaMutator](../mutator/IAreaMutator.md), [IGenerallyModifiableAreaMutator](../mutator/IGenerallyModifiableAreaMutator.md), [IMirrorAndRotateble](../mutator/IMirrorAndRotateble.md)  
+Cloneable, [IAABBOwner](../../aabb/IAABBOwner.md), [IAreaAccessor](../accessor/IAreaAccessor.md), [IStateAccessor](../accessor/IStateAccessor.md), [IAreaMutator](../mutator/IAreaMutator.md), [IGenerallyModifiableAreaMutator](../mutator/IGenerallyModifiableAreaMutator.md), [IMirrorAndRotateble](../mutator/IMirrorAndRotateble.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMultiStateSnapshot</span><span class="extends-implements"><br/>  
@@ -147,7 +147,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 :::tabs
 == getType
 <div class="member-signature"><span class="return-type"><a href="IMultiStateSnapshotType.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshotType</a></span>&nbsp;<span class="element-name">getType</span>()</div>
-<div class="block">Gets the type of the snapshot.</div>
+Gets the type of the snapshot.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The type of the snapshot.</dd>
@@ -162,7 +162,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 :::tabs
 == toItemStack
 <div class="member-signature"><span class="return-type"><a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></span>&nbsp;<span class="element-name">toItemStack</span>()</div>
-<div class="block">Converts the current snapshot to a variant which is itemstack capable.</div>
+Converts the current snapshot to a variant which is itemstack capable.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The multistate itemstack which is the itemstack nbt representation of the current snapshot.</dd>
@@ -177,7 +177,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 :::tabs
 == getStatics
 <div class="member-signature"><span class="return-type"><a href="../statistics/IMultiStateObjectStatistics.html" title="interface in mod.chiselsandbits.api.multistate.statistics">IMultiStateObjectStatistics</a></span>&nbsp;<span class="element-name">getStatics</span>()</div>
-<div class="block">Returns the statistics of the current snapshot.</div>
+Returns the statistics of the current snapshot.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The statistics</dd>
@@ -192,7 +192,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 :::tabs
 == clone
 <div class="member-signature"><span class="return-type"><a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a></span>&nbsp;<span class="element-name">clone</span>()</div>
-<div class="block">Creates a clone of the snapshot.</div>
+Creates a clone of the snapshot.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The clone.</dd>
@@ -207,7 +207,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 :::tabs
 == limitedToProgression
 <div class="member-signature"><span class="return-type"><a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a></span>&nbsp;<span class="element-name">limitedToProgression</span><wbr><span class="parameters">(float&nbsp;progress)</span></div>
-<div class="block">Creates a new snapshot which limits the currents snapshots contents to the given progression.</div>
+Creates a new snapshot which limits the currents snapshots contents to the given progression.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>progress</code> - The current progress in procent</dd>

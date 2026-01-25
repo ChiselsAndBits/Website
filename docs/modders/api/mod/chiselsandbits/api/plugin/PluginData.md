@@ -4,7 +4,7 @@ aside: false
 sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.plugin](index.md)  
-# Record PluginData\<T\>  
+# Record Class PluginData\<T\>  
 ---
 <div class="type-signature"><span class="modifiers">public record </span><span class="element-name type-name-label">PluginData&lt;T&gt;</span>(<a href="PluginData.html" title="type parameter in PluginData">T</a>&nbsp;plugin)<br/>  
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html" title="class or interface in java.lang" class="external-link">Record</a></span></div>  
@@ -95,7 +95,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == PluginData
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">PluginData</span><wbr><span class="parameters">(<a href="PluginData.html" title="type parameter in PluginData">T</a>&nbsp;plugin)</span></div>
-<div class="block">Creates an instance of a <code>PluginData</code> record class.</div>
+Creates an instance of a <code>PluginData</code> record class.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>plugin</code> - the value for the <code>plugin</code> record component</dd>
@@ -117,7 +117,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == toString
 <div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">toString</span>()</div>
-<div class="block">Returns a string representation of this record class. The representation contains the name of the class, followed by the name and value of each of the record components.</div>
+Returns a string representation of this record class. The representation contains the name of the class, followed by the name and value of each of the record components.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html#toString()" title="class or interface in java.lang" class="external-link">toString</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html" title="class or interface in java.lang" class="external-link">Record</a></code></dd>
@@ -134,7 +134,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == hashCode
 <div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">hashCode</span>()</div>
-<div class="block">Returns a hash code value for this object. The value is derived from the hash code of each of the record components.</div>
+Returns a hash code value for this object. The value is derived from the hash code of each of the record components.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html" title="class or interface in java.lang" class="external-link">Record</a></code></dd>
@@ -151,7 +151,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == equals
 <div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">equals</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</span></div>
-<div class="block">Indicates whether some other object is "equal to" this one. The objects are equal if the other object is of the same class and if all the record components are equal. All components in this record class are compared with <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Objects.html#equals(java.lang.Object,java.lang.Object)" title="class or interface in java.util" class="external-link"><code>Objects::equals(Object,Object)</code></a>.</div>
+Indicates whether some other object is "equal to" this one. The objects are equal if the other object is of the same class and if all the record components are equal. All components in this record class are compared with <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Objects.html#equals(java.lang.Object,java.lang.Object)" title="class or interface in java.util" class="external-link"><code>Objects::equals(Object,Object)</code></a>.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html" title="class or interface in java.lang" class="external-link">Record</a></code></dd>
@@ -170,7 +170,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == plugin
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="PluginData.html" title="type parameter in PluginData">T</a></span>&nbsp;<span class="element-name">plugin</span>()</div>
-<div class="block">Returns the value of the <code>plugin</code> record component.</div>
+Returns the value of the <code>plugin</code> record component.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>the value of the <code>plugin</code> record component</dd>

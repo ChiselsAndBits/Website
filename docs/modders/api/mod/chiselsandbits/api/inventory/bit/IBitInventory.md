@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 
   
 
-<div class="block">Represents an inventory in which bits are contained.</div>
-  
+Represents an inventory in which bits are contained.  
 
 <dl class="notes"></dl>  
 
@@ -119,8 +118,8 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 :::tabs
 == canExtractOne
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canExtractOne</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Checks if it is possible to extract exactly one bit with the given block information from
- the current inventory.</div>
+Checks if it is possible to extract exactly one bit with the given block information from
+ the current inventory.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -138,8 +137,8 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 == canExtract
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">canExtract</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  int&nbsp;count)</span></div>
-<div class="block">Checks if it is possible to extract a given amount of bits with the given block information from
- the current inventory.</div>
+Checks if it is possible to extract a given amount of bits with the given block information from
+ the current inventory.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -157,8 +156,8 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 :::tabs
 == getMaxExtractAmount
 <div class="member-signature"><span class="return-type">int</span>&nbsp;<span class="element-name">getMaxExtractAmount</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Returns the maximal amount of bits with a given block information which can be extracted
- of a given blockstate.</div>
+Returns the maximal amount of bits with a given block information which can be extracted
+ of a given blockstate.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information in question.</dd>
@@ -176,8 +175,8 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 == extractOne
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">extractOne</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span>
                  throws <span class="exceptions"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/IllegalArgumentException.html" title="class or interface in java.lang" class="external-link">IllegalArgumentException</a></span></div>
-<div class="block">Extracts exactly one bit with the given block information from
- the current inventory.</div>
+Extracts exactly one bit with the given block information from
+ the current inventory.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -196,8 +195,8 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">extract</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  int&nbsp;count)</span>
       throws <span class="exceptions"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/IllegalArgumentException.html" title="class or interface in java.lang" class="external-link">IllegalArgumentException</a></span></div>
-<div class="block">Extracts a given amount of bits with the given block information from
- the current inventory.</div>
+Extracts a given amount of bits with the given block information from
+ the current inventory.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -215,8 +214,8 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 :::tabs
 == canInsertOne
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canInsertOne</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Checks if it is possible to insert exactly one bit with the given block information from
- the current inventory.</div>
+Checks if it is possible to insert exactly one bit with the given block information from
+ the current inventory.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -234,8 +233,8 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 == canInsert
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">canInsert</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  int&nbsp;count)</span></div>
-<div class="block">Checks if it is possible to insert a given amount of bits with the given block information from
- the current inventory.</div>
+Checks if it is possible to insert a given amount of bits with the given block information from
+ the current inventory.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -253,8 +252,8 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 :::tabs
 == getMaxInsertAmount
 <div class="member-signature"><span class="return-type">int</span>&nbsp;<span class="element-name">getMaxInsertAmount</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Returns the maximal amount of bits with a given block information which can be inserted
- of a given blockstate.</div>
+Returns the maximal amount of bits with a given block information which can be inserted
+ of a given blockstate.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The blockstate in question.</dd>
@@ -272,8 +271,8 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 == insertOne
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">insertOne</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span>
                 throws <span class="exceptions"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/IllegalArgumentException.html" title="class or interface in java.lang" class="external-link">IllegalArgumentException</a></span></div>
-<div class="block">Inserts exactly one bit with the given block information from
- the current inventory.</div>
+Inserts exactly one bit with the given block information from
+ the current inventory.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -292,8 +291,8 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">insert</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  int&nbsp;count)</span>
      throws <span class="exceptions"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/IllegalArgumentException.html" title="class or interface in java.lang" class="external-link">IllegalArgumentException</a></span></div>
-<div class="block">Inserts a given amount of bits with the given block information from
- the current inventory.</div>
+Inserts a given amount of bits with the given block information from
+ the current inventory.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -312,8 +311,8 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 == insertOrDiscard
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">insertOrDiscard</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  int&nbsp;count)</span></div>
-<div class="block">Inserts a given amount of bits with the given block information from
- the current inventory, discards bits that don't fit.</div>
+Inserts a given amount of bits with the given block information from
+ the current inventory, discards bits that don't fit.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -329,7 +328,7 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 :::tabs
 == isEmpty
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isEmpty</span>()</div>
-<div class="block">Indicates if this inventory is empty or not.</div>
+Indicates if this inventory is empty or not.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> when empty.</dd>
@@ -344,8 +343,8 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 :::tabs
 == insert
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">insert</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Tries to insert a given itemstack with a bit item into the inventory.
- Draining the itemstack completely if possible.</div>
+Tries to insert a given itemstack with a bit item into the inventory.
+ Draining the itemstack completely if possible.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to insert.</dd>
@@ -362,7 +361,7 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 :::tabs
 == getContainedStates
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>,<wbr><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</span>&nbsp;<span class="element-name">getContainedStates</span>()</div>
-<div class="block">Returns the summed contained states of all bits in the inventory.</div>
+Returns the summed contained states of all bits in the inventory.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The contained state count of all bits in the inventory.</dd>
@@ -377,7 +376,7 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 :::tabs
 == contains
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">contains</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Indicates whether the inventory contains a bit with this block.</div>
+Indicates whether the inventory contains a bit with this block.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block to check for.</dd>

@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
   
 
-<div class="block">An object with a color associated with it.</div>
-  
+An object with a color associated with it.  
 
 <dl class="notes"></dl>  
 
@@ -81,7 +80,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 == getColorVector
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getColorVector</span>()</div>
-<div class="block">The color used to render.</div>
+The color used to render.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The color in a 3d double vector as RGB.</dd>
@@ -96,8 +95,8 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 :::tabs
 == getAlphaChannel
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">getAlphaChannel</span>()</div>
-<div class="block">The alpha channel intensity to render with.
- By default, this is 1.0.</div>
+The alpha channel intensity to render with.
+ By default, this is 1.0.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The alpha channel intensity.</dd>

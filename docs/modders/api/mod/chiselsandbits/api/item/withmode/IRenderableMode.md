@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.item.withmode](index.md)  
 # Interface IRenderableMode  
 **All Extended Interfaces:**  
-[IWithColor](../util/IWithColor.md), [IWithDisplayName](../util/IWithDisplayName.md), [IWithIcon](../util/IWithIcon.md), [IWithIconAndColor](../util/IWithIconAndColor.md)  
+[IWithColor](../../util/IWithColor.md), [IWithDisplayName](../../util/IWithDisplayName.md), [IWithIcon](../../util/IWithIcon.md), [IWithIconAndColor](../../util/IWithIconAndColor.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IRenderableMode</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends <a href="../../util/IWithDisplayName.html" title="interface in mod.chise
 
   
 
-<div class="block">Represents a tool mode which can be rendered.</div>
-  
+Represents a tool mode which can be rendered.  
 
 <dl class="notes"></dl>  
 
@@ -100,7 +99,7 @@ extends <a href="../../util/IWithDisplayName.html" title="interface in mod.chise
 :::tabs
 == isActive
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isActive</span>()</div>
-<div class="block">Indicates if the mode is currently active and as such should be rendered or not.</div>
+Indicates if the mode is currently active and as such should be rendered or not.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True for active modes, false for not.</dd>
@@ -115,7 +114,7 @@ extends <a href="../../util/IWithDisplayName.html" title="interface in mod.chise
 :::tabs
 == shouldRenderName
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldRenderName</span>()</div>
-<div class="block">Indicates if the name of the mode should be rendered.</div>
+Indicates if the name of the mode should be rendered.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> when the name should be rendered.</dd>
@@ -130,7 +129,7 @@ extends <a href="../../util/IWithDisplayName.html" title="interface in mod.chise
 :::tabs
 == shouldRenderDisplayNameInMenu
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldRenderDisplayNameInMenu</span>()</div>
-<div class="block">Indicates if this mode should render his name in the menu.</div>
+Indicates if this mode should render his name in the menu.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> when then name should be rendered in the menu.</dd>
@@ -147,7 +146,7 @@ extends <a href="../../util/IWithDisplayName.html" title="interface in mod.chise
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="modifiers">default</span>&nbsp;<span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getColorVector</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../util/IWithColor.html#getColorVector()">IWithColor</a></code></span></div>
-<div class="block">The color used to render.</div>
+The color used to render.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../util/IWithColor.html#getColorVector()">getColorVector</a></code>&nbsp;in interface&nbsp;<code><a href="../../util/IWithColor.html" title="interface in mod.chiselsandbits.api.util">IWithColor</a></code></dd>

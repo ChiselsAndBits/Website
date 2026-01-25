@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.multistate.mutator.batched](index.md)  
 # Interface IBatchedAreaMutator  
 **All Extended Interfaces:**  
-[IAABBOwner](../aabb/IAABBOwner.md), [IAreaAccessor](../accessor/IAreaAccessor.md), [IStateAccessor](../accessor/IStateAccessor.md), [IAreaMutator](../mutator/IAreaMutator.md), [IWithBatchableMutationSupport](../util/IWithBatchableMutationSupport.md)  
+[IAABBOwner](../../../aabb/IAABBOwner.md), [IAreaAccessor](../../accessor/IAreaAccessor.md), [IStateAccessor](../../accessor/IStateAccessor.md), [IAreaMutator](../IAreaMutator.md), [IWithBatchableMutationSupport](../../../util/IWithBatchableMutationSupport.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IBatchedAreaMutator</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends <a href="../IAreaMutator.html" title="interface in mod.chiselsandbits.ap
 
   
 
-<div class="block">A mutator which supports making mutations in batches.</div>
-  
+A mutator which supports making mutations in batches.  
 
 <dl class="notes"></dl>  
 
@@ -93,8 +92,8 @@ extends <a href="../IAreaMutator.html" title="interface in mod.chiselsandbits.ap
 :::tabs
 == batch
 <div class="member-signature"><span class="return-type"><a href="../../../util/IBatchMutation.html" title="interface in mod.chiselsandbits.api.util">IBatchMutation</a></span>&nbsp;<span class="element-name">batch</span><wbr><span class="parameters">(<a href="../../../change/IChangeTracker.html" title="interface in mod.chiselsandbits.api.change">IChangeTracker</a>&nbsp;changeTracker)</span></div>
-<div class="block">Triggers a batch mutation start for block placement.
- Enables tracking of the changes.</div>
+Triggers a batch mutation start for block placement.
+ Enables tracking of the changes.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>changeTracker</code> - The change tracker to apply the changes to.</dd>

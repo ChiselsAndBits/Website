@@ -4,7 +4,7 @@ aside: false
 sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.item.click](index.md)  
-# Enum ProcessingResult  
+# Enum Class ProcessingResult  
 **Enclosing Class:**  
 [ClickProcessingState](ClickProcessingState.md)  
 
@@ -14,8 +14,7 @@ _Package:_ [mod.chiselsandbits.api.item.click](index.md)
 
   
 
-<div class="block">The processing result of the click interaction.</div>
-  
+The processing result of the click interaction.  
 
 <dl class="notes"></dl>  
 
@@ -101,7 +100,7 @@ _Package:_ [mod.chiselsandbits.api.item.click](index.md)
 :::tabs
 == DENY
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.ProcessingResult.html" title="enum class in mod.chiselsandbits.api.item.click">ClickProcessingState.ProcessingResult</a></span>&nbsp;<span class="element-name">DENY</span></div>
-<div class="block">Deny the further processing of the interaction.</div>
+Deny the further processing of the interaction.
 <dl class="notes"></dl>
 :::
 
@@ -113,8 +112,8 @@ _Package:_ [mod.chiselsandbits.api.item.click](index.md)
 :::tabs
 == DEFAULT
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.ProcessingResult.html" title="enum class in mod.chiselsandbits.api.item.click">ClickProcessingState.ProcessingResult</a></span>&nbsp;<span class="element-name">DEFAULT</span></div>
-<div class="block">Continue the further processing of the interaction.
- This state did not consume the interaction.</div>
+Continue the further processing of the interaction.
+ This state did not consume the interaction.
 <dl class="notes"></dl>
 :::
 
@@ -126,8 +125,8 @@ _Package:_ [mod.chiselsandbits.api.item.click](index.md)
 :::tabs
 == ALLOW
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.ProcessingResult.html" title="enum class in mod.chiselsandbits.api.item.click">ClickProcessingState.ProcessingResult</a></span>&nbsp;<span class="element-name">ALLOW</span></div>
-<div class="block">Continue the further processing of the interaction.
- This state consumed the interaction.</div>
+Continue the further processing of the interaction.
+ This state consumed the interaction.
 <dl class="notes"></dl>
 :::
 
@@ -152,8 +151,8 @@ _Package:_ [mod.chiselsandbits.api.item.click](index.md)
 :::tabs
 == values
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.ProcessingResult.html" title="enum class in mod.chiselsandbits.api.item.click">ClickProcessingState.ProcessingResult</a>[]</span>&nbsp;<span class="element-name">values</span>()</div>
-<div class="block">Returns an array containing the constants of this enum class, in
-the order they are declared.</div>
+Returns an array containing the constants of this enum class, in
+the order they are declared.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>an array containing the constants of this enum class, in the order they are declared</dd>
@@ -168,10 +167,10 @@ the order they are declared.</div>
 :::tabs
 == valueOf
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.ProcessingResult.html" title="enum class in mod.chiselsandbits.api.item.click">ClickProcessingState.ProcessingResult</a></span>&nbsp;<span class="element-name">valueOf</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-<div class="block">Returns the enum constant of this class with the specified name.
+Returns the enum constant of this class with the specified name.
 The string must match <i>exactly</i> an identifier used to declare an
 enum constant in this class.  (Extraneous whitespace characters are 
-not permitted.)</div>
+not permitted.)
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>name</code> - the name of the enum constant to be returned.</dd>

@@ -19,9 +19,8 @@ implements <a href="IChiselsAndBitsWidget.html" title="interface in mod.chiselsa
 
   
 
-<div class="block">All chisels and bits widgets inherit from this class.
- Most notably provides init support, invoked when the window itself has its init method called.</div>
-  
+All chisels and bits widgets inherit from this class.
+ Most notably provides init support, invoked when the window itself has its init method called.  
 
 <dl class="notes"></dl>  
 
@@ -170,7 +169,7 @@ getTabOrderGroup
  int&nbsp;width,
  int&nbsp;height,
  net.minecraft.network.chat.Component&nbsp;narration)</span></div>
-<div class="block">Creates a new widget.</div>
+Creates a new widget.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>x</code> - The x position.</dd>
@@ -197,7 +196,7 @@ getTabOrderGroup
 == getMinecraft
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="modifiers">public</span>&nbsp;<span class="return-type">@NotNull net.minecraft.client.Minecraft</span>&nbsp;<span class="element-name">getMinecraft</span>()</div>
-<div class="block">Gives access to the current instance of minecraft.</div>
+Gives access to the current instance of minecraft.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The current instance of minecraft.</dd>
@@ -213,7 +212,7 @@ getTabOrderGroup
 == getFont
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="modifiers">public</span>&nbsp;<span class="return-type">@NotNull net.minecraft.client.gui.Font</span>&nbsp;<span class="element-name">getFont</span>()</div>
-<div class="block">The font used in this widget.</div>
+The font used in this widget.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The font used to render text in this widget.</dd>
@@ -229,7 +228,7 @@ getTabOrderGroup
 == init
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">init</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="IChiselsAndBitsWidget.html#init()">IChiselsAndBitsWidget</a></code></span></div>
-<div class="block">Invoked by the screen, when said screen is initialized.</div>
+Invoked by the screen, when said screen is initialized.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="IChiselsAndBitsWidget.html#init()">init</a></code>&nbsp;in interface&nbsp;<code><a href="IChiselsAndBitsWidget.html" title="interface in mod.chiselsandbits.api.client.screen.widget">IChiselsAndBitsWidget</a></code></dd>
@@ -245,7 +244,7 @@ getTabOrderGroup
 == removed
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">removed</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="IChiselsAndBitsWidget.html#removed()">IChiselsAndBitsWidget</a></code></span></div>
-<div class="block">Invoked by the screen, when it is removed from the display.</div>
+Invoked by the screen, when it is removed from the display.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="IChiselsAndBitsWidget.html#removed()">removed</a></code>&nbsp;in interface&nbsp;<code><a href="IChiselsAndBitsWidget.html" title="interface in mod.chiselsandbits.api.client.screen.widget">IChiselsAndBitsWidget</a></code></dd>

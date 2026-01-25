@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.multistate.mutator](index.md)  
 # Interface IGenerallyModifiableAreaMutator  
 **All Extended Interfaces:**  
-[IAABBOwner](../aabb/IAABBOwner.md), [IAreaAccessor](../accessor/IAreaAccessor.md), [IStateAccessor](../accessor/IStateAccessor.md), [IAreaMutator](IAreaMutator.md), [IMirrorAndRotateble](IMirrorAndRotateble.md)  
+[IAABBOwner](../../aabb/IAABBOwner.md), [IAreaAccessor](../accessor/IAreaAccessor.md), [IStateAccessor](../accessor/IStateAccessor.md), [IAreaMutator](IAreaMutator.md), [IMirrorAndRotateble](IMirrorAndRotateble.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IGenerallyModifiableAreaMutator</span><span class="extends-implements"><br/>  

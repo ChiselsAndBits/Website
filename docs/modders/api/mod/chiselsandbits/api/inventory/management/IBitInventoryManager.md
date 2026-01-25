@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.inventory.management](index.md)
 
   
 
-<div class="block">Manager which deals with bit inventories.</div>
-  
+Manager which deals with bit inventories.  
 
 <dl class="notes"></dl>  
 
@@ -88,7 +87,7 @@ _Package:_ [mod.chiselsandbits.api.inventory.management](index.md)
 :::tabs
 == getInstance
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.management">IBitInventoryManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Gives access to the bit inventory manager.</div>
+Gives access to the bit inventory manager.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The bit inventory manager.</dd>
@@ -103,10 +102,10 @@ _Package:_ [mod.chiselsandbits.api.inventory.management](index.md)
 :::tabs
 == create
 <div class="member-signature"><span class="return-type"><a href="../bit/IBitInventory.html" title="interface in mod.chiselsandbits.api.inventory.bit">IBitInventory</a></span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</span></div>
-<div class="block">Creates a new bit inventory wrapping the inventory of the player.
+Creates a new bit inventory wrapping the inventory of the player.
 
  This player inventory is aware of items which themselves can act
- as a bit inventory.</div>
+ as a bit inventory.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player inventory.</dd>
@@ -123,14 +122,14 @@ _Package:_ [mod.chiselsandbits.api.inventory.management](index.md)
 :::tabs
 == create
 <div class="member-signature"><span class="return-type"><a href="../bit/IBitInventory.html" title="interface in mod.chiselsandbits.api.inventory.bit">IBitInventory</a></span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;target)</span></div>
-<div class="block">Creates a new bit inventory wrapping the given <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link"><code>Object</code></a>.
+Creates a new bit inventory wrapping the given <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link"><code>Object</code></a>.
 
  This inventory is aware of items which themselves can act
  as a bit inventory.
 
  This endpoint is platform specific and might or might not be able to convert the object given.
  Importantly on forge this endpoint is able to accept IItemHandlers, while on Fabric it will only support
- IInventory.</div>
+ IInventory.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>target</code> - The <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link"><code>Object</code></a>.</dd>
@@ -147,10 +146,10 @@ _Package:_ [mod.chiselsandbits.api.inventory.management](index.md)
 :::tabs
 == create
 <div class="member-signature"><span class="return-type"><a href="../bit/IBitInventory.html" title="interface in mod.chiselsandbits.api.inventory.bit">IBitInventory</a></span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(net.minecraft.world.Container&nbsp;inventory)</span></div>
-<div class="block">Creates a new bit inventory wrapping the given inventory.
+Creates a new bit inventory wrapping the given inventory.
 
  This inventory is aware of items which themselves can act
- as a bit inventory.</div>
+ as a bit inventory.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inventory</code> - The inventory.</dd>
@@ -167,7 +166,7 @@ _Package:_ [mod.chiselsandbits.api.inventory.management](index.md)
 :::tabs
 == create
 <div class="member-signature"><span class="return-type"><a href="../bit/IBitInventoryItemStack.html" title="interface in mod.chiselsandbits.api.inventory.bit">IBitInventoryItemStack</a></span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Creates a new bit inventory wrapping the given itemstack.</div>
+Creates a new bit inventory wrapping the given itemstack.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The itemstack to wrap.</dd>

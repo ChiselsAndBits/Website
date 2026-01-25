@@ -16,8 +16,7 @@ java.lang.Object
 
   
 
-<div class="block">Thrown when the state entry info is to be to be processed.</div>
-  
+Thrown when the state entry info is to be to be processed.  
 
 <dl class="notes"><br/>  
 <dt>See Also:</dt><br/>  

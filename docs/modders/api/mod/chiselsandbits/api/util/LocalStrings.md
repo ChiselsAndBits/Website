@@ -4,7 +4,7 @@ aside: false
 sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.util](index.md)  
-# Enum LocalStrings  
+# Enum Class LocalStrings  
 ---
 <div class="type-signature"><span class="modifiers">public enum </span><span class="element-name type-name-label">LocalStrings</span><br/>  
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a>&lt;<a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>&gt;</span></div>  
@@ -2647,8 +2647,8 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 :::tabs
 == values
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>[]</span>&nbsp;<span class="element-name">values</span>()</div>
-<div class="block">Returns an array containing the constants of this enum class, in
-the order they are declared.</div>
+Returns an array containing the constants of this enum class, in
+the order they are declared.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>an array containing the constants of this enum class, in the order they are declared</dd>
@@ -2663,10 +2663,10 @@ the order they are declared.</div>
 :::tabs
 == valueOf
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">valueOf</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-<div class="block">Returns the enum constant of this class with the specified name.
+Returns the enum constant of this class with the specified name.
 The string must match <i>exactly</i> an identifier used to declare an
 enum constant in this class.  (Extraneous whitespace characters are 
-not permitted.)</div>
+not permitted.)
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>name</code> - the name of the enum constant to be returned.</dd>

@@ -10,9 +10,8 @@ _Package:_ [mod.chiselsandbits.api.item.withhighlight](index.md)
 
   
 
-<div class="block">Indicates an item that is used to draw custom highlights,
- using custom logic instead of the default one.</div>
-  
+Indicates an item that is used to draw custom highlights,
+ using custom logic instead of the default one.  
 
 <dl class="notes"></dl>  
 
@@ -74,10 +73,10 @@ _Package:_ [mod.chiselsandbits.api.item.withhighlight](index.md)
 == shouldDrawDefaultHighlight
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldDrawDefaultHighlight</span><wbr><span class="parameters">(@NotNull
  @NotNull net.minecraft.world.entity.player.Player&nbsp;playerEntity)</span></div>
-<div class="block">Indicates if the given player is allowed to use the
+Indicates if the given player is allowed to use the
  default render method.
 
- If this is false. The default highlight rendering is cancelled.</div>
+ If this is false. The default highlight rendering is cancelled.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player entity in question.</dd>
@@ -99,7 +98,7 @@ _Package:_ [mod.chiselsandbits.api.item.withhighlight](index.md)
  net.minecraft.client.renderer.MultiBufferSource.BufferSource&nbsp;bufferSource,
  net.minecraft.client.renderer.state.LevelRenderState&nbsp;levelRenderState,
  float&nbsp;partialTicks)</span></div>
-<div class="block">Renders the highlight for the current item.</div>
+Renders the highlight for the current item.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player entity in question.</dd>

@@ -10,9 +10,8 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 
   
 
-<div class="block">Gives access to the current server's configuration. Elements in this configuration are relevant for both the server and client side of C&amp;B. Since this options
- influence gameplay mechanics they need to be kept in sync.</div>
-  
+Gives access to the current server's configuration. Elements in this configuration are relevant for both the server and client side of C&amp;B. Since this options
+ influence gameplay mechanics they need to be kept in sync.  
 
 <dl class="notes"></dl>  
 
@@ -101,8 +100,8 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getInstance
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IServerConfiguration.html" title="interface in mod.chiselsandbits.api.config">IServerConfiguration</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Gives access to the current server's configuration. Elements in this configuration are relevant for both the server and client side of C&amp;B. Since this options
- influence gameplay mechanics they need to be kept in sync.</div>
+Gives access to the current server's configuration. Elements in this configuration are relevant for both the server and client side of C&amp;B. Since this options
+ influence gameplay mechanics they need to be kept in sync.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The server configuration.</dd>
@@ -117,7 +116,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getBlackListRandomTickingBlocks
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getBlackListRandomTickingBlocks</span>()</div>
-<div class="block">Determines if random ticking blocks like grass or others should be eligible for chiselability.</div>
+Determines if random ticking blocks like grass or others should be eligible for chiselability.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A supplier that determines if random ticking blocks should be chiselable.</dd>
@@ -132,7 +131,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getCompatabilityMode
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getCompatabilityMode</span>()</div>
-<div class="block">Determines if the eligibility compatibility mode is active or not.</div>
+Determines if the eligibility compatibility mode is active or not.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A supplier that determines if the compatibility mode is active or not.</dd>
@@ -147,7 +146,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getBagStackSize
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</span>&nbsp;<span class="element-name">getBagStackSize</span>()</div>
-<div class="block">The size of the bit stack in a bit bag.</div>
+The size of the bit stack in a bit bag.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A supplier that determines the size of the bit stack.</dd>
@@ -162,7 +161,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getBitSize
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="../multistate/StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a>&gt;</span>&nbsp;<span class="element-name">getBitSize</span>()</div>
-<div class="block">The size of a bit in the world.</div>
+The size of a bit in the world.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A supplier that determines the size of a bit in the world.</dd>
@@ -177,7 +176,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getChangeTrackerSize
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</span>&nbsp;<span class="element-name">getChangeTrackerSize</span>()</div>
-<div class="block">Ths size of the change tracker, aka how much the user can undo.</div>
+Ths size of the change tracker, aka how much the user can undo.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A supplier that determines the size of the change tracker.</dd>
@@ -192,7 +191,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getDeleteExcessBits
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getDeleteExcessBits</span>()</div>
-<div class="block">Indicates if Chisels and Bits will delete excess bits when a block is broken.</div>
+Indicates if Chisels and Bits will delete excess bits when a block is broken.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A supplier that determines if excess bits should be deleted.#</dd>
@@ -207,7 +206,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getLightFactorMultiplier
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Double.html" title="class or interface in java.lang" class="external-link">Double</a>&gt;</span>&nbsp;<span class="element-name">getLightFactorMultiplier</span>()</div>
-<div class="block">Provides access to the factor with which the bit light strength is multiplied.</div>
+Provides access to the factor with which the bit light strength is multiplied.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A supplier that determines the factor with which the bit light strength is multiplied.</dd>
@@ -222,7 +221,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getRequireChiselInOffHandForBitBreaking
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getRequireChiselInOffHandForBitBreaking</span>()</div>
-<div class="block">Indicates if the player should be required to have a chisel in their offhand to break bits with a bit block.</div>
+Indicates if the player should be required to have a chisel in their offhand to break bits with a bit block.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A supplier that determines if the player should be required to have a chisel in their offhand to break bits.</dd>

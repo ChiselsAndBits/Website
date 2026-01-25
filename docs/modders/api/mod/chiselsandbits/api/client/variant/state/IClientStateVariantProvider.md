@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.client.variant.state](index.md)
 
   
 
-<div class="block">A state variant provider for client side interactions.</div>
-  
+A state variant provider for client side interactions.  
 
 <dl class="notes"></dl>  
 
@@ -72,7 +71,7 @@ _Package:_ [mod.chiselsandbits.api.client.variant.state](index.md)
 :::tabs
 == getBlockModelData
 <div class="member-signature"><span class="return-type">com.communi.suggestu.scena.core.client.models.data.IBlockModelData</span>&nbsp;<span class="element-name">getBlockModelData</span><wbr><span class="parameters">(<a href="../../../variant/state/IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&nbsp;variant)</span></div>
-<div class="block">Retrieves the block model data for the given state variant.</div>
+Retrieves the block model data for the given state variant.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>variant</code> - The state variant.</dd>
@@ -92,7 +91,7 @@ _Package:_ [mod.chiselsandbits.api.client.variant.state](index.md)
  net.minecraft.world.item.Item.TooltipContext&nbsp;context,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;net.minecraft.network.chat.Component&gt;&nbsp;tooltip,
  net.minecraft.world.item.TooltipFlag&nbsp;flags)</span></div>
-<div class="block">Invoked to add tooltip lines to the tooltip of an item containing the given variant.</div>
+Invoked to add tooltip lines to the tooltip of an item containing the given variant.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>variant</code> - The variant contained in the stack in question.</dd>

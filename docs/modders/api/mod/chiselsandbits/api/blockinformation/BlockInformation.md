@@ -4,7 +4,7 @@ aside: false
 sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.blockinformation](index.md)  
-# Record BlockInformation  
+# Record Class BlockInformation  
 **All Implemented Interfaces:**  
 [Registry\<BlockInformation\>](../serialization/Serializable.Registry.md), [ISnapshotable\<BlockInformation\>](../util/ISnapshotable.md), Comparable\<BlockInformation\>  
 
@@ -218,7 +218,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
 == BlockInformation
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">BlockInformation</span><wbr><span class="parameters">(net.minecraft.world.level.block.state.BlockState&nbsp;blockState,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="../variant/state/IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;&nbsp;variant)</span></div>
-<div class="block">Creates an instance of a <code>BlockInformation</code> record class.</div>
+Creates an instance of a <code>BlockInformation</code> record class.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockState</code> - the value for the <code>blockState</code> record component</dd>
@@ -293,7 +293,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
 == codec
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">codec</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../serialization/Serializable.html#codec()">Serializable</a></code></span></div>
-<div class="block">Returns The codec used for direct serialization..</div>
+Returns The codec used for direct serialization..
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../serialization/RawSerializable.html#codec()">codec</a></code>&nbsp;in interface&nbsp;<code><a href="../serialization/RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
@@ -313,7 +313,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
 == mapCodec
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">com.mojang.serialization.MapCodec&lt;<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">mapCodec</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../serialization/Serializable.html#mapCodec()">Serializable</a></code></span></div>
-<div class="block">Returns The codec used for complex serialization..</div>
+Returns The codec used for complex serialization..
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../serialization/RawSerializable.html#mapCodec()">mapCodec</a></code>&nbsp;in interface&nbsp;<code><a href="../serialization/RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
@@ -333,7 +333,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
 == streamCodec
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf,<wbr><a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../serialization/Serializable.html#streamCodec()">Serializable</a></code></span></div>
-<div class="block">Returns The codec used for streaming serialization..</div>
+Returns The codec used for streaming serialization..
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../serialization/RawSerializable.html#streamCodec()">streamCodec</a></code>&nbsp;in interface&nbsp;<code><a href="../serialization/RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
@@ -376,7 +376,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
 :::tabs
 == toString
 <div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">toString</span>()</div>
-<div class="block">Returns a string representation of this record class. The representation contains the name of the class, followed by the name and value of each of the record components.</div>
+Returns a string representation of this record class. The representation contains the name of the class, followed by the name and value of each of the record components.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html#toString()" title="class or interface in java.lang" class="external-link">toString</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html" title="class or interface in java.lang" class="external-link">Record</a></code></dd>
@@ -393,7 +393,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
 :::tabs
 == hashCode
 <div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">hashCode</span>()</div>
-<div class="block">Returns a hash code value for this object. The value is derived from the hash code of each of the record components.</div>
+Returns a hash code value for this object. The value is derived from the hash code of each of the record components.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html" title="class or interface in java.lang" class="external-link">Record</a></code></dd>
@@ -410,7 +410,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
 :::tabs
 == equals
 <div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">equals</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</span></div>
-<div class="block">Indicates whether some other object is "equal to" this one. The objects are equal if the other object is of the same class and if all the record components are equal. All components in this record class are compared with <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Objects.html#equals(java.lang.Object,java.lang.Object)" title="class or interface in java.util" class="external-link"><code>Objects::equals(Object,Object)</code></a>.</div>
+Indicates whether some other object is "equal to" this one. The objects are equal if the other object is of the same class and if all the record components are equal. All components in this record class are compared with <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Objects.html#equals(java.lang.Object,java.lang.Object)" title="class or interface in java.util" class="external-link"><code>Objects::equals(Object,Object)</code></a>.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html" title="class or interface in java.lang" class="external-link">Record</a></code></dd>
@@ -429,7 +429,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
 :::tabs
 == blockState
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.world.level.block.state.BlockState</span>&nbsp;<span class="element-name">blockState</span>()</div>
-<div class="block">Returns the value of the <code>blockState</code> record component.</div>
+Returns the value of the <code>blockState</code> record component.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>the value of the <code>blockState</code> record component</dd>
@@ -444,7 +444,7 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
 :::tabs
 == variant
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="../variant/state/IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">variant</span>()</div>
-<div class="block">Returns the value of the <code>variant</code> record component.</div>
+Returns the value of the <code>variant</code> record component.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>the value of the <code>variant</code> record component</dd>

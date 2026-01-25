@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.modification.operation](index.md)  
 # Interface IModificationOperationGroup  
 **All Extended Interfaces:**  
-[IToolModeGroup](../group/IToolModeGroup.md), [IRenderableMode](../withmode/IRenderableMode.md), [IWithColor](../util/IWithColor.md), [IWithDisplayName](../util/IWithDisplayName.md), [IWithIcon](../util/IWithIcon.md), [IWithIconAndColor](../util/IWithIconAndColor.md)  
+[IToolModeGroup](../../item/withmode/group/IToolModeGroup.md), [IRenderableMode](../../item/withmode/IRenderableMode.md), [IWithColor](../../util/IWithColor.md), [IWithDisplayName](../../util/IWithDisplayName.md), [IWithIcon](../../util/IWithIcon.md), [IWithIconAndColor](../../util/IWithIconAndColor.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IModificationOperationGroup</span><span class="extends-implements"><br/>  

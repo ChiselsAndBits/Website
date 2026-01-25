@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.multistate.accessor.world](index.md)  
 # Interface IWorldAreaAccessor  
 **All Extended Interfaces:**  
-[IAABBOwner](../aabb/IAABBOwner.md), [IAreaAccessor](../accessor/IAreaAccessor.md), [IStateAccessor](../accessor/IStateAccessor.md), [IWorldObject](../util/IWorldObject.md)  
+[IAABBOwner](../../../aabb/IAABBOwner.md), [IAreaAccessor](../IAreaAccessor.md), [IStateAccessor](../IStateAccessor.md), [IWorldObject](../../../util/IWorldObject.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IWorldAreaAccessor</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends <a href="../IAreaAccessor.html" title="interface in mod.chiselsandbits.a
 
   
 
-<div class="block">Represents an area accessor which actually exists in the world.</div>
-  
+Represents an area accessor which actually exists in the world.  
 
 <dl class="notes"></dl>  
 
@@ -92,9 +91,9 @@ extends <a href="../IAreaAccessor.html" title="interface in mod.chiselsandbits.a
 :::tabs
 == inWorldStream
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="IInWorldStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor.world">IInWorldStateEntryInfo</a>&gt;</span>&nbsp;<span class="element-name">inWorldStream</span>()</div>
-<div class="block">Gives access to a stream of in world state entries.
+Gives access to a stream of in world state entries.
  Filters out all "virtual"-none-in-world state entries that might or might not be included
- in <a href="../IAreaAccessor.html#stream()"><code>IAreaAccessor.stream()</code></a>.</div>
+ in <a href="../IAreaAccessor.html#stream()"><code>IAreaAccessor.stream()</code></a>.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A stream with only state entries which actually exist in world.</dd>
@@ -109,7 +108,7 @@ extends <a href="../IAreaAccessor.html" title="interface in mod.chiselsandbits.a
 :::tabs
 == coveredAreaStream
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;net.minecraft.core.BlockPos&gt;</span>&nbsp;<span class="element-name">coveredAreaStream</span>()</div>
-<div class="block">Gives access to a stream which represents all the blocks touched by the accessor.</div>
+Gives access to a stream which represents all the blocks touched by the accessor.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The blocks touched by the accessor.</dd>

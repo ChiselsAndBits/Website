@@ -14,8 +14,7 @@ java.lang.Object
 
   
 
-<div class="block">Utility class for processing classes.</div>
-  
+Utility class for processing classes.  
 
 <dl class="notes"></dl>  
 
@@ -81,10 +80,10 @@ java.lang.Object
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;T&gt;&nbsp;baseClass,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;? extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>&gt;&nbsp;instanceAnnotation,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;T,<wbr><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;&nbsp;nameFunction)</span></div>
-<div class="block">Gets or creates a new instance of the class with the given name.
+Gets or creates a new instance of the class with the given name.
 
  Verifies that the class is of a given base type, and checks if a field in this class potentially has the instance annotation.
- If that annotation is present then the contents of that field are returned and verified for the requested type instance.</div>
+ If that annotation is present then the contents of that field are returned and verified for the requested type instance.
 <dl class="notes">
 <dt>Type Parameters:</dt>
 <dd><code>T</code> - The type of the base class.</dd>

@@ -4,15 +4,14 @@ aside: false
 sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.chiseling](index.md)  
-# Enum ChiselingOperation  
+# Enum Class ChiselingOperation  
 ---
 <div class="type-signature"><span class="modifiers">public enum </span><span class="element-name type-name-label">ChiselingOperation</span><br/>  
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a>&lt;<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&gt;</span></div>  
 
   
 
-<div class="block">Represents the mode of operandus of the current chiseling context.</div>
-  
+Represents the mode of operandus of the current chiseling context.  
 
 <dl class="notes"></dl>  
 
@@ -114,8 +113,8 @@ _Package:_ [mod.chiselsandbits.api.chiseling](index.md)
 :::tabs
 == CHISELING
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a></span>&nbsp;<span class="element-name">CHISELING</span></div>
-<div class="block">The current operation is a chisel.
- As such it removes the bit underneath the cursor.</div>
+The current operation is a chisel.
+ As such it removes the bit underneath the cursor.
 <dl class="notes"></dl>
 :::
 
@@ -127,8 +126,8 @@ _Package:_ [mod.chiselsandbits.api.chiseling](index.md)
 :::tabs
 == PLACING
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a></span>&nbsp;<span class="element-name">PLACING</span></div>
-<div class="block">The current operation is a bit.
- As such it places the bit underneath the cursor.</div>
+The current operation is a bit.
+ As such it places the bit underneath the cursor.
 <dl class="notes"></dl>
 :::
 
@@ -153,8 +152,8 @@ _Package:_ [mod.chiselsandbits.api.chiseling](index.md)
 :::tabs
 == values
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>[]</span>&nbsp;<span class="element-name">values</span>()</div>
-<div class="block">Returns an array containing the constants of this enum class, in
-the order they are declared.</div>
+Returns an array containing the constants of this enum class, in
+the order they are declared.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>an array containing the constants of this enum class, in the order they are declared</dd>
@@ -169,10 +168,10 @@ the order they are declared.</div>
 :::tabs
 == valueOf
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a></span>&nbsp;<span class="element-name">valueOf</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-<div class="block">Returns the enum constant of this class with the specified name.
+Returns the enum constant of this class with the specified name.
 The string must match <i>exactly</i> an identifier used to declare an
 enum constant in this class.  (Extraneous whitespace characters are 
-not permitted.)</div>
+not permitted.)
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>name</code> - the name of the enum constant to be returned.</dd>
@@ -192,7 +191,7 @@ not permitted.)</div>
 :::tabs
 == processesAir
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">processesAir</span>()</div>
-<div class="block">Indicates if this operation processes air.</div>
+Indicates if this operation processes air.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> if this operation processes air, <code>false</code> otherwise.</dd>
@@ -207,7 +206,7 @@ not permitted.)</div>
 :::tabs
 == isChiseling
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isChiseling</span>()</div>
-<div class="block">Indicates if the current mode is a chiseling mode.</div>
+Indicates if the current mode is a chiseling mode.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True when this is a chiseling mode, false otherwise.</dd>
@@ -222,7 +221,7 @@ not permitted.)</div>
 :::tabs
 == isPlacing
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isPlacing</span>()</div>
-<div class="block">Indicates if the current mode is a placing mode.</div>
+Indicates if the current mode is a placing mode.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True when this is a placing mode, false otherwise.</dd>

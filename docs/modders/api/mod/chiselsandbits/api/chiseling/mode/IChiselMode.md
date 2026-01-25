@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.chiseling.mode](index.md)  
 # Interface IChiselMode  
 **All Extended Interfaces:**  
-ICustomRegistryEntry, [IRenderableMode](../withmode/IRenderableMode.md), [IToolMode\<IToolModeGroup\>](../withmode/IToolMode.md), [IWithColor](../util/IWithColor.md), [IWithDisplayName](../util/IWithDisplayName.md), [IWithIcon](../util/IWithIcon.md), [IWithIconAndColor](../util/IWithIconAndColor.md)  
+ICustomRegistryEntry, [IRenderableMode](../../item/withmode/IRenderableMode.md), [IToolMode\<IToolModeGroup\>](../../item/withmode/IToolMode.md), [IWithColor](../../util/IWithColor.md), [IWithDisplayName](../../util/IWithDisplayName.md), [IWithIcon](../../util/IWithIcon.md), [IWithIconAndColor](../../util/IWithIconAndColor.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IChiselMode</span><span class="extends-implements"><br/>  
@@ -14,10 +14,10 @@ extends com.communi.suggestu.scena.core.registries.ICustomRegistryEntry, <a href
 
   
 
-<div class="block">Represents a chiselable operation that can be completed by a chisel or bit for example.
+Represents a chiselable operation that can be completed by a chisel or bit for example.
  <p>
-     Has to be immutable as it is used in data components.</div>
-  
+     Has to be immutable as it is used in data components.
+</p>  
 
 <dl class="notes"></dl>  
 
@@ -143,7 +143,7 @@ getRegistryName
 :::tabs
 == getDefaultMode
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a></span>&nbsp;<span class="element-name">getDefaultMode</span>()</div>
-<div class="block">The default mode of the chisel or bit.</div>
+The default mode of the chisel or bit.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The default mode.</dd>
@@ -158,7 +158,7 @@ getRegistryName
 :::tabs
 == getRegistry
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type">com.communi.suggestu.scena.core.registries.ICustomRegistry&lt;<a href="IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a>&gt;</span>&nbsp;<span class="element-name">getRegistry</span>()</div>
-<div class="block">The underlying registry that contains the different modes a chisel can assume.</div>
+The underlying registry that contains the different modes a chisel can assume.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The underlying forge registry.</dd>
@@ -174,7 +174,7 @@ getRegistryName
 == onLeftClickBy
 <div class="member-signature"><span class="return-type"><a href="../../item/click/ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">onLeftClickBy</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</span></div>
-<div class="block">Invoked by the system when a chisel or a bit is left clicked to perform an associated operation.</div>
+Invoked by the system when a chisel or a bit is left clicked to perform an associated operation.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The entity that is executing the operation.</dd>
@@ -193,9 +193,9 @@ getRegistryName
 == onStoppedLeftClicking
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onStoppedLeftClicking</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</span></div>
-<div class="block">Invoked by the system when the player has released the left click button.
+Invoked by the system when the player has released the left click button.
 
- Currently not invoked by the system. Future endpoint.</div>
+ Currently not invoked by the system. Future endpoint.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player who released the button.</dd>
@@ -212,7 +212,7 @@ getRegistryName
 == onRightClickBy
 <div class="member-signature"><span class="return-type"><a href="../../item/click/ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">onRightClickBy</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</span></div>
-<div class="block">Invoked by the system when a chisel or a bit is right clicked to perform an associated operation.</div>
+Invoked by the system when a chisel or a bit is right clicked to perform an associated operation.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The entity that is executing the operation.</dd>
@@ -231,9 +231,9 @@ getRegistryName
 == onStoppedRightClicking
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onStoppedRightClicking</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</span></div>
-<div class="block">Invoked by the system when the player has released the right click button.
+Invoked by the system when the player has released the right click button.
 
- Currently not invoked by the system. Future endpoint.</div>
+ Currently not invoked by the system. Future endpoint.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player who released the button.</dd>
@@ -249,7 +249,7 @@ getRegistryName
 :::tabs
 == getCurrentAccessor
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="../../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&gt;</span>&nbsp;<span class="element-name">getCurrentAccessor</span><wbr><span class="parameters">(<a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</span></div>
-<div class="block">Performs an extraction and potential modification of the accessor for the given context as determined by this mode.</div>
+Performs an extraction and potential modification of the accessor for the given context as determined by this mode.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>context</code> - The chiseling context.</dd>
@@ -268,7 +268,7 @@ getRegistryName
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isStillValid</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context,
  <a href="../ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;modeOfOperation)</span></div>
-<div class="block">Checks if the passed context is still valid for the given entity.</div>
+Checks if the passed context is still valid for the given entity.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The entity to check for.</dd>
@@ -287,8 +287,8 @@ getRegistryName
 :::tabs
 == requiresPlaceableEditStack
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">requiresPlaceableEditStack</span>()</div>
-<div class="block">Indicates that this mode is only available on a stack which has a placeable mode.
- Useful when placement and removal perform the same task AND requires a bit to be held.</div>
+Indicates that this mode is only available on a stack which has a placeable mode.
+ Useful when placement and removal perform the same task AND requires a bit to be held.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True when a "bit" needs to be held.</dd>
@@ -303,8 +303,8 @@ getRegistryName
 :::tabs
 == getShape
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.shapes.VoxelShape</span>&nbsp;<span class="element-name">getShape</span><wbr><span class="parameters">(<a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</span></div>
-<div class="block">Defines the shape of the area that is to be chiseled.
- This is the general shape, so a sphere, cube, or line any area specific changes are not returned by this method.</div>
+Defines the shape of the area that is to be chiseled.
+ This is the general shape, so a sphere, cube, or line any area specific changes are not returned by this method.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>context</code> - The current context that it is supposed to be for.</dd>
@@ -323,7 +323,7 @@ getRegistryName
 :::tabs
 == isSingleClickUse
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isSingleClickUse</span>()</div>
-<div class="block">Indicates if this mode requires a single click to trigger or not.</div>
+Indicates if this mode requires a single click to trigger or not.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True if single click, false if multiple clicks are needed.</dd>

@@ -14,9 +14,8 @@ extends <a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbi
 
   
 
-<div class="block">Indicates that the <a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier"><code>IAreaShapeIdentifier</code></a> is backed by a long array and as such its core data can directly be used to
- compare the identifiers.</div>
-  
+Indicates that the <a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier"><code>IAreaShapeIdentifier</code></a> is backed by a long array and as such its core data can directly be used to
+ compare the identifiers.  
 
 <dl class="notes"></dl>  
 
@@ -87,7 +86,7 @@ extends <a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbi
 :::tabs
 == getBackingData
 <div class="member-signature"><span class="return-type">long[]</span>&nbsp;<span class="element-name">getBackingData</span>()</div>
-<div class="block">Gives access to the backing long array.</div>
+Gives access to the backing long array.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The backing long array.</dd>
@@ -102,7 +101,7 @@ extends <a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbi
 :::tabs
 == getPalette
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">getPalette</span>()</div>
-<div class="block">The palette that is in use for this identifier.</div>
+The palette that is in use for this identifier.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The palette list.</dd>

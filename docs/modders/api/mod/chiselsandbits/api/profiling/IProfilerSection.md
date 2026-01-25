@@ -14,9 +14,8 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 
   
 
-<div class="block">Represents a resource used for try-resource blocks that represents a
- section of profileable code.</div>
-  
+Represents a resource used for try-resource blocks that represents a
+ section of profileable code.  
 
 <dl class="notes"></dl>  
 

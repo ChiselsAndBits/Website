@@ -4,7 +4,7 @@ aside: false
 sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.block.storage](index.md)  
-# Record SizeInformation  
+# Record Class SizeInformation  
 **Enclosing Class:**  
 [StateEntryPalette](StateEntryPalette.md)  
 
@@ -14,10 +14,10 @@ _Package:_ [mod.chiselsandbits.api.block.storage](index.md)
 
   
 
-<div class="block">Represents the size information of the palette.
+Represents the size information of the palette.
  <p>
-     The size is only accurate if it has changed.</div>
-  
+     The size is only accurate if it has changed.
+</p>  
 
 <dl class="notes"></dl>  
 
@@ -119,11 +119,11 @@ _Package:_ [mod.chiselsandbits.api.block.storage](index.md)
 == SizeInformation
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">SizeInformation</span><wbr><span class="parameters">(boolean&nbsp;hasChanged,
  int&nbsp;size)</span></div>
-<div class="block">Creates an instance of a <code>SizeInformation</code> record class.</div>
+Creates an instance of a <code>SizeInformation</code> record class.
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>hasChanged</code> - the value for the <a href="#param-hasChanged"><code>hasChanged</code></a> record component</dd>
-<dd><code>size</code> - the value for the <a href="#param-size"><code>size</code></a> record component</dd>
+<dd><code>hasChanged</code> - the value for the <a href="../../../../../mod/chiselsandbits/api/block/storage/StateEntryPalette.SizeInformation.html#param-hasChanged"><code>hasChanged</code></a> record component</dd>
+<dd><code>size</code> - the value for the <a href="../../../../../mod/chiselsandbits/api/block/storage/StateEntryPalette.SizeInformation.html#param-size"><code>size</code></a> record component</dd>
 </dl>
 :::
 
@@ -164,7 +164,7 @@ _Package:_ [mod.chiselsandbits.api.block.storage](index.md)
 :::tabs
 == toString
 <div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">toString</span>()</div>
-<div class="block">Returns a string representation of this record class. The representation contains the name of the class, followed by the name and value of each of the record components.</div>
+Returns a string representation of this record class. The representation contains the name of the class, followed by the name and value of each of the record components.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html#toString()" title="class or interface in java.lang" class="external-link">toString</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html" title="class or interface in java.lang" class="external-link">Record</a></code></dd>
@@ -181,7 +181,7 @@ _Package:_ [mod.chiselsandbits.api.block.storage](index.md)
 :::tabs
 == hashCode
 <div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">hashCode</span>()</div>
-<div class="block">Returns a hash code value for this object. The value is derived from the hash code of each of the record components.</div>
+Returns a hash code value for this object. The value is derived from the hash code of each of the record components.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html" title="class or interface in java.lang" class="external-link">Record</a></code></dd>
@@ -198,7 +198,7 @@ _Package:_ [mod.chiselsandbits.api.block.storage](index.md)
 :::tabs
 == equals
 <div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">equals</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</span></div>
-<div class="block">Indicates whether some other object is "equal to" this one. The objects are equal if the other object is of the same class and if all the record components are equal. All components in this record class are compared with '=='.</div>
+Indicates whether some other object is "equal to" this one. The objects are equal if the other object is of the same class and if all the record components are equal. All components in this record class are compared with '=='.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Record.html" title="class or interface in java.lang" class="external-link">Record</a></code></dd>
@@ -217,10 +217,10 @@ _Package:_ [mod.chiselsandbits.api.block.storage](index.md)
 :::tabs
 == hasChanged
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">hasChanged</span>()</div>
-<div class="block">Returns the value of the <a href="#param-hasChanged"><code>hasChanged</code></a> record component.</div>
+Returns the value of the <a href="../../../../../mod/chiselsandbits/api/block/storage/StateEntryPalette.SizeInformation.html#param-hasChanged"><code>hasChanged</code></a> record component.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <a href="#param-hasChanged"><code>hasChanged</code></a> record component</dd>
+<dd>the value of the <a href="../../../../../mod/chiselsandbits/api/block/storage/StateEntryPalette.SizeInformation.html#param-hasChanged"><code>hasChanged</code></a> record component</dd>
 </dl>
 :::
 
@@ -232,10 +232,10 @@ _Package:_ [mod.chiselsandbits.api.block.storage](index.md)
 :::tabs
 == size
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">size</span>()</div>
-<div class="block">Returns the value of the <a href="#param-size"><code>size</code></a> record component.</div>
+Returns the value of the <a href="../../../../../mod/chiselsandbits/api/block/storage/StateEntryPalette.SizeInformation.html#param-size"><code>size</code></a> record component.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <a href="#param-size"><code>size</code></a> record component</dd>
+<dd>the value of the <a href="../../../../../mod/chiselsandbits/api/block/storage/StateEntryPalette.SizeInformation.html#param-size"><code>size</code></a> record component</dd>
 </dl>
 :::
 

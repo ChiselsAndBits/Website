@@ -121,14 +121,7 @@ java.lang.Object
 :::tabs
 == VERSION
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">VERSION</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.VERSION">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -139,14 +132,7 @@ java.lang.Object
 :::tabs
 == SKYLIGHT_BLOCKING_BITS
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">SKYLIGHT_BLOCKING_BITS</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.SKYLIGHT_BLOCKING_BITS">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -157,14 +143,7 @@ java.lang.Object
 :::tabs
 == HIGHEST_BIT
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">HIGHEST_BIT</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.HIGHEST_BIT">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -175,14 +154,7 @@ java.lang.Object
 :::tabs
 == HIGHEST_BIT_FRICTION
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">HIGHEST_BIT_FRICTION</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.HIGHEST_BIT_FRICTION">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -193,14 +165,7 @@ java.lang.Object
 :::tabs
 == NONE_AIR_BITS
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">NONE_AIR_BITS</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.NONE_AIR_BITS">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -211,14 +176,7 @@ java.lang.Object
 :::tabs
 == COLUMN_STATISTICS
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">COLUMN_STATISTICS</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.COLUMN_STATISTICS">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -229,14 +187,7 @@ java.lang.Object
 :::tabs
 == CAN_PROPAGATE_SKYLIGHT_DOWN
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">CAN_PROPAGATE_SKYLIGHT_DOWN</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.CAN_PROPAGATE_SKYLIGHT_DOWN">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -247,14 +198,7 @@ java.lang.Object
 :::tabs
 == COLLISION_DATA
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">COLLISION_DATA</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.COLLISION_DATA">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -265,14 +209,7 @@ java.lang.Object
 :::tabs
 == CHISEL_ERROR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">CHISEL_ERROR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.CHISEL_ERROR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -283,14 +220,7 @@ java.lang.Object
 :::tabs
 == STATE
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">STATE</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.STATE">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -301,14 +231,7 @@ java.lang.Object
 :::tabs
 == VARIANT
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">VARIANT</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.VARIANT">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -319,14 +242,7 @@ java.lang.Object
 :::tabs
 == BITS
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">BITS</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.BITS">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -337,14 +253,7 @@ java.lang.Object
 :::tabs
 == BLOCK_INFORMATION
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">BLOCK_INFORMATION</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.BLOCK_INFORMATION">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -355,14 +264,7 @@ java.lang.Object
 :::tabs
 == BLOCK
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">BLOCK</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.BLOCK">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -373,14 +275,7 @@ java.lang.Object
 :::tabs
 == DEFAULT_INSTANCE_INDICATOR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">DEFAULT_INSTANCE_INDICATOR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.DEFAULT_INSTANCE_INDICATOR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -391,14 +286,7 @@ java.lang.Object
 :::tabs
 == EMITS_LIGHT_BASED_ON_FULL_BLOCK
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">EMITS_LIGHT_BASED_ON_FULL_BLOCK</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.EMITS_LIGHT_BASED_ON_FULL_BLOCK">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -409,14 +297,7 @@ java.lang.Object
 :::tabs
 == CAN_BE_FLOODED
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">CAN_BE_FLOODED</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.CAN_BE_FLOODED">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -427,14 +308,7 @@ java.lang.Object
 :::tabs
 == ENTRIES
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">ENTRIES</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.ENTRIES">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -445,14 +319,7 @@ java.lang.Object
 :::tabs
 == SLOTS
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">SLOTS</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.SLOTS">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -463,14 +330,7 @@ java.lang.Object
 :::tabs
 == STORAGE
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">STORAGE</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.STORAGE">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -481,14 +341,7 @@ java.lang.Object
 :::tabs
 == CAN_LOWEST_BIT_SUSTAIN_GRASS
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">CAN_LOWEST_BIT_SUSTAIN_GRASS</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.CAN_LOWEST_BIT_SUSTAIN_GRASS">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -499,14 +352,7 @@ java.lang.Object
 :::tabs
 == POSITION
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">POSITION</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.POSITION">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -517,14 +363,7 @@ java.lang.Object
 :::tabs
 == STATE_COUNTS
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">STATE_COUNTS</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.STATE_COUNTS">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -535,14 +374,7 @@ java.lang.Object
 :::tabs
 == TOTAL_USED_BLOCK_COUNT
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">TOTAL_USED_BLOCK_COUNT</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.TOTAL_USED_BLOCK_COUNT">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -553,14 +385,7 @@ java.lang.Object
 :::tabs
 == TOTAL_USED_CHECKS_WEAK_POWER_COUNT
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">TOTAL_USED_CHECKS_WEAK_POWER_COUNT</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.TOTAL_USED_CHECKS_WEAK_POWER_COUNT">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -571,14 +396,7 @@ java.lang.Object
 :::tabs
 == REQUIRES_RECALCULATION
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">REQUIRES_RECALCULATION</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.REQUIRES_RECALCULATION">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -589,14 +407,7 @@ java.lang.Object
 :::tabs
 == PAYLOAD
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">PAYLOAD</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.PAYLOAD">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -607,14 +418,7 @@ java.lang.Object
 :::tabs
 == SLOTTED_BIT_INVENTORY_DATA
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">SLOTTED_BIT_INVENTORY_DATA</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.SLOTTED_BIT_INVENTORY_DATA">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -625,14 +429,7 @@ java.lang.Object
 :::tabs
 == MULTI_STATE_ITEM_STACK_DATA
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MULTI_STATE_ITEM_STACK_DATA</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.MULTI_STATE_ITEM_STACK_DATA">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -643,14 +440,7 @@ java.lang.Object
 :::tabs
 == OWNER
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">OWNER</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.OWNER">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -661,14 +451,7 @@ java.lang.Object
 :::tabs
 == FROM
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">FROM</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.FROM">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -679,14 +462,7 @@ java.lang.Object
 :::tabs
 == TO
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">TO</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.TO">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -697,14 +473,7 @@ java.lang.Object
 :::tabs
 == MODE
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MODE</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.MODE">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -715,14 +484,7 @@ java.lang.Object
 :::tabs
 == LEVEL
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">LEVEL</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.LEVEL">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -733,14 +495,7 @@ java.lang.Object
 :::tabs
 == TOOL
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">TOOL</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.TOOL">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -751,14 +506,7 @@ java.lang.Object
 :::tabs
 == PATTERN
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">PATTERN</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.PATTERN">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -769,14 +517,7 @@ java.lang.Object
 :::tabs
 == RESULT
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">RESULT</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.RESULT">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -787,14 +528,7 @@ java.lang.Object
 :::tabs
 == PROGRESS
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">PROGRESS</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.PROGRESS">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -805,14 +539,7 @@ java.lang.Object
 :::tabs
 == SNAPSHOTS
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">SNAPSHOTS</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.SNAPSHOTS">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -823,14 +550,7 @@ java.lang.Object
 :::tabs
 == START
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">START</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.START">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -841,14 +561,7 @@ java.lang.Object
 :::tabs
 == END
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">END</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.END">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -859,14 +572,7 @@ java.lang.Object
 :::tabs
 == BEFORE
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">BEFORE</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.BEFORE">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -877,14 +583,7 @@ java.lang.Object
 :::tabs
 == AFTER
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">AFTER</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.AFTER">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -895,14 +594,7 @@ java.lang.Object
 :::tabs
 == HIGHLIGHT_START_TIME
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">HIGHLIGHT_START_TIME</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.HIGHLIGHT_START_TIME">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -913,14 +605,7 @@ java.lang.Object
 :::tabs
 == MEASURING_MODE
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MEASURING_MODE</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.MEASURING_MODE">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -931,14 +616,7 @@ java.lang.Object
 :::tabs
 == PATTERN_PLACEMENT_TYPE
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">PATTERN_PLACEMENT_TYPE</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.PATTERN_PLACEMENT_TYPE">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -949,14 +627,7 @@ java.lang.Object
 :::tabs
 == INTERACTION_TARGET
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">INTERACTION_TARGET</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.INTERACTION_TARGET">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -967,14 +638,7 @@ java.lang.Object
 :::tabs
 == IS_SIMULATING
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">IS_SIMULATING</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.IS_SIMULATING">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -985,14 +649,7 @@ java.lang.Object
 :::tabs
 == MODIFICATION_OPERATION
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MODIFICATION_OPERATION</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.MODIFICATION_OPERATION">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1003,14 +660,7 @@ java.lang.Object
 :::tabs
 == OPERATION
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">OPERATION</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.OPERATION">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1021,14 +671,7 @@ java.lang.Object
 :::tabs
 == IS_PREFERRED_PICKUP
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">IS_PREFERRED_PICKUP</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.IS_PREFERRED_PICKUP">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1039,14 +682,7 @@ java.lang.Object
 :::tabs
 == IS_FILTERED_PICKUP
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">IS_FILTERED_PICKUP</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.IS_FILTERED_PICKUP">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1057,14 +693,7 @@ java.lang.Object
 :::tabs
 == PALETTE
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">PALETTE</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.PALETTE">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1075,14 +704,7 @@ java.lang.Object
 :::tabs
 == BLOCK_STATES
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">BLOCK_STATES</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.BLOCK_STATES">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1093,14 +715,7 @@ java.lang.Object
 :::tabs
 == PRIMARY_STATE
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">PRIMARY_STATE</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.PRIMARY_STATE">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1111,14 +726,7 @@ java.lang.Object
 :::tabs
 == COUNT
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">COUNT</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.COUNT">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1129,14 +737,7 @@ java.lang.Object
 :::tabs
 == STATISTICS
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">STATISTICS</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.STATISTICS">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1147,14 +748,7 @@ java.lang.Object
 :::tabs
 == TOTAL_LIGHT_LEVEL
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">TOTAL_LIGHT_LEVEL</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.TOTAL_LIGHT_LEVEL">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1165,14 +759,7 @@ java.lang.Object
 :::tabs
 == TOTAL_LIGHT_BLOCK_LEVEL
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">TOTAL_LIGHT_BLOCK_LEVEL</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.TOTAL_LIGHT_BLOCK_LEVEL">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1183,14 +770,7 @@ java.lang.Object
 :::tabs
 == CHISEL_MODE
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">CHISEL_MODE</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.CHISEL_MODE">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1201,14 +781,7 @@ java.lang.Object
 :::tabs
 == COMPRESSED
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">COMPRESSED</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.COMPRESSED">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1219,14 +792,7 @@ java.lang.Object
 :::tabs
 == DATA
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">DATA</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.DATA">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1237,14 +803,7 @@ java.lang.Object
 :::tabs
 == HIGHLIGHT
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">HIGHLIGHT</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.HIGHLIGHT">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -1255,14 +814,7 @@ java.lang.Object
 :::tabs
 == LEGACY_CHISELED_DATA
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">LEGACY_CHISELED_DATA</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.NbtConstants.LEGACY_CHISELED_DATA">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 

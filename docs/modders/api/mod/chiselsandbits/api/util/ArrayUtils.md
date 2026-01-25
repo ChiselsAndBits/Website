@@ -14,8 +14,7 @@ java.lang.Object
 
   
 
-<div class="block">Utility class for manipulating arrays.</div>
-  
+Utility class for manipulating arrays.  
 
 <dl class="notes"></dl>  
 
@@ -81,7 +80,7 @@ java.lang.Object
 == multiply
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">float[]</span>&nbsp;<span class="element-name">multiply</span><wbr><span class="parameters">(float[]&nbsp;input,
  float&nbsp;count)</span></div>
-<div class="block">Multiplies the given array by the given factor.</div>
+Multiplies the given array by the given factor.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>input</code> - The input array.</dd>

@@ -10,9 +10,8 @@ _Package:_ [mod.chiselsandbits.api.item.wireframe](index.md)
 
   
 
-<div class="block">Represents an item which can provide a wireframe for different purposes,
- including rendering a preview.</div>
-  
+Represents an item which can provide a wireframe for different purposes,
+ including rendering a preview.  
 
 <dl class="notes"></dl>  
 
@@ -89,7 +88,7 @@ _Package:_ [mod.chiselsandbits.api.item.wireframe](index.md)
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.shapes.VoxelShape</span>&nbsp;<span class="element-name">getWireFrame</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack,
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.BlockHitResult&nbsp;rayTraceResult)</span></div>
-<div class="block">Provides access to the wire frame of the item.</div>
+Provides access to the wire frame of the item.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to get the wire frame from.</dd>
@@ -110,7 +109,7 @@ _Package:_ [mod.chiselsandbits.api.item.wireframe](index.md)
 <div class="member-signature"><span class="return-type">org.joml.Vector4f</span>&nbsp;<span class="element-name">getWireFrameColor</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-<div class="block">The color to render the wireframe in.</div>
+The color to render the wireframe in.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get the wire frame color for.</dd>
@@ -131,7 +130,7 @@ _Package:_ [mod.chiselsandbits.api.item.wireframe](index.md)
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getTargetedPosition</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-<div class="block">Returns the position the wire frame should be rendered at.</div>
+Returns the position the wire frame should be rendered at.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get the position for.</dd>
@@ -150,7 +149,7 @@ _Package:_ [mod.chiselsandbits.api.item.wireframe](index.md)
 :::tabs
 == ignoreDepth
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">ignoreDepth</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack)</span></div>
-<div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything</div>
+Returns whether to effectively ignore the depth buffer and render in front of everything
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get depth logic for.</dd>

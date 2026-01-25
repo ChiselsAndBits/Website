@@ -10,9 +10,8 @@ _Package:_ [mod.chiselsandbits.api.axissize](index.md)
 
   
 
-<div class="block">Represents a handler which can indicate the current active maximum and minimum size
- of the multistate object.</div>
-  
+Represents a handler which can indicate the current active maximum and minimum size
+ of the multistate object.  
 
 <dl class="notes"></dl>  
 
@@ -94,7 +93,7 @@ _Package:_ [mod.chiselsandbits.api.axissize](index.md)
 :::tabs
 == getLowest
 <div class="member-signature"><span class="return-type">int</span>&nbsp;<span class="element-name">getLowest</span>()</div>
-<div class="block">The lowest set value on the axis of the size handler.</div>
+The lowest set value on the axis of the size handler.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The lowest set value.</dd>
@@ -109,7 +108,7 @@ _Package:_ [mod.chiselsandbits.api.axissize](index.md)
 :::tabs
 == getHighest
 <div class="member-signature"><span class="return-type">int</span>&nbsp;<span class="element-name">getHighest</span>()</div>
-<div class="block">The highest set value on the axis of the size handler.</div>
+The highest set value on the axis of the size handler.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The highest set value.</dd>

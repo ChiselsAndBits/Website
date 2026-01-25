@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.item.withmode.group](index.md)  
 # Interface IToolModeGroup  
 **All Extended Interfaces:**  
-[IRenderableMode](../withmode/IRenderableMode.md), [IWithColor](../util/IWithColor.md), [IWithDisplayName](../util/IWithDisplayName.md), [IWithIcon](../util/IWithIcon.md), [IWithIconAndColor](../util/IWithIconAndColor.md)  
+[IRenderableMode](../IRenderableMode.md), [IWithColor](../../../util/IWithColor.md), [IWithDisplayName](../../../util/IWithDisplayName.md), [IWithIcon](../../../util/IWithIcon.md), [IWithIconAndColor](../../../util/IWithIconAndColor.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IToolModeGroup</span><span class="extends-implements"><br/>  

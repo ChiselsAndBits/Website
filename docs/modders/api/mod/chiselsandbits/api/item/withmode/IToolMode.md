@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.item.withmode](index.md)  
 # Interface IToolMode\<G extends IToolModeGroup\>  
 **All Extended Interfaces:**  
-[IRenderableMode](IRenderableMode.md), [IWithColor](../util/IWithColor.md), [IWithDisplayName](../util/IWithDisplayName.md), [IWithIcon](../util/IWithIcon.md), [IWithIconAndColor](../util/IWithIconAndColor.md)  
+[IRenderableMode](IRenderableMode.md), [IWithColor](../../util/IWithColor.md), [IWithDisplayName](../../util/IWithDisplayName.md), [IWithIcon](../../util/IWithIcon.md), [IWithIconAndColor](../../util/IWithIconAndColor.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IToolMode&lt;G extends <a href="group/IToolModeGroup.html" title="interface in mod.chiselsandbits.api.item.withmode.group">IToolModeGroup</a>&gt;</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends <a href="../../util/IWithDisplayName.html" title="interface in mod.chise
 
   
 
-<div class="block">A mode of a given tool.</div>
-  
+A mode of a given tool.  
 
 <dl class="notes"></dl>  
 
@@ -90,8 +89,8 @@ extends <a href="../../util/IWithDisplayName.html" title="interface in mod.chise
 == getGroup
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="IToolMode.html" title="type parameter in IToolMode">G</a>&gt;</span>&nbsp;<span class="element-name">getGroup</span>()</div>
-<div class="block">An optional which indicates the group this tool mode
- is part of.</div>
+An optional which indicates the group this tool mode
+ is part of.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The optional tool mode group.</dd>

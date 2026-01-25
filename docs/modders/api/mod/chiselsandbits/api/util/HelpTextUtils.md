@@ -14,9 +14,8 @@ java.lang.Object
 
   
 
-<div class="block">Utility class for processing help texts,
- most notably used in tooltips of items and blocks.</div>
-  
+Utility class for processing help texts,
+ most notably used in tooltips of items and blocks.  
 
 <dl class="notes"></dl>  
 
@@ -83,7 +82,7 @@ java.lang.Object
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">build</span><wbr><span class="parameters">(<a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>&nbsp;helpText,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;net.minecraft.network.chat.Component&gt;&nbsp;tooltip,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;variables)</span></div>
-<div class="block">Builds a new help tooltip if this is enabled by the player.</div>
+Builds a new help tooltip if this is enabled by the player.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>helpText</code> - The help tooltip.</dd>
@@ -102,7 +101,7 @@ java.lang.Object
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">build</span><wbr><span class="parameters">(<a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>&nbsp;helpText,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;net.minecraft.network.chat.Component&gt;&nbsp;tooltip,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;variables)</span></div>
-<div class="block">Builds a new help tooltip if this is enabled by the player.</div>
+Builds a new help tooltip if this is enabled by the player.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>helpText</code> - The help tooltip.</dd>

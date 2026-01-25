@@ -10,7 +10,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 
   
 
-<div class="block">Represents a plugin for ChiselsAndBits.
+Represents a plugin for ChiselsAndBits.
  <p>
      Plugins have callbacks that can be invoked by chisels and bits.
      See their documentation for more information.
@@ -21,8 +21,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
  <p>
      Plugins are loaded through the <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/ServiceLoader.html" title="class or interface in java.util" class="external-link"><code>ServiceLoader</code></a>. If annotated by <a href="ChiselsAndBitsPlugin.html" title="annotation interface in mod.chiselsandbits.api.plugin"><code>ChiselsAndBitsPlugin</code></a>
      then additional metadata is checked, like required mods or experimental flags.
- </p></div>
-  
+ </p>  
 
 <dl class="notes"></dl>  
 
@@ -97,8 +96,8 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == getId
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getId</span>()</div>
-<div class="block">The id of the plugin.
- Has to be unique over all plugins.</div>
+The id of the plugin.
+ Has to be unique over all plugins.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The id.</dd>
@@ -113,7 +112,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == onConstruction
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">onConstruction</span>()</div>
-<div class="block">Invoked when the plugin is constructed.</div>
+Invoked when the plugin is constructed.
 <dl class="notes"></dl>
 :::
 
@@ -125,7 +124,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == onClientConstruction
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">onClientConstruction</span>()</div>
-<div class="block">Called after ChiselsAndBits client construction completes.</div>
+Called after ChiselsAndBits client construction completes.
 <dl class="notes"></dl>
 :::
 
@@ -137,7 +136,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == onInitialize
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">onInitialize</span>()</div>
-<div class="block">Invoked by chisels and bits when the platform it runs on (so forge or fabric) indicates that mod initialization should happen.</div>
+Invoked by chisels and bits when the platform it runs on (so forge or fabric) indicates that mod initialization should happen.
 <dl class="notes"></dl>
 :::
 

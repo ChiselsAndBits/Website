@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
   
 
-<div class="block">Represents an object with a text associated with it.</div>
-  
+Represents an object with a text associated with it.  
 
 <dl class="notes"></dl>  
 
@@ -70,7 +69,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 == getText
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getText</span>()</div>
-<div class="block">The text associated with this object.</div>
+The text associated with this object.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The text.</dd>

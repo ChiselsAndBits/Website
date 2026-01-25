@@ -14,8 +14,7 @@ java.lang.Object
 
   
 
-<div class="block">Utility class for processing colors.</div>
-  
+Utility class for processing colors.  
 
 <dl class="notes"></dl>  
 
@@ -104,15 +103,8 @@ java.lang.Object
 :::tabs
 == FULL_CHANNEL
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">FULL_CHANNEL</span></div>
-<div class="block">The maximal value for a given color channel.</div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../constant-values.html#mod.chiselsandbits.api.util.ColorUtils.FULL_CHANNEL">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+The maximal value for a given color channel.
+<dl class="notes"></dl>
 :::
 
 
@@ -123,15 +115,8 @@ java.lang.Object
 :::tabs
 == EMPTY_CHANNEL
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">EMPTY_CHANNEL</span></div>
-<div class="block">The minimal value for a given color channel.</div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../constant-values.html#mod.chiselsandbits.api.util.ColorUtils.EMPTY_CHANNEL">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+The minimal value for a given color channel.
+<dl class="notes"></dl>
 :::
 
 
@@ -151,7 +136,7 @@ java.lang.Object
 :::tabs
 == pack
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">pack</span><wbr><span class="parameters">(int&nbsp;c)</span></div>
-<div class="block">Packs all three color channels (plus a full alpha channel) with the same value into an integer.</div>
+Packs all three color channels (plus a full alpha channel) with the same value into an integer.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>c</code> - The value of the color channels to pack.</dd>
@@ -170,7 +155,7 @@ java.lang.Object
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">pack</span><wbr><span class="parameters">(int&nbsp;r,
  int&nbsp;g,
  int&nbsp;b)</span></div>
-<div class="block">Packs all three color channels (plus a full alpha channel) with the values into an integer.</div>
+Packs all three color channels (plus a full alpha channel) with the values into an integer.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>r</code> - The value for the red channel.</dd>
@@ -192,7 +177,7 @@ java.lang.Object
  int&nbsp;g,
  int&nbsp;b,
  int&nbsp;a)</span></div>
-<div class="block">Packs all four color channels with the values into an integer.</div>
+Packs all four color channels with the values into an integer.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>r</code> - The value for the red channel.</dd>

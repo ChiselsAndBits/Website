@@ -128,7 +128,7 @@ java.lang.Object
 == rethrowConsumer
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="type-parameters">&lt;T,<wbr>
 E extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Exception.html" title="class or interface in java.lang" class="external-link">Exception</a>&gt;</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;T&gt;</span>&nbsp;<span class="element-name">rethrowConsumer</span><wbr><span class="parameters">(<a href="LambdaExceptionUtils.Consumer_WithExceptions.html" title="interface in mod.chiselsandbits.api.util">LambdaExceptionUtils.Consumer_WithExceptions</a>&lt;T,<wbr>E&gt;&nbsp;consumer)</span></div>
-<div class="block">.forEach(rethrowConsumer(name -&gt; System.out.println(Class.forName(name)))); or .forEach(rethrowConsumer(ClassNameUtil::println));</div>
+.forEach(rethrowConsumer(name -&gt; System.out.println(Class.forName(name)))); or .forEach(rethrowConsumer(ClassNameUtil::println));
 <dl class="notes"></dl>
 :::
 

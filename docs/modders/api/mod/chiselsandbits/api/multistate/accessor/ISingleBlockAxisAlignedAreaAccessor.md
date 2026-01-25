@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.multistate.accessor](index.md)  
 # Interface ISingleBlockAxisAlignedAreaAccessor  
 **All Extended Interfaces:**  
-[IAABBOwner](../aabb/IAABBOwner.md), [IAreaAccessor](IAreaAccessor.md), [IStateAccessor](IStateAccessor.md)  
+[IAABBOwner](../../aabb/IAABBOwner.md), [IAreaAccessor](IAreaAccessor.md), [IStateAccessor](IStateAccessor.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">ISingleBlockAxisAlignedAreaAccessor</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends <a href="IAreaAccessor.html" title="interface in mod.chiselsandbits.api.
 
   
 
-<div class="block">Represents a single block axis aligned area accessor</div>
-  
+Represents a single block axis aligned area accessor  
 
 <dl class="notes"></dl>  
 
@@ -85,7 +84,7 @@ extends <a href="IAreaAccessor.html" title="interface in mod.chiselsandbits.api.
 :::tabs
 == getStatistics
 <div class="member-signature"><span class="return-type"><a href="../../item/multistate/IStatistics.html" title="interface in mod.chiselsandbits.api.item.multistate">IStatistics</a></span>&nbsp;<span class="element-name">getStatistics</span>()</div>
-<div class="block">The statistics of the itemstack.</div>
+The statistics of the itemstack.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The statistics.</dd>

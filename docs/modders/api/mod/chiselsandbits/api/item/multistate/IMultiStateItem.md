@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.item.multistate](index.md)
 
   
 
-<div class="block">An item whose itemstacks contain multistate information.</div>
-  
+An item whose itemstacks contain multistate information.  
 
 <dl class="notes"></dl>  
 
@@ -70,8 +69,8 @@ _Package:_ [mod.chiselsandbits.api.item.multistate](index.md)
 == createItemStack
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></span>&nbsp;<span class="element-name">createItemStack</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Creates an itemstack aware context wrapper that gives access to the
- multistate information contained within the given itemstack.</div>
+Creates an itemstack aware context wrapper that gives access to the
+ multistate information contained within the given itemstack.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to get an <a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate"><code>IMultiStateItemStack</code></a> for.</dd>

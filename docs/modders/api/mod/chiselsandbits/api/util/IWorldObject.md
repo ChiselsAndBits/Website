@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
   
 
-<div class="block">Represents a 3D object in world.</div>
-  
+Represents a 3D object in world.  
 
 <dl class="notes"></dl>  
 
@@ -92,7 +91,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 :::tabs
 == getWorld
 <div class="member-signature"><span class="return-type">net.minecraft.world.level.LevelAccessor</span>&nbsp;<span class="element-name">getWorld</span>()</div>
-<div class="block">The world the object is in.</div>
+The world the object is in.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The world.</dd>
@@ -107,7 +106,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 :::tabs
 == getInWorldStartPoint
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getInWorldStartPoint</span>()</div>
-<div class="block">The start point of the object in the world.</div>
+The start point of the object in the world.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The start point.</dd>
@@ -122,7 +121,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 :::tabs
 == getInWorldEndPoint
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getInWorldEndPoint</span>()</div>
-<div class="block">The end point of the object in the world.</div>
+The end point of the object in the world.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The end point.</dd>
@@ -137,7 +136,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 :::tabs
 == getInWorldStartBlockPoint
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.core.BlockPos</span>&nbsp;<span class="element-name">getInWorldStartBlockPoint</span>()</div>
-<div class="block">The start block point of the object in the world.</div>
+The start block point of the object in the world.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The start point.</dd>
@@ -152,7 +151,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 :::tabs
 == getInWorldEndBlockPoint
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.core.BlockPos</span>&nbsp;<span class="element-name">getInWorldEndBlockPoint</span>()</div>
-<div class="block">The end block point of the object in the world.</div>
+The end block point of the object in the world.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The end point.</dd>
@@ -167,7 +166,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 :::tabs
 == getInWorldBoundingBox
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.AABB</span>&nbsp;<span class="element-name">getInWorldBoundingBox</span>()</div>
-<div class="block">Gives access to the in world axis aligned bounding box of the object.</div>
+Gives access to the in world axis aligned bounding box of the object.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The axis aligned bounding box.</dd>

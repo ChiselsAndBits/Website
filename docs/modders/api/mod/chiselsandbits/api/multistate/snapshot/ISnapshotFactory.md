@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.snapshot](index.md)
 
   
 
-<div class="block">A factory to create simple snapshots.</div>
-  
+A factory to create simple snapshots.  
 
 <dl class="notes"></dl>  
 
@@ -93,7 +92,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.snapshot](index.md)
 :::tabs
 == singleBlock
 <div class="member-signature"><span class="return-type"><a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a></span>&nbsp;<span class="element-name">singleBlock</span>()</div>
-<div class="block">Creates a new simple single block snapshot.</div>
+Creates a new simple single block snapshot.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The new snapshot.</dd>
@@ -108,7 +107,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.snapshot](index.md)
 :::tabs
 == singleBlock
 <div class="member-signature"><span class="return-type"><a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a></span>&nbsp;<span class="element-name">singleBlock</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Creates a new simple single block snapshot.</div>
+Creates a new simple single block snapshot.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information which will fill up the entire snapshot once returned.</dd>

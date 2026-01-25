@@ -14,8 +14,7 @@ extends <a href="../click/IRightClickControllingItem.html" title="interface in m
 
   
 
-<div class="block">Represents an item which is a single bit.</div>
-  
+Represents an item which is a single bit.  
 
 <dl class="notes"></dl>  
 
@@ -92,8 +91,8 @@ extends <a href="../click/IRightClickControllingItem.html" title="interface in m
 == getBlockInformation
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getBlockInformation</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Returns the block information which is contained in a stack with the
- given bit item.</div>
+Returns the block information which is contained in a stack with the
+ given bit item.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack which contains this bit item.</dd>
@@ -110,8 +109,8 @@ extends <a href="../click/IRightClickControllingItem.html" title="interface in m
 :::tabs
 == onMergeOperationWithBagBeginning
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onMergeOperationWithBagBeginning</span>()</div>
-<div class="block">Invoked when a merge operation of a bit inside a bitbag is beginning during a shift-click interaction
- in the bit bag UI.</div>
+Invoked when a merge operation of a bit inside a bitbag is beginning during a shift-click interaction
+ in the bit bag UI.
 <dl class="notes"></dl>
 :::
 
@@ -123,8 +122,8 @@ extends <a href="../click/IRightClickControllingItem.html" title="interface in m
 :::tabs
 == onMergeOperationWithBagEnding
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onMergeOperationWithBagEnding</span>()</div>
-<div class="block">Invoked when a merge operation of a bit inside a bitbag is ending during a shift-click interaction
- in the bit bag UI.</div>
+Invoked when a merge operation of a bit inside a bitbag is ending during a shift-click interaction
+ in the bit bag UI.
 <dl class="notes"></dl>
 :::
 

@@ -14,9 +14,8 @@ extends <a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbi
 
   
 
-<div class="block">Indicates that the area shape identifier can not be subdivided and as such change
- its underlying bit layout, when used in a combining fashion.</div>
-  
+Indicates that the area shape identifier can not be subdivided and as such change
+ its underlying bit layout, when used in a combining fashion.  
 
 <dl class="notes"></dl>  
 

@@ -10,9 +10,8 @@ _Package:_ [mod.chiselsandbits.api.multistate.accessor.identifier](index.md)
 
   
 
-<div class="block">Marker interface that uniquely identifies the shape of the contents that can be accessed
- via a given <a href="../IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor"><code>IAreaAccessor</code></a>.</div>
-  
+Marker interface that uniquely identifies the shape of the contents that can be accessed
+ via a given <a href="../IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor"><code>IAreaAccessor</code></a>.  
 
 <dl class="notes"></dl>  
 
@@ -46,8 +45,8 @@ _Package:_ [mod.chiselsandbits.api.multistate.accessor.identifier](index.md)
 :::tabs
 == DUMMY
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type"><a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a></span>&nbsp;<span class="element-name">DUMMY</span></div>
-<div class="block">The dummy instance of the identifier, in-case it is not relevant in the current context,
- but needs to be supplied.</div>
+The dummy instance of the identifier, in-case it is not relevant in the current context,
+ but needs to be supplied.
 <dl class="notes"></dl>
 :::
 

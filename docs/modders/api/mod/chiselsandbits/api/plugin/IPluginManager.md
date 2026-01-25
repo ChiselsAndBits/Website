@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 
   
 
-<div class="block">The manager for plugins.</div>
-  
+The manager for plugins.  
 
 <dl class="notes"></dl>  
 
@@ -82,7 +81,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == getInstance
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPluginManager.html" title="interface in mod.chiselsandbits.api.plugin">IPluginManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">The instance of the plugin manager.</div>
+The instance of the plugin manager.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The plugin manager.</dd>
@@ -97,7 +96,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == getPlugins
 <div class="member-signature"><span class="return-type">com.google.common.collect.ImmutableSet&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;</span>&nbsp;<span class="element-name">getPlugins</span>()</div>
-<div class="block">Gets the plugins.</div>
+Gets the plugins.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>An immutable set with the plugins.</dd>
@@ -112,7 +111,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == run
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">run</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&nbsp;callback)</span></div>
-<div class="block">Runs a specific task on all available plugins.</div>
+Runs a specific task on all available plugins.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>callback</code> - The task to run for each plugin.</dd>

@@ -14,8 +14,7 @@ extends <a href="IBitInventory.html" title="interface in mod.chiselsandbits.api.
 
   
 
-<div class="block">A bit inventory which can be converted to an itemstack.</div>
-  
+A bit inventory which can be converted to an itemstack.  
 
 <dl class="notes"></dl>  
 
@@ -138,7 +137,7 @@ getSlotsFromRange
 :::tabs
 == toItemStack
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">toItemStack</span>()</div>
-<div class="block">Converts this bit inventory into an itemstack.</div>
+Converts this bit inventory into an itemstack.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The itemstack which represents this inventory.</dd>
@@ -153,7 +152,7 @@ getSlotsFromRange
 :::tabs
 == listContents
 <div class="member-signature"><span class="return-type"><a href="IBitInventoryItemStack.DisplayContents.html" title="class in mod.chiselsandbits.api.inventory.bit">IBitInventoryItemStack.DisplayContents</a></span>&nbsp;<span class="element-name">listContents</span>()</div>
-<div class="block">This lists the contents of the itemstacks bit inventory.</div>
+This lists the contents of the itemstacks bit inventory.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The contents.</dd>
@@ -168,8 +167,8 @@ getSlotsFromRange
 :::tabs
 == getFilledRatio
 <div class="member-signature"><span class="return-type">double</span>&nbsp;<span class="element-name">getFilledRatio</span>()</div>
-<div class="block">Calculates the fullness ratio of the itemstack inventory.
- Useful to render the fullness ration as durability bar on the item.</div>
+Calculates the fullness ratio of the itemstack inventory.
+ Useful to render the fullness ration as durability bar on the item.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The filled ratio.</dd>
@@ -184,7 +183,7 @@ getSlotsFromRange
 :::tabs
 == clear
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;state)</span></div>
-<div class="block">Clears the bit inventory of the current state.</div>
+Clears the bit inventory of the current state.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>state</code> - The blockstate to remove from the bit inventory.</dd>
@@ -199,7 +198,7 @@ getSlotsFromRange
 :::tabs
 == sort
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">sort</span>()</div>
-<div class="block">Sorts the bit inventory.</div>
+Sorts the bit inventory.
 <dl class="notes"></dl>
 :::
 
@@ -211,7 +210,7 @@ getSlotsFromRange
 :::tabs
 == convert
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">convert</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span></div>
-<div class="block">Converts the inventory into blocks</div>
+Converts the inventory into blocks
 <dl class="notes"></dl>
 :::
 

@@ -79,14 +79,7 @@ java.lang.Object
 :::tabs
 == MOD_ID
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MOD_ID</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.MOD_ID">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -97,14 +90,7 @@ java.lang.Object
 :::tabs
 == MOD_NAME
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MOD_NAME</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.MOD_NAME">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -115,14 +101,7 @@ java.lang.Object
 :::tabs
 == MOD_VERSION
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MOD_VERSION</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.MOD_VERSION">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -133,14 +112,7 @@ java.lang.Object
 :::tabs
 == INTERACTABLE_MODEL_LOADER
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">INTERACTABLE_MODEL_LOADER</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.INTERACTABLE_MODEL_LOADER">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -151,14 +123,7 @@ java.lang.Object
 :::tabs
 == TICKS_BETWEEN_CHISEL_USAGE
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">TICKS_BETWEEN_CHISEL_USAGE</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.TICKS_BETWEEN_CHISEL_USAGE">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -169,14 +134,7 @@ java.lang.Object
 :::tabs
 == TICKS_BETWEEN_CHISEL_ERRORS
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">TICKS_BETWEEN_CHISEL_ERRORS</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.TICKS_BETWEEN_CHISEL_ERRORS">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 

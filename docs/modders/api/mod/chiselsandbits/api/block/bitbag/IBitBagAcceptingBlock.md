@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.block.bitbag](index.md)
 
   
 
-<div class="block">Represents a block which can accept a bit bags interaction.</div>
-  
+Represents a block which can accept a bit bags interaction.  
 
 <dl class="notes"></dl>  
 
@@ -71,7 +70,7 @@ _Package:_ [mod.chiselsandbits.api.block.bitbag](index.md)
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">onBitBagInteraction</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;bitBagStack,
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-<div class="block">Invoked when a bit bag interaction is performed against a given block.</div>
+Invoked when a bit bag interaction is performed against a given block.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>bitBagStack</code> - The bit bag stack.</dd>

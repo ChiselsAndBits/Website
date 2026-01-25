@@ -14,8 +14,7 @@ extends com.communi.suggestu.scena.core.registries.ICustomRegistryEntry</span></
 
   
 
-<div class="block">The type of registry entry that represents a change.</div>
-  
+The type of registry entry that represents a change.  
 
 <dl class="notes"></dl>  
 
@@ -80,7 +79,7 @@ getRegistryName
 :::tabs
 == codec
 <div class="member-signature"><span class="return-type">com.mojang.serialization.MapCodec&lt;? extends <a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</span>&nbsp;<span class="element-name">codec</span>()</div>
-<div class="block">Returns The codec for the change..</div>
+Returns The codec for the change..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec for the change.</dd>
@@ -95,7 +94,7 @@ getRegistryName
 :::tabs
 == streamCodec
 <div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf,<wbr>? extends <a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
-<div class="block">Returns The stream codec for the change..</div>
+Returns The stream codec for the change..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The stream codec for the change.</dd>

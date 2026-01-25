@@ -4,16 +4,15 @@ aside: false
 sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.client.render.preview.placement](index.md)  
-# Enum PlacementPreviewRenderMode  
+# Enum Class PlacementPreviewRenderMode  
 ---
 <div class="type-signature"><span class="modifiers">public enum </span><span class="element-name type-name-label">PlacementPreviewRenderMode</span><br/>  
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a>&lt;<a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a>&gt;</span></div>  
 
   
 
-<div class="block">Determines the way chiseled block and pattern placement previews will render.
- This value can be independently set for how successful and failed placement renders.</div>
-  
+Determines the way chiseled block and pattern placement previews will render.
+ This value can be independently set for how successful and failed placement renders.  
 
 <dl class="notes"></dl>  
 
@@ -116,7 +115,7 @@ _Package:_ [mod.chiselsandbits.api.client.render.preview.placement](index.md)
 :::tabs
 == GHOST_BLOCK_MODEL
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">GHOST_BLOCK_MODEL</span></div>
-<div class="block">Causes the preview to render as a ghost of the model of the block to be placed</div>
+Causes the preview to render as a ghost of the model of the block to be placed
 <dl class="notes"></dl>
 :::
 
@@ -128,8 +127,8 @@ _Package:_ [mod.chiselsandbits.api.client.render.preview.placement](index.md)
 :::tabs
 == GHOST_BLOCK_MODEL_SOLID_COLOR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">GHOST_BLOCK_MODEL_SOLID_COLOR</span></div>
-<div class="block">Causes the preview to render the model of the block, such that the block's textures are
- ignored, and each quad  is rendered with the RGBA value specified by the result of placement</div>
+Causes the preview to render the model of the block, such that the block's textures are
+ ignored, and each quad  is rendered with the RGBA value specified by the result of placement
 <dl class="notes"></dl>
 :::
 
@@ -141,8 +140,8 @@ _Package:_ [mod.chiselsandbits.api.client.render.preview.placement](index.md)
 :::tabs
 == WIREFRAME
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">WIREFRAME</span></div>
-<div class="block">Causes the preview to render a wireframe comprised of the edges of the block's model
- with the RGB value specified by the result of placement</div>
+Causes the preview to render a wireframe comprised of the edges of the block's model
+ with the RGB value specified by the result of placement
 <dl class="notes"></dl>
 :::
 
@@ -167,8 +166,8 @@ _Package:_ [mod.chiselsandbits.api.client.render.preview.placement](index.md)
 :::tabs
 == values
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a>[]</span>&nbsp;<span class="element-name">values</span>()</div>
-<div class="block">Returns an array containing the constants of this enum class, in
-the order they are declared.</div>
+Returns an array containing the constants of this enum class, in
+the order they are declared.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>an array containing the constants of this enum class, in the order they are declared</dd>
@@ -183,10 +182,10 @@ the order they are declared.</div>
 :::tabs
 == valueOf
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">valueOf</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-<div class="block">Returns the enum constant of this class with the specified name.
+Returns the enum constant of this class with the specified name.
 The string must match <i>exactly</i> an identifier used to declare an
 enum constant in this class.  (Extraneous whitespace characters are 
-not permitted.)</div>
+not permitted.)
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>name</code> - the name of the enum constant to be returned.</dd>

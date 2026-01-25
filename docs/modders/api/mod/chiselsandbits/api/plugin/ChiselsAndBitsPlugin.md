@@ -4,7 +4,7 @@ aside: false
 sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.plugin](index.md)  
-# Annotation_type ChiselsAndBitsPlugin  
+# Annotation Interface ChiselsAndBitsPlugin  
 **All Extended Interfaces:**  
 Annotation  
 
@@ -15,8 +15,7 @@ Annotation
 
   
 
-<div class="block">Annotation which marks a given class as being a chisels and bits plugin.</div>
-  
+Annotation which marks a given class as being a chisels and bits plugin.  
 
 <dl class="notes"></dl>  
 
@@ -56,8 +55,8 @@ Annotation
 :::tabs
 == requiredMods
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]</span>&nbsp;<span class="element-name">requiredMods</span></div>
-<div class="block">Mod ids of the mods required to load this plugin.
- Leave on the default empty to not care for mod specific filtering.</div>
+Mod ids of the mods required to load this plugin.
+ Leave on the default empty to not care for mod specific filtering.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The ids of the mods required to load.</dd>
@@ -76,11 +75,11 @@ Annotation
 :::tabs
 == isExperimental
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isExperimental</span></div>
-<div class="block">Indicator for an experimental plugin.
+Indicator for an experimental plugin.
  Is only loaded when the user enables experimental plugins in the config.
  <p>
  Experimental plugins get constructed if their mods list matches, however their
- initialization methods are never called!</div>
+ initialization methods are never called!</p>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True for an experimental plugin.</dd>

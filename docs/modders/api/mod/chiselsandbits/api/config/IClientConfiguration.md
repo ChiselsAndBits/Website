@@ -10,11 +10,10 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 
   
 
-<div class="block">All client configuration values that are relevant for the client side of C&amp;B.
+All client configuration values that are relevant for the client side of C&amp;B.
 
  These options are only available on the client, and are not synced between
- the server and the client.</div>
-  
+ the server and the client.  
 
 <dl class="notes"></dl>  
 
@@ -169,9 +168,9 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getInstance
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IClientConfiguration.html" title="interface in mod.chiselsandbits.api.config">IClientConfiguration</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">The client configuration.
+The client configuration.
  Elements in this configuration are only relevant for the client side of C&amp;B.
- This configuration does not need to be in-sync with the server values.</div>
+ This configuration does not need to be in-sync with the server values.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The client configuration.</dd>
@@ -186,8 +185,8 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getInvertBitBagFullness
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getInvertBitBagFullness</span>()</div>
-<div class="block">Indicates if currently the bit bag fullness indication via the damage bar of the stack
- shows fullness or emptiness.</div>
+Indicates if currently the bit bag fullness indication via the damage bar of the stack
+ shows fullness or emptiness.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates the current bit bag fullness indication system.</dd>
@@ -202,7 +201,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getSuccessfulPlacementRenderMode
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="../client/render/preview/placement/PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a>&gt;</span>&nbsp;<span class="element-name">getSuccessfulPlacementRenderMode</span>()</div>
-<div class="block">Determines the render mode used for successful pattern or chiseled block placement.</div>
+Determines the render mode used for successful pattern or chiseled block placement.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates the current successful placement render mode.</dd>
@@ -217,7 +216,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getFailedPlacementRenderMode
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="../client/render/preview/placement/PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a>&gt;</span>&nbsp;<span class="element-name">getFailedPlacementRenderMode</span>()</div>
-<div class="block">Determines the render mode used for successful pattern or chiseled block placement.</div>
+Determines the render mode used for successful pattern or chiseled block placement.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates the current successful placement render mode.</dd>
@@ -232,7 +231,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getSuccessfulPlacementColor
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;org.joml.Vector4f&gt;</span>&nbsp;<span class="element-name">getSuccessfulPlacementColor</span>()</div>
-<div class="block">Determines the color used for successful pattern or chiseled block placement.</div>
+Determines the color used for successful pattern or chiseled block placement.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates the current successful placement color.</dd>
@@ -247,7 +246,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getNotFittingPatternPlacementColor
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;org.joml.Vector4f&gt;</span>&nbsp;<span class="element-name">getNotFittingPatternPlacementColor</span>()</div>
-<div class="block">Determines the color used for pattern placement which does not fit on the targeted position.</div>
+Determines the color used for pattern placement which does not fit on the targeted position.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates the current not fitting placement color.</dd>
@@ -262,8 +261,8 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getMissingBitsOrSpacePatternPlacementColor
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;org.joml.Vector4f&gt;</span>&nbsp;<span class="element-name">getMissingBitsOrSpacePatternPlacementColor</span>()</div>
-<div class="block">Determines the color which indicates that the player is either missing bits, or does not have
- enough space to pick up the bits.</div>
+Determines the color which indicates that the player is either missing bits, or does not have
+ enough space to pick up the bits.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates the current missing bits or insufficient space placement color.</dd>
@@ -278,7 +277,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getPreviewChiselingColor
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;? extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html" title="class or interface in java.lang" class="external-link">Float</a>&gt;&gt;</span>&nbsp;<span class="element-name">getPreviewChiselingColor</span>()</div>
-<div class="block">Provides the RGBA color channels for the color of the chiseling outline.</div>
+Provides the RGBA color channels for the color of the chiseling outline.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates the current chiseling outline color.</dd>
@@ -293,7 +292,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getPreviewPlacementColor
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;? extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html" title="class or interface in java.lang" class="external-link">Float</a>&gt;&gt;</span>&nbsp;<span class="element-name">getPreviewPlacementColor</span>()</div>
-<div class="block">Provides the RGBA color channels for the color of the placement outline.</div>
+Provides the RGBA color channels for the color of the placement outline.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates the current placement outline color.</dd>
@@ -308,8 +307,8 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getPreviewRenderer
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;</span>&nbsp;<span class="element-name">getPreviewRenderer</span>()</div>
-<div class="block">Indicates which preview renderer should be used.
- Returns the id of the preview renderer.</div>
+Indicates which preview renderer should be used.
+ Returns the id of the preview renderer.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates the current preview renderer.</dd>
@@ -324,8 +323,8 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getToolModeRenderer
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;</span>&nbsp;<span class="element-name">getToolModeRenderer</span>()</div>
-<div class="block">Indicates which tool mode renderer should be used.
- Returns the id of the tool mode renderer.</div>
+Indicates which tool mode renderer should be used.
+ Returns the id of the tool mode renderer.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates the current tool mode renderer.</dd>
@@ -340,9 +339,9 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getInvertPickBlockBehaviour
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getInvertPickBlockBehaviour</span>()</div>
-<div class="block">Indicates if the block picking behaviour of chiseled blocks needs to be inverted.
+Indicates if the block picking behaviour of chiseled blocks needs to be inverted.
  By default, a bit is picked from a chiseled block, if this is true however
- then the full block is picked and shift needs to be held to pick the bit.</div>
+ then the full block is picked and shift needs to be held to pick the bit.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates if the block picking behaviour of chiseled blocks needs to be inverted.</dd>
@@ -357,7 +356,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getBitStorageContentCacheSize
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&gt;</span>&nbsp;<span class="element-name">getBitStorageContentCacheSize</span>()</div>
-<div class="block">Indicates the size of the bit storage content model cache size.</div>
+Indicates the size of the bit storage content model cache size.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates the current bit storage content cache size.</dd>
@@ -372,7 +371,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getPrinterContentCacheSize
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&gt;</span>&nbsp;<span class="element-name">getPrinterContentCacheSize</span>()</div>
-<div class="block">Indicates the size of the printer content model cache size.</div>
+Indicates the size of the printer content model cache size.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates the current printer content cache size.</dd>
@@ -387,7 +386,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getEnableFaceLightmapExtraction
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getEnableFaceLightmapExtraction</span>()</div>
-<div class="block">Indicates if the lightmap values of a face should be used to extract lighting information for a model.</div>
+Indicates if the lightmap values of a face should be used to extract lighting information for a model.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates if the lightmap values of a face should be used to extract lighting information for a model.</dd>
@@ -402,7 +401,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getUseGetLightValue
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getUseGetLightValue</span>()</div>
-<div class="block">Indicates if the light emission values of a block should be used to extract lighting information for a model.</div>
+Indicates if the light emission values of a block should be used to extract lighting information for a model.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier that indicates if the light emission values of a block should be used to extract lighting information for a model.</dd>
@@ -417,7 +416,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getEnableMouseIndicatorInRadialMenu
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getEnableMouseIndicatorInRadialMenu</span>()</div>
-<div class="block">Indicates if a mouse indicator should be shown when the mouse is in a selection area in the radial menu.</div>
+Indicates if a mouse indicator should be shown when the mouse is in a selection area in the radial menu.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates if a mouse indicator should be rendered in the radial menu.</dd>
@@ -432,7 +431,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getModelCacheSize
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&gt;</span>&nbsp;<span class="element-name">getModelCacheSize</span>()</div>
-<div class="block">Indicates how many block models should be kept in the model cache.</div>
+Indicates how many block models should be kept in the model cache.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates how many block models should be kept in the model cache.</dd>
@@ -447,7 +446,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getFaceLayerCacheSize
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&gt;</span>&nbsp;<span class="element-name">getFaceLayerCacheSize</span>()</div>
-<div class="block">Indicates how many faces should be kept in the face layer cache.</div>
+Indicates how many faces should be kept in the face layer cache.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates how many faces should be kept in the face layer cache.</dd>
@@ -462,7 +461,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getModelBuildingThreadCount
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</span>&nbsp;<span class="element-name">getModelBuildingThreadCount</span>()</div>
-<div class="block">Indicates how many threads should be used during building of the model cache.</div>
+Indicates how many threads should be used during building of the model cache.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates how many threads should be used.</dd>
@@ -477,7 +476,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getClipboardSize
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</span>&nbsp;<span class="element-name">getClipboardSize</span>()</div>
-<div class="block">Indicates the amount of itemstacks that can be stored in the clipboard.</div>
+Indicates the amount of itemstacks that can be stored in the clipboard.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates the amount of itemstacks that can be stored in the clipboard.</dd>
@@ -492,7 +491,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getShouldBrokenBlocksBeAddedToClipboard
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getShouldBrokenBlocksBeAddedToClipboard</span>()</div>
-<div class="block">Indicates if a broken chiseled block should be added to the clipboard.</div>
+Indicates if a broken chiseled block should be added to the clipboard.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates if a broken chiseled block should be added to the clipboard.</dd>
@@ -507,7 +506,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getShouldPickedBlocksBeAddedToClipboard
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getShouldPickedBlocksBeAddedToClipboard</span>()</div>
-<div class="block">Indicates if a picked chiseled block should be added to the clipboard.</div>
+Indicates if a picked chiseled block should be added to the clipboard.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates if a picked chiseled block should be added to the clipboard.</dd>
@@ -522,7 +521,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getPatternExportPath
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;</span>&nbsp;<span class="element-name">getPatternExportPath</span>()</div>
-<div class="block">Indicates the path where chisels and bits will export and import patterns from.</div>
+Indicates the path where chisels and bits will export and import patterns from.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates the path where chisels and bits will export and import patterns from.</dd>
@@ -537,7 +536,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getStackModelCacheSize
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&gt;</span>&nbsp;<span class="element-name">getStackModelCacheSize</span>()</div>
-<div class="block">Indicates the size of the stack model cache.</div>
+Indicates the size of the stack model cache.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates the size of the stack model cache.</dd>
@@ -552,7 +551,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getCullTestingCacheSize
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&gt;</span>&nbsp;<span class="element-name">getCullTestingCacheSize</span>()</div>
-<div class="block">Indicates the size of the cull testing cache.</div>
+Indicates the size of the cull testing cache.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The size of the cull testing cache.</dd>
@@ -567,7 +566,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getMutatorPreviewChiselingColor
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;? extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html" title="class or interface in java.lang" class="external-link">Float</a>&gt;&gt;</span>&nbsp;<span class="element-name">getMutatorPreviewChiselingColor</span>()</div>
-<div class="block">Determines the color used during debug rendering of the mutator area when chiseling.</div>
+Determines the color used during debug rendering of the mutator area when chiseling.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates the color used during debug rendering of the mutator area when chiseling.</dd>
@@ -582,7 +581,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getMutatorPreviewPlacementColor
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;? extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Float.html" title="class or interface in java.lang" class="external-link">Float</a>&gt;&gt;</span>&nbsp;<span class="element-name">getMutatorPreviewPlacementColor</span>()</div>
-<div class="block">Determines the color used during debug rendering of the mutator area when placing.</div>
+Determines the color used during debug rendering of the mutator area when placing.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates the color used during debug rendering of the mutator area when placing.</dd>
@@ -597,7 +596,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getMutatorPreviewDebug
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getMutatorPreviewDebug</span>()</div>
-<div class="block">Indicates if the preview rendering should run in debug mode.</div>
+Indicates if the preview rendering should run in debug mode.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates if the preview rendering should run in debug mode.</dd>
@@ -612,7 +611,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getShowCoolDownError
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getShowCoolDownError</span>()</div>
-<div class="block">Indicates if an error notification should be shown when the player attempts to chisel during a cool down or not.</div>
+Indicates if an error notification should be shown when the player attempts to chisel during a cool down or not.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates if an error notification should be shown when the player attempts to chisel during a cool down or not.</dd>
@@ -627,7 +626,7 @@ _Package:_ [mod.chiselsandbits.api.config](index.md)
 :::tabs
 == getShouldScrollInteractionsChangeMode
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getShouldScrollInteractionsChangeMode</span>()</div>
-<div class="block">Indicates if a scroll interactions should change the mode of a held item.</div>
+Indicates if a scroll interactions should change the mode of a held item.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A configuration supplier which indicates if a scroll interactions should change the mode of a held item.</dd>

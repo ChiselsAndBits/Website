@@ -14,8 +14,7 @@ extends <a href="IChangeHandler.html" title="interface in mod.chiselsandbits.api
 
   
 
-<div class="block">Represents a single change that has been created with bits.</div>
-  
+Represents a single change that has been created with bits.  
 
 <dl class="notes"></dl>  
 
@@ -120,7 +119,7 @@ extends <a href="IChangeHandler.html" title="interface in mod.chiselsandbits.api
 :::tabs
 == getType
 <div class="member-signature"><span class="return-type"><a href="IChangeType.html" title="interface in mod.chiselsandbits.api.change.changes">IChangeType</a></span>&nbsp;<span class="element-name">getType</span>()</div>
-<div class="block">Returns The type of the change..</div>
+Returns The type of the change..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The type of the change.</dd>

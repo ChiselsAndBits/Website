@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.block.entity](index.md)  
 # Interface IMultiStateBlockEntity  
 **All Extended Interfaces:**  
-[IAABBOwner](../aabb/IAABBOwner.md), [IAreaAccessor](../accessor/IAreaAccessor.md), [IAreaAccessorWithVoxelShape](../accessor/IAreaAccessorWithVoxelShape.md), [ISingleBlockAxisAlignedAreaAccessor](../accessor/ISingleBlockAxisAlignedAreaAccessor.md), [IStateAccessor](../accessor/IStateAccessor.md), [IWorldAreaAccessor](../world/IWorldAreaAccessor.md), [IBatchedAreaMutator](../batched/IBatchedAreaMutator.md), [IAreaMutator](../mutator/IAreaMutator.md), [IGenerallyModifiableAreaMutator](../mutator/IGenerallyModifiableAreaMutator.md), [IMirrorAndRotateble](../mutator/IMirrorAndRotateble.md), [IWorldAreaMutator](../world/IWorldAreaMutator.md), [IWithBatchableMutationSupport](../util/IWithBatchableMutationSupport.md), [IWorldObject](../util/IWorldObject.md)  
+[IAABBOwner](../../aabb/IAABBOwner.md), [IAreaAccessor](../../multistate/accessor/IAreaAccessor.md), [IAreaAccessorWithVoxelShape](../../multistate/accessor/IAreaAccessorWithVoxelShape.md), [ISingleBlockAxisAlignedAreaAccessor](../../multistate/accessor/ISingleBlockAxisAlignedAreaAccessor.md), [IStateAccessor](../../multistate/accessor/IStateAccessor.md), [IWorldAreaAccessor](../../multistate/accessor/world/IWorldAreaAccessor.md), [IBatchedAreaMutator](../../multistate/mutator/batched/IBatchedAreaMutator.md), [IAreaMutator](../../multistate/mutator/IAreaMutator.md), [IGenerallyModifiableAreaMutator](../../multistate/mutator/IGenerallyModifiableAreaMutator.md), [IMirrorAndRotateble](../../multistate/mutator/IMirrorAndRotateble.md), [IWorldAreaMutator](../../multistate/mutator/world/IWorldAreaMutator.md), [IWithBatchableMutationSupport](../../util/IWithBatchableMutationSupport.md), [IWorldObject](../../util/IWorldObject.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMultiStateBlockEntity</span><span class="extends-implements"><br/>  
@@ -14,9 +14,8 @@ extends <a href="../../multistate/accessor/world/IWorldAreaAccessor.html" title=
 
   
 
-<div class="block">Represents the block entity with the state data, which under-ly the information
- provided by the <a href="../IMultiStateBlock.html" title="interface in mod.chiselsandbits.api.block"><code>IMultiStateBlock</code></a> blocks.</div>
-  
+Represents the block entity with the state data, which under-ly the information
+ provided by the <a href="../IMultiStateBlock.html" title="interface in mod.chiselsandbits.api.block"><code>IMultiStateBlock</code></a> blocks.  
 
 <dl class="notes"></dl>  
 
@@ -158,7 +157,7 @@ extends <a href="../../multistate/accessor/world/IWorldAreaAccessor.html" title=
 :::tabs
 == isCanBeFlooded
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isCanBeFlooded</span>()</div>
-<div class="block">Indicates whether the current block entity can be flooded with water.</div>
+Indicates whether the current block entity can be flooded with water.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True to allow flooding, false when not.</dd>
@@ -173,7 +172,7 @@ extends <a href="../../multistate/accessor/world/IWorldAreaAccessor.html" title=
 :::tabs
 == setCanBeFlooded
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setCanBeFlooded</span><wbr><span class="parameters">(boolean&nbsp;canBeFlooded)</span></div>
-<div class="block">Sets the flooding indicator.</div>
+Sets the flooding indicator.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>canBeFlooded</code> - True to allow flooding, false when not.</dd>
@@ -188,7 +187,7 @@ extends <a href="../../multistate/accessor/world/IWorldAreaAccessor.html" title=
 :::tabs
 == isEmitsLightBasedOnFullBlock
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isEmitsLightBasedOnFullBlock</span>()</div>
-<div class="block">Indicates whether the lighting conditions of the block are based on the amount of bits in the block or the full block.</div>
+Indicates whether the lighting conditions of the block are based on the amount of bits in the block or the full block.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True to use full block size calculation, false when not.</dd>
@@ -203,7 +202,7 @@ extends <a href="../../multistate/accessor/world/IWorldAreaAccessor.html" title=
 :::tabs
 == setEmitsLightBasedOnFullBlock
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setEmitsLightBasedOnFullBlock</span><wbr><span class="parameters">(boolean&nbsp;emitsLightBasedOnFullBlock)</span></div>
-<div class="block">Sets the lighting conditions indicator.</div>
+Sets the lighting conditions indicator.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>emitsLightBasedOnFullBlock</code> - True to calculate lighting conditions over the full block, false only over the set bits.</dd>
@@ -218,7 +217,7 @@ extends <a href="../../multistate/accessor/world/IWorldAreaAccessor.html" title=
 :::tabs
 == getStatistics
 <div class="member-signature"><span class="return-type"><a href="../../multistate/statistics/IMultiStateObjectStatistics.html" title="interface in mod.chiselsandbits.api.multistate.statistics">IMultiStateObjectStatistics</a></span>&nbsp;<span class="element-name">getStatistics</span>()</div>
-<div class="block">The statistics of this block.</div>
+The statistics of this block.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../multistate/accessor/ISingleBlockAxisAlignedAreaAccessor.html#getStatistics()">getStatistics</a></code>&nbsp;in interface&nbsp;<code><a href="../../multistate/accessor/ISingleBlockAxisAlignedAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">ISingleBlockAxisAlignedAreaAccessor</a></code></dd>
@@ -236,7 +235,7 @@ extends <a href="../../multistate/accessor/world/IWorldAreaAccessor.html" title=
 == rotate
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">rotate</span><wbr><span class="parameters">(net.minecraft.core.Direction.Axis&nbsp;axis,
  int&nbsp;rotationCount)</span></div>
-<div class="block">Rotates the current multistate block 90 degrees around the given axis with the given rotation count.</div>
+Rotates the current multistate block 90 degrees around the given axis with the given rotation count.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../multistate/mutator/IMirrorAndRotateble.html#rotate(net.minecraft.core.Direction.Axis,int)">rotate</a></code>&nbsp;in interface&nbsp;<code><a href="../../multistate/mutator/IMirrorAndRotateble.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMirrorAndRotateble</a></code></dd>
@@ -254,8 +253,8 @@ extends <a href="../../multistate/accessor/world/IWorldAreaAccessor.html" title=
 :::tabs
 == initializeWith
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">initializeWith</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;initialInformation)</span></div>
-<div class="block">Initializes the block entity so that all its state entries
- have the given block information as their block information.</div>
+Initializes the block entity so that all its state entries
+ have the given block information as their block information.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>initialInformation</code> - The new initial block information.</dd>
@@ -270,7 +269,7 @@ extends <a href="../../multistate/accessor/world/IWorldAreaAccessor.html" title=
 :::tabs
 == getShape
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.shapes.VoxelShape</span>&nbsp;<span class="element-name">getShape</span><wbr><span class="parameters">(<a href="../../axissize/CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&nbsp;type)</span></div>
-<div class="block">Returns the current blocks shape for the given collision type.</div>
+Returns the current blocks shape for the given collision type.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>type</code> - The collision type to get the shape for.</dd>
@@ -287,7 +286,7 @@ extends <a href="../../multistate/accessor/world/IWorldAreaAccessor.html" title=
 :::tabs
 == getBlockStack
 <div class="member-signature"><span class="return-type"><a href="IMultiStateBlockEntity.BlockStack.html" title="class in mod.chiselsandbits.api.block.entity">IMultiStateBlockEntity.BlockStack</a></span>&nbsp;<span class="element-name">getBlockStack</span>()</div>
-<div class="block">Creates an <code>ItemStack</code> for placement as a block.</div>
+Creates an <code>ItemStack</code> for placement as a block.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The block stack.</dd>

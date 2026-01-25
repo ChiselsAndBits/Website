@@ -14,9 +14,8 @@ java.lang.Object
 
   
 
-<div class="block">Utility class for managing grouping of objects
- in a collection, based on some key.</div>
-  
+Utility class for managing grouping of objects
+ in a collection, based on some key.  
 
 <dl class="notes"></dl>  
 
@@ -83,8 +82,8 @@ java.lang.Object
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="type-parameters">&lt;T,<wbr>
 O&gt;</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;T&gt;&gt;</span>&nbsp;<span class="element-name">groupByUsingSet</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Iterable.html" title="class or interface in java.lang" class="external-link">Iterable</a>&lt;T&gt;&nbsp;source,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;T,<wbr>O&gt;&nbsp;extractor)</span></div>
-<div class="block">Group the given collection by the given key.
- Returns a <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link"><code>Set</code></a> and as such eliminates duplicates.</div>
+Group the given collection by the given key.
+ Returns a <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link"><code>Set</code></a> and as such eliminates duplicates.
 <dl class="notes">
 <dt>Type Parameters:</dt>
 <dd><code>T</code> - The type of the objects to group.</dd>
@@ -107,8 +106,8 @@ O&gt;</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="type-parameters">&lt;T,<wbr>
 O&gt;</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;T&gt;&gt;</span>&nbsp;<span class="element-name">groupByUsingList</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Iterable.html" title="class or interface in java.lang" class="external-link">Iterable</a>&lt;T&gt;&nbsp;source,
  <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;T,<wbr>O&gt;&nbsp;extractor)</span></div>
-<div class="block">Group the given collection by the given key.
- Returns a <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link"><code>List</code></a> and as such does not eliminate duplicates.</div>
+Group the given collection by the given key.
+ Returns a <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link"><code>List</code></a> and as such does not eliminate duplicates.
 <dl class="notes">
 <dt>Type Parameters:</dt>
 <dd><code>T</code> - The type of the objects to group.</dd>

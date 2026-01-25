@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.voxelshape](index.md)
 
   
 
-<div class="block">A manager for dealing with voxelshapes related to chiseled blocks and areas.</div>
-  
+A manager for dealing with voxelshapes related to chiseled blocks and areas.  
 
 <dl class="notes"></dl>  
 
@@ -119,8 +118,8 @@ _Package:_ [mod.chiselsandbits.api.voxelshape](index.md)
 :::tabs
 == get
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.shapes.VoxelShape</span>&nbsp;<span class="element-name">get</span><wbr><span class="parameters">(<a href="../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&nbsp;accessor)</span></div>
-<div class="block">Returns the shape of the multistate entries which are contained in the given area accessor.
- Excludes all air states.</div>
+Returns the shape of the multistate entries which are contained in the given area accessor.
+ Excludes all air states.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>accessor</code> - The accessor to get the shape of.</dd>
@@ -138,8 +137,8 @@ _Package:_ [mod.chiselsandbits.api.voxelshape](index.md)
 == get
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.shapes.VoxelShape</span>&nbsp;<span class="element-name">get</span><wbr><span class="parameters">(<a href="../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&nbsp;accessor,
  net.minecraft.core.BlockPos&nbsp;offset)</span></div>
-<div class="block">Returns the shape of the multistate entries which are contained in the given area accessor.
- Excludes all air states.</div>
+Returns the shape of the multistate entries which are contained in the given area accessor.
+ Excludes all air states.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>accessor</code> - The accessor to get the shape of.</dd>
@@ -158,7 +157,7 @@ _Package:_ [mod.chiselsandbits.api.voxelshape](index.md)
 == get
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.shapes.VoxelShape</span>&nbsp;<span class="element-name">get</span><wbr><span class="parameters">(<a href="../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&nbsp;accessor,
  <a href="../axissize/CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&nbsp;sizeType)</span></div>
-<div class="block">Returns the shape of the multistate entries which are contained in the given area accessor.</div>
+Returns the shape of the multistate entries which are contained in the given area accessor.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>accessor</code> - The accessor to get the shape of.</dd>
@@ -178,7 +177,7 @@ _Package:_ [mod.chiselsandbits.api.voxelshape](index.md)
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.shapes.VoxelShape</span>&nbsp;<span class="element-name">get</span><wbr><span class="parameters">(<a href="../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&nbsp;accessor,
  <a href="../axissize/CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&nbsp;sizeType,
  boolean&nbsp;simplify)</span></div>
-<div class="block">Returns the shape of the multistate entries which are contained in the given area accessor.</div>
+Returns the shape of the multistate entries which are contained in the given area accessor.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>accessor</code> - The accessor to get the shape of.</dd>
@@ -200,7 +199,7 @@ _Package:_ [mod.chiselsandbits.api.voxelshape](index.md)
  net.minecraft.core.BlockPos&nbsp;offset,
  <a href="../axissize/CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&nbsp;sizeType,
  boolean&nbsp;simplify)</span></div>
-<div class="block">Returns the shape of the multistate entries which are contained in the given area accessor.</div>
+Returns the shape of the multistate entries which are contained in the given area accessor.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>accessor</code> - The accessor to get the shape of.</dd>
@@ -221,8 +220,8 @@ _Package:_ [mod.chiselsandbits.api.voxelshape](index.md)
 == getCached
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;net.minecraft.world.phys.shapes.VoxelShape&gt;</span>&nbsp;<span class="element-name">getCached</span><wbr><span class="parameters">(<a href="../multistate/accessor/identifier/IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a>&nbsp;identifier,
  net.minecraft.core.BlockPos&nbsp;offset)</span></div>
-<div class="block">Returns the shape that is referenced by a given area shape identifier.
- If no shape with the given identifier is known then an empty optional is returned.</div>
+Returns the shape that is referenced by a given area shape identifier.
+ If no shape with the given identifier is known then an empty optional is returned.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>identifier</code> - The identifier to get the voxel shape for.</dd>
@@ -242,8 +241,8 @@ _Package:_ [mod.chiselsandbits.api.voxelshape](index.md)
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;net.minecraft.world.phys.shapes.VoxelShape&gt;</span>&nbsp;<span class="element-name">getCached</span><wbr><span class="parameters">(<a href="../multistate/accessor/identifier/IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a>&nbsp;identifier,
  net.minecraft.core.BlockPos&nbsp;offset,
  <a href="../axissize/CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&nbsp;sizeType)</span></div>
-<div class="block">Returns the shape that is referenced by a given area shape identifier.
- If no shape with the given identifier is known then an empty optional is returned.</div>
+Returns the shape that is referenced by a given area shape identifier.
+ If no shape with the given identifier is known then an empty optional is returned.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>identifier</code> - The identifier to get the voxel shape for.</dd>
@@ -265,8 +264,8 @@ _Package:_ [mod.chiselsandbits.api.voxelshape](index.md)
  net.minecraft.core.BlockPos&nbsp;offset,
  <a href="../axissize/CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&nbsp;sizeType,
  boolean&nbsp;simplify)</span></div>
-<div class="block">Returns the shape that is referenced by a given area shape identifier.
- If no shape with the given identifier is known then an empty optional is returned.</div>
+Returns the shape that is referenced by a given area shape identifier.
+ If no shape with the given identifier is known then an empty optional is returned.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>identifier</code> - The identifier to get the voxel shape for.</dd>

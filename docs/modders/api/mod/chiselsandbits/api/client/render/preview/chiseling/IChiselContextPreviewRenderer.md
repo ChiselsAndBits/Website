@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.client.render.preview.chiseling](index.md)
 
   
 
-<div class="block">Renderer which is used to render the chiseling preview.</div>
-  
+Renderer which is used to render the chiseling preview.  
 
 <dl class="notes"></dl>  
 
@@ -72,8 +71,8 @@ _Package:_ [mod.chiselsandbits.api.client.render.preview.chiseling](index.md)
 :::tabs
 == getId
 <div class="member-signature"><span class="return-type">net.minecraft.resources.Identifier</span>&nbsp;<span class="element-name">getId</span>()</div>
-<div class="block">The id of teh renderer.
- Used to give the player a selection option for the preview renderer.</div>
+The id of teh renderer.
+ Used to give the player a selection option for the preview renderer.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The id of the preview renderer.</dd>
@@ -93,7 +92,7 @@ _Package:_ [mod.chiselsandbits.api.client.render.preview.chiseling](index.md)
  net.minecraft.client.renderer.state.LevelRenderState&nbsp;levelRenderState,
  float&nbsp;partialTicks,
  <a href="../../../../chiseling/IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;currentContextSnapshot)</span></div>
-<div class="block">Invoked by the engine to render previews of the given <a href="../../../../chiseling/IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling"><code>IChiselingContext</code></a>.</div>
+Invoked by the engine to render previews of the given <a href="../../../../chiseling/IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling"><code>IChiselingContext</code></a>.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>levelRenderer</code> - The level renderer in which the bounding box is being rendered.</dd>

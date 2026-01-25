@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.measuring](index.md)  
 # Interface IMeasuringMode  
 **All Extended Interfaces:**  
-[IRenderableMode](../withmode/IRenderableMode.md), [IToolMode\<IMeasuringType\>](../withmode/IToolMode.md), [IWithColor](../util/IWithColor.md), [IWithDisplayName](../util/IWithDisplayName.md), [IWithIcon](../util/IWithIcon.md), [IWithIconAndColor](../util/IWithIconAndColor.md)  
+[IRenderableMode](../item/withmode/IRenderableMode.md), [IToolMode\<IMeasuringType\>](../item/withmode/IToolMode.md), [IWithColor](../util/IWithColor.md), [IWithDisplayName](../util/IWithDisplayName.md), [IWithIcon](../util/IWithIcon.md), [IWithIconAndColor](../util/IWithIconAndColor.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMeasuringMode</span><span class="extends-implements"><br/>  

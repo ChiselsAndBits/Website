@@ -14,8 +14,7 @@ extends <a href="../interactable/IInteractableItem.html" title="interface in mod
 
   
 
-<div class="block">Represents a quill that can be used to create patterns.</div>
-  
+Represents a quill that can be used to create patterns.  
 
 <dl class="notes"></dl>  
 

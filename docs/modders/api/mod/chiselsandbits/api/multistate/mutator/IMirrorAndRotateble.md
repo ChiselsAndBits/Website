@@ -83,7 +83,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.mutator](index.md)
 == rotate
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">rotate</span><wbr><span class="parameters">(net.minecraft.core.Direction.Axis&nbsp;axis,
  int&nbsp;rotationCount)</span></div>
-<div class="block">Rotates the current multistate block 90 degrees around the given axis with the given rotation count.</div>
+Rotates the current multistate block 90 degrees around the given axis with the given rotation count.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>axis</code> - The axis to rotate around.</dd>
@@ -99,7 +99,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.mutator](index.md)
 :::tabs
 == rotate
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">rotate</span><wbr><span class="parameters">(net.minecraft.core.Direction.Axis&nbsp;axis)</span></div>
-<div class="block">Rotates the current multistate block exactly once 90 degrees around the given axis.</div>
+Rotates the current multistate block exactly once 90 degrees around the given axis.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>axis</code> - The axis to rotate around.</dd>
@@ -114,7 +114,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.mutator](index.md)
 :::tabs
 == mirror
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">mirror</span><wbr><span class="parameters">(net.minecraft.core.Direction.Axis&nbsp;axis)</span></div>
-<div class="block">Mirrors the current multistate block around the given axis.</div>
+Mirrors the current multistate block around the given axis.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>axis</code> - The axis to mirror over.</dd>

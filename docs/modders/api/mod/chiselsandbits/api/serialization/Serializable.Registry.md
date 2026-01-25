@@ -20,8 +20,7 @@ extends <a href="Serializable.html" title="interface in mod.chiselsandbits.api.s
 
   
 
-<div class="block">Serializes specifically when a registry is involved.</div>
-  
+Serializes specifically when a registry is involved.  
 
 <dl class="notes"></dl>  
 

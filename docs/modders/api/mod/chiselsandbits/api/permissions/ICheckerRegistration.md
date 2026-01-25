@@ -14,12 +14,11 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 
   
 
-<div class="block">A marker interface which can be used to dynamically register and un-register
+A marker interface which can be used to dynamically register and un-register
  a <a href="IPermissionChecker.html" title="interface in mod.chiselsandbits.api.permissions"><code>IPermissionChecker</code></a> to the <a href="IPermissionHandler.html" title="interface in mod.chiselsandbits.api.permissions"><code>IPermissionHandler</code></a>.
 
  If the <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/AutoCloseable.html#close()" title="class or interface in java.lang" class="external-link"><code>AutoCloseable.close()</code></a> is called then the <a href="IPermissionChecker.html" title="interface in mod.chiselsandbits.api.permissions"><code>IPermissionChecker</code></a> will be
- unregistered from the <a href="IPermissionHandler.html" title="interface in mod.chiselsandbits.api.permissions"><code>IPermissionHandler</code></a>.</div>
-  
+ unregistered from the <a href="IPermissionHandler.html" title="interface in mod.chiselsandbits.api.permissions"><code>IPermissionHandler</code></a>.  
 
 <dl class="notes"></dl>  
 

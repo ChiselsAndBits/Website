@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.multistate.mutator](index.md)  
 # Interface IAreaMutator  
 **All Extended Interfaces:**  
-[IAABBOwner](../aabb/IAABBOwner.md), [IAreaAccessor](../accessor/IAreaAccessor.md), [IStateAccessor](../accessor/IStateAccessor.md)  
+[IAABBOwner](../../aabb/IAABBOwner.md), [IAreaAccessor](../accessor/IAreaAccessor.md), [IStateAccessor](../accessor/IStateAccessor.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IAreaMutator</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends <a href="../accessor/IAreaAccessor.html" title="interface in mod.chisels
 
   
 
-<div class="block">A mutator for a given area.</div>
-  
+A mutator for a given area.  
 
 <dl class="notes"></dl>  
 
@@ -111,8 +110,8 @@ extends <a href="../accessor/IAreaAccessor.html" title="interface in mod.chisels
 :::tabs
 == mutableStream
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="IMutableStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutableStateEntryInfo</a>&gt;</span>&nbsp;<span class="element-name">mutableStream</span>()</div>
-<div class="block">Returns all entries in the current area in a mutable fashion.
- Includes all empty areas as areas containing an air state.</div>
+Returns all entries in the current area in a mutable fashion.
+ Includes all empty areas as areas containing an air state.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A stream with a mutable state entry info for each mutable section in the area.</dd>
@@ -129,7 +128,7 @@ extends <a href="../accessor/IAreaAccessor.html" title="interface in mod.chisels
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setInAreaTarget</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  net.minecraft.world.phys.Vec3&nbsp;inAreaTarget)</span>
               throws <span class="exceptions"><a href="../../exceptions/SpaceOccupiedException.html" title="class in mod.chiselsandbits.api.exceptions">SpaceOccupiedException</a></span></div>
-<div class="block">Sets the target block information in the current area, using the offset from the area as well as the in area target offset.</div>
+Sets the target block information in the current area, using the offset from the area as well as the in area target offset.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -150,8 +149,8 @@ extends <a href="../accessor/IAreaAccessor.html" title="interface in mod.chisels
  net.minecraft.core.BlockPos&nbsp;inAreaBlockPosOffset,
  net.minecraft.world.phys.Vec3&nbsp;inBlockTarget)</span>
                throws <span class="exceptions"><a href="../../exceptions/SpaceOccupiedException.html" title="class in mod.chiselsandbits.api.exceptions">SpaceOccupiedException</a></span></div>
-<div class="block">Sets the target block information in the current area, using the in area block position offset
- as well as the in block target offset to calculate the in area offset for setting.</div>
+Sets the target block information in the current area, using the in area block position offset
+ as well as the in block target offset to calculate the in area offset for setting.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -170,7 +169,7 @@ extends <a href="../accessor/IAreaAccessor.html" title="interface in mod.chisels
 :::tabs
 == clearInAreaTarget
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clearInAreaTarget</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;inAreaTarget)</span></div>
-<div class="block">Clears the current area, using the offset from the area as well as the in area target offset.</div>
+Clears the current area, using the offset from the area as well as the in area target offset.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inAreaTarget</code> - The in area offset.</dd>
@@ -186,7 +185,7 @@ extends <a href="../accessor/IAreaAccessor.html" title="interface in mod.chisels
 == clearInBlockTarget
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clearInBlockTarget</span><wbr><span class="parameters">(net.minecraft.core.BlockPos&nbsp;inAreaBlockPosOffset,
  net.minecraft.world.phys.Vec3&nbsp;inBlockTarget)</span></div>
-<div class="block">Clears the current area, using the in area block position offset as well as the in block target offset to calculate the in area offset for setting.</div>
+Clears the current area, using the in area block position offset as well as the in block target offset to calculate the in area offset for setting.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inAreaBlockPosOffset</code> - The offset of blocks in the current area.</dd>
@@ -203,8 +202,8 @@ extends <a href="../accessor/IAreaAccessor.html" title="interface in mod.chisels
 == overrideInAreaTarget
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">overrideInAreaTarget</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  net.minecraft.world.phys.Vec3&nbsp;inAreaTarget)</span></div>
-<div class="block">Overrides the target block information in the current area, using the offset from the
- area as well as the in area target offset.</div>
+Overrides the target block information in the current area, using the offset from the
+ area as well as the in area target offset.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -222,8 +221,8 @@ extends <a href="../accessor/IAreaAccessor.html" title="interface in mod.chisels
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">overrideInAreaTarget</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  net.minecraft.core.BlockPos&nbsp;inAreaBlockPosOffset,
  net.minecraft.world.phys.Vec3&nbsp;inBlockTarget)</span></div>
-<div class="block">Overrides the target block information in the current area, using the in area block position offset as well
- as the in block target offset to calculate the in area offset for setting.</div>
+Overrides the target block information in the current area, using the in area block position offset as well
+ as the in block target offset to calculate the in area offset for setting.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>

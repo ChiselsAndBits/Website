@@ -14,14 +14,13 @@ This is a functional interface and can therefore be used as the assignment targe
 
   
 
-<div class="block">Represents an object which can mutate the order of the coordinate members
+Represents an object which can mutate the order of the coordinate members
  before they are retrieved from storage.
 
  The default loop order is XYZ.
  However by swapping for example the X and Y coordinate member of the
  passed coordinates a YXZ loop order can be achieved without
- the performance degradation of sorting.</div>
-  
+ the performance degradation of sorting.  
 
 <dl class="notes"></dl>  
 
@@ -114,7 +113,7 @@ This is a functional interface and can therefore be used as the assignment targe
 :::tabs
 == mutate
 <div class="member-signature"><span class="return-type">net.minecraft.core.Vec3i</span>&nbsp;<span class="element-name">mutate</span><wbr><span class="parameters">(net.minecraft.core.Vec3i&nbsp;input)</span></div>
-<div class="block">Applies the mutation that this mutator performs on a given position.</div>
+Applies the mutation that this mutator performs on a given position.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>input</code> - The input position.</dd>
@@ -131,7 +130,7 @@ This is a functional interface and can therefore be used as the assignment targe
 :::tabs
 == then
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type"><a href="IPositionMutator.html" title="interface in mod.chiselsandbits.api.multistate.accessor.sortable">IPositionMutator</a></span>&nbsp;<span class="element-name">then</span><wbr><span class="parameters">(<a href="IPositionMutator.html" title="interface in mod.chiselsandbits.api.multistate.accessor.sortable">IPositionMutator</a>&nbsp;next)</span></div>
-<div class="block">Creates a new mutator which chains the current and the next mutator into one.</div>
+Creates a new mutator which chains the current and the next mutator into one.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>next</code> - The mutator that needs to be applied after the current mutator.</dd>
@@ -148,8 +147,8 @@ This is a functional interface and can therefore be used as the assignment targe
 :::tabs
 == identity
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPositionMutator.html" title="interface in mod.chiselsandbits.api.multistate.accessor.sortable">IPositionMutator</a></span>&nbsp;<span class="element-name">identity</span>()</div>
-<div class="block">The identity operator.
- Performs no change to the passed in position.</div>
+The identity operator.
+ Performs no change to the passed in position.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>An identity position mutator.</dd>
@@ -164,8 +163,8 @@ This is a functional interface and can therefore be used as the assignment targe
 :::tabs
 == xyz
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPositionMutator.html" title="interface in mod.chiselsandbits.api.multistate.accessor.sortable">IPositionMutator</a></span>&nbsp;<span class="element-name">xyz</span>()</div>
-<div class="block">The xyz operator.
- Generally also perceived as the identity mutator.</div>
+The xyz operator.
+ Generally also perceived as the identity mutator.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The identity mutator.</dd>
@@ -180,7 +179,7 @@ This is a functional interface and can therefore be used as the assignment targe
 :::tabs
 == xzy
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPositionMutator.html" title="interface in mod.chiselsandbits.api.multistate.accessor.sortable">IPositionMutator</a></span>&nbsp;<span class="element-name">xzy</span>()</div>
-<div class="block">The xzy operator.</div>
+The xzy operator.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The mutator which switches the Y and Z coordinate members</dd>
@@ -195,7 +194,7 @@ This is a functional interface and can therefore be used as the assignment targe
 :::tabs
 == zyx
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPositionMutator.html" title="interface in mod.chiselsandbits.api.multistate.accessor.sortable">IPositionMutator</a></span>&nbsp;<span class="element-name">zyx</span>()</div>
-<div class="block">The zyx operator.</div>
+The zyx operator.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The mutator which switches the X and Z coordinate members</dd>
@@ -210,7 +209,7 @@ This is a functional interface and can therefore be used as the assignment targe
 :::tabs
 == yxz
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPositionMutator.html" title="interface in mod.chiselsandbits.api.multistate.accessor.sortable">IPositionMutator</a></span>&nbsp;<span class="element-name">yxz</span>()</div>
-<div class="block">The yxz operator.</div>
+The yxz operator.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The mutator which switches the X and Y coordinate members</dd>
@@ -225,7 +224,7 @@ This is a functional interface and can therefore be used as the assignment targe
 :::tabs
 == zxy
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPositionMutator.html" title="interface in mod.chiselsandbits.api.multistate.accessor.sortable">IPositionMutator</a></span>&nbsp;<span class="element-name">zxy</span>()</div>
-<div class="block">The zxy operator.</div>
+The zxy operator.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The mutator which switches the X with the Z and then the Y with the moved X coordinate members</dd>
@@ -240,8 +239,8 @@ This is a functional interface and can therefore be used as the assignment targe
 :::tabs
 == yzx
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPositionMutator.html" title="interface in mod.chiselsandbits.api.multistate.accessor.sortable">IPositionMutator</a></span>&nbsp;<span class="element-name">yzx</span>()</div>
-<div class="block">The yzx operator
- Is a combination of xzy and zyx.</div>
+The yzx operator
+ Is a combination of xzy and zyx.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The mutator which primary switches the Y and Z and then the X and Z coordinates.</dd>
@@ -256,8 +255,8 @@ This is a functional interface and can therefore be used as the assignment targe
 :::tabs
 == fromAxis
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPositionMutator.html" title="interface in mod.chiselsandbits.api.multistate.accessor.sortable">IPositionMutator</a></span>&nbsp;<span class="element-name">fromAxis</span><wbr><span class="parameters">(net.minecraft.core.Direction.Axis&nbsp;axis)</span></div>
-<div class="block">Returns the mutator which primary iterates over the given direction and then over the others.
- The order of the other axi is not fixed.</div>
+Returns the mutator which primary iterates over the given direction and then over the others.
+ The order of the other axi is not fixed.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>axis</code> - The axis to iterate over primary.</dd>

@@ -16,8 +16,7 @@ java.lang.Object
 
   
 
-<div class="block">Exception thrown when change attempt is made before checking if the change attempt is possible.</div>
-  
+Exception thrown when change attempt is made before checking if the change attempt is possible.  
 
 <dl class="notes"><br/>  
 <dt>See Also:</dt><br/>  

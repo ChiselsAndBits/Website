@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.client.tool.mode.icon](index.md)
 
   
 
-<div class="block">Used to render the icons on the hot bar for the selected tool mode.</div>
-  
+Used to render the icons on the hot bar for the selected tool mode.  
 
 <dl class="notes"></dl>  
 
@@ -72,8 +71,8 @@ _Package:_ [mod.chiselsandbits.api.client.tool.mode.icon](index.md)
 :::tabs
 == getId
 <div class="member-signature"><span class="return-type">net.minecraft.resources.Identifier</span>&nbsp;<span class="element-name">getId</span>()</div>
-<div class="block">The id of the renderer.
- Used to give the player a selection option for the preview renderer.</div>
+The id of the renderer.
+ Used to give the player a selection option for the preview renderer.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The id of the preview renderer.</dd>
@@ -89,8 +88,8 @@ _Package:_ [mod.chiselsandbits.api.client.tool.mode.icon](index.md)
 == render
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">render</span><wbr><span class="parameters">(net.minecraft.client.gui.GuiGraphics&nbsp;guiGraphics,
  net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Invoked to render the stacks tool mode icon in the given itemstack.
- This is invoked already translated to the top left pixel of the slot in question.</div>
+Invoked to render the stacks tool mode icon in the given itemstack.
+ This is invoked already translated to the top left pixel of the slot in question.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>guiGraphics</code> - The matrix stack.</dd>

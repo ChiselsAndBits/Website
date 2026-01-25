@@ -4,15 +4,14 @@ aside: false
 sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate](index.md)  
-# Enum StateEntrySize  
+# Enum Class StateEntrySize  
 ---
 <div class="type-signature"><span class="modifiers">public enum </span><span class="element-name type-name-label">StateEntrySize</span><br/>  
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a>&lt;<a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a>&gt;</span></div>  
 
   
 
-<div class="block">The size of state entries in the current instance.</div>
-  
+The size of state entries in the current instance.  
 
 <dl class="notes"></dl>  
 
@@ -150,7 +149,7 @@ _Package:_ [mod.chiselsandbits.api.multistate](index.md)
 :::tabs
 == ONE_SIXTEENTH
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">ONE_SIXTEENTH</span></div>
-<div class="block">16 Bits per block.</div>
+16 Bits per block.
 <dl class="notes"></dl>
 :::
 
@@ -162,7 +161,7 @@ _Package:_ [mod.chiselsandbits.api.multistate](index.md)
 :::tabs
 == ONE_EIGHT
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">ONE_EIGHT</span></div>
-<div class="block">8 Bits per block.</div>
+8 Bits per block.
 <dl class="notes"></dl>
 :::
 
@@ -174,7 +173,7 @@ _Package:_ [mod.chiselsandbits.api.multistate](index.md)
 :::tabs
 == ONE_QUARTER
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">ONE_QUARTER</span></div>
-<div class="block">4 Bits per block.</div>
+4 Bits per block.
 <dl class="notes"></dl>
 :::
 
@@ -186,7 +185,7 @@ _Package:_ [mod.chiselsandbits.api.multistate](index.md)
 :::tabs
 == ONE_HALF
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">ONE_HALF</span></div>
-<div class="block">2 Bits per block.</div>
+2 Bits per block.
 <dl class="notes"></dl>
 :::
 
@@ -198,8 +197,8 @@ _Package:_ [mod.chiselsandbits.api.multistate](index.md)
 :::tabs
 == ONE
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">ONE</span></div>
-<div class="block">1 Bit per block side.
- Generally only used for testing.</div>
+1 Bit per block side.
+ Generally only used for testing.
 <dl class="notes"></dl>
 :::
 
@@ -224,8 +223,8 @@ _Package:_ [mod.chiselsandbits.api.multistate](index.md)
 :::tabs
 == values
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a>[]</span>&nbsp;<span class="element-name">values</span>()</div>
-<div class="block">Returns an array containing the constants of this enum class, in
-the order they are declared.</div>
+Returns an array containing the constants of this enum class, in
+the order they are declared.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>an array containing the constants of this enum class, in the order they are declared</dd>
@@ -240,10 +239,10 @@ the order they are declared.</div>
 :::tabs
 == valueOf
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">valueOf</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-<div class="block">Returns the enum constant of this class with the specified name.
+Returns the enum constant of this class with the specified name.
 The string must match <i>exactly</i> an identifier used to declare an
 enum constant in this class.  (Extraneous whitespace characters are 
-not permitted.)</div>
+not permitted.)
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>name</code> - the name of the enum constant to be returned.</dd>
@@ -274,7 +273,7 @@ not permitted.)</div>
 :::tabs
 == getBitsPerBlockSide
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getBitsPerBlockSide</span>()</div>
-<div class="block">The amount of bits in a single layer per side of the block.</div>
+The amount of bits in a single layer per side of the block.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The amount of bits in a layer on a single side of the block.</dd>
@@ -289,8 +288,8 @@ not permitted.)</div>
 :::tabs
 == getBitsPerBlock
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getBitsPerBlock</span>()</div>
-<div class="block">The total amount of bits per block.
- This is <a href="#getBitsPerBlockSide()"><code>getBitsPerBlockSide()</code></a> ^ 3.</div>
+The total amount of bits per block.
+ This is <a href="StateEntrySize.html#getBitsPerBlockSide()"><code>getBitsPerBlockSide()</code></a> ^ 3.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The total amount of bits in a block.</dd>
@@ -305,8 +304,8 @@ not permitted.)</div>
 :::tabs
 == getBitsPerLayer
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getBitsPerLayer</span>()</div>
-<div class="block">The total amount of bits per layer.
- This is <a href="#getBitsPerBlockSide()"><code>getBitsPerBlockSide()</code></a> ^ 2.</div>
+The total amount of bits per layer.
+ This is <a href="StateEntrySize.html#getBitsPerBlockSide()"><code>getBitsPerBlockSide()</code></a> ^ 2.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The total amount of bits in a layer.</dd>
@@ -321,8 +320,8 @@ not permitted.)</div>
 :::tabs
 == getSizePerBit
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">float</span>&nbsp;<span class="element-name">getSizePerBit</span>()</div>
-<div class="block">The size of a single bit if a block is a single unit of length.
- Is always 1 / <a href="#getBitsPerBlockSide()"><code>getBitsPerBlockSide()</code></a>.</div>
+The size of a single bit if a block is a single unit of length.
+ Is always 1 / <a href="StateEntrySize.html#getBitsPerBlockSide()"><code>getBitsPerBlockSide()</code></a>.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The size of a bit.</dd>
@@ -337,8 +336,8 @@ not permitted.)</div>
 :::tabs
 == getSizePerBitScalingVector
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getSizePerBitScalingVector</span>()</div>
-<div class="block">Returns the vector used to scale down another vector with the size of a single bit.
- Useful for passing to <code>Vec3.multiply(Vec3)</code></div>
+Returns the vector used to scale down another vector with the size of a single bit.
+ Useful for passing to <code>Vec3.multiply(Vec3)</code>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The scaling vector.</dd>
@@ -353,8 +352,8 @@ not permitted.)</div>
 :::tabs
 == getSizePerHalfBitScalingVector
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getSizePerHalfBitScalingVector</span>()</div>
-<div class="block">Returns the vector used to scale down another vector with the size of half a bit.
- Useful for passing to <code>Vec3.multiply(Vec3)</code></div>
+Returns the vector used to scale down another vector with the size of half a bit.
+ Useful for passing to <code>Vec3.multiply(Vec3)</code>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The scaling vector.</dd>
@@ -369,8 +368,8 @@ not permitted.)</div>
 :::tabs
 == getBitsPerBlockSideScalingVector
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getBitsPerBlockSideScalingVector</span>()</div>
-<div class="block">Returns the vector used to scale up another vector with the amount of bits on a given side.
- Useful for passing to <code>Vec3.multiply(Vec3)</code></div>
+Returns the vector used to scale up another vector with the amount of bits on a given side.
+ Useful for passing to <code>Vec3.multiply(Vec3)</code>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The scaling vector.</dd>
@@ -385,8 +384,8 @@ not permitted.)</div>
 :::tabs
 == getSizePerHalfBit
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">float</span>&nbsp;<span class="element-name">getSizePerHalfBit</span>()</div>
-<div class="block">The size of half a bit if a block is a single unit of length.
- Is always <a href="#getSizePerBit()"><code>getSizePerBit()</code></a> / 2.</div>
+The size of half a bit if a block is a single unit of length.
+ Is always <a href="StateEntrySize.html#getSizePerBit()"><code>getSizePerBit()</code></a> / 2.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The size of half a single bit.</dd>
@@ -401,7 +400,7 @@ not permitted.)</div>
 :::tabs
 == upperLevelY
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">float</span>&nbsp;<span class="element-name">upperLevelY</span>()</div>
-<div class="block">The y coordinate of the upper of the block.</div>
+The y coordinate of the upper of the block.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The y coordinate.</dd>
@@ -416,7 +415,7 @@ not permitted.)</div>
 :::tabs
 == getArrayIndexForPosition
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getArrayIndexForPosition</span><wbr><span class="parameters">(net.minecraft.core.Vec3i&nbsp;coordinate)</span></div>
-<div class="block">The array index for a given position when the current state entry size is used.</div>
+The array index for a given position when the current state entry size is used.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>coordinate</code> - The coordinate to get the array index for.</dd>
@@ -435,7 +434,7 @@ not permitted.)</div>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getArrayIndexForPosition</span><wbr><span class="parameters">(int&nbsp;x,
  int&nbsp;y,
  int&nbsp;z)</span></div>
-<div class="block">The array index for a given position when the current state entry size is used.</div>
+The array index for a given position when the current state entry size is used.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>x</code> - The x coordinate.</dd>
@@ -454,7 +453,7 @@ not permitted.)</div>
 :::tabs
 == roundDownToNearest
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">roundDownToNearest</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;pos)</span></div>
-<div class="block">Takes in a 3D vector and rounds its components down to the nearest multiple of the size of a single bit.</div>
+Takes in a 3D vector and rounds its components down to the nearest multiple of the size of a single bit.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>pos</code> - The position to round down.</dd>
@@ -471,13 +470,13 @@ not permitted.)</div>
 :::tabs
 == getDamageFactor
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getDamageFactor</span>()</div>
-<div class="block">Calculates how much damage should be applied to tools for the harvest of a given bit within this size.
+Calculates how much damage should be applied to tools for the harvest of a given bit within this size.
  <p>
      The scale factor is 1 for 1/16, and grows with the cubicly per level, with the amount of 1/16 bits that the size represents.
      So for 1/8, it is 8 (as 2x2x2 1/16th bits fit in one 1/8 bit)
      For 1/4, it is 64 (as 4x4x4 1/16th bits fit in one 1/4 bit)
      etc.
- </p></div>
+ </p>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The damage scale factor per one bit harvested.</dd>

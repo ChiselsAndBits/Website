@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.multistate.mutator.world](index.md)  
 # Interface IWorldAreaMutator  
 **All Extended Interfaces:**  
-[IAABBOwner](../aabb/IAABBOwner.md), [IAreaAccessor](../accessor/IAreaAccessor.md), [IStateAccessor](../accessor/IStateAccessor.md), [IWorldAreaAccessor](IWorldAreaAccessor.md), [IBatchedAreaMutator](../batched/IBatchedAreaMutator.md), [IAreaMutator](../mutator/IAreaMutator.md), [IWithBatchableMutationSupport](../util/IWithBatchableMutationSupport.md), [IWorldObject](../util/IWorldObject.md)  
+[IAABBOwner](../../../aabb/IAABBOwner.md), [IAreaAccessor](../../accessor/IAreaAccessor.md), [IStateAccessor](../../accessor/IStateAccessor.md), [IWorldAreaAccessor](../../accessor/world/IWorldAreaAccessor.md), [IBatchedAreaMutator](../batched/IBatchedAreaMutator.md), [IAreaMutator](../IAreaMutator.md), [IWithBatchableMutationSupport](../../../util/IWithBatchableMutationSupport.md), [IWorldObject](../../../util/IWorldObject.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IWorldAreaMutator</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends <a href="../../accessor/world/IWorldAreaAccessor.html" title="interface 
 
   
 
-<div class="block">Allows for a given area in the world to be mutated.</div>
-  
+Allows for a given area in the world to be mutated.  
 
 <dl class="notes"></dl>  
 
@@ -105,8 +104,8 @@ extends <a href="../../accessor/world/IWorldAreaAccessor.html" title="interface 
 :::tabs
 == inWorldMutableStream
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="IInWorldMutableStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world">IInWorldMutableStateEntryInfo</a>&gt;</span>&nbsp;<span class="element-name">inWorldMutableStream</span>()</div>
-<div class="block">Returns all entries in the current area in a mutable fashion.
- Includes all empty areas as areas containing an air state.</div>
+Returns all entries in the current area in a mutable fashion.
+ Includes all empty areas as areas containing an air state.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A stream with a mutable state entry info for each mutable section in the area.</dd>

@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.item.bit](index.md)
 
   
 
-<div class="block">A manager which deals with items for bits.</div>
-  
+A manager which deals with items for bits.  
 
 <dl class="notes"></dl>  
 
@@ -102,7 +101,7 @@ _Package:_ [mod.chiselsandbits.api.item.bit](index.md)
 == create
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  int&nbsp;count)</span></div>
-<div class="block">Creates an itemstack that contains a bit of the given block information and is of the given size.</div>
+Creates an itemstack that contains a bit of the given block information and is of the given size.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The given block information.</dd>
@@ -120,7 +119,7 @@ _Package:_ [mod.chiselsandbits.api.item.bit](index.md)
 :::tabs
 == create
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Creates an itemstack that contains a bit of the given block information with a size of 1.</div>
+Creates an itemstack that contains a bit of the given block information with a size of 1.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The given block information.</dd>

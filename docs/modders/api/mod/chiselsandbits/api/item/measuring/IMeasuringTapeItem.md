@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.item.measuring](index.md)  
 # Interface IMeasuringTapeItem  
 **All Extended Interfaces:**  
-[IRightClickControllingItem](../click/IRightClickControllingItem.md), [INoHitEffectsItem](../item/INoHitEffectsItem.md), [IWithModeItem\<IMeasuringMode\>](../withmode/IWithModeItem.md)  
+[IRightClickControllingItem](../click/IRightClickControllingItem.md), [INoHitEffectsItem](../INoHitEffectsItem.md), [IWithModeItem\<IMeasuringMode\>](../withmode/IWithModeItem.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMeasuringTapeItem</span><span class="extends-implements"><br/>  
@@ -99,7 +99,7 @@ extends <a href="../INoHitEffectsItem.html" title="interface in mod.chiselsandbi
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;net.minecraft.world.phys.Vec3&gt;</span>&nbsp;<span class="element-name">getStart</span><wbr><span class="parameters">(@NotNull
  @NotNull net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Determines the start point stored in the stack of the item.</div>
+Determines the start point stored in the stack of the item.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to get the start point from if it is available.</dd>
@@ -119,7 +119,7 @@ extends <a href="../INoHitEffectsItem.html" title="interface in mod.chiselsandbi
  @NotNull net.minecraft.world.item.ItemStack&nbsp;stack,
  @NotNull
  @NotNull net.minecraft.world.phys.Vec3&nbsp;start)</span></div>
-<div class="block">Sets the start point of the current measurement.</div>
+Sets the start point of the current measurement.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to set the start on.</dd>
@@ -136,7 +136,7 @@ extends <a href="../INoHitEffectsItem.html" title="interface in mod.chiselsandbi
 == clear
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span><wbr><span class="parameters">(@NotNull
  @NotNull net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Clears the measurement state of a given stack.</div>
+Clears the measurement state of a given stack.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to clear the measurement state from.</dd>
@@ -152,7 +152,7 @@ extends <a href="../INoHitEffectsItem.html" title="interface in mod.chiselsandbi
 == onRightClickProcessingEnd
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">onRightClickProcessingEnd</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Invoked by the platform to indicate to this item that a right-clicking procedure has ended.</div>
+Invoked by the platform to indicate to this item that a right-clicking procedure has ended.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../click/IRightClickControllingItem.html#onRightClickProcessingEnd(net.minecraft.world.entity.player.Player,net.minecraft.world.item.ItemStack)">onRightClickProcessingEnd</a></code>&nbsp;in interface&nbsp;<code><a href="../click/IRightClickControllingItem.html" title="interface in mod.chiselsandbits.api.item.click">IRightClickControllingItem</a></code></dd>

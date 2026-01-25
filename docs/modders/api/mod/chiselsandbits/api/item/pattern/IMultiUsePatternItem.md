@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.item.pattern](index.md)  
 # Interface IMultiUsePatternItem  
 **All Extended Interfaces:**  
-[IChangeTrackingItem](../change/IChangeTrackingItem.md), [IMultiStateItem](../multistate/IMultiStateItem.md), [IPatternItem](IPatternItem.md), [IWireframeProvidingItem](../wireframe/IWireframeProvidingItem.md), [IWithModeItem\<IPatternPlacementType\>](../withmode/IWithModeItem.md), [IPlaceable](../placement/IPlaceable.md), [IPlacementPreviewProvidingItem](../placement/IPlacementPreviewProvidingItem.md), [IPlacementProperties](../placement/IPlacementProperties.md), [ISupportsSealing](../sealing/ISupportsSealing.md), [ISupportsUnsealing](../sealing/ISupportsUnsealing.md)  
+[IChangeTrackingItem](../change/IChangeTrackingItem.md), [IMultiStateItem](../multistate/IMultiStateItem.md), [IPatternItem](IPatternItem.md), [IWireframeProvidingItem](../wireframe/IWireframeProvidingItem.md), [IWithModeItem\<IPatternPlacementType\>](../withmode/IWithModeItem.md), [IPlaceable](../../placement/IPlaceable.md), [IPlacementPreviewProvidingItem](../../placement/IPlacementPreviewProvidingItem.md), [IPlacementProperties](../../placement/IPlacementProperties.md), [ISupportsSealing](../../sealing/ISupportsSealing.md), [ISupportsUnsealing](../../sealing/ISupportsUnsealing.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMultiUsePatternItem</span><span class="extends-implements"><br/>  

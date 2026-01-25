@@ -14,9 +14,8 @@ extends net.minecraft.world.level.block.EntityBlock, com.communi.suggestu.saecul
 
   
 
-<div class="block">Implemented by Chisels and Bits Blocks, can be used to request a material that represents
- the largest quantity of a Chisels and Bits block.</div>
-  
+Implemented by Chisels and Bits Blocks, can be used to request a material that represents
+ the largest quantity of a Chisels and Bits block.  
 
 <dl class="notes"></dl>  
 
@@ -90,8 +89,8 @@ asItem
  @NotNull net.minecraft.world.level.BlockGetter&nbsp;world,
  @NotNull
  @NotNull net.minecraft.core.BlockPos&nbsp;pos)</span></div>
-<div class="block">Returns the primary state of the block.
- In terms of Chisels and Bits this is the blockstate that is represented the most inside the block.</div>
+Returns the primary state of the block.
+ In terms of Chisels and Bits this is the blockstate that is represented the most inside the block.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>world</code> - The world to read the data from. Required to get access to the tile entity with the backing data.</dd>

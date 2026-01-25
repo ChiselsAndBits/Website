@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.profiling](index.md)
 
   
 
-<div class="block">A profiling manager to handle the profiling of different interactions or managements.</div>
-  
+A profiling manager to handle the profiling of different interactions or managements.  
 
 <dl class="notes"></dl>  
 
@@ -85,7 +84,7 @@ _Package:_ [mod.chiselsandbits.api.profiling](index.md)
 :::tabs
 == getInstance
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IProfilingManager.html" title="interface in mod.chiselsandbits.api.profiling">IProfilingManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Gives access to the current profiling manager.</div>
+Gives access to the current profiling manager.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The current profiling manager.</dd>
@@ -100,7 +99,7 @@ _Package:_ [mod.chiselsandbits.api.profiling](index.md)
 :::tabs
 == startProfiling
 <div class="member-signature"><span class="return-type"><a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a></span>&nbsp;<span class="element-name">startProfiling</span><wbr><span class="parameters">(net.minecraft.util.profiling.jfr.Environment&nbsp;profilingEnvironment)</span></div>
-<div class="block">Creates a new profiler.</div>
+Creates a new profiler.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>profilingEnvironment</code> - The environment the profiler runs in.</dd>
@@ -117,7 +116,7 @@ _Package:_ [mod.chiselsandbits.api.profiling](index.md)
 :::tabs
 == endProfiling
 <div class="member-signature"><span class="return-type"><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></span>&nbsp;<span class="element-name">endProfiling</span><wbr><span class="parameters">(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</span></div>
-<div class="block">Ends the profiling of a given profiler</div>
+Ends the profiling of a given profiler
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>profiler</code> - The profiler to end profiling.</dd>
@@ -134,7 +133,7 @@ _Package:_ [mod.chiselsandbits.api.profiling](index.md)
 :::tabs
 == stopProfiling
 <div class="member-signature"><span class="return-type"><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></span>&nbsp;<span class="element-name">stopProfiling</span><wbr><span class="parameters">(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</span></div>
-<div class="block">This stops the profiler given and clears out any profiling data, returns the collected data and stops further profiling.</div>
+This stops the profiler given and clears out any profiling data, returns the collected data and stops further profiling.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>profiler</code> - The profiler to stop and cleanup.</dd>

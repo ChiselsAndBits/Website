@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.multistate.mutator](index.md)  
 # Interface IMutableStateEntryInfo  
 **All Extended Interfaces:**  
-[IAABBOwner](../aabb/IAABBOwner.md), [IStateEntryInfo](../accessor/IStateEntryInfo.md)  
+[IAABBOwner](../../aabb/IAABBOwner.md), [IStateEntryInfo](../accessor/IStateEntryInfo.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMutableStateEntryInfo</span><span class="extends-implements"><br/>  
@@ -91,7 +91,7 @@ extends <a href="../accessor/IStateEntryInfo.html" title="interface in mod.chise
 == setBlockInformation
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setBlockInformation</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span>
                   throws <span class="exceptions"><a href="../../exceptions/SpaceOccupiedException.html" title="class in mod.chiselsandbits.api.exceptions">SpaceOccupiedException</a></span></div>
-<div class="block">Sets the current entries block information.</div>
+Sets the current entries block information.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The new block information of the entry.</dd>
@@ -108,8 +108,8 @@ extends <a href="../accessor/IStateEntryInfo.html" title="interface in mod.chise
 :::tabs
 == clear
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span>()</div>
-<div class="block">Clears the current state entries blockstate.
- Effectively setting the current blockstate to air.</div>
+Clears the current state entries blockstate.
+ Effectively setting the current blockstate to air.
 <dl class="notes"></dl>
 :::
 
@@ -121,7 +121,7 @@ extends <a href="../accessor/IStateEntryInfo.html" title="interface in mod.chise
 :::tabs
 == overrideState
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">overrideState</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Overrides the current entries block information</div>
+Overrides the current entries block information
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The new block information of the entry.</dd>

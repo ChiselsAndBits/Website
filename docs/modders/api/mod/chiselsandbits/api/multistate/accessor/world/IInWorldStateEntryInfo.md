@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.multistate.accessor.world](index.md)  
 # Interface IInWorldStateEntryInfo  
 **All Extended Interfaces:**  
-[IAABBOwner](../aabb/IAABBOwner.md), [IStateEntryInfo](../accessor/IStateEntryInfo.md), [IWorldObject](../util/IWorldObject.md)  
+[IAABBOwner](../../../aabb/IAABBOwner.md), [IStateEntryInfo](../IStateEntryInfo.md), [IWorldObject](../../../util/IWorldObject.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IInWorldStateEntryInfo</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends <a href="../IStateEntryInfo.html" title="interface in mod.chiselsandbits
 
   
 
-<div class="block">Represents a single state entry that actually exists in a physical world.</div>
-  
+Represents a single state entry that actually exists in a physical world.  
 
 <dl class="notes"><br/>  
 <dt>See Also:</dt><br/>  
@@ -106,7 +105,7 @@ extends <a href="../IStateEntryInfo.html" title="interface in mod.chiselsandbits
 :::tabs
 == getBlockPos
 <div class="member-signature"><span class="return-type">net.minecraft.core.BlockPos</span>&nbsp;<span class="element-name">getBlockPos</span>()</div>
-<div class="block">The position of the block that this state entry is part of.</div>
+The position of the block that this state entry is part of.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The in world block position.</dd>
@@ -121,7 +120,7 @@ extends <a href="../IStateEntryInfo.html" title="interface in mod.chiselsandbits
 :::tabs
 == getInWorldStartPoint
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getInWorldStartPoint</span>()</div>
-<div class="block">The start (lowest on all three axi) position of the state that this entry occupies.</div>
+The start (lowest on all three axi) position of the state that this entry occupies.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../../util/IWorldObject.html#getInWorldStartPoint()">getInWorldStartPoint</a></code>&nbsp;in interface&nbsp;<code><a href="../../../util/IWorldObject.html" title="interface in mod.chiselsandbits.api.util">IWorldObject</a></code></dd>
@@ -138,7 +137,7 @@ extends <a href="../IStateEntryInfo.html" title="interface in mod.chiselsandbits
 :::tabs
 == getInWorldEndPoint
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getInWorldEndPoint</span>()</div>
-<div class="block">The end (highest on all three axi) position of the state that this entry occupies.</div>
+The end (highest on all three axi) position of the state that this entry occupies.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../../util/IWorldObject.html#getInWorldEndPoint()">getInWorldEndPoint</a></code>&nbsp;in interface&nbsp;<code><a href="../../../util/IWorldObject.html" title="interface in mod.chiselsandbits.api.util">IWorldObject</a></code></dd>
@@ -155,7 +154,7 @@ extends <a href="../IStateEntryInfo.html" title="interface in mod.chiselsandbits
 :::tabs
 == getInWorldCenterPoint
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getInWorldCenterPoint</span>()</div>
-<div class="block">The center position of the state that this entry occupies.</div>
+The center position of the state that this entry occupies.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The center position of this entry in the given world.</dd>

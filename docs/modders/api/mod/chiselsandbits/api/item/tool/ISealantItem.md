@@ -14,8 +14,7 @@ extends <a href="../interactable/IInteractableItem.html" title="interface in mod
 
   
 
-<div class="block">Represents a sealant item that is used to seal single use patterns.</div>
-  
+Represents a sealant item that is used to seal single use patterns.  
 
 <dl class="notes"></dl>  
 

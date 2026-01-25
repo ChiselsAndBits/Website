@@ -105,7 +105,7 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
 :::tabs
 == BIT_SET
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/BitSet.html" title="class or interface in java.util" class="external-link">BitSet</a>&gt;</span>&nbsp;<span class="element-name">BIT_SET</span></div>
-<div class="block">Codec for a bit set.</div>
+Codec for a bit set.
 <dl class="notes"></dl>
 :::
 
@@ -127,11 +127,11 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
 == withFallback
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;F&gt;</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;F&gt;</span>&nbsp;<span class="element-name">withFallback</span><wbr><span class="parameters">(com.mojang.serialization.Codec&lt;F&gt;&nbsp;first,
  com.mojang.serialization.Codec&lt;F&gt;&nbsp;second)</span></div>
-<div class="block">Creates a codec that attempts deserialization first using the first codec,
+Creates a codec that attempts deserialization first using the first codec,
  and if that fails using the second codec.
  <p>
  Serialization always is triggered through the first codec.
- </p></div>
+ </p>
 <dl class="notes">
 <dt>Type Parameters:</dt>
 <dd><code>F</code> - The object type that is encoded.</dd>
@@ -152,8 +152,8 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
 == versioned
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;T&gt;</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;T&gt;</span>&nbsp;<span class="element-name">versioned</span><wbr><span class="parameters">(com.mojang.serialization.MapCodec&lt;T&gt;&nbsp;singleVersionCodec,
  com.mojang.serialization.Codec&lt;T&gt;&nbsp;fallback)</span></div>
-<div class="block">Creates a codec that is versioned, but currently only has a single version.
- The version is stored as an integer in the payload, its value will always be 0</div>
+Creates a codec that is versioned, but currently only has a single version.
+ The version is stored as an integer in the payload, its value will always be 0
 <dl class="notes">
 <dt>Type Parameters:</dt>
 <dd><code>T</code> - The type of the codec.</dd>
@@ -173,8 +173,8 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
 == versioned
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;T&gt;</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;T&gt;</span>&nbsp;<span class="element-name">versioned</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>,<wbr>com.mojang.serialization.MapCodec&lt;T&gt;&gt;&nbsp;versions,
  com.mojang.serialization.MapCodec&lt;T&gt;&nbsp;fallback)</span></div>
-<div class="block">Creates a codec that is versioned.
- The version is stored as an integer in the payload.</div>
+Creates a codec that is versioned.
+ The version is stored as an integer in the payload.
 <dl class="notes">
 <dt>Type Parameters:</dt>
 <dd><code>T</code> - The type of the codec.</dd>
@@ -193,8 +193,8 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
 :::tabs
 == readLegacyCompressed
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;T&gt;</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;T&gt;</span>&nbsp;<span class="element-name">readLegacyCompressed</span><wbr><span class="parameters">(com.mojang.serialization.Codec&lt;T&gt;&nbsp;inner)</span></div>
-<div class="block">Creates a codec that compresses the data using LZ4.
- The compressed data is stored as a byte array in the payload.</div>
+Creates a codec that compresses the data using LZ4.
+ The compressed data is stored as a byte array in the payload.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inner</code> - The inner codec.</dd>
@@ -209,8 +209,8 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
 :::tabs
 == compressed
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;T&gt;</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;T&gt;</span>&nbsp;<span class="element-name">compressed</span><wbr><span class="parameters">(com.mojang.serialization.Codec&lt;T&gt;&nbsp;inner)</span></div>
-<div class="block">Creates a codec that compresses the data using LZ4.
- The compressed data is stored as a byte array in the payload.</div>
+Creates a codec that compresses the data using LZ4.
+ The compressed data is stored as a byte array in the payload.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inner</code> - The inner codec.</dd>

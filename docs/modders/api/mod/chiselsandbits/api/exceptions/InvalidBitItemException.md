@@ -16,8 +16,7 @@ java.lang.Object
 
   
 
-<div class="block">Thrown when a ItemStack is not a valid chiseled bit, or contains invalid data.</div>
-  
+Thrown when a ItemStack is not a valid chiseled bit, or contains invalid data.  
 
 <dl class="notes"><br/>  
 <dt>See Also:</dt><br/>  

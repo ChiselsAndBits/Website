@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.accessor](index.md)
 
   
 
-<div class="block">Allows for the creation of new accessors used to access chiselable areas.</div>
-  
+Allows for the creation of new accessors used to access chiselable areas.  
 
 <dl class="notes"></dl>  
 
@@ -85,7 +84,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.accessor](index.md)
 :::tabs
 == getInstance
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IAccessorFactory.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAccessorFactory</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Gives access to the accessor factory.</div>
+Gives access to the accessor factory.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The accessor factory.</dd>
@@ -101,7 +100,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.accessor](index.md)
 == in
 <div class="member-signature"><span class="return-type"><a href="world/IWorldAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor.world">IWorldAreaAccessor</a></span>&nbsp;<span class="element-name">in</span><wbr><span class="parameters">(net.minecraft.world.level.LevelAccessor&nbsp;world,
  net.minecraft.core.BlockPos&nbsp;pos)</span></div>
-<div class="block">Creates a accessor which mutates a particular block only.</div>
+Creates a accessor which mutates a particular block only.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>world</code> - The world to mutate in.</dd>
@@ -121,7 +120,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.accessor](index.md)
 <div class="member-signature"><span class="return-type"><a href="world/IWorldAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor.world">IWorldAreaAccessor</a></span>&nbsp;<span class="element-name">covering</span><wbr><span class="parameters">(net.minecraft.world.level.LevelAccessor&nbsp;world,
  net.minecraft.core.BlockPos&nbsp;from,
  net.minecraft.core.BlockPos&nbsp;to)</span></div>
-<div class="block">Creates an accessor which mutates a given area.</div>
+Creates an accessor which mutates a given area.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>world</code> - The world to mutate in.</dd>
@@ -142,7 +141,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.accessor](index.md)
 <div class="member-signature"><span class="return-type"><a href="world/IWorldAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor.world">IWorldAreaAccessor</a></span>&nbsp;<span class="element-name">covering</span><wbr><span class="parameters">(net.minecraft.world.level.LevelAccessor&nbsp;world,
  net.minecraft.world.phys.Vec3&nbsp;from,
  net.minecraft.world.phys.Vec3&nbsp;to)</span></div>
-<div class="block">Creates an accessor which mutates a given area.</div>
+Creates an accessor which mutates a given area.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>world</code> - The world to mutate in.</dd>

@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
   
 
-<div class="block">Defines an object which supports batch mutations.</div>
-  
+Defines an object which supports batch mutations.  
 
 <dl class="notes"></dl>  
 
@@ -69,7 +68,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 :::tabs
 == batch
 <div class="member-signature"><span class="return-type"><a href="IBatchMutation.html" title="interface in mod.chiselsandbits.api.util">IBatchMutation</a></span>&nbsp;<span class="element-name">batch</span>()</div>
-<div class="block">Trigger a batch mutation start.</div>
+Trigger a batch mutation start.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The batch mutation lock.</dd>

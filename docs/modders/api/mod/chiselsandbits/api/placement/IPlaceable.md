@@ -70,7 +70,7 @@ _Package:_ [mod.chiselsandbits.api.placement](index.md)
 <div class="member-signature"><span class="return-type"><a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></span>&nbsp;<span class="element-name">getPlacementResult</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-<div class="block">Invoked to determine the result of attempting actual placement in the world.</div>
+Invoked to determine the result of attempting actual placement in the world.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get the color for.</dd>

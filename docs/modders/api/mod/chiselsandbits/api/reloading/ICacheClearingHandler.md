@@ -14,8 +14,7 @@ This is a functional interface and can therefore be used as the assignment targe
 
   
 
-<div class="block">Invoked by Chisels and Bitss reloading handler.</div>
-  
+Invoked by Chisels and Bitss reloading handler.  
 
 <dl class="notes"></dl>  
 
@@ -73,7 +72,7 @@ This is a functional interface and can therefore be used as the assignment targe
 :::tabs
 == clear
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span>()</div>
-<div class="block">Invoked when the cache needs to be cleared.</div>
+Invoked when the cache needs to be cleared.
 <dl class="notes"></dl>
 :::
 

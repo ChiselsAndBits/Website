@@ -87,7 +87,7 @@ getTabOrderGroup
 :::tabs
 == init
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">init</span>()</div>
-<div class="block">Invoked by the screen, when said screen is initialized.</div>
+Invoked by the screen, when said screen is initialized.
 <dl class="notes"></dl>
 :::
 
@@ -99,7 +99,7 @@ getTabOrderGroup
 :::tabs
 == removed
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">removed</span>()</div>
-<div class="block">Invoked by the screen, when it is removed from the display.</div>
+Invoked by the screen, when it is removed from the display.
 <dl class="notes"></dl>
 :::
 

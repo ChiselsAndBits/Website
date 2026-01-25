@@ -14,8 +14,7 @@ extends <a href="../interactable/IInteractableItem.html" title="interface in mod
 
   
 
-<div class="block">Represents a unsealing item that is used to unseal multi use patterns.</div>
-  
+Represents a unsealing item that is used to unseal multi use patterns.  
 
 <dl class="notes"></dl>  
 

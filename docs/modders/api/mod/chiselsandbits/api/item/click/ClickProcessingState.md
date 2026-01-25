@@ -14,8 +14,7 @@ java.lang.Object
 
   
 
-<div class="block">Represents the continuous processing state of a click interaction.</div>
-  
+Represents the continuous processing state of a click interaction.  
 
 <dl class="notes"></dl>  
 
@@ -127,7 +126,7 @@ java.lang.Object
 :::tabs
 == ALLOW
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">ALLOW</span></div>
-<div class="block">The click was successfully processed, and not further processing is needed.</div>
+The click was successfully processed, and not further processing is needed.
 <dl class="notes"></dl>
 :::
 
@@ -139,7 +138,7 @@ java.lang.Object
 :::tabs
 == ALLOW_NO_CANCEL
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">ALLOW_NO_CANCEL</span></div>
-<div class="block">The click was successfully processed, but the interactions processing should continue.</div>
+The click was successfully processed, but the interactions processing should continue.
 <dl class="notes"></dl>
 :::
 
@@ -151,7 +150,7 @@ java.lang.Object
 :::tabs
 == DENIED
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">DENIED</span></div>
-<div class="block">The click was not processed successfully, and the interactions processing should stop.</div>
+The click was not processed successfully, and the interactions processing should stop.
 <dl class="notes"></dl>
 :::
 
@@ -163,7 +162,7 @@ java.lang.Object
 :::tabs
 == DEFAULT
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">DEFAULT</span></div>
-<div class="block">No processing of the click was done, and the interactions processing should continue.</div>
+No processing of the click was done, and the interactions processing should continue.
 <dl class="notes"></dl>
 :::
 
@@ -181,7 +180,7 @@ java.lang.Object
 == ClickProcessingState
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">ClickProcessingState</span><wbr><span class="parameters">(boolean&nbsp;shouldCancel,
  <a href="ClickProcessingState.ProcessingResult.html" title="enum class in mod.chiselsandbits.api.item.click">ClickProcessingState.ProcessingResult</a>&nbsp;nextState)</span></div>
-<div class="block">Creates a new processing state.</div>
+Creates a new processing state.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>shouldCancel</code> - Indicates if the state should cancel the interaction.</dd>
@@ -204,7 +203,7 @@ java.lang.Object
 :::tabs
 == shouldCancel
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldCancel</span>()</div>
-<div class="block">Indicates if this state should cancel the interaction.</div>
+Indicates if this state should cancel the interaction.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> if the interaction should be cancelled, <code>false</code> otherwise.</dd>
@@ -219,7 +218,7 @@ java.lang.Object
 :::tabs
 == getNextState
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.ProcessingResult.html" title="enum class in mod.chiselsandbits.api.item.click">ClickProcessingState.ProcessingResult</a></span>&nbsp;<span class="element-name">getNextState</span>()</div>
-<div class="block">Gets the next state to process.</div>
+Gets the next state to process.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The next processing state.</dd>

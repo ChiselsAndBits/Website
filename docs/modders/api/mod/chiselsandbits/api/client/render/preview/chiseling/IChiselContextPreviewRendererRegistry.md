@@ -10,9 +10,8 @@ _Package:_ [mod.chiselsandbits.api.client.render.preview.chiseling](index.md)
 
   
 
-<div class="block">Registry for registering possible chiseling context preview renderers,
- and for getting the current renderer back out.</div>
-  
+Registry for registering possible chiseling context preview renderers,
+ and for getting the current renderer back out.  
 
 <dl class="notes"></dl>  
 
@@ -94,7 +93,7 @@ _Package:_ [mod.chiselsandbits.api.client.render.preview.chiseling](index.md)
 :::tabs
 == getCurrent
 <div class="member-signature"><span class="return-type"><a href="IChiselContextPreviewRenderer.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRenderer</a></span>&nbsp;<span class="element-name">getCurrent</span>()</div>
-<div class="block">The currently configured renderer as per configuration of the player.</div>
+The currently configured renderer as per configuration of the player.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The renderer.</dd>
@@ -109,7 +108,7 @@ _Package:_ [mod.chiselsandbits.api.client.render.preview.chiseling](index.md)
 :::tabs
 == register
 <div class="member-signature"><span class="return-type"><a href="IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></span>&nbsp;<span class="element-name">register</span><wbr><span class="parameters">(<a href="IChiselContextPreviewRenderer.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRenderer</a>...&nbsp;renderers)</span></div>
-<div class="block">Adds the passed in renderer instances as possible candidates.</div>
+Adds the passed in renderer instances as possible candidates.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>renderers</code> - The candidates.</dd>

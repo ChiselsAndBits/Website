@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.client.screen](index.md)
 
   
 
-<div class="block">A screen for chisels and bits.</div>
-  
+A screen for chisels and bits.  
 
 <dl class="notes"></dl>  
 
@@ -69,7 +68,7 @@ _Package:_ [mod.chiselsandbits.api.client.screen](index.md)
 :::tabs
 == isInitialized
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isInitialized</span>()</div>
-<div class="block">Indicates if the screen has been initialized or not.</div>
+Indicates if the screen has been initialized or not.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> if the screen has been initialized, <code>false</code> otherwise.</dd>

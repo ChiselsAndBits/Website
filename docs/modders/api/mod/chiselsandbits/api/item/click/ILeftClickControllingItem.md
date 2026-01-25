@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.item.click](index.md)
 
   
 
-<div class="block">Deals with the way items are able to handle left click interactions.</div>
-  
+Deals with the way items are able to handle left click interactions.  
 
 <dl class="notes"></dl>  
 
@@ -87,10 +86,10 @@ _Package:_ [mod.chiselsandbits.api.item.click](index.md)
  net.minecraft.core.BlockPos&nbsp;position,
  net.minecraft.core.Direction&nbsp;face,
  <a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a>&nbsp;currentState)</span></div>
-<div class="block">Callback invoked when a supported item is used to left click.
+Callback invoked when a supported item is used to left click.
 
  Allows for said item to take over the processing logic of the left clicking
- and can afterwards block the further vanilla processing.</div>
+ and can afterwards block the further vanilla processing.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The entity who left clicked.</dd>
@@ -112,7 +111,7 @@ _Package:_ [mod.chiselsandbits.api.item.click](index.md)
 == onLeftClickProcessingEnd
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onLeftClickProcessingEnd</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Invoked by the platform to indicate to this item that a left-clicking procedure has ended.</div>
+Invoked by the platform to indicate to this item that a left-clicking procedure has ended.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player who stopped left-clicking.</dd>
@@ -129,9 +128,9 @@ _Package:_ [mod.chiselsandbits.api.item.click](index.md)
 == canUse
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canUse</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Indicates if the player can use the item in the current interaction.
+Indicates if the player can use the item in the current interaction.
  If this returns false, then no processing is performed and the interaction
- event is cancelled.</div>
+ event is cancelled.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player in question.</dd>

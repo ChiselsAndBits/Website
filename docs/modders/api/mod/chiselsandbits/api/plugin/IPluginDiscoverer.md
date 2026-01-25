@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 
   
 
-<div class="block">The platform plugin manager which can load the plugins for C&amp;B on a given platform.</div>
-  
+The platform plugin manager which can load the plugins for C&amp;B on a given platform.  
 
 <dl class="notes"></dl>  
 
@@ -95,7 +94,7 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == getInstance
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Gives access to the platform's plugin manager.</div>
+Gives access to the platform's plugin manager.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The platform's plugin manager.</dd>
@@ -110,8 +109,8 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
 :::tabs
 == loadPlugins
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</span>&nbsp;<span class="element-name">loadPlugins</span>()</div>
-<div class="block">Loads the plugins.
- Already has performed the instantiation logic and validation.</div>
+Loads the plugins.
+ Already has performed the instantiation logic and validation.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The loaded plugins.</dd>

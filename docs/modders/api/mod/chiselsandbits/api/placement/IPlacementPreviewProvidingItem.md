@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.placement](index.md)  
 # Interface IPlacementPreviewProvidingItem  
 **All Extended Interfaces:**  
-[IWireframeProvidingItem](../wireframe/IWireframeProvidingItem.md), [IPlaceable](IPlaceable.md), [IPlacementProperties](IPlacementProperties.md)  
+[IWireframeProvidingItem](../item/wireframe/IWireframeProvidingItem.md), [IPlaceable](IPlaceable.md), [IPlacementProperties](IPlacementProperties.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IPlacementPreviewProvidingItem</span><span class="extends-implements"><br/>  
@@ -88,7 +88,7 @@ extends <a href="../item/wireframe/IWireframeProvidingItem.html" title="interfac
 == ignoreDepthForPlacement
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">ignoreDepthForPlacement</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a>&nbsp;placementResult)</span></div>
-<div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything for a given placement result.</div>
+Returns whether to effectively ignore the depth buffer and render in front of everything for a given placement result.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get depth logic for.</dd>
@@ -106,7 +106,7 @@ extends <a href="../item/wireframe/IWireframeProvidingItem.html" title="interfac
 :::tabs
 == ignoreDepth
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">ignoreDepth</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack)</span></div>
-<div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything</div>
+Returns whether to effectively ignore the depth buffer and render in front of everything
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../item/wireframe/IWireframeProvidingItem.html#ignoreDepth(net.minecraft.world.item.ItemStack)">ignoreDepth</a></code>&nbsp;in interface&nbsp;<code><a href="../item/wireframe/IWireframeProvidingItem.html" title="interface in mod.chiselsandbits.api.item.wireframe">IWireframeProvidingItem</a></code></dd>

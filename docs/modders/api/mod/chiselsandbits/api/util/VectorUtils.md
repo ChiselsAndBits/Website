@@ -154,14 +154,7 @@ java.lang.Object
 :::tabs
 == DEG_TO_RAD_FACTOR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">DEG_TO_RAD_FACTOR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../constant-values.html#mod.chiselsandbits.api.util.VectorUtils.DEG_TO_RAD_FACTOR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 

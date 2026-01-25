@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.item.multistate](index.md)  
 # Interface IStatistics  
 **All Extended Interfaces:**  
-[RawSerializable](../serialization/RawSerializable.md)  
+[RawSerializable](../../serialization/RawSerializable.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IStatistics</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends <a href="../../serialization/RawSerializable.html" title="interface in m
 
   
 
-<div class="block">The statistics of a multi state itemstack.</div>
-  
+The statistics of a multi state itemstack.  
 
 <dl class="notes"></dl>  
 
@@ -83,8 +82,8 @@ extends <a href="../../serialization/RawSerializable.html" title="interface in m
 :::tabs
 == getPrimaryState
 <div class="member-signature"><span class="return-type"><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getPrimaryState</span>()</div>
-<div class="block">The primary state of the mutli state itemstacks this statistics object
- belongs to.</div>
+The primary state of the mutli state itemstacks this statistics object
+ belongs to.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The primary blockstate.</dd>
@@ -99,7 +98,7 @@ extends <a href="../../serialization/RawSerializable.html" title="interface in m
 :::tabs
 == isEmpty
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isEmpty</span>()</div>
-<div class="block">Indicates if the multistate object is empty.</div>
+Indicates if the multistate object is empty.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> for an empty multi state object.</dd>
@@ -114,7 +113,7 @@ extends <a href="../../serialization/RawSerializable.html" title="interface in m
 :::tabs
 == getContainedStates
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link">Set</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">getContainedStates</span>()</div>
-<div class="block">Returns all states (without count) that are contained in the object</div>
+Returns all states (without count) that are contained in the object
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>All states in the object.</dd>

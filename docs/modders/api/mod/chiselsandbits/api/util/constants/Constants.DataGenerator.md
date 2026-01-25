@@ -104,14 +104,7 @@ java.lang.Object
 :::tabs
 == EN_US_LANG
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">EN_US_LANG</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.DataGenerator.EN_US_LANG">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -122,14 +115,7 @@ java.lang.Object
 :::tabs
 == ITEM_MODEL_DIR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">ITEM_MODEL_DIR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.DataGenerator.ITEM_MODEL_DIR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -140,14 +126,7 @@ java.lang.Object
 :::tabs
 == RECIPES_DIR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">RECIPES_DIR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.DataGenerator.RECIPES_DIR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -158,14 +137,7 @@ java.lang.Object
 :::tabs
 == TAGS_DIR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">TAGS_DIR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.DataGenerator.TAGS_DIR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -176,14 +148,7 @@ java.lang.Object
 :::tabs
 == MINECRAFT_TAGS_DIR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MINECRAFT_TAGS_DIR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.DataGenerator.MINECRAFT_TAGS_DIR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -194,14 +159,7 @@ java.lang.Object
 :::tabs
 == BLOCK_TAGS_DIR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">BLOCK_TAGS_DIR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.DataGenerator.BLOCK_TAGS_DIR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -212,14 +170,7 @@ java.lang.Object
 :::tabs
 == ITEM_TAGS_DIR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">ITEM_TAGS_DIR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.DataGenerator.ITEM_TAGS_DIR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -230,14 +181,7 @@ java.lang.Object
 :::tabs
 == MINECRAFT_ITEM_TAGS_DIR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MINECRAFT_ITEM_TAGS_DIR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.DataGenerator.MINECRAFT_ITEM_TAGS_DIR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -248,14 +192,7 @@ java.lang.Object
 :::tabs
 == FORGE_TAGS_DIR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">FORGE_TAGS_DIR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.DataGenerator.FORGE_TAGS_DIR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -266,14 +203,7 @@ java.lang.Object
 :::tabs
 == FORGE_ITEM_TAGS_DIR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">FORGE_ITEM_TAGS_DIR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.DataGenerator.FORGE_ITEM_TAGS_DIR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -284,14 +214,7 @@ java.lang.Object
 :::tabs
 == LOOT_TABLES_DIR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">LOOT_TABLES_DIR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.DataGenerator.LOOT_TABLES_DIR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -302,14 +225,7 @@ java.lang.Object
 :::tabs
 == BLOCKSTATE_DIR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">BLOCKSTATE_DIR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.DataGenerator.BLOCKSTATE_DIR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 
@@ -320,14 +236,7 @@ java.lang.Object
 :::tabs
 == CONFIG_LANG_DIR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">CONFIG_LANG_DIR</span></div>
-<dl class="notes">
-<dt>See Also:</dt>
-<dd>
-<ul class="tag-list">
-<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.DataGenerator.CONFIG_LANG_DIR">Constant Field Values</a></li>
-</ul>
-</dd>
-</dl>
+<dl class="notes"></dl>
 :::
 
 

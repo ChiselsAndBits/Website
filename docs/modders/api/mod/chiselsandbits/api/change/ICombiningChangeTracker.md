@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.change](index.md)  
 # Interface ICombiningChangeTracker  
 **All Extended Interfaces:**  
-AutoCloseable, [IChangeHandler](../changes/IChangeHandler.md), [IChangeTracker](IChangeTracker.md)  
+AutoCloseable, [IChangeHandler](changes/IChangeHandler.md), [IChangeTracker](IChangeTracker.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">ICombiningChangeTracker</span><span class="extends-implements"><br/>  
@@ -14,9 +14,8 @@ extends <a href="IChangeTracker.html" title="interface in mod.chiselsandbits.api
 
   
 
-<div class="block">Represents a change tracker which is used to combine several change steps into one action.
- Use with a try-with-resources block.</div>
-  
+Represents a change tracker which is used to combine several change steps into one action.
+ Use with a try-with-resources block.  
 
 <dl class="notes"></dl>  
 

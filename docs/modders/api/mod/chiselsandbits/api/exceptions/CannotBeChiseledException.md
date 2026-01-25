@@ -16,8 +16,7 @@ java.lang.Object
 
   
 
-<div class="block">Thrown When a block cannot hold chiseled bits, or be converted to a chiseled block.</div>
-  
+Thrown When a block cannot hold chiseled bits, or be converted to a chiseled block.  
 
 <dl class="notes"><br/>  
 <dt>See Also:</dt><br/>  

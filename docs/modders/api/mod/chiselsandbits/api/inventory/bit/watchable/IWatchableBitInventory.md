@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.inventory.bit.watchable](index.md)  
 # Interface IWatchableBitInventory  
 **All Extended Interfaces:**  
-[IBitInventory](../bit/IBitInventory.md)  
+[IBitInventory](../IBitInventory.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IWatchableBitInventory</span><span class="extends-implements"><br/>  
@@ -14,8 +14,7 @@ extends <a href="../IBitInventory.html" title="interface in mod.chiselsandbits.a
 
   
 
-<div class="block">Bit inventory variant which can be watched for changes.</div>
-  
+Bit inventory variant which can be watched for changes.  
 
 <dl class="notes"></dl>  
 
@@ -77,7 +76,7 @@ extends <a href="../IBitInventory.html" title="interface in mod.chiselsandbits.a
 :::tabs
 == startWatching
 <div class="member-signature"><span class="return-type"><a href="IWatch.html" title="interface in mod.chiselsandbits.api.inventory.bit.watchable">IWatch</a></span>&nbsp;<span class="element-name">startWatching</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Runnable.html" title="class or interface in java.lang" class="external-link">Runnable</a>&nbsp;onChangeCallback)</span></div>
-<div class="block">Invoke to start receiving change callbacks on this given callback.</div>
+Invoke to start receiving change callbacks on this given callback.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>onChangeCallback</code> - Triggered when the inventory changes.</dd>

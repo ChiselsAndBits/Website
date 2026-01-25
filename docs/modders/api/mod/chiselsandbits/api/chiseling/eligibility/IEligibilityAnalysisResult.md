@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.chiseling.eligibility](index.md)
 
   
 
-<div class="block">The results of an eligibility analysis.</div>
-  
+The results of an eligibility analysis.  
 
 <dl class="notes"></dl>  
 
@@ -75,7 +74,7 @@ _Package:_ [mod.chiselsandbits.api.chiseling.eligibility](index.md)
 :::tabs
 == canBeChiseled
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">canBeChiseled</span>()</div>
-<div class="block">Indicates if the requested object can be chiseled.</div>
+Indicates if the requested object can be chiseled.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True for chiselability.</dd>
@@ -90,7 +89,7 @@ _Package:_ [mod.chiselsandbits.api.chiseling.eligibility](index.md)
 :::tabs
 == isAlreadyChiseled
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isAlreadyChiseled</span>()</div>
-<div class="block">Indicates if the requested object is already chiseled.</div>
+Indicates if the requested object is already chiseled.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True when already chiseled.</dd>
@@ -105,7 +104,7 @@ _Package:_ [mod.chiselsandbits.api.chiseling.eligibility](index.md)
 :::tabs
 == getReason
 <div class="member-signature"><span class="return-type">net.minecraft.network.chat.MutableComponent</span>&nbsp;<span class="element-name">getReason</span>()</div>
-<div class="block">The reason why a given eligibility result returned if it can be chiseled or not.</div>
+The reason why a given eligibility result returned if it can be chiseled or not.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The displayable reason.</dd>

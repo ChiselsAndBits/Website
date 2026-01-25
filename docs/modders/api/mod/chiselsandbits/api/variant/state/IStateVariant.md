@@ -6,7 +6,7 @@ sidebar: false
 _Package:_ [mod.chiselsandbits.api.variant.state](index.md)  
 # Interface IStateVariant  
 **All Extended Interfaces:**  
-Comparable\<IStateVariant\>, [ISnapshotable\<IStateVariant\>](../util/ISnapshotable.md)  
+Comparable\<IStateVariant\>, [ISnapshotable\<IStateVariant\>](../../util/ISnapshotable.md)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IStateVariant</span><span class="extends-implements"><br/>  
@@ -14,10 +14,10 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 
   
 
-<div class="block">Object which provides additional information about a state.
+Object which provides additional information about a state.
  <p>
-     This has to be immutable as it is used in data components in the game.</div>
-  
+     This has to be immutable as it is used in data components in the game.
+</p>  
 
 <dl class="notes"></dl>  
 
@@ -107,7 +107,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 :::tabs
 == CODEC
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">CODEC</span></div>
-<div class="block">The codec that can be used to serialize a state variant.</div>
+The codec that can be used to serialize a state variant.
 <dl class="notes"></dl>
 :::
 
@@ -119,7 +119,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 :::tabs
 == MAP_CODEC
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">com.mojang.serialization.MapCodec&lt;<a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">MAP_CODEC</span></div>
-<div class="block">The map codec that can be used to serialize a state variant.</div>
+The map codec that can be used to serialize a state variant.
 <dl class="notes"></dl>
 :::
 
@@ -131,7 +131,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 :::tabs
 == STREAM_CODEC
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf,<wbr><a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">STREAM_CODEC</span></div>
-<div class="block">The stream codec that can be used to serialize a state variant.</div>
+The stream codec that can be used to serialize a state variant.
 <dl class="notes"></dl>
 :::
 
@@ -152,7 +152,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 :::tabs
 == provider
 <div class="member-signature"><span class="return-type"><a href="IStateVariantProvider.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariantProvider</a></span>&nbsp;<span class="element-name">provider</span>()</div>
-<div class="block">Returns The provider that created this state variant..</div>
+Returns The provider that created this state variant..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The provider that created this state variant.</dd>
@@ -167,12 +167,12 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 :::tabs
 == updateBlockEntity
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">updateBlockEntity</span><wbr><span class="parameters">(net.minecraft.world.level.block.entity.BlockEntity&nbsp;blockEntity)</span></div>
-<div class="block">Updates a block entity with the correct state of this variant.
+Updates a block entity with the correct state of this variant.
  <p>
      By default, this does nothing, however a particular implementation can decide to properly instantiate it so that
      the model extraction system can provide other minecraft subsystems, like coloring, the correct information needed
      for this variant.
- </p></div>
+ </p>
 <dl class="notes"></dl>
 :::
 

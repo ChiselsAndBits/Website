@@ -14,8 +14,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/ja
 
   
 
-<div class="block">Marker interface that can be used to close the watch on a bit inventory.</div>
-  
+Marker interface that can be used to close the watch on a bit inventory.  
 
 <dl class="notes"></dl>  
 

@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.permissions](index.md)
 
   
 
-<div class="block">Permission handler for checking if a particular user can manipulate a particular area.</div>
-  
+Permission handler for checking if a particular user can manipulate a particular area.  
 
 <dl class="notes"></dl>  
 
@@ -82,7 +81,7 @@ _Package:_ [mod.chiselsandbits.api.permissions](index.md)
 :::tabs
 == getInstance
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPermissionHandler.html" title="interface in mod.chiselsandbits.api.permissions">IPermissionHandler</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Gives access to the current permission handler.</div>
+Gives access to the current permission handler.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The current permission handler.</dd>
@@ -97,7 +96,7 @@ _Package:_ [mod.chiselsandbits.api.permissions](index.md)
 :::tabs
 == registerChecker
 <div class="member-signature"><span class="return-type"><a href="ICheckerRegistration.html" title="interface in mod.chiselsandbits.api.permissions">ICheckerRegistration</a></span>&nbsp;<span class="element-name">registerChecker</span><wbr><span class="parameters">(<a href="IPermissionChecker.html" title="interface in mod.chiselsandbits.api.permissions">IPermissionChecker</a>&nbsp;checker)</span></div>
-<div class="block">Registers a new <a href="IPermissionChecker.html" title="interface in mod.chiselsandbits.api.permissions"><code>IPermissionChecker</code></a> with the permission handler.</div>
+Registers a new <a href="IPermissionChecker.html" title="interface in mod.chiselsandbits.api.permissions"><code>IPermissionChecker</code></a> with the permission handler.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>checker</code> - The new permission checker</dd>
@@ -116,8 +115,8 @@ _Package:_ [mod.chiselsandbits.api.permissions](index.md)
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">canManipulate</span><wbr><span class="parameters">(@NotNull
  @NotNull net.minecraft.world.entity.player.Player&nbsp;player,
  <a href="../multistate/accessor/world/IWorldAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor.world">IWorldAreaAccessor</a>&nbsp;worldAreaAccessor)</span></div>
-<div class="block">Allows for external systems to check if a particular player
- can edit a particular area.</div>
+Allows for external systems to check if a particular player
+ can edit a particular area.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player which wants to edit the area, possibly null if the player is not known.</dd>

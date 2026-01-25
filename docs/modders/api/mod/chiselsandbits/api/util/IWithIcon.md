@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
   
 
-<div class="block">An object with an icon to render.</div>
-  
+An object with an icon to render.  
 
 <dl class="notes"></dl>  
 
@@ -69,7 +68,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 :::tabs
 == getIcon
 <div class="member-signature"><span class="return-type">net.minecraft.resources.Identifier</span>&nbsp;<span class="element-name">getIcon</span>()</div>
-<div class="block">The icon to render.</div>
+The icon to render.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The icon.</dd>

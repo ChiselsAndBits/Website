@@ -175,7 +175,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 :::tabs
 == NULL_VECTOR
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">NULL_VECTOR</span></div>
-<div class="block">An immutable vector with zero as all coordinates.</div>
+An immutable vector with zero as all coordinates.
 <dl class="notes"></dl>
 :::
 
@@ -251,7 +251,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 :::tabs
 == getX
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getX</span>()</div>
-<div class="block">Gets the X coordinate.</div>
+Gets the X coordinate.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The x part of the coordinate.</dd>
@@ -266,7 +266,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 :::tabs
 == getY
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getY</span>()</div>
-<div class="block">Gets the Y coordinate.</div>
+Gets the Y coordinate.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The y part of the coordinate.</dd>
@@ -281,7 +281,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 :::tabs
 == setY
 <div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setY</span><wbr><span class="parameters">(int&nbsp;yIn)</span></div>
-<div class="block">Sets the Y coordinate.</div>
+Sets the Y coordinate.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>yIn</code> - The new y part of the coordinate</dd>
@@ -296,7 +296,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 :::tabs
 == setX
 <div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setX</span><wbr><span class="parameters">(int&nbsp;xIn)</span></div>
-<div class="block">Sets the X coordinate.</div>
+Sets the X coordinate.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>xIn</code> - The new x part of the coordinate.</dd>
@@ -339,7 +339,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 :::tabs
 == up
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">up</span>()</div>
-<div class="block">Offset this BlockPos 1 block up</div>
+Offset this BlockPos 1 block up
 <dl class="notes"></dl>
 :::
 
@@ -351,7 +351,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 :::tabs
 == up
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">up</span><wbr><span class="parameters">(int&nbsp;n)</span></div>
-<div class="block">Offset this BlockPos n blocks up</div>
+Offset this BlockPos n blocks up
 <dl class="notes"></dl>
 :::
 
@@ -364,7 +364,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 == offset
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">offset</span><wbr><span class="parameters">(net.minecraft.core.Direction&nbsp;facing,
  int&nbsp;n)</span></div>
-<div class="block">Offsets this BlockPos n blocks in the given direction</div>
+Offsets this BlockPos n blocks in the given direction
 <dl class="notes"></dl>
 :::
 
@@ -376,7 +376,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 :::tabs
 == down
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">down</span>()</div>
-<div class="block">Offset this BlockPos 1 block down</div>
+Offset this BlockPos 1 block down
 <dl class="notes"></dl>
 :::
 
@@ -388,7 +388,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 :::tabs
 == down
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">down</span><wbr><span class="parameters">(int&nbsp;n)</span></div>
-<div class="block">Offset this BlockPos n blocks down</div>
+Offset this BlockPos n blocks down
 <dl class="notes"></dl>
 :::
 
@@ -437,7 +437,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 :::tabs
 == distanceSq
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">distanceSq</span><wbr><span class="parameters">(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</span></div>
-<div class="block">Calculate squared distance to the given Vector</div>
+Calculate squared distance to the given Vector
 <dl class="notes"></dl>
 :::
 

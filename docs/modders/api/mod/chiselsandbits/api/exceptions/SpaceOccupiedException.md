@@ -16,8 +16,7 @@ java.lang.Object
 
   
 
-<div class="block">Thrown when a bit cannot be placed in that space, this is not caused by bits already occupying that space, but by multiparts.</div>
-  
+Thrown when a bit cannot be placed in that space, this is not caused by bits already occupying that space, but by multiparts.  
 
 <dl class="notes"><br/>  
 <dt>See Also:</dt><br/>  

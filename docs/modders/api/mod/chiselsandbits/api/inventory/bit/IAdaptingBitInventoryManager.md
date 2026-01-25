@@ -89,14 +89,14 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)
 :::tabs
 == create
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&gt;</span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;target)</span></div>
-<div class="block">Creates a new bit inventory wrapping the given <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link"><code>Object</code></a>.
+Creates a new bit inventory wrapping the given <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link"><code>Object</code></a>.
 
  This inventory is aware of items which themselves can act
  as a bit inventory.
 
  This endpoint is platform specific and might or might not be able to convert the object given.
  Importantly on forge this endpoint is able to accept IItemHandlers, while on Fabric it will only support
- IInventory.</div>
+ IInventory.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>target</code> - The <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link"><code>Object</code></a>.</dd>

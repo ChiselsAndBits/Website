@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
   
 
-<div class="block">Represents an object that is translatable.</div>
-  
+Represents an object that is translatable.  
 
 <dl class="notes"></dl>  
 
@@ -80,7 +79,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 :::tabs
 == getDisplayName
 <div class="member-signature"><span class="return-type">net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getDisplayName</span>()</div>
-<div class="block">Returns the display name of the object in a text component.</div>
+Returns the display name of the object in a text component.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The display name.</dd>
@@ -95,8 +94,8 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 :::tabs
 == getMultiLineDisplayName
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getMultiLineDisplayName</span>()</div>
-<div class="block">Returns the display name of the object in a text component.
- This display name may contain several newline statements which can be wrapped.</div>
+Returns the display name of the object in a text component.
+ This display name may contain several newline statements which can be wrapped.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The multiline display name.</dd>

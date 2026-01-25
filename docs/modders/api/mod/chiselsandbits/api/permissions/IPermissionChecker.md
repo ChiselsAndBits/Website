@@ -14,12 +14,11 @@ This is a functional interface and can therefore be used as the assignment targe
 
   
 
-<div class="block">Represents a permission checker, which can indicate if a particular
+Represents a permission checker, which can indicate if a particular
  area is allowed to be edited or not.
 
  If at least one checker registered to the handler prevents the edit,
- then the edit is not allowed.</div>
-  
+ then the edit is not allowed.  
 
 <dl class="notes"></dl>  
 

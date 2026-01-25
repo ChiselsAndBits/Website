@@ -14,8 +14,7 @@ extends com.communi.suggestu.scena.core.registries.ICustomRegistryEntry</span></
 
   
 
-<div class="block">The type of a multi state snapshot.</div>
-  
+The type of a multi state snapshot.  
 
 <dl class="notes"></dl>  
 
@@ -80,7 +79,7 @@ getRegistryName
 :::tabs
 == codec
 <div class="member-signature"><span class="return-type">com.mojang.serialization.MapCodec&lt;? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</span>&nbsp;<span class="element-name">codec</span>()</div>
-<div class="block">Gets the codec for the snapshot.</div>
+Gets the codec for the snapshot.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec.</dd>
@@ -95,7 +94,7 @@ getRegistryName
 :::tabs
 == streamCodec
 <div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf,<wbr>? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
-<div class="block">Gets the stream codec for the snapshot.</div>
+Gets the stream codec for the snapshot.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The stream codec.</dd>

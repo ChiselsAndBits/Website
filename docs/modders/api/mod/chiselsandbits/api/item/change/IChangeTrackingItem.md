@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.item.change](index.md)
 
   
 
-<div class="block">Marker interface for items which allow change tracking items via keybinds.</div>
-  
+Marker interface for items which allow change tracking items via keybinds.  
 
 <dl class="notes"></dl>  
 

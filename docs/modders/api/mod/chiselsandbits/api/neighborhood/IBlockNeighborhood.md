@@ -10,8 +10,7 @@ _Package:_ [mod.chiselsandbits.api.neighborhood](index.md)
 
   
 
-<div class="block">Marker interface used to detect block neighborhoods in cache keys.</div>
-  
+Marker interface used to detect block neighborhoods in cache keys.  
 
 <dl class="notes"></dl>  
 
@@ -83,7 +82,7 @@ _Package:_ [mod.chiselsandbits.api.neighborhood](index.md)
 :::tabs
 == EMPTY
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type"><a href="IBlockNeighborhood.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhood</a></span>&nbsp;<span class="element-name">EMPTY</span></div>
-<div class="block">Empty neighborhood.</div>
+Empty neighborhood.
 <dl class="notes"></dl>
 :::
 
@@ -105,7 +104,7 @@ _Package:_ [mod.chiselsandbits.api.neighborhood](index.md)
 == getBlockInformation
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getBlockInformation</span><wbr><span class="parameters">(net.minecraft.core.Direction&nbsp;direction)</span></div>
-<div class="block">Returns the blocks neighbor in the given direction.</div>
+Returns the blocks neighbor in the given direction.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>direction</code> - The direction.</dd>
@@ -123,7 +122,7 @@ _Package:_ [mod.chiselsandbits.api.neighborhood](index.md)
 == getAreaAccessor
 <div class="member-signature"><span class="annotations">@Nullable
 </span><span class="return-type">@Nullable <a href="../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a></span>&nbsp;<span class="element-name">getAreaAccessor</span><wbr><span class="parameters">(net.minecraft.core.Direction&nbsp;direction)</span></div>
-<div class="block">Returns the blocks potential area accessor neighbor in the given direction.</div>
+Returns the blocks potential area accessor neighbor in the given direction.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>direction</code> - The direction.</dd>

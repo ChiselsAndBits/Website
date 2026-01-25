@@ -10,10 +10,9 @@ _Package:_ [mod.chiselsandbits.api.block.state.id](index.md)
 
   
 
-<div class="block">The blockstate id manager which manages the blockstate ids for the current session.
+The blockstate id manager which manages the blockstate ids for the current session.
 
- Generally this manager is comparable to the relevant methods in the game registry.</div>
-  
+ Generally this manager is comparable to the relevant methods in the game registry.  
 
 <dl class="notes"></dl>  
 
@@ -95,7 +94,7 @@ _Package:_ [mod.chiselsandbits.api.block.state.id](index.md)
 :::tabs
 == getIdFrom
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getIdFrom</span><wbr><span class="parameters">(net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</span></div>
-<div class="block">Calculates the the integer id representation of the blockstate.</div>
+Calculates the the integer id representation of the blockstate.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockState</code> - The blockstate for which the id is requested.</dd>
@@ -112,7 +111,7 @@ _Package:_ [mod.chiselsandbits.api.block.state.id](index.md)
 :::tabs
 == getBlockStateFrom
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.level.block.state.BlockState</span>&nbsp;<span class="element-name">getBlockStateFrom</span><wbr><span class="parameters">(int&nbsp;id)</span></div>
-<div class="block">Calculates the blockstate from the given id.</div>
+Calculates the blockstate from the given id.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>id</code> - The integer id representation of the requested blockstate.</dd>

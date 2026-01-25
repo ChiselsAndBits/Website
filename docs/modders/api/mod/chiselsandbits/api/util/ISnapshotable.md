@@ -13,8 +13,7 @@ T - The type of the object.
 
   
 
-<div class="block">Defines an object which is capable of making a deep clone of itself.</div>
-  
+Defines an object which is capable of making a deep clone of itself.  
 
 <dl class="notes"></dl>  
 

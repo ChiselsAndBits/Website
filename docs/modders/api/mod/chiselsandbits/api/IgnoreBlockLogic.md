@@ -4,7 +4,7 @@ aside: false
 sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api](index.md)  
-# Annotation_type IgnoreBlockLogic  
+# Annotation Interface IgnoreBlockLogic  
 **All Extended Interfaces:**  
 Annotation  
 
@@ -14,15 +14,14 @@ Annotation
 
   
 
-<div class="block">When checking for blocks to allow for chiseling Chisels and Bits checks various methods...
+When checking for blocks to allow for chiseling Chisels and Bits checks various methods...
 
  hasTileEntity, getTickRandomly, quantityDropped, quantityDroppedWithBonus,
  onEntityCollidedWithBlock, and isFullBlock
 
  If you include this annotation or use the tag, you can force Chisels and Bits to
  overlook these custom implementations, please use with care and test before
- releasing usage.</div>
-  
+ releasing usage.  
 
 <dl class="notes"></dl>  
 

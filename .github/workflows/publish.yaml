@@ -23,6 +23,10 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+# Set the base path to /website
+env:
+  BASE: /website
+
 jobs:
   # Build job
   build:

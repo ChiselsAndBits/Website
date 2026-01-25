@@ -7,6 +7,8 @@ import {generateSidebar} from "vitepress-sidebar";
 import {tabsMarkdownPlugin} from "vitepress-plugin-tabs";
 
 // https://vitepress.dev/reference/site-config
+const BASE_PATH: string | null = process.env.BASE || null;
+
 export default defineConfig({
   title: "Chisels & Bits - Documentation",
   description: "The documentation for the Minecraft mod Chisels & Bits",
@@ -20,6 +22,8 @@ export default defineConfig({
   ],
 
   metaChunk: true,
+
+  base: BASE_PATH,
 
   themeConfig: {
     logo: '/icon.png',

@@ -1,6 +1,7 @@
 --- 
 title: IStateVariantProvider
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.variant.state](index.md)  
 # Interface IStateVariantProvider  

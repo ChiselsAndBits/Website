@@ -1,6 +1,7 @@
 --- 
 title: PlacementPreviewRenderMode
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.client.render.preview.placement](index.md)  
 # Enum PlacementPreviewRenderMode  

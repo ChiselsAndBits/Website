@@ -1,6 +1,7 @@
 --- 
 title: Consumer_WithExceptions
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.util](index.md)  
 # Interface Consumer_WithExceptions\<T,E extends Exception\>  

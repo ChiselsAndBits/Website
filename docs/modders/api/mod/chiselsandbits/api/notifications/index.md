@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.notifications
+title: notifications
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.notifications
@@ -15,13 +16,13 @@ package mod.chiselsandbits.api.notifications;
 == All Types
 |Class|Description|
 |---|---|
-|[INotification](INotification.md)||
 |[INotificationManager](INotificationManager.md)|Manager which handles notifying players of events in the game.|
+|[INotification](INotification.md)||
 == Interfaces
 |Class|Description|
 |---|---|
-|[INotification](INotification.md)||
 |[INotificationManager](INotificationManager.md)|Manager which handles notifying players of events in the game.|
+|[INotification](INotification.md)||
 == Classes
 No types found.
 == Enums

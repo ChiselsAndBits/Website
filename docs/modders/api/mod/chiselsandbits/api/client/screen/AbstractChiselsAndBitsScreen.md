@@ -1,6 +1,7 @@
 --- 
 title: AbstractChiselsAndBitsScreen
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.client.screen](index.md)  
 # Class AbstractChiselsAndBitsScreen  

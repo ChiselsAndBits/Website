@@ -1,6 +1,7 @@
 --- 
 title: IChangeHandler
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.change.changes](index.md)  
 # Interface IChangeHandler  

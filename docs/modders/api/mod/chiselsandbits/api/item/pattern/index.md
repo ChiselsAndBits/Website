@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.pattern
+title: pattern
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.pattern

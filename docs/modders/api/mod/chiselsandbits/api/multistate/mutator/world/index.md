@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.multistate.mutator.world
+title: world
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.multistate.mutator.world
@@ -15,13 +16,13 @@ package mod.chiselsandbits.api.multistate.mutator.world;
 == All Types
 |Class|Description|
 |---|---|
-|[IInWorldMutableStateEntryInfo](IInWorldMutableStateEntryInfo.md)||
 |[IWorldAreaMutator](IWorldAreaMutator.md)|Allows for a given area in the world to be mutated.|
+|[IInWorldMutableStateEntryInfo](IInWorldMutableStateEntryInfo.md)||
 == Interfaces
 |Class|Description|
 |---|---|
-|[IInWorldMutableStateEntryInfo](IInWorldMutableStateEntryInfo.md)||
 |[IWorldAreaMutator](IWorldAreaMutator.md)|Allows for a given area in the world to be mutated.|
+|[IInWorldMutableStateEntryInfo](IInWorldMutableStateEntryInfo.md)||
 == Classes
 No types found.
 == Enums

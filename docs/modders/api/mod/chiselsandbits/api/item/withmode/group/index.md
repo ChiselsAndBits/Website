@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.withmode.group
+title: group
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.withmode.group

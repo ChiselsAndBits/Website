@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.multistate
+title: multistate
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.multistate
@@ -15,17 +16,17 @@ package mod.chiselsandbits.api.item.multistate;
 == All Types
 |Class|Description|
 |---|---|
+|[IMultiStateItemStack](IMultiStateItemStack.md)|The itemstack sensitive version of the multistate item.|
 |[IMultiStateItem](IMultiStateItem.md)|An item whose itemstacks contain multistate information.|
 |[IStatistics](IStatistics.md)|The statistics of a multi state itemstack.|
 |[IMultiStateItemFactory](IMultiStateItemFactory.md)|Can create multistate items from a given source.|
-|[IMultiStateItemStack](IMultiStateItemStack.md)|The itemstack sensitive version of the multistate item.|
 == Interfaces
 |Class|Description|
 |---|---|
+|[IMultiStateItemStack](IMultiStateItemStack.md)|The itemstack sensitive version of the multistate item.|
 |[IMultiStateItem](IMultiStateItem.md)|An item whose itemstacks contain multistate information.|
 |[IStatistics](IStatistics.md)|The statistics of a multi state itemstack.|
 |[IMultiStateItemFactory](IMultiStateItemFactory.md)|Can create multistate items from a given source.|
-|[IMultiStateItemStack](IMultiStateItemStack.md)|The itemstack sensitive version of the multistate item.|
 == Classes
 No types found.
 == Enums

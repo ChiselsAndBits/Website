@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.multistate.snapshot
+title: snapshot
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.multistate.snapshot
@@ -16,14 +17,14 @@ package mod.chiselsandbits.api.multistate.snapshot;
 |Class|Description|
 |---|---|
 |[IMultiStateSnapshotType](IMultiStateSnapshotType.md)|The type of a multi state snapshot.|
-|[ISnapshotFactory](ISnapshotFactory.md)|A factory to create simple snapshots.|
 |[IMultiStateSnapshot](IMultiStateSnapshot.md)||
+|[ISnapshotFactory](ISnapshotFactory.md)|A factory to create simple snapshots.|
 == Interfaces
 |Class|Description|
 |---|---|
 |[IMultiStateSnapshotType](IMultiStateSnapshotType.md)|The type of a multi state snapshot.|
-|[ISnapshotFactory](ISnapshotFactory.md)|A factory to create simple snapshots.|
 |[IMultiStateSnapshot](IMultiStateSnapshot.md)||
+|[ISnapshotFactory](ISnapshotFactory.md)|A factory to create simple snapshots.|
 == Classes
 No types found.
 == Enums

@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.multistate.accessor.sortable
+title: sortable
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.multistate.accessor.sortable

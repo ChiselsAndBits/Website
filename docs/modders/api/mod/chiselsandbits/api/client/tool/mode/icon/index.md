@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.client.tool.mode.icon
+title: icon
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.client.tool.mode.icon
@@ -15,13 +16,13 @@ package mod.chiselsandbits.api.client.tool.mode.icon;
 == All Types
 |Class|Description|
 |---|---|
-|[ISelectedToolModeIconRenderer](ISelectedToolModeIconRenderer.md)|Used to render the icons on the hot bar for the selected tool mode.|
 |[ISelectedToolModeIconRendererRegistry](ISelectedToolModeIconRendererRegistry.md)|Registry for registering possible selected tool mode icon renderers,<br> and for getting the current renderer back out.|
+|[ISelectedToolModeIconRenderer](ISelectedToolModeIconRenderer.md)|Used to render the icons on the hot bar for the selected tool mode.|
 == Interfaces
 |Class|Description|
 |---|---|
-|[ISelectedToolModeIconRenderer](ISelectedToolModeIconRenderer.md)|Used to render the icons on the hot bar for the selected tool mode.|
 |[ISelectedToolModeIconRendererRegistry](ISelectedToolModeIconRendererRegistry.md)|Registry for registering possible selected tool mode icon renderers,<br> and for getting the current renderer back out.|
+|[ISelectedToolModeIconRenderer](ISelectedToolModeIconRenderer.md)|Used to render the icons on the hot bar for the selected tool mode.|
 == Classes
 No types found.
 == Enums

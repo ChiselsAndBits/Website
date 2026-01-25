@@ -1,6 +1,7 @@
 --- 
 title: IModificationOperationGroup
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.modification.operation](index.md)  
 # Interface IModificationOperationGroup  

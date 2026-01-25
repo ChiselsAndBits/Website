@@ -1,6 +1,7 @@
 --- 
 title: IWorldAreaAccessor
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate.accessor.world](index.md)  
 # Interface IWorldAreaAccessor  

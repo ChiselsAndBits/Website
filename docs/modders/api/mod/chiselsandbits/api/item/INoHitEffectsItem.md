@@ -1,6 +1,7 @@
 --- 
 title: INoHitEffectsItem
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.item](index.md)  
 # Interface INoHitEffectsItem  

@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.client.render.preview.placement
+title: placement
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.client.render.preview.placement

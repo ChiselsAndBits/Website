@@ -1,6 +1,7 @@
 --- 
 title: ICheckerRegistration
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.permissions](index.md)  
 # Interface ICheckerRegistration  

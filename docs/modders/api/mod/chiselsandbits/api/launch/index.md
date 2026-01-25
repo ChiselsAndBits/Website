@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.launch
+title: launch
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.launch

@@ -1,6 +1,7 @@
 --- 
 title: IAreaShapeIdentifier
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate.accessor.identifier](index.md)  
 # Interface IAreaShapeIdentifier  

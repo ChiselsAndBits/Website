@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.client.variant.state
+title: state
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.client.variant.state
@@ -15,13 +16,13 @@ package mod.chiselsandbits.api.client.variant.state;
 == All Types
 |Class|Description|
 |---|---|
-|[IClientStateVariantManager](IClientStateVariantManager.md)|The state variant provider for the client.|
 |[IClientStateVariantProvider](IClientStateVariantProvider.md)|A state variant provider for client side interactions.|
+|[IClientStateVariantManager](IClientStateVariantManager.md)|The state variant provider for the client.|
 == Interfaces
 |Class|Description|
 |---|---|
-|[IClientStateVariantManager](IClientStateVariantManager.md)|The state variant provider for the client.|
 |[IClientStateVariantProvider](IClientStateVariantProvider.md)|A state variant provider for client side interactions.|
+|[IClientStateVariantManager](IClientStateVariantManager.md)|The state variant provider for the client.|
 == Classes
 No types found.
 == Enums

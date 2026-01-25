@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.chiseling.eligibility
+title: eligibility
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.chiseling.eligibility
@@ -15,15 +16,15 @@ package mod.chiselsandbits.api.chiseling.eligibility;
 == All Types
 |Class|Description|
 |---|---|
-|[IEligibilityOptions](IEligibilityOptions.md)|Determines the additional eligibility options for a given platform.|
-|[IEligibilityAnalysisResult](IEligibilityAnalysisResult.md)|The results of an eligibility analysis.|
 |[IEligibilityManager](IEligibilityManager.md)|An object which can manage the eligibility of chiseling of blocks, blockstates,<br> or itemstacks (which contain blocks eligible) for chiseling.|
+|[IEligibilityAnalysisResult](IEligibilityAnalysisResult.md)|The results of an eligibility analysis.|
+|[IEligibilityOptions](IEligibilityOptions.md)|Determines the additional eligibility options for a given platform.|
 == Interfaces
 |Class|Description|
 |---|---|
-|[IEligibilityOptions](IEligibilityOptions.md)|Determines the additional eligibility options for a given platform.|
-|[IEligibilityAnalysisResult](IEligibilityAnalysisResult.md)|The results of an eligibility analysis.|
 |[IEligibilityManager](IEligibilityManager.md)|An object which can manage the eligibility of chiseling of blocks, blockstates,<br> or itemstacks (which contain blocks eligible) for chiseling.|
+|[IEligibilityAnalysisResult](IEligibilityAnalysisResult.md)|The results of an eligibility analysis.|
+|[IEligibilityOptions](IEligibilityOptions.md)|Determines the additional eligibility options for a given platform.|
 == Classes
 No types found.
 == Enums

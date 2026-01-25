@@ -1,6 +1,7 @@
 --- 
 title: StateEntryStorage
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.block.storage](index.md)  
 # Class StateEntryStorage  

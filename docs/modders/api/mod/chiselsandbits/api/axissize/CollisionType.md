@@ -1,6 +1,7 @@
 --- 
 title: CollisionType
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.axissize](index.md)  
 # Enum CollisionType  

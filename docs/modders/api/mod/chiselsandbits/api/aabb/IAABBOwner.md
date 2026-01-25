@@ -1,6 +1,7 @@
 --- 
 title: IAABBOwner
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.aabb](index.md)  
 # Interface IAABBOwner  

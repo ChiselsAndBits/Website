@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.multistate.statistics
+title: statistics
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.multistate.statistics

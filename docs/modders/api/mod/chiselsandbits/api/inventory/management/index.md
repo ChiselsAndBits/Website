@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.inventory.management
+title: management
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.inventory.management

@@ -1,6 +1,7 @@
 --- 
 title: DisplayContents
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)  
 # Record DisplayContents  

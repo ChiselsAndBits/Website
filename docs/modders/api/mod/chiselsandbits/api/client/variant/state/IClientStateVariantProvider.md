@@ -1,6 +1,7 @@
 --- 
 title: IClientStateVariantProvider
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.client.variant.state](index.md)  
 # Interface IClientStateVariantProvider  

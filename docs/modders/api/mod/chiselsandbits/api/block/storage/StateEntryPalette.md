@@ -1,6 +1,7 @@
 --- 
 title: StateEntryPalette
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.block.storage](index.md)  
 # Record StateEntryPalette  

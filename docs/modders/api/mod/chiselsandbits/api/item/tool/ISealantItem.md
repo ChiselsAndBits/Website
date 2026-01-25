@@ -1,6 +1,7 @@
 --- 
 title: ISealantItem
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.item.tool](index.md)  
 # Interface ISealantItem  

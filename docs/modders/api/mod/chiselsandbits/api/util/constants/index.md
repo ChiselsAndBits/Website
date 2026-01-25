@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.util.constants
+title: constants
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.util.constants
@@ -15,17 +16,17 @@ package mod.chiselsandbits.api.util.constants;
 == All Types
 |Class|Description|
 |---|---|
-|[Constants](Constants.md)||
-|[DataGenerator](Constants.DataGenerator.md)||
 |[NbtConstants](NbtConstants.md)||
+|[DataGenerator](Constants.DataGenerator.md)||
+|[Constants](Constants.md)||
 == Interfaces
 No types found.
 == Classes
 |Class|Description|
 |---|---|
-|[Constants](Constants.md)||
-|[DataGenerator](Constants.DataGenerator.md)||
 |[NbtConstants](NbtConstants.md)||
+|[DataGenerator](Constants.DataGenerator.md)||
+|[Constants](Constants.md)||
 == Enums
 No types found.
 == Records

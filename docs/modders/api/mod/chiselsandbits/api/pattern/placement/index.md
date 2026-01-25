@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.pattern.placement
+title: placement
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.pattern.placement

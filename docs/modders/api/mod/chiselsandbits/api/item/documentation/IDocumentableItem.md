@@ -1,6 +1,7 @@
 --- 
 title: IDocumentableItem
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.item.documentation](index.md)  
 # Interface IDocumentableItem  

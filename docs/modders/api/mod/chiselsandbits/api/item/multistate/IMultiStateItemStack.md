@@ -1,6 +1,7 @@
 --- 
 title: IMultiStateItemStack
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.item.multistate](index.md)  
 # Interface IMultiStateItemStack  

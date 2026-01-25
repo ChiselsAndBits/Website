@@ -1,6 +1,7 @@
 --- 
 title: IAreaAccessor
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate.accessor](index.md)  
 # Interface IAreaAccessor  

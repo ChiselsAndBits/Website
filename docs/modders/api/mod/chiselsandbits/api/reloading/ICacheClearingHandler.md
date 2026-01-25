@@ -1,6 +1,7 @@
 --- 
 title: ICacheClearingHandler
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.reloading](index.md)  
 # Interface ICacheClearingHandler  

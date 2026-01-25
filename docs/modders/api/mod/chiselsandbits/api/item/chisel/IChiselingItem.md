@@ -1,6 +1,7 @@
 --- 
 title: IChiselingItem
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.item.chisel](index.md)  
 # Interface IChiselingItem  

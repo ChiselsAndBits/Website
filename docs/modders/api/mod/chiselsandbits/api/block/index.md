@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.block
+title: block
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.block
@@ -32,6 +33,6 @@ No types found.
 
 |Package|Description|
 |---|---|
-|[mod.chiselsandbits.api.block.storage](storage/index.md)||
-|[mod.chiselsandbits.api.block.bitbag](bitbag/index.md)||
 |[mod.chiselsandbits.api.block.entity](entity/index.md)||
+|[mod.chiselsandbits.api.block.bitbag](bitbag/index.md)||
+|[mod.chiselsandbits.api.block.storage](storage/index.md)||

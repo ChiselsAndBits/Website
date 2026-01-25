@@ -1,6 +1,7 @@
 --- 
 title: ISingleStateAreaShareIdentifier
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate.accessor.identifier](index.md)  
 # Interface ISingleStateAreaShareIdentifier  

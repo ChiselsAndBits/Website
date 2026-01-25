@@ -1,6 +1,7 @@
 --- 
 title: IConversionManager
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.chiseling.conversion](index.md)  
 # Interface IConversionManager  

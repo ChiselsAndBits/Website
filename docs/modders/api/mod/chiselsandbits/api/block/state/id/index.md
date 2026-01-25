@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.block.state.id
+title: id
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.block.state.id

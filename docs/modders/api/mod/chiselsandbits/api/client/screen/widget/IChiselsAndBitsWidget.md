@@ -1,6 +1,7 @@
 --- 
 title: IChiselsAndBitsWidget
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.client.screen.widget](index.md)  
 # Interface IChiselsAndBitsWidget  

@@ -1,6 +1,7 @@
 --- 
 title: IBlockNeighborhoodBuilder
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.neighborhood](index.md)  
 # Interface IBlockNeighborhoodBuilder  

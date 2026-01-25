@@ -1,6 +1,7 @@
 --- 
 title: IMultiStateObjectStatistics
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate.statistics](index.md)  
 # Interface IMultiStateObjectStatistics  

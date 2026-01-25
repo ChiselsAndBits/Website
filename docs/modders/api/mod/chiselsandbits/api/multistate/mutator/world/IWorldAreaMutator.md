@@ -1,6 +1,7 @@
 --- 
 title: IWorldAreaMutator
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate.mutator.world](index.md)  
 # Interface IWorldAreaMutator  

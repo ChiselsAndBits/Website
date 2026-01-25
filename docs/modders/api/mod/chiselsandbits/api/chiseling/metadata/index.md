@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.chiseling.metadata
+title: metadata
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.chiseling.metadata

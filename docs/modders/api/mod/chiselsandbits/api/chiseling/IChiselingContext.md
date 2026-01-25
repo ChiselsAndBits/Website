@@ -1,6 +1,7 @@
 --- 
 title: IChiselingContext
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.chiseling](index.md)  
 # Interface IChiselingContext  

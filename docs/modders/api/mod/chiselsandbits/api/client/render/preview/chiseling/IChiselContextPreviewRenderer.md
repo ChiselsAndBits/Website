@@ -1,6 +1,7 @@
 --- 
 title: IChiselContextPreviewRenderer
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.client.render.preview.chiseling](index.md)  
 # Interface IChiselContextPreviewRenderer  

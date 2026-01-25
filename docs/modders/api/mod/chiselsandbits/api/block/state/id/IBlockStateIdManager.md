@@ -1,6 +1,7 @@
 --- 
 title: IBlockStateIdManager
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.block.state.id](index.md)  
 # Interface IBlockStateIdManager  

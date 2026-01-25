@@ -1,6 +1,7 @@
 --- 
 title: IRegistryManager
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.registries](index.md)  
 # Interface IRegistryManager  

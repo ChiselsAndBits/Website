@@ -1,6 +1,7 @@
 --- 
 title: ClassUtils
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.util](index.md)  
 # Class ClassUtils  

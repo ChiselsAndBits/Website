@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.documentation
+title: documentation
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.documentation

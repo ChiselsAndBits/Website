@@ -1,6 +1,7 @@
 --- 
 title: StateClearer
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate.mutator.callback](index.md)  
 # Interface StateClearer  

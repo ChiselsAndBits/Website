@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.click
+title: click
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.click

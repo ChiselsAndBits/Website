@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.multistate
+title: multistate
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.multistate
@@ -32,7 +33,7 @@ No types found.
 
 |Package|Description|
 |---|---|
+|[mod.chiselsandbits.api.multistate.statistics](statistics/index.md)||
 |[mod.chiselsandbits.api.multistate.accessor](accessor/index.md)||
 |[mod.chiselsandbits.api.multistate.snapshot](snapshot/index.md)||
 |[mod.chiselsandbits.api.multistate.mutator](mutator/index.md)||
-|[mod.chiselsandbits.api.multistate.statistics](statistics/index.md)||

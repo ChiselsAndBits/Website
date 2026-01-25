@@ -1,6 +1,7 @@
 --- 
 title: INotificationManager
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.notifications](index.md)  
 # Interface INotificationManager  

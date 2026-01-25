@@ -1,6 +1,7 @@
 --- 
 title: IBitInventoryManager
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.inventory.management](index.md)  
 # Interface IBitInventoryManager  

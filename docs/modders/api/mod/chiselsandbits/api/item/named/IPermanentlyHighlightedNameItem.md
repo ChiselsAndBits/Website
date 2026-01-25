@@ -1,6 +1,7 @@
 --- 
 title: IPermanentlyHighlightedNameItem
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.item.named](index.md)  
 # Interface IPermanentlyHighlightedNameItem  

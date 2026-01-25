@@ -1,6 +1,7 @@
 --- 
 title: IInteractableItem
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.item.interactable](index.md)  
 # Interface IInteractableItem  

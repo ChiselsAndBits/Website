@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.serialization
+title: serialization
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.serialization
@@ -15,21 +16,21 @@ package mod.chiselsandbits.api.serialization;
 == All Types
 |Class|Description|
 |---|---|
-|[FallbackCodec](CBCodecs.FallbackCodec.md)||
+|[Registry](Serializable.Registry.md)|Serializes specifically when a registry is involved.|
+|[CBCodecs](CBCodecs.md)||
+|[Serializable](Serializable.md)|Defines objects which can be serialized into an exact format.|
+|[RawSerializable](RawSerializable.md)|Defines objects which can be serialized into a raw format.|
 |[NbtAwareBitsetCodec](CBCodecs.NbtAwareBitsetCodec.md)||
 |[CBStreamCodecs](CBStreamCodecs.md)||
-|[CBCodecs](CBCodecs.md)||
-|[RawSerializable](RawSerializable.md)|Defines objects which can be serialized into a raw format.|
-|[Registry](Serializable.Registry.md)|Serializes specifically when a registry is involved.|
-|[Serializable](Serializable.md)|Defines objects which can be serialized into an exact format.|
+|[FallbackCodec](CBCodecs.FallbackCodec.md)||
 == Interfaces
 |Class|Description|
 |---|---|
-|[CBStreamCodecs](CBStreamCodecs.md)||
-|[CBCodecs](CBCodecs.md)||
-|[RawSerializable](RawSerializable.md)|Defines objects which can be serialized into a raw format.|
 |[Registry](Serializable.Registry.md)|Serializes specifically when a registry is involved.|
+|[CBCodecs](CBCodecs.md)||
 |[Serializable](Serializable.md)|Defines objects which can be serialized into an exact format.|
+|[RawSerializable](RawSerializable.md)|Defines objects which can be serialized into a raw format.|
+|[CBStreamCodecs](CBStreamCodecs.md)||
 == Classes
 No types found.
 == Enums
@@ -37,6 +38,6 @@ No types found.
 == Records
 |Class|Description|
 |---|---|
-|[FallbackCodec](CBCodecs.FallbackCodec.md)||
 |[NbtAwareBitsetCodec](CBCodecs.NbtAwareBitsetCodec.md)||
+|[FallbackCodec](CBCodecs.FallbackCodec.md)||
 :::

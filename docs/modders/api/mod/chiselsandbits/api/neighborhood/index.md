@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.neighborhood
+title: neighborhood
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.neighborhood

@@ -1,6 +1,7 @@
 --- 
 title: IWithHighlightItem
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.item.withhighlight](index.md)  
 # Interface IWithHighlightItem  

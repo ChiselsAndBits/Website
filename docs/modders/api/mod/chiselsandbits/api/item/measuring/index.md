@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.measuring
+title: measuring
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.measuring

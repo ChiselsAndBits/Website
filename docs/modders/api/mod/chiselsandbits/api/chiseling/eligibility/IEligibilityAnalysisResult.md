@@ -1,6 +1,7 @@
 --- 
 title: IEligibilityAnalysisResult
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.chiseling.eligibility](index.md)  
 # Interface IEligibilityAnalysisResult  

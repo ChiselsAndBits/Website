@@ -1,6 +1,7 @@
 --- 
 title: IPatternPlacementType
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.pattern.placement](index.md)  
 # Interface IPatternPlacementType  

@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.withhighlight
+title: withhighlight
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.withhighlight

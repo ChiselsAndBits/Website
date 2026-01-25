@@ -1,6 +1,7 @@
 --- 
 title: IMultiStateBlockEntity
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.block.entity](index.md)  
 # Interface IMultiStateBlockEntity  

@@ -1,6 +1,7 @@
 --- 
 title: StateSetter
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate.mutator.callback](index.md)  
 # Interface StateSetter  

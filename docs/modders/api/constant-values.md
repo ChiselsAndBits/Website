@@ -1,7 +1,7 @@
 --- 
 title: Constants
-sidebar: false
 aside: false 
+sidebar: false 
 order: 1000000000 
 ---
   

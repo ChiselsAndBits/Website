@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.registries
+title: registries
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.registries

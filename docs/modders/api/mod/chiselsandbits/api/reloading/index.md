@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.reloading
+title: reloading
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.reloading

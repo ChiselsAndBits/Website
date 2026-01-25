@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.placement
+title: placement
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.placement
@@ -15,15 +16,15 @@ package mod.chiselsandbits.api.placement;
 == All Types
 |Class|Description|
 |---|---|
-|[IPlacementProperties](IPlacementProperties.md)||
 |[IPlacementPreviewProvidingItem](IPlacementPreviewProvidingItem.md)||
 |[PlacementResult](PlacementResult.md)|Represents a result of a placement attempt.|
+|[IPlacementProperties](IPlacementProperties.md)||
 |[IPlaceable](IPlaceable.md)||
 == Interfaces
 |Class|Description|
 |---|---|
-|[IPlacementProperties](IPlacementProperties.md)||
 |[IPlacementPreviewProvidingItem](IPlacementPreviewProvidingItem.md)||
+|[IPlacementProperties](IPlacementProperties.md)||
 |[IPlaceable](IPlaceable.md)||
 == Classes
 |Class|Description|

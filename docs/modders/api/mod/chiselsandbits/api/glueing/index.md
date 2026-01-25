@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.glueing
+title: glueing
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.glueing

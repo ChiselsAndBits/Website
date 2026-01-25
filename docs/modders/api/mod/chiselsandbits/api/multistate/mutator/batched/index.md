@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.multistate.mutator.batched
+title: batched
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.multistate.mutator.batched

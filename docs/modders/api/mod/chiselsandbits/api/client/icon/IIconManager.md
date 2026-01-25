@@ -1,6 +1,7 @@
 --- 
 title: IIconManager
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.client.icon](index.md)  
 # Interface IIconManager  

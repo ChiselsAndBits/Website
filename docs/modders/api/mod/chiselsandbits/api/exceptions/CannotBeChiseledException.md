@@ -1,6 +1,7 @@
 --- 
 title: CannotBeChiseledException
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.exceptions](index.md)  
 # Class CannotBeChiseledException  

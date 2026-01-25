@@ -1,6 +1,7 @@
 --- 
 title: IPositionMutator
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate.accessor.sortable](index.md)  
 # Interface IPositionMutator  

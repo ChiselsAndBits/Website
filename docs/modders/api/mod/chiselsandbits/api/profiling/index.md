@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.profiling
+title: profiling
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.profiling
@@ -15,17 +16,17 @@ package mod.chiselsandbits.api.profiling;
 == All Types
 |Class|Description|
 |---|---|
-|[IProfilerSection](IProfilerSection.md)|Represents a resource used for try-resource blocks that represents a<br> section of profileable code.|
 |[IProfilingManager](IProfilingManager.md)|A profiling manager to handle the profiling of different interactions or managements.|
-|[IProfilerResult](IProfilerResult.md)|The result of a profiling operation.|
+|[IProfilerSection](IProfilerSection.md)|Represents a resource used for try-resource blocks that represents a<br> section of profileable code.|
 |[IProfiler](IProfiler.md)|A profiler used to track the time certain operations inside Chisels and Bits take.|
+|[IProfilerResult](IProfilerResult.md)|The result of a profiling operation.|
 == Interfaces
 |Class|Description|
 |---|---|
-|[IProfilerSection](IProfilerSection.md)|Represents a resource used for try-resource blocks that represents a<br> section of profileable code.|
 |[IProfilingManager](IProfilingManager.md)|A profiling manager to handle the profiling of different interactions or managements.|
-|[IProfilerResult](IProfilerResult.md)|The result of a profiling operation.|
+|[IProfilerSection](IProfilerSection.md)|Represents a resource used for try-resource blocks that represents a<br> section of profileable code.|
 |[IProfiler](IProfiler.md)|A profiler used to track the time certain operations inside Chisels and Bits take.|
+|[IProfilerResult](IProfilerResult.md)|The result of a profiling operation.|
 == Classes
 No types found.
 == Enums

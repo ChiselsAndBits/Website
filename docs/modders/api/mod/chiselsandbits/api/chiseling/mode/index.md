@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.chiseling.mode
+title: mode
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.chiseling.mode

@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.client.screen
+title: screen
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.client.screen

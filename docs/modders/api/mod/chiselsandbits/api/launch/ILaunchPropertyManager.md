@@ -1,6 +1,7 @@
 --- 
 title: ILaunchPropertyManager
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.launch](index.md)  
 # Interface ILaunchPropertyManager  

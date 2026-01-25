@@ -1,6 +1,7 @@
 --- 
 title: BlockInformation
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.blockinformation](index.md)  
 # Record BlockInformation  

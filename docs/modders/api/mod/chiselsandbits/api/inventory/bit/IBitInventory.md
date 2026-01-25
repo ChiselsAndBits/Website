@@ -1,6 +1,7 @@
 --- 
 title: IBitInventory
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)  
 # Interface IBitInventory  

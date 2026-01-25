@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.chiseling.conversion
+title: conversion
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.chiseling.conversion

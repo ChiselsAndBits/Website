@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.aabb
+title: aabb
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.aabb

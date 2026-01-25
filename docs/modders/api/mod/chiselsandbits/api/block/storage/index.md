@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.block.storage
+title: storage
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.block.storage
@@ -15,10 +16,10 @@ package mod.chiselsandbits.api.block.storage;
 == All Types
 |Class|Description|
 |---|---|
+|[StateEntryPalette](StateEntryPalette.md)||
+|[Result](StateEntryPalette.Result.md)|Represents the result of a palette operation.|
 |[SizeInformation](StateEntryPalette.SizeInformation.md)|Represents the size information of the palette.|
 |[StateEntryStorage](StateEntryStorage.md)||
-|[Result](StateEntryPalette.Result.md)|Represents the result of a palette operation.|
-|[StateEntryPalette](StateEntryPalette.md)||
 |[Entry](StateEntryPalette.Entry.md)||
 == Interfaces
 No types found.
@@ -31,8 +32,8 @@ No types found.
 == Records
 |Class|Description|
 |---|---|
-|[SizeInformation](StateEntryPalette.SizeInformation.md)|Represents the size information of the palette.|
-|[Result](StateEntryPalette.Result.md)|Represents the result of a palette operation.|
 |[StateEntryPalette](StateEntryPalette.md)||
+|[Result](StateEntryPalette.Result.md)|Represents the result of a palette operation.|
+|[SizeInformation](StateEntryPalette.SizeInformation.md)|Represents the size information of the palette.|
 |[Entry](StateEntryPalette.Entry.md)||
 :::

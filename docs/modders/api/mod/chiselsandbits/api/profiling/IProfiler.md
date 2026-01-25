@@ -1,6 +1,7 @@
 --- 
 title: IProfiler
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.profiling](index.md)  
 # Interface IProfiler  

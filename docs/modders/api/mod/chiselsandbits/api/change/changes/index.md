@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.change.changes
+title: changes
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.change.changes
@@ -15,16 +16,16 @@ package mod.chiselsandbits.api.change.changes;
 == All Types
 |Class|Description|
 |---|---|
-|[IChange](IChange.md)|Represents a single change that has been created with bits.|
+|[IllegalChangeAttempt](IllegalChangeAttempt.md)|Exception thrown when change attempt is made before checking if the change attempt is possible.|
 |[IChangeType](IChangeType.md)|The type of registry entry that represents a change.|
 |[IChangeHandler](IChangeHandler.md)|Represents an entry point for a change that can be undone and redone.|
-|[IllegalChangeAttempt](IllegalChangeAttempt.md)|Exception thrown when change attempt is made before checking if the change attempt is possible.|
+|[IChange](IChange.md)|Represents a single change that has been created with bits.|
 == Interfaces
 |Class|Description|
 |---|---|
-|[IChange](IChange.md)|Represents a single change that has been created with bits.|
 |[IChangeType](IChangeType.md)|The type of registry entry that represents a change.|
 |[IChangeHandler](IChangeHandler.md)|Represents an entry point for a change that can be undone and redone.|
+|[IChange](IChange.md)|Represents a single change that has been created with bits.|
 == Classes
 |Class|Description|
 |---|---|

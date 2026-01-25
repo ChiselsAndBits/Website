@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.client.sharing
+title: sharing
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.client.sharing

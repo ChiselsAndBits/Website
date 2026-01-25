@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.voxelshape
+title: voxelshape
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.voxelshape

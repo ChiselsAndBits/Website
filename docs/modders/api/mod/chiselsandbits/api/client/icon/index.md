@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.client.icon
+title: icon
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.client.icon

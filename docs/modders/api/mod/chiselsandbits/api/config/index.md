@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.config
+title: config
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.config
@@ -15,17 +16,17 @@ package mod.chiselsandbits.api.config;
 == All Types
 |Class|Description|
 |---|---|
-|[IServerConfiguration](IServerConfiguration.md)|Gives access to the current server's configuration.|
-|[ICommonConfiguration](ICommonConfiguration.md)||
-|[IClientConfiguration](IClientConfiguration.md)|All client configuration values that are relevant for the client side of C<br>{@literal &}<br>B.|
 |[IChiselsAndBitsConfiguration](IChiselsAndBitsConfiguration.md)|Represents the configuration of chisels and bits.|
+|[IClientConfiguration](IClientConfiguration.md)|All client configuration values that are relevant for the client side of C<br>{@literal &}<br>B.|
+|[ICommonConfiguration](ICommonConfiguration.md)||
+|[IServerConfiguration](IServerConfiguration.md)|Gives access to the current server's configuration.|
 == Interfaces
 |Class|Description|
 |---|---|
-|[IServerConfiguration](IServerConfiguration.md)|Gives access to the current server's configuration.|
-|[ICommonConfiguration](ICommonConfiguration.md)||
-|[IClientConfiguration](IClientConfiguration.md)|All client configuration values that are relevant for the client side of C<br>{@literal &}<br>B.|
 |[IChiselsAndBitsConfiguration](IChiselsAndBitsConfiguration.md)|Represents the configuration of chisels and bits.|
+|[IClientConfiguration](IClientConfiguration.md)|All client configuration values that are relevant for the client side of C<br>{@literal &}<br>B.|
+|[ICommonConfiguration](ICommonConfiguration.md)||
+|[IServerConfiguration](IServerConfiguration.md)|Gives access to the current server's configuration.|
 == Classes
 No types found.
 == Enums

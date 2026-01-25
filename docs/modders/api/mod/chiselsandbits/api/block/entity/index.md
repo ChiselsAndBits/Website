@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.block.entity
+title: entity
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.block.entity
@@ -16,8 +17,8 @@ package mod.chiselsandbits.api.block.entity;
 |Class|Description|
 |---|---|
 |[IMultiStateBlockEntity](IMultiStateBlockEntity.md)|Represents the block entity with the state data, which under-ly the information<br> provided by the <br>{@link IMultiStateBlock}<br> blocks.|
-|[BlockStack](IMultiStateBlockEntity.BlockStack.md)||
 |[INetworkUpdatableEntity](INetworkUpdatableEntity.md)|Marks the entity as a network updatable entity.|
+|[BlockStack](IMultiStateBlockEntity.BlockStack.md)||
 == Interfaces
 |Class|Description|
 |---|---|

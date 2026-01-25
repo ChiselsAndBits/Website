@@ -1,6 +1,7 @@
 --- 
 title: IPatternSharingManager
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.client.sharing](index.md)  
 # Interface IPatternSharingManager  

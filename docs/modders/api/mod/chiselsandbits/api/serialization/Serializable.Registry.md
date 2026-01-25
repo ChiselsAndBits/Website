@@ -1,6 +1,7 @@
 --- 
 title: Registry
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.serialization](index.md)  
 # Interface Registry\<TSelf\>  

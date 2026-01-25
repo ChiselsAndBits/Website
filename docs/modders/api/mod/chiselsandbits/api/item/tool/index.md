@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.tool
+title: tool
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.tool
@@ -16,14 +17,14 @@ package mod.chiselsandbits.api.item.tool;
 |Class|Description|
 |---|---|
 |[IUnsealItem](IUnsealItem.md)|Represents a unsealing item that is used to unseal multi use patterns.|
-|[IQuillItem](IQuillItem.md)|Represents a quill that can be used to create patterns.|
 |[ISealantItem](ISealantItem.md)|Represents a sealant item that is used to seal single use patterns.|
+|[IQuillItem](IQuillItem.md)|Represents a quill that can be used to create patterns.|
 == Interfaces
 |Class|Description|
 |---|---|
 |[IUnsealItem](IUnsealItem.md)|Represents a unsealing item that is used to unseal multi use patterns.|
-|[IQuillItem](IQuillItem.md)|Represents a quill that can be used to create patterns.|
 |[ISealantItem](ISealantItem.md)|Represents a sealant item that is used to seal single use patterns.|
+|[IQuillItem](IQuillItem.md)|Represents a quill that can be used to create patterns.|
 == Classes
 No types found.
 == Enums

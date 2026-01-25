@@ -1,6 +1,7 @@
 --- 
 title: NbtAwareBitsetCodec
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.serialization](index.md)  
 # Record NbtAwareBitsetCodec  

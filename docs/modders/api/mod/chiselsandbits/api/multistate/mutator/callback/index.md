@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.multistate.mutator.callback
+title: callback
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.multistate.mutator.callback
@@ -15,13 +16,13 @@ package mod.chiselsandbits.api.multistate.mutator.callback;
 == All Types
 |Class|Description|
 |---|---|
-|[StateSetter](StateSetter.md)|Functional callback interface for setting the state of a bit.|
 |[StateClearer](StateClearer.md)||
+|[StateSetter](StateSetter.md)|Functional callback interface for setting the state of a bit.|
 == Interfaces
 |Class|Description|
 |---|---|
-|[StateSetter](StateSetter.md)|Functional callback interface for setting the state of a bit.|
 |[StateClearer](StateClearer.md)||
+|[StateSetter](StateSetter.md)|Functional callback interface for setting the state of a bit.|
 == Classes
 No types found.
 == Enums

@@ -1,6 +1,7 @@
 --- 
 title: ICuttingOperationGroup
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.cutting.operation](index.md)  
 # Interface ICuttingOperationGroup  

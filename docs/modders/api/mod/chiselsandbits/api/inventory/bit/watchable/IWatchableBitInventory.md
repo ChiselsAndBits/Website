@@ -1,6 +1,7 @@
 --- 
 title: IWatchableBitInventory
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.inventory.bit.watchable](index.md)  
 # Interface IWatchableBitInventory  

@@ -1,6 +1,7 @@
 --- 
 title: IGlueableBlockEntity
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.glueing](index.md)  
 # Interface IGlueableBlockEntity  

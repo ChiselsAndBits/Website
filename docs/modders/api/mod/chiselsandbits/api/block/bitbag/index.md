@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.block.bitbag
+title: bitbag
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.block.bitbag

@@ -1,6 +1,7 @@
 --- 
 title: ISnapshotFactory
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate.snapshot](index.md)  
 # Interface ISnapshotFactory  

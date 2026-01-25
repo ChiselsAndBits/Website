@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.chiseling
+title: chiseling
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.chiseling
@@ -15,16 +16,16 @@ package mod.chiselsandbits.api.chiseling;
 == All Types
 |Class|Description|
 |---|---|
-|[ChiselingOperation](ChiselingOperation.md)|Represents the mode of operandus of the current chiseling context.|
+|[IChiselingManager](IChiselingManager.md)||
 |[IChiselingContext](IChiselingContext.md)|The current context for the running chiseling operation.|
 |[ILocalChiselingContextCache](ILocalChiselingContextCache.md)|This small cache is used on the client side, primarily, to store a single active context<br> which is valid across multiple frames.|
-|[IChiselingManager](IChiselingManager.md)||
+|[ChiselingOperation](ChiselingOperation.md)|Represents the mode of operandus of the current chiseling context.|
 == Interfaces
 |Class|Description|
 |---|---|
+|[IChiselingManager](IChiselingManager.md)||
 |[IChiselingContext](IChiselingContext.md)|The current context for the running chiseling operation.|
 |[ILocalChiselingContextCache](ILocalChiselingContextCache.md)|This small cache is used on the client side, primarily, to store a single active context<br> which is valid across multiple frames.|
-|[IChiselingManager](IChiselingManager.md)||
 == Classes
 No types found.
 == Enums
@@ -39,7 +40,7 @@ No types found.
 
 |Package|Description|
 |---|---|
-|[mod.chiselsandbits.api.chiseling.eligibility](eligibility/index.md)||
 |[mod.chiselsandbits.api.chiseling.conversion](conversion/index.md)||
-|[mod.chiselsandbits.api.chiseling.mode](mode/index.md)||
 |[mod.chiselsandbits.api.chiseling.metadata](metadata/index.md)||
+|[mod.chiselsandbits.api.chiseling.eligibility](eligibility/index.md)||
+|[mod.chiselsandbits.api.chiseling.mode](mode/index.md)||

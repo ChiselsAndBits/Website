@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.change
+title: change
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.change

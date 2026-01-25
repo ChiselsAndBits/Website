@@ -1,6 +1,7 @@
 --- 
 title: ClickProcessingState
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.item.click](index.md)  
 # Class ClickProcessingState  

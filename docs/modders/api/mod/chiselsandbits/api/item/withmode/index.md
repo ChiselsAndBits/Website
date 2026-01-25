@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.withmode
+title: withmode
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.withmode
@@ -15,15 +16,15 @@ package mod.chiselsandbits.api.item.withmode;
 == All Types
 |Class|Description|
 |---|---|
-|[IToolMode](IToolMode.md)|A mode of a given tool.|
 |[IWithModeItem](IWithModeItem.md)|Represents an item with several operational modes.|
 |[IRenderableMode](IRenderableMode.md)|Represents a tool mode which can be rendered.|
+|[IToolMode](IToolMode.md)|A mode of a given tool.|
 == Interfaces
 |Class|Description|
 |---|---|
-|[IToolMode](IToolMode.md)|A mode of a given tool.|
 |[IWithModeItem](IWithModeItem.md)|Represents an item with several operational modes.|
 |[IRenderableMode](IRenderableMode.md)|Represents a tool mode which can be rendered.|
+|[IToolMode](IToolMode.md)|A mode of a given tool.|
 == Classes
 No types found.
 == Enums

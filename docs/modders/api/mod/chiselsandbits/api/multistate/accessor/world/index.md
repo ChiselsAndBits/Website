@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.multistate.accessor.world
+title: world
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.multistate.accessor.world
@@ -15,13 +16,13 @@ package mod.chiselsandbits.api.multistate.accessor.world;
 == All Types
 |Class|Description|
 |---|---|
-|[IInWorldStateEntryInfo](IInWorldStateEntryInfo.md)|Represents a single state entry that actually exists in a physical world.|
 |[IWorldAreaAccessor](IWorldAreaAccessor.md)|Represents an area accessor which actually exists in the world.|
+|[IInWorldStateEntryInfo](IInWorldStateEntryInfo.md)|Represents a single state entry that actually exists in a physical world.|
 == Interfaces
 |Class|Description|
 |---|---|
-|[IInWorldStateEntryInfo](IInWorldStateEntryInfo.md)|Represents a single state entry that actually exists in a physical world.|
 |[IWorldAreaAccessor](IWorldAreaAccessor.md)|Represents an area accessor which actually exists in the world.|
+|[IInWorldStateEntryInfo](IInWorldStateEntryInfo.md)|Represents a single state entry that actually exists in a physical world.|
 == Classes
 No types found.
 == Enums

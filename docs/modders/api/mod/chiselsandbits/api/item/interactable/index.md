@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.interactable
+title: interactable
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.interactable

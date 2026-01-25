@@ -1,6 +1,7 @@
 --- 
 title: IBitBagAcceptingBlock
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.block.bitbag](index.md)  
 # Interface IBitBagAcceptingBlock  

@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.cutting.operation
+title: operation
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.cutting.operation

@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.wireframe
+title: wireframe
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.wireframe

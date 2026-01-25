@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.client.screen.widget
+title: widget
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.client.screen.widget
@@ -16,8 +17,8 @@ package mod.chiselsandbits.api.client.screen.widget;
 |Class|Description|
 |---|---|
 |[IChiselsAndBitsWidget](IChiselsAndBitsWidget.md)||
-|[AbstractChiselsAndBitsButton](AbstractChiselsAndBitsButton.md)|An abstract chisels and bits button.|
 |[AbstractChiselsAndBitsWidget](AbstractChiselsAndBitsWidget.md)|All chisels and bits widgets inherit from this class.|
+|[AbstractChiselsAndBitsButton](AbstractChiselsAndBitsButton.md)|An abstract chisels and bits button.|
 == Interfaces
 |Class|Description|
 |---|---|
@@ -25,8 +26,8 @@ package mod.chiselsandbits.api.client.screen.widget;
 == Classes
 |Class|Description|
 |---|---|
-|[AbstractChiselsAndBitsButton](AbstractChiselsAndBitsButton.md)|An abstract chisels and bits button.|
 |[AbstractChiselsAndBitsWidget](AbstractChiselsAndBitsWidget.md)|All chisels and bits widgets inherit from this class.|
+|[AbstractChiselsAndBitsButton](AbstractChiselsAndBitsButton.md)|An abstract chisels and bits button.|
 == Enums
 No types found.
 == Records

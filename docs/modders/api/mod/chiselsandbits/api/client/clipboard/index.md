@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.client.clipboard
+title: clipboard
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.client.clipboard

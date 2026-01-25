@@ -1,6 +1,7 @@
 --- 
 title: IMultiStateSnapshotType
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate.snapshot](index.md)  
 # Interface IMultiStateSnapshotType  

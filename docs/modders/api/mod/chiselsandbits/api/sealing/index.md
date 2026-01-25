@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.sealing
+title: sealing
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.sealing
@@ -15,13 +16,13 @@ package mod.chiselsandbits.api.sealing;
 == All Types
 |Class|Description|
 |---|---|
-|[ISupportsUnsealing](ISupportsUnsealing.md)|Represents something which supports the unsealing of itemstacks.|
 |[ISupportsSealing](ISupportsSealing.md)|Represents something which supports the sealing of itemstacks.|
+|[ISupportsUnsealing](ISupportsUnsealing.md)|Represents something which supports the unsealing of itemstacks.|
 == Interfaces
 |Class|Description|
 |---|---|
-|[ISupportsUnsealing](ISupportsUnsealing.md)|Represents something which supports the unsealing of itemstacks.|
 |[ISupportsSealing](ISupportsSealing.md)|Represents something which supports the sealing of itemstacks.|
+|[ISupportsUnsealing](ISupportsUnsealing.md)|Represents something which supports the unsealing of itemstacks.|
 == Classes
 No types found.
 == Enums

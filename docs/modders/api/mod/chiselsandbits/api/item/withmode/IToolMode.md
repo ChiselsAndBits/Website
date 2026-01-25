@@ -1,6 +1,7 @@
 --- 
 title: IToolMode
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.item.withmode](index.md)  
 # Interface IToolMode\<G extends IToolModeGroup\>  

@@ -1,6 +1,7 @@
 --- 
 title: IBatchedAreaMutator
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate.mutator.batched](index.md)  
 # Interface IBatchedAreaMutator  

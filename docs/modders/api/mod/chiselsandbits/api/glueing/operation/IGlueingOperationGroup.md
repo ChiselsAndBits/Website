@@ -1,6 +1,7 @@
 --- 
 title: IGlueingOperationGroup
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.glueing.operation](index.md)  
 # Interface IGlueingOperationGroup  

@@ -1,6 +1,7 @@
 --- 
 title: ChiselsAndBitsPlugin
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.plugin](index.md)  
 # Annotation_type ChiselsAndBitsPlugin  

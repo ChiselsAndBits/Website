@@ -1,6 +1,7 @@
 --- 
 title: IChiselMode
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.chiseling.mode](index.md)  
 # Interface IChiselMode  

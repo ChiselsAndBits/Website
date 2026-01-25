@@ -1,6 +1,7 @@
 --- 
 title: Holder
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api](index.md)  
 # Class Holder  

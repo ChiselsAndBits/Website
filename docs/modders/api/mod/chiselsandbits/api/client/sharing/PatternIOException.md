@@ -1,6 +1,7 @@
 --- 
 title: PatternIOException
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.client.sharing](index.md)  
 # Class PatternIOException  

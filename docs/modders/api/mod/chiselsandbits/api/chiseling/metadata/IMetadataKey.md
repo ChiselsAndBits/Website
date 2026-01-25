@@ -1,6 +1,7 @@
 --- 
 title: IMetadataKey
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.chiseling.metadata](index.md)  
 # Interface IMetadataKey\<T\>  

@@ -1,6 +1,7 @@
 --- 
 title: IQuadFunction
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.util](index.md)  
 # Interface IQuadFunction\<T1,T2,T3,T4,R\>  

@@ -1,6 +1,7 @@
 --- 
 title: ICreativeClipboardManager
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.client.clipboard](index.md)  
 # Interface ICreativeClipboardManager  

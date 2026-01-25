@@ -1,6 +1,7 @@
 --- 
 title: IAxisSizeHandler
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.axissize](index.md)  
 # Interface IAxisSizeHandler  

@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.bit
+title: bit
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.bit

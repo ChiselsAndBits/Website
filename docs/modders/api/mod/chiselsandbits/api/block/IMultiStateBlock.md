@@ -1,6 +1,7 @@
 --- 
 title: IMultiStateBlock
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.block](index.md)  
 # Interface IMultiStateBlock  

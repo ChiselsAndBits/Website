@@ -1,6 +1,7 @@
 --- 
 title: DataGenerator
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.util.constants](index.md)  
 # Class DataGenerator  

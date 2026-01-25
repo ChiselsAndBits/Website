@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.chiseled
+title: chiseled
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.chiseled

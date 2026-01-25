@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.blockinformation
+title: blockinformation
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.blockinformation

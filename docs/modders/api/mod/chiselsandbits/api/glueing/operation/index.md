@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.glueing.operation
+title: operation
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.glueing.operation

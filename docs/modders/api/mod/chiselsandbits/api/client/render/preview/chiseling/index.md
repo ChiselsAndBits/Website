@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.client.render.preview.chiseling
+title: chiseling
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.client.render.preview.chiseling
@@ -15,13 +16,13 @@ package mod.chiselsandbits.api.client.render.preview.chiseling;
 == All Types
 |Class|Description|
 |---|---|
-|[IChiselContextPreviewRenderer](IChiselContextPreviewRenderer.md)|Renderer which is used to render the chiseling preview.|
 |[IChiselContextPreviewRendererRegistry](IChiselContextPreviewRendererRegistry.md)|Registry for registering possible chiseling context preview renderers,<br> and for getting the current renderer back out.|
+|[IChiselContextPreviewRenderer](IChiselContextPreviewRenderer.md)|Renderer which is used to render the chiseling preview.|
 == Interfaces
 |Class|Description|
 |---|---|
-|[IChiselContextPreviewRenderer](IChiselContextPreviewRenderer.md)|Renderer which is used to render the chiseling preview.|
 |[IChiselContextPreviewRendererRegistry](IChiselContextPreviewRendererRegistry.md)|Registry for registering possible chiseling context preview renderers,<br> and for getting the current renderer back out.|
+|[IChiselContextPreviewRenderer](IChiselContextPreviewRenderer.md)|Renderer which is used to render the chiseling preview.|
 == Classes
 No types found.
 == Enums

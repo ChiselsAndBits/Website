@@ -1,5 +1,6 @@
 ---
-title: mod.chiselsandbits.api.item.named
+title: named
+sidebar: false
 ---
 
 # Package: mod.chiselsandbits.api.item.named
@@ -15,13 +16,13 @@ package mod.chiselsandbits.api.item.named;
 == All Types
 |Class|Description|
 |---|---|
-|[IDynamicallyHighlightedNameItem](IDynamicallyHighlightedNameItem.md)||
 |[IPermanentlyHighlightedNameItem](IPermanentlyHighlightedNameItem.md)||
+|[IDynamicallyHighlightedNameItem](IDynamicallyHighlightedNameItem.md)||
 == Interfaces
 |Class|Description|
 |---|---|
-|[IDynamicallyHighlightedNameItem](IDynamicallyHighlightedNameItem.md)||
 |[IPermanentlyHighlightedNameItem](IPermanentlyHighlightedNameItem.md)||
+|[IDynamicallyHighlightedNameItem](IDynamicallyHighlightedNameItem.md)||
 == Classes
 No types found.
 == Enums

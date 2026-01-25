@@ -1,6 +1,7 @@
 --- 
 title: IGenerallyModifiableAreaMutator
 aside: false 
+sidebar: false 
 ---
 _Package:_ [mod.chiselsandbits.api.multistate.mutator](index.md)  
 # Interface IGenerallyModifiableAreaMutator  

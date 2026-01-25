@@ -21,8 +21,6 @@ export default {
     // injects the slots
     Layout: WithPageSummary,
     enhanceApp({ app }) {
-        console.log("Loaded custom theme")
-
         app.use(PrimeVue, {
             theme: {
                 preset: Aura

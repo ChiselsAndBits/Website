@@ -8,7 +8,6 @@ interface Properties {
 }
 
 const properties = defineProps<Properties>()
-console.log(JSON.stringify(properties.recipe))
 </script>
 
 <template>

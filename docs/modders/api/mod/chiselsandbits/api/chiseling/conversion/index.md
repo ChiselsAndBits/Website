@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.chiseling.conversion;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IConversionManager](IConversionManager.md)|Manages converting none chiseled objects into chiseled variants and back.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IConversionManager](IConversionManager.md)</td><td>Manages converting none chiseled objects into chiseled variants and back.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IConversionManager](IConversionManager.md)|Manages converting none chiseled objects into chiseled variants and back.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IConversionManager](IConversionManager.md)</td><td>Manages converting none chiseled objects into chiseled variants and back.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

@@ -14,15 +14,25 @@ package mod.chiselsandbits.api.item.bit;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IBitItem](IBitItem.md)|Represents an item which is a single bit.|
-|[IBitItemManager](IBitItemManager.md)|A manager which deals with items for bits.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IBitItem](IBitItem.md)</td><td>Represents an item which is a single bit.</td></tr>
+  <tr><td>[IBitItemManager](IBitItemManager.md)</td><td>A manager which deals with items for bits.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IBitItem](IBitItem.md)|Represents an item which is a single bit.|
-|[IBitItemManager](IBitItemManager.md)|A manager which deals with items for bits.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IBitItem](IBitItem.md)</td><td>Represents an item which is a single bit.</td></tr>
+  <tr><td>[IBitItemManager](IBitItemManager.md)</td><td>A manager which deals with items for bits.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

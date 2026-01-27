@@ -14,20 +14,35 @@ package mod.chiselsandbits.api.axissize;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[CollisionType](CollisionType.md)||
-|[IAxisSizeHandler](IAxisSizeHandler.md)|Represents a handler which can indicate the current active maximum and minimum size<br> of the multistate object.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[CollisionType](CollisionType.md)</td><td></td></tr>
+  <tr><td>[IAxisSizeHandler](IAxisSizeHandler.md)</td><td>Represents a handler which can indicate the current active maximum and minimum size<br> of the multistate object.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IAxisSizeHandler](IAxisSizeHandler.md)|Represents a handler which can indicate the current active maximum and minimum size<br> of the multistate object.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IAxisSizeHandler](IAxisSizeHandler.md)</td><td>Represents a handler which can indicate the current active maximum and minimum size<br> of the multistate object.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums
-|Class|Description|
-|---|---|
-|[CollisionType](CollisionType.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[CollisionType](CollisionType.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Records
 No types found.
 :::

@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.multistate.statistics;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IMultiStateObjectStatistics](IMultiStateObjectStatistics.md)|The statistics of a multistate block.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IMultiStateObjectStatistics](IMultiStateObjectStatistics.md)</td><td>The statistics of a multistate block.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IMultiStateObjectStatistics](IMultiStateObjectStatistics.md)|The statistics of a multistate block.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IMultiStateObjectStatistics](IMultiStateObjectStatistics.md)</td><td>The statistics of a multistate block.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

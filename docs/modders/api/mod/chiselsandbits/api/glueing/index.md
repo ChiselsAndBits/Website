@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.glueing;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IGlueableBlockEntity](IGlueableBlockEntity.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IGlueableBlockEntity](IGlueableBlockEntity.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IGlueableBlockEntity](IGlueableBlockEntity.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IGlueableBlockEntity](IGlueableBlockEntity.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums
@@ -31,6 +41,11 @@ No types found.
 
 ### Related
 
-|Package|Description|
-|---|---|
-|[mod.chiselsandbits.api.glueing.operation](operation/index.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Package</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[mod.chiselsandbits.api.glueing.operation](operation/index.md)</td><td></td></tr>
+  </tbody>
+</table>

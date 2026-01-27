@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.item.chiseled;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IChiseledBlockItem](IChiseledBlockItem.md)|Represents items which represent a broken chiseled block.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IChiseledBlockItem](IChiseledBlockItem.md)</td><td>Represents items which represent a broken chiseled block.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IChiseledBlockItem](IChiseledBlockItem.md)|Represents items which represent a broken chiseled block.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IChiseledBlockItem](IChiseledBlockItem.md)</td><td>Represents items which represent a broken chiseled block.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

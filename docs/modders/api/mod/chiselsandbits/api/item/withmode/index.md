@@ -14,17 +14,27 @@ package mod.chiselsandbits.api.item.withmode;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IWithModeItem](IWithModeItem.md)|Represents an item with several operational modes.|
-|[IRenderableMode](IRenderableMode.md)|Represents a tool mode which can be rendered.|
-|[IToolMode](IToolMode.md)|A mode of a given tool.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IWithModeItem](IWithModeItem.md)</td><td>Represents an item with several operational modes.</td></tr>
+  <tr><td>[IRenderableMode](IRenderableMode.md)</td><td>Represents a tool mode which can be rendered.</td></tr>
+  <tr><td>[IToolMode](IToolMode.md)</td><td>A mode of a given tool.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IWithModeItem](IWithModeItem.md)|Represents an item with several operational modes.|
-|[IRenderableMode](IRenderableMode.md)|Represents a tool mode which can be rendered.|
-|[IToolMode](IToolMode.md)|A mode of a given tool.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IWithModeItem](IWithModeItem.md)</td><td>Represents an item with several operational modes.</td></tr>
+  <tr><td>[IRenderableMode](IRenderableMode.md)</td><td>Represents a tool mode which can be rendered.</td></tr>
+  <tr><td>[IToolMode](IToolMode.md)</td><td>A mode of a given tool.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums
@@ -35,6 +45,11 @@ No types found.
 
 ### Related
 
-|Package|Description|
-|---|---|
-|[mod.chiselsandbits.api.item.withmode.group](group/index.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Package</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[mod.chiselsandbits.api.item.withmode.group](group/index.md)</td><td></td></tr>
+  </tbody>
+</table>

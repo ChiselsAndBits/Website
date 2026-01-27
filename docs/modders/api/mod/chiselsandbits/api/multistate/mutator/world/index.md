@@ -14,15 +14,25 @@ package mod.chiselsandbits.api.multistate.mutator.world;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IWorldAreaMutator](IWorldAreaMutator.md)|Allows for a given area in the world to be mutated.|
-|[IInWorldMutableStateEntryInfo](IInWorldMutableStateEntryInfo.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IWorldAreaMutator](IWorldAreaMutator.md)</td><td>Allows for a given area in the world to be mutated.</td></tr>
+  <tr><td>[IInWorldMutableStateEntryInfo](IInWorldMutableStateEntryInfo.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IWorldAreaMutator](IWorldAreaMutator.md)|Allows for a given area in the world to be mutated.|
-|[IInWorldMutableStateEntryInfo](IInWorldMutableStateEntryInfo.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IWorldAreaMutator](IWorldAreaMutator.md)</td><td>Allows for a given area in the world to be mutated.</td></tr>
+  <tr><td>[IInWorldMutableStateEntryInfo](IInWorldMutableStateEntryInfo.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

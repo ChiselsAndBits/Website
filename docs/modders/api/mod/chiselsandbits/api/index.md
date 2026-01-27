@@ -14,20 +14,35 @@ package mod.chiselsandbits.api;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IgnoreBlockLogic](IgnoreBlockLogic.md)|When checking for blocks to allow for chiseling Chisels and Bits checks various methods...|
-|[IChiselsAndBitsAPI](IChiselsAndBitsAPI.md)|Do not implement it can be accessed via its <br>{@link #getInstance()}<br>-method.|
-|[Holder](IChiselsAndBitsAPI.Holder.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IgnoreBlockLogic](IgnoreBlockLogic.md)</td><td>When checking for blocks to allow for chiseling Chisels and Bits checks various methods...</td></tr>
+  <tr><td>[IChiselsAndBitsAPI](IChiselsAndBitsAPI.md)</td><td>Do not implement it can be accessed via its <br>{@link #getInstance()}<br>-method.</td></tr>
+  <tr><td>[Holder](IChiselsAndBitsAPI.Holder.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IgnoreBlockLogic](IgnoreBlockLogic.md)|When checking for blocks to allow for chiseling Chisels and Bits checks various methods...|
-|[IChiselsAndBitsAPI](IChiselsAndBitsAPI.md)|Do not implement it can be accessed via its <br>{@link #getInstance()}<br>-method.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IgnoreBlockLogic](IgnoreBlockLogic.md)</td><td>When checking for blocks to allow for chiseling Chisels and Bits checks various methods...</td></tr>
+  <tr><td>[IChiselsAndBitsAPI](IChiselsAndBitsAPI.md)</td><td>Do not implement it can be accessed via its <br>{@link #getInstance()}<br>-method.</td></tr>
+  </tbody>
+</table>
 == Classes
-|Class|Description|
-|---|---|
-|[Holder](IChiselsAndBitsAPI.Holder.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[Holder](IChiselsAndBitsAPI.Holder.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Enums
 No types found.
 == Records
@@ -36,30 +51,35 @@ No types found.
 
 ### Related
 
-|Package|Description|
-|---|---|
-|[mod.chiselsandbits.api.reloading](reloading/index.md)||
-|[mod.chiselsandbits.api.block](block/index.md)||
-|[mod.chiselsandbits.api.launch](launch/index.md)||
-|[mod.chiselsandbits.api.config](config/index.md)||
-|[mod.chiselsandbits.api.multistate](multistate/index.md)||
-|[mod.chiselsandbits.api.plugin](plugin/index.md)||
-|[mod.chiselsandbits.api.neighborhood](neighborhood/index.md)||
-|[mod.chiselsandbits.api.permissions](permissions/index.md)||
-|[mod.chiselsandbits.api.axissize](axissize/index.md)||
-|[mod.chiselsandbits.api.blockinformation](blockinformation/index.md)||
-|[mod.chiselsandbits.api.registries](registries/index.md)||
-|[mod.chiselsandbits.api.voxelshape](voxelshape/index.md)||
-|[mod.chiselsandbits.api.chiseling](chiseling/index.md)||
-|[mod.chiselsandbits.api.placement](placement/index.md)||
-|[mod.chiselsandbits.api.profiling](profiling/index.md)||
-|[mod.chiselsandbits.api.change](change/index.md)||
-|[mod.chiselsandbits.api.util](util/index.md)||
-|[mod.chiselsandbits.api.measuring](measuring/index.md)||
-|[mod.chiselsandbits.api.exceptions](exceptions/index.md)||
-|[mod.chiselsandbits.api.aabb](aabb/index.md)||
-|[mod.chiselsandbits.api.notifications](notifications/index.md)||
-|[mod.chiselsandbits.api.sealing](sealing/index.md)||
-|[mod.chiselsandbits.api.item](item/index.md)||
-|[mod.chiselsandbits.api.serialization](serialization/index.md)||
-|[mod.chiselsandbits.api.glueing](glueing/index.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Package</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[mod.chiselsandbits.api.reloading](reloading/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.block](block/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.launch](launch/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.config](config/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.multistate](multistate/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.plugin](plugin/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.neighborhood](neighborhood/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.permissions](permissions/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.axissize](axissize/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.blockinformation](blockinformation/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.registries](registries/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.voxelshape](voxelshape/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.chiseling](chiseling/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.placement](placement/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.profiling](profiling/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.change](change/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.util](util/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.measuring](measuring/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.exceptions](exceptions/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.aabb](aabb/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.notifications](notifications/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.sealing](sealing/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.item](item/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.serialization](serialization/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.glueing](glueing/index.md)</td><td></td></tr>
+  </tbody>
+</table>

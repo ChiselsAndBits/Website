@@ -14,17 +14,27 @@ package mod.chiselsandbits.api.variant.state;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IStateVariantProvider](IStateVariantProvider.md)|Represents the state variant provider, which allows external mods to provide their own state variants.|
-|[IStateVariantManager](IStateVariantManager.md)|Represents the state variant manager, which allows external mods to provide their own state variants.|
-|[IStateVariant](IStateVariant.md)|Object which provides additional information about a state.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IStateVariantProvider](IStateVariantProvider.md)</td><td>Represents the state variant provider, which allows external mods to provide their own state variants.</td></tr>
+  <tr><td>[IStateVariantManager](IStateVariantManager.md)</td><td>Represents the state variant manager, which allows external mods to provide their own state variants.</td></tr>
+  <tr><td>[IStateVariant](IStateVariant.md)</td><td>Object which provides additional information about a state.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IStateVariantProvider](IStateVariantProvider.md)|Represents the state variant provider, which allows external mods to provide their own state variants.|
-|[IStateVariantManager](IStateVariantManager.md)|Represents the state variant manager, which allows external mods to provide their own state variants.|
-|[IStateVariant](IStateVariant.md)|Object which provides additional information about a state.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IStateVariantProvider](IStateVariantProvider.md)</td><td>Represents the state variant provider, which allows external mods to provide their own state variants.</td></tr>
+  <tr><td>[IStateVariantManager](IStateVariantManager.md)</td><td>Represents the state variant manager, which allows external mods to provide their own state variants.</td></tr>
+  <tr><td>[IStateVariant](IStateVariant.md)</td><td>Object which provides additional information about a state.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

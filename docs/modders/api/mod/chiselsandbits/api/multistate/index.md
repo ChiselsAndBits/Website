@@ -14,26 +14,41 @@ package mod.chiselsandbits.api.multistate;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[StateEntrySize](StateEntrySize.md)|The size of state entries in the current instance.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[StateEntrySize](StateEntrySize.md)</td><td>The size of state entries in the current instance.</td></tr>
+  </tbody>
+</table>
 == Interfaces
 No types found.
 == Classes
 No types found.
 == Enums
-|Class|Description|
-|---|---|
-|[StateEntrySize](StateEntrySize.md)|The size of state entries in the current instance.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[StateEntrySize](StateEntrySize.md)</td><td>The size of state entries in the current instance.</td></tr>
+  </tbody>
+</table>
 == Records
 No types found.
 :::
 
 ### Related
 
-|Package|Description|
-|---|---|
-|[mod.chiselsandbits.api.multistate.statistics](statistics/index.md)||
-|[mod.chiselsandbits.api.multistate.accessor](accessor/index.md)||
-|[mod.chiselsandbits.api.multistate.snapshot](snapshot/index.md)||
-|[mod.chiselsandbits.api.multistate.mutator](mutator/index.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Package</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[mod.chiselsandbits.api.multistate.statistics](statistics/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.multistate.accessor](accessor/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.multistate.snapshot](snapshot/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.multistate.mutator](mutator/index.md)</td><td></td></tr>
+  </tbody>
+</table>

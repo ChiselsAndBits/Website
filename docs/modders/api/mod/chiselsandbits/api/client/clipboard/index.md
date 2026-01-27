@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.client.clipboard;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[ICreativeClipboardManager](ICreativeClipboardManager.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ICreativeClipboardManager](ICreativeClipboardManager.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[ICreativeClipboardManager](ICreativeClipboardManager.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ICreativeClipboardManager](ICreativeClipboardManager.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

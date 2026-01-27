@@ -14,26 +14,41 @@ package mod.chiselsandbits.api.block.storage;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[StateEntryPalette](StateEntryPalette.md)||
-|[Result](StateEntryPalette.Result.md)|Represents the result of a palette operation.|
-|[SizeInformation](StateEntryPalette.SizeInformation.md)|Represents the size information of the palette.|
-|[StateEntryStorage](StateEntryStorage.md)||
-|[Entry](StateEntryPalette.Entry.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[StateEntryPalette](StateEntryPalette.md)</td><td></td></tr>
+  <tr><td>[Result](StateEntryPalette.Result.md)</td><td>Represents the result of a palette operation.</td></tr>
+  <tr><td>[SizeInformation](StateEntryPalette.SizeInformation.md)</td><td>Represents the size information of the palette.</td></tr>
+  <tr><td>[StateEntryStorage](StateEntryStorage.md)</td><td></td></tr>
+  <tr><td>[Entry](StateEntryPalette.Entry.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
 No types found.
 == Classes
-|Class|Description|
-|---|---|
-|[StateEntryStorage](StateEntryStorage.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[StateEntryStorage](StateEntryStorage.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Enums
 No types found.
 == Records
-|Class|Description|
-|---|---|
-|[StateEntryPalette](StateEntryPalette.md)||
-|[Result](StateEntryPalette.Result.md)|Represents the result of a palette operation.|
-|[SizeInformation](StateEntryPalette.SizeInformation.md)|Represents the size information of the palette.|
-|[Entry](StateEntryPalette.Entry.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[StateEntryPalette](StateEntryPalette.md)</td><td></td></tr>
+  <tr><td>[Result](StateEntryPalette.Result.md)</td><td>Represents the result of a palette operation.</td></tr>
+  <tr><td>[SizeInformation](StateEntryPalette.SizeInformation.md)</td><td>Represents the size information of the palette.</td></tr>
+  <tr><td>[Entry](StateEntryPalette.Entry.md)</td><td></td></tr>
+  </tbody>
+</table>
 :::

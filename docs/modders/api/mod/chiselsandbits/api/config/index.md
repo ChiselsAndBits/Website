@@ -14,19 +14,29 @@ package mod.chiselsandbits.api.config;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IChiselsAndBitsConfiguration](IChiselsAndBitsConfiguration.md)|Represents the configuration of chisels and bits.|
-|[IClientConfiguration](IClientConfiguration.md)|All client configuration values that are relevant for the client side of C<br>{@literal &}<br>B.|
-|[ICommonConfiguration](ICommonConfiguration.md)||
-|[IServerConfiguration](IServerConfiguration.md)|Gives access to the current server's configuration.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IChiselsAndBitsConfiguration](IChiselsAndBitsConfiguration.md)</td><td>Represents the configuration of chisels and bits.</td></tr>
+  <tr><td>[IClientConfiguration](IClientConfiguration.md)</td><td>All client configuration values that are relevant for the client side of C<br>{@literal &}<br>B.</td></tr>
+  <tr><td>[ICommonConfiguration](ICommonConfiguration.md)</td><td></td></tr>
+  <tr><td>[IServerConfiguration](IServerConfiguration.md)</td><td>Gives access to the current server's configuration.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IChiselsAndBitsConfiguration](IChiselsAndBitsConfiguration.md)|Represents the configuration of chisels and bits.|
-|[IClientConfiguration](IClientConfiguration.md)|All client configuration values that are relevant for the client side of C<br>{@literal &}<br>B.|
-|[ICommonConfiguration](ICommonConfiguration.md)||
-|[IServerConfiguration](IServerConfiguration.md)|Gives access to the current server's configuration.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IChiselsAndBitsConfiguration](IChiselsAndBitsConfiguration.md)</td><td>Represents the configuration of chisels and bits.</td></tr>
+  <tr><td>[IClientConfiguration](IClientConfiguration.md)</td><td>All client configuration values that are relevant for the client side of C<br>{@literal &}<br>B.</td></tr>
+  <tr><td>[ICommonConfiguration](ICommonConfiguration.md)</td><td></td></tr>
+  <tr><td>[IServerConfiguration](IServerConfiguration.md)</td><td>Gives access to the current server's configuration.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

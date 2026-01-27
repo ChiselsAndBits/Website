@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.client.icon;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IIconManager](IIconManager.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IIconManager](IIconManager.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IIconManager](IIconManager.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IIconManager](IIconManager.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

@@ -14,17 +14,27 @@ package mod.chiselsandbits.api.chiseling.eligibility;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IEligibilityManager](IEligibilityManager.md)|An object which can manage the eligibility of chiseling of blocks, blockstates,<br> or itemstacks (which contain blocks eligible) for chiseling.|
-|[IEligibilityAnalysisResult](IEligibilityAnalysisResult.md)|The results of an eligibility analysis.|
-|[IEligibilityOptions](IEligibilityOptions.md)|Determines the additional eligibility options for a given platform.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IEligibilityManager](IEligibilityManager.md)</td><td>An object which can manage the eligibility of chiseling of blocks, blockstates,<br> or itemstacks (which contain blocks eligible) for chiseling.</td></tr>
+  <tr><td>[IEligibilityAnalysisResult](IEligibilityAnalysisResult.md)</td><td>The results of an eligibility analysis.</td></tr>
+  <tr><td>[IEligibilityOptions](IEligibilityOptions.md)</td><td>Determines the additional eligibility options for a given platform.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IEligibilityManager](IEligibilityManager.md)|An object which can manage the eligibility of chiseling of blocks, blockstates,<br> or itemstacks (which contain blocks eligible) for chiseling.|
-|[IEligibilityAnalysisResult](IEligibilityAnalysisResult.md)|The results of an eligibility analysis.|
-|[IEligibilityOptions](IEligibilityOptions.md)|Determines the additional eligibility options for a given platform.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IEligibilityManager](IEligibilityManager.md)</td><td>An object which can manage the eligibility of chiseling of blocks, blockstates,<br> or itemstacks (which contain blocks eligible) for chiseling.</td></tr>
+  <tr><td>[IEligibilityAnalysisResult](IEligibilityAnalysisResult.md)</td><td>The results of an eligibility analysis.</td></tr>
+  <tr><td>[IEligibilityOptions](IEligibilityOptions.md)</td><td>Determines the additional eligibility options for a given platform.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

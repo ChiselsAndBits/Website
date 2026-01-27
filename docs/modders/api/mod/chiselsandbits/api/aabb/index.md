@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.aabb;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IAABBOwner](IAABBOwner.md)|Defines objects which have an axis-aligned bounding box.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IAABBOwner](IAABBOwner.md)</td><td>Defines objects which have an axis-aligned bounding box.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IAABBOwner](IAABBOwner.md)|Defines objects which have an axis-aligned bounding box.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IAABBOwner](IAABBOwner.md)</td><td>Defines objects which have an axis-aligned bounding box.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

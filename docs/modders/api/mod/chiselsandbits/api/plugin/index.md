@@ -14,29 +14,49 @@ package mod.chiselsandbits.api.plugin;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[AbstractPluginDiscoverer](IPluginDiscoverer.AbstractPluginDiscoverer.md)||
-|[IPluginManager](IPluginManager.md)|The manager for plugins.|
-|[IChiselsAndBitsPlugin](IChiselsAndBitsPlugin.md)|Represents a plugin for ChiselsAndBits.|
-|[IPluginDiscoverer](IPluginDiscoverer.md)|The platform plugin manager which can load the plugins for C<br>{@literal &}<br>B on a given platform.|
-|[PluginData](PluginData.md)||
-|[ChiselsAndBitsPlugin](ChiselsAndBitsPlugin.md)|Annotation which marks a given class as being a chisels and bits plugin.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[AbstractPluginDiscoverer](IPluginDiscoverer.AbstractPluginDiscoverer.md)</td><td></td></tr>
+  <tr><td>[IPluginManager](IPluginManager.md)</td><td>The manager for plugins.</td></tr>
+  <tr><td>[IChiselsAndBitsPlugin](IChiselsAndBitsPlugin.md)</td><td>Represents a plugin for ChiselsAndBits.</td></tr>
+  <tr><td>[IPluginDiscoverer](IPluginDiscoverer.md)</td><td>The platform plugin manager which can load the plugins for C<br>{@literal &}<br>B on a given platform.</td></tr>
+  <tr><td>[PluginData](PluginData.md)</td><td></td></tr>
+  <tr><td>[ChiselsAndBitsPlugin](ChiselsAndBitsPlugin.md)</td><td>Annotation which marks a given class as being a chisels and bits plugin.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IPluginManager](IPluginManager.md)|The manager for plugins.|
-|[IChiselsAndBitsPlugin](IChiselsAndBitsPlugin.md)|Represents a plugin for ChiselsAndBits.|
-|[IPluginDiscoverer](IPluginDiscoverer.md)|The platform plugin manager which can load the plugins for C<br>{@literal &}<br>B on a given platform.|
-|[ChiselsAndBitsPlugin](ChiselsAndBitsPlugin.md)|Annotation which marks a given class as being a chisels and bits plugin.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IPluginManager](IPluginManager.md)</td><td>The manager for plugins.</td></tr>
+  <tr><td>[IChiselsAndBitsPlugin](IChiselsAndBitsPlugin.md)</td><td>Represents a plugin for ChiselsAndBits.</td></tr>
+  <tr><td>[IPluginDiscoverer](IPluginDiscoverer.md)</td><td>The platform plugin manager which can load the plugins for C<br>{@literal &}<br>B on a given platform.</td></tr>
+  <tr><td>[ChiselsAndBitsPlugin](ChiselsAndBitsPlugin.md)</td><td>Annotation which marks a given class as being a chisels and bits plugin.</td></tr>
+  </tbody>
+</table>
 == Classes
-|Class|Description|
-|---|---|
-|[AbstractPluginDiscoverer](IPluginDiscoverer.AbstractPluginDiscoverer.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[AbstractPluginDiscoverer](IPluginDiscoverer.AbstractPluginDiscoverer.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Enums
 No types found.
 == Records
-|Class|Description|
-|---|---|
-|[PluginData](PluginData.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[PluginData](PluginData.md)</td><td></td></tr>
+  </tbody>
+</table>
 :::

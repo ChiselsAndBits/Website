@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.item.documentation;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IDocumentableItem](IDocumentableItem.md)|Represents an item that is documented via the Chisels and Bits documentation export system.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IDocumentableItem](IDocumentableItem.md)</td><td>Represents an item that is documented via the Chisels and Bits documentation export system.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IDocumentableItem](IDocumentableItem.md)|Represents an item that is documented via the Chisels and Bits documentation export system.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IDocumentableItem](IDocumentableItem.md)</td><td>Represents an item that is documented via the Chisels and Bits documentation export system.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

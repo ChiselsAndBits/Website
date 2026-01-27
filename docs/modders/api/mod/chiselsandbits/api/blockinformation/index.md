@@ -14,9 +14,14 @@ package mod.chiselsandbits.api.blockinformation;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[BlockInformation](BlockInformation.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[BlockInformation](BlockInformation.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
 No types found.
 == Classes
@@ -24,7 +29,12 @@ No types found.
 == Enums
 No types found.
 == Records
-|Class|Description|
-|---|---|
-|[BlockInformation](BlockInformation.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[BlockInformation](BlockInformation.md)</td><td></td></tr>
+  </tbody>
+</table>
 :::

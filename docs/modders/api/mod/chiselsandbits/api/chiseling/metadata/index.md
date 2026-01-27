@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.chiseling.metadata;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IMetadataKey](IMetadataKey.md)|Represents a key passed to an instance of <br>{@link IChiselingContext}<br> so that additional data can be stored<br> on the context.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IMetadataKey](IMetadataKey.md)</td><td>Represents a key passed to an instance of <br>{@link IChiselingContext}<br> so that additional data can be stored<br> on the context.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IMetadataKey](IMetadataKey.md)|Represents a key passed to an instance of <br>{@link IChiselingContext}<br> so that additional data can be stored<br> on the context.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IMetadataKey](IMetadataKey.md)</td><td>Represents a key passed to an instance of <br>{@link IChiselingContext}<br> so that additional data can be stored<br> on the context.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

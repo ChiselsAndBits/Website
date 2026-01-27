@@ -14,22 +14,37 @@ package mod.chiselsandbits.api.change.changes;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IllegalChangeAttempt](IllegalChangeAttempt.md)|Exception thrown when change attempt is made before checking if the change attempt is possible.|
-|[IChangeType](IChangeType.md)|The type of registry entry that represents a change.|
-|[IChangeHandler](IChangeHandler.md)|Represents an entry point for a change that can be undone and redone.|
-|[IChange](IChange.md)|Represents a single change that has been created with bits.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IllegalChangeAttempt](IllegalChangeAttempt.md)</td><td>Exception thrown when change attempt is made before checking if the change attempt is possible.</td></tr>
+  <tr><td>[IChangeType](IChangeType.md)</td><td>The type of registry entry that represents a change.</td></tr>
+  <tr><td>[IChangeHandler](IChangeHandler.md)</td><td>Represents an entry point for a change that can be undone and redone.</td></tr>
+  <tr><td>[IChange](IChange.md)</td><td>Represents a single change that has been created with bits.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IChangeType](IChangeType.md)|The type of registry entry that represents a change.|
-|[IChangeHandler](IChangeHandler.md)|Represents an entry point for a change that can be undone and redone.|
-|[IChange](IChange.md)|Represents a single change that has been created with bits.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IChangeType](IChangeType.md)</td><td>The type of registry entry that represents a change.</td></tr>
+  <tr><td>[IChangeHandler](IChangeHandler.md)</td><td>Represents an entry point for a change that can be undone and redone.</td></tr>
+  <tr><td>[IChange](IChange.md)</td><td>Represents a single change that has been created with bits.</td></tr>
+  </tbody>
+</table>
 == Classes
-|Class|Description|
-|---|---|
-|[IllegalChangeAttempt](IllegalChangeAttempt.md)|Exception thrown when change attempt is made before checking if the change attempt is possible.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IllegalChangeAttempt](IllegalChangeAttempt.md)</td><td>Exception thrown when change attempt is made before checking if the change attempt is possible.</td></tr>
+  </tbody>
+</table>
 == Enums
 No types found.
 == Records

@@ -14,25 +14,45 @@ package mod.chiselsandbits.api.item.click;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[ProcessingResult](ClickProcessingState.ProcessingResult.md)|The processing result of the click interaction.|
-|[ILeftClickControllingItem](ILeftClickControllingItem.md)|Deals with the way items are able to handle left click interactions.|
-|[ClickProcessingState](ClickProcessingState.md)|Represents the continuous processing state of a click interaction.|
-|[IRightClickControllingItem](IRightClickControllingItem.md)|Deals with the way items are able to handle left click interactions.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ProcessingResult](ClickProcessingState.ProcessingResult.md)</td><td>The processing result of the click interaction.</td></tr>
+  <tr><td>[ILeftClickControllingItem](ILeftClickControllingItem.md)</td><td>Deals with the way items are able to handle left click interactions.</td></tr>
+  <tr><td>[ClickProcessingState](ClickProcessingState.md)</td><td>Represents the continuous processing state of a click interaction.</td></tr>
+  <tr><td>[IRightClickControllingItem](IRightClickControllingItem.md)</td><td>Deals with the way items are able to handle left click interactions.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[ILeftClickControllingItem](ILeftClickControllingItem.md)|Deals with the way items are able to handle left click interactions.|
-|[IRightClickControllingItem](IRightClickControllingItem.md)|Deals with the way items are able to handle left click interactions.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ILeftClickControllingItem](ILeftClickControllingItem.md)</td><td>Deals with the way items are able to handle left click interactions.</td></tr>
+  <tr><td>[IRightClickControllingItem](IRightClickControllingItem.md)</td><td>Deals with the way items are able to handle left click interactions.</td></tr>
+  </tbody>
+</table>
 == Classes
-|Class|Description|
-|---|---|
-|[ClickProcessingState](ClickProcessingState.md)|Represents the continuous processing state of a click interaction.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ClickProcessingState](ClickProcessingState.md)</td><td>Represents the continuous processing state of a click interaction.</td></tr>
+  </tbody>
+</table>
 == Enums
-|Class|Description|
-|---|---|
-|[ProcessingResult](ClickProcessingState.ProcessingResult.md)|The processing result of the click interaction.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ProcessingResult](ClickProcessingState.ProcessingResult.md)</td><td>The processing result of the click interaction.</td></tr>
+  </tbody>
+</table>
 == Records
 No types found.
 :::

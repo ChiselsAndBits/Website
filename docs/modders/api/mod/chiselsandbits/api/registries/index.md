@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.registries;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IRegistryManager](IRegistryManager.md)|Manages all registries which are used by Chisels and Bits.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IRegistryManager](IRegistryManager.md)</td><td>Manages all registries which are used by Chisels and Bits.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IRegistryManager](IRegistryManager.md)|Manages all registries which are used by Chisels and Bits.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IRegistryManager](IRegistryManager.md)</td><td>Manages all registries which are used by Chisels and Bits.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

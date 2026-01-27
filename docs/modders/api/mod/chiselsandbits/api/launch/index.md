@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.launch;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[ILaunchPropertyManager](ILaunchPropertyManager.md)|Defines a manager that handles properties related to how the game is launcher<br> Important here is that these properties can effect launch and game behaviour and need to be<br> the same as the properties of the server you are connecting to.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ILaunchPropertyManager](ILaunchPropertyManager.md)</td><td>Defines a manager that handles properties related to how the game is launcher<br> Important here is that these properties can effect launch and game behaviour and need to be<br> the same as the properties of the server you are connecting to.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[ILaunchPropertyManager](ILaunchPropertyManager.md)|Defines a manager that handles properties related to how the game is launcher<br> Important here is that these properties can effect launch and game behaviour and need to be<br> the same as the properties of the server you are connecting to.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ILaunchPropertyManager](ILaunchPropertyManager.md)</td><td>Defines a manager that handles properties related to how the game is launcher<br> Important here is that these properties can effect launch and game behaviour and need to be<br> the same as the properties of the server you are connecting to.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

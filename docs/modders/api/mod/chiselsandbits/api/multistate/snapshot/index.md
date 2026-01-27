@@ -14,17 +14,27 @@ package mod.chiselsandbits.api.multistate.snapshot;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IMultiStateSnapshotType](IMultiStateSnapshotType.md)|The type of a multi state snapshot.|
-|[IMultiStateSnapshot](IMultiStateSnapshot.md)||
-|[ISnapshotFactory](ISnapshotFactory.md)|A factory to create simple snapshots.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IMultiStateSnapshotType](IMultiStateSnapshotType.md)</td><td>The type of a multi state snapshot.</td></tr>
+  <tr><td>[IMultiStateSnapshot](IMultiStateSnapshot.md)</td><td></td></tr>
+  <tr><td>[ISnapshotFactory](ISnapshotFactory.md)</td><td>A factory to create simple snapshots.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IMultiStateSnapshotType](IMultiStateSnapshotType.md)|The type of a multi state snapshot.|
-|[IMultiStateSnapshot](IMultiStateSnapshot.md)||
-|[ISnapshotFactory](ISnapshotFactory.md)|A factory to create simple snapshots.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IMultiStateSnapshotType](IMultiStateSnapshotType.md)</td><td>The type of a multi state snapshot.</td></tr>
+  <tr><td>[IMultiStateSnapshot](IMultiStateSnapshot.md)</td><td></td></tr>
+  <tr><td>[ISnapshotFactory](ISnapshotFactory.md)</td><td>A factory to create simple snapshots.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

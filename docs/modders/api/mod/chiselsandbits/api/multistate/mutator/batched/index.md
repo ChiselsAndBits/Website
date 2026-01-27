@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.multistate.mutator.batched;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IBatchedAreaMutator](IBatchedAreaMutator.md)|A mutator which supports making mutations in batches.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IBatchedAreaMutator](IBatchedAreaMutator.md)</td><td>A mutator which supports making mutations in batches.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IBatchedAreaMutator](IBatchedAreaMutator.md)|A mutator which supports making mutations in batches.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IBatchedAreaMutator](IBatchedAreaMutator.md)</td><td>A mutator which supports making mutations in batches.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

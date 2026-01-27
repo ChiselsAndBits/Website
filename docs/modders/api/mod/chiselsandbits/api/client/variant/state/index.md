@@ -14,15 +14,25 @@ package mod.chiselsandbits.api.client.variant.state;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IClientStateVariantProvider](IClientStateVariantProvider.md)|A state variant provider for client side interactions.|
-|[IClientStateVariantManager](IClientStateVariantManager.md)|The state variant provider for the client.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IClientStateVariantProvider](IClientStateVariantProvider.md)</td><td>A state variant provider for client side interactions.</td></tr>
+  <tr><td>[IClientStateVariantManager](IClientStateVariantManager.md)</td><td>The state variant provider for the client.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IClientStateVariantProvider](IClientStateVariantProvider.md)|A state variant provider for client side interactions.|
-|[IClientStateVariantManager](IClientStateVariantManager.md)|The state variant provider for the client.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IClientStateVariantProvider](IClientStateVariantProvider.md)</td><td>A state variant provider for client side interactions.</td></tr>
+  <tr><td>[IClientStateVariantManager](IClientStateVariantManager.md)</td><td>The state variant provider for the client.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

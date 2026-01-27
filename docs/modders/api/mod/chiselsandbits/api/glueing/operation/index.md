@@ -14,15 +14,25 @@ package mod.chiselsandbits.api.glueing.operation;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IGlueingOperation](IGlueingOperation.md)|A Glueing operation that can be performed in the Glueing table.|
-|[IGlueingOperationGroup](IGlueingOperationGroup.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IGlueingOperation](IGlueingOperation.md)</td><td>A Glueing operation that can be performed in the Glueing table.</td></tr>
+  <tr><td>[IGlueingOperationGroup](IGlueingOperationGroup.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IGlueingOperation](IGlueingOperation.md)|A Glueing operation that can be performed in the Glueing table.|
-|[IGlueingOperationGroup](IGlueingOperationGroup.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IGlueingOperation](IGlueingOperation.md)</td><td>A Glueing operation that can be performed in the Glueing table.</td></tr>
+  <tr><td>[IGlueingOperationGroup](IGlueingOperationGroup.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

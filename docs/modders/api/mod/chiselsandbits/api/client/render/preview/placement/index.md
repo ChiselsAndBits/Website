@@ -14,17 +14,27 @@ package mod.chiselsandbits.api.client.render.preview.placement;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[PlacementPreviewRenderMode](PlacementPreviewRenderMode.md)|Determines the way chiseled block and pattern placement previews will render.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[PlacementPreviewRenderMode](PlacementPreviewRenderMode.md)</td><td>Determines the way chiseled block and pattern placement previews will render.</td></tr>
+  </tbody>
+</table>
 == Interfaces
 No types found.
 == Classes
 No types found.
 == Enums
-|Class|Description|
-|---|---|
-|[PlacementPreviewRenderMode](PlacementPreviewRenderMode.md)|Determines the way chiseled block and pattern placement previews will render.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[PlacementPreviewRenderMode](PlacementPreviewRenderMode.md)</td><td>Determines the way chiseled block and pattern placement previews will render.</td></tr>
+  </tbody>
+</table>
 == Records
 No types found.
 :::

@@ -14,15 +14,25 @@ package mod.chiselsandbits.api.modification.operation;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IModificationOperationGroup](IModificationOperationGroup.md)||
-|[IModificationOperation](IModificationOperation.md)|A modification operation that can be performed in the modification table.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IModificationOperationGroup](IModificationOperationGroup.md)</td><td></td></tr>
+  <tr><td>[IModificationOperation](IModificationOperation.md)</td><td>A modification operation that can be performed in the modification table.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IModificationOperationGroup](IModificationOperationGroup.md)||
-|[IModificationOperation](IModificationOperation.md)|A modification operation that can be performed in the modification table.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IModificationOperationGroup](IModificationOperationGroup.md)</td><td></td></tr>
+  <tr><td>[IModificationOperation](IModificationOperation.md)</td><td>A modification operation that can be performed in the modification table.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

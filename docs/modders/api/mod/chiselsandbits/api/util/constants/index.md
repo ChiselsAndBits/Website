@@ -14,19 +14,29 @@ package mod.chiselsandbits.api.util.constants;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[NbtConstants](NbtConstants.md)||
-|[DataGenerator](Constants.DataGenerator.md)||
-|[Constants](Constants.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[NbtConstants](NbtConstants.md)</td><td></td></tr>
+  <tr><td>[DataGenerator](Constants.DataGenerator.md)</td><td></td></tr>
+  <tr><td>[Constants](Constants.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
 No types found.
 == Classes
-|Class|Description|
-|---|---|
-|[NbtConstants](NbtConstants.md)||
-|[DataGenerator](Constants.DataGenerator.md)||
-|[Constants](Constants.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[NbtConstants](NbtConstants.md)</td><td></td></tr>
+  <tr><td>[DataGenerator](Constants.DataGenerator.md)</td><td></td></tr>
+  <tr><td>[Constants](Constants.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Enums
 No types found.
 == Records

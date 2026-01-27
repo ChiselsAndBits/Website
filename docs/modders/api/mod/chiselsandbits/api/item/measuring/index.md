@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.item.measuring;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IMeasuringTapeItem](IMeasuringTapeItem.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IMeasuringTapeItem](IMeasuringTapeItem.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IMeasuringTapeItem](IMeasuringTapeItem.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IMeasuringTapeItem](IMeasuringTapeItem.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

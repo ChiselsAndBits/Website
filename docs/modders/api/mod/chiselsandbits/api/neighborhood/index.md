@@ -14,15 +14,25 @@ package mod.chiselsandbits.api.neighborhood;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IBlockNeighborhood](IBlockNeighborhood.md)|Marker interface used to detect block neighborhoods in cache keys.|
-|[IBlockNeighborhoodBuilder](IBlockNeighborhoodBuilder.md)|Represents a system which can build unique block neighborhoods.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IBlockNeighborhood](IBlockNeighborhood.md)</td><td>Marker interface used to detect block neighborhoods in cache keys.</td></tr>
+  <tr><td>[IBlockNeighborhoodBuilder](IBlockNeighborhoodBuilder.md)</td><td>Represents a system which can build unique block neighborhoods.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IBlockNeighborhood](IBlockNeighborhood.md)|Marker interface used to detect block neighborhoods in cache keys.|
-|[IBlockNeighborhoodBuilder](IBlockNeighborhoodBuilder.md)|Represents a system which can build unique block neighborhoods.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IBlockNeighborhood](IBlockNeighborhood.md)</td><td>Marker interface used to detect block neighborhoods in cache keys.</td></tr>
+  <tr><td>[IBlockNeighborhoodBuilder](IBlockNeighborhoodBuilder.md)</td><td>Represents a system which can build unique block neighborhoods.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

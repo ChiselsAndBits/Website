@@ -14,22 +14,37 @@ package mod.chiselsandbits.api.placement;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IPlacementPreviewProvidingItem](IPlacementPreviewProvidingItem.md)||
-|[PlacementResult](PlacementResult.md)|Represents a result of a placement attempt.|
-|[IPlacementProperties](IPlacementProperties.md)||
-|[IPlaceable](IPlaceable.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IPlacementPreviewProvidingItem](IPlacementPreviewProvidingItem.md)</td><td></td></tr>
+  <tr><td>[PlacementResult](PlacementResult.md)</td><td>Represents a result of a placement attempt.</td></tr>
+  <tr><td>[IPlacementProperties](IPlacementProperties.md)</td><td></td></tr>
+  <tr><td>[IPlaceable](IPlaceable.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IPlacementPreviewProvidingItem](IPlacementPreviewProvidingItem.md)||
-|[IPlacementProperties](IPlacementProperties.md)||
-|[IPlaceable](IPlaceable.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IPlacementPreviewProvidingItem](IPlacementPreviewProvidingItem.md)</td><td></td></tr>
+  <tr><td>[IPlacementProperties](IPlacementProperties.md)</td><td></td></tr>
+  <tr><td>[IPlaceable](IPlaceable.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Classes
-|Class|Description|
-|---|---|
-|[PlacementResult](PlacementResult.md)|Represents a result of a placement attempt.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[PlacementResult](PlacementResult.md)</td><td>Represents a result of a placement attempt.</td></tr>
+  </tbody>
+</table>
 == Enums
 No types found.
 == Records

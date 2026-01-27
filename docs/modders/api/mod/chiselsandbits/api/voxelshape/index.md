@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.voxelshape;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IVoxelShapeManager](IVoxelShapeManager.md)|A manager for dealing with voxelshapes related to chiseled blocks and areas.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IVoxelShapeManager](IVoxelShapeManager.md)</td><td>A manager for dealing with voxelshapes related to chiseled blocks and areas.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IVoxelShapeManager](IVoxelShapeManager.md)|A manager for dealing with voxelshapes related to chiseled blocks and areas.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IVoxelShapeManager](IVoxelShapeManager.md)</td><td>A manager for dealing with voxelshapes related to chiseled blocks and areas.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

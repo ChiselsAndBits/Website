@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.item.change;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IChangeTrackingItem](IChangeTrackingItem.md)|Marker interface for items which allow change tracking items via keybinds.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IChangeTrackingItem](IChangeTrackingItem.md)</td><td>Marker interface for items which allow change tracking items via keybinds.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IChangeTrackingItem](IChangeTrackingItem.md)|Marker interface for items which allow change tracking items via keybinds.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IChangeTrackingItem](IChangeTrackingItem.md)</td><td>Marker interface for items which allow change tracking items via keybinds.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.pattern.placement;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IPatternPlacementType](IPatternPlacementType.md)|Presents a way placing a pattern in the world.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IPatternPlacementType](IPatternPlacementType.md)</td><td>Presents a way placing a pattern in the world.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IPatternPlacementType](IPatternPlacementType.md)|Presents a way placing a pattern in the world.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IPatternPlacementType](IPatternPlacementType.md)</td><td>Presents a way placing a pattern in the world.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

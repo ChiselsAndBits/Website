@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.multistate.accessor.sortable;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IPositionMutator](IPositionMutator.md)|Represents an object which can mutate the order of the coordinate members<br> before they are retrieved from storage.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IPositionMutator](IPositionMutator.md)</td><td>Represents an object which can mutate the order of the coordinate members<br> before they are retrieved from storage.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IPositionMutator](IPositionMutator.md)|Represents an object which can mutate the order of the coordinate members<br> before they are retrieved from storage.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IPositionMutator](IPositionMutator.md)</td><td>Represents an object which can mutate the order of the coordinate members<br> before they are retrieved from storage.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

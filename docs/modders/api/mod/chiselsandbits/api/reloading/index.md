@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.reloading;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[ICacheClearingHandler](ICacheClearingHandler.md)|Invoked by Chisels and Bitss reloading handler.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ICacheClearingHandler](ICacheClearingHandler.md)</td><td>Invoked by Chisels and Bitss reloading handler.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[ICacheClearingHandler](ICacheClearingHandler.md)|Invoked by Chisels and Bitss reloading handler.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ICacheClearingHandler](ICacheClearingHandler.md)</td><td>Invoked by Chisels and Bitss reloading handler.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

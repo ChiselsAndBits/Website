@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.item.withhighlight;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IWithHighlightItem](IWithHighlightItem.md)|Indicates an item that is used to draw custom highlights,<br> using custom logic instead of the default one.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IWithHighlightItem](IWithHighlightItem.md)</td><td>Indicates an item that is used to draw custom highlights,<br> using custom logic instead of the default one.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IWithHighlightItem](IWithHighlightItem.md)|Indicates an item that is used to draw custom highlights,<br> using custom logic instead of the default one.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IWithHighlightItem](IWithHighlightItem.md)</td><td>Indicates an item that is used to draw custom highlights,<br> using custom logic instead of the default one.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

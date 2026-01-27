@@ -14,30 +14,45 @@ package mod.chiselsandbits.api.serialization;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[Registry](Serializable.Registry.md)|Serializes specifically when a registry is involved.|
-|[CBCodecs](CBCodecs.md)||
-|[Serializable](Serializable.md)|Defines objects which can be serialized into an exact format.|
-|[RawSerializable](RawSerializable.md)|Defines objects which can be serialized into a raw format.|
-|[NbtAwareBitsetCodec](CBCodecs.NbtAwareBitsetCodec.md)||
-|[CBStreamCodecs](CBStreamCodecs.md)||
-|[FallbackCodec](CBCodecs.FallbackCodec.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[Registry](Serializable.Registry.md)</td><td>Serializes specifically when a registry is involved.</td></tr>
+  <tr><td>[CBCodecs](CBCodecs.md)</td><td></td></tr>
+  <tr><td>[Serializable](Serializable.md)</td><td>Defines objects which can be serialized into an exact format.</td></tr>
+  <tr><td>[RawSerializable](RawSerializable.md)</td><td>Defines objects which can be serialized into a raw format.</td></tr>
+  <tr><td>[NbtAwareBitsetCodec](CBCodecs.NbtAwareBitsetCodec.md)</td><td></td></tr>
+  <tr><td>[CBStreamCodecs](CBStreamCodecs.md)</td><td></td></tr>
+  <tr><td>[FallbackCodec](CBCodecs.FallbackCodec.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[Registry](Serializable.Registry.md)|Serializes specifically when a registry is involved.|
-|[CBCodecs](CBCodecs.md)||
-|[Serializable](Serializable.md)|Defines objects which can be serialized into an exact format.|
-|[RawSerializable](RawSerializable.md)|Defines objects which can be serialized into a raw format.|
-|[CBStreamCodecs](CBStreamCodecs.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[Registry](Serializable.Registry.md)</td><td>Serializes specifically when a registry is involved.</td></tr>
+  <tr><td>[CBCodecs](CBCodecs.md)</td><td></td></tr>
+  <tr><td>[Serializable](Serializable.md)</td><td>Defines objects which can be serialized into an exact format.</td></tr>
+  <tr><td>[RawSerializable](RawSerializable.md)</td><td>Defines objects which can be serialized into a raw format.</td></tr>
+  <tr><td>[CBStreamCodecs](CBStreamCodecs.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums
 No types found.
 == Records
-|Class|Description|
-|---|---|
-|[NbtAwareBitsetCodec](CBCodecs.NbtAwareBitsetCodec.md)||
-|[FallbackCodec](CBCodecs.FallbackCodec.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[NbtAwareBitsetCodec](CBCodecs.NbtAwareBitsetCodec.md)</td><td></td></tr>
+  <tr><td>[FallbackCodec](CBCodecs.FallbackCodec.md)</td><td></td></tr>
+  </tbody>
+</table>
 :::

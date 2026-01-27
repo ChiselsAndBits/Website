@@ -14,15 +14,25 @@ package mod.chiselsandbits.api.item.chisel;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IChiselItem](IChiselItem.md)||
-|[IChiselingItem](IChiselingItem.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IChiselItem](IChiselItem.md)</td><td></td></tr>
+  <tr><td>[IChiselingItem](IChiselingItem.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IChiselItem](IChiselItem.md)||
-|[IChiselingItem](IChiselingItem.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IChiselItem](IChiselItem.md)</td><td></td></tr>
+  <tr><td>[IChiselingItem](IChiselingItem.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

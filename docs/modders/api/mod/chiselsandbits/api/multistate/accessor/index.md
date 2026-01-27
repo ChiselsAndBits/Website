@@ -14,23 +14,33 @@ package mod.chiselsandbits.api.multistate.accessor;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IAreaAccessorWithVoxelShape](IAreaAccessorWithVoxelShape.md)|A special <br>{@link IAreaAccessor}<br> that is capable of determining its own voxelshape.|
-|[IStateAccessor](IStateAccessor.md)||
-|[IStateEntryInfo](IStateEntryInfo.md)|Represents a single entry inside an area which can have multiple states.|
-|[ISingleBlockAxisAlignedAreaAccessor](ISingleBlockAxisAlignedAreaAccessor.md)|Represents a single block axis aligned area accessor|
-|[IAreaAccessor](IAreaAccessor.md)|Gives access to all states in a given area.|
-|[IAccessorFactory](IAccessorFactory.md)|Allows for the creation of new accessors used to access chiselable areas.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IAreaAccessorWithVoxelShape](IAreaAccessorWithVoxelShape.md)</td><td>A special <br>{@link IAreaAccessor}<br> that is capable of determining its own voxelshape.</td></tr>
+  <tr><td>[IStateAccessor](IStateAccessor.md)</td><td></td></tr>
+  <tr><td>[IStateEntryInfo](IStateEntryInfo.md)</td><td>Represents a single entry inside an area which can have multiple states.</td></tr>
+  <tr><td>[ISingleBlockAxisAlignedAreaAccessor](ISingleBlockAxisAlignedAreaAccessor.md)</td><td>Represents a single block axis aligned area accessor</td></tr>
+  <tr><td>[IAreaAccessor](IAreaAccessor.md)</td><td>Gives access to all states in a given area.</td></tr>
+  <tr><td>[IAccessorFactory](IAccessorFactory.md)</td><td>Allows for the creation of new accessors used to access chiselable areas.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IAreaAccessorWithVoxelShape](IAreaAccessorWithVoxelShape.md)|A special <br>{@link IAreaAccessor}<br> that is capable of determining its own voxelshape.|
-|[IStateAccessor](IStateAccessor.md)||
-|[IStateEntryInfo](IStateEntryInfo.md)|Represents a single entry inside an area which can have multiple states.|
-|[ISingleBlockAxisAlignedAreaAccessor](ISingleBlockAxisAlignedAreaAccessor.md)|Represents a single block axis aligned area accessor|
-|[IAreaAccessor](IAreaAccessor.md)|Gives access to all states in a given area.|
-|[IAccessorFactory](IAccessorFactory.md)|Allows for the creation of new accessors used to access chiselable areas.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IAreaAccessorWithVoxelShape](IAreaAccessorWithVoxelShape.md)</td><td>A special <br>{@link IAreaAccessor}<br> that is capable of determining its own voxelshape.</td></tr>
+  <tr><td>[IStateAccessor](IStateAccessor.md)</td><td></td></tr>
+  <tr><td>[IStateEntryInfo](IStateEntryInfo.md)</td><td>Represents a single entry inside an area which can have multiple states.</td></tr>
+  <tr><td>[ISingleBlockAxisAlignedAreaAccessor](ISingleBlockAxisAlignedAreaAccessor.md)</td><td>Represents a single block axis aligned area accessor</td></tr>
+  <tr><td>[IAreaAccessor](IAreaAccessor.md)</td><td>Gives access to all states in a given area.</td></tr>
+  <tr><td>[IAccessorFactory](IAccessorFactory.md)</td><td>Allows for the creation of new accessors used to access chiselable areas.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums
@@ -41,8 +51,13 @@ No types found.
 
 ### Related
 
-|Package|Description|
-|---|---|
-|[mod.chiselsandbits.api.multistate.accessor.identifier](identifier/index.md)||
-|[mod.chiselsandbits.api.multistate.accessor.world](world/index.md)||
-|[mod.chiselsandbits.api.multistate.accessor.sortable](sortable/index.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Package</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[mod.chiselsandbits.api.multistate.accessor.identifier](identifier/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.multistate.accessor.world](world/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.multistate.accessor.sortable](sortable/index.md)</td><td></td></tr>
+  </tbody>
+</table>

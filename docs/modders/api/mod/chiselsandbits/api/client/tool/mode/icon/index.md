@@ -14,15 +14,25 @@ package mod.chiselsandbits.api.client.tool.mode.icon;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[ISelectedToolModeIconRendererRegistry](ISelectedToolModeIconRendererRegistry.md)|Registry for registering possible selected tool mode icon renderers,<br> and for getting the current renderer back out.|
-|[ISelectedToolModeIconRenderer](ISelectedToolModeIconRenderer.md)|Used to render the icons on the hot bar for the selected tool mode.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ISelectedToolModeIconRendererRegistry](ISelectedToolModeIconRendererRegistry.md)</td><td>Registry for registering possible selected tool mode icon renderers,<br> and for getting the current renderer back out.</td></tr>
+  <tr><td>[ISelectedToolModeIconRenderer](ISelectedToolModeIconRenderer.md)</td><td>Used to render the icons on the hot bar for the selected tool mode.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[ISelectedToolModeIconRendererRegistry](ISelectedToolModeIconRendererRegistry.md)|Registry for registering possible selected tool mode icon renderers,<br> and for getting the current renderer back out.|
-|[ISelectedToolModeIconRenderer](ISelectedToolModeIconRenderer.md)|Used to render the icons on the hot bar for the selected tool mode.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ISelectedToolModeIconRendererRegistry](ISelectedToolModeIconRendererRegistry.md)</td><td>Registry for registering possible selected tool mode icon renderers,<br> and for getting the current renderer back out.</td></tr>
+  <tr><td>[ISelectedToolModeIconRenderer](ISelectedToolModeIconRenderer.md)</td><td>Used to render the icons on the hot bar for the selected tool mode.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

@@ -14,17 +14,27 @@ package mod.chiselsandbits.api.change;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[ICombiningChangeTracker](ICombiningChangeTracker.md)|Represents a change tracker which is used to combine several change steps into one action.|
-|[IChangeTrackerManager](IChangeTrackerManager.md)|The central change tracker manager which gives access to each players individual change tracker if applicable.|
-|[IChangeTracker](IChangeTracker.md)|The change tracker for tracking changes to bit blocks.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ICombiningChangeTracker](ICombiningChangeTracker.md)</td><td>Represents a change tracker which is used to combine several change steps into one action.</td></tr>
+  <tr><td>[IChangeTrackerManager](IChangeTrackerManager.md)</td><td>The central change tracker manager which gives access to each players individual change tracker if applicable.</td></tr>
+  <tr><td>[IChangeTracker](IChangeTracker.md)</td><td>The change tracker for tracking changes to bit blocks.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[ICombiningChangeTracker](ICombiningChangeTracker.md)|Represents a change tracker which is used to combine several change steps into one action.|
-|[IChangeTrackerManager](IChangeTrackerManager.md)|The central change tracker manager which gives access to each players individual change tracker if applicable.|
-|[IChangeTracker](IChangeTracker.md)|The change tracker for tracking changes to bit blocks.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ICombiningChangeTracker](ICombiningChangeTracker.md)</td><td>Represents a change tracker which is used to combine several change steps into one action.</td></tr>
+  <tr><td>[IChangeTrackerManager](IChangeTrackerManager.md)</td><td>The central change tracker manager which gives access to each players individual change tracker if applicable.</td></tr>
+  <tr><td>[IChangeTracker](IChangeTracker.md)</td><td>The change tracker for tracking changes to bit blocks.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums
@@ -35,6 +45,11 @@ No types found.
 
 ### Related
 
-|Package|Description|
-|---|---|
-|[mod.chiselsandbits.api.change.changes](changes/index.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Package</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[mod.chiselsandbits.api.change.changes](changes/index.md)</td><td></td></tr>
+  </tbody>
+</table>

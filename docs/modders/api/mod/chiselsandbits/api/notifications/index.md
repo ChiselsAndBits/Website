@@ -14,15 +14,25 @@ package mod.chiselsandbits.api.notifications;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[INotificationManager](INotificationManager.md)|Manager which handles notifying players of events in the game.|
-|[INotification](INotification.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[INotificationManager](INotificationManager.md)</td><td>Manager which handles notifying players of events in the game.</td></tr>
+  <tr><td>[INotification](INotification.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[INotificationManager](INotificationManager.md)|Manager which handles notifying players of events in the game.|
-|[INotification](INotification.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[INotificationManager](INotificationManager.md)</td><td>Manager which handles notifying players of events in the game.</td></tr>
+  <tr><td>[INotification](INotification.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

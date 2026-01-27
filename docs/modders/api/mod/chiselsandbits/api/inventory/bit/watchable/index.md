@@ -14,15 +14,25 @@ package mod.chiselsandbits.api.inventory.bit.watchable;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IWatchableBitInventory](IWatchableBitInventory.md)|Bit inventory variant which can be watched for changes.|
-|[IWatch](IWatch.md)|Marker interface that can be used to close the watch on a bit inventory.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IWatchableBitInventory](IWatchableBitInventory.md)</td><td>Bit inventory variant which can be watched for changes.</td></tr>
+  <tr><td>[IWatch](IWatch.md)</td><td>Marker interface that can be used to close the watch on a bit inventory.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IWatchableBitInventory](IWatchableBitInventory.md)|Bit inventory variant which can be watched for changes.|
-|[IWatch](IWatch.md)|Marker interface that can be used to close the watch on a bit inventory.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IWatchableBitInventory](IWatchableBitInventory.md)</td><td>Bit inventory variant which can be watched for changes.</td></tr>
+  <tr><td>[IWatch](IWatch.md)</td><td>Marker interface that can be used to close the watch on a bit inventory.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

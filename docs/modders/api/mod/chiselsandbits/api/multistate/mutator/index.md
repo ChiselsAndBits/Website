@@ -14,21 +14,31 @@ package mod.chiselsandbits.api.multistate.mutator;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IGenerallyModifiableAreaMutator](IGenerallyModifiableAreaMutator.md)||
-|[IAreaMutator](IAreaMutator.md)|A mutator for a given area.|
-|[IMirrorAndRotateble](IMirrorAndRotateble.md)||
-|[IMutableStateEntryInfo](IMutableStateEntryInfo.md)||
-|[IMutatorFactory](IMutatorFactory.md)|Allows for the creation of new mutators used to modify chiselable areas.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IGenerallyModifiableAreaMutator](IGenerallyModifiableAreaMutator.md)</td><td></td></tr>
+  <tr><td>[IAreaMutator](IAreaMutator.md)</td><td>A mutator for a given area.</td></tr>
+  <tr><td>[IMirrorAndRotateble](IMirrorAndRotateble.md)</td><td></td></tr>
+  <tr><td>[IMutableStateEntryInfo](IMutableStateEntryInfo.md)</td><td></td></tr>
+  <tr><td>[IMutatorFactory](IMutatorFactory.md)</td><td>Allows for the creation of new mutators used to modify chiselable areas.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IGenerallyModifiableAreaMutator](IGenerallyModifiableAreaMutator.md)||
-|[IAreaMutator](IAreaMutator.md)|A mutator for a given area.|
-|[IMirrorAndRotateble](IMirrorAndRotateble.md)||
-|[IMutableStateEntryInfo](IMutableStateEntryInfo.md)||
-|[IMutatorFactory](IMutatorFactory.md)|Allows for the creation of new mutators used to modify chiselable areas.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IGenerallyModifiableAreaMutator](IGenerallyModifiableAreaMutator.md)</td><td></td></tr>
+  <tr><td>[IAreaMutator](IAreaMutator.md)</td><td>A mutator for a given area.</td></tr>
+  <tr><td>[IMirrorAndRotateble](IMirrorAndRotateble.md)</td><td></td></tr>
+  <tr><td>[IMutableStateEntryInfo](IMutableStateEntryInfo.md)</td><td></td></tr>
+  <tr><td>[IMutatorFactory](IMutatorFactory.md)</td><td>Allows for the creation of new mutators used to modify chiselable areas.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums
@@ -39,8 +49,13 @@ No types found.
 
 ### Related
 
-|Package|Description|
-|---|---|
-|[mod.chiselsandbits.api.multistate.mutator.batched](batched/index.md)||
-|[mod.chiselsandbits.api.multistate.mutator.world](world/index.md)||
-|[mod.chiselsandbits.api.multistate.mutator.callback](callback/index.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Package</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[mod.chiselsandbits.api.multistate.mutator.batched](batched/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.multistate.mutator.world](world/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.multistate.mutator.callback](callback/index.md)</td><td></td></tr>
+  </tbody>
+</table>

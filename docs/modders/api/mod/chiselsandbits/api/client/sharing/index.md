@@ -14,18 +14,33 @@ package mod.chiselsandbits.api.client.sharing;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IPatternSharingManager](IPatternSharingManager.md)|Central manager which handles sharing of patterns.|
-|[PatternIOException](PatternIOException.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IPatternSharingManager](IPatternSharingManager.md)</td><td>Central manager which handles sharing of patterns.</td></tr>
+  <tr><td>[PatternIOException](PatternIOException.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IPatternSharingManager](IPatternSharingManager.md)|Central manager which handles sharing of patterns.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IPatternSharingManager](IPatternSharingManager.md)</td><td>Central manager which handles sharing of patterns.</td></tr>
+  </tbody>
+</table>
 == Classes
-|Class|Description|
-|---|---|
-|[PatternIOException](PatternIOException.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[PatternIOException](PatternIOException.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Enums
 No types found.
 == Records

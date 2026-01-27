@@ -14,15 +14,25 @@ package mod.chiselsandbits.api.item.named;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IPermanentlyHighlightedNameItem](IPermanentlyHighlightedNameItem.md)||
-|[IDynamicallyHighlightedNameItem](IDynamicallyHighlightedNameItem.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IPermanentlyHighlightedNameItem](IPermanentlyHighlightedNameItem.md)</td><td></td></tr>
+  <tr><td>[IDynamicallyHighlightedNameItem](IDynamicallyHighlightedNameItem.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IPermanentlyHighlightedNameItem](IPermanentlyHighlightedNameItem.md)||
-|[IDynamicallyHighlightedNameItem](IDynamicallyHighlightedNameItem.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IPermanentlyHighlightedNameItem](IPermanentlyHighlightedNameItem.md)</td><td></td></tr>
+  <tr><td>[IDynamicallyHighlightedNameItem](IDynamicallyHighlightedNameItem.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

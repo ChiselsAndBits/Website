@@ -14,19 +14,29 @@ package mod.chiselsandbits.api.item.multistate;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IMultiStateItemStack](IMultiStateItemStack.md)|The itemstack sensitive version of the multistate item.|
-|[IMultiStateItem](IMultiStateItem.md)|An item whose itemstacks contain multistate information.|
-|[IStatistics](IStatistics.md)|The statistics of a multi state itemstack.|
-|[IMultiStateItemFactory](IMultiStateItemFactory.md)|Can create multistate items from a given source.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IMultiStateItemStack](IMultiStateItemStack.md)</td><td>The itemstack sensitive version of the multistate item.</td></tr>
+  <tr><td>[IMultiStateItem](IMultiStateItem.md)</td><td>An item whose itemstacks contain multistate information.</td></tr>
+  <tr><td>[IStatistics](IStatistics.md)</td><td>The statistics of a multi state itemstack.</td></tr>
+  <tr><td>[IMultiStateItemFactory](IMultiStateItemFactory.md)</td><td>Can create multistate items from a given source.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IMultiStateItemStack](IMultiStateItemStack.md)|The itemstack sensitive version of the multistate item.|
-|[IMultiStateItem](IMultiStateItem.md)|An item whose itemstacks contain multistate information.|
-|[IStatistics](IStatistics.md)|The statistics of a multi state itemstack.|
-|[IMultiStateItemFactory](IMultiStateItemFactory.md)|Can create multistate items from a given source.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IMultiStateItemStack](IMultiStateItemStack.md)</td><td>The itemstack sensitive version of the multistate item.</td></tr>
+  <tr><td>[IMultiStateItem](IMultiStateItem.md)</td><td>An item whose itemstacks contain multistate information.</td></tr>
+  <tr><td>[IStatistics](IStatistics.md)</td><td>The statistics of a multi state itemstack.</td></tr>
+  <tr><td>[IMultiStateItemFactory](IMultiStateItemFactory.md)</td><td>Can create multistate items from a given source.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

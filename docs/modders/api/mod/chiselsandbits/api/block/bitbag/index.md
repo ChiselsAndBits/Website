@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.block.bitbag;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IBitBagAcceptingBlock](IBitBagAcceptingBlock.md)|Represents a block which can accept a bit bags interaction.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IBitBagAcceptingBlock](IBitBagAcceptingBlock.md)</td><td>Represents a block which can accept a bit bags interaction.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IBitBagAcceptingBlock](IBitBagAcceptingBlock.md)|Represents a block which can accept a bit bags interaction.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IBitBagAcceptingBlock](IBitBagAcceptingBlock.md)</td><td>Represents a block which can accept a bit bags interaction.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

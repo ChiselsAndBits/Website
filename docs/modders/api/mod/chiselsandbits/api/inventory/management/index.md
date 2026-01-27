@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.inventory.management;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IBitInventoryManager](IBitInventoryManager.md)|Manager which deals with bit inventories.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IBitInventoryManager](IBitInventoryManager.md)</td><td>Manager which deals with bit inventories.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IBitInventoryManager](IBitInventoryManager.md)|Manager which deals with bit inventories.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IBitInventoryManager](IBitInventoryManager.md)</td><td>Manager which deals with bit inventories.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

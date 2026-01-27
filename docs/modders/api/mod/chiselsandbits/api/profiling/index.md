@@ -14,19 +14,29 @@ package mod.chiselsandbits.api.profiling;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IProfilingManager](IProfilingManager.md)|A profiling manager to handle the profiling of different interactions or managements.|
-|[IProfilerSection](IProfilerSection.md)|Represents a resource used for try-resource blocks that represents a<br> section of profileable code.|
-|[IProfiler](IProfiler.md)|A profiler used to track the time certain operations inside Chisels and Bits take.|
-|[IProfilerResult](IProfilerResult.md)|The result of a profiling operation.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IProfilingManager](IProfilingManager.md)</td><td>A profiling manager to handle the profiling of different interactions or managements.</td></tr>
+  <tr><td>[IProfilerSection](IProfilerSection.md)</td><td>Represents a resource used for try-resource blocks that represents a<br> section of profileable code.</td></tr>
+  <tr><td>[IProfiler](IProfiler.md)</td><td>A profiler used to track the time certain operations inside Chisels and Bits take.</td></tr>
+  <tr><td>[IProfilerResult](IProfilerResult.md)</td><td>The result of a profiling operation.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IProfilingManager](IProfilingManager.md)|A profiling manager to handle the profiling of different interactions or managements.|
-|[IProfilerSection](IProfilerSection.md)|Represents a resource used for try-resource blocks that represents a<br> section of profileable code.|
-|[IProfiler](IProfiler.md)|A profiler used to track the time certain operations inside Chisels and Bits take.|
-|[IProfilerResult](IProfilerResult.md)|The result of a profiling operation.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IProfilingManager](IProfilingManager.md)</td><td>A profiling manager to handle the profiling of different interactions or managements.</td></tr>
+  <tr><td>[IProfilerSection](IProfilerSection.md)</td><td>Represents a resource used for try-resource blocks that represents a<br> section of profileable code.</td></tr>
+  <tr><td>[IProfiler](IProfiler.md)</td><td>A profiler used to track the time certain operations inside Chisels and Bits take.</td></tr>
+  <tr><td>[IProfilerResult](IProfilerResult.md)</td><td>The result of a profiling operation.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

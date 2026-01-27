@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.chiseling.mode;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IChiselMode](IChiselMode.md)|Represents a chiselable operation that can be completed by a chisel or bit for example.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IChiselMode](IChiselMode.md)</td><td>Represents a chiselable operation that can be completed by a chisel or bit for example.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IChiselMode](IChiselMode.md)|Represents a chiselable operation that can be completed by a chisel or bit for example.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IChiselMode](IChiselMode.md)</td><td>Represents a chiselable operation that can be completed by a chisel or bit for example.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

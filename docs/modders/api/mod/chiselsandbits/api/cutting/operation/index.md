@@ -14,15 +14,25 @@ package mod.chiselsandbits.api.cutting.operation;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[ICuttingOperation](ICuttingOperation.md)|A Cutting operation that can be performed in the Cutting table.|
-|[ICuttingOperationGroup](ICuttingOperationGroup.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ICuttingOperation](ICuttingOperation.md)</td><td>A Cutting operation that can be performed in the Cutting table.</td></tr>
+  <tr><td>[ICuttingOperationGroup](ICuttingOperationGroup.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[ICuttingOperation](ICuttingOperation.md)|A Cutting operation that can be performed in the Cutting table.|
-|[ICuttingOperationGroup](ICuttingOperationGroup.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[ICuttingOperation](ICuttingOperation.md)</td><td>A Cutting operation that can be performed in the Cutting table.</td></tr>
+  <tr><td>[ICuttingOperationGroup](ICuttingOperationGroup.md)</td><td></td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

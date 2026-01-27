@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.item.interactable;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IInteractableItem](IInteractableItem.md)|Represents an item which can be used to interact with other items in the other hand.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IInteractableItem](IInteractableItem.md)</td><td>Represents an item which can be used to interact with other items in the other hand.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IInteractableItem](IInteractableItem.md)|Represents an item which can be used to interact with other items in the other hand.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IInteractableItem](IInteractableItem.md)</td><td>Represents an item which can be used to interact with other items in the other hand.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

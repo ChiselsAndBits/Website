@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.block;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IMultiStateBlock](IMultiStateBlock.md)|Implemented by Chisels and Bits Blocks, can be used to request a material that represents<br> the largest quantity of a Chisels and Bits block.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IMultiStateBlock](IMultiStateBlock.md)</td><td>Implemented by Chisels and Bits Blocks, can be used to request a material that represents<br> the largest quantity of a Chisels and Bits block.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IMultiStateBlock](IMultiStateBlock.md)|Implemented by Chisels and Bits Blocks, can be used to request a material that represents<br> the largest quantity of a Chisels and Bits block.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IMultiStateBlock](IMultiStateBlock.md)</td><td>Implemented by Chisels and Bits Blocks, can be used to request a material that represents<br> the largest quantity of a Chisels and Bits block.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums
@@ -31,8 +41,13 @@ No types found.
 
 ### Related
 
-|Package|Description|
-|---|---|
-|[mod.chiselsandbits.api.block.entity](entity/index.md)||
-|[mod.chiselsandbits.api.block.bitbag](bitbag/index.md)||
-|[mod.chiselsandbits.api.block.storage](storage/index.md)||
+<table class="stretched-table">
+  <thead>
+    <tr><th>Package</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[mod.chiselsandbits.api.block.entity](entity/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.block.bitbag](bitbag/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.block.storage](storage/index.md)</td><td></td></tr>
+  </tbody>
+</table>

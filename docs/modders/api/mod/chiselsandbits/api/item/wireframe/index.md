@@ -14,13 +14,23 @@ package mod.chiselsandbits.api.item.wireframe;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IWireframeProvidingItem](IWireframeProvidingItem.md)|Represents an item which can provide a wireframe for different purposes,<br> including rendering a preview.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IWireframeProvidingItem](IWireframeProvidingItem.md)</td><td>Represents an item which can provide a wireframe for different purposes,<br> including rendering a preview.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IWireframeProvidingItem](IWireframeProvidingItem.md)|Represents an item which can provide a wireframe for different purposes,<br> including rendering a preview.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IWireframeProvidingItem](IWireframeProvidingItem.md)</td><td>Represents an item which can provide a wireframe for different purposes,<br> including rendering a preview.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

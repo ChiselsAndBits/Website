@@ -14,15 +14,25 @@ package mod.chiselsandbits.api.multistate.accessor.world;
 
 :::tabs key:PackageContents
 == All Types
-|Class|Description|
-|---|---|
-|[IWorldAreaAccessor](IWorldAreaAccessor.md)|Represents an area accessor which actually exists in the world.|
-|[IInWorldStateEntryInfo](IInWorldStateEntryInfo.md)|Represents a single state entry that actually exists in a physical world.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IWorldAreaAccessor](IWorldAreaAccessor.md)</td><td>Represents an area accessor which actually exists in the world.</td></tr>
+  <tr><td>[IInWorldStateEntryInfo](IInWorldStateEntryInfo.md)</td><td>Represents a single state entry that actually exists in a physical world.</td></tr>
+  </tbody>
+</table>
 == Interfaces
-|Class|Description|
-|---|---|
-|[IWorldAreaAccessor](IWorldAreaAccessor.md)|Represents an area accessor which actually exists in the world.|
-|[IInWorldStateEntryInfo](IInWorldStateEntryInfo.md)|Represents a single state entry that actually exists in a physical world.|
+<table class="stretched-table">
+  <thead>
+    <tr><th>Class</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td>[IWorldAreaAccessor](IWorldAreaAccessor.md)</td><td>Represents an area accessor which actually exists in the world.</td></tr>
+  <tr><td>[IInWorldStateEntryInfo](IInWorldStateEntryInfo.md)</td><td>Represents a single state entry that actually exists in a physical world.</td></tr>
+  </tbody>
+</table>
 == Classes
 No types found.
 == Enums

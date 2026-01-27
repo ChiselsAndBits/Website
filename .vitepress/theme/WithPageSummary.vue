@@ -172,7 +172,18 @@ a.anchor-link:hover {
   max-width: var(--vp-sidebar-width);
 }
 
-.stretched-table { width: 100%; }
-.stretched-table td { width: 1px; }
-.stretched-table td:last-child { width: 100%; }
+.stretched-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stretched-table td {
+  white-space: nowrap;
+}
+
+.stretched-table td:last-child {
+  width: 100%;
+  min-width: 50%;
+  white-space: normal;
+}
 </style>

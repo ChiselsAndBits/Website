@@ -1,9 +1,35 @@
+---
+layout: doc
+title: Chisels
+order: 2
+summary:
+  icon: https://raw.githubusercontent.com/ChiselsAndBits/Assets/refs/heads/main/Icons/InGame/chiselsandbits/chisel_iron.png
+  summary: Chisels allow you to sculpt blocks at a pixel level, creating intricate designs.
+  title: Chisels
+  recipe:
+    ingredients:
+      "t":
+        namespace: c
+        location: ingots/iron
+        isTag: true
+      "s":
+        namespace: c
+        location: rods/wooden
+        isTag: true
+    contents:  [
+      " t",
+      "s "
+    ]
+---
+
 # Chisels
 
 Chisels are the core tool of Chisels & Bits. They allow you to sculpt blocks at a pixel level, creating intricate designs.
 
 ## Types of Chisels
+The following chisels are available (if the required material is part of Minecraft):
 - Stone Chisel
+- Copper Chisel
 - Iron Chisel
 - Golden Chisel
 - Diamond Chisel
@@ -11,19 +37,6 @@ Chisels are the core tool of Chisels & Bits. They allow you to sculpt blocks at 
 
 Each chisel type has increased durability and speed.
 
-## How to Craft
-- **Stone Chisel:** Stick + Cobblestone
-- **Iron Chisel:** Stick + Iron Ingot
-- **Golden Chisel:** Stick + Gold Ingot
-- **Diamond Chisel:** Stick + Diamond
-- **Netherite Chisel:** Diamond Chisel + Netherite Ingot (Smithing Table)
-
 ## How to Use
-1. Hold a chisel and right-click on a block to enter chiseling mode.
-2. Use the scroll wheel or hotkeys to change chisel modes (Single Bit, Plane, Line, Cube, Sphere, etc.).
-3. Left-click to remove bits, right-click to place bits (if you have them in your inventory).
-
-## Tips
-- Chisel modes allow for different shapes and patterns.
-- Durability decreases with use; higher-tier chisels last longer.
-- Chisels can be enchanted with Unbreaking and Efficiency.
+- Pressing `R` opens up the Radial Menu, which allows you to select the chiseling mode and its size if applicable
+- Pressing `Left-Click` / Using `Attack` will break the targeted bits

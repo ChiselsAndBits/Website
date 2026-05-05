@@ -26,7 +26,7 @@ The manager for plugins.
   <tbody>
   <tr><td><code>static <a href="IPluginManager.html" title="interface in mod.chiselsandbits.api.plugin">IPluginManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">The instance of the plugin manager.</div><br></td></tr>
   <tr><td><code>com.google.common.collect.ImmutableSet<wbr>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;</code></td><td><code><a href="#getPlugins()" class="member-name-link">getPlugins</a>()</code></td><td><div class="block">Gets the plugins.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#run(java.util.function.Consumer)" class="member-name-link">run</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&nbsp;callback)</code></td><td><div class="block">Runs a specific task on all available plugins.</div><br></td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#run(java.lang.String,java.util.function.Consumer)" class="member-name-link">run</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;action,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&nbsp;callback)</code></td><td><div class="block">Runs a specific task on all available plugins.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -45,7 +45,7 @@ The manager for plugins.
   </thead>
   <tbody>
   <tr><td><code>com.google.common.collect.ImmutableSet<wbr>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;</code></td><td><code><a href="#getPlugins()" class="member-name-link">getPlugins</a>()</code></td><td><div class="block">Gets the plugins.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#run(java.util.function.Consumer)" class="member-name-link">run</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&nbsp;callback)</code></td><td><div class="block">Runs a specific task on all available plugins.</div><br></td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#run(java.lang.String,java.util.function.Consumer)" class="member-name-link">run</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;action,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&nbsp;callback)</code></td><td><div class="block">Runs a specific task on all available plugins.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -55,7 +55,7 @@ The manager for plugins.
   </thead>
   <tbody>
   <tr><td><code>com.google.common.collect.ImmutableSet<wbr>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;</code></td><td><code><a href="#getPlugins()" class="member-name-link">getPlugins</a>()</code></td><td><div class="block">Gets the plugins.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#run(java.util.function.Consumer)" class="member-name-link">run</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&nbsp;callback)</code></td><td><div class="block">Runs a specific task on all available plugins.</div><br></td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#run(java.lang.String,java.util.function.Consumer)" class="member-name-link">run</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;action,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&nbsp;callback)</code></td><td><div class="block">Runs a specific task on all available plugins.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -117,15 +117,17 @@ The manager for plugins.
 
 </li>
 <li>
-<section id="run(java.util.function.Consumer)">
+<section id="run(java.lang.String,java.util.function.Consumer)">
 
 :::tabs
 == run
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">run</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&nbsp;callback)</span></div>
+<div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">run</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;action,
+ <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&nbsp;callback)</span></div>
 <div class="block">Runs a specific task on all available plugins.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
+<dd><code>action</code> - The name of the action to execute, used in logging.</dd>
 <dd><code>callback</code> - The task to run for each plugin.</dd>
 </dl>
 </div>

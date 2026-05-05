@@ -19,25 +19,10 @@ extends <a href="../IMutableStateEntryInfo.html" title="interface in mod.chisels
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.world.<a href="../../accessor/world/IInWorldStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor.world">IInWorldStateEntryInfo</a>
-<a href="../../accessor/world/IInWorldStateEntryInfo.html#getBlockPos()">getBlockPos</a>, <a href="../../accessor/world/IInWorldStateEntryInfo.html#getInWorldCenterPoint()">getInWorldCenterPoint</a>, <a href="../../accessor/world/IInWorldStateEntryInfo.html#getInWorldEndPoint()">getInWorldEndPoint</a>, <a href="../../accessor/world/IInWorldStateEntryInfo.html#getInWorldStartPoint()">getInWorldStartPoint</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.mutator.<a href="../IMutableStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutableStateEntryInfo</a>
-<a href="../IMutableStateEntryInfo.html#clear()">clear</a>, <a href="../IMutableStateEntryInfo.html#overrideState(mod.chiselsandbits.api.blockinformation.BlockInformation)">overrideState</a>, <a href="../IMutableStateEntryInfo.html#setBlockInformation(mod.chiselsandbits.api.blockinformation.BlockInformation)">setBlockInformation</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.<a href="../../accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>
-<a href="../../accessor/IStateEntryInfo.html#getBlockInformation()">getBlockInformation</a>, <a href="../../accessor/IStateEntryInfo.html#getBoundingBox()">getBoundingBox</a>, <a href="../../accessor/IStateEntryInfo.html#getCenterPoint()">getCenterPoint</a>, <a href="../../accessor/IStateEntryInfo.html#getEndPoint()">getEndPoint</a>, <a href="../../accessor/IStateEntryInfo.html#getStartPoint()">getStartPoint</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../../util/IWorldObject.html" title="interface in mod.chiselsandbits.api.util">IWorldObject</a>
-<a href="../../../util/IWorldObject.html#getInWorldBoundingBox()">getInWorldBoundingBox</a>, <a href="../../../util/IWorldObject.html#getInWorldEndBlockPoint()">getInWorldEndBlockPoint</a>, <a href="../../../util/IWorldObject.html#getInWorldStartBlockPoint()">getInWorldStartBlockPoint</a>, <a href="../../../util/IWorldObject.html#getWorld()">getWorld</a>
-:::::
-:::::::
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
+Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.world.<a href="../../accessor/world/IInWorldStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor.world">IInWorldStateEntryInfo</a><a href="../../accessor/world/IInWorldStateEntryInfo.html#getBlockPos()" title="getBlockPos()">getBlockPos</a>, <a href="../../accessor/world/IInWorldStateEntryInfo.html#getInWorldCenterPoint()" title="getInWorldCenterPoint()">getInWorldCenterPoint</a>, <a href="../../accessor/world/IInWorldStateEntryInfo.html#getInWorldEndPoint()" title="getInWorldEndPoint()">getInWorldEndPoint</a>, <a href="../../accessor/world/IInWorldStateEntryInfo.html#getInWorldStartPoint()" title="getInWorldStartPoint()">getInWorldStartPoint</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.mutator.<a href="../IMutableStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutableStateEntryInfo</a><a href="../IMutableStateEntryInfo.html#clear()" title="clear()">clear</a>, <a href="../IMutableStateEntryInfo.html#overrideState(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="overrideState(BlockInformation)">overrideState</a>, <a href="../IMutableStateEntryInfo.html#setBlockInformation(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="setBlockInformation(BlockInformation)">setBlockInformation</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.<a href="../../accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a><a href="../../accessor/IStateEntryInfo.html#getBlockInformation()" title="getBlockInformation()">getBlockInformation</a>, <a href="../../accessor/IStateEntryInfo.html#getBoundingBox()" title="getBoundingBox()">getBoundingBox</a>, <a href="../../accessor/IStateEntryInfo.html#getCenterPoint()" title="getCenterPoint()">getCenterPoint</a>, <a href="../../accessor/IStateEntryInfo.html#getEndPoint()" title="getEndPoint()">getEndPoint</a>, <a href="../../accessor/IStateEntryInfo.html#getStartPoint()" title="getStartPoint()">getStartPoint</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../../util/IWorldObject.html" title="interface in mod.chiselsandbits.api.util">IWorldObject</a><a href="../../../util/IWorldObject.html#getInWorldBoundingBox()" title="getInWorldBoundingBox()">getInWorldBoundingBox</a>, <a href="../../../util/IWorldObject.html#getInWorldEndBlockPoint()" title="getInWorldEndBlockPoint()">getInWorldEndBlockPoint</a>, <a href="../../../util/IWorldObject.html#getInWorldStartBlockPoint()" title="getInWorldStartBlockPoint()">getInWorldStartBlockPoint</a>, <a href="../../../util/IWorldObject.html#getWorld()" title="getWorld()">getWorld</a></section>
+</li>
   
   
   

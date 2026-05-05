@@ -15,13 +15,13 @@ extends net.minecraft.world.level.block.EntityBlock, com.communi.suggestu.saecul
   
 
 Implemented by Chisels and Bits Blocks, can be used to request a material that represents
- the largest quantity of a Chisels and Bits block.  
+the largest quantity of a Chisels and Bits block.  
 
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -51,19 +51,8 @@ Implemented by Chisels and Bits Blocks, can be used to request a material that r
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;net.minecraft.world.level.block.EntityBlock
-getListener, getTicker, newBlockEntity
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;com.communi.suggestu.saecularia.caudices.core.block.IBlockWithWorldlyProperties
-canBeGrass, canHarvestBlock, getBeaconColorMultiplier, getCloneItemStack, getColor, getExplosionResistance, getFriction, getSoundType, mirror, rotate, shouldCheckWeakPower, shouldDisplayFluidOverlay
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;net.minecraft.world.level.ItemLike
-asItem
-:::::
-:::::::
+Methods inherited from interface&nbsp;net.minecraft.world.level.block.EntityBlockgetListener, getTicker, newBlockEntityMethods inherited from interface&nbsp;com.communi.suggestu.saecularia.caudices.core.block.IBlockWithWorldlyPropertiescanBeGrass, canHarvestBlock, getBeaconColorMultiplier, getCloneItemStack, getColor, getExplosionResistance, getFriction, getSoundType, mirror, rotate, shouldCheckWeakPower, shouldDisplayFluidOverlayMethods inherited from interface&nbsp;net.minecraft.world.level.ItemLikeasItem</section>
+</li>
   
   
   
@@ -80,17 +69,20 @@ asItem
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getPrimaryState(net.minecraft.world.level.BlockGetter,net.minecraft.core.BlockPos)">
 
 :::tabs
 == getPrimaryState
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getPrimaryState</span><wbr><span class="parameters">(@NotNull
  @NotNull net.minecraft.world.level.BlockGetter&nbsp;world,
  @NotNull
  @NotNull net.minecraft.core.BlockPos&nbsp;pos)</span></div>
-Returns the primary state of the block.
- In terms of Chisels and Bits this is the blockstate that is represented the most inside the block.
+<div class="block">Returns the primary state of the block.
+In terms of Chisels and Bits this is the blockstate that is represented the most inside the block.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>world</code> - The world to read the data from. Required to get access to the tile entity with the backing data.</dd>
@@ -98,11 +90,14 @@ Returns the primary state of the block.
 <dt>Returns:</dt>
 <dd>The primary blockstate, or when not found the default state from the air block. <code>Block.defaultBlockState()</code></dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

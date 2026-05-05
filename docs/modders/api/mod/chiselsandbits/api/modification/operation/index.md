@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.modification.operation;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IModificationOperationGroup](IModificationOperationGroup.md)</td><td></td></tr>
   <tr><td>[IModificationOperation](IModificationOperation.md)</td><td>A modification operation that can be performed in the modification table.</td></tr>
+  <tr><td>[IModificationOperationGroup](IModificationOperationGroup.md)</td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.modification.operation;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IModificationOperationGroup](IModificationOperationGroup.md)</td><td></td></tr>
   <tr><td>[IModificationOperation](IModificationOperation.md)</td><td>A modification operation that can be performed in the modification table.</td></tr>
+  <tr><td>[IModificationOperationGroup](IModificationOperationGroup.md)</td><td></td></tr>
   </tbody>
 </table>
 == Classes

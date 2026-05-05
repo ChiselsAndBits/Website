@@ -19,8 +19,8 @@ Represents a tool mode which can be rendered.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -65,19 +65,8 @@ Represents a tool mode which can be rendered.
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/IWithColor.html" title="interface in mod.chiselsandbits.api.util">IWithColor</a>
-<a href="../../util/IWithColor.html#getAlphaChannel()">getAlphaChannel</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/IWithDisplayName.html" title="interface in mod.chiselsandbits.api.util">IWithDisplayName</a>
-<a href="../../util/IWithDisplayName.html#getDisplayName()">getDisplayName</a>, <a href="../../util/IWithDisplayName.html#getMultiLineDisplayName()">getMultiLineDisplayName</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/IWithIcon.html" title="interface in mod.chiselsandbits.api.util">IWithIcon</a>
-<a href="../../util/IWithIcon.html#getIcon()">getIcon</a>
-:::::
-:::::::
+Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/IWithColor.html" title="interface in mod.chiselsandbits.api.util">IWithColor</a><a href="../../util/IWithColor.html#getAlphaChannel()" title="getAlphaChannel()">getAlphaChannel</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/IWithDisplayName.html" title="interface in mod.chiselsandbits.api.util">IWithDisplayName</a><a href="../../util/IWithDisplayName.html#getDisplayName()" title="getDisplayName()">getDisplayName</a>, <a href="../../util/IWithDisplayName.html#getMultiLineDisplayName()" title="getMultiLineDisplayName()">getMultiLineDisplayName</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/IWithIcon.html" title="interface in mod.chiselsandbits.api.util">IWithIcon</a><a href="../../util/IWithIcon.html#getIcon()" title="getIcon()">getIcon</a></section>
+</li>
   
   
   
@@ -94,92 +83,116 @@ Represents a tool mode which can be rendered.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="isActive()">
 
 :::tabs
 == isActive
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isActive</span>()</div>
-Indicates if the mode is currently active and as such should be rendered or not.
+<div class="block">Indicates if the mode is currently active and as such should be rendered or not.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True for active modes, false for not.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="shouldRenderName()">
 
 :::tabs
 == shouldRenderName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldRenderName</span>()</div>
-Indicates if the name of the mode should be rendered.
+<div class="block">Indicates if the name of the mode should be rendered.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> when the name should be rendered.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="shouldRenderDisplayNameInMenu()">
 
 :::tabs
 == shouldRenderDisplayNameInMenu
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldRenderDisplayNameInMenu</span>()</div>
-Indicates if this mode should render his name in the menu.
+<div class="block">Indicates if this mode should render his name in the menu.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> when then name should be rendered in the menu.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getColorVector()">
 
 :::tabs
 == getColorVector
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="modifiers">default</span>&nbsp;<span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getColorVector</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../util/IWithColor.html#getColorVector()">IWithColor</a></code></span></div>
-The color used to render.
+<div class="block">The color used to render.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../util/IWithColor.html#getColorVector()">getColorVector</a></code>&nbsp;in interface&nbsp;<code><a href="../../util/IWithColor.html" title="interface in mod.chiselsandbits.api.util">IWithColor</a></code></dd>
 <dt>Returns:</dt>
 <dd>The color in a 3d double vector as RGB.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getPositionVector()">
 
 :::tabs
 == getPositionVector
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec2</span>&nbsp;<span class="element-name">getPositionVector</span>()</div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getScaleVector()">
 
 :::tabs
 == getScaleVector
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec2</span>&nbsp;<span class="element-name">getScaleVector</span>()</div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

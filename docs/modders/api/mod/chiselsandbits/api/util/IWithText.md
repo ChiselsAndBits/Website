@@ -15,8 +15,8 @@ Represents an object with a text associated with it.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -46,7 +46,8 @@ Represents an object with a text associated with it.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -63,22 +64,28 @@ Represents an object with a text associated with it.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getText()">
 
 :::tabs
 == getText
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getText</span>()</div>
-The text associated with this object.
+<div class="block">The text associated with this object.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The text.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

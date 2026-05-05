@@ -15,8 +15,8 @@ Manages all registries which are used by Chisels and Bits.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -74,7 +74,8 @@ Manages all registries which are used by Chisels and Bits.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -91,128 +92,161 @@ Manages all registries which are used by Chisels and Bits.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IRegistryManager.html" title="interface in mod.chiselsandbits.api.registries">IRegistryManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getChiselModeRegistry()">
 
 :::tabs
 == getChiselModeRegistry
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.communi.suggestu.scena.core.registries.ICustomRegistry&lt;<a href="../chiseling/mode/IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a>&gt;</span>&nbsp;<span class="element-name">getChiselModeRegistry</span>()</div>
-The registry which controls all available chiseling modes.
+<div class="block">The registry which controls all available chiseling modes.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The registry.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getModificationOperationRegistry()">
 
 :::tabs
 == getModificationOperationRegistry
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull com.communi.suggestu.scena.core.registries.ICustomRegistry&lt;<a href="../modification/operation/IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a>&gt;</span>&nbsp;<span class="element-name">getModificationOperationRegistry</span>()</div>
-The registry used for modifications of single use patterns.
+<div class="block">The registry used for modifications of single use patterns.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The modification operation registry.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getCuttingOperationRegistry()">
 
 :::tabs
 == getCuttingOperationRegistry
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull com.communi.suggestu.scena.core.registries.ICustomRegistry&lt;<a href="../cutting/operation/ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a>&gt;</span>&nbsp;<span class="element-name">getCuttingOperationRegistry</span>()</div>
-The registry used for cutting of single use patterns.
+<div class="block">The registry used for cutting of single use patterns.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The cutting operation registry.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getGlueingOperationRegistry()">
 
 :::tabs
 == getGlueingOperationRegistry
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull com.communi.suggestu.scena.core.registries.ICustomRegistry&lt;<a href="../glueing/operation/IGlueingOperation.html" title="interface in mod.chiselsandbits.api.glueing.operation">IGlueingOperation</a>&gt;</span>&nbsp;<span class="element-name">getGlueingOperationRegistry</span>()</div>
-The registry used for glueing of single use patterns.
+<div class="block">The registry used for glueing of single use patterns.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The glueing operation registry.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getChangeTypeRegistry()">
 
 :::tabs
 == getChangeTypeRegistry
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull com.communi.suggestu.scena.core.registries.ICustomRegistry&lt;<a href="../change/changes/IChangeType.html" title="interface in mod.chiselsandbits.api.change.changes">IChangeType</a>&gt;</span>&nbsp;<span class="element-name">getChangeTypeRegistry</span>()</div>
-The registry used for change types.
+<div class="block">The registry used for change types.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The change type registry.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getMultiStateSnapshotTypeRegistry()">
 
 :::tabs
 == getMultiStateSnapshotTypeRegistry
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull com.communi.suggestu.scena.core.registries.ICustomRegistry&lt;<a href="../multistate/snapshot/IMultiStateSnapshotType.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshotType</a>&gt;</span>&nbsp;<span class="element-name">getMultiStateSnapshotTypeRegistry</span>()</div>
-The registry used for multi state snapshot types.
+<div class="block">The registry used for multi state snapshot types.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The multi state snapshot type registry.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getPatternPlacementTypeRegistry()">
 
 :::tabs
 == getPatternPlacementTypeRegistry
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull com.communi.suggestu.scena.core.registries.ICustomRegistry&lt;<a href="../pattern/placement/IPatternPlacementType.html" title="interface in mod.chiselsandbits.api.pattern.placement">IPatternPlacementType</a>&gt;</span>&nbsp;<span class="element-name">getPatternPlacementTypeRegistry</span>()</div>
-The registry used for pattern placement types.
+<div class="block">The registry used for pattern placement types.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The pattern placement type registry.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

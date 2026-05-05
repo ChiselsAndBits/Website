@@ -19,8 +19,8 @@ Represents a single block axis aligned area accessor
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -50,19 +50,8 @@ Represents a single block axis aligned area accessor
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../../aabb/IAABBOwner.html" title="interface in mod.chiselsandbits.api.aabb">IAABBOwner</a>
-<a href="../../aabb/IAABBOwner.html#getBoundingBox()">getBoundingBox</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.<a href="IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>
-<a href="IAreaAccessor.html#createNewShapeIdentifier()">createNewShapeIdentifier</a>, <a href="IAreaAccessor.html#createSnapshot()">createSnapshot</a>, <a href="IAreaAccessor.html#forEachWithPositionMutator(mod.chiselsandbits.api.multistate.accessor.sortable.IPositionMutator,java.util.function.Consumer)">forEachWithPositionMutator</a>, <a href="IAreaAccessor.html#isInside(net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)">isInside</a>, <a href="IAreaAccessor.html#isInside(net.minecraft.world.phys.Vec3)">isInside</a>, <a href="IAreaAccessor.html#stream()">stream</a>, <a href="IAreaAccessor.html#streamWithPositionMutator(mod.chiselsandbits.api.multistate.accessor.sortable.IPositionMutator)">streamWithPositionMutator</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.<a href="IStateAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateAccessor</a>
-<a href="IStateAccessor.html#getInAreaTarget(net.minecraft.world.phys.Vec3)">getInAreaTarget</a>, <a href="IStateAccessor.html#getInBlockTarget(net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)">getInBlockTarget</a>
-:::::
-:::::::
+Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../../aabb/IAABBOwner.html" title="interface in mod.chiselsandbits.api.aabb">IAABBOwner</a><a href="../../aabb/IAABBOwner.html#getBoundingBox()" title="getBoundingBox()">getBoundingBox</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.<a href="IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a><a href="IAreaAccessor.html#createNewShapeIdentifier()" title="createNewShapeIdentifier()">createNewShapeIdentifier</a>, <a href="IAreaAccessor.html#createSnapshot()" title="createSnapshot()">createSnapshot</a>, <a href="IAreaAccessor.html#forEachWithPositionMutator(mod.chiselsandbits.api.multistate.accessor.sortable.IPositionMutator,java.util.function.Consumer)" title="forEachWithPositionMutator(IPositionMutator, Consumer)">forEachWithPositionMutator</a>, <a href="IAreaAccessor.html#isInside(net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)" title="isInside(BlockPos, Vec3)">isInside</a>, <a href="IAreaAccessor.html#isInside(net.minecraft.world.phys.Vec3)" title="isInside(Vec3)">isInside</a>, <a href="IAreaAccessor.html#stream()" title="stream()">stream</a>, <a href="IAreaAccessor.html#streamWithPositionMutator(mod.chiselsandbits.api.multistate.accessor.sortable.IPositionMutator)" title="streamWithPositionMutator(IPositionMutator)">streamWithPositionMutator</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.<a href="IStateAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateAccessor</a><a href="IStateAccessor.html#getInAreaTarget(net.minecraft.world.phys.Vec3)" title="getInAreaTarget(Vec3)">getInAreaTarget</a>, <a href="IStateAccessor.html#getInBlockTarget(net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)" title="getInBlockTarget(BlockPos, Vec3)">getInBlockTarget</a></section>
+</li>
   
   
   
@@ -79,21 +68,27 @@ Represents a single block axis aligned area accessor
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getStatistics()">
 
 :::tabs
 == getStatistics
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../../item/multistate/IStatistics.html" title="interface in mod.chiselsandbits.api.item.multistate">IStatistics</a></span>&nbsp;<span class="element-name">getStatistics</span>()</div>
-The statistics of the itemstack.
+<div class="block">The statistics of the itemstack.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The statistics.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

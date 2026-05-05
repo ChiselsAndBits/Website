@@ -11,13 +11,13 @@ _Package:_ [mod.chiselsandbits.api.client.render.preview.chiseling](index.md)
   
 
 Registry for registering possible chiseling context preview renderers,
- and for getting the current renderer back out.  
+and for getting the current renderer back out.  
 
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -60,7 +60,8 @@ Registry for registering possible chiseling context preview renderers,
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -77,49 +78,62 @@ Registry for registering possible chiseling context preview renderers,
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getCurrent()">
 
 :::tabs
 == getCurrent
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IChiselContextPreviewRenderer.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRenderer</a></span>&nbsp;<span class="element-name">getCurrent</span>()</div>
-The currently configured renderer as per configuration of the player.
+<div class="block">The currently configured renderer as per configuration of the player.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The renderer.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="register(mod.chiselsandbits.api.client.render.preview.chiseling.IChiselContextPreviewRenderer...)">
 
 :::tabs
 == register
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></span>&nbsp;<span class="element-name">register</span><wbr><span class="parameters">(<a href="IChiselContextPreviewRenderer.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRenderer</a>...&nbsp;renderers)</span></div>
-Adds the passed in renderer instances as possible candidates.
+<div class="block">Adds the passed in renderer instances as possible candidates.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>renderers</code> - The candidates.</dd>
 <dt>Returns:</dt>
 <dd>The registry.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

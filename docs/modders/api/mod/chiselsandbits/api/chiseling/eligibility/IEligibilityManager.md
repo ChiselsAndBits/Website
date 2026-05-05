@@ -11,13 +11,13 @@ _Package:_ [mod.chiselsandbits.api.chiseling.eligibility](index.md)
   
 
 An object which can manage the eligibility of chiseling of blocks, blockstates,
- or itemstacks (which contain blocks eligible) for chiseling.  
+or itemstacks (which contain blocks eligible) for chiseling.  
 
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -74,7 +74,8 @@ An object which can manage the eligibility of chiseling of blocks, blockstates,
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -91,89 +92,110 @@ An object which can manage the eligibility of chiseling of blocks, blockstates,
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="canBeChiseled(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
 == canBeChiseled
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canBeChiseled</span><wbr><span class="parameters">(@NotNull
  @NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-Checks if a given block information can be chiseled or is already chiseled.
+<div class="block">Checks if a given block information can be chiseled or is already chiseled.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The given block information in question.</dd>
 <dt>Returns:</dt>
 <dd>True when chiselable or already chiseled.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="canBeChiseled(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == canBeChiseled
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canBeChiseled</span><wbr><span class="parameters">(@NotNull
  @NotNull net.minecraft.world.item.ItemStack&nbsp;provider)</span></div>
-Checks if a given <code>ItemStack</code> can be chiseled or is already chiseled.
+<div class="block">Checks if a given <code>ItemStack</code> can be chiseled or is already chiseled.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>provider</code> - The given <code>ItemStack</code> in question.</dd>
 <dt>Returns:</dt>
 <dd>True when chiselable or already chiseled.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="analyse(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
 == analyse
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></span>&nbsp;<span class="element-name">analyse</span><wbr><span class="parameters">(@NotNull
  @NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-Performs a chiselability analysis on the given block information.
+<div class="block">Performs a chiselability analysis on the given block information.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information to analyze.</dd>
 <dt>Returns:</dt>
 <dd>The analysis result.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="analyse(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == analyse
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></span>&nbsp;<span class="element-name">analyse</span><wbr><span class="parameters">(@NotNull
  @NotNull net.minecraft.world.item.ItemStack&nbsp;provider)</span></div>
-Performs a chiselability analysis on the given <code>ItemStack</code>.
+<div class="block">Performs a chiselability analysis on the given <code>ItemStack</code>.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>provider</code> - The <code>ItemStack</code> to analyze.</dd>
 <dt>Returns:</dt>
 <dd>The analysis result.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

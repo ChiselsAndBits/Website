@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.item.withhighlight;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IWithHighlightItem](IWithHighlightItem.md)</td><td>Indicates an item that is used to draw custom highlights,<br> using custom logic instead of the default one.</td></tr>
+  <tr><td>[IWithHighlightItem](IWithHighlightItem.md)</td><td>Indicates an item that is used to draw custom highlights,<br>using custom logic instead of the default one.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.item.withhighlight;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IWithHighlightItem](IWithHighlightItem.md)</td><td>Indicates an item that is used to draw custom highlights,<br> using custom logic instead of the default one.</td></tr>
+  <tr><td>[IWithHighlightItem](IWithHighlightItem.md)</td><td>Indicates an item that is used to draw custom highlights,<br>using custom logic instead of the default one.</td></tr>
   </tbody>
 </table>
 == Classes

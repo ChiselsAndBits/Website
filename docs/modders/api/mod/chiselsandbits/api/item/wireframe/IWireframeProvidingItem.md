@@ -11,13 +11,13 @@ _Package:_ [mod.chiselsandbits.api.item.wireframe](index.md)
   
 
 Represents an item which can provide a wireframe for different purposes,
- including rendering a preview.  
+including rendering a preview.  
 
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -64,7 +64,8 @@ Represents an item which can provide a wireframe for different purposes,
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -81,14 +82,17 @@ Represents an item which can provide a wireframe for different purposes,
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getWireFrame(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
 == getWireFrame
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.shapes.VoxelShape</span>&nbsp;<span class="element-name">getWireFrame</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack,
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.BlockHitResult&nbsp;rayTraceResult)</span></div>
-Provides access to the wire frame of the item.
+<div class="block">Provides access to the wire frame of the item.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to get the wire frame from.</dd>
@@ -97,19 +101,23 @@ Provides access to the wire frame of the item.
 <dt>Returns:</dt>
 <dd>The VoxelShape for the wire frame.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getWireFrameColor(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
 == getWireFrameColor
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">org.joml.Vector4f</span>&nbsp;<span class="element-name">getWireFrameColor</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-The color to render the wireframe in.
+<div class="block">The color to render the wireframe in.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get the wire frame color for.</dd>
@@ -118,19 +126,23 @@ The color to render the wireframe in.
 <dt>Returns:</dt>
 <dd>An RGB (XYZ) Vector with the color.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
 == getTargetedPosition
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getTargetedPosition</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-Returns the position the wire frame should be rendered at.
+<div class="block">Returns the position the wire frame should be rendered at.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get the position for.</dd>
@@ -139,28 +151,35 @@ Returns the position the wire frame should be rendered at.
 <dt>Returns:</dt>
 <dd>The position to render the wire frame.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="ignoreDepth(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == ignoreDepth
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">ignoreDepth</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack)</span></div>
-Returns whether to effectively ignore the depth buffer and render in front of everything
+<div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get depth logic for.</dd>
 <dt>Returns:</dt>
 <dd>Whether depth is effectively ignored.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

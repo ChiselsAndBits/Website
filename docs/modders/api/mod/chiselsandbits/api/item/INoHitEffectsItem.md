@@ -11,9 +11,9 @@ _Package:_ [mod.chiselsandbits.api.item](index.md)
   
 
 Marker interface to be used on items
- which when wielded by the player do
- not cause Chisels and Bits Chiseled blocks to spawn
- hit particles.  
+which when wielded by the player do
+not cause Chisels and Bits Chiseled blocks to spawn
+hit particles.  
 
 <dl class="notes"></dl>  
 

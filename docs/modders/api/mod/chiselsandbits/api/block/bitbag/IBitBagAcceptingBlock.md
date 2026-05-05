@@ -15,8 +15,8 @@ Represents a block which can accept a bit bags interaction.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -46,7 +46,8 @@ Represents a block which can accept a bit bags interaction.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -63,25 +64,31 @@ Represents a block which can accept a bit bags interaction.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="onBitBagInteraction(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
 == onBitBagInteraction
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">onBitBagInteraction</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;bitBagStack,
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-Invoked when a bit bag interaction is performed against a given block.
+<div class="block">Invoked when a bit bag interaction is performed against a given block.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>bitBagStack</code> - The bit bag stack.</dd>
 <dd><code>player</code> - The player performing the action.</dd>
 <dd><code>blockRayTraceResult</code> - The ray trace result.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

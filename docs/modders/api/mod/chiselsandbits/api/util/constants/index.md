@@ -19,9 +19,9 @@ package mod.chiselsandbits.api.util.constants;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[NbtConstants](NbtConstants.md)</td><td></td></tr>
   <tr><td>[DataGenerator](Constants.DataGenerator.md)</td><td></td></tr>
   <tr><td>[Constants](Constants.md)</td><td></td></tr>
+  <tr><td>[NbtConstants](NbtConstants.md)</td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -32,9 +32,9 @@ No types found.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[NbtConstants](NbtConstants.md)</td><td></td></tr>
   <tr><td>[DataGenerator](Constants.DataGenerator.md)</td><td></td></tr>
   <tr><td>[Constants](Constants.md)</td><td></td></tr>
+  <tr><td>[NbtConstants](NbtConstants.md)</td><td></td></tr>
   </tbody>
 </table>
 == Enums

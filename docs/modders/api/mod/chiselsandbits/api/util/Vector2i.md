@@ -13,8 +13,8 @@ Comparable\<Vector2i\>
 
 ---
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">Vector2i</span><br/>  
-<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><br/>  
-implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Comparable.html" title="class or interface in java.lang" class="external-link">Comparable</a>&lt;<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&gt;</span></div>  
+<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><br/>  
+implements <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Comparable.html" title="class or interface in java.lang" class="external-link">Comparable</a>&lt;<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&gt;</span></div>  
 
   
 
@@ -23,8 +23,8 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 <dl class="notes"></dl>  
 
 <!-- =========== FIELD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Field Summary  
+<li>
+<section class="field-summary" id="field-summary">Field Summary  
 :::tabs
 == Fields
 <table class="stretched-table">
@@ -37,12 +37,13 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Constructor Summary  
+<li>
+<section class="constructor-summary" id="constructor-summary">Constructor Summary  
 :::tabs
 == Constructors
 <table class="stretched-table">
@@ -55,12 +56,13 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -73,8 +75,8 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
   <tr><td><code>double</code></td><td><code><a href="#distanceSq(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">distanceSq</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</code></td><td><div class="block">Calculate squared distance to the given Vector</div><br></td></tr>
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down()" class="member-name-link">down</a>()</code></td><td><div class="block">Offset this BlockPos 1 block down</div><br></td></tr>
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down(int)" class="member-name-link">down</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offset this BlockPos n blocks down</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#getCoordinatesAsString()" class="member-name-link">getCoordinatesAsString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#getCoordinatesAsString()" class="member-name-link">getCoordinatesAsString</a>()</code></td><td>&nbsp;</td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getX()" class="member-name-link">getX</a>()</code></td><td><div class="block">Gets the X coordinate.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getY()" class="member-name-link">getY</a>()</code></td><td><div class="block">Gets the Y coordinate.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td>&nbsp;</td></tr>
@@ -82,7 +84,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#offset(net.minecraft.core.Direction,int)" class="member-name-link">offset</a><wbr>(net.minecraft.core.Direction&nbsp;facing,<br> int&nbsp;n)</code></td><td><div class="block">Offsets this BlockPos n blocks in the given direction</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#setX(int)" class="member-name-link">setX</a><wbr>(int&nbsp;xIn)</code></td><td><div class="block">Sets the X coordinate.</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#setY(int)" class="member-name-link">setY</a><wbr>(int&nbsp;yIn)</code></td><td><div class="block">Sets the Y coordinate.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up()" class="member-name-link">up</a>()</code></td><td><div class="block">Offset this BlockPos 1 block up</div><br></td></tr>
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up(int)" class="member-name-link">up</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offset this BlockPos n blocks up</div><br></td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(mod.chiselsandbits.api.util.Vector2i,double)" class="member-name-link">withinDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector,<br> double&nbsp;distance)</code></td><td>&nbsp;</td></tr>
@@ -100,8 +102,8 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
   <tr><td><code>double</code></td><td><code><a href="#distanceSq(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">distanceSq</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</code></td><td><div class="block">Calculate squared distance to the given Vector</div><br></td></tr>
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down()" class="member-name-link">down</a>()</code></td><td><div class="block">Offset this BlockPos 1 block down</div><br></td></tr>
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down(int)" class="member-name-link">down</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offset this BlockPos n blocks down</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#getCoordinatesAsString()" class="member-name-link">getCoordinatesAsString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#getCoordinatesAsString()" class="member-name-link">getCoordinatesAsString</a>()</code></td><td>&nbsp;</td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getX()" class="member-name-link">getX</a>()</code></td><td><div class="block">Gets the X coordinate.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getY()" class="member-name-link">getY</a>()</code></td><td><div class="block">Gets the Y coordinate.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td>&nbsp;</td></tr>
@@ -109,7 +111,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#offset(net.minecraft.core.Direction,int)" class="member-name-link">offset</a><wbr>(net.minecraft.core.Direction&nbsp;facing,<br> int&nbsp;n)</code></td><td><div class="block">Offsets this BlockPos n blocks in the given direction</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#setX(int)" class="member-name-link">setX</a><wbr>(int&nbsp;xIn)</code></td><td><div class="block">Sets the X coordinate.</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#setY(int)" class="member-name-link">setY</a><wbr>(int&nbsp;yIn)</code></td><td><div class="block">Sets the Y coordinate.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up()" class="member-name-link">up</a>()</code></td><td><div class="block">Offset this BlockPos 1 block up</div><br></td></tr>
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up(int)" class="member-name-link">up</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offset this BlockPos n blocks up</div><br></td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(mod.chiselsandbits.api.util.Vector2i,double)" class="member-name-link">withinDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector,<br> double&nbsp;distance)</code></td><td>&nbsp;</td></tr>
@@ -127,8 +129,8 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
   <tr><td><code>double</code></td><td><code><a href="#distanceSq(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">distanceSq</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</code></td><td><div class="block">Calculate squared distance to the given Vector</div><br></td></tr>
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down()" class="member-name-link">down</a>()</code></td><td><div class="block">Offset this BlockPos 1 block down</div><br></td></tr>
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down(int)" class="member-name-link">down</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offset this BlockPos n blocks down</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#getCoordinatesAsString()" class="member-name-link">getCoordinatesAsString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#getCoordinatesAsString()" class="member-name-link">getCoordinatesAsString</a>()</code></td><td>&nbsp;</td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getX()" class="member-name-link">getX</a>()</code></td><td><div class="block">Gets the X coordinate.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getY()" class="member-name-link">getY</a>()</code></td><td><div class="block">Gets the Y coordinate.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td>&nbsp;</td></tr>
@@ -136,7 +138,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#offset(net.minecraft.core.Direction,int)" class="member-name-link">offset</a><wbr>(net.minecraft.core.Direction&nbsp;facing,<br> int&nbsp;n)</code></td><td><div class="block">Offsets this BlockPos n blocks in the given direction</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#setX(int)" class="member-name-link">setX</a><wbr>(int&nbsp;xIn)</code></td><td><div class="block">Sets the X coordinate.</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#setY(int)" class="member-name-link">setY</a><wbr>(int&nbsp;yIn)</code></td><td><div class="block">Sets the Y coordinate.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up()" class="member-name-link">up</a>()</code></td><td><div class="block">Offset this BlockPos 1 block up</div><br></td></tr>
   <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up(int)" class="member-name-link">up</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offset this BlockPos n blocks up</div><br></td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(mod.chiselsandbits.api.util.Vector2i,double)" class="member-name-link">withinDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector,<br> double&nbsp;distance)</code></td><td>&nbsp;</td></tr>
@@ -144,11 +146,8 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>
-<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>
-:::::
-:::::::
+Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a></section>
+</li>
   
   
   
@@ -163,8 +162,9 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 
 :::tabs
 == CODEC
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&gt;</span>&nbsp;<span class="element-name">CODEC</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -174,9 +174,10 @@ implements <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base
 
 :::tabs
 == NULL_VECTOR
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">NULL_VECTOR</span></div>
-An immutable vector with zero as all coordinates.
-<dl class="notes"></dl>
+<div class="block">An immutable vector with zero as all coordinates.</div>
+</div>
 :::
 
 
@@ -191,9 +192,10 @@ An immutable vector with zero as all coordinates.
 
 :::tabs
 == Vector2i
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">Vector2i</span><wbr><span class="parameters">(double&nbsp;xIn,
  double&nbsp;yIn)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -203,9 +205,10 @@ An immutable vector with zero as all coordinates.
 
 :::tabs
 == Vector2i
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">Vector2i</span><wbr><span class="parameters">(int&nbsp;xIn,
  int&nbsp;yIn)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -218,254 +221,321 @@ An immutable vector with zero as all coordinates.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="hashCode()">
 
 :::tabs
 == hashCode
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">hashCode</span>()</div>
 <dl class="notes">
 <dt>Overrides:</dt>
-<dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></dd>
+<dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="equals(java.lang.Object)">
 
 :::tabs
 == equals
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">equals</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</span></div>
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">equals</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</span></div>
 <dl class="notes">
 <dt>Overrides:</dt>
-<dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></dd>
+<dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getX()">
 
 :::tabs
 == getX
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getX</span>()</div>
-Gets the X coordinate.
+<div class="block">Gets the X coordinate.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The x part of the coordinate.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getY()">
 
 :::tabs
 == getY
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getY</span>()</div>
-Gets the Y coordinate.
+<div class="block">Gets the Y coordinate.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The y part of the coordinate.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="setY(int)">
 
 :::tabs
 == setY
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setY</span><wbr><span class="parameters">(int&nbsp;yIn)</span></div>
-Sets the Y coordinate.
+<div class="block">Sets the Y coordinate.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>yIn</code> - The new y part of the coordinate</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="setX(int)">
 
 :::tabs
 == setX
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setX</span><wbr><span class="parameters">(int&nbsp;xIn)</span></div>
-Sets the X coordinate.
+<div class="block">Sets the X coordinate.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>xIn</code> - The new x part of the coordinate.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="toString()">
 
 :::tabs
 == toString
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">toString</span>()</div>
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">toString</span>()</div>
 <dl class="notes">
 <dt>Overrides:</dt>
-<dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></dd>
+<dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="compareTo(mod.chiselsandbits.api.util.Vector2i)">
 
 :::tabs
 == compareTo
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">compareTo</span><wbr><span class="parameters">(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;p_compareTo_1_)</span></div>
 <dl class="notes">
 <dt>Specified by:</dt>
-<dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Comparable.html#compareTo(T)" title="class or interface in java.lang" class="external-link">compareTo</a></code>&nbsp;in interface&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Comparable.html" title="class or interface in java.lang" class="external-link">Comparable</a>&lt;<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&gt;</code></dd>
+<dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Comparable.html#compareTo(T)" title="class or interface in java.lang" class="external-link">compareTo</a></code>&nbsp;in interface&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Comparable.html" title="class or interface in java.lang" class="external-link">Comparable</a>&lt;<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&gt;</code></dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="up()">
 
 :::tabs
 == up
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">up</span>()</div>
-Offset this BlockPos 1 block up
-<dl class="notes"></dl>
+<div class="block">Offset this BlockPos 1 block up</div>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="up(int)">
 
 :::tabs
 == up
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">up</span><wbr><span class="parameters">(int&nbsp;n)</span></div>
-Offset this BlockPos n blocks up
-<dl class="notes"></dl>
+<div class="block">Offset this BlockPos n blocks up</div>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="offset(net.minecraft.core.Direction,int)">
 
 :::tabs
 == offset
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">offset</span><wbr><span class="parameters">(net.minecraft.core.Direction&nbsp;facing,
  int&nbsp;n)</span></div>
-Offsets this BlockPos n blocks in the given direction
-<dl class="notes"></dl>
+<div class="block">Offsets this BlockPos n blocks in the given direction</div>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="down()">
 
 :::tabs
 == down
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">down</span>()</div>
-Offset this BlockPos 1 block down
-<dl class="notes"></dl>
+<div class="block">Offset this BlockPos 1 block down</div>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="down(int)">
 
 :::tabs
 == down
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">down</span><wbr><span class="parameters">(int&nbsp;n)</span></div>
-Offset this BlockPos n blocks down
-<dl class="notes"></dl>
+<div class="block">Offset this BlockPos n blocks down</div>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="withinDistance(mod.chiselsandbits.api.util.Vector2i,double)">
 
 :::tabs
 == withinDistance
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">withinDistance</span><wbr><span class="parameters">(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector,
  double&nbsp;distance)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="distanceSq(double,double,boolean)">
 
 :::tabs
 == distanceSq
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">distanceSq</span><wbr><span class="parameters">(double&nbsp;x,
  double&nbsp;y,
  boolean&nbsp;useCenter)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="withinDistance(net.minecraft.core.Position,double)">
 
 :::tabs
 == withinDistance
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">withinDistance</span><wbr><span class="parameters">(net.minecraft.core.Position&nbsp;position,
  double&nbsp;distance)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="distanceSq(mod.chiselsandbits.api.util.Vector2i)">
 
 :::tabs
 == distanceSq
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">distanceSq</span><wbr><span class="parameters">(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</span></div>
-Calculate squared distance to the given Vector
-<dl class="notes"></dl>
+<div class="block">Calculate squared distance to the given Vector</div>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="manhattanDistance(mod.chiselsandbits.api.util.Vector2i)">
 
 :::tabs
 == manhattanDistance
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">manhattanDistance</span><wbr><span class="parameters">(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getCoordinatesAsString()">
 
 :::tabs
 == getCoordinatesAsString
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getCoordinatesAsString</span>()</div>
-<dl class="notes"></dl>
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getCoordinatesAsString</span>()</div>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

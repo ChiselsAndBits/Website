@@ -12,7 +12,7 @@ java.lang.Object
   
 ---
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">StateEntryInfoIsToBigException</span><br/>  
-<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Exception.html" title="class or interface in java.lang" class="external-link">Exception</a></span></div>  
+<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Exception.html" title="class or interface in java.lang" class="external-link">Exception</a></span></div>  
 
   
 
@@ -28,8 +28,8 @@ Thrown when the state entry info is to be to be processed.
 </dl>  
 
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Constructor Summary  
+<li>
+<section class="constructor-summary" id="constructor-summary">Constructor Summary  
 :::tabs
 == Constructors
 <table class="stretched-table">
@@ -41,21 +41,15 @@ Thrown when the state entry info is to be to be processed.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html" title="class or interface in java.lang" class="external-link">Throwable</a>
-<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#addSuppressed(java.lang.Throwable)" title="class or interface in java.lang" class="external-link">addSuppressed</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#fillInStackTrace()" title="class or interface in java.lang" class="external-link">fillInStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#getCause()" title="class or interface in java.lang" class="external-link">getCause</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#getLocalizedMessage()" title="class or interface in java.lang" class="external-link">getLocalizedMessage</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#getMessage()" title="class or interface in java.lang" class="external-link">getMessage</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#getStackTrace()" title="class or interface in java.lang" class="external-link">getStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#getSuppressed()" title="class or interface in java.lang" class="external-link">getSuppressed</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#initCause(java.lang.Throwable)" title="class or interface in java.lang" class="external-link">initCause</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#printStackTrace()" title="class or interface in java.lang" class="external-link">printStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#printStackTrace(java.io.PrintStream)" title="class or interface in java.lang" class="external-link">printStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#printStackTrace(java.io.PrintWriter)" title="class or interface in java.lang" class="external-link">printStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#setStackTrace(java.lang.StackTraceElement%5B%5D)" title="class or interface in java.lang" class="external-link">setStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>
-<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>
-:::::
-:::::::
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
+Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html" title="class or interface in java.lang" class="external-link">Throwable</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#addSuppressed(java.lang.Throwable)" title="class or interface in java.lang" class="external-link">addSuppressed</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#fillInStackTrace()" title="class or interface in java.lang" class="external-link">fillInStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#getCause()" title="class or interface in java.lang" class="external-link">getCause</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#getLocalizedMessage()" title="class or interface in java.lang" class="external-link">getLocalizedMessage</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#getMessage()" title="class or interface in java.lang" class="external-link">getMessage</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#getStackTrace()" title="class or interface in java.lang" class="external-link">getStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#getSuppressed()" title="class or interface in java.lang" class="external-link">getSuppressed</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#initCause(java.lang.Throwable)" title="class or interface in java.lang" class="external-link">initCause</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#printStackTrace()" title="class or interface in java.lang" class="external-link">printStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#printStackTrace(java.io.PrintStream)" title="class or interface in java.lang" class="external-link">printStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#printStackTrace(java.io.PrintWriter)" title="class or interface in java.lang" class="external-link">printStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#setStackTrace(java.lang.StackTraceElement%5B%5D)" title="class or interface in java.lang" class="external-link">setStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a></section>
+</li>
   
   
   
@@ -72,8 +66,9 @@ Thrown when the state entry info is to be to be processed.
 
 :::tabs
 == StateEntryInfoIsToBigException
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">StateEntryInfoIsToBigException</span>()</div>
-<dl class="notes"></dl>
+</div>
 :::
 
 

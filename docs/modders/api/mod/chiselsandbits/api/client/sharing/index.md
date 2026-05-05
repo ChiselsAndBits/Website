@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.client.sharing;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IPatternSharingManager](IPatternSharingManager.md)</td><td>Central manager which handles sharing of patterns.</td></tr>
   <tr><td>[PatternIOException](PatternIOException.md)</td><td></td></tr>
+  <tr><td>[IPatternSharingManager](IPatternSharingManager.md)</td><td>Central manager which handles sharing of patterns.</td></tr>
   </tbody>
 </table>
 == Interfaces

@@ -15,8 +15,8 @@ Defines objects which have an axis-aligned bounding box.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -46,7 +46,8 @@ Defines objects which have an axis-aligned bounding box.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -63,22 +64,28 @@ Defines objects which have an axis-aligned bounding box.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getBoundingBox()">
 
 :::tabs
 == getBoundingBox
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull net.minecraft.world.phys.AABB</span>&nbsp;<span class="element-name">getBoundingBox</span>()</div>
-Gives access to the bounding box of this object.
+<div class="block">Gives access to the bounding box of this object.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The axis aligned bounding box.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

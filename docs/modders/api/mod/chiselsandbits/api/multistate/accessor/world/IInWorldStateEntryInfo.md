@@ -27,8 +27,8 @@ Represents a single state entry that actually exists in a physical world.
 </dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -75,15 +75,8 @@ Represents a single state entry that actually exists in a physical world.
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.<a href="../IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>
-<a href="../IStateEntryInfo.html#getBlockInformation()">getBlockInformation</a>, <a href="../IStateEntryInfo.html#getBoundingBox()">getBoundingBox</a>, <a href="../IStateEntryInfo.html#getCenterPoint()">getCenterPoint</a>, <a href="../IStateEntryInfo.html#getEndPoint()">getEndPoint</a>, <a href="../IStateEntryInfo.html#getStartPoint()">getStartPoint</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../../util/IWorldObject.html" title="interface in mod.chiselsandbits.api.util">IWorldObject</a>
-<a href="../../../util/IWorldObject.html#getInWorldBoundingBox()">getInWorldBoundingBox</a>, <a href="../../../util/IWorldObject.html#getInWorldEndBlockPoint()">getInWorldEndBlockPoint</a>, <a href="../../../util/IWorldObject.html#getInWorldStartBlockPoint()">getInWorldStartBlockPoint</a>, <a href="../../../util/IWorldObject.html#getWorld()">getWorld</a>
-:::::
-:::::::
+Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.<a href="../IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a><a href="../IStateEntryInfo.html#getBlockInformation()" title="getBlockInformation()">getBlockInformation</a>, <a href="../IStateEntryInfo.html#getBoundingBox()" title="getBoundingBox()">getBoundingBox</a>, <a href="../IStateEntryInfo.html#getCenterPoint()" title="getCenterPoint()">getCenterPoint</a>, <a href="../IStateEntryInfo.html#getEndPoint()" title="getEndPoint()">getEndPoint</a>, <a href="../IStateEntryInfo.html#getStartPoint()" title="getStartPoint()">getStartPoint</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../../util/IWorldObject.html" title="interface in mod.chiselsandbits.api.util">IWorldObject</a><a href="../../../util/IWorldObject.html#getInWorldBoundingBox()" title="getInWorldBoundingBox()">getInWorldBoundingBox</a>, <a href="../../../util/IWorldObject.html#getInWorldEndBlockPoint()" title="getInWorldEndBlockPoint()">getInWorldEndBlockPoint</a>, <a href="../../../util/IWorldObject.html#getInWorldStartBlockPoint()" title="getInWorldStartBlockPoint()">getInWorldStartBlockPoint</a>, <a href="../../../util/IWorldObject.html#getWorld()" title="getWorld()">getWorld</a></section>
+</li>
   
   
   
@@ -100,70 +93,88 @@ Represents a single state entry that actually exists in a physical world.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getBlockPos()">
 
 :::tabs
 == getBlockPos
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.core.BlockPos</span>&nbsp;<span class="element-name">getBlockPos</span>()</div>
-The position of the block that this state entry is part of.
+<div class="block">The position of the block that this state entry is part of.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The in world block position.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getInWorldStartPoint()">
 
 :::tabs
 == getInWorldStartPoint
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getInWorldStartPoint</span>()</div>
-The start (lowest on all three axi) position of the state that this entry occupies.
+<div class="block">The start (lowest on all three axi) position of the state that this entry occupies.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../../util/IWorldObject.html#getInWorldStartPoint()">getInWorldStartPoint</a></code>&nbsp;in interface&nbsp;<code><a href="../../../util/IWorldObject.html" title="interface in mod.chiselsandbits.api.util">IWorldObject</a></code></dd>
 <dt>Returns:</dt>
 <dd>The start position of this entry in the given world.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getInWorldEndPoint()">
 
 :::tabs
 == getInWorldEndPoint
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getInWorldEndPoint</span>()</div>
-The end (highest on all three axi) position of the state that this entry occupies.
+<div class="block">The end (highest on all three axi) position of the state that this entry occupies.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../../util/IWorldObject.html#getInWorldEndPoint()">getInWorldEndPoint</a></code>&nbsp;in interface&nbsp;<code><a href="../../../util/IWorldObject.html" title="interface in mod.chiselsandbits.api.util">IWorldObject</a></code></dd>
 <dt>Returns:</dt>
 <dd>The end position of this entry in the given world.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getInWorldCenterPoint()">
 
 :::tabs
 == getInWorldCenterPoint
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getInWorldCenterPoint</span>()</div>
-The center position of the state that this entry occupies.
+<div class="block">The center position of the state that this entry occupies.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The center position of this entry in the given world.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

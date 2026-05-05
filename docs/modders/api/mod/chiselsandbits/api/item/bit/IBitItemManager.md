@@ -15,8 +15,8 @@ A manager which deals with items for bits.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -67,7 +67,8 @@ A manager which deals with items for bits.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -84,24 +85,30 @@ A manager which deals with items for bits.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="create(mod.chiselsandbits.api.blockinformation.BlockInformation,int)">
 
 :::tabs
 == create
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  int&nbsp;count)</span></div>
-Creates an itemstack that contains a bit of the given block information and is of the given size.
+<div class="block">Creates an itemstack that contains a bit of the given block information and is of the given size.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The given block information.</dd>
@@ -109,28 +116,35 @@ Creates an itemstack that contains a bit of the given block information and is o
 <dt>Returns:</dt>
 <dd>The itemstack with the given bits.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="create(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
 == create
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-Creates an itemstack that contains a bit of the given block information with a size of 1.
+<div class="block">Creates an itemstack that contains a bit of the given block information with a size of 1.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The given block information.</dd>
 <dt>Returns:</dt>
 <dd>The itemstack with the given bit.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

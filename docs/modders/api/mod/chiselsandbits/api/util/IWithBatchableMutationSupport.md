@@ -15,8 +15,8 @@ Defines an object which supports batch mutations.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -46,7 +46,8 @@ Defines an object which supports batch mutations.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -63,21 +64,27 @@ Defines an object which supports batch mutations.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="batch()">
 
 :::tabs
 == batch
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IBatchMutation.html" title="interface in mod.chiselsandbits.api.util">IBatchMutation</a></span>&nbsp;<span class="element-name">batch</span>()</div>
-Trigger a batch mutation start.
+<div class="block">Trigger a batch mutation start.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The batch mutation lock.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

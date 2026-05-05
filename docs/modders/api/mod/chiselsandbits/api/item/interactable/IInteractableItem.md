@@ -15,8 +15,8 @@ Represents an item which can be used to interact with other items in the other h
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -55,7 +55,8 @@ Represents an item which can be used to interact with other items in the other h
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -72,73 +73,91 @@ Represents an item which can be used to interact with other items in the other h
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="isInteracting(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == isInteracting
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isInteracting</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-Indicates if the current given itemstack is in use during an interaction.
+<div class="block">Indicates if the current given itemstack is in use during an interaction.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack in question.</dd>
 <dt>Returns:</dt>
 <dd><code>true</code> when an interaction with the given stack is going on.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getInteractionTarget(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == getInteractionTarget
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">getInteractionTarget</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-Gives access to the stack the interaction is occurring with.
+<div class="block">Gives access to the stack the interaction is occurring with.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack that is leading the interaction.</dd>
 <dt>Returns:</dt>
 <dd>The stack that the interaction is occuring with.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="isRunningASimulatedInteraction(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == isRunningASimulatedInteraction
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isRunningASimulatedInteraction</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-Indicates if the interactable stack is used in a simulation for display purposes.
+<div class="block">Indicates if the interactable stack is used in a simulation for display purposes.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack in question</dd>
 <dt>Returns:</dt>
 <dd><code>true</code> when a simulation is taking place.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getBobbingTickCount()">
 
 :::tabs
 == getBobbingTickCount
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">float</span>&nbsp;<span class="element-name">getBobbingTickCount</span>()</div>
-Indicates how often the bobbing animation needs to play inside the use time of the item.
- This is done by returning the bobbing animation length from this method.
+<div class="block">Indicates how often the bobbing animation needs to play inside the use time of the item.
+This is done by returning the bobbing animation length from this method.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The amount of ticks a bobbing animation takes.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

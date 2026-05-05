@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.client.tool.mode.icon;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[ISelectedToolModeIconRendererRegistry](ISelectedToolModeIconRendererRegistry.md)</td><td>Registry for registering possible selected tool mode icon renderers,<br> and for getting the current renderer back out.</td></tr>
+  <tr><td>[ISelectedToolModeIconRendererRegistry](ISelectedToolModeIconRendererRegistry.md)</td><td>Registry for registering possible selected tool mode icon renderers,<br>and for getting the current renderer back out.</td></tr>
   <tr><td>[ISelectedToolModeIconRenderer](ISelectedToolModeIconRenderer.md)</td><td>Used to render the icons on the hot bar for the selected tool mode.</td></tr>
   </tbody>
 </table>
@@ -29,7 +29,7 @@ package mod.chiselsandbits.api.client.tool.mode.icon;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[ISelectedToolModeIconRendererRegistry](ISelectedToolModeIconRendererRegistry.md)</td><td>Registry for registering possible selected tool mode icon renderers,<br> and for getting the current renderer back out.</td></tr>
+  <tr><td>[ISelectedToolModeIconRendererRegistry](ISelectedToolModeIconRendererRegistry.md)</td><td>Registry for registering possible selected tool mode icon renderers,<br>and for getting the current renderer back out.</td></tr>
   <tr><td>[ISelectedToolModeIconRenderer](ISelectedToolModeIconRenderer.md)</td><td>Used to render the icons on the hot bar for the selected tool mode.</td></tr>
   </tbody>
 </table>

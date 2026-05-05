@@ -19,8 +19,8 @@ extends <a href="IPermanentlyHighlightedNameItem.html" title="interface in mod.c
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -50,7 +50,8 @@ extends <a href="IPermanentlyHighlightedNameItem.html" title="interface in mod.c
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -67,17 +68,22 @@ extends <a href="IPermanentlyHighlightedNameItem.html" title="interface in mod.c
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="adaptItemStack(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == adaptItemStack
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">adaptItemStack</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;currentToolStack)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

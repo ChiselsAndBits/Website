@@ -19,9 +19,9 @@ package mod.chiselsandbits.api.permissions;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[ICheckerRegistration](ICheckerRegistration.md)</td><td>A marker interface which can be used to dynamically register and un-register<br> a <br>{@link IPermissionChecker}<br> to the <br>{@link IPermissionHandler}<br>.</td></tr>
-  <tr><td>[IPermissionChecker](IPermissionChecker.md)</td><td>Represents a permission checker, which can indicate if a particular<br> area is allowed to be edited or not.</td></tr>
   <tr><td>[IPermissionHandler](IPermissionHandler.md)</td><td>Permission handler for checking if a particular user can manipulate a particular area.</td></tr>
+  <tr><td>[ICheckerRegistration](ICheckerRegistration.md)</td><td>A marker interface which can be used to dynamically register and un-register<br>a <br>{@link IPermissionChecker}<br> to the <br>{@link IPermissionHandler}<br>.</td></tr>
+  <tr><td>[IPermissionChecker](IPermissionChecker.md)</td><td>Represents a permission checker, which can indicate if a particular<br>area is allowed to be edited or not.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -30,9 +30,9 @@ package mod.chiselsandbits.api.permissions;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[ICheckerRegistration](ICheckerRegistration.md)</td><td>A marker interface which can be used to dynamically register and un-register<br> a <br>{@link IPermissionChecker}<br> to the <br>{@link IPermissionHandler}<br>.</td></tr>
-  <tr><td>[IPermissionChecker](IPermissionChecker.md)</td><td>Represents a permission checker, which can indicate if a particular<br> area is allowed to be edited or not.</td></tr>
   <tr><td>[IPermissionHandler](IPermissionHandler.md)</td><td>Permission handler for checking if a particular user can manipulate a particular area.</td></tr>
+  <tr><td>[ICheckerRegistration](ICheckerRegistration.md)</td><td>A marker interface which can be used to dynamically register and un-register<br>a <br>{@link IPermissionChecker}<br> to the <br>{@link IPermissionHandler}<br>.</td></tr>
+  <tr><td>[IPermissionChecker](IPermissionChecker.md)</td><td>Represents a permission checker, which can indicate if a particular<br>area is allowed to be edited or not.</td></tr>
   </tbody>
 </table>
 == Classes

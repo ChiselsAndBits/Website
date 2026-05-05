@@ -15,23 +15,20 @@ extends <a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbi
   
 
 Indicates that the <a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier"><code>IAreaShapeIdentifier</code></a> is backed by a long array and as such its core data can directly be used to
- compare the identifiers.  
+compare the identifiers.  
 
 <dl class="notes"></dl>  
 
 <!-- =========== FIELD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Field Summary  
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Fields inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.identifier.<a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a>
-<a href="IAreaShapeIdentifier.html#DUMMY">DUMMY</a>
-:::::
-:::::::
+<li>
+<section class="field-summary" id="field-summary">Field Summary  
+Fields inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.identifier.<a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a><a href="IAreaShapeIdentifier.html#DUMMY">DUMMY</a></section>
+</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -40,7 +37,7 @@ Indicates that the <a href="IAreaShapeIdentifier.html" title="interface in mod.c
   </thead>
   <tbody>
   <tr><td><code>long[]</code></td><td><code><a href="#getBackingData()" class="member-name-link">getBackingData</a>()</code></td><td><div class="block">Gives access to the backing long array.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="../../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#getPalette()" class="member-name-link">getPalette</a>()</code></td><td><div class="block">The palette that is in use for this identifier.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="../../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#getPalette()" class="member-name-link">getPalette</a>()</code></td><td><div class="block">The palette that is in use for this identifier.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -50,7 +47,7 @@ Indicates that the <a href="IAreaShapeIdentifier.html" title="interface in mod.c
   </thead>
   <tbody>
   <tr><td><code>long[]</code></td><td><code><a href="#getBackingData()" class="member-name-link">getBackingData</a>()</code></td><td><div class="block">Gives access to the backing long array.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="../../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#getPalette()" class="member-name-link">getPalette</a>()</code></td><td><div class="block">The palette that is in use for this identifier.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="../../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#getPalette()" class="member-name-link">getPalette</a>()</code></td><td><div class="block">The palette that is in use for this identifier.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -60,11 +57,12 @@ Indicates that the <a href="IAreaShapeIdentifier.html" title="interface in mod.c
   </thead>
   <tbody>
   <tr><td><code>long[]</code></td><td><code><a href="#getBackingData()" class="member-name-link">getBackingData</a>()</code></td><td><div class="block">Gives access to the backing long array.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="../../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#getPalette()" class="member-name-link">getPalette</a>()</code></td><td><div class="block">The palette that is in use for this identifier.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="../../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#getPalette()" class="member-name-link">getPalette</a>()</code></td><td><div class="block">The palette that is in use for this identifier.</div><br></td></tr>
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -81,36 +79,46 @@ Indicates that the <a href="IAreaShapeIdentifier.html" title="interface in mod.c
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getBackingData()">
 
 :::tabs
 == getBackingData
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">long[]</span>&nbsp;<span class="element-name">getBackingData</span>()</div>
-Gives access to the backing long array.
+<div class="block">Gives access to the backing long array.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The backing long array.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getPalette()">
 
 :::tabs
 == getPalette
-<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">getPalette</span>()</div>
-The palette that is in use for this identifier.
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">getPalette</span>()</div>
+<div class="block">The palette that is in use for this identifier.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The palette list.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

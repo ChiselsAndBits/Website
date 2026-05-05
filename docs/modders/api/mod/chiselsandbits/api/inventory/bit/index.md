@@ -19,11 +19,11 @@ package mod.chiselsandbits.api.inventory.bit;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[DisplayContents](IBitInventoryItemStack.DisplayContents.md)</td><td></td></tr>
-  <tr><td>[IBitInventoryItem](IBitInventoryItem.md)</td><td>Represents an item which is a bit inventory.</td></tr>
-  <tr><td>[IBitInventory](IBitInventory.md)</td><td>Represents an inventory in which bits are contained.</td></tr>
   <tr><td>[IAdaptingBitInventoryManager](IAdaptingBitInventoryManager.md)</td><td></td></tr>
   <tr><td>[IBitInventoryItemStack](IBitInventoryItemStack.md)</td><td>A bit inventory which can be converted to an itemstack.</td></tr>
+  <tr><td>[IBitInventory](IBitInventory.md)</td><td>Represents an inventory in which bits are contained.</td></tr>
+  <tr><td>[DisplayContents](IBitInventoryItemStack.DisplayContents.md)</td><td></td></tr>
+  <tr><td>[IBitInventoryItem](IBitInventoryItem.md)</td><td>Represents an item which is a bit inventory.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -32,10 +32,10 @@ package mod.chiselsandbits.api.inventory.bit;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IBitInventoryItem](IBitInventoryItem.md)</td><td>Represents an item which is a bit inventory.</td></tr>
-  <tr><td>[IBitInventory](IBitInventory.md)</td><td>Represents an inventory in which bits are contained.</td></tr>
   <tr><td>[IAdaptingBitInventoryManager](IAdaptingBitInventoryManager.md)</td><td></td></tr>
   <tr><td>[IBitInventoryItemStack](IBitInventoryItemStack.md)</td><td>A bit inventory which can be converted to an itemstack.</td></tr>
+  <tr><td>[IBitInventory](IBitInventory.md)</td><td>Represents an inventory in which bits are contained.</td></tr>
+  <tr><td>[IBitInventoryItem](IBitInventoryItem.md)</td><td>Represents an item which is a bit inventory.</td></tr>
   </tbody>
 </table>
 == Classes

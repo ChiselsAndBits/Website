@@ -15,8 +15,8 @@ Can create multistate items from a given source.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -56,7 +56,8 @@ Can create multistate items from a given source.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -73,38 +74,48 @@ Can create multistate items from a given source.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IMultiStateItemFactory.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemFactory</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-The instance of the manager.
+<div class="block">The instance of the manager.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The instance.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="createBlockFrom(mod.chiselsandbits.api.multistate.accessor.IStateEntryInfo)">
 
 :::tabs
 == createBlockFrom
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">createBlockFrom</span><wbr><span class="parameters">(<a href="../../multistate/accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&nbsp;stateEntryInfo)</span></div>
-Creates a new multistate itemstack with a single state internally.
+<div class="block">Creates a new multistate itemstack with a single state internally.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stateEntryInfo</code> - The state entry info to create an itemstack for.</dd>
 <dt>Returns:</dt>
 <dd>The itemstack containing only the given single state entry.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

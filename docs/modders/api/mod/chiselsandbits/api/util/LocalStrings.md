@@ -7,7 +7,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 # Enum Class LocalStrings  
 ---
 <div class="type-signature"><span class="modifiers">public enum </span><span class="element-name type-name-label">LocalStrings</span><br/>  
-<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a>&lt;<a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>&gt;</span></div>  
+<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a>&lt;<a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>&gt;</span></div>  
 
   
 
@@ -15,17 +15,14 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 <dl class="notes"></dl>  
 
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Nested Class Summary  
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Nested classes/interfaces inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a>
-<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.EnumDesc.html" title="class or interface in java.lang" class="external-link">Enum.EnumDesc</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.EnumDesc.html" title="class or interface in java.lang" class="external-link">E</a> extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a>&lt;<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.EnumDesc.html" title="class or interface in java.lang" class="external-link">E</a>&gt;&gt;
-:::::
-:::::::
+<li>
+<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
+Nested classes/interfaces inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.EnumDesc.html" title="class or interface in java.lang" class="external-link">Enum.EnumDesc</a>&lt;E&gt;</section>
+</li>
   
   
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Enum Constant Summary  
+<li>
+<section class="constants-summary" id="enum-constant-summary">Enum Constant Summary  
 :::tabs
 == Enum Constants
 <table class="stretched-table">
@@ -246,12 +243,13 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -260,10 +258,10 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
   </thead>
   <tbody>
   <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText(java.lang.Object...)" class="member-name-link">getText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.MutableComponent&gt;</code></td><td><code><a href="#getTextLines(java.lang.Object...)" class="member-name-link">getTextLines</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static <a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></code></td><td><code><a href="#valueOf(java.lang.String)" class="member-name-link">valueOf</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Returns the enum constant of this class with the specified name.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText(java.lang.Object...)" class="member-name-link">getText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.MutableComponent&gt;</code></td><td><code><a href="#getTextLines(java.lang.Object...)" class="member-name-link">getTextLines</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></code></td><td><code><a href="#valueOf(java.lang.String)" class="member-name-link">valueOf</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Returns the enum constant of this class with the specified name.</div><br></td></tr>
   <tr><td><code>static <a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>[]</code></td><td><code><a href="#values()" class="member-name-link">values</a>()</code></td><td><div class="block">Returns an array containing the constants of this enum class, in<br>the order they are declared.</div><br></td></tr>
   </tbody>
 </table>
@@ -273,7 +271,7 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></code></td><td><code><a href="#valueOf(java.lang.String)" class="member-name-link">valueOf</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Returns the enum constant of this class with the specified name.</div><br></td></tr>
+  <tr><td><code>static <a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></code></td><td><code><a href="#valueOf(java.lang.String)" class="member-name-link">valueOf</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Returns the enum constant of this class with the specified name.</div><br></td></tr>
   <tr><td><code>static <a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>[]</code></td><td><code><a href="#values()" class="member-name-link">values</a>()</code></td><td><div class="block">Returns an array containing the constants of this enum class, in<br>the order they are declared.</div><br></td></tr>
   </tbody>
 </table>
@@ -284,9 +282,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
   </thead>
   <tbody>
   <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText(java.lang.Object...)" class="member-name-link">getText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.MutableComponent&gt;</code></td><td><code><a href="#getTextLines(java.lang.Object...)" class="member-name-link">getTextLines</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText(java.lang.Object...)" class="member-name-link">getText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.MutableComponent&gt;</code></td><td><code><a href="#getTextLines(java.lang.Object...)" class="member-name-link">getTextLines</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -296,23 +294,16 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
   </thead>
   <tbody>
   <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText(java.lang.Object...)" class="member-name-link">getText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.MutableComponent&gt;</code></td><td><code><a href="#getTextLines(java.lang.Object...)" class="member-name-link">getTextLines</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static <a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></code></td><td><code><a href="#valueOf(java.lang.String)" class="member-name-link">valueOf</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Returns the enum constant of this class with the specified name.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText(java.lang.Object...)" class="member-name-link">getText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.MutableComponent&gt;</code></td><td><code><a href="#getTextLines(java.lang.Object...)" class="member-name-link">getTextLines</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></code></td><td><code><a href="#valueOf(java.lang.String)" class="member-name-link">valueOf</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Returns the enum constant of this class with the specified name.</div><br></td></tr>
   <tr><td><code>static <a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>[]</code></td><td><code><a href="#values()" class="member-name-link">values</a>()</code></td><td><div class="block">Returns an array containing the constants of this enum class, in<br>the order they are declared.</div><br></td></tr>
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a>
-<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html#compareTo(E)" title="class or interface in java.lang" class="external-link">compareTo</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html#describeConstable()" title="class or interface in java.lang" class="external-link">describeConstable</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html#getDeclaringClass()" title="class or interface in java.lang" class="external-link">getDeclaringClass</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html#name()" title="class or interface in java.lang" class="external-link">name</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html#ordinal()" title="class or interface in java.lang" class="external-link">ordinal</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html#valueOf(java.lang.Class,java.lang.String)" title="class or interface in java.lang" class="external-link">valueOf</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>
-<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>
-:::::
-:::::::
+Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#compareTo(E)" title="class or interface in java.lang" class="external-link">compareTo</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#describeConstable()" title="class or interface in java.lang" class="external-link">describeConstable</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#getDeclaringClass()" title="class or interface in java.lang" class="external-link">getDeclaringClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#name()" title="class or interface in java.lang" class="external-link">name</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#ordinal()" title="class or interface in java.lang" class="external-link">ordinal</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#valueOf(java.lang.Class,java.lang.String)" title="class or interface in java.lang" class="external-link">valueOf</a>Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a></section>
+</li>
   
   
   
@@ -323,8 +314,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeSingle
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSingle</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -334,8 +326,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeSnap2
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSnap2</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -345,8 +338,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeSnap4
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSnap4</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -356,8 +350,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeSnap8
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSnap8</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -367,8 +362,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeLine
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeLine</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -378,8 +374,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeLine2
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeLine2</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -389,8 +386,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeLine4
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeLine4</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -400,8 +398,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeLine8
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeLine8</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -411,8 +410,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModePlane
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModePlane</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -422,8 +422,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModePlane2
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModePlane2</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -433,8 +434,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModePlane4
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModePlane4</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -444,8 +446,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModePlane8
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModePlane8</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -455,8 +458,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeConnectedPlane
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeConnectedPlane</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -466,8 +470,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeConnectedMaterial
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeConnectedMaterial</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -477,8 +482,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeCubeSmall
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeCubeSmall</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -488,8 +494,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeCubeMedium
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeCubeMedium</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -499,8 +506,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeCubeLarge
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeCubeLarge</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -510,8 +518,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeCubeFull
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeCubeFull</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -521,8 +530,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeSameMaterial
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSameMaterial</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -532,8 +542,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeDrawnCube
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeDrawnCube</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -543,8 +554,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeDrawnLine
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeDrawnLine</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -554,8 +566,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeDrawnWallThin
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeDrawnWallThin</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -565,8 +578,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeDrawnWallMedium
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeDrawnWallMedium</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -576,8 +590,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeDrawnWallFat
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeDrawnWallFat</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -587,8 +602,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeReplace
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeReplace</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -598,8 +614,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeSphereSmall
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSphereSmall</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -609,8 +626,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeSphereMedium
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSphereMedium</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -620,8 +638,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeSphereLarge
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSphereLarge</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -631,8 +650,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineSingle
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSingle</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -642,8 +662,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineSnap2
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSnap2</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -653,8 +674,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineSnap4
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSnap4</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -664,8 +686,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineSnap8
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSnap8</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -675,8 +698,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineLine
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineLine</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -686,8 +710,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineLine2
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineLine2</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -697,8 +722,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineLine4
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineLine4</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -708,8 +734,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineLine8
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineLine8</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -719,8 +746,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLinePlane
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLinePlane</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -730,8 +758,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLinePlane2
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLinePlane2</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -741,8 +770,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLinePlane4
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLinePlane4</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -752,8 +782,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLinePlane8
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLinePlane8</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -763,8 +794,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineConnectedPlane
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineConnectedPlane</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -774,8 +806,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineConnectedMaterial
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineConnectedMaterial</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -785,8 +818,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineCubeSmall
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineCubeSmall</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -796,8 +830,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineCubeMedium
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineCubeMedium</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -807,8 +842,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineCubeLarge
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineCubeLarge</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -818,8 +854,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineCubeFull
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineCubeFull</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -829,8 +866,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineSameMaterial
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSameMaterial</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -840,8 +878,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineDrawnCube
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineDrawnCube</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -851,8 +890,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineDrawnLine
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineDrawnLine</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -862,8 +902,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineDrawnWallThin
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineDrawnWallThin</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -873,8 +914,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineDrawnWallMedium
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineDrawnWallMedium</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -884,8 +926,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineDrawnWallFat
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineDrawnWallFat</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -895,8 +938,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineReplace
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineReplace</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -906,8 +950,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineSphereSmall
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSphereSmall</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -917,8 +962,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineSphereMedium
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSphereMedium</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -928,8 +974,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselModeMultiLineSphereLarge
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSphereLarge</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -939,8 +986,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ShiftDetails
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ShiftDetails</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -950,8 +998,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == Empty
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">Empty</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -961,8 +1010,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == Filled
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">Filled</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -972,8 +1022,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpChiseledBlock
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpChiseledBlock</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -983,8 +1034,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == LongHelpChiseledBlock
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpChiseledBlock</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -994,8 +1046,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpBitSaw
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpBitSaw</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1005,8 +1058,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == LongHelpBitSaw
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpBitSaw</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1016,8 +1070,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpBitBag
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpBitBag</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1027,8 +1082,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == LongHelpBitBag
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpBitBag</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1038,8 +1094,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ContainerBitBag
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ContainerBitBag</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1049,8 +1106,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpWrench
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpWrench</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1060,8 +1118,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == LongHelpWrench
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpWrench</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1071,8 +1130,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpBit
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpBit</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1082,8 +1142,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == LongHelpBit
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpBit</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1093,8 +1154,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == AnyHelpBit
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">AnyHelpBit</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1104,8 +1166,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpBitStorageFilled
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpBitStorageFilled</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1115,8 +1178,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpBitStorageEmpty
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpBitStorageEmpty</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1126,8 +1190,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == LongHelpBitStorage
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpBitStorage</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1137,8 +1202,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpSimplePattern
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpSimplePattern</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1148,8 +1214,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == LongHelpSimplePattern
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpSimplePattern</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1159,8 +1226,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpSealedPattern
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpSealedPattern</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1170,8 +1238,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == LongHelpSealedPattern
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpSealedPattern</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1181,8 +1250,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpChisel
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpChisel</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1192,8 +1262,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == LongHelpChisel
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpChisel</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1203,8 +1274,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == noBind
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">noBind</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1214,8 +1286,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == leftShift
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">leftShift</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1225,8 +1298,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == rightShift
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">rightShift</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1236,8 +1310,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == leftAlt
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">leftAlt</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1247,8 +1322,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == rightAlt
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">rightAlt</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1258,8 +1334,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == Sort
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">Sort</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1269,8 +1346,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == Trash
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">Trash</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1280,8 +1358,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == TrashItem
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">TrashItem</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1291,8 +1370,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ReallyTrash
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ReallyTrash</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1302,8 +1382,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ReallyTrashItem
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ReallyTrashItem</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1313,8 +1394,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == TrashInvalidItem
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">TrashInvalidItem</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1324,8 +1406,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == Convert
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">Convert</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1335,8 +1418,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == NonPreferredPickup
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">NonPreferredPickup</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1346,8 +1430,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PreferredPickup
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PreferredPickup</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1357,8 +1442,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == FilteredPickup
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">FilteredPickup</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1368,8 +1454,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == NonFilteredPickup
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">NonFilteredPickup</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1379,8 +1466,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PositivePatternReplace
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PositivePatternReplace</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1390,8 +1478,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PositivePatternAdditive
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PositivePatternAdditive</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1401,8 +1490,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PositivePatternPlacement
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PositivePatternPlacement</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1412,8 +1502,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PositivePatternImpose
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PositivePatternImpose</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1423,8 +1514,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpTapeMeasure
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpTapeMeasure</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1434,8 +1526,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == LongHelpTapeMeasure
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpTapeMeasure</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1445,8 +1538,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpQuill
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpQuill</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1456,8 +1550,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpSealant
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpSealant</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1467,8 +1562,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpUnseal
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpUnseal</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1478,8 +1574,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == TapeMeasureBit
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">TapeMeasureBit</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1489,8 +1586,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == TapeMeasureBlock
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">TapeMeasureBlock</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1500,8 +1598,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == TapeMeasureDistance
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">TapeMeasureDistance</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1511,8 +1610,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == BitOptionPlace
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">BitOptionPlace</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1522,8 +1622,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == BitOptionReplace
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">BitOptionReplace</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1533,8 +1634,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpMagnifyingGlass
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpMagnifyingGlass</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1544,8 +1646,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == LongHelpMagnifyingGlass
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpMagnifyingGlass</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1555,8 +1658,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportIsAlreadyChiseled
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportIsAlreadyChiseled</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1566,8 +1670,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportGenericNotSupported
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportGenericNotSupported</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1577,8 +1682,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportLogicIgnored
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportLogicIgnored</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1588,8 +1694,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportGenericSupported
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportGenericSupported</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1599,8 +1706,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportGenericFluidSupport
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportGenericFluidSupport</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1610,8 +1718,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportCompatDeactivated
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportCompatDeactivated</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1621,8 +1730,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportCustomCollision
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportCustomCollision</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1632,8 +1742,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportNoHardness
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportNoHardness</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1643,8 +1754,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportNotFullBlock
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportNotFullBlock</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1654,8 +1766,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportHasBehaviour
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportHasBehaviour</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1665,8 +1778,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportIsSlab
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportIsSlab</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1676,8 +1790,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportHasCustomDrops
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportHasCustomDrops</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1687,8 +1802,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportFailureToAnalyze
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportFailureToAnalyze</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1698,8 +1814,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportForcedUnsupported
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportForcedUnsupported</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1709,8 +1826,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportForcedSupported
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportForcedSupported</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1720,8 +1838,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportTagBlackListed
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportTagBlackListed</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1731,8 +1850,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselSupportTagWhitelisted
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportTagWhitelisted</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1742,8 +1862,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselStationName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselStationName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1753,8 +1874,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselStationHelp
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselStationHelp</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1764,8 +1886,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == LongChiselStationHelp
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongChiselStationHelp</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1775,8 +1898,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ModificationTableHelp
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ModificationTableHelp</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1786,8 +1910,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == LongModificationTableHelp
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongModificationTableHelp</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1797,8 +1922,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == CommandGiveErrorBlockStateNotChiselable
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CommandGiveErrorBlockStateNotChiselable</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1808,8 +1934,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == CommandFillCompleted
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CommandFillCompleted</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1819,8 +1946,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == CommandFillingInProgress
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CommandFillingInProgress</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1830,8 +1958,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == CommandToFill
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CommandToFill</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1841,8 +1970,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == CommandProcessingBlockUpdates
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CommandProcessingBlockUpdates</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1852,8 +1982,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternItemTooltipModeGrouped
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternItemTooltipModeGrouped</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1863,8 +1994,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternItemTooltipModeSimple
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternItemTooltipModeSimple</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1874,8 +2006,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternPlacementModePlacement
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementModePlacement</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1885,8 +2018,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternPlacementModeRemoval
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementModeRemoval</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1896,8 +2030,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternPlacementModeImposement
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementModeImposement</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1907,8 +2042,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternPlacementModeMerge
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementModeMerge</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1918,8 +2054,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternPlacementModeCarving
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementModeCarving</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1929,8 +2066,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternPlacementCollision
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementCollision</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1940,8 +2078,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternPlacementNoBitSpace
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementNoBitSpace</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1951,8 +2090,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternPlacementNotEnoughBits
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementNotEnoughBits</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1962,8 +2102,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternPlacementNotASolidBlock
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementNotASolidBlock</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1973,8 +2114,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternPlacementNotAChiseledBlock
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementNotAChiseledBlock</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1984,8 +2126,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternPlacementNotAnAirBlock
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementNotAnAirBlock</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -1995,8 +2138,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternPlacementNotASupportedBlock
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementNotASupportedBlock</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2006,8 +2150,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternModificationGroupMirror
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternModificationGroupMirror</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2017,8 +2162,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternModificationGroupRotate
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternModificationGroupRotate</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2028,8 +2174,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternModificationAcrossXAxis
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternModificationAcrossXAxis</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2039,8 +2186,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternModificationAcrossYAxis
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternModificationAcrossYAxis</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2050,8 +2198,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternModificationAcrossZAxis
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternModificationAcrossZAxis</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2061,8 +2210,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == CanNotUndo
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CanNotUndo</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2072,8 +2222,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == UndoSuccessful
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">UndoSuccessful</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2083,8 +2234,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == CanNotRedo
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CanNotRedo</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2094,8 +2246,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == RedoSuccessful
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">RedoSuccessful</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2105,8 +2258,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ToolMenuPageSelectorName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuPageSelectorName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2116,8 +2270,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ToolMenuPreviousPageName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuPreviousPageName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2127,8 +2282,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ToolMenuNextPageName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuNextPageName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2138,8 +2294,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ToolMenuGroupSelectorName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuGroupSelectorName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2149,8 +2306,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ToolMenuModeSelectorName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuModeSelectorName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2160,8 +2318,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ToolMenuSelectorName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuSelectorName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2171,8 +2330,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ToolMenuScreenName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuScreenName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2182,8 +2342,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChangeTrackerOperations
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChangeTrackerOperations</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2193,8 +2354,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChangeTrackerOperationsButtonUndoName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChangeTrackerOperationsButtonUndoName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2204,8 +2366,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChangeTrackerOperationsButtonRedoName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChangeTrackerOperationsButtonRedoName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2215,8 +2378,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChangeTrackerOperationsButtonClearName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChangeTrackerOperationsButtonClearName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2226,8 +2390,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == CreativeTabClipboard
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CreativeTabClipboard</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2237,8 +2402,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == CreativeTabBits
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CreativeTabBits</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2248,8 +2414,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternExportFailedCouldNotWriteAtlas
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternExportFailedCouldNotWriteAtlas</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2259,8 +2426,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternExportFailedGenericAtlasWriteFailure
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternExportFailedGenericAtlasWriteFailure</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2270,8 +2438,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternExportFailedCouldNotWriteChiselData
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternExportFailedCouldNotWriteChiselData</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2281,8 +2450,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternExportFailedCouldNotWriteFile
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternExportFailedCouldNotWriteFile</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2292,8 +2462,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternImportFailedFileNotFound
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportFailedFileNotFound</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2303,8 +2474,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternImportFailedCouldNotReadFile
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportFailedCouldNotReadFile</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2314,8 +2486,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternImportFailedCouldNotDecompressFile
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportFailedCouldNotDecompressFile</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2325,8 +2498,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternImportFailedCompressedDataInWrongFormat
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportFailedCompressedDataInWrongFormat</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2336,8 +2510,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternImportFailedInvalidChiselData
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportFailedInvalidChiselData</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2347,8 +2522,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternImportFailedUnknownVersion
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportFailedUnknownVersion</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2358,8 +2534,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternImportInvokedFromTheServer
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportInvokedFromTheServer</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2369,8 +2546,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselAttemptFailedNoBlock
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedNoBlock</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2380,8 +2558,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselAttemptFailedTargetedBlockNotChiselable
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedTargetedBlockNotChiselable</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2391,8 +2570,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselAttemptFailedChiselBroke
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedChiselBroke</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2402,8 +2582,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselAttemptFailedNoValidStateFound
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedNoValidStateFound</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2413,8 +2594,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselAttemptFailedNoPlaceableBitHeld
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedNoPlaceableBitHeld</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2424,8 +2606,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselAttemptFailedNotEnoughBits
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedNotEnoughBits</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2435,8 +2618,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselAttemptFailedAttemptTooHigh
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedAttemptTooHigh</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2446,8 +2630,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselAttemptFailedAttemptTooLow
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedAttemptTooLow</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2457,8 +2642,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselAttemptFailedWaitForCoolDown
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedWaitForCoolDown</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2468,8 +2654,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselAttemptMissingChiselInOffhand
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptMissingChiselInOffhand</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2479,8 +2666,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternCuttingAcrossXAxis
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternCuttingAcrossXAxis</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2490,8 +2678,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternCuttingAcrossYAxis
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternCuttingAcrossYAxis</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2501,8 +2690,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PatternCuttingAcrossZAxis
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternCuttingAcrossZAxis</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2512,8 +2702,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == DefaultChiseledBlockItemName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">DefaultChiseledBlockItemName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2523,8 +2714,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiseledBlockItemName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiseledBlockItemName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2534,8 +2726,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == ChiselsAndBitsName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselsAndBitsName</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2545,8 +2738,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == BitBagEmpty
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">BitBagEmpty</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2556,8 +2750,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == BitBagEntry
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">BitBagEntry</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2567,8 +2762,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == BitBagMoreEntries
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">BitBagMoreEntries</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2578,8 +2774,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == BagPicksUpFirst
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">BagPicksUpFirst</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2589,8 +2786,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == PlayerPicksUpFirst
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PlayerPicksUpFirst</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2600,8 +2798,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == Filtered
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">Filtered</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2611,8 +2810,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == NonFiltered
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">NonFiltered</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2622,8 +2822,9 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 :::tabs
 == HelpBagPickupMode
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpBagPickupMode</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -2642,92 +2843,115 @@ _Package:_ [mod.chiselsandbits.api.util](index.md)
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="values()">
 
 :::tabs
 == values
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>[]</span>&nbsp;<span class="element-name">values</span>()</div>
-Returns an array containing the constants of this enum class, in
-the order they are declared.
+<div class="block">Returns an array containing the constants of this enum class, in
+the order they are declared.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>an array containing the constants of this enum class, in the order they are declared</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="valueOf(java.lang.String)">
 
 :::tabs
 == valueOf
-<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">valueOf</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-Returns the enum constant of this class with the specified name.
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">valueOf</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
+<div class="block">Returns the enum constant of this class with the specified name.
 The string must match <i>exactly</i> an identifier used to declare an
 enum constant in this class.  (Extraneous whitespace characters are 
-not permitted.)
+not permitted.)</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>name</code> - the name of the enum constant to be returned.</dd>
 <dt>Returns:</dt>
 <dd>the enum constant with the specified name</dd>
 <dt>Throws:</dt>
-<dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/IllegalArgumentException.html" title="class or interface in java.lang" class="external-link">IllegalArgumentException</a></code> - if this enum class has no constant with the specified name</dd>
-<dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/NullPointerException.html" title="class or interface in java.lang" class="external-link">NullPointerException</a></code> - if the argument is null</dd>
+<dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/IllegalArgumentException.html" title="class or interface in java.lang" class="external-link">IllegalArgumentException</a></code> - if this enum class has no constant with the specified name</dd>
+<dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/NullPointerException.html" title="class or interface in java.lang" class="external-link">NullPointerException</a></code> - if the argument is null</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="toString()">
 
 :::tabs
 == toString
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">toString</span>()</div>
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">toString</span>()</div>
 <dl class="notes">
 <dt>Overrides:</dt>
-<dd><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html#toString()" title="class or interface in java.lang" class="external-link">toString</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a>&lt;<a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>&gt;</code></dd>
+<dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#toString()" title="class or interface in java.lang" class="external-link">toString</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a>&lt;<a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>&gt;</code></dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getText()">
 
 :::tabs
 == getText
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.chat.MutableComponent</span>&nbsp;<span class="element-name">getText</span>()</div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getText(java.lang.Object...)">
 
 :::tabs
 == getText
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.chat.MutableComponent</span>&nbsp;<span class="element-name">getText</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</span></div>
-<dl class="notes"></dl>
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.chat.MutableComponent</span>&nbsp;<span class="element-name">getText</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</span></div>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getTextLines(java.lang.Object...)">
 
 :::tabs
 == getTextLines
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;net.minecraft.network.chat.MutableComponent&gt;</span>&nbsp;<span class="element-name">getTextLines</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</span></div>
-<dl class="notes"></dl>
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;net.minecraft.network.chat.MutableComponent&gt;</span>&nbsp;<span class="element-name">getTextLines</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</span></div>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

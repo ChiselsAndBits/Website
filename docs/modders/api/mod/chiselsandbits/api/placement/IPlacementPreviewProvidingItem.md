@@ -19,8 +19,8 @@ extends <a href="../item/wireframe/IWireframeProvidingItem.html" title="interfac
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -53,19 +53,8 @@ extends <a href="../item/wireframe/IWireframeProvidingItem.html" title="interfac
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="IPlaceable.html" title="interface in mod.chiselsandbits.api.placement">IPlaceable</a>
-<a href="IPlaceable.html#getPlacementResult(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">getPlacementResult</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="IPlacementProperties.html" title="interface in mod.chiselsandbits.api.placement">IPlacementProperties</a>
-<a href="IPlacementProperties.html#overridesOccupiedBits(net.minecraft.world.item.ItemStack)">overridesOccupiedBits</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.wireframe.<a href="../item/wireframe/IWireframeProvidingItem.html" title="interface in mod.chiselsandbits.api.item.wireframe">IWireframeProvidingItem</a>
-<a href="../item/wireframe/IWireframeProvidingItem.html#getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">getTargetedPosition</a>, <a href="../item/wireframe/IWireframeProvidingItem.html#getWireFrame(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">getWireFrame</a>, <a href="../item/wireframe/IWireframeProvidingItem.html#getWireFrameColor(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">getWireFrameColor</a>
-:::::
-:::::::
+Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="IPlaceable.html" title="interface in mod.chiselsandbits.api.placement">IPlaceable</a><a href="IPlaceable.html#getPlacementResult(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" title="getPlacementResult(ItemStack, Player, BlockHitResult)">getPlacementResult</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="IPlacementProperties.html" title="interface in mod.chiselsandbits.api.placement">IPlacementProperties</a><a href="IPlacementProperties.html#overridesOccupiedBits(net.minecraft.world.item.ItemStack)" title="overridesOccupiedBits(ItemStack)">overridesOccupiedBits</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.wireframe.<a href="../item/wireframe/IWireframeProvidingItem.html" title="interface in mod.chiselsandbits.api.item.wireframe">IWireframeProvidingItem</a><a href="../item/wireframe/IWireframeProvidingItem.html#getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" title="getTargetedPosition(ItemStack, Player, BlockHitResult)">getTargetedPosition</a>, <a href="../item/wireframe/IWireframeProvidingItem.html#getWireFrame(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" title="getWireFrame(ItemStack, Player, BlockHitResult)">getWireFrame</a>, <a href="../item/wireframe/IWireframeProvidingItem.html#getWireFrameColor(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" title="getWireFrameColor(ItemStack, Player, BlockHitResult)">getWireFrameColor</a></section>
+</li>
   
   
   
@@ -82,13 +71,16 @@ extends <a href="../item/wireframe/IWireframeProvidingItem.html" title="interfac
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="ignoreDepthForPlacement(net.minecraft.world.item.ItemStack,mod.chiselsandbits.api.placement.PlacementResult)">
 
 :::tabs
 == ignoreDepthForPlacement
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">ignoreDepthForPlacement</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a>&nbsp;placementResult)</span></div>
-Returns whether to effectively ignore the depth buffer and render in front of everything for a given placement result.
+<div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything for a given placement result.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get depth logic for.</dd>
@@ -96,17 +88,21 @@ Returns whether to effectively ignore the depth buffer and render in front of ev
 <dt>Returns:</dt>
 <dd>Whether depth is effectively ignored.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="ignoreDepth(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == ignoreDepth
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">ignoreDepth</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack)</span></div>
-Returns whether to effectively ignore the depth buffer and render in front of everything
+<div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../item/wireframe/IWireframeProvidingItem.html#ignoreDepth(net.minecraft.world.item.ItemStack)">ignoreDepth</a></code>&nbsp;in interface&nbsp;<code><a href="../item/wireframe/IWireframeProvidingItem.html" title="interface in mod.chiselsandbits.api.item.wireframe">IWireframeProvidingItem</a></code></dd>
@@ -115,11 +111,14 @@ Returns whether to effectively ignore the depth buffer and render in front of ev
 <dt>Returns:</dt>
 <dd>Whether depth is effectively ignored.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

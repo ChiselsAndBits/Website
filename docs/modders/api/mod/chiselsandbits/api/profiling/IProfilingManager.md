@@ -15,8 +15,8 @@ A profiling manager to handle the profiling of different interactions or managem
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -62,7 +62,8 @@ A profiling manager to handle the profiling of different interactions or managem
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -79,72 +80,90 @@ A profiling manager to handle the profiling of different interactions or managem
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IProfilingManager.html" title="interface in mod.chiselsandbits.api.profiling">IProfilingManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-Gives access to the current profiling manager.
+<div class="block">Gives access to the current profiling manager.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The current profiling manager.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="startProfiling(net.minecraft.util.profiling.jfr.Environment)">
 
 :::tabs
 == startProfiling
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a></span>&nbsp;<span class="element-name">startProfiling</span><wbr><span class="parameters">(net.minecraft.util.profiling.jfr.Environment&nbsp;profilingEnvironment)</span></div>
-Creates a new profiler.
+<div class="block">Creates a new profiler.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>profilingEnvironment</code> - The environment the profiler runs in.</dd>
 <dt>Returns:</dt>
 <dd>The profiler</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="endProfiling(mod.chiselsandbits.api.profiling.IProfiler)">
 
 :::tabs
 == endProfiling
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></span>&nbsp;<span class="element-name">endProfiling</span><wbr><span class="parameters">(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</span></div>
-Ends the profiling of a given profiler
+<div class="block">Ends the profiling of a given profiler</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>profiler</code> - The profiler to end profiling.</dd>
 <dt>Returns:</dt>
 <dd>The result of the profiling.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="stopProfiling(mod.chiselsandbits.api.profiling.IProfiler)">
 
 :::tabs
 == stopProfiling
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></span>&nbsp;<span class="element-name">stopProfiling</span><wbr><span class="parameters">(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</span></div>
-This stops the profiler given and clears out any profiling data, returns the collected data and stops further profiling.
+<div class="block">This stops the profiler given and clears out any profiling data, returns the collected data and stops further profiling.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>profiler</code> - The profiler to stop and cleanup.</dd>
 <dt>Returns:</dt>
 <dd>The result of the profiler.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

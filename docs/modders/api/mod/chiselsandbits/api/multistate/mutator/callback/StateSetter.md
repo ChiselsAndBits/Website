@@ -9,7 +9,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.mutator.callback](index.md)
 This is a functional interface and can therefore be used as the assignment target for a lambda expression or method reference.  
 
 ---
-<div class="type-signature"><span class="annotations"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/FunctionalInterface.html" title="class or interface in java.lang" class="external-link">@FunctionalInterface</a><br/>  
+<div class="type-signature"><span class="annotations"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/FunctionalInterface.html" title="class or interface in java.lang" class="external-link">@FunctionalInterface</a><br/>  
 </span><span class="modifiers">public interface </span><span class="element-name type-name-label">StateSetter</span></div>  
 
   
@@ -19,8 +19,8 @@ Functional callback interface for setting the state of a bit.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -50,7 +50,8 @@ Functional callback interface for setting the state of a bit.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -67,14 +68,17 @@ Functional callback interface for setting the state of a bit.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="set(mod.chiselsandbits.api.blockinformation.BlockInformation,net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == set
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">set</span><wbr><span class="parameters">(<a href="../../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  net.minecraft.world.phys.Vec3&nbsp;inAreaTarget)</span>
   throws <span class="exceptions"><a href="../../../exceptions/SpaceOccupiedException.html" title="class in mod.chiselsandbits.api.exceptions">SpaceOccupiedException</a></span></div>
-Sets the block information of the targeted bit to the given block information.
+<div class="block">Sets the block information of the targeted bit to the given block information.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information to set the bit to.</dd>
@@ -82,11 +86,14 @@ Sets the block information of the targeted bit to the given block information.
 <dt>Throws:</dt>
 <dd><code><a href="../../../exceptions/SpaceOccupiedException.html" title="class in mod.chiselsandbits.api.exceptions">SpaceOccupiedException</a></code> - If the target area is occupied.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

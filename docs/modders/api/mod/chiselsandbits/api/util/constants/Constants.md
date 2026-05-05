@@ -10,7 +10,7 @@ java.lang.Object
   
 ---
 <div class="type-signature"><span class="modifiers">public final class </span><span class="element-name type-name-label">Constants</span><br/>  
-<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></span></div>  
+<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></span></div>  
 
   
 
@@ -18,8 +18,8 @@ java.lang.Object
 
 <dl class="notes"></dl>  
 
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Nested Class Summary  
+<li>
+<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
 :::tabs
 == Nested Classes
 <table class="stretched-table">
@@ -31,12 +31,13 @@ java.lang.Object
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- =========== FIELD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Field Summary  
+<li>
+<section class="field-summary" id="field-summary">Field Summary  
 :::tabs
 == Fields
 <table class="stretched-table">
@@ -44,26 +45,24 @@ java.lang.Object
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#INTERACTABLE_MODEL_LOADER" class="member-name-link">INTERACTABLE_MODEL_LOADER</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MOD_ID" class="member-name-link">MOD_ID</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MOD_NAME" class="member-name-link">MOD_NAME</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MOD_VERSION" class="member-name-link">MOD_VERSION</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#INTERACTABLE_MODEL_LOADER" class="member-name-link">INTERACTABLE_MODEL_LOADER</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MOD_ID" class="member-name-link">MOD_ID</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MOD_NAME" class="member-name-link">MOD_NAME</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MOD_VERSION" class="member-name-link">MOD_VERSION</a></code></td><td>&nbsp;</td></tr>
   <tr><td><code>static final int</code></td><td><code><a href="#TICKS_BETWEEN_CHISEL_ERRORS" class="member-name-link">TICKS_BETWEEN_CHISEL_ERRORS</a></code></td><td>&nbsp;</td></tr>
   <tr><td><code>static final int</code></td><td><code><a href="#TICKS_BETWEEN_CHISEL_USAGE" class="member-name-link">TICKS_BETWEEN_CHISEL_USAGE</a></code></td><td>&nbsp;</td></tr>
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>
-<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>
-:::::
-:::::::
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
+Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a></section>
+</li>
   
   
   
@@ -78,8 +77,17 @@ java.lang.Object
 
 :::tabs
 == MOD_ID
-<div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MOD_ID</span></div>
-<dl class="notes"></dl>
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MOD_ID</span></div>
+<dl class="notes">
+<dt>See Also:</dt>
+<dd>
+<ul class="tag-list">
+<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.MOD_ID">Constant Field Values</a></li>
+</ul>
+</dd>
+</dl>
+</div>
 :::
 
 
@@ -89,8 +97,17 @@ java.lang.Object
 
 :::tabs
 == MOD_NAME
-<div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MOD_NAME</span></div>
-<dl class="notes"></dl>
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MOD_NAME</span></div>
+<dl class="notes">
+<dt>See Also:</dt>
+<dd>
+<ul class="tag-list">
+<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.MOD_NAME">Constant Field Values</a></li>
+</ul>
+</dd>
+</dl>
+</div>
 :::
 
 
@@ -100,8 +117,17 @@ java.lang.Object
 
 :::tabs
 == MOD_VERSION
-<div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MOD_VERSION</span></div>
-<dl class="notes"></dl>
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MOD_VERSION</span></div>
+<dl class="notes">
+<dt>See Also:</dt>
+<dd>
+<ul class="tag-list">
+<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.MOD_VERSION">Constant Field Values</a></li>
+</ul>
+</dd>
+</dl>
+</div>
 :::
 
 
@@ -111,8 +137,17 @@ java.lang.Object
 
 :::tabs
 == INTERACTABLE_MODEL_LOADER
-<div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">INTERACTABLE_MODEL_LOADER</span></div>
-<dl class="notes"></dl>
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">INTERACTABLE_MODEL_LOADER</span></div>
+<dl class="notes">
+<dt>See Also:</dt>
+<dd>
+<ul class="tag-list">
+<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.INTERACTABLE_MODEL_LOADER">Constant Field Values</a></li>
+</ul>
+</dd>
+</dl>
+</div>
 :::
 
 
@@ -122,8 +157,17 @@ java.lang.Object
 
 :::tabs
 == TICKS_BETWEEN_CHISEL_USAGE
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">TICKS_BETWEEN_CHISEL_USAGE</span></div>
-<dl class="notes"></dl>
+<dl class="notes">
+<dt>See Also:</dt>
+<dd>
+<ul class="tag-list">
+<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.TICKS_BETWEEN_CHISEL_USAGE">Constant Field Values</a></li>
+</ul>
+</dd>
+</dl>
+</div>
 :::
 
 
@@ -133,8 +177,17 @@ java.lang.Object
 
 :::tabs
 == TICKS_BETWEEN_CHISEL_ERRORS
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">TICKS_BETWEEN_CHISEL_ERRORS</span></div>
-<dl class="notes"></dl>
+<dl class="notes">
+<dt>See Also:</dt>
+<dd>
+<ul class="tag-list">
+<li><a href="../../../../../constant-values.html#mod.chiselsandbits.api.util.constants.Constants.TICKS_BETWEEN_CHISEL_ERRORS">Constant Field Values</a></li>
+</ul>
+</dd>
+</dl>
+</div>
 :::
 
 

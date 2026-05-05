@@ -19,8 +19,8 @@ extends <a href="../accessor/IStateEntryInfo.html" title="interface in mod.chise
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -64,11 +64,8 @@ extends <a href="../accessor/IStateEntryInfo.html" title="interface in mod.chise
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.<a href="../accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>
-<a href="../accessor/IStateEntryInfo.html#getBlockInformation()">getBlockInformation</a>, <a href="../accessor/IStateEntryInfo.html#getBoundingBox()">getBoundingBox</a>, <a href="../accessor/IStateEntryInfo.html#getCenterPoint()">getCenterPoint</a>, <a href="../accessor/IStateEntryInfo.html#getEndPoint()">getEndPoint</a>, <a href="../accessor/IStateEntryInfo.html#getStartPoint()">getStartPoint</a>
-:::::
-:::::::
+Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.<a href="../accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a><a href="../accessor/IStateEntryInfo.html#getBlockInformation()" title="getBlockInformation()">getBlockInformation</a>, <a href="../accessor/IStateEntryInfo.html#getBoundingBox()" title="getBoundingBox()">getBoundingBox</a>, <a href="../accessor/IStateEntryInfo.html#getCenterPoint()" title="getCenterPoint()">getCenterPoint</a>, <a href="../accessor/IStateEntryInfo.html#getEndPoint()" title="getEndPoint()">getEndPoint</a>, <a href="../accessor/IStateEntryInfo.html#getStartPoint()" title="getStartPoint()">getStartPoint</a></section>
+</li>
   
   
   
@@ -85,52 +82,65 @@ extends <a href="../accessor/IStateEntryInfo.html" title="interface in mod.chise
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="setBlockInformation(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
 == setBlockInformation
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setBlockInformation</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span>
                   throws <span class="exceptions"><a href="../../exceptions/SpaceOccupiedException.html" title="class in mod.chiselsandbits.api.exceptions">SpaceOccupiedException</a></span></div>
-Sets the current entries block information.
+<div class="block">Sets the current entries block information.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The new block information of the entry.</dd>
 <dt>Throws:</dt>
 <dd><code><a href="../../exceptions/SpaceOccupiedException.html" title="class in mod.chiselsandbits.api.exceptions">SpaceOccupiedException</a></code> - When the space is not clear and as such the bit can not be set.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="clear()">
 
 :::tabs
 == clear
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span>()</div>
-Clears the current state entries blockstate.
- Effectively setting the current blockstate to air.
-<dl class="notes"></dl>
+<div class="block">Clears the current state entries blockstate.
+Effectively setting the current blockstate to air.</div>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="overrideState(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
 == overrideState
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">overrideState</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-Overrides the current entries block information
+<div class="block">Overrides the current entries block information</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The new block information of the entry.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

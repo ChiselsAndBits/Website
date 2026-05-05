@@ -19,8 +19,8 @@ Represents a single change that has been created with bits.
 <dl class="notes"></dl>  
 
 <!-- =========== FIELD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Field Summary  
+<li>
+<section class="field-summary" id="field-summary">Field Summary  
 :::tabs
 == Fields
 <table class="stretched-table">
@@ -29,16 +29,17 @@ Represents a single change that has been created with bits.
   </thead>
   <tbody>
   <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</code></td><td><code><a href="#CODEC" class="member-name-link">CODEC</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf,<wbr><a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</code></td><td><code><a href="#STREAM_CODEC" class="member-name-link">STREAM_CODEC</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</code></td><td><code><a href="#STREAM_CODEC" class="member-name-link">STREAM_CODEC</a></code></td><td>&nbsp;</td></tr>
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -68,11 +69,8 @@ Represents a single change that has been created with bits.
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a href="IChangeHandler.html" title="interface in mod.chiselsandbits.api.change.changes">IChangeHandler</a>
-<a href="IChangeHandler.html#canRedo(net.minecraft.world.entity.player.Player)">canRedo</a>, <a href="IChangeHandler.html#canUndo(net.minecraft.world.entity.player.Player)">canUndo</a>, <a href="IChangeHandler.html#redo(net.minecraft.world.entity.player.Player)">redo</a>, <a href="IChangeHandler.html#undo(net.minecraft.world.entity.player.Player)">undo</a>
-:::::
-:::::::
+Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a href="IChangeHandler.html" title="interface in mod.chiselsandbits.api.change.changes">IChangeHandler</a><a href="IChangeHandler.html#canRedo(net.minecraft.world.entity.player.Player)" title="canRedo(Player)">canRedo</a>, <a href="IChangeHandler.html#canUndo(net.minecraft.world.entity.player.Player)" title="canUndo(Player)">canUndo</a>, <a href="IChangeHandler.html#redo(net.minecraft.world.entity.player.Player)" title="redo(Player)">redo</a>, <a href="IChangeHandler.html#undo(net.minecraft.world.entity.player.Player)" title="undo(Player)">undo</a></section>
+</li>
   
   
   
@@ -87,8 +85,9 @@ Represents a single change that has been created with bits.
 
 :::tabs
 == CODEC
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</span>&nbsp;<span class="element-name">CODEC</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -98,8 +97,9 @@ Represents a single change that has been created with bits.
 
 :::tabs
 == STREAM_CODEC
-<div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf,<wbr><a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</span>&nbsp;<span class="element-name">STREAM_CODEC</span></div>
-<dl class="notes"></dl>
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</span>&nbsp;<span class="element-name">STREAM_CODEC</span></div>
+</div>
 :::
 
 
@@ -114,21 +114,27 @@ Represents a single change that has been created with bits.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getType()">
 
 :::tabs
 == getType
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IChangeType.html" title="interface in mod.chiselsandbits.api.change.changes">IChangeType</a></span>&nbsp;<span class="element-name">getType</span>()</div>
-Returns The type of the change..
+<div class="block">Returns The type of the change..</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The type of the change.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

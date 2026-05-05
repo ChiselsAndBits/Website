@@ -12,7 +12,7 @@ java.lang.Object
   
 ---
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">PatternIOException</span><br/>  
-<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Exception.html" title="class or interface in java.lang" class="external-link">Exception</a></span></div>  
+<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Exception.html" title="class or interface in java.lang" class="external-link">Exception</a></span></div>  
 
   
 
@@ -28,8 +28,8 @@ java.lang.Object
 </dl>  
 
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Constructor Summary  
+<li>
+<section class="constructor-summary" id="constructor-summary">Constructor Summary  
 :::tabs
 == Constructors
 <table class="stretched-table">
@@ -37,17 +37,18 @@ java.lang.Object
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#%3Cinit%3E(net.minecraft.network.chat.Component,java.lang.String)" class="member-name-link">PatternIOException</a><wbr>(net.minecraft.network.chat.Component&nbsp;errorMessage,<br> <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;logMessage)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#%3Cinit%3E(net.minecraft.network.chat.Component,java.lang.String,java.lang.Throwable)" class="member-name-link">PatternIOException</a><wbr>(net.minecraft.network.chat.Component&nbsp;errorMessage,<br> <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;message,<br> <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html" title="class or interface in java.lang" class="external-link">Throwable</a>&nbsp;cause)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#%3Cinit%3E(net.minecraft.network.chat.Component,java.lang.String)" class="member-name-link">PatternIOException</a><wbr>(net.minecraft.network.chat.Component&nbsp;errorMessage,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;logMessage)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#%3Cinit%3E(net.minecraft.network.chat.Component,java.lang.String,java.lang.Throwable)" class="member-name-link">PatternIOException</a><wbr>(net.minecraft.network.chat.Component&nbsp;errorMessage,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;message,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html" title="class or interface in java.lang" class="external-link">Throwable</a>&nbsp;cause)</code></td><td>&nbsp;</td></tr>
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -77,15 +78,8 @@ java.lang.Object
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html" title="class or interface in java.lang" class="external-link">Throwable</a>
-<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#addSuppressed(java.lang.Throwable)" title="class or interface in java.lang" class="external-link">addSuppressed</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#fillInStackTrace()" title="class or interface in java.lang" class="external-link">fillInStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#getCause()" title="class or interface in java.lang" class="external-link">getCause</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#getLocalizedMessage()" title="class or interface in java.lang" class="external-link">getLocalizedMessage</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#getMessage()" title="class or interface in java.lang" class="external-link">getMessage</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#getStackTrace()" title="class or interface in java.lang" class="external-link">getStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#getSuppressed()" title="class or interface in java.lang" class="external-link">getSuppressed</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#initCause(java.lang.Throwable)" title="class or interface in java.lang" class="external-link">initCause</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#printStackTrace()" title="class or interface in java.lang" class="external-link">printStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#printStackTrace(java.io.PrintStream)" title="class or interface in java.lang" class="external-link">printStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#printStackTrace(java.io.PrintWriter)" title="class or interface in java.lang" class="external-link">printStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#setStackTrace(java.lang.StackTraceElement%5B%5D)" title="class or interface in java.lang" class="external-link">setStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>
-<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>
-:::::
-:::::::
+Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html" title="class or interface in java.lang" class="external-link">Throwable</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#addSuppressed(java.lang.Throwable)" title="class or interface in java.lang" class="external-link">addSuppressed</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#fillInStackTrace()" title="class or interface in java.lang" class="external-link">fillInStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#getCause()" title="class or interface in java.lang" class="external-link">getCause</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#getLocalizedMessage()" title="class or interface in java.lang" class="external-link">getLocalizedMessage</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#getMessage()" title="class or interface in java.lang" class="external-link">getMessage</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#getStackTrace()" title="class or interface in java.lang" class="external-link">getStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#getSuppressed()" title="class or interface in java.lang" class="external-link">getSuppressed</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#initCause(java.lang.Throwable)" title="class or interface in java.lang" class="external-link">initCause</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#printStackTrace()" title="class or interface in java.lang" class="external-link">printStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#printStackTrace(java.io.PrintStream)" title="class or interface in java.lang" class="external-link">printStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#printStackTrace(java.io.PrintWriter)" title="class or interface in java.lang" class="external-link">printStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#setStackTrace(java.lang.StackTraceElement%5B%5D)" title="class or interface in java.lang" class="external-link">setStackTrace</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a></section>
+</li>
   
   
   
@@ -102,9 +96,10 @@ java.lang.Object
 
 :::tabs
 == PatternIOException
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">PatternIOException</span><wbr><span class="parameters">(net.minecraft.network.chat.Component&nbsp;errorMessage,
- <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;logMessage)</span></div>
-<dl class="notes"></dl>
+ <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;logMessage)</span></div>
+</div>
 :::
 
 
@@ -114,10 +109,11 @@ java.lang.Object
 
 :::tabs
 == PatternIOException
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">PatternIOException</span><wbr><span class="parameters">(net.minecraft.network.chat.Component&nbsp;errorMessage,
- <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;message,
- <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Throwable.html" title="class or interface in java.lang" class="external-link">Throwable</a>&nbsp;cause)</span></div>
-<dl class="notes"></dl>
+ <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;message,
+ <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html" title="class or interface in java.lang" class="external-link">Throwable</a>&nbsp;cause)</span></div>
+</div>
 :::
 
 
@@ -130,17 +126,22 @@ java.lang.Object
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getErrorMessage()">
 
 :::tabs
 == getErrorMessage
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getErrorMessage</span>()</div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

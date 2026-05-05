@@ -15,18 +15,15 @@ extends <a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbi
   
 
 Indicates that the area shape identifier can not be subdivided and as such change
- its underlying bit layout, when used in a combining fashion.  
+its underlying bit layout, when used in a combining fashion.  
 
 <dl class="notes"></dl>  
 
 <!-- =========== FIELD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Field Summary  
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Fields inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.identifier.<a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a>
-<a href="IAreaShapeIdentifier.html#DUMMY">DUMMY</a>
-:::::
-:::::::
+<li>
+<section class="field-summary" id="field-summary">Field Summary  
+Fields inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.identifier.<a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a><a href="IAreaShapeIdentifier.html#DUMMY">DUMMY</a></section>
+</li>
   
   
   

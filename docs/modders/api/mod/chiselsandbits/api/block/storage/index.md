@@ -19,11 +19,11 @@ package mod.chiselsandbits.api.block.storage;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[StateEntryPalette](StateEntryPalette.md)</td><td></td></tr>
-  <tr><td>[Result](StateEntryPalette.Result.md)</td><td>Represents the result of a palette operation.</td></tr>
   <tr><td>[SizeInformation](StateEntryPalette.SizeInformation.md)</td><td>Represents the size information of the palette.</td></tr>
-  <tr><td>[StateEntryStorage](StateEntryStorage.md)</td><td></td></tr>
+  <tr><td>[Result](StateEntryPalette.Result.md)</td><td>Represents the result of a palette operation.</td></tr>
   <tr><td>[Entry](StateEntryPalette.Entry.md)</td><td></td></tr>
+  <tr><td>[StateEntryStorage](StateEntryStorage.md)</td><td></td></tr>
+  <tr><td>[StateEntryPalette](StateEntryPalette.md)</td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -45,10 +45,10 @@ No types found.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[StateEntryPalette](StateEntryPalette.md)</td><td></td></tr>
-  <tr><td>[Result](StateEntryPalette.Result.md)</td><td>Represents the result of a palette operation.</td></tr>
   <tr><td>[SizeInformation](StateEntryPalette.SizeInformation.md)</td><td>Represents the size information of the palette.</td></tr>
+  <tr><td>[Result](StateEntryPalette.Result.md)</td><td>Represents the result of a palette operation.</td></tr>
   <tr><td>[Entry](StateEntryPalette.Entry.md)</td><td></td></tr>
+  <tr><td>[StateEntryPalette](StateEntryPalette.md)</td><td></td></tr>
   </tbody>
 </table>
 :::

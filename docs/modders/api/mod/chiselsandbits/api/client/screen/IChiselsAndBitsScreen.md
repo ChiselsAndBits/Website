@@ -15,8 +15,8 @@ A screen for chisels and bits.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -46,7 +46,8 @@ A screen for chisels and bits.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -63,21 +64,27 @@ A screen for chisels and bits.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="isInitialized()">
 
 :::tabs
 == isInitialized
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isInitialized</span>()</div>
-Indicates if the screen has been initialized or not.
+<div class="block">Indicates if the screen has been initialized or not.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> if the screen has been initialized, <code>false</code> otherwise.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

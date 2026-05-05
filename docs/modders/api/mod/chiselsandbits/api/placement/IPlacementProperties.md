@@ -15,8 +15,8 @@ _Package:_ [mod.chiselsandbits.api.placement](index.md)
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -46,7 +46,8 @@ _Package:_ [mod.chiselsandbits.api.placement](index.md)
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -63,18 +64,23 @@ _Package:_ [mod.chiselsandbits.api.placement](index.md)
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="overridesOccupiedBits(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == overridesOccupiedBits
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">overridesOccupiedBits</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack)</span></div>
-Invoked to determine whether this replaces non-air bits of blocks, or only replaces air bits.
-<dl class="notes"></dl>
+<div class="block">Invoked to determine whether this replaces non-air bits of blocks, or only replaces air bits.</div>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

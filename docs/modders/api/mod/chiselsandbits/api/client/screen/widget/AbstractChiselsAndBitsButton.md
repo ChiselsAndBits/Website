@@ -23,48 +23,26 @@ implements <a href="IChiselsAndBitsWidget.html" title="interface in mod.chiselsa
   
 
 An abstract chisels and bits button.
- Is used to be able to retroactively initialize a button when it's containing screen is initialized.  
+Is used to be able to retroactively initialize a button when it's containing screen is initialized.  
 
 <dl class="notes"></dl>  
 
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Nested Class Summary  
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Nested classes/interfaces inherited from class&nbsp;net.minecraft.client.gui.components.Button
-net.minecraft.client.gui.components.Button.Builder, net.minecraft.client.gui.components.Button.CreateNarration, net.minecraft.client.gui.components.Button.OnPress, net.minecraft.client.gui.components.Button.Plain
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Nested classes/interfaces inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidget
-net.minecraft.client.gui.components.AbstractWidget.WithInactiveMessage
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Nested classes/interfaces inherited from interface&nbsp;net.minecraft.client.gui.narration.NarratableEntry
-net.minecraft.client.gui.narration.NarratableEntry.NarrationPriority
-:::::
-:::::::
+<li>
+<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
+Nested classes/interfaces inherited from class&nbsp;net.minecraft.client.gui.components.Buttonnet.minecraft.client.gui.components.Button.Builder, net.minecraft.client.gui.components.Button.CreateNarration, net.minecraft.client.gui.components.Button.OnPress, net.minecraft.client.gui.components.Button.PlainNested classes/interfaces inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidgetnet.minecraft.client.gui.components.AbstractWidget.WithInactiveMessageNested classes/interfaces inherited from interface&nbsp;net.minecraft.client.gui.narration.NarratableEntrynet.minecraft.client.gui.narration.NarratableEntry.NarrationPriority</section>
+</li>
   
   
 <!-- =========== FIELD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Field Summary  
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Fields inherited from class&nbsp;net.minecraft.client.gui.components.Button
-BIG_WIDTH, createNarration, DEFAULT_HEIGHT, DEFAULT_NARRATION, DEFAULT_SPACING, DEFAULT_WIDTH, onPress, SMALL_WIDTH
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Fields inherited from class&nbsp;net.minecraft.client.gui.components.AbstractButton
-TEXT_MARGIN
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Fields inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidget
-active, alpha, height, isHovered, message, visible, width
-:::::
-:::::::
+<li>
+<section class="field-summary" id="field-summary">Field Summary  
+Fields inherited from class&nbsp;net.minecraft.client.gui.components.ButtonBIG_WIDTH, createNarration, DEFAULT_HEIGHT, DEFAULT_NARRATION, DEFAULT_SPACING, DEFAULT_WIDTH, onPress, SMALL_WIDTHFields inherited from class&nbsp;net.minecraft.client.gui.components.AbstractButtonTEXT_MARGINFields inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidgetactive, alpha, height, isHovered, message, visible, width</section>
+</li>
   
   
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Constructor Summary  
+<li>
+<section class="constructor-summary" id="constructor-summary">Constructor Summary  
 :::tabs
 == Constructors
 <table class="stretched-table">
@@ -76,12 +54,13 @@ active, alpha, height, isHovered, message, visible, width
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -114,47 +93,8 @@ active, alpha, height, isHovered, message, visible, width
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;net.minecraft.client.gui.components.Button
-builder, createNarrationMessage, onPress, updateWidgetNarration
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;net.minecraft.client.gui.components.AbstractButton
-keyPressed, onClick, renderContents, renderDefaultLabel, renderDefaultSprite, renderWidget, setOverrideRenderHighlightedSprite
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidget.WithInactiveMessage
-defaultInactiveMessage, getMessage, setMessage
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidget
-defaultButtonNarrationText, getAlpha, getBottom, getHeight, getRectangle, getRight, getTabOrderGroup, getWidth, getX, getY, handleCursor, isActive, isFocused, isHovered, isHoveredOrFocused, isMouseOver, isValidClickButton, mouseClicked, mouseDragged, mouseReleased, narrationPriority, nextFocusPath, onDrag, onRelease, playButtonClickSound, playDownSound, render, renderScrollingStringOverContents, setAlpha, setFocused, setHeight, setRectangle, setSize, setTabOrderGroup, setTooltip, setTooltipDelay, setWidth, setX, setY, updateNarration, visitWidgets, wrapDefaultNarrationMessage
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>
-<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;net.minecraft.client.gui.components.events.GuiEventListener
-charTyped, getBorderForArrowNavigation, getCurrentFocusPath, getRectangle, isFocused, isMouseOver, keyPressed, keyReleased, mouseClicked, mouseDragged, mouseMoved, mouseReleased, mouseScrolled, nextFocusPath, setFocused, shouldTakeFocusAfterInteraction
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;net.minecraft.client.gui.layouts.LayoutElement
-setPosition
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;net.minecraft.client.gui.narration.NarratableEntry
-getNarratables
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;net.minecraft.client.gui.components.Renderable
-render
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;net.minecraft.client.gui.components.TabOrderedElement
-getTabOrderGroup
-:::::
-:::::::
+Methods inherited from class&nbsp;net.minecraft.client.gui.components.Buttonbuilder, createNarrationMessage, onPress, updateWidgetNarrationMethods inherited from class&nbsp;net.minecraft.client.gui.components.AbstractButtonextractContents, extractDefaultLabel, extractDefaultSprite, extractWidgetRenderState, keyPressed, onClick, setOverrideRenderHighlightedSpriteMethods inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidget.WithInactiveMessagedefaultInactiveMessage, getMessage, setMessageMethods inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidgetdefaultButtonNarrationText, extractRenderState, extractScrollingStringOverContents, getAlpha, getBottom, getHeight, getRectangle, getRight, getTabOrderGroup, getWidth, getX, getY, handleCursor, isActive, isFocused, isHovered, isHoveredOrFocused, isMouseOver, isValidClickButton, mouseClicked, mouseDragged, mouseReleased, narrationPriority, nextFocusPath, onDrag, onRelease, playButtonClickSound, playDownSound, setAlpha, setFocused, setHeight, setRectangle, setSize, setTabOrderGroup, setTooltip, setTooltipDelay, setWidth, setX, setY, updateNarration, visitWidgets, wrapDefaultNarrationMessageMethods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>Methods inherited from interface&nbsp;net.minecraft.client.gui.components.events.GuiEventListenercharTyped, getBorderForArrowNavigation, getCurrentFocusPath, getRectangle, isFocused, isMouseOver, keyPressed, keyReleased, mouseClicked, mouseDragged, mouseMoved, mouseReleased, mouseScrolled, nextFocusPath, preeditUpdated, setFocused, shouldTakeFocusAfterInteractionMethods inherited from interface&nbsp;net.minecraft.client.gui.layouts.LayoutElementsetPositionMethods inherited from interface&nbsp;net.minecraft.client.gui.narration.NarratableEntrygetNarratablesMethods inherited from interface&nbsp;net.minecraft.client.gui.components.RenderableextractRenderStateMethods inherited from interface&nbsp;net.minecraft.client.gui.components.TabOrderedElementgetTabOrderGroup</section>
+</li>
   
   
   
@@ -171,6 +111,7 @@ getTabOrderGroup
 
 :::tabs
 == AbstractChiselsAndBitsButton
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">AbstractChiselsAndBitsButton</span><wbr><span class="parameters">(int&nbsp;x,
  int&nbsp;y,
  int&nbsp;width,
@@ -178,7 +119,7 @@ getTabOrderGroup
  net.minecraft.network.chat.Component&nbsp;narration,
  net.minecraft.client.gui.components.Button.OnPress&nbsp;pressable,
  net.minecraft.client.gui.components.Button.CreateNarration&nbsp;tooltip)</span></div>
-Creates a new button with a tooltip.
+<div class="block">Creates a new button with a tooltip.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>x</code> - The x position.</dd>
@@ -189,6 +130,7 @@ Creates a new button with a tooltip.
 <dd><code>pressable</code> - The press callback.</dd>
 <dd><code>tooltip</code> - The tooltip handling logic.</dd>
 </dl>
+</div>
 :::
 
 
@@ -201,38 +143,48 @@ Creates a new button with a tooltip.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="init()">
 
 :::tabs
 == init
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">init</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="IChiselsAndBitsWidget.html#init()">IChiselsAndBitsWidget</a></code></span></div>
-Invoked by the screen, when said screen is initialized.
+<div class="block">Invoked by the screen, when said screen is initialized.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="IChiselsAndBitsWidget.html#init()">init</a></code>&nbsp;in interface&nbsp;<code><a href="IChiselsAndBitsWidget.html" title="interface in mod.chiselsandbits.api.client.screen.widget">IChiselsAndBitsWidget</a></code></dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="removed()">
 
 :::tabs
 == removed
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">removed</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="IChiselsAndBitsWidget.html#removed()">IChiselsAndBitsWidget</a></code></span></div>
-Invoked by the screen, when it is removed from the display.
+<div class="block">Invoked by the screen, when it is removed from the display.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="IChiselsAndBitsWidget.html#removed()">removed</a></code>&nbsp;in interface&nbsp;<code><a href="IChiselsAndBitsWidget.html" title="interface in mod.chiselsandbits.api.client.screen.widget">IChiselsAndBitsWidget</a></code></dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

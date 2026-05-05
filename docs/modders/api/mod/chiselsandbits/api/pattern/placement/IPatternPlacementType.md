@@ -19,8 +19,8 @@ Presents a way placing a pattern in the world.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -56,35 +56,8 @@ Presents a way placing a pattern in the world.
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries.ICustomRegistryEntry
-getRegistryName
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="../../placement/IPlacementProperties.html" title="interface in mod.chiselsandbits.api.placement">IPlacementProperties</a>
-<a href="../../placement/IPlacementProperties.html#overridesOccupiedBits(net.minecraft.world.item.ItemStack)">overridesOccupiedBits</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a href="../../item/withmode/IRenderableMode.html" title="interface in mod.chiselsandbits.api.item.withmode">IRenderableMode</a>
-<a href="../../item/withmode/IRenderableMode.html#getColorVector()">getColorVector</a>, <a href="../../item/withmode/IRenderableMode.html#getPositionVector()">getPositionVector</a>, <a href="../../item/withmode/IRenderableMode.html#getScaleVector()">getScaleVector</a>, <a href="../../item/withmode/IRenderableMode.html#isActive()">isActive</a>, <a href="../../item/withmode/IRenderableMode.html#shouldRenderDisplayNameInMenu()">shouldRenderDisplayNameInMenu</a>, <a href="../../item/withmode/IRenderableMode.html#shouldRenderName()">shouldRenderName</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a href="../../item/withmode/IToolMode.html" title="interface in mod.chiselsandbits.api.item.withmode">IToolMode</a>
-<a href="../../item/withmode/IToolMode.html#getGroup()">getGroup</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/IWithColor.html" title="interface in mod.chiselsandbits.api.util">IWithColor</a>
-<a href="../../util/IWithColor.html#getAlphaChannel()">getAlphaChannel</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/IWithDisplayName.html" title="interface in mod.chiselsandbits.api.util">IWithDisplayName</a>
-<a href="../../util/IWithDisplayName.html#getDisplayName()">getDisplayName</a>, <a href="../../util/IWithDisplayName.html#getMultiLineDisplayName()">getMultiLineDisplayName</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/IWithIcon.html" title="interface in mod.chiselsandbits.api.util">IWithIcon</a>
-<a href="../../util/IWithIcon.html#getIcon()">getIcon</a>
-:::::
-:::::::
+Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries.ICustomRegistryEntrygetRegistryNameMethods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="../../placement/IPlacementProperties.html" title="interface in mod.chiselsandbits.api.placement">IPlacementProperties</a><a href="../../placement/IPlacementProperties.html#overridesOccupiedBits(net.minecraft.world.item.ItemStack)" title="overridesOccupiedBits(ItemStack)">overridesOccupiedBits</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a href="../../item/withmode/IRenderableMode.html" title="interface in mod.chiselsandbits.api.item.withmode">IRenderableMode</a><a href="../../item/withmode/IRenderableMode.html#getColorVector()" title="getColorVector()">getColorVector</a>, <a href="../../item/withmode/IRenderableMode.html#getPositionVector()" title="getPositionVector()">getPositionVector</a>, <a href="../../item/withmode/IRenderableMode.html#getScaleVector()" title="getScaleVector()">getScaleVector</a>, <a href="../../item/withmode/IRenderableMode.html#isActive()" title="isActive()">isActive</a>, <a href="../../item/withmode/IRenderableMode.html#shouldRenderDisplayNameInMenu()" title="shouldRenderDisplayNameInMenu()">shouldRenderDisplayNameInMenu</a>, <a href="../../item/withmode/IRenderableMode.html#shouldRenderName()" title="shouldRenderName()">shouldRenderName</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a href="../../item/withmode/IToolMode.html" title="interface in mod.chiselsandbits.api.item.withmode">IToolMode</a><a href="../../item/withmode/IToolMode.html#getGroup()" title="getGroup()">getGroup</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/IWithColor.html" title="interface in mod.chiselsandbits.api.util">IWithColor</a><a href="../../util/IWithColor.html#getAlphaChannel()" title="getAlphaChannel()">getAlphaChannel</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/IWithDisplayName.html" title="interface in mod.chiselsandbits.api.util">IWithDisplayName</a><a href="../../util/IWithDisplayName.html#getDisplayName()" title="getDisplayName()">getDisplayName</a>, <a href="../../util/IWithDisplayName.html#getMultiLineDisplayName()" title="getMultiLineDisplayName()">getMultiLineDisplayName</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/IWithIcon.html" title="interface in mod.chiselsandbits.api.util">IWithIcon</a><a href="../../util/IWithIcon.html#getIcon()" title="getIcon()">getIcon</a></section>
+</li>
   
   
   
@@ -101,15 +74,18 @@ getRegistryName
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="buildVoxelShapeForWireframe(mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)">
 
 :::tabs
 == buildVoxelShapeForWireframe
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.shapes.VoxelShape</span>&nbsp;<span class="element-name">buildVoxelShapeForWireframe</span><wbr><span class="parameters">(<a href="../../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;sourceSnapshot,
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.Vec3&nbsp;targetedPoint,
  net.minecraft.core.Direction&nbsp;hitFace)</span></div>
-Used to build a voxelshape for rendering in the preview.
+<div class="block">Used to build a voxelshape for rendering in the preview.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>sourceSnapshot</code> - The snapshot stored in the pattern for placement.</dd>
@@ -119,19 +95,23 @@ Used to build a voxelshape for rendering in the preview.
 <dt>Returns:</dt>
 <dd>The VoxelShape used to render the wireframe.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="performPlacement(mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,net.minecraft.world.item.context.BlockPlaceContext,boolean)">
 
 :::tabs
 == performPlacement
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../../placement/PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></span>&nbsp;<span class="element-name">performPlacement</span><wbr><span class="parameters">(<a href="../../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;source,
  net.minecraft.world.item.context.BlockPlaceContext&nbsp;context,
  boolean&nbsp;simulate)</span></div>
-Invoked to perform the actual placement of the pattern in the world.
+<div class="block">Invoked to perform the actual placement of the pattern in the world.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>source</code> - The snapshot stored in the pattern for placement.</dd>
@@ -140,19 +120,23 @@ Invoked to perform the actual placement of the pattern in the world.
 <dt>Returns:</dt>
 <dd>The action result which influences the further processing of the click interaction.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
 == getTargetedPosition
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getTargetedPosition</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-Invoked to determine where the targeted position of the placement type is.
+<div class="block">Invoked to determine where the targeted position of the placement type is.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack that the player is holding.</dd>
@@ -161,11 +145,14 @@ Invoked to determine where the targeted position of the placement type is.
 <dt>Returns:</dt>
 <dd>The position of the potential placement.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

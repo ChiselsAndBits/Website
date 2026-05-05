@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.client.render.preview.chiseling;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IChiselContextPreviewRendererRegistry](IChiselContextPreviewRendererRegistry.md)</td><td>Registry for registering possible chiseling context preview renderers,<br> and for getting the current renderer back out.</td></tr>
+  <tr><td>[IChiselContextPreviewRendererRegistry](IChiselContextPreviewRendererRegistry.md)</td><td>Registry for registering possible chiseling context preview renderers,<br>and for getting the current renderer back out.</td></tr>
   <tr><td>[IChiselContextPreviewRenderer](IChiselContextPreviewRenderer.md)</td><td>Renderer which is used to render the chiseling preview.</td></tr>
   </tbody>
 </table>
@@ -29,7 +29,7 @@ package mod.chiselsandbits.api.client.render.preview.chiseling;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IChiselContextPreviewRendererRegistry](IChiselContextPreviewRendererRegistry.md)</td><td>Registry for registering possible chiseling context preview renderers,<br> and for getting the current renderer back out.</td></tr>
+  <tr><td>[IChiselContextPreviewRendererRegistry](IChiselContextPreviewRendererRegistry.md)</td><td>Registry for registering possible chiseling context preview renderers,<br>and for getting the current renderer back out.</td></tr>
   <tr><td>[IChiselContextPreviewRenderer](IChiselContextPreviewRenderer.md)</td><td>Renderer which is used to render the chiseling preview.</td></tr>
   </tbody>
 </table>

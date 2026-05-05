@@ -15,8 +15,8 @@ Deals with the way items are able to handle left click interactions.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -60,7 +60,8 @@ Deals with the way items are able to handle left click interactions.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -77,19 +78,22 @@ Deals with the way items are able to handle left click interactions.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="handleLeftClickProcessing(net.minecraft.world.entity.player.Player,net.minecraft.world.InteractionHand,net.minecraft.core.BlockPos,net.minecraft.core.Direction,mod.chiselsandbits.api.item.click.ClickProcessingState)">
 
 :::tabs
 == handleLeftClickProcessing
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">handleLeftClickProcessing</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  net.minecraft.world.InteractionHand&nbsp;hand,
  net.minecraft.core.BlockPos&nbsp;position,
  net.minecraft.core.Direction&nbsp;face,
  <a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a>&nbsp;currentState)</span></div>
-Callback invoked when a supported item is used to left click.
+<div class="block">Callback invoked when a supported item is used to left click.
 
- Allows for said item to take over the processing logic of the left clicking
- and can afterwards block the further vanilla processing.
+Allows for said item to take over the processing logic of the left clicking
+and can afterwards block the further vanilla processing.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The entity who left clicked.</dd>
@@ -100,48 +104,59 @@ Callback invoked when a supported item is used to left click.
 <dt>Returns:</dt>
 <dd>The processing state with which the processing of the left click should continue.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="onLeftClickProcessingEnd(net.minecraft.world.entity.player.Player,net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == onLeftClickProcessingEnd
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onLeftClickProcessingEnd</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-Invoked by the platform to indicate to this item that a left-clicking procedure has ended.
+<div class="block">Invoked by the platform to indicate to this item that a left-clicking procedure has ended.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player who stopped left-clicking.</dd>
 <dd><code>stack</code> - The stack on which the clicking ended.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="canUse(net.minecraft.world.entity.player.Player,net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == canUse
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canUse</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-Indicates if the player can use the item in the current interaction.
- If this returns false, then no processing is performed and the interaction
- event is cancelled.
+<div class="block">Indicates if the player can use the item in the current interaction.
+If this returns false, then no processing is performed and the interaction
+event is cancelled.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player in question.</dd>
 <dt>Returns:</dt>
 <dd>True when useable, false when not.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

@@ -15,8 +15,8 @@ Represents something which supports the unsealing of itemstacks.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -46,7 +46,8 @@ Represents something which supports the unsealing of itemstacks.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -63,15 +64,18 @@ Represents something which supports the unsealing of itemstacks.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="unseal(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == unseal
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">unseal</span><wbr><span class="parameters">(@NotNull
  @NotNull net.minecraft.world.item.ItemStack&nbsp;source)</span>
                                             throws <span class="exceptions"><a href="../exceptions/SealingNotSupportedException.html" title="class in mod.chiselsandbits.api.exceptions">SealingNotSupportedException</a></span></div>
-Performs the unsealing operation on the given itemstack.
+<div class="block">Performs the unsealing operation on the given itemstack.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>source</code> - The source itemstack to unseal.</dd>
@@ -80,11 +84,14 @@ Performs the unsealing operation on the given itemstack.
 <dt>Throws:</dt>
 <dd><code><a href="../exceptions/SealingNotSupportedException.html" title="class in mod.chiselsandbits.api.exceptions">SealingNotSupportedException</a></code> - Thrown when the given stack could not be unsealed.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

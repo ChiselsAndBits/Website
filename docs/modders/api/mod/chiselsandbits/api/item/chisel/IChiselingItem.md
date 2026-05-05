@@ -19,8 +19,8 @@ extends <a href="../click/ILeftClickControllingItem.html" title="interface in mo
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -50,19 +50,8 @@ extends <a href="../click/ILeftClickControllingItem.html" title="interface in mo
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.click.<a href="../click/ILeftClickControllingItem.html" title="interface in mod.chiselsandbits.api.item.click">ILeftClickControllingItem</a>
-<a href="../click/ILeftClickControllingItem.html#canUse(net.minecraft.world.entity.player.Player,net.minecraft.world.item.ItemStack)">canUse</a>, <a href="../click/ILeftClickControllingItem.html#handleLeftClickProcessing(net.minecraft.world.entity.player.Player,net.minecraft.world.InteractionHand,net.minecraft.core.BlockPos,net.minecraft.core.Direction,mod.chiselsandbits.api.item.click.ClickProcessingState)">handleLeftClickProcessing</a>, <a href="../click/ILeftClickControllingItem.html#onLeftClickProcessingEnd(net.minecraft.world.entity.player.Player,net.minecraft.world.item.ItemStack)">onLeftClickProcessingEnd</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withhighlight.<a href="../withhighlight/IWithHighlightItem.html" title="interface in mod.chiselsandbits.api.item.withhighlight">IWithHighlightItem</a>
-<a href="../withhighlight/IWithHighlightItem.html#renderHighlight(net.minecraft.world.entity.player.Player,net.minecraft.client.renderer.LevelRenderer,com.mojang.blaze3d.vertex.PoseStack,net.minecraft.client.renderer.MultiBufferSource.BufferSource,net.minecraft.client.renderer.state.LevelRenderState,float)">renderHighlight</a>, <a href="../withhighlight/IWithHighlightItem.html#shouldDrawDefaultHighlight(net.minecraft.world.entity.player.Player)">shouldDrawDefaultHighlight</a>
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a href="../withmode/IWithModeItem.html" title="interface in mod.chiselsandbits.api.item.withmode">IWithModeItem</a>
-<a href="../withmode/IWithModeItem.html#getMode(net.minecraft.world.item.ItemStack)">getMode</a>, <a href="../withmode/IWithModeItem.html#getPossibleModes()">getPossibleModes</a>, <a href="../withmode/IWithModeItem.html#requiresUpdateOnClosure()">requiresUpdateOnClosure</a>, <a href="../withmode/IWithModeItem.html#setMode(net.minecraft.world.item.ItemStack,int)">setMode</a>, <a href="../withmode/IWithModeItem.html#setMode(net.minecraft.world.item.ItemStack,M)">setMode</a>
-:::::
-:::::::
+Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.click.<a href="../click/ILeftClickControllingItem.html" title="interface in mod.chiselsandbits.api.item.click">ILeftClickControllingItem</a><a href="../click/ILeftClickControllingItem.html#canUse(net.minecraft.world.entity.player.Player,net.minecraft.world.item.ItemStack)" title="canUse(Player, ItemStack)">canUse</a>, <a href="../click/ILeftClickControllingItem.html#handleLeftClickProcessing(net.minecraft.world.entity.player.Player,net.minecraft.world.InteractionHand,net.minecraft.core.BlockPos,net.minecraft.core.Direction,mod.chiselsandbits.api.item.click.ClickProcessingState)" title="handleLeftClickProcessing(Player, InteractionHand, BlockPos, Direction, ClickProcessingState)">handleLeftClickProcessing</a>, <a href="../click/ILeftClickControllingItem.html#onLeftClickProcessingEnd(net.minecraft.world.entity.player.Player,net.minecraft.world.item.ItemStack)" title="onLeftClickProcessingEnd(Player, ItemStack)">onLeftClickProcessingEnd</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withhighlight.<a href="../withhighlight/IWithHighlightItem.html" title="interface in mod.chiselsandbits.api.item.withhighlight">IWithHighlightItem</a><a href="../withhighlight/IWithHighlightItem.html#renderHighlight(net.minecraft.world.entity.player.Player,net.minecraft.client.renderer.LevelRenderer,com.mojang.blaze3d.vertex.PoseStack,net.minecraft.client.renderer.MultiBufferSource.BufferSource,net.minecraft.client.renderer.state.level.LevelRenderState,float)" title="renderHighlight(Player, LevelRenderer, PoseStack, MultiBufferSource.BufferSource, LevelRenderState, float)">renderHighlight</a>, <a href="../withhighlight/IWithHighlightItem.html#shouldDrawDefaultHighlight(net.minecraft.world.entity.player.Player)" title="shouldDrawDefaultHighlight(Player)">shouldDrawDefaultHighlight</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a href="../withmode/IWithModeItem.html" title="interface in mod.chiselsandbits.api.item.withmode">IWithModeItem</a><a href="../withmode/IWithModeItem.html#getMode(net.minecraft.world.item.ItemStack)" title="getMode(ItemStack)">getMode</a>, <a href="../withmode/IWithModeItem.html#getPossibleModes()" title="getPossibleModes()">getPossibleModes</a>, <a href="../withmode/IWithModeItem.html#requiresUpdateOnClosure()" title="requiresUpdateOnClosure()">requiresUpdateOnClosure</a>, <a href="../withmode/IWithModeItem.html#setMode(net.minecraft.world.item.ItemStack,int)" title="setMode(ItemStack, int)">setMode</a>, <a href="../withmode/IWithModeItem.html#setMode(net.minecraft.world.item.ItemStack,M)" title="setMode(ItemStack, IChiselMode)">setMode</a></section>
+</li>
   
   
   
@@ -79,17 +68,22 @@ extends <a href="../click/ILeftClickControllingItem.html" title="interface in mo
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="isDamageableDuringChiseling()">
 
 :::tabs
 == isDamageableDuringChiseling
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isDamageableDuringChiseling</span>()</div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

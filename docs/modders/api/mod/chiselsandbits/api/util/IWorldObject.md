@@ -15,8 +15,8 @@ Represents a 3D object in world.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -69,7 +69,8 @@ Represents a 3D object in world.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -86,96 +87,122 @@ Represents a 3D object in world.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getWorld()">
 
 :::tabs
 == getWorld
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.level.LevelAccessor</span>&nbsp;<span class="element-name">getWorld</span>()</div>
-The world the object is in.
+<div class="block">The world the object is in.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The world.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getInWorldStartPoint()">
 
 :::tabs
 == getInWorldStartPoint
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getInWorldStartPoint</span>()</div>
-The start point of the object in the world.
+<div class="block">The start point of the object in the world.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The start point.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getInWorldEndPoint()">
 
 :::tabs
 == getInWorldEndPoint
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getInWorldEndPoint</span>()</div>
-The end point of the object in the world.
+<div class="block">The end point of the object in the world.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The end point.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getInWorldStartBlockPoint()">
 
 :::tabs
 == getInWorldStartBlockPoint
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.core.BlockPos</span>&nbsp;<span class="element-name">getInWorldStartBlockPoint</span>()</div>
-The start block point of the object in the world.
+<div class="block">The start block point of the object in the world.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The start point.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getInWorldEndBlockPoint()">
 
 :::tabs
 == getInWorldEndBlockPoint
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.core.BlockPos</span>&nbsp;<span class="element-name">getInWorldEndBlockPoint</span>()</div>
-The end block point of the object in the world.
+<div class="block">The end block point of the object in the world.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The end point.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getInWorldBoundingBox()">
 
 :::tabs
 == getInWorldBoundingBox
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.AABB</span>&nbsp;<span class="element-name">getInWorldBoundingBox</span>()</div>
-Gives access to the in world axis aligned bounding box of the object.
+<div class="block">Gives access to the in world axis aligned bounding box of the object.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The axis aligned bounding box.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

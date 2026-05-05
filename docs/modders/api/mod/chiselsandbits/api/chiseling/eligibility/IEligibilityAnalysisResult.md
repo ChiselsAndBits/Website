@@ -15,8 +15,8 @@ The results of an eligibility analysis.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -52,7 +52,8 @@ The results of an eligibility analysis.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -69,51 +70,65 @@ The results of an eligibility analysis.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="canBeChiseled()">
 
 :::tabs
 == canBeChiseled
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">canBeChiseled</span>()</div>
-Indicates if the requested object can be chiseled.
+<div class="block">Indicates if the requested object can be chiseled.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True for chiselability.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="isAlreadyChiseled()">
 
 :::tabs
 == isAlreadyChiseled
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isAlreadyChiseled</span>()</div>
-Indicates if the requested object is already chiseled.
+<div class="block">Indicates if the requested object is already chiseled.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True when already chiseled.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getReason()">
 
 :::tabs
 == getReason
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.network.chat.MutableComponent</span>&nbsp;<span class="element-name">getReason</span>()</div>
-The reason why a given eligibility result returned if it can be chiseled or not.
+<div class="block">The reason why a given eligibility result returned if it can be chiseled or not.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The displayable reason.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

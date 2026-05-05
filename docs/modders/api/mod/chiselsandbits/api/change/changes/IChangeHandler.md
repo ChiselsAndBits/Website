@@ -15,8 +15,8 @@ Represents an entry point for a change that can be undone and redone.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -55,7 +55,8 @@ Represents an entry point for a change that can be undone and redone.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -72,76 +73,94 @@ Represents an entry point for a change that can be undone and redone.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="canUndo(net.minecraft.world.entity.player.Player)">
 
 :::tabs
 == canUndo
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">canUndo</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span></div>
-Checks if the change can still be undone.
+<div class="block">Checks if the change can still be undone.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player for which the can undo check is performed.</dd>
 <dt>Returns:</dt>
 <dd>True when the change can be undone.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="canRedo(net.minecraft.world.entity.player.Player)">
 
 :::tabs
 == canRedo
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">canRedo</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span></div>
-Checks if the change can still be redone.
+<div class="block">Checks if the change can still be redone.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player for which the can redo check is performed.</dd>
 <dt>Returns:</dt>
 <dd>True when the change can be redone.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="undo(net.minecraft.world.entity.player.Player)">
 
 :::tabs
 == undo
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">undo</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span>
    throws <span class="exceptions"><a href="IllegalChangeAttempt.html" title="class in mod.chiselsandbits.api.change.changes">IllegalChangeAttempt</a></span></div>
-Undoes the change.
+<div class="block">Undoes the change.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player for which undoes the change.</dd>
 <dt>Throws:</dt>
 <dd><code><a href="IllegalChangeAttempt.html" title="class in mod.chiselsandbits.api.change.changes">IllegalChangeAttempt</a></code> - when the change can not be undone.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="redo(net.minecraft.world.entity.player.Player)">
 
 :::tabs
 == redo
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">redo</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span>
    throws <span class="exceptions"><a href="IllegalChangeAttempt.html" title="class in mod.chiselsandbits.api.change.changes">IllegalChangeAttempt</a></span></div>
-Redoes the change
+<div class="block">Redoes the change</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player for which redoes the change.</dd>
 <dt>Throws:</dt>
 <dd><code><a href="IllegalChangeAttempt.html" title="class in mod.chiselsandbits.api.change.changes">IllegalChangeAttempt</a></code> - when the change can not be redone.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

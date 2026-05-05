@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.cutting.operation;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[ICuttingOperation](ICuttingOperation.md)</td><td>A Cutting operation that can be performed in the Cutting table.</td></tr>
   <tr><td>[ICuttingOperationGroup](ICuttingOperationGroup.md)</td><td></td></tr>
+  <tr><td>[ICuttingOperation](ICuttingOperation.md)</td><td>A Cutting operation that can be performed in the Cutting table.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.cutting.operation;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[ICuttingOperation](ICuttingOperation.md)</td><td>A Cutting operation that can be performed in the Cutting table.</td></tr>
   <tr><td>[ICuttingOperationGroup](ICuttingOperationGroup.md)</td><td></td></tr>
+  <tr><td>[ICuttingOperation](ICuttingOperation.md)</td><td>A Cutting operation that can be performed in the Cutting table.</td></tr>
   </tbody>
 </table>
 == Classes

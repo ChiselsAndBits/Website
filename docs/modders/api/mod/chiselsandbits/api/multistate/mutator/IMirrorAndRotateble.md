@@ -15,8 +15,8 @@ _Package:_ [mod.chiselsandbits.api.multistate.mutator](index.md)
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -60,7 +60,8 @@ _Package:_ [mod.chiselsandbits.api.multistate.mutator](index.md)
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -77,53 +78,67 @@ _Package:_ [mod.chiselsandbits.api.multistate.mutator](index.md)
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="rotate(net.minecraft.core.Direction.Axis,int)">
 
 :::tabs
 == rotate
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">rotate</span><wbr><span class="parameters">(net.minecraft.core.Direction.Axis&nbsp;axis,
  int&nbsp;rotationCount)</span></div>
-Rotates the current multistate block 90 degrees around the given axis with the given rotation count.
+<div class="block">Rotates the current multistate block 90 degrees around the given axis with the given rotation count.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>axis</code> - The axis to rotate around.</dd>
 <dd><code>rotationCount</code> - The amount of times to rotate the</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="rotate(net.minecraft.core.Direction.Axis)">
 
 :::tabs
 == rotate
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">rotate</span><wbr><span class="parameters">(net.minecraft.core.Direction.Axis&nbsp;axis)</span></div>
-Rotates the current multistate block exactly once 90 degrees around the given axis.
+<div class="block">Rotates the current multistate block exactly once 90 degrees around the given axis.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>axis</code> - The axis to rotate around.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="mirror(net.minecraft.core.Direction.Axis)">
 
 :::tabs
 == mirror
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">mirror</span><wbr><span class="parameters">(net.minecraft.core.Direction.Axis&nbsp;axis)</span></div>
-Mirrors the current multistate block around the given axis.
+<div class="block">Mirrors the current multistate block around the given axis.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>axis</code> - The axis to mirror over.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

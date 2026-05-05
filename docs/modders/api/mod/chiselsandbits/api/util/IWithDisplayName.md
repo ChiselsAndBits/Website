@@ -15,8 +15,8 @@ Represents an object that is translatable.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -57,7 +57,8 @@ Represents an object that is translatable.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -74,37 +75,47 @@ Represents an object that is translatable.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getDisplayName()">
 
 :::tabs
 == getDisplayName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getDisplayName</span>()</div>
-Returns the display name of the object in a text component.
+<div class="block">Returns the display name of the object in a text component.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The display name.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getMultiLineDisplayName()">
 
 :::tabs
 == getMultiLineDisplayName
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getMultiLineDisplayName</span>()</div>
-Returns the display name of the object in a text component.
- This display name may contain several newline statements which can be wrapped.
+<div class="block">Returns the display name of the object in a text component.
+This display name may contain several newline statements which can be wrapped.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The multiline display name.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

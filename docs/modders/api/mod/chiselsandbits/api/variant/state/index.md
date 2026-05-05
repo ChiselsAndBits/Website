@@ -19,9 +19,9 @@ package mod.chiselsandbits.api.variant.state;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IStateVariantProvider](IStateVariantProvider.md)</td><td>Represents the state variant provider, which allows external mods to provide their own state variants.</td></tr>
   <tr><td>[IStateVariantManager](IStateVariantManager.md)</td><td>Represents the state variant manager, which allows external mods to provide their own state variants.</td></tr>
   <tr><td>[IStateVariant](IStateVariant.md)</td><td>Object which provides additional information about a state.</td></tr>
+  <tr><td>[IStateVariantProvider](IStateVariantProvider.md)</td><td>Represents the state variant provider, which allows external mods to provide their own state variants.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -30,9 +30,9 @@ package mod.chiselsandbits.api.variant.state;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IStateVariantProvider](IStateVariantProvider.md)</td><td>Represents the state variant provider, which allows external mods to provide their own state variants.</td></tr>
   <tr><td>[IStateVariantManager](IStateVariantManager.md)</td><td>Represents the state variant manager, which allows external mods to provide their own state variants.</td></tr>
   <tr><td>[IStateVariant](IStateVariant.md)</td><td>Object which provides additional information about a state.</td></tr>
+  <tr><td>[IStateVariantProvider](IStateVariantProvider.md)</td><td>Represents the state variant provider, which allows external mods to provide their own state variants.</td></tr>
   </tbody>
 </table>
 == Classes

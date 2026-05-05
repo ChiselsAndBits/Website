@@ -19,8 +19,8 @@ The type of a multi state snapshot.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -29,7 +29,7 @@ The type of a multi state snapshot.
   </thead>
   <tbody>
   <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Gets the codec for the snapshot.</div><br></td></tr>
-  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf,<wbr>? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Gets the stream codec for the snapshot.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, ? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Gets the stream codec for the snapshot.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -39,7 +39,7 @@ The type of a multi state snapshot.
   </thead>
   <tbody>
   <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Gets the codec for the snapshot.</div><br></td></tr>
-  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf,<wbr>? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Gets the stream codec for the snapshot.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, ? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Gets the stream codec for the snapshot.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -49,15 +49,12 @@ The type of a multi state snapshot.
   </thead>
   <tbody>
   <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Gets the codec for the snapshot.</div><br></td></tr>
-  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf,<wbr>? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Gets the stream codec for the snapshot.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, ? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Gets the stream codec for the snapshot.</div><br></td></tr>
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries.ICustomRegistryEntry
-getRegistryName
-:::::
-:::::::
+Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries.ICustomRegistryEntrygetRegistryName</section>
+</li>
   
   
   
@@ -74,36 +71,46 @@ getRegistryName
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="codec()">
 
 :::tabs
 == codec
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.mojang.serialization.MapCodec&lt;? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</span>&nbsp;<span class="element-name">codec</span>()</div>
-Gets the codec for the snapshot.
+<div class="block">Gets the codec for the snapshot.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="streamCodec()">
 
 :::tabs
 == streamCodec
-<div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf,<wbr>? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
-Gets the stream codec for the snapshot.
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, ? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
+<div class="block">Gets the stream codec for the snapshot.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The stream codec.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

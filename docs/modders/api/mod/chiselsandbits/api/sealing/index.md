@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.sealing;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[ISupportsSealing](ISupportsSealing.md)</td><td>Represents something which supports the sealing of itemstacks.</td></tr>
   <tr><td>[ISupportsUnsealing](ISupportsUnsealing.md)</td><td>Represents something which supports the unsealing of itemstacks.</td></tr>
+  <tr><td>[ISupportsSealing](ISupportsSealing.md)</td><td>Represents something which supports the sealing of itemstacks.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.sealing;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[ISupportsSealing](ISupportsSealing.md)</td><td>Represents something which supports the sealing of itemstacks.</td></tr>
   <tr><td>[ISupportsUnsealing](ISupportsUnsealing.md)</td><td>Represents something which supports the unsealing of itemstacks.</td></tr>
+  <tr><td>[ISupportsSealing](ISupportsSealing.md)</td><td>Represents something which supports the sealing of itemstacks.</td></tr>
   </tbody>
 </table>
 == Classes

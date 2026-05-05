@@ -13,7 +13,7 @@ TBuffer - The type of the buffer to serialize to/from.
 [RawSerializable](RawSerializable.md)  
 
 ---
-<div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">Serializable&lt;TSelf,<wbr>TBuffer extends net.minecraft.network.FriendlyByteBuf&gt;</span><span class="extends-implements"><br/>  
+<div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">Serializable&lt;TSelf, TBuffer extends net.minecraft.network.FriendlyByteBuf&gt;</span><span class="extends-implements"><br/>  
 extends <a href="RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></span></div>  
 
   
@@ -22,8 +22,8 @@ Defines objects which can be serialized into an exact format.
 
 <dl class="notes"></dl>  
 
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Nested Class Summary  
+<li>
+<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
 :::tabs
 == Nested Classes
 <table class="stretched-table">
@@ -31,16 +31,17 @@ Defines objects which can be serialized into an exact format.
     <tr><th>Modifier and Type</th><th>Interface</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static interface&nbsp;</code></td><td><code><a href="Serializable.Registry.html" class="type-name-link" title="interface in mod.chiselsandbits.api.serialization">Serializable.Registry</a>&lt;<a href="Serializable.Registry.html" title="type parameter in Serializable.Registry">TSelf</a>&gt;</code></td><td><div class="block">Serializes specifically when a registry is involved.</div><br></td></tr>
+  <tr><td><code>static interface&nbsp;</code></td><td><code><a href="Serializable.Registry.html" class="type-name-link" title="interface in mod.chiselsandbits.api.serialization">Serializable.Registry</a>&lt;<a href="Serializable.Registry.html#type-param-TSelf" title="type parameter in Serializable.Registry">TSelf</a>&gt;</code></td><td><div class="block">Serializes specifically when a registry is involved.</div><br></td></tr>
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -48,9 +49,9 @@ Defines objects which can be serialized into an exact format.
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="Serializable.html" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns The codec used for direct serialization..</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="Serializable.html" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns The codec used for complex serialization..</div><br></td></tr>
-  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;<a href="Serializable.html" title="type parameter in Serializable">TBuffer</a>,<wbr><a href="Serializable.html" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns The codec used for streaming serialization..</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns The codec used for direct serialization..</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns The codec used for complex serialization..</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;<a href="#type-param-TBuffer" title="type parameter in Serializable">TBuffer</a>,<wbr><a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns The codec used for streaming serialization..</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -59,9 +60,9 @@ Defines objects which can be serialized into an exact format.
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="Serializable.html" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns The codec used for direct serialization..</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="Serializable.html" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns The codec used for complex serialization..</div><br></td></tr>
-  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;<a href="Serializable.html" title="type parameter in Serializable">TBuffer</a>,<wbr><a href="Serializable.html" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns The codec used for streaming serialization..</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns The codec used for direct serialization..</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns The codec used for complex serialization..</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;<a href="#type-param-TBuffer" title="type parameter in Serializable">TBuffer</a>,<wbr><a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns The codec used for streaming serialization..</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -70,13 +71,14 @@ Defines objects which can be serialized into an exact format.
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="Serializable.html" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns The codec used for direct serialization..</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="Serializable.html" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns The codec used for complex serialization..</div><br></td></tr>
-  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;<a href="Serializable.html" title="type parameter in Serializable">TBuffer</a>,<wbr><a href="Serializable.html" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns The codec used for streaming serialization..</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns The codec used for direct serialization..</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns The codec used for complex serialization..</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;<a href="#type-param-TBuffer" title="type parameter in Serializable">TBuffer</a>,<wbr><a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns The codec used for streaming serialization..</div><br></td></tr>
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -93,57 +95,71 @@ Defines objects which can be serialized into an exact format.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="codec()">
 
 :::tabs
 == codec
-<div class="member-signature"><span class="return-type">com.mojang.serialization.Codec&lt;<a href="Serializable.html" title="type parameter in Serializable">TSelf</a>&gt;</span>&nbsp;<span class="element-name">codec</span>()</div>
-Returns The codec used for direct serialization..
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="return-type">com.mojang.serialization.Codec&lt;<a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</span>&nbsp;<span class="element-name">codec</span>()</div>
+<div class="block">Returns The codec used for direct serialization..</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="RawSerializable.html#codec()">codec</a></code>&nbsp;in interface&nbsp;<code><a href="RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
 <dt>Returns:</dt>
 <dd>The codec used for direct serialization.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="mapCodec()">
 
 :::tabs
 == mapCodec
-<div class="member-signature"><span class="return-type">com.mojang.serialization.MapCodec&lt;<a href="Serializable.html" title="type parameter in Serializable">TSelf</a>&gt;</span>&nbsp;<span class="element-name">mapCodec</span>()</div>
-Returns The codec used for complex serialization..
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="return-type">com.mojang.serialization.MapCodec&lt;<a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</span>&nbsp;<span class="element-name">mapCodec</span>()</div>
+<div class="block">Returns The codec used for complex serialization..</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="RawSerializable.html#mapCodec()">mapCodec</a></code>&nbsp;in interface&nbsp;<code><a href="RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
 <dt>Returns:</dt>
 <dd>The codec used for complex serialization.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="streamCodec()">
 
 :::tabs
 == streamCodec
-<div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;<a href="Serializable.html" title="type parameter in Serializable">TBuffer</a>,<wbr><a href="Serializable.html" title="type parameter in Serializable">TSelf</a>&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
-Returns The codec used for streaming serialization..
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;<a href="#type-param-TBuffer" title="type parameter in Serializable">TBuffer</a>,<wbr><a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
+<div class="block">Returns The codec used for streaming serialization..</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="RawSerializable.html#streamCodec()">streamCodec</a></code>&nbsp;in interface&nbsp;<code><a href="RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
 <dt>Returns:</dt>
 <dd>The codec used for streaming serialization.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

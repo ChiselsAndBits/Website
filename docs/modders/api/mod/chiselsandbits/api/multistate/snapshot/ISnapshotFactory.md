@@ -15,8 +15,8 @@ A factory to create simple snapshots.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -59,7 +59,8 @@ A factory to create simple snapshots.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -76,49 +77,62 @@ A factory to create simple snapshots.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="ISnapshotFactory.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">ISnapshotFactory</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="singleBlock()">
 
 :::tabs
 == singleBlock
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a></span>&nbsp;<span class="element-name">singleBlock</span>()</div>
-Creates a new simple single block snapshot.
+<div class="block">Creates a new simple single block snapshot.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The new snapshot.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="singleBlock(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
 == singleBlock
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a></span>&nbsp;<span class="element-name">singleBlock</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-Creates a new simple single block snapshot.
+<div class="block">Creates a new simple single block snapshot.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information which will fill up the entire snapshot once returned.</dd>
 <dt>Returns:</dt>
 <dd>The new snapshot.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

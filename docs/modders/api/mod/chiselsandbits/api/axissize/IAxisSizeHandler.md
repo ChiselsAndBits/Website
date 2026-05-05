@@ -11,13 +11,13 @@ _Package:_ [mod.chiselsandbits.api.axissize](index.md)
   
 
 Represents a handler which can indicate the current active maximum and minimum size
- of the multistate object.  
+of the multistate object.  
 
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -60,7 +60,8 @@ Represents a handler which can indicate the current active maximum and minimum s
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -77,47 +78,60 @@ Represents a handler which can indicate the current active maximum and minimum s
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="empty()">
 
 :::tabs
 == empty
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IAxisSizeHandler.html" title="interface in mod.chiselsandbits.api.axissize">IAxisSizeHandler</a></span>&nbsp;<span class="element-name">empty</span>()</div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getLowest()">
 
 :::tabs
 == getLowest
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">int</span>&nbsp;<span class="element-name">getLowest</span>()</div>
-The lowest set value on the axis of the size handler.
+<div class="block">The lowest set value on the axis of the size handler.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The lowest set value.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getHighest()">
 
 :::tabs
 == getHighest
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">int</span>&nbsp;<span class="element-name">getHighest</span>()</div>
-The highest set value on the axis of the size handler.
+<div class="block">The highest set value on the axis of the size handler.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The highest set value.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

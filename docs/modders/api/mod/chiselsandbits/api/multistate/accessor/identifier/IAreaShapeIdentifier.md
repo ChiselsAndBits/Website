@@ -11,13 +11,13 @@ _Package:_ [mod.chiselsandbits.api.multistate.accessor.identifier](index.md)
   
 
 Marker interface that uniquely identifies the shape of the contents that can be accessed
- via a given <a href="../IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor"><code>IAreaAccessor</code></a>.  
+via a given <a href="../IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor"><code>IAreaAccessor</code></a>.  
 
 <dl class="notes"></dl>  
 
 <!-- =========== FIELD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Field Summary  
+<li>
+<section class="field-summary" id="field-summary">Field Summary  
 :::tabs
 == Fields
 <table class="stretched-table">
@@ -25,11 +25,12 @@ Marker interface that uniquely identifies the shape of the contents that can be 
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final <a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a></code></td><td><code><a href="#DUMMY" class="member-name-link">DUMMY</a></code></td><td><div class="block">The dummy instance of the identifier, in-case it is not relevant in the current context,<br> but needs to be supplied.</div><br></td></tr>
+  <tr><td><code>static final <a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a></code></td><td><code><a href="#DUMMY" class="member-name-link">DUMMY</a></code></td><td><div class="block">The dummy instance of the identifier, in-case it is not relevant in the current context,<br>but needs to be supplied.</div><br></td></tr>
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -44,10 +45,11 @@ Marker interface that uniquely identifies the shape of the contents that can be 
 
 :::tabs
 == DUMMY
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type"><a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a></span>&nbsp;<span class="element-name">DUMMY</span></div>
-The dummy instance of the identifier, in-case it is not relevant in the current context,
- but needs to be supplied.
-<dl class="notes"></dl>
+<div class="block">The dummy instance of the identifier, in-case it is not relevant in the current context,
+but needs to be supplied.</div>
+</div>
 :::
 
 

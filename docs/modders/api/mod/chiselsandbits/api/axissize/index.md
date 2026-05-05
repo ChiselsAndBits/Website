@@ -20,7 +20,7 @@ package mod.chiselsandbits.api.axissize;
   </thead>
   <tbody>
   <tr><td>[CollisionType](CollisionType.md)</td><td></td></tr>
-  <tr><td>[IAxisSizeHandler](IAxisSizeHandler.md)</td><td>Represents a handler which can indicate the current active maximum and minimum size<br> of the multistate object.</td></tr>
+  <tr><td>[IAxisSizeHandler](IAxisSizeHandler.md)</td><td>Represents a handler which can indicate the current active maximum and minimum size<br>of the multistate object.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,7 +29,7 @@ package mod.chiselsandbits.api.axissize;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IAxisSizeHandler](IAxisSizeHandler.md)</td><td>Represents a handler which can indicate the current active maximum and minimum size<br> of the multistate object.</td></tr>
+  <tr><td>[IAxisSizeHandler](IAxisSizeHandler.md)</td><td>Represents a handler which can indicate the current active maximum and minimum size<br>of the multistate object.</td></tr>
   </tbody>
 </table>
 == Classes

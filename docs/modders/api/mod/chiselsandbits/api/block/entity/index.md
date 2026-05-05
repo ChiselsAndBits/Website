@@ -19,9 +19,9 @@ package mod.chiselsandbits.api.block.entity;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IMultiStateBlockEntity](IMultiStateBlockEntity.md)</td><td>Represents the block entity with the state data, which under-ly the information<br> provided by the <br>{@link IMultiStateBlock}<br> blocks.</td></tr>
   <tr><td>[INetworkUpdatableEntity](INetworkUpdatableEntity.md)</td><td>Marks the entity as a network updatable entity.</td></tr>
   <tr><td>[BlockStack](IMultiStateBlockEntity.BlockStack.md)</td><td></td></tr>
+  <tr><td>[IMultiStateBlockEntity](IMultiStateBlockEntity.md)</td><td>Represents the block entity with the state data, which under-ly the information<br>provided by the <br>{@link IMultiStateBlock}<br> blocks.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -30,8 +30,8 @@ package mod.chiselsandbits.api.block.entity;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IMultiStateBlockEntity](IMultiStateBlockEntity.md)</td><td>Represents the block entity with the state data, which under-ly the information<br> provided by the <br>{@link IMultiStateBlock}<br> blocks.</td></tr>
   <tr><td>[INetworkUpdatableEntity](INetworkUpdatableEntity.md)</td><td>Marks the entity as a network updatable entity.</td></tr>
+  <tr><td>[IMultiStateBlockEntity](IMultiStateBlockEntity.md)</td><td>Represents the block entity with the state data, which under-ly the information<br>provided by the <br>{@link IMultiStateBlock}<br> blocks.</td></tr>
   </tbody>
 </table>
 == Classes

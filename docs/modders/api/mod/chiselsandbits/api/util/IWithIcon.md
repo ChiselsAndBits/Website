@@ -15,8 +15,8 @@ An object with an icon to render.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -46,7 +46,8 @@ An object with an icon to render.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -63,21 +64,27 @@ An object with an icon to render.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getIcon()">
 
 :::tabs
 == getIcon
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.resources.Identifier</span>&nbsp;<span class="element-name">getIcon</span>()</div>
-The icon to render.
+<div class="block">The icon to render.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The icon.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

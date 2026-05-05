@@ -19,8 +19,8 @@ extends net.minecraft.client.gui.components.Renderable, net.minecraft.client.gui
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -53,19 +53,8 @@ extends net.minecraft.client.gui.components.Renderable, net.minecraft.client.gui
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;net.minecraft.client.gui.components.events.GuiEventListener
-charTyped, getBorderForArrowNavigation, getCurrentFocusPath, getRectangle, isFocused, isMouseOver, keyPressed, keyReleased, mouseClicked, mouseDragged, mouseMoved, mouseReleased, mouseScrolled, nextFocusPath, setFocused, shouldTakeFocusAfterInteraction
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;net.minecraft.client.gui.components.Renderable
-render
-:::::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;net.minecraft.client.gui.components.TabOrderedElement
-getTabOrderGroup
-:::::
-:::::::
+Methods inherited from interface&nbsp;net.minecraft.client.gui.components.events.GuiEventListenercharTyped, getBorderForArrowNavigation, getCurrentFocusPath, getRectangle, isFocused, isMouseOver, keyPressed, keyReleased, mouseClicked, mouseDragged, mouseMoved, mouseReleased, mouseScrolled, nextFocusPath, preeditUpdated, setFocused, shouldTakeFocusAfterInteractionMethods inherited from interface&nbsp;net.minecraft.client.gui.components.RenderableextractRenderStateMethods inherited from interface&nbsp;net.minecraft.client.gui.components.TabOrderedElementgetTabOrderGroup</section>
+</li>
   
   
   
@@ -82,30 +71,38 @@ getTabOrderGroup
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="init()">
 
 :::tabs
 == init
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">init</span>()</div>
-Invoked by the screen, when said screen is initialized.
-<dl class="notes"></dl>
+<div class="block">Invoked by the screen, when said screen is initialized.</div>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="removed()">
 
 :::tabs
 == removed
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">removed</span>()</div>
-Invoked by the screen, when it is removed from the display.
-<dl class="notes"></dl>
+<div class="block">Invoked by the screen, when it is removed from the display.</div>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

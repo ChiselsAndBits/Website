@@ -10,7 +10,7 @@ java.lang.Object
   
 ---
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">VectorUtils</span><br/>  
-<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></span></div>  
+<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></span></div>  
 
   
 
@@ -19,8 +19,8 @@ java.lang.Object
 <dl class="notes"></dl>  
 
 <!-- =========== FIELD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Field Summary  
+<li>
+<section class="field-summary" id="field-summary">Field Summary  
 :::tabs
 == Fields
 <table class="stretched-table">
@@ -33,12 +33,13 @@ java.lang.Object
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -134,11 +135,8 @@ java.lang.Object
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>
-<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>
-:::::
-:::::::
+Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a></section>
+</li>
   
   
   
@@ -153,8 +151,17 @@ java.lang.Object
 
 :::tabs
 == DEG_TO_RAD_FACTOR
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">DEG_TO_RAD_FACTOR</span></div>
-<dl class="notes"></dl>
+<dl class="notes">
+<dt>See Also:</dt>
+<dd>
+<ul class="tag-list">
+<li><a href="../../../../constant-values.html#mod.chiselsandbits.api.util.VectorUtils.DEG_TO_RAD_FACTOR">Constant Field Values</a></li>
+</ul>
+</dd>
+</dl>
+</div>
 :::
 
 
@@ -164,8 +171,9 @@ java.lang.Object
 
 :::tabs
 == ONE
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">ONE</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -180,278 +188,349 @@ java.lang.Object
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="rotateMultipleTimes90Degrees(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis,int)">
 
 :::tabs
 == rotateMultipleTimes90Degrees
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">rotateMultipleTimes90Degrees</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;vector3d,
  net.minecraft.core.Direction.Axis&nbsp;axis,
  int&nbsp;times)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="rotate90Degrees(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis)">
 
 :::tabs
 == rotate90Degrees
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">rotate90Degrees</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;vector3d,
  net.minecraft.core.Direction.Axis&nbsp;axis)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="rotateHalfRadian(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis)">
 
 :::tabs
 == rotateHalfRadian
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">rotateHalfRadian</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;vector3d,
  net.minecraft.core.Direction.Axis&nbsp;axis)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="rotateDegrees(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis,double)">
 
 :::tabs
 == rotateDegrees
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">rotateDegrees</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;vector3d,
  net.minecraft.core.Direction.Axis&nbsp;axis,
  double&nbsp;angleInDegrees)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="rotate(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis,double)">
 
 :::tabs
 == rotate
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">rotate</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;vector3d,
  net.minecraft.core.Direction.Axis&nbsp;axis,
  double&nbsp;angleInRadian)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="scaleToOne(net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == scaleToOne
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">scaleToOne</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;v)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getMaximalComponent(net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == getMaximalComponent
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">getMaximalComponent</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;v)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="invert(net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == invert
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">invert</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;v)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="invert(net.minecraft.core.BlockPos)">
 
 :::tabs
 == invert
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.core.BlockPos</span>&nbsp;<span class="element-name">invert</span><wbr><span class="parameters">(net.minecraft.core.BlockPos&nbsp;v)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="minimizeTowardsZero(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == minimizeTowardsZero
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">minimizeTowardsZero</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;start,
  net.minecraft.world.phys.Vec3&nbsp;end)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="maximizeAwayFromZero(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == maximizeAwayFromZero
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">maximizeAwayFromZero</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;start,
  net.minecraft.world.phys.Vec3&nbsp;end)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="absolute(net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == absolute
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">absolute</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;vector3d)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="offsetRandomly(net.minecraft.world.phys.Vec3,net.minecraft.util.RandomSource,float)">
 
 :::tabs
 == offsetRandomly
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">offsetRandomly</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;source,
  net.minecraft.util.RandomSource&nbsp;random,
  float&nbsp;radius)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="minimize(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == minimize
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">minimize</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;a,
  net.minecraft.world.phys.Vec3&nbsp;b)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="maximize(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == maximize
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">maximize</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;a,
  net.minecraft.world.phys.Vec3&nbsp;b)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="makePositive(net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == makePositive
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">makePositive</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;inBlockOffset)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="allValuesBetweenInclusive(org.joml.Vector4f,float,float)">
 
 :::tabs
 == allValuesBetweenInclusive
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">allValuesBetweenInclusive</span><wbr><span class="parameters">(org.joml.Vector4f&nbsp;vector4f,
  float&nbsp;min,
  float&nbsp;max)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="nullifyNegatives(net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == nullifyNegatives
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">nullifyNegatives</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;input)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="nullifyPositives(net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == nullifyPositives
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">nullifyPositives</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;input)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="divide(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == divide
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">divide</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;left,
  net.minecraft.world.phys.Vec3&nbsp;right)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="toBlockPos(net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == toBlockPos
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.core.BlockPos</span>&nbsp;<span class="element-name">toBlockPos</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;vec3)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="toInteger(net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == toInteger
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.core.Vec3i</span>&nbsp;<span class="element-name">toInteger</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;vec3)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="toInteger(double,double,double)">
 
 :::tabs
 == toInteger
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.core.Vec3i</span>&nbsp;<span class="element-name">toInteger</span><wbr><span class="parameters">(double&nbsp;x,
  double&nbsp;y,
  double&nbsp;z)</span></div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

@@ -11,13 +11,13 @@ _Package:_ [mod.chiselsandbits.api.chiseling](index.md)
   
 
 This small cache is used on the client side, primarily, to store a single active context
- which is valid across multiple frames.  
+which is valid across multiple frames.  
 
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -26,7 +26,7 @@ This small cache is used on the client side, primarily, to store a single active
   </thead>
   <tbody>
   <tr><td><code>void</code></td><td><code><a href="#clear(mod.chiselsandbits.api.chiseling.ChiselingOperation)" class="member-name-link">clear</a><wbr>(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</code></td><td><div class="block">Clears the current context.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&gt;</code></td><td><code><a href="#get(mod.chiselsandbits.api.chiseling.ChiselingOperation)" class="member-name-link">get</a><wbr>(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</code></td><td><div class="block">The current active context for the last few frames.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&gt;</code></td><td><code><a href="#get(mod.chiselsandbits.api.chiseling.ChiselingOperation)" class="member-name-link">get</a><wbr>(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</code></td><td><div class="block">The current active context for the last few frames.</div><br></td></tr>
   <tr><td><code>static <a href="ILocalChiselingContextCache.html" title="interface in mod.chiselsandbits.api.chiseling">ILocalChiselingContextCache</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Gives access to the instance.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#set(mod.chiselsandbits.api.chiseling.ChiselingOperation,mod.chiselsandbits.api.chiseling.IChiselingContext)" class="member-name-link">set</a><wbr>(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation,<br> <a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</code></td><td><div class="block">Sets the current context in the cache.</div><br></td></tr>
   </tbody>
@@ -47,7 +47,7 @@ This small cache is used on the client side, primarily, to store a single active
   </thead>
   <tbody>
   <tr><td><code>void</code></td><td><code><a href="#clear(mod.chiselsandbits.api.chiseling.ChiselingOperation)" class="member-name-link">clear</a><wbr>(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</code></td><td><div class="block">Clears the current context.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&gt;</code></td><td><code><a href="#get(mod.chiselsandbits.api.chiseling.ChiselingOperation)" class="member-name-link">get</a><wbr>(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</code></td><td><div class="block">The current active context for the last few frames.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&gt;</code></td><td><code><a href="#get(mod.chiselsandbits.api.chiseling.ChiselingOperation)" class="member-name-link">get</a><wbr>(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</code></td><td><div class="block">The current active context for the last few frames.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#set(mod.chiselsandbits.api.chiseling.ChiselingOperation,mod.chiselsandbits.api.chiseling.IChiselingContext)" class="member-name-link">set</a><wbr>(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation,<br> <a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</code></td><td><div class="block">Sets the current context in the cache.</div><br></td></tr>
   </tbody>
 </table>
@@ -58,12 +58,13 @@ This small cache is used on the client side, primarily, to store a single active
   </thead>
   <tbody>
   <tr><td><code>void</code></td><td><code><a href="#clear(mod.chiselsandbits.api.chiseling.ChiselingOperation)" class="member-name-link">clear</a><wbr>(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</code></td><td><div class="block">Clears the current context.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&gt;</code></td><td><code><a href="#get(mod.chiselsandbits.api.chiseling.ChiselingOperation)" class="member-name-link">get</a><wbr>(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</code></td><td><div class="block">The current active context for the last few frames.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&gt;</code></td><td><code><a href="#get(mod.chiselsandbits.api.chiseling.ChiselingOperation)" class="member-name-link">get</a><wbr>(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</code></td><td><div class="block">The current active context for the last few frames.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#set(mod.chiselsandbits.api.chiseling.ChiselingOperation,mod.chiselsandbits.api.chiseling.IChiselingContext)" class="member-name-link">set</a><wbr>(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation,<br> <a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</code></td><td><div class="block">Sets the current context in the cache.</div><br></td></tr>
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -80,71 +81,89 @@ This small cache is used on the client side, primarily, to store a single active
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="ILocalChiselingContextCache.html" title="interface in mod.chiselsandbits.api.chiseling">ILocalChiselingContextCache</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-Gives access to the instance.
+<div class="block">Gives access to the instance.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The instance.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="get(mod.chiselsandbits.api.chiseling.ChiselingOperation)">
 
 :::tabs
 == get
-<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&gt;</span>&nbsp;<span class="element-name">get</span><wbr><span class="parameters">(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</span></div>
-The current active context for the last few frames.
- The caller needs to validate that the returned value is still valid for his usage.
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&gt;</span>&nbsp;<span class="element-name">get</span><wbr><span class="parameters">(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</span></div>
+<div class="block">The current active context for the last few frames.
+The caller needs to validate that the returned value is still valid for his usage.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>operation</code> - The operation to get the context for from the cache.</dd>
 <dt>Returns:</dt>
 <dd>An optional with the last current active instance.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="set(mod.chiselsandbits.api.chiseling.ChiselingOperation,mod.chiselsandbits.api.chiseling.IChiselingContext)">
 
 :::tabs
 == set
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">set</span><wbr><span class="parameters">(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation,
  <a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</span></div>
-Sets the current context in the cache.
+<div class="block">Sets the current context in the cache.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>operation</code> - The operation to get the context for from the cache.</dd>
 <dd><code>context</code> - The new cached context.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="clear(mod.chiselsandbits.api.chiseling.ChiselingOperation)">
 
 :::tabs
 == clear
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span><wbr><span class="parameters">(<a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;operation)</span></div>
-Clears the current context.
+<div class="block">Clears the current context.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>operation</code> - The operation to get the context for from the cache.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

@@ -15,8 +15,8 @@ _Package:_ [mod.chiselsandbits.api.placement](index.md)
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -46,7 +46,8 @@ _Package:_ [mod.chiselsandbits.api.placement](index.md)
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -63,14 +64,17 @@ _Package:_ [mod.chiselsandbits.api.placement](index.md)
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="getPlacementResult(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
 == getPlacementResult
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></span>&nbsp;<span class="element-name">getPlacementResult</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-Invoked to determine the result of attempting actual placement in the world.
+<div class="block">Invoked to determine the result of attempting actual placement in the world.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get the color for.</dd>
@@ -79,11 +83,14 @@ Invoked to determine the result of attempting actual placement in the world.
 <dt>Returns:</dt>
 <dd>The simulated action result of placement</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

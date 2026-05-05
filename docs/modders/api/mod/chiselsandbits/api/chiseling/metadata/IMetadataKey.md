@@ -18,13 +18,13 @@ extends com.communi.suggestu.scena.core.registries.ICustomRegistryEntry</span></
   
 
 Represents a key passed to an instance of <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling"><code>IChiselingContext</code></a> so that additional data can be stored
- on the context.  
+on the context.  
 
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -32,7 +32,7 @@ Represents a key passed to an instance of <a href="../IChiselingContext.html" ti
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="IMetadataKey.html" title="type parameter in IMetadataKey">T</a></code></td><td><code><a href="#snapshot(T)" class="member-name-link">snapshot</a><wbr>(<a href="IMetadataKey.html" title="type parameter in IMetadataKey">T</a>&nbsp;value)</code></td><td><div class="block">Creates a snapshot of the value that is passed to it.</div><br></td></tr>
+  <tr><td><code><a href="#type-param-T" title="type parameter in IMetadataKey">T</a></code></td><td><code><a href="#snapshot(T)" class="member-name-link">snapshot</a><wbr>(<a href="#type-param-T" title="type parameter in IMetadataKey">T</a>&nbsp;value)</code></td><td><div class="block">Creates a snapshot of the value that is passed to it.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -41,7 +41,7 @@ Represents a key passed to an instance of <a href="../IChiselingContext.html" ti
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="IMetadataKey.html" title="type parameter in IMetadataKey">T</a></code></td><td><code><a href="#snapshot(T)" class="member-name-link">snapshot</a><wbr>(<a href="IMetadataKey.html" title="type parameter in IMetadataKey">T</a>&nbsp;value)</code></td><td><div class="block">Creates a snapshot of the value that is passed to it.</div><br></td></tr>
+  <tr><td><code><a href="#type-param-T" title="type parameter in IMetadataKey">T</a></code></td><td><code><a href="#snapshot(T)" class="member-name-link">snapshot</a><wbr>(<a href="#type-param-T" title="type parameter in IMetadataKey">T</a>&nbsp;value)</code></td><td><div class="block">Creates a snapshot of the value that is passed to it.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -50,15 +50,12 @@ Represents a key passed to an instance of <a href="../IChiselingContext.html" ti
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="IMetadataKey.html" title="type parameter in IMetadataKey">T</a></code></td><td><code><a href="#snapshot(T)" class="member-name-link">snapshot</a><wbr>(<a href="IMetadataKey.html" title="type parameter in IMetadataKey">T</a>&nbsp;value)</code></td><td><div class="block">Creates a snapshot of the value that is passed to it.</div><br></td></tr>
+  <tr><td><code><a href="#type-param-T" title="type parameter in IMetadataKey">T</a></code></td><td><code><a href="#snapshot(T)" class="member-name-link">snapshot</a><wbr>(<a href="#type-param-T" title="type parameter in IMetadataKey">T</a>&nbsp;value)</code></td><td><div class="block">Creates a snapshot of the value that is passed to it.</div><br></td></tr>
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries.ICustomRegistryEntry
-getRegistryName
-:::::
-:::::::
+Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries.ICustomRegistryEntrygetRegistryName</section>
+</li>
   
   
   
@@ -75,24 +72,30 @@ getRegistryName
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="snapshot(T)">
 
 :::tabs
 == snapshot
-<div class="member-signature"><span class="return-type"><a href="IMetadataKey.html" title="type parameter in IMetadataKey">T</a></span>&nbsp;<span class="element-name">snapshot</span><wbr><span class="parameters">(<a href="IMetadataKey.html" title="type parameter in IMetadataKey">T</a>&nbsp;value)</span></div>
-Creates a snapshot of the value that is passed to it.
- The primary task of this method is to create a deep copy of the given value.
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="return-type"><a href="#type-param-T" title="type parameter in IMetadataKey">T</a></span>&nbsp;<span class="element-name">snapshot</span><wbr><span class="parameters">(<a href="#type-param-T" title="type parameter in IMetadataKey">T</a>&nbsp;value)</span></div>
+<div class="block">Creates a snapshot of the value that is passed to it.
+The primary task of this method is to create a deep copy of the given value.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>value</code> - The value.</dd>
 <dt>Returns:</dt>
 <dd>The deep copied value.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

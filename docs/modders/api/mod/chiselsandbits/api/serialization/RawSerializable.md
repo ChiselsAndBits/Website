@@ -15,8 +15,8 @@ Defines objects which can be serialized into a raw format.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -52,7 +52,8 @@ Defines objects which can be serialized into a raw format.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
   
@@ -69,51 +70,65 @@ Defines objects which can be serialized into a raw format.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="codec()">
 
 :::tabs
 == codec
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.mojang.serialization.Codec&lt;?&gt;</span>&nbsp;<span class="element-name">codec</span>()</div>
-Returns The codec used for direct serialization..
+<div class="block">Returns The codec used for direct serialization..</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec used for direct serialization.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="mapCodec()">
 
 :::tabs
 == mapCodec
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.mojang.serialization.MapCodec&lt;?&gt;</span>&nbsp;<span class="element-name">mapCodec</span>()</div>
-Returns The codec used for complex serialization..
+<div class="block">Returns The codec used for complex serialization..</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec used for complex serialization.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="streamCodec()">
 
 :::tabs
 == streamCodec
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;?,<wbr>?&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
-Returns The codec used for streaming serialization..
+<div class="block">Returns The codec used for streaming serialization..</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec used for streaming serialization.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

@@ -10,7 +10,7 @@ java.lang.Object
   
 ---
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">ClickProcessingState</span><br/>  
-<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></span></div>  
+<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></span></div>  
 
   
 
@@ -18,8 +18,8 @@ Represents the continuous processing state of a click interaction.
 
 <dl class="notes"></dl>  
 
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Nested Class Summary  
+<li>
+<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
 :::tabs
 == Nested Classes
 <table class="stretched-table">
@@ -31,12 +31,13 @@ Represents the continuous processing state of a click interaction.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- =========== FIELD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Field Summary  
+<li>
+<section class="field-summary" id="field-summary">Field Summary  
 :::tabs
 == Fields
 <table class="stretched-table">
@@ -51,12 +52,13 @@ Represents the continuous processing state of a click interaction.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Constructor Summary  
+<li>
+<section class="constructor-summary" id="constructor-summary">Constructor Summary  
 :::tabs
 == Constructors
 <table class="stretched-table">
@@ -68,12 +70,13 @@ Represents the continuous processing state of a click interaction.
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -106,11 +109,8 @@ Represents the continuous processing state of a click interaction.
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>
-<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>
-:::::
-:::::::
+Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a></section>
+</li>
   
   
   
@@ -125,9 +125,10 @@ Represents the continuous processing state of a click interaction.
 
 :::tabs
 == ALLOW
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">ALLOW</span></div>
-The click was successfully processed, and not further processing is needed.
-<dl class="notes"></dl>
+<div class="block">The click was successfully processed, and not further processing is needed.</div>
+</div>
 :::
 
 
@@ -137,9 +138,10 @@ The click was successfully processed, and not further processing is needed.
 
 :::tabs
 == ALLOW_NO_CANCEL
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">ALLOW_NO_CANCEL</span></div>
-The click was successfully processed, but the interactions processing should continue.
-<dl class="notes"></dl>
+<div class="block">The click was successfully processed, but the interactions processing should continue.</div>
+</div>
 :::
 
 
@@ -149,9 +151,10 @@ The click was successfully processed, but the interactions processing should con
 
 :::tabs
 == DENIED
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">DENIED</span></div>
-The click was not processed successfully, and the interactions processing should stop.
-<dl class="notes"></dl>
+<div class="block">The click was not processed successfully, and the interactions processing should stop.</div>
+</div>
 :::
 
 
@@ -161,9 +164,10 @@ The click was not processed successfully, and the interactions processing should
 
 :::tabs
 == DEFAULT
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">DEFAULT</span></div>
-No processing of the click was done, and the interactions processing should continue.
-<dl class="notes"></dl>
+<div class="block">No processing of the click was done, and the interactions processing should continue.</div>
+</div>
 :::
 
 
@@ -178,14 +182,16 @@ No processing of the click was done, and the interactions processing should cont
 
 :::tabs
 == ClickProcessingState
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">ClickProcessingState</span><wbr><span class="parameters">(boolean&nbsp;shouldCancel,
  <a href="ClickProcessingState.ProcessingResult.html" title="enum class in mod.chiselsandbits.api.item.click">ClickProcessingState.ProcessingResult</a>&nbsp;nextState)</span></div>
-Creates a new processing state.
+<div class="block">Creates a new processing state.</div>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>shouldCancel</code> - Indicates if the state should cancel the interaction.</dd>
 <dd><code>nextState</code> - The next state to process.</dd>
 </dl>
+</div>
 :::
 
 
@@ -198,36 +204,46 @@ Creates a new processing state.
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="shouldCancel()">
 
 :::tabs
 == shouldCancel
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldCancel</span>()</div>
-Indicates if this state should cancel the interaction.
+<div class="block">Indicates if this state should cancel the interaction.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> if the interaction should be cancelled, <code>false</code> otherwise.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="getNextState()">
 
 :::tabs
 == getNextState
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.ProcessingResult.html" title="enum class in mod.chiselsandbits.api.item.click">ClickProcessingState.ProcessingResult</a></span>&nbsp;<span class="element-name">getNextState</span>()</div>
-Gets the next state to process.
+<div class="block">Gets the next state to process.</div>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The next processing state.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

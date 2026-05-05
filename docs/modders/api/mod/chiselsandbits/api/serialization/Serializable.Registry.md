@@ -16,7 +16,7 @@ TSelf - The type of the implementing class.
 
 ---
 <div class="type-signature"><span class="modifiers">public static interface </span><span class="element-name type-name-label">Serializable.Registry&lt;TSelf&gt;</span><span class="extends-implements"><br/>  
-extends <a href="Serializable.html" title="interface in mod.chiselsandbits.api.serialization">Serializable</a>&lt;TSelf,<wbr>net.minecraft.network.RegistryFriendlyByteBuf&gt;</span></div>  
+extends <a href="Serializable.html" title="interface in mod.chiselsandbits.api.serialization">Serializable</a>&lt;TSelf, net.minecraft.network.RegistryFriendlyByteBuf&gt;</span></div>  
 
   
 
@@ -24,23 +24,17 @@ Serializes specifically when a registry is involved.
 
 <dl class="notes"></dl>  
 
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Nested Class Summary  
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Nested classes/interfaces inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a href="Serializable.html" title="interface in mod.chiselsandbits.api.serialization">Serializable</a>
-<a href="Serializable.Registry.html" title="interface in mod.chiselsandbits.api.serialization">Serializable.Registry</a>&lt;<a href="Serializable.Registry.html" title="type parameter in Serializable.Registry">TSelf</a>&gt;
-:::::
-:::::::
+<li>
+<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
+Nested classes/interfaces inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a href="Serializable.html" title="interface in mod.chiselsandbits.api.serialization">Serializable</a><a href="Serializable.Registry.html" title="interface in mod.chiselsandbits.api.serialization">Serializable.Registry</a>&lt;TSelf&gt;</section>
+</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a href="Serializable.html" title="interface in mod.chiselsandbits.api.serialization">Serializable</a>
-<a href="Serializable.html#codec()">codec</a>, <a href="Serializable.html#mapCodec()">mapCodec</a>, <a href="Serializable.html#streamCodec()">streamCodec</a>
-:::::
-:::::::
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
+Methods inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a href="Serializable.html" title="interface in mod.chiselsandbits.api.serialization">Serializable</a><a href="Serializable.html#codec()" title="codec()">codec</a>, <a href="Serializable.html#mapCodec()" title="mapCodec()">mapCodec</a>, <a href="Serializable.html#streamCodec()" title="streamCodec()">streamCodec</a></section>
+</li>
   
   
   

@@ -20,8 +20,8 @@ package mod.chiselsandbits.api.placement;
   </thead>
   <tbody>
   <tr><td>[IPlacementPreviewProvidingItem](IPlacementPreviewProvidingItem.md)</td><td></td></tr>
-  <tr><td>[IPlaceable](IPlaceable.md)</td><td></td></tr>
   <tr><td>[PlacementResult](PlacementResult.md)</td><td>Represents a result of a placement attempt.</td></tr>
+  <tr><td>[IPlaceable](IPlaceable.md)</td><td></td></tr>
   <tr><td>[IPlacementProperties](IPlacementProperties.md)</td><td></td></tr>
   </tbody>
 </table>

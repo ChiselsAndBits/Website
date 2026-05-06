@@ -11,11 +11,17 @@ _Package:_ [mod.chiselsandbits.api.plugin](index.md)
   
 
 Represents a plugin for ChiselsAndBits.
-
-Plugins have callbacks that can be invoked by aequivaleo.
-See their documentation for more information.
-
-All methods are potentially invoked in parallel with other plugins, or even aequivaleo itself.  
+<p>
+    Plugins have callbacks that can be invoked by chisels and bits.
+    See their documentation for more information.
+</p>
+<p>
+    All methods are potentially invoked in parallel with other plugins, or even chisels and bits itself.
+</p>
+<p>
+    Plugins are loaded through the <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/ServiceLoader.html" title="class or interface in java.util" class="external-link"><code>ServiceLoader</code></a>. If annotated by <a href="ChiselsAndBitsPlugin.html" title="annotation interface in mod.chiselsandbits.api.plugin"><code>ChiselsAndBitsPlugin</code></a>
+    then additional metadata is checked, like required mods or experimental flags.
+</p>  
 
 <dl class="notes"></dl>  
 

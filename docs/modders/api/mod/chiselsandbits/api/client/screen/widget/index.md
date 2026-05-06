@@ -20,8 +20,8 @@ package mod.chiselsandbits.api.client.screen.widget;
   </thead>
   <tbody>
   <tr><td>[IChiselsAndBitsWidget](IChiselsAndBitsWidget.md)</td><td></td></tr>
-  <tr><td>[AbstractChiselsAndBitsWidget](AbstractChiselsAndBitsWidget.md)</td><td>All chisels and bits widgets inherit from this class.</td></tr>
   <tr><td>[AbstractChiselsAndBitsButton](AbstractChiselsAndBitsButton.md)</td><td>An abstract chisels and bits button.</td></tr>
+  <tr><td>[AbstractChiselsAndBitsWidget](AbstractChiselsAndBitsWidget.md)</td><td>All chisels and bits widgets inherit from this class.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -39,8 +39,8 @@ package mod.chiselsandbits.api.client.screen.widget;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[AbstractChiselsAndBitsWidget](AbstractChiselsAndBitsWidget.md)</td><td>All chisels and bits widgets inherit from this class.</td></tr>
   <tr><td>[AbstractChiselsAndBitsButton](AbstractChiselsAndBitsButton.md)</td><td>An abstract chisels and bits button.</td></tr>
+  <tr><td>[AbstractChiselsAndBitsWidget](AbstractChiselsAndBitsWidget.md)</td><td>All chisels and bits widgets inherit from this class.</td></tr>
   </tbody>
 </table>
 == Enums

@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.multistate.mutator.world;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IInWorldMutableStateEntryInfo](IInWorldMutableStateEntryInfo.md)</td><td></td></tr>
   <tr><td>[IWorldAreaMutator](IWorldAreaMutator.md)</td><td>Allows for a given area in the world to be mutated.</td></tr>
+  <tr><td>[IInWorldMutableStateEntryInfo](IInWorldMutableStateEntryInfo.md)</td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.multistate.mutator.world;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IInWorldMutableStateEntryInfo](IInWorldMutableStateEntryInfo.md)</td><td></td></tr>
   <tr><td>[IWorldAreaMutator](IWorldAreaMutator.md)</td><td>Allows for a given area in the world to be mutated.</td></tr>
+  <tr><td>[IInWorldMutableStateEntryInfo](IInWorldMutableStateEntryInfo.md)</td><td></td></tr>
   </tbody>
 </table>
 == Classes

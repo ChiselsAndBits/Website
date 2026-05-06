@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.glueing.operation;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IGlueingOperation](IGlueingOperation.md)</td><td>A Glueing operation that can be performed in the Glueing table.</td></tr>
   <tr><td>[IGlueingOperationGroup](IGlueingOperationGroup.md)</td><td></td></tr>
+  <tr><td>[IGlueingOperation](IGlueingOperation.md)</td><td>A Glueing operation that can be performed in the Glueing table.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.glueing.operation;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IGlueingOperation](IGlueingOperation.md)</td><td>A Glueing operation that can be performed in the Glueing table.</td></tr>
   <tr><td>[IGlueingOperationGroup](IGlueingOperationGroup.md)</td><td></td></tr>
+  <tr><td>[IGlueingOperation](IGlueingOperation.md)</td><td>A Glueing operation that can be performed in the Glueing table.</td></tr>
   </tbody>
 </table>
 == Classes

@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.multistate.snapshot;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IMultiStateSnapshotType](IMultiStateSnapshotType.md)</td><td>The type of a multi state snapshot.</td></tr>
   <tr><td>[IMultiStateSnapshot](IMultiStateSnapshot.md)</td><td></td></tr>
+  <tr><td>[IMultiStateSnapshotType](IMultiStateSnapshotType.md)</td><td>The type of a multi state snapshot.</td></tr>
   <tr><td>[ISnapshotFactory](ISnapshotFactory.md)</td><td>A factory to create simple snapshots.</td></tr>
   </tbody>
 </table>
@@ -30,8 +30,8 @@ package mod.chiselsandbits.api.multistate.snapshot;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IMultiStateSnapshotType](IMultiStateSnapshotType.md)</td><td>The type of a multi state snapshot.</td></tr>
   <tr><td>[IMultiStateSnapshot](IMultiStateSnapshot.md)</td><td></td></tr>
+  <tr><td>[IMultiStateSnapshotType](IMultiStateSnapshotType.md)</td><td>The type of a multi state snapshot.</td></tr>
   <tr><td>[ISnapshotFactory](ISnapshotFactory.md)</td><td>A factory to create simple snapshots.</td></tr>
   </tbody>
 </table>

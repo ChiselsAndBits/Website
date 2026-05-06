@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.item.named;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IPermanentlyHighlightedNameItem](IPermanentlyHighlightedNameItem.md)</td><td></td></tr>
   <tr><td>[IDynamicallyHighlightedNameItem](IDynamicallyHighlightedNameItem.md)</td><td></td></tr>
+  <tr><td>[IPermanentlyHighlightedNameItem](IPermanentlyHighlightedNameItem.md)</td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.item.named;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IPermanentlyHighlightedNameItem](IPermanentlyHighlightedNameItem.md)</td><td></td></tr>
   <tr><td>[IDynamicallyHighlightedNameItem](IDynamicallyHighlightedNameItem.md)</td><td></td></tr>
+  <tr><td>[IPermanentlyHighlightedNameItem](IPermanentlyHighlightedNameItem.md)</td><td></td></tr>
   </tbody>
 </table>
 == Classes

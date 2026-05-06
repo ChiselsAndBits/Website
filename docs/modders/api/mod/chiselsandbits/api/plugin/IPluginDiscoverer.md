@@ -14,6 +14,23 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
 
 <dl class="notes"></dl>  
 
+<li>
+<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
+:::tabs
+== Nested Classes
+<table class="stretched-table">
+  <thead>
+    <tr><th>Modifier and Type</th><th>Interface</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td><code>static class&nbsp;</code></td><td><code><a href="IPluginDiscoverer.AbstractPluginDiscoverer.html" class="type-name-link" title="class in mod.chiselsandbits.api.plugin">IPluginDiscoverer.AbstractPluginDiscoverer</a></code></td><td>&nbsp;</td></tr>
+  </tbody>
+</table>
+:::
+</section>
+</li>
+  
+  
 <!-- ========== METHOD SUMMARY =========== -->
 <li>
 <section class="method-summary" id="method-summary">Method Summary  
@@ -25,7 +42,7 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
   </thead>
   <tbody>
   <tr><td><code>static <a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Gives access to the platform's plugin manager.</div><br></td></tr>
-  <tr><td><code>&lt;A, I extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>, T&gt;<br><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;T&gt;&gt;</code></td><td><code><a href="#loadPlugins(java.lang.Class,java.lang.Class,java.lang.Class,java.util.function.Function)" class="member-name-link">loadPlugins</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;A&gt;&nbsp;annotationType,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;I&gt;&nbsp;instanceAnnotationType,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;T&gt;&nbsp;pluginSpecificationType,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;T,<wbr><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;&nbsp;idExtractor)</code></td><td><div class="block">Loads the plugins of a given type, potentially marked with a given annotation type.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</code></td><td><code><a href="#loadPlugins()" class="member-name-link">loadPlugins</a>()</code></td><td><div class="block">Loads the plugins.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -43,7 +60,7 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>&lt;A, I extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>, T&gt;<br><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;T&gt;&gt;</code></td><td><code><a href="#loadPlugins(java.lang.Class,java.lang.Class,java.lang.Class,java.util.function.Function)" class="member-name-link">loadPlugins</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;A&gt;&nbsp;annotationType,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;I&gt;&nbsp;instanceAnnotationType,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;T&gt;&nbsp;pluginSpecificationType,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;T,<wbr><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;&nbsp;idExtractor)</code></td><td><div class="block">Loads the plugins of a given type, potentially marked with a given annotation type.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</code></td><td><code><a href="#loadPlugins()" class="member-name-link">loadPlugins</a>()</code></td><td><div class="block">Loads the plugins.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -52,7 +69,7 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>&lt;A, I extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>, T&gt;<br><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;T&gt;&gt;</code></td><td><code><a href="#loadPlugins(java.lang.Class,java.lang.Class,java.lang.Class,java.util.function.Function)" class="member-name-link">loadPlugins</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;A&gt;&nbsp;annotationType,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;I&gt;&nbsp;instanceAnnotationType,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;T&gt;&nbsp;pluginSpecificationType,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;T,<wbr><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;&nbsp;idExtractor)</code></td><td><div class="block">Loads the plugins of a given type, potentially marked with a given annotation type.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</code></td><td><code><a href="#loadPlugins()" class="member-name-link">loadPlugins</a>()</code></td><td><div class="block">Loads the plugins.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -95,29 +112,17 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
 
 </li>
 <li>
-<section id="loadPlugins(java.lang.Class,java.lang.Class,java.lang.Class,java.util.function.Function)">
+<section id="loadPlugins()">
 
 :::tabs
 == loadPlugins
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="type-parameters">&lt;A, I extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/annotation/Annotation.html" title="class or interface in java.lang.annotation" class="external-link">Annotation</a>, T&gt;</span>
-<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;T&gt;&gt;</span>&nbsp;<span class="element-name">loadPlugins</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;A&gt;&nbsp;annotationType,
- <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;I&gt;&nbsp;instanceAnnotationType,
- <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;T&gt;&nbsp;pluginSpecificationType,
- <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;T,<wbr><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;&nbsp;idExtractor)</span></div>
-<div class="block">Loads the plugins of a given type, potentially marked with a given annotation type.</div>
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</span>&nbsp;<span class="element-name">loadPlugins</span>()</div>
+<div class="block">Loads the plugins.
+Already has performed the instantiation logic and validation.</div>
 <dl class="notes">
-<dt>Type Parameters:</dt>
-<dd><span id="loadPlugins(java.lang.Class,java.lang.Class,java.lang.Class,java.util.function.Function)-type-param-A"><code>A</code> - The type of the annotation.</span></dd>
-<dd><span id="loadPlugins(java.lang.Class,java.lang.Class,java.lang.Class,java.util.function.Function)-type-param-I"><code>I</code> - The type of the instance annotation.</span></dd>
-<dd><span id="loadPlugins(java.lang.Class,java.lang.Class,java.lang.Class,java.util.function.Function)-type-param-T"><code>T</code> - The type of the interface.</span></dd>
-<dt>Parameters:</dt>
-<dd><code>annotationType</code> - The annotation type to look for.</dd>
-<dd><code>instanceAnnotationType</code> - The annotation type that marks the instance of the plugin.</dd>
-<dd><code>pluginSpecificationType</code> - The plugin specification interface type to look for.</dd>
-<dd><code>idExtractor</code> - The function to extract the id from the plugin specification.</dd>
 <dt>Returns:</dt>
-<dd>All loaded plugins available.</dd>
+<dd>The loaded plugins.</dd>
 </dl>
 </div>
 :::

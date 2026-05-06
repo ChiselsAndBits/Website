@@ -20,8 +20,8 @@ package mod.chiselsandbits.api.profiling;
   </thead>
   <tbody>
   <tr><td>[IProfilingManager](IProfilingManager.md)</td><td>A profiling manager to handle the profiling of different interactions or managements.</td></tr>
-  <tr><td>[IProfiler](IProfiler.md)</td><td>A profiler used to track the time certain operations inside Chisels and Bits take.</td></tr>
   <tr><td>[IProfilerSection](IProfilerSection.md)</td><td>Represents a resource used for try-resource blocks that represents a<br>section of profileable code.</td></tr>
+  <tr><td>[IProfiler](IProfiler.md)</td><td>A profiler used to track the time certain operations inside Chisels and Bits take.</td></tr>
   <tr><td>[IProfilerResult](IProfilerResult.md)</td><td>The result of a profiling operation.</td></tr>
   </tbody>
 </table>
@@ -32,8 +32,8 @@ package mod.chiselsandbits.api.profiling;
   </thead>
   <tbody>
   <tr><td>[IProfilingManager](IProfilingManager.md)</td><td>A profiling manager to handle the profiling of different interactions or managements.</td></tr>
-  <tr><td>[IProfiler](IProfiler.md)</td><td>A profiler used to track the time certain operations inside Chisels and Bits take.</td></tr>
   <tr><td>[IProfilerSection](IProfilerSection.md)</td><td>Represents a resource used for try-resource blocks that represents a<br>section of profileable code.</td></tr>
+  <tr><td>[IProfiler](IProfiler.md)</td><td>A profiler used to track the time certain operations inside Chisels and Bits take.</td></tr>
   <tr><td>[IProfilerResult](IProfilerResult.md)</td><td>The result of a profiling operation.</td></tr>
   </tbody>
 </table>

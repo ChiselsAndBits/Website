@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.item.bit;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IBitItem](IBitItem.md)</td><td>Represents an item which is a single bit.</td></tr>
   <tr><td>[IBitItemManager](IBitItemManager.md)</td><td>A manager which deals with items for bits.</td></tr>
+  <tr><td>[IBitItem](IBitItem.md)</td><td>Represents an item which is a single bit.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.item.bit;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IBitItem](IBitItem.md)</td><td>Represents an item which is a single bit.</td></tr>
   <tr><td>[IBitItemManager](IBitItemManager.md)</td><td>A manager which deals with items for bits.</td></tr>
+  <tr><td>[IBitItem](IBitItem.md)</td><td>Represents an item which is a single bit.</td></tr>
   </tbody>
 </table>
 == Classes

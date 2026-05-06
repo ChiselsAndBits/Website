@@ -19,10 +19,10 @@ package mod.chiselsandbits.api.item.multistate;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IMultiStateItem](IMultiStateItem.md)</td><td>An item whose itemstacks contain multistate information.</td></tr>
-  <tr><td>[IStatistics](IStatistics.md)</td><td>The statistics of a multi state itemstack.</td></tr>
   <tr><td>[IMultiStateItemStack](IMultiStateItemStack.md)</td><td>The itemstack sensitive version of the multistate item.</td></tr>
+  <tr><td>[IMultiStateItem](IMultiStateItem.md)</td><td>An item whose itemstacks contain multistate information.</td></tr>
   <tr><td>[IMultiStateItemFactory](IMultiStateItemFactory.md)</td><td>Can create multistate items from a given source.</td></tr>
+  <tr><td>[IStatistics](IStatistics.md)</td><td>The statistics of a multi state itemstack.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -31,10 +31,10 @@ package mod.chiselsandbits.api.item.multistate;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IMultiStateItem](IMultiStateItem.md)</td><td>An item whose itemstacks contain multistate information.</td></tr>
-  <tr><td>[IStatistics](IStatistics.md)</td><td>The statistics of a multi state itemstack.</td></tr>
   <tr><td>[IMultiStateItemStack](IMultiStateItemStack.md)</td><td>The itemstack sensitive version of the multistate item.</td></tr>
+  <tr><td>[IMultiStateItem](IMultiStateItem.md)</td><td>An item whose itemstacks contain multistate information.</td></tr>
   <tr><td>[IMultiStateItemFactory](IMultiStateItemFactory.md)</td><td>Can create multistate items from a given source.</td></tr>
+  <tr><td>[IStatistics](IStatistics.md)</td><td>The statistics of a multi state itemstack.</td></tr>
   </tbody>
 </table>
 == Classes

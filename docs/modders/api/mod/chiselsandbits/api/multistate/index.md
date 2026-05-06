@@ -46,9 +46,9 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[mod.chiselsandbits.api.multistate.statistics](statistics/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.multistate.mutator](mutator/index.md)</td><td></td></tr>
   <tr><td>[mod.chiselsandbits.api.multistate.snapshot](snapshot/index.md)</td><td></td></tr>
   <tr><td>[mod.chiselsandbits.api.multistate.accessor](accessor/index.md)</td><td></td></tr>
-  <tr><td>[mod.chiselsandbits.api.multistate.mutator](mutator/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.multistate.statistics](statistics/index.md)</td><td></td></tr>
   </tbody>
 </table>

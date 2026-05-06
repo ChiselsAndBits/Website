@@ -20,8 +20,8 @@ package mod.chiselsandbits.api.chiseling.eligibility;
   </thead>
   <tbody>
   <tr><td>[IEligibilityAnalysisResult](IEligibilityAnalysisResult.md)</td><td>The results of an eligibility analysis.</td></tr>
-  <tr><td>[IEligibilityManager](IEligibilityManager.md)</td><td>An object which can manage the eligibility of chiseling of blocks, blockstates,<br>or itemstacks (which contain blocks eligible) for chiseling.</td></tr>
   <tr><td>[IEligibilityOptions](IEligibilityOptions.md)</td><td>Determines the additional eligibility options for a given platform.</td></tr>
+  <tr><td>[IEligibilityManager](IEligibilityManager.md)</td><td>An object which can manage the eligibility of chiseling of blocks, blockstates,<br>or itemstacks (which contain blocks eligible) for chiseling.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -31,8 +31,8 @@ package mod.chiselsandbits.api.chiseling.eligibility;
   </thead>
   <tbody>
   <tr><td>[IEligibilityAnalysisResult](IEligibilityAnalysisResult.md)</td><td>The results of an eligibility analysis.</td></tr>
-  <tr><td>[IEligibilityManager](IEligibilityManager.md)</td><td>An object which can manage the eligibility of chiseling of blocks, blockstates,<br>or itemstacks (which contain blocks eligible) for chiseling.</td></tr>
   <tr><td>[IEligibilityOptions](IEligibilityOptions.md)</td><td>Determines the additional eligibility options for a given platform.</td></tr>
+  <tr><td>[IEligibilityManager](IEligibilityManager.md)</td><td>An object which can manage the eligibility of chiseling of blocks, blockstates,<br>or itemstacks (which contain blocks eligible) for chiseling.</td></tr>
   </tbody>
 </table>
 == Classes

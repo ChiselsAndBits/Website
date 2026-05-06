@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.notifications;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[INotification](INotification.md)</td><td></td></tr>
   <tr><td>[INotificationManager](INotificationManager.md)</td><td>Manager which handles notifying players of events in the game.</td></tr>
+  <tr><td>[INotification](INotification.md)</td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.notifications;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[INotification](INotification.md)</td><td></td></tr>
   <tr><td>[INotificationManager](INotificationManager.md)</td><td>Manager which handles notifying players of events in the game.</td></tr>
+  <tr><td>[INotification](INotification.md)</td><td></td></tr>
   </tbody>
 </table>
 == Classes

@@ -16,7 +16,7 @@ java.lang.Object
 
 ---
 <div class="type-signature"><span class="modifiers">public abstract static class </span><span class="element-name type-name-label">IPluginDiscoverer.AbstractPluginDiscoverer</span><br/>  
-<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><br/>  
+<span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><br/>  
 implements <a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></span></div>  
 
   
@@ -25,18 +25,15 @@ implements <a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbi
 
 <dl class="notes"></dl>  
 
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Nested Class Summary  
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Nested classes/interfaces inherited from interface&nbsp;mod.chiselsandbits.api.plugin.<a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a>
-<a href="IPluginDiscoverer.AbstractPluginDiscoverer.html" title="class in mod.chiselsandbits.api.plugin">IPluginDiscoverer.AbstractPluginDiscoverer</a>
-:::::
-:::::::
+<li>
+<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
+Nested classes/interfaces inherited from interface&nbsp;mod.chiselsandbits.api.plugin.<a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a><a href="IPluginDiscoverer.AbstractPluginDiscoverer.html" title="class in mod.chiselsandbits.api.plugin">IPluginDiscoverer.AbstractPluginDiscoverer</a></section>
+</li>
   
   
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
-<!-- JavaMarkContainer Depth: 1 -->
-::::: info Constructor Summary  
+<li>
+<section class="constructor-summary" id="constructor-summary">Constructor Summary  
 :::tabs
 == Constructors
 <table class="stretched-table">
@@ -48,12 +45,13 @@ implements <a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbi
   </tbody>
 </table>
 :::
-:::::
+</section>
+</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<!-- JavaMarkContainer Depth: 2 -->
-::::::: info Method Summary  
+<li>
+<section class="method-summary" id="method-summary">Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -61,8 +59,8 @@ implements <a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbi
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>protected abstract boolean</code></td><td><code><a href="#isModNotLoaded(java.lang.String)" class="member-name-link">isModNotLoaded</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</code></td><td><code><a href="#loadPlugins()" class="member-name-link">loadPlugins</a>()</code></td><td><div class="block">Loads the plugins.</div><br></td></tr>
+  <tr><td><code>protected abstract boolean</code></td><td><code><a href="#isModNotLoaded(java.lang.String)" class="member-name-link">isModNotLoaded</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</code></td><td><code><a href="#loadPlugins()" class="member-name-link">loadPlugins</a>()</code></td><td><div class="block">Loads the plugins.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -71,8 +69,8 @@ implements <a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbi
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>protected abstract boolean</code></td><td><code><a href="#isModNotLoaded(java.lang.String)" class="member-name-link">isModNotLoaded</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</code></td><td><code><a href="#loadPlugins()" class="member-name-link">loadPlugins</a>()</code></td><td><div class="block">Loads the plugins.</div><br></td></tr>
+  <tr><td><code>protected abstract boolean</code></td><td><code><a href="#isModNotLoaded(java.lang.String)" class="member-name-link">isModNotLoaded</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</code></td><td><code><a href="#loadPlugins()" class="member-name-link">loadPlugins</a>()</code></td><td><div class="block">Loads the plugins.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -81,7 +79,7 @@ implements <a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbi
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>protected abstract boolean</code></td><td><code><a href="#isModNotLoaded(java.lang.String)" class="member-name-link">isModNotLoaded</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>protected abstract boolean</code></td><td><code><a href="#isModNotLoaded(java.lang.String)" class="member-name-link">isModNotLoaded</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</code></td><td>&nbsp;</td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -90,15 +88,12 @@ implements <a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbi
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</code></td><td><code><a href="#loadPlugins()" class="member-name-link">loadPlugins</a>()</code></td><td><div class="block">Loads the plugins.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</code></td><td><code><a href="#loadPlugins()" class="member-name-link">loadPlugins</a>()</code></td><td><div class="block">Loads the plugins.</div><br></td></tr>
   </tbody>
 </table>
 :::
-<!-- JavaMarkContainer Depth: 1 -->
-::::: tip Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>
-<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>
-:::::
-:::::::
+Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a></section>
+</li>
   
   
   
@@ -115,8 +110,9 @@ implements <a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbi
 
 :::tabs
 == AbstractPluginDiscoverer
+<div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">AbstractPluginDiscoverer</span>()</div>
-<dl class="notes"></dl>
+</div>
 :::
 
 
@@ -129,36 +125,45 @@ implements <a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbi
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
+<ul class="member-list">
+<li>
 <section id="loadPlugins()">
 
 :::tabs
 == loadPlugins
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</span>&nbsp;<span class="element-name">loadPlugins</span>()</div>
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</span>&nbsp;<span class="element-name">loadPlugins</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="IPluginDiscoverer.html#loadPlugins()">IPluginDiscoverer</a></code></span></div>
-Loads the plugins.
- Already has performed the instantiation logic and validation.
+<div class="block">Loads the plugins.
+Already has performed the instantiation logic and validation.</div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="IPluginDiscoverer.html#loadPlugins()">loadPlugins</a></code>&nbsp;in interface&nbsp;<code><a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></code></dd>
 <dt>Returns:</dt>
 <dd>The loaded plugins.</dd>
 </dl>
+</div>
 :::
 
 
 </section>
 
+</li>
+<li>
 <section id="isModNotLoaded(java.lang.String)">
 
 :::tabs
 == isModNotLoaded
-<div class="member-signature"><span class="modifiers">protected abstract</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isModNotLoaded</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</span></div>
-<dl class="notes"></dl>
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">protected abstract</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isModNotLoaded</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</span></div>
+</div>
 :::
 
 
 </section>
 
+</li>
+</ul>
 :::::
   
 

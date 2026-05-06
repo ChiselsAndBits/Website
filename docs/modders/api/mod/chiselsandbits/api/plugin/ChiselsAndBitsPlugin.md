@@ -19,23 +19,6 @@ Annotation which marks a given class as being a chisels and bits plugin.
 
 <dl class="notes"></dl>  
 
-<li>
-<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
-:::tabs
-== Nested Classes
-<table class="stretched-table">
-  <thead>
-    <tr><th>Modifier and Type</th><th>Class</th><th>Description</th></tr>
-  </thead>
-  <tbody>
-  <tr><td><code>static @interface&nbsp;</code></td><td><code><a href="ChiselsAndBitsPlugin.Instance.html" class="type-name-link" title="annotation interface in mod.chiselsandbits.api.plugin">ChiselsAndBitsPlugin.Instance</a></code></td><td><div class="block">Used to on a static field of a class annotated with <a href="ChiselsAndBitsPlugin.html" title="annotation interface in mod.chiselsandbits.api.plugin"><code>ChiselsAndBitsPlugin</code></a> to represent the field is an instance of an <a href="ChiselsAndBitsPlugin.html" title="annotation interface in mod.chiselsandbits.api.plugin"><code>ChiselsAndBitsPlugin</code></a>.</div><br></td></tr>
-  </tbody>
-</table>
-:::
-</section>
-</li>
-  
-  
 <!-- =========== ANNOTATION INTERFACE OPTIONAL MEMBER SUMMARY =========== -->
 <li>
 <section class="member-summary" id="annotation-interface-optional-element-summary">Optional Element Summary  

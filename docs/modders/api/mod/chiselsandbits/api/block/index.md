@@ -46,8 +46,8 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[mod.chiselsandbits.api.block.bitbag](bitbag/index.md)</td><td></td></tr>
   <tr><td>[mod.chiselsandbits.api.block.entity](entity/index.md)</td><td></td></tr>
+  <tr><td>[mod.chiselsandbits.api.block.bitbag](bitbag/index.md)</td><td></td></tr>
   <tr><td>[mod.chiselsandbits.api.block.storage](storage/index.md)</td><td></td></tr>
   </tbody>
 </table>

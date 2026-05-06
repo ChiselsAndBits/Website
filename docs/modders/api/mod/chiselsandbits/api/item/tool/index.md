@@ -19,9 +19,9 @@ package mod.chiselsandbits.api.item.tool;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IUnsealItem](IUnsealItem.md)</td><td>Represents a unsealing item that is used to unseal multi use patterns.</td></tr>
   <tr><td>[ISealantItem](ISealantItem.md)</td><td>Represents a sealant item that is used to seal single use patterns.</td></tr>
   <tr><td>[IQuillItem](IQuillItem.md)</td><td>Represents a quill that can be used to create patterns.</td></tr>
+  <tr><td>[IUnsealItem](IUnsealItem.md)</td><td>Represents a unsealing item that is used to unseal multi use patterns.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -30,9 +30,9 @@ package mod.chiselsandbits.api.item.tool;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IUnsealItem](IUnsealItem.md)</td><td>Represents a unsealing item that is used to unseal multi use patterns.</td></tr>
   <tr><td>[ISealantItem](ISealantItem.md)</td><td>Represents a sealant item that is used to seal single use patterns.</td></tr>
   <tr><td>[IQuillItem](IQuillItem.md)</td><td>Represents a quill that can be used to create patterns.</td></tr>
+  <tr><td>[IUnsealItem](IUnsealItem.md)</td><td>Represents a unsealing item that is used to unseal multi use patterns.</td></tr>
   </tbody>
 </table>
 == Classes

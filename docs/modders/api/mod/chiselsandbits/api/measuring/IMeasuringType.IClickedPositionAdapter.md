@@ -22,8 +22,7 @@ This is a functional interface and can therefore be used as the assignment targe
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -63,8 +62,6 @@ This is a functional interface and can therefore be used as the assignment targe
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

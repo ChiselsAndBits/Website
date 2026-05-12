@@ -16,8 +16,7 @@ via a given <a href="../IAreaAccessor.html" title="interface in mod.chiselsandbi
 <dl class="notes"></dl>  
 
 <!-- =========== FIELD SUMMARY =========== -->
-<li>
-<section class="field-summary" id="field-summary">Field Summary  
+Field Summary  
 :::tabs
 == Fields
 <table class="stretched-table">
@@ -29,8 +28,6 @@ via a given <a href="../IAreaAccessor.html" title="interface in mod.chiselsandbi
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

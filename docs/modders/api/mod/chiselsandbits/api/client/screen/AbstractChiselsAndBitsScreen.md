@@ -24,22 +24,19 @@ Custom screens which inherit from this class implement custom logic related to c
 
 <dl class="notes"></dl>  
 
-<li>
-<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
-Nested classes/interfaces inherited from class&nbsp;net.minecraft.client.gui.screens.Screennet.minecraft.client.gui.screens.Screen.NarratableSearchResult</section>
-</li>
+<!-- JavaMarkContainer Depth: 1 -->
+::::: info Nested Class Summary  
+Nested classes/interfaces inherited from class&nbsp;net.minecraft.client.gui.screens.Screennet.minecraft.client.gui.screens.Screen.NarratableSearchResult
+:::::
   
   
 <!-- =========== FIELD SUMMARY =========== -->
-<li>
-<section class="field-summary" id="field-summary">Field Summary  
-Fields inherited from class&nbsp;net.minecraft.client.gui.screens.Screenchildren, FADE_IN_TIME, font, FOOTER_SEPARATOR, HEADER_SEPARATOR, height, INWORLD_FOOTER_SEPARATOR, INWORLD_HEADER_SEPARATOR, MENU_BACKGROUND, minecraft, narratables, narratorButton, screenExecutor, title, width</section>
-</li>
+Field Summary  
+Fields inherited from class&nbsp;net.minecraft.client.gui.screens.Screenchildren, FADE_IN_TIME, font, FOOTER_SEPARATOR, HEADER_SEPARATOR, height, INWORLD_FOOTER_SEPARATOR, INWORLD_HEADER_SEPARATOR, MENU_BACKGROUND, minecraft, narratables, narratorButton, screenExecutor, title, width
   
   
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
-<li>
-<section class="constructor-summary" id="constructor-summary">Constructor Summary  
+Constructor Summary  
 :::tabs
 == Constructors
 <table class="stretched-table">
@@ -51,13 +48,10 @@ Fields inherited from class&nbsp;net.minecraft.client.gui.screens.Screenchildren
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -114,8 +108,7 @@ Fields inherited from class&nbsp;net.minecraft.client.gui.screens.Screenchildren
   </tbody>
 </table>
 :::
-Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, afterKeyboardAction, afterMouseAction, afterMouseMove, canInterruptWithAnotherScreen, changeFocus, children, clearFocus, clickCommandAction, clickUrlAction, defaultHandleClickEvent, defaultHandleGameClickEvent, extractBackground, extractBlurredBackground, extractMenuBackground, extractMenuBackground, extractMenuBackgroundTexture, extractPanorama, extractRenderStateWithTooltipAndSubtitles, extractTransparentBackground, fadeWidgets, fillCrashDetails, findNarratableWidget, getBackgroundMusic, getFont, getNarrationMessage, getRectangle, getTitle, getTooltipFromItem, getUsageNarration, handleDelayedNarration, init, insertText, isAllowedInPortal, isInGameUi, isMouseOver, isPauseScreen, isValidCharacterForName, keyPressed, onClose, onFilesDrop, panoramaShouldSpin, rebuildWidgets, repositionElements, resize, setInitialFocus, setInitialFocus, shouldCloseOnEsc, shouldNarrateNavigation, showsActiveEffects, tick, triggerImmediateNarration, updateNarratedWidget, updateNarrationState, updateNarratorStatusMethods inherited from class&nbsp;net.minecraft.client.gui.components.events.AbstractContainerEventHandlergetFocused, isDragging, setDragging, setFocusedMethods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>Methods inherited from interface&nbsp;net.minecraft.client.gui.components.events.ContainerEventHandlercharTyped, getBorderForArrowNavigation, getChildAt, getCurrentFocusPath, isFocused, keyReleased, mouseClicked, mouseDragged, mouseReleased, mouseScrolled, nextFocusPath, preeditUpdated, setFocusedMethods inherited from interface&nbsp;net.minecraft.client.gui.components.events.GuiEventListenermouseMoved, shouldTakeFocusAfterInteractionMethods inherited from interface&nbsp;net.minecraft.client.gui.components.TabOrderedElementgetTabOrderGroup</section>
-</li>
+Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, afterKeyboardAction, afterMouseAction, afterMouseMove, canInterruptWithAnotherScreen, changeFocus, children, clearFocus, clickCommandAction, clickUrlAction, defaultHandleClickEvent, defaultHandleGameClickEvent, extractBackground, extractBlurredBackground, extractMenuBackground, extractMenuBackground, extractMenuBackgroundTexture, extractPanorama, extractRenderStateWithTooltipAndSubtitles, extractTransparentBackground, fadeWidgets, fillCrashDetails, findNarratableWidget, getBackgroundMusic, getFont, getNarrationMessage, getRectangle, getTitle, getTooltipFromItem, getUsageNarration, handleDelayedNarration, init, insertText, isAllowedInPortal, isInGameUi, isMouseOver, isPauseScreen, isValidCharacterForName, keyPressed, onClose, onFilesDrop, panoramaShouldSpin, rebuildWidgets, repositionElements, resize, setInitialFocus, setInitialFocus, shouldCloseOnEsc, shouldNarrateNavigation, showsActiveEffects, tick, triggerImmediateNarration, updateNarratedWidget, updateNarrationState, updateNarratorStatusMethods inherited from class&nbsp;net.minecraft.client.gui.components.events.AbstractContainerEventHandlergetFocused, isDragging, setDragging, setFocusedMethods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>Methods inherited from interface&nbsp;net.minecraft.client.gui.components.events.ContainerEventHandlercharTyped, getBorderForArrowNavigation, getChildAt, getCurrentFocusPath, isFocused, keyReleased, mouseClicked, mouseDragged, mouseReleased, mouseScrolled, nextFocusPath, preeditUpdated, setFocusedMethods inherited from interface&nbsp;net.minecraft.client.gui.components.events.GuiEventListenermouseMoved, shouldTakeFocusAfterInteractionMethods inherited from interface&nbsp;net.minecraft.client.gui.components.TabOrderedElementgetTabOrderGroup
   
   
   

@@ -23,8 +23,7 @@ on the context.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -54,8 +53,7 @@ on the context.
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries.ICustomRegistryEntrygetRegistryName</section>
-</li>
+Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries.ICustomRegistryEntrygetRegistryName
   
   
   

@@ -15,8 +15,7 @@ The results of an eligibility analysis.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -52,8 +51,6 @@ The results of an eligibility analysis.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

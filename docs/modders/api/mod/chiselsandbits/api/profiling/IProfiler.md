@@ -15,8 +15,7 @@ A profiler used to track the time certain operations inside Chisels and Bits tak
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -66,8 +65,6 @@ A profiler used to track the time certain operations inside Chisels and Bits tak
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

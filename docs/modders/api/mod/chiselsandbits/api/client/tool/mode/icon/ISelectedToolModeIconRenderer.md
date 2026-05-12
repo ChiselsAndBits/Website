@@ -15,8 +15,7 @@ Used to render the icons on the hot bar for the selected tool mode.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -49,8 +48,6 @@ Used to render the icons on the hot bar for the selected tool mode.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

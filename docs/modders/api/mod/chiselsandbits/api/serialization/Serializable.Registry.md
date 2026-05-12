@@ -24,17 +24,15 @@ Serializes specifically when a registry is involved.
 
 <dl class="notes"></dl>  
 
-<li>
-<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
-Nested classes/interfaces inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a href="Serializable.html" title="interface in mod.chiselsandbits.api.serialization">Serializable</a><a href="Serializable.Registry.html" title="interface in mod.chiselsandbits.api.serialization">Serializable.Registry</a>&lt;TSelf&gt;</section>
-</li>
+<!-- JavaMarkContainer Depth: 1 -->
+::::: info Nested Class Summary  
+Nested classes/interfaces inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a href="Serializable.html" title="interface in mod.chiselsandbits.api.serialization">Serializable</a><a href="Serializable.Registry.html" title="interface in mod.chiselsandbits.api.serialization">Serializable.Registry</a>&lt;TSelf&gt;
+:::::
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
-Methods inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a href="Serializable.html" title="interface in mod.chiselsandbits.api.serialization">Serializable</a><a href="Serializable.html#codec()" title="codec()">codec</a>, <a href="Serializable.html#mapCodec()" title="mapCodec()">mapCodec</a>, <a href="Serializable.html#streamCodec()" title="streamCodec()">streamCodec</a></section>
-</li>
+Method Summary  
+Methods inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a href="Serializable.html" title="interface in mod.chiselsandbits.api.serialization">Serializable</a><a href="Serializable.html#codec()" title="codec()">codec</a>, <a href="Serializable.html#mapCodec()" title="mapCodec()">mapCodec</a>, <a href="Serializable.html#streamCodec()" title="streamCodec()">streamCodec</a>
   
   
   

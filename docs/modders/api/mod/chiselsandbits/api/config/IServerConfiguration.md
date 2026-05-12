@@ -16,8 +16,7 @@ influence gameplay mechanics they need to be kept in sync.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -78,8 +77,6 @@ influence gameplay mechanics they need to be kept in sync.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

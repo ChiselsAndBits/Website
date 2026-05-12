@@ -19,8 +19,7 @@ All change trackers are reset upon server restart or datapack reload.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -60,8 +59,6 @@ All change trackers are reset upon server restart or datapack reload.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

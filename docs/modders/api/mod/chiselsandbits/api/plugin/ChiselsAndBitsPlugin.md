@@ -20,8 +20,7 @@ Annotation which marks a given class as being a chisels and bits plugin.
 <dl class="notes"></dl>  
 
 <!-- =========== ANNOTATION INTERFACE OPTIONAL MEMBER SUMMARY =========== -->
-<li>
-<section class="member-summary" id="annotation-interface-optional-element-summary">Optional Element Summary  
+Optional Element Summary  
 :::tabs
 == Optional Elements
 <table class="stretched-table">
@@ -34,8 +33,6 @@ Annotation which marks a given class as being a chisels and bits plugin.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

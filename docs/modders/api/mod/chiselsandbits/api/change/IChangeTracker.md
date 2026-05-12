@@ -20,8 +20,7 @@ Currently still work in progress.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -71,8 +70,7 @@ Currently still work in progress.
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a href="changes/IChangeHandler.html" title="interface in mod.chiselsandbits.api.change.changes">IChangeHandler</a><a href="changes/IChangeHandler.html#canRedo(net.minecraft.world.entity.player.Player)" title="canRedo(Player)">canRedo</a>, <a href="changes/IChangeHandler.html#canUndo(net.minecraft.world.entity.player.Player)" title="canUndo(Player)">canUndo</a>, <a href="changes/IChangeHandler.html#redo(net.minecraft.world.entity.player.Player)" title="redo(Player)">redo</a>, <a href="changes/IChangeHandler.html#undo(net.minecraft.world.entity.player.Player)" title="undo(Player)">undo</a></section>
-</li>
+Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a href="changes/IChangeHandler.html" title="interface in mod.chiselsandbits.api.change.changes">IChangeHandler</a><a href="changes/IChangeHandler.html#canRedo(net.minecraft.world.entity.player.Player)" title="canRedo(Player)">canRedo</a>, <a href="changes/IChangeHandler.html#canUndo(net.minecraft.world.entity.player.Player)" title="canUndo(Player)">canUndo</a>, <a href="changes/IChangeHandler.html#redo(net.minecraft.world.entity.player.Player)" title="redo(Player)">redo</a>, <a href="changes/IChangeHandler.html#undo(net.minecraft.world.entity.player.Player)" title="undo(Player)">undo</a>
   
   
   

@@ -19,8 +19,7 @@ extends <a href="../INoHitEffectsItem.html" title="interface in mod.chiselsandbi
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -67,8 +66,7 @@ extends <a href="../INoHitEffectsItem.html" title="interface in mod.chiselsandbi
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.click.<a href="../click/IRightClickControllingItem.html" title="interface in mod.chiselsandbits.api.item.click">IRightClickControllingItem</a><a href="../click/IRightClickControllingItem.html#canUse(net.minecraft.world.entity.player.Player,net.minecraft.world.item.ItemStack)" title="canUse(Player, ItemStack)">canUse</a>, <a href="../click/IRightClickControllingItem.html#handleRightClickProcessing(net.minecraft.world.entity.player.Player,net.minecraft.world.InteractionHand,net.minecraft.core.BlockPos,net.minecraft.core.Direction,mod.chiselsandbits.api.item.click.ClickProcessingState)" title="handleRightClickProcessing(Player, InteractionHand, BlockPos, Direction, ClickProcessingState)">handleRightClickProcessing</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a href="../withmode/IWithModeItem.html" title="interface in mod.chiselsandbits.api.item.withmode">IWithModeItem</a><a href="../withmode/IWithModeItem.html#getMode(net.minecraft.world.item.ItemStack)" title="getMode(ItemStack)">getMode</a>, <a href="../withmode/IWithModeItem.html#getPossibleModes()" title="getPossibleModes()">getPossibleModes</a>, <a href="../withmode/IWithModeItem.html#requiresUpdateOnClosure()" title="requiresUpdateOnClosure()">requiresUpdateOnClosure</a>, <a href="../withmode/IWithModeItem.html#setMode(net.minecraft.world.item.ItemStack,int)" title="setMode(ItemStack, int)">setMode</a>, <a href="../withmode/IWithModeItem.html#setMode(net.minecraft.world.item.ItemStack,M)" title="setMode(ItemStack, IMeasuringMode)">setMode</a></section>
-</li>
+Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.click.<a href="../click/IRightClickControllingItem.html" title="interface in mod.chiselsandbits.api.item.click">IRightClickControllingItem</a><a href="../click/IRightClickControllingItem.html#canUse(net.minecraft.world.entity.player.Player,net.minecraft.world.item.ItemStack)" title="canUse(Player, ItemStack)">canUse</a>, <a href="../click/IRightClickControllingItem.html#handleRightClickProcessing(net.minecraft.world.entity.player.Player,net.minecraft.world.InteractionHand,net.minecraft.core.BlockPos,net.minecraft.core.Direction,mod.chiselsandbits.api.item.click.ClickProcessingState)" title="handleRightClickProcessing(Player, InteractionHand, BlockPos, Direction, ClickProcessingState)">handleRightClickProcessing</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a href="../withmode/IWithModeItem.html" title="interface in mod.chiselsandbits.api.item.withmode">IWithModeItem</a><a href="../withmode/IWithModeItem.html#getMode(net.minecraft.world.item.ItemStack)" title="getMode(ItemStack)">getMode</a>, <a href="../withmode/IWithModeItem.html#getPossibleModes()" title="getPossibleModes()">getPossibleModes</a>, <a href="../withmode/IWithModeItem.html#requiresUpdateOnClosure()" title="requiresUpdateOnClosure()">requiresUpdateOnClosure</a>, <a href="../withmode/IWithModeItem.html#setMode(net.minecraft.world.item.ItemStack,int)" title="setMode(ItemStack, int)">setMode</a>, <a href="../withmode/IWithModeItem.html#setMode(net.minecraft.world.item.ItemStack,M)" title="setMode(ItemStack, IMeasuringMode)">setMode</a>
   
   
   

@@ -16,8 +16,7 @@ which is valid across multiple frames.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -63,8 +62,6 @@ which is valid across multiple frames.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

@@ -15,8 +15,7 @@ Represents something which supports the unsealing of itemstacks.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -46,8 +45,6 @@ Represents something which supports the unsealing of itemstacks.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

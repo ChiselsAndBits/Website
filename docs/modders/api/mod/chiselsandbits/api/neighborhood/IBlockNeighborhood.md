@@ -15,8 +15,7 @@ Marker interface used to detect block neighborhoods in cache keys.
 <dl class="notes"></dl>  
 
 <!-- =========== FIELD SUMMARY =========== -->
-<li>
-<section class="field-summary" id="field-summary">Field Summary  
+Field Summary  
 :::tabs
 == Fields
 <table class="stretched-table">
@@ -28,13 +27,10 @@ Marker interface used to detect block neighborhoods in cache keys.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -77,8 +73,6 @@ Marker interface used to detect block neighborhoods in cache keys.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

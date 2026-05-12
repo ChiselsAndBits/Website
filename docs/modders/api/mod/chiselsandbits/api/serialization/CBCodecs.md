@@ -14,8 +14,8 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
 
 <dl class="notes"></dl>  
 
-<li>
-<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
+<!-- JavaMarkContainer Depth: 1 -->
+::::: info Nested Class Summary  
 :::tabs
 == Nested Classes
 <table class="stretched-table">
@@ -28,13 +28,11 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
   </tbody>
 </table>
 :::
-</section>
-</li>
+:::::
   
   
 <!-- =========== FIELD SUMMARY =========== -->
-<li>
-<section class="field-summary" id="field-summary">Field Summary  
+Field Summary  
 :::tabs
 == Fields
 <table class="stretched-table">
@@ -46,13 +44,10 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -91,8 +86,6 @@ _Package:_ [mod.chiselsandbits.api.serialization](index.md)
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

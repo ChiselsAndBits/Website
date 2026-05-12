@@ -20,8 +20,7 @@ the largest quantity of a Chisels and Bits block.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -51,8 +50,7 @@ the largest quantity of a Chisels and Bits block.
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;net.minecraft.world.level.block.EntityBlockgetListener, getTicker, newBlockEntityMethods inherited from interface&nbsp;com.communi.suggestu.saecularia.caudices.core.block.IBlockWithWorldlyPropertiescanBeGrass, canHarvestBlock, getBeaconColorMultiplier, getCloneItemStack, getColor, getExplosionResistance, getFriction, getSoundType, mirror, rotate, shouldCheckWeakPower, shouldDisplayFluidOverlayMethods inherited from interface&nbsp;net.minecraft.world.level.ItemLikeasItem</section>
-</li>
+Methods inherited from interface&nbsp;net.minecraft.world.level.block.EntityBlockgetListener, getTicker, newBlockEntityMethods inherited from interface&nbsp;com.communi.suggestu.saecularia.caudices.core.block.IBlockWithWorldlyPropertiescanBeGrass, canHarvestBlock, getBeaconColorMultiplier, getCloneItemStack, getColor, getExplosionResistance, getFriction, getSoundType, mirror, rotate, shouldCheckWeakPower, shouldDisplayFluidOverlayMethods inherited from interface&nbsp;net.minecraft.world.level.ItemLikeasItem
   
   
   

@@ -28,8 +28,7 @@ Represents a single entry inside an area which can have multiple states.
 </dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -79,8 +78,6 @@ Represents a single entry inside an area which can have multiple states.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

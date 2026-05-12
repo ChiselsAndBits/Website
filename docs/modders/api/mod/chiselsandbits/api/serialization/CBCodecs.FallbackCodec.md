@@ -22,22 +22,19 @@ implements com.mojang.serialization.Codec&lt;F&gt;</span></div>
 
 <dl class="notes"></dl>  
 
-<li>
-<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
-Nested classes/interfaces inherited from interface&nbsp;com.mojang.serialization.Codeccom.mojang.serialization.Codec.RecursiveCodec&lt;T&gt;, com.mojang.serialization.Codec.ResultFunction&lt;A&gt;Nested classes/interfaces inherited from interface&nbsp;com.mojang.serialization.Decodercom.mojang.serialization.Decoder.Boxed&lt;A&gt;, com.mojang.serialization.Decoder.Simple&lt;A&gt;, com.mojang.serialization.Decoder.Terminal&lt;A&gt;</section>
-</li>
+<!-- JavaMarkContainer Depth: 1 -->
+::::: info Nested Class Summary  
+Nested classes/interfaces inherited from interface&nbsp;com.mojang.serialization.Codeccom.mojang.serialization.Codec.RecursiveCodec&lt;T&gt;, com.mojang.serialization.Codec.ResultFunction&lt;A&gt;Nested classes/interfaces inherited from interface&nbsp;com.mojang.serialization.Decodercom.mojang.serialization.Decoder.Boxed&lt;A&gt;, com.mojang.serialization.Decoder.Simple&lt;A&gt;, com.mojang.serialization.Decoder.Terminal&lt;A&gt;
+:::::
   
   
 <!-- =========== FIELD SUMMARY =========== -->
-<li>
-<section class="field-summary" id="field-summary">Field Summary  
-Fields inherited from interface&nbsp;com.mojang.serialization.CodecBOOL, BYTE, BYTE_BUFFER, DOUBLE, EMPTY, FLOAT, INT, INT_STREAM, LONG, LONG_STREAM, PASSTHROUGH, SHORT, STRING</section>
-</li>
+Field Summary  
+Fields inherited from interface&nbsp;com.mojang.serialization.CodecBOOL, BYTE, BYTE_BUFFER, DOUBLE, EMPTY, FLOAT, INT, INT_STREAM, LONG, LONG_STREAM, PASSTHROUGH, SHORT, STRING
   
   
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
-<li>
-<section class="constructor-summary" id="constructor-summary">Constructor Summary  
+Constructor Summary  
 :::tabs
 == Constructors
 <table class="stretched-table">
@@ -49,13 +46,10 @@ Fields inherited from interface&nbsp;com.mojang.serialization.CodecBOOL, BYTE, B
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -103,8 +97,7 @@ Fields inherited from interface&nbsp;com.mojang.serialization.CodecBOOL, BYTE, B
   </tbody>
 </table>
 :::
-Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>Methods inherited from interface&nbsp;com.mojang.serialization.CodeccomapFlatMap, deprecated, dispatch, dispatch, dispatchMap, dispatchMap, dispatchStable, fieldOf, flatComapMap, flatXmap, lenientOptionalFieldOf, lenientOptionalFieldOf, lenientOptionalFieldOf, lenientOptionalFieldOf, listOf, listOf, mapResult, optionalFieldOf, optionalFieldOf, optionalFieldOf, optionalFieldOf, orElse, orElse, orElse, orElseGet, orElseGet, orElseGet, partialDispatch, promotePartial, sizeLimitedListOf, stable, validate, withAlternative, withAlternative, withLifecycle, xmapMethods inherited from interface&nbsp;com.mojang.serialization.Decoderboxed, decode, flatMap, map, parse, parse, simple, terminalMethods inherited from interface&nbsp;com.mojang.serialization.Encodercomap, encodeStart, flatComap</section>
-</li>
+Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>Methods inherited from interface&nbsp;com.mojang.serialization.CodeccomapFlatMap, deprecated, dispatch, dispatch, dispatchMap, dispatchMap, dispatchStable, fieldOf, flatComapMap, flatXmap, lenientOptionalFieldOf, lenientOptionalFieldOf, lenientOptionalFieldOf, lenientOptionalFieldOf, listOf, listOf, mapResult, optionalFieldOf, optionalFieldOf, optionalFieldOf, optionalFieldOf, orElse, orElse, orElse, orElseGet, orElseGet, orElseGet, partialDispatch, promotePartial, sizeLimitedListOf, stable, validate, withAlternative, withAlternative, withLifecycle, xmapMethods inherited from interface&nbsp;com.mojang.serialization.Decoderboxed, decode, flatMap, map, parse, parse, simple, terminalMethods inherited from interface&nbsp;com.mojang.serialization.Encodercomap, encodeStart, flatComap
   
   
   

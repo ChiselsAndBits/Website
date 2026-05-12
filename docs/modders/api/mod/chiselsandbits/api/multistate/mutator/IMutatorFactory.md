@@ -15,8 +15,7 @@ Allows for the creation of new mutators used to modify chiselable areas.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -65,8 +64,6 @@ Allows for the creation of new mutators used to modify chiselable areas.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

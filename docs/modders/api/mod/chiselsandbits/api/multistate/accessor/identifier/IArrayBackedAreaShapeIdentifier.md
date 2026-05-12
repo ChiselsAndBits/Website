@@ -20,15 +20,12 @@ compare the identifiers.
 <dl class="notes"></dl>  
 
 <!-- =========== FIELD SUMMARY =========== -->
-<li>
-<section class="field-summary" id="field-summary">Field Summary  
-Fields inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.identifier.<a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a><a href="IAreaShapeIdentifier.html#DUMMY">DUMMY</a></section>
-</li>
+Field Summary  
+Fields inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.identifier.<a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a><a href="IAreaShapeIdentifier.html#DUMMY">DUMMY</a>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -61,8 +58,6 @@ Fields inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

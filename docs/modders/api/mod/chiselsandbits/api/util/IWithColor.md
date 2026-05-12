@@ -15,8 +15,7 @@ An object with a color associated with it.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -57,8 +56,6 @@ An object with a color associated with it.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

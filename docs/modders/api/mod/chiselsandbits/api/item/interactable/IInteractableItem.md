@@ -15,8 +15,7 @@ Represents an item which can be used to interact with other items in the other h
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -55,8 +54,6 @@ Represents an item which can be used to interact with other items in the other h
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

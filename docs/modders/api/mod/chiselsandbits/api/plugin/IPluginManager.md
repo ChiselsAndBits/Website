@@ -15,8 +15,7 @@ The manager for plugins.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -59,8 +58,6 @@ The manager for plugins.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

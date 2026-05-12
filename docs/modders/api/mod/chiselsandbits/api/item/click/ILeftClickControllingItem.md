@@ -15,8 +15,7 @@ Deals with the way items are able to handle left click interactions.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -60,8 +59,6 @@ Deals with the way items are able to handle left click interactions.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

@@ -15,8 +15,7 @@ Represents an entry point for a change that can be undone and redone.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -55,8 +54,6 @@ Represents an entry point for a change that can be undone and redone.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

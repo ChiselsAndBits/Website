@@ -19,8 +19,7 @@ Functional callback interface for setting the state of a bit.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -50,8 +49,6 @@ Functional callback interface for setting the state of a bit.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

@@ -18,8 +18,7 @@ Defines an object which is capable of making a deep clone of itself.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -49,8 +48,6 @@ Defines an object which is capable of making a deep clone of itself.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

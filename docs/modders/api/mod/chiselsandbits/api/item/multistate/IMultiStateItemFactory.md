@@ -15,8 +15,7 @@ Can create multistate items from a given source.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -56,8 +55,6 @@ Can create multistate items from a given source.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

@@ -20,10 +20,8 @@ its underlying bit layout, when used in a combining fashion.
 <dl class="notes"></dl>  
 
 <!-- =========== FIELD SUMMARY =========== -->
-<li>
-<section class="field-summary" id="field-summary">Field Summary  
-Fields inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.identifier.<a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a><a href="IAreaShapeIdentifier.html#DUMMY">DUMMY</a></section>
-</li>
+Field Summary  
+Fields inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.identifier.<a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a><a href="IAreaShapeIdentifier.html#DUMMY">DUMMY</a>
   
   
   

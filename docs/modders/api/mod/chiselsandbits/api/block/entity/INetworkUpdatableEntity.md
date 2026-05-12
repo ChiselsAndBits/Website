@@ -15,8 +15,7 @@ Marks the entity as a network updatable entity.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -58,8 +57,6 @@ Marks the entity as a network updatable entity.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

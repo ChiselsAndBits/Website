@@ -19,8 +19,7 @@ extends net.minecraft.client.gui.components.Renderable, net.minecraft.client.gui
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -53,8 +52,7 @@ extends net.minecraft.client.gui.components.Renderable, net.minecraft.client.gui
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;net.minecraft.client.gui.components.events.GuiEventListenercharTyped, getBorderForArrowNavigation, getCurrentFocusPath, getRectangle, isFocused, isMouseOver, keyPressed, keyReleased, mouseClicked, mouseDragged, mouseMoved, mouseReleased, mouseScrolled, nextFocusPath, preeditUpdated, setFocused, shouldTakeFocusAfterInteractionMethods inherited from interface&nbsp;net.minecraft.client.gui.components.RenderableextractRenderStateMethods inherited from interface&nbsp;net.minecraft.client.gui.components.TabOrderedElementgetTabOrderGroup</section>
-</li>
+Methods inherited from interface&nbsp;net.minecraft.client.gui.components.events.GuiEventListenercharTyped, getBorderForArrowNavigation, getCurrentFocusPath, getRectangle, isFocused, isMouseOver, keyPressed, keyReleased, mouseClicked, mouseDragged, mouseMoved, mouseReleased, mouseScrolled, nextFocusPath, preeditUpdated, setFocused, shouldTakeFocusAfterInteractionMethods inherited from interface&nbsp;net.minecraft.client.gui.components.RenderableextractRenderStateMethods inherited from interface&nbsp;net.minecraft.client.gui.components.TabOrderedElementgetTabOrderGroup
   
   
   

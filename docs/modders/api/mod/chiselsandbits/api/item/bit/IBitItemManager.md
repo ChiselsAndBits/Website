@@ -15,8 +15,7 @@ A manager which deals with items for bits.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -67,8 +66,6 @@ A manager which deals with items for bits.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

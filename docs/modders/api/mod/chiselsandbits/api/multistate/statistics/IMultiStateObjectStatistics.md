@@ -19,8 +19,7 @@ The statistics of a multistate block.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -94,8 +93,7 @@ The statistics of a multistate block.
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a href="../../item/multistate/IStatistics.html" title="interface in mod.chiselsandbits.api.item.multistate">IStatistics</a><a href="../../item/multistate/IStatistics.html#isEmpty()" title="isEmpty()">isEmpty</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a href="../../serialization/RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a><a href="../../serialization/RawSerializable.html#codec()" title="codec()">codec</a>, <a href="../../serialization/RawSerializable.html#mapCodec()" title="mapCodec()">mapCodec</a>, <a href="../../serialization/RawSerializable.html#streamCodec()" title="streamCodec()">streamCodec</a></section>
-</li>
+Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a href="../../item/multistate/IStatistics.html" title="interface in mod.chiselsandbits.api.item.multistate">IStatistics</a><a href="../../item/multistate/IStatistics.html#isEmpty()" title="isEmpty()">isEmpty</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a href="../../serialization/RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a><a href="../../serialization/RawSerializable.html#codec()" title="codec()">codec</a>, <a href="../../serialization/RawSerializable.html#mapCodec()" title="mapCodec()">mapCodec</a>, <a href="../../serialization/RawSerializable.html#streamCodec()" title="streamCodec()">streamCodec</a>
   
   
   

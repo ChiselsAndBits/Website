@@ -18,8 +18,8 @@ A bit inventory which can be converted to an itemstack.
 
 <dl class="notes"></dl>  
 
-<li>
-<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
+<!-- JavaMarkContainer Depth: 1 -->
+::::: info Nested Class Summary  
 :::tabs
 == Nested Classes
 <table class="stretched-table">
@@ -31,20 +31,17 @@ A bit inventory which can be converted to an itemstack.
   </tbody>
 </table>
 :::
-Nested classes/interfaces inherited from interface&nbsp;net.minecraft.world.Containernet.minecraft.world.Container.ContainerIterator</section>
-</li>
+Nested classes/interfaces inherited from interface&nbsp;net.minecraft.world.Containernet.minecraft.world.Container.ContainerIterator
+:::::
   
   
 <!-- =========== FIELD SUMMARY =========== -->
-<li>
-<section class="field-summary" id="field-summary">Field Summary  
-Fields inherited from interface&nbsp;net.minecraft.world.ContainerDEFAULT_DISTANCE_BUFFER</section>
-</li>
+Field Summary  
+Fields inherited from interface&nbsp;net.minecraft.world.ContainerDEFAULT_DISTANCE_BUFFER
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -89,8 +86,7 @@ Fields inherited from interface&nbsp;net.minecraft.world.ContainerDEFAULT_DISTAN
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;net.minecraft.world.ClearableclearContentMethods inherited from interface&nbsp;net.minecraft.world.ContainercanPlaceItem, canTakeItem, countItem, getContainerSize, getEntitiesWithContainerOpen, getItem, getMaxStackSize, getMaxStackSize, getSlot, hasAnyMatching, hasAnyOf, isEmpty, iterator, removeItem, removeItemNoUpdate, setChanged, setItem, startOpen, stillValid, stopOpenMethods inherited from interface&nbsp;mod.chiselsandbits.api.inventory.bit.<a href="IBitInventory.html" title="interface in mod.chiselsandbits.api.inventory.bit">IBitInventory</a><a href="IBitInventory.html#canExtract(mod.chiselsandbits.api.blockinformation.BlockInformation,int)" title="canExtract(BlockInformation, int)">canExtract</a>, <a href="IBitInventory.html#canExtractOne(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="canExtractOne(BlockInformation)">canExtractOne</a>, <a href="IBitInventory.html#canInsert(mod.chiselsandbits.api.blockinformation.BlockInformation,int)" title="canInsert(BlockInformation, int)">canInsert</a>, <a href="IBitInventory.html#canInsertOne(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="canInsertOne(BlockInformation)">canInsertOne</a>, <a href="IBitInventory.html#contains(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="contains(BlockInformation)">contains</a>, <a href="IBitInventory.html#extract(mod.chiselsandbits.api.blockinformation.BlockInformation,int)" title="extract(BlockInformation, int)">extract</a>, <a href="IBitInventory.html#extractOne(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="extractOne(BlockInformation)">extractOne</a>, <a href="IBitInventory.html#getContainedStates()" title="getContainedStates()">getContainedStates</a>, <a href="IBitInventory.html#getMaxExtractAmount(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="getMaxExtractAmount(BlockInformation)">getMaxExtractAmount</a>, <a href="IBitInventory.html#getMaxInsertAmount(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="getMaxInsertAmount(BlockInformation)">getMaxInsertAmount</a>, <a href="IBitInventory.html#insert(mod.chiselsandbits.api.blockinformation.BlockInformation,int)" title="insert(BlockInformation, int)">insert</a>, <a href="IBitInventory.html#insert(net.minecraft.world.item.ItemStack)" title="insert(ItemStack)">insert</a>, <a href="IBitInventory.html#insertOne(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="insertOne(BlockInformation)">insertOne</a>, <a href="IBitInventory.html#insertOrDiscard(mod.chiselsandbits.api.blockinformation.BlockInformation,int)" title="insertOrDiscard(BlockInformation, int)">insertOrDiscard</a>, <a href="IBitInventory.html#isEmpty()" title="isEmpty()">isEmpty</a>Methods inherited from interface&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Iterable.html" title="class or interface in java.lang" class="external-link">Iterable</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Iterable.html#forEach(java.util.function.Consumer)" title="class or interface in java.lang" class="external-link">forEach</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Iterable.html#spliterator()" title="class or interface in java.lang" class="external-link">spliterator</a>Methods inherited from interface&nbsp;net.minecraft.world.entity.SlotProvidergetSlotsFromRange</section>
-</li>
+Methods inherited from interface&nbsp;net.minecraft.world.ClearableclearContentMethods inherited from interface&nbsp;net.minecraft.world.ContainercanPlaceItem, canTakeItem, countItem, getContainerSize, getEntitiesWithContainerOpen, getItem, getMaxStackSize, getMaxStackSize, getSlot, hasAnyMatching, hasAnyOf, isEmpty, iterator, removeItem, removeItemNoUpdate, setChanged, setItem, startOpen, stillValid, stopOpenMethods inherited from interface&nbsp;mod.chiselsandbits.api.inventory.bit.<a href="IBitInventory.html" title="interface in mod.chiselsandbits.api.inventory.bit">IBitInventory</a><a href="IBitInventory.html#canExtract(mod.chiselsandbits.api.blockinformation.BlockInformation,int)" title="canExtract(BlockInformation, int)">canExtract</a>, <a href="IBitInventory.html#canExtractOne(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="canExtractOne(BlockInformation)">canExtractOne</a>, <a href="IBitInventory.html#canInsert(mod.chiselsandbits.api.blockinformation.BlockInformation,int)" title="canInsert(BlockInformation, int)">canInsert</a>, <a href="IBitInventory.html#canInsertOne(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="canInsertOne(BlockInformation)">canInsertOne</a>, <a href="IBitInventory.html#contains(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="contains(BlockInformation)">contains</a>, <a href="IBitInventory.html#extract(mod.chiselsandbits.api.blockinformation.BlockInformation,int)" title="extract(BlockInformation, int)">extract</a>, <a href="IBitInventory.html#extractOne(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="extractOne(BlockInformation)">extractOne</a>, <a href="IBitInventory.html#getContainedStates()" title="getContainedStates()">getContainedStates</a>, <a href="IBitInventory.html#getMaxExtractAmount(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="getMaxExtractAmount(BlockInformation)">getMaxExtractAmount</a>, <a href="IBitInventory.html#getMaxInsertAmount(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="getMaxInsertAmount(BlockInformation)">getMaxInsertAmount</a>, <a href="IBitInventory.html#insert(mod.chiselsandbits.api.blockinformation.BlockInformation,int)" title="insert(BlockInformation, int)">insert</a>, <a href="IBitInventory.html#insert(net.minecraft.world.item.ItemStack)" title="insert(ItemStack)">insert</a>, <a href="IBitInventory.html#insertOne(mod.chiselsandbits.api.blockinformation.BlockInformation)" title="insertOne(BlockInformation)">insertOne</a>, <a href="IBitInventory.html#insertOrDiscard(mod.chiselsandbits.api.blockinformation.BlockInformation,int)" title="insertOrDiscard(BlockInformation, int)">insertOrDiscard</a>, <a href="IBitInventory.html#isEmpty()" title="isEmpty()">isEmpty</a>Methods inherited from interface&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Iterable.html" title="class or interface in java.lang" class="external-link">Iterable</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Iterable.html#forEach(java.util.function.Consumer)" title="class or interface in java.lang" class="external-link">forEach</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Iterable.html#spliterator()" title="class or interface in java.lang" class="external-link">spliterator</a>Methods inherited from interface&nbsp;net.minecraft.world.entity.SlotProvidergetSlotsFromRange
   
   
   

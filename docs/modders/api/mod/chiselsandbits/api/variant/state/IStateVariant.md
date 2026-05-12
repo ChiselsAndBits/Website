@@ -22,8 +22,7 @@ Object which provides additional information about a state.
 <dl class="notes"></dl>  
 
 <!-- =========== FIELD SUMMARY =========== -->
-<li>
-<section class="field-summary" id="field-summary">Field Summary  
+Field Summary  
 :::tabs
 == Fields
 <table class="stretched-table">
@@ -37,13 +36,10 @@ Object which provides additional information about a state.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -84,8 +80,7 @@ Object which provides additional information about a state.
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Comparable.html" title="class or interface in java.lang" class="external-link">Comparable</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Comparable.html#compareTo(T)" title="class or interface in java.lang" class="external-link">compareTo</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/ISnapshotable.html" title="interface in mod.chiselsandbits.api.util">ISnapshotable</a><a href="../../util/ISnapshotable.html#createSnapshot()" title="createSnapshot()">createSnapshot</a></section>
-</li>
+Methods inherited from interface&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Comparable.html" title="class or interface in java.lang" class="external-link">Comparable</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Comparable.html#compareTo(T)" title="class or interface in java.lang" class="external-link">compareTo</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/ISnapshotable.html" title="interface in mod.chiselsandbits.api.util">ISnapshotable</a><a href="../../util/ISnapshotable.html#createSnapshot()" title="createSnapshot()">createSnapshot</a>
   
   
   

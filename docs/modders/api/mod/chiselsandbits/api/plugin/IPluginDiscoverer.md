@@ -14,8 +14,8 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
 
 <dl class="notes"></dl>  
 
-<li>
-<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
+<!-- JavaMarkContainer Depth: 1 -->
+::::: info Nested Class Summary  
 :::tabs
 == Nested Classes
 <table class="stretched-table">
@@ -27,13 +27,11 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
   </tbody>
 </table>
 :::
-</section>
-</li>
+:::::
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -73,8 +71,6 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

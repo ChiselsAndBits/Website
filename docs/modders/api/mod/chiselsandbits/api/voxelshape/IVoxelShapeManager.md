@@ -15,8 +15,7 @@ A manager for dealing with voxelshapes related to chiseled blocks and areas.
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -85,8 +84,6 @@ A manager for dealing with voxelshapes related to chiseled blocks and areas.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

@@ -22,8 +22,8 @@ Defines objects which can be serialized into an exact format.
 
 <dl class="notes"></dl>  
 
-<li>
-<section class="nested-class-summary" id="nested-class-summary">Nested Class Summary  
+<!-- JavaMarkContainer Depth: 1 -->
+::::: info Nested Class Summary  
 :::tabs
 == Nested Classes
 <table class="stretched-table">
@@ -35,13 +35,11 @@ Defines objects which can be serialized into an exact format.
   </tbody>
 </table>
 :::
-</section>
-</li>
+:::::
   
   
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -77,8 +75,6 @@ Defines objects which can be serialized into an exact format.
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

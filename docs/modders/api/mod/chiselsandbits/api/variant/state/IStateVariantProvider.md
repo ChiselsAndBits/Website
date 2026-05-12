@@ -15,8 +15,7 @@ Represents the state variant provider, which allows external mods to provide the
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -82,8 +81,6 @@ Represents the state variant provider, which allows external mods to provide the
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

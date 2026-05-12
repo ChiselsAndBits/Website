@@ -15,8 +15,7 @@ A profiling manager to handle the profiling of different interactions or managem
 <dl class="notes"></dl>  
 
 <!-- ========== METHOD SUMMARY =========== -->
-<li>
-<section class="method-summary" id="method-summary">Method Summary  
+Method Summary  
 :::tabs key:method-summary-table
 == All Methods
 <table class="stretched-table">
@@ -62,8 +61,6 @@ A profiling manager to handle the profiling of different interactions or managem
   </tbody>
 </table>
 :::
-</section>
-</li>
   
   
   

@@ -56,8 +56,8 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="sortable/index.md" title="mod.chiselsandbits.api.multistate.accessor.sortable">mod.chiselsandbits.api.multistate.accessor.sortable</a></td><td></td></tr>
-  <tr><td><a href="identifier/index.md" title="mod.chiselsandbits.api.multistate.accessor.identifier">mod.chiselsandbits.api.multistate.accessor.identifier</a></td><td></td></tr>
-  <tr><td><a href="world/index.md" title="mod.chiselsandbits.api.multistate.accessor.world">mod.chiselsandbits.api.multistate.accessor.world</a></td><td></td></tr>
+  <tr><td><a href="sortable/index" title="mod.chiselsandbits.api.multistate.accessor.sortable">mod.chiselsandbits.api.multistate.accessor.sortable</a></td><td></td></tr>
+  <tr><td><a href="identifier/index" title="mod.chiselsandbits.api.multistate.accessor.identifier">mod.chiselsandbits.api.multistate.accessor.identifier</a></td><td></td></tr>
+  <tr><td><a href="world/index" title="mod.chiselsandbits.api.multistate.accessor.world">mod.chiselsandbits.api.multistate.accessor.world</a></td><td></td></tr>
   </tbody>
 </table>

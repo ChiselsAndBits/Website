@@ -46,8 +46,8 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="entity/index.md" title="mod.chiselsandbits.api.block.entity">mod.chiselsandbits.api.block.entity</a></td><td></td></tr>
-  <tr><td><a href="storage/index.md" title="mod.chiselsandbits.api.block.storage">mod.chiselsandbits.api.block.storage</a></td><td></td></tr>
-  <tr><td><a href="bitbag/index.md" title="mod.chiselsandbits.api.block.bitbag">mod.chiselsandbits.api.block.bitbag</a></td><td></td></tr>
+  <tr><td><a href="entity/index" title="mod.chiselsandbits.api.block.entity">mod.chiselsandbits.api.block.entity</a></td><td></td></tr>
+  <tr><td><a href="storage/index" title="mod.chiselsandbits.api.block.storage">mod.chiselsandbits.api.block.storage</a></td><td></td></tr>
+  <tr><td><a href="bitbag/index" title="mod.chiselsandbits.api.block.bitbag">mod.chiselsandbits.api.block.bitbag</a></td><td></td></tr>
   </tbody>
 </table>

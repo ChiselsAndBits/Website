@@ -46,6 +46,6 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="operation/index.md" title="mod.chiselsandbits.api.glueing.operation">mod.chiselsandbits.api.glueing.operation</a></td><td></td></tr>
+  <tr><td><a href="operation/index" title="mod.chiselsandbits.api.glueing.operation">mod.chiselsandbits.api.glueing.operation</a></td><td></td></tr>
   </tbody>
 </table>

@@ -3,10 +3,10 @@ title: ProcessingResult
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.click](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.click](index)  
 # Enum Class ProcessingResult  
 **Enclosing Class:**  
-[ClickProcessingState](ClickProcessingState.md)  
+[ClickProcessingState](ClickProcessingState)  
 
 ---
 <div class="type-signature"><span class="modifiers">public static enum </span><span class="element-name type-name-label">ClickProcessingState.ProcessingResult</span><br/>  

@@ -3,7 +3,7 @@ title: IgnoreBlockLogic
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api](index.md)  
+_Package:_ [mod.chiselsandbits.api](index)  
 # Annotation Interface IgnoreBlockLogic  
 **All Extended Interfaces:**  
 Annotation  

@@ -3,7 +3,7 @@ title: IConversionManager
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.chiseling.conversion](index.md)  
+_Package:_ [mod.chiselsandbits.api.chiseling.conversion](index)  
 # Interface IConversionManager  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IConversionManager</span></div>  

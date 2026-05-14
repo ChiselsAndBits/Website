@@ -3,7 +3,7 @@ title: IChangeType
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.change.changes](index.md)  
+_Package:_ [mod.chiselsandbits.api.change.changes](index)  
 # Interface IChangeType  
 **All Extended Interfaces:**  
 ICustomRegistryEntry  

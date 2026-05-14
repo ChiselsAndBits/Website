@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.multistate.accessor.sortable;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IPositionMutator.md" title="IPositionMutator">IPositionMutator</a></td><td>Represents an object which can mutate the order of the coordinate members<br>before they are retrieved from storage.</td></tr>
+  <tr><td><a href="IPositionMutator" title="IPositionMutator">IPositionMutator</a></td><td>Represents an object which can mutate the order of the coordinate members<br>before they are retrieved from storage.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.multistate.accessor.sortable;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IPositionMutator.md" title="IPositionMutator">IPositionMutator</a></td><td>Represents an object which can mutate the order of the coordinate members<br>before they are retrieved from storage.</td></tr>
+  <tr><td><a href="IPositionMutator" title="IPositionMutator">IPositionMutator</a></td><td>Represents an object which can mutate the order of the coordinate members<br>before they are retrieved from storage.</td></tr>
   </tbody>
 </table>
 == Classes

@@ -3,7 +3,7 @@ title: MathUtil
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.util](index.md)  
+_Package:_ [mod.chiselsandbits.api.util](index)  
 # Class MathUtil  
 java.lang.Object  
 &ensp;↳mod.chiselsandbits.api.util.MathUtil  

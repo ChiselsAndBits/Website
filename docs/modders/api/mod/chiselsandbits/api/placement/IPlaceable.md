@@ -3,7 +3,7 @@ title: IPlaceable
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.placement](index.md)  
+_Package:_ [mod.chiselsandbits.api.placement](index)  
 # Interface IPlaceable  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IPlaceable</span></div>  

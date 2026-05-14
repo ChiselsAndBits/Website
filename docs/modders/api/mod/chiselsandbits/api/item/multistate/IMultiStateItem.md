@@ -3,7 +3,7 @@ title: IMultiStateItem
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.multistate](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.multistate](index)  
 # Interface IMultiStateItem  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMultiStateItem</span></div>  

@@ -3,10 +3,10 @@ title: ISingleStateAreaShareIdentifier
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.accessor.identifier](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.accessor.identifier](index)  
 # Interface ISingleStateAreaShareIdentifier  
 **All Extended Interfaces:**  
-[IAreaShapeIdentifier](IAreaShapeIdentifier.md)  
+[IAreaShapeIdentifier](IAreaShapeIdentifier)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">ISingleStateAreaShareIdentifier</span><span class="extends-implements"><br/>  

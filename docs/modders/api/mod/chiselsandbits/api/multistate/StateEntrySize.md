@@ -3,7 +3,7 @@ title: StateEntrySize
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate](index)  
 # Enum Class StateEntrySize  
 ---
 <div class="type-signature"><span class="modifiers">public enum </span><span class="element-name type-name-label">StateEntrySize</span><br/>  

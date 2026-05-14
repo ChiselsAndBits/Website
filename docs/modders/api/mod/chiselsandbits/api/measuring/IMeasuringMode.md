@@ -3,10 +3,10 @@ title: IMeasuringMode
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.measuring](index.md)  
+_Package:_ [mod.chiselsandbits.api.measuring](index)  
 # Interface IMeasuringMode  
 **All Extended Interfaces:**  
-[IRenderableMode](../item/withmode/IRenderableMode.md), [IToolMode\<IMeasuringType\>](../item/withmode/IToolMode.md), [IWithColor](../util/IWithColor.md), [IWithDisplayName](../util/IWithDisplayName.md), [IWithIcon](../util/IWithIcon.md), [IWithIconAndColor](../util/IWithIconAndColor.md)  
+[IRenderableMode](../item/withmode/IRenderableMode), [IToolMode\<IMeasuringType\>](../item/withmode/IToolMode), [IWithColor](../util/IWithColor), [IWithDisplayName](../util/IWithDisplayName), [IWithIcon](../util/IWithIcon), [IWithIconAndColor](../util/IWithIconAndColor)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMeasuringMode</span><span class="extends-implements"><br/>  

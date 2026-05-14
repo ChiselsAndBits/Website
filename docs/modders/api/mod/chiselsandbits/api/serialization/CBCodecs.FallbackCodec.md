@@ -3,13 +3,13 @@ title: FallbackCodec
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.serialization](index.md)  
+_Package:_ [mod.chiselsandbits.api.serialization](index)  
 # Record Class FallbackCodec\<F\>  
 **All Implemented Interfaces:**  
 Codec\<F\>  
 
 **Enclosing Class:**  
-[CBCodecs](CBCodecs.md)  
+[CBCodecs](CBCodecs)  
 
 ---
 <div class="type-signature"><span class="modifiers">public static record </span><span class="element-name type-name-label">CBCodecs.FallbackCodec&lt;F&gt;</span>(com.mojang.serialization.Codec&lt;<a href="CBCodecs.FallbackCodec.html#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;&nbsp;primary, com.mojang.serialization.Codec&lt;<a href="CBCodecs.FallbackCodec.html#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;&nbsp;fallback)<br/>  

@@ -3,10 +3,10 @@ title: IPlacementPreviewProvidingItem
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.placement](index.md)  
+_Package:_ [mod.chiselsandbits.api.placement](index)  
 # Interface IPlacementPreviewProvidingItem  
 **All Extended Interfaces:**  
-[IWireframeProvidingItem](../item/wireframe/IWireframeProvidingItem.md), [IPlaceable](IPlaceable.md), [IPlacementProperties](IPlacementProperties.md)  
+[IWireframeProvidingItem](../item/wireframe/IWireframeProvidingItem), [IPlaceable](IPlaceable), [IPlacementProperties](IPlacementProperties)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IPlacementPreviewProvidingItem</span><span class="extends-implements"><br/>  

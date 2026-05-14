@@ -3,7 +3,7 @@ title: IStateAccessor
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.accessor](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.accessor](index)  
 # Interface IStateAccessor  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IStateAccessor</span></div>  

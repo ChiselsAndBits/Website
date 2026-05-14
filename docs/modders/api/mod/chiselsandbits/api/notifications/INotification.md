@@ -3,10 +3,10 @@ title: INotification
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.notifications](index.md)  
+_Package:_ [mod.chiselsandbits.api.notifications](index)  
 # Interface INotification  
 **All Extended Interfaces:**  
-[IWithColor](../util/IWithColor.md), [IWithIcon](../util/IWithIcon.md), [IWithText](../util/IWithText.md)  
+[IWithColor](../util/IWithColor), [IWithIcon](../util/IWithIcon), [IWithText](../util/IWithText)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">INotification</span><span class="extends-implements"><br/>  

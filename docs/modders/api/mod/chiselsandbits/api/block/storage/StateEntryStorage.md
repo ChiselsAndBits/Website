@@ -3,13 +3,13 @@ title: StateEntryStorage
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.block.storage](index.md)  
+_Package:_ [mod.chiselsandbits.api.block.storage](index)  
 # Class StateEntryStorage  
 java.lang.Object  
 &ensp;↳mod.chiselsandbits.api.block.storage.StateEntryStorage  
   
 **All Implemented Interfaces:**  
-[IMirrorAndRotateble](../../multistate/mutator/IMirrorAndRotateble.md), [IWithBatchableMutationSupport](../../util/IWithBatchableMutationSupport.md), [Serializable\<StateEntryStorage,RegistryFriendlyByteBuf\>](../../serialization/Serializable.md)  
+[IMirrorAndRotateble](../../multistate/mutator/IMirrorAndRotateble), [IWithBatchableMutationSupport](../../util/IWithBatchableMutationSupport), [Serializable\<StateEntryStorage,RegistryFriendlyByteBuf\>](../../serialization/Serializable)  
 
 ---
 <div class="type-signature"><span class="modifiers">public final class </span><span class="element-name type-name-label">StateEntryStorage</span><br/>  

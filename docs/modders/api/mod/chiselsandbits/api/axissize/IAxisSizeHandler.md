@@ -3,7 +3,7 @@ title: IAxisSizeHandler
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.axissize](index.md)  
+_Package:_ [mod.chiselsandbits.api.axissize](index)  
 # Interface IAxisSizeHandler  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IAxisSizeHandler</span></div>  

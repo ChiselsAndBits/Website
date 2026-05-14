@@ -3,7 +3,7 @@ title: ICheckerRegistration
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.permissions](index.md)  
+_Package:_ [mod.chiselsandbits.api.permissions](index)  
 # Interface ICheckerRegistration  
 **All Extended Interfaces:**  
 AutoCloseable  

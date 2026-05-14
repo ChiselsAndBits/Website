@@ -3,10 +3,10 @@ title: IGlueingOperationGroup
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.glueing.operation](index.md)  
+_Package:_ [mod.chiselsandbits.api.glueing.operation](index)  
 # Interface IGlueingOperationGroup  
 **All Extended Interfaces:**  
-[IToolModeGroup](../../item/withmode/group/IToolModeGroup.md), [IRenderableMode](../../item/withmode/IRenderableMode.md), [IWithColor](../../util/IWithColor.md), [IWithDisplayName](../../util/IWithDisplayName.md), [IWithIcon](../../util/IWithIcon.md), [IWithIconAndColor](../../util/IWithIconAndColor.md)  
+[IToolModeGroup](../../item/withmode/group/IToolModeGroup), [IRenderableMode](../../item/withmode/IRenderableMode), [IWithColor](../../util/IWithColor), [IWithDisplayName](../../util/IWithDisplayName), [IWithIcon](../../util/IWithIcon), [IWithIconAndColor](../../util/IWithIconAndColor)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IGlueingOperationGroup</span><span class="extends-implements"><br/>  

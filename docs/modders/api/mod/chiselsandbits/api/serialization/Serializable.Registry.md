@@ -3,16 +3,16 @@ title: Registry
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.serialization](index.md)  
+_Package:_ [mod.chiselsandbits.api.serialization](index)  
 # Interface Registry\<TSelf\>  
 **Type Parameters:**  
 TSelf - The type of the implementing class.  
 
 **All Extended Interfaces:**  
-[RawSerializable](RawSerializable.md), [Serializable\<TSelf,RegistryFriendlyByteBuf\>](Serializable.md)  
+[RawSerializable](RawSerializable), [Serializable\<TSelf,RegistryFriendlyByteBuf\>](Serializable)  
 
 **Enclosing Class:**  
-[Serializable\<TSelf,TBuffer extends FriendlyByteBuf\>](Serializable.md)  
+[Serializable\<TSelf,TBuffer extends FriendlyByteBuf\>](Serializable)  
 
 ---
 <div class="type-signature"><span class="modifiers">public static interface </span><span class="element-name type-name-label">Serializable.Registry&lt;TSelf&gt;</span><span class="extends-implements"><br/>  

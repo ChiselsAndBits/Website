@@ -3,7 +3,7 @@ title: InvalidBitItemException
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.exceptions](index.md)  
+_Package:_ [mod.chiselsandbits.api.exceptions](index)  
 # Class InvalidBitItemException  
 java.lang.Object  
 &ensp;↳java.lang.Throwable  

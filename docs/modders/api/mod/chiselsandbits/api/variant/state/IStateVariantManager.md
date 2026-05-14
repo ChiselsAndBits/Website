@@ -3,7 +3,7 @@ title: IStateVariantManager
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.variant.state](index.md)  
+_Package:_ [mod.chiselsandbits.api.variant.state](index)  
 # Interface IStateVariantManager  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IStateVariantManager</span></div>  

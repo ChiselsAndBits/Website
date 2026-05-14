@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.inventory.management;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IBitInventoryManager.md" title="IBitInventoryManager">IBitInventoryManager</a></td><td>Manager which deals with bit inventories.</td></tr>
+  <tr><td><a href="IBitInventoryManager" title="IBitInventoryManager">IBitInventoryManager</a></td><td>Manager which deals with bit inventories.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.inventory.management;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IBitInventoryManager.md" title="IBitInventoryManager">IBitInventoryManager</a></td><td>Manager which deals with bit inventories.</td></tr>
+  <tr><td><a href="IBitInventoryManager" title="IBitInventoryManager">IBitInventoryManager</a></td><td>Manager which deals with bit inventories.</td></tr>
   </tbody>
 </table>
 == Classes

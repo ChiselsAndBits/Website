@@ -3,7 +3,7 @@ title: IQuadFunction
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.util](index.md)  
+_Package:_ [mod.chiselsandbits.api.util](index)  
 # Interface IQuadFunction\<T1,T2,T3,T4,R\>  
 **Functional Interface:**  
 This is a functional interface and can therefore be used as the assignment target for a lambda expression or method reference.  

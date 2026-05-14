@@ -3,7 +3,7 @@ title: BlockStatePredicates
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.util](index.md)  
+_Package:_ [mod.chiselsandbits.api.util](index)  
 # Class BlockStatePredicates  
 java.lang.Object  
 &ensp;↳mod.chiselsandbits.api.util.BlockStatePredicates  

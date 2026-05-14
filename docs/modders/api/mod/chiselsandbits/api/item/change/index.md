@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.item.change;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChangeTrackingItem.md" title="IChangeTrackingItem">IChangeTrackingItem</a></td><td>Marker interface for items which allow change tracking items via keybinds.</td></tr>
+  <tr><td><a href="IChangeTrackingItem" title="IChangeTrackingItem">IChangeTrackingItem</a></td><td>Marker interface for items which allow change tracking items via keybinds.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.item.change;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChangeTrackingItem.md" title="IChangeTrackingItem">IChangeTrackingItem</a></td><td>Marker interface for items which allow change tracking items via keybinds.</td></tr>
+  <tr><td><a href="IChangeTrackingItem" title="IChangeTrackingItem">IChangeTrackingItem</a></td><td>Marker interface for items which allow change tracking items via keybinds.</td></tr>
   </tbody>
 </table>
 == Classes

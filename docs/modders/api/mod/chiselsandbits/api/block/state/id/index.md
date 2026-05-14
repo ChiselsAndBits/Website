@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.block.state.id;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IBlockStateIdManager.md" title="IBlockStateIdManager">IBlockStateIdManager</a></td><td>The blockstate id manager which manages the blockstate ids for the current session.</td></tr>
+  <tr><td><a href="IBlockStateIdManager" title="IBlockStateIdManager">IBlockStateIdManager</a></td><td>The blockstate id manager which manages the blockstate ids for the current session.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.block.state.id;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IBlockStateIdManager.md" title="IBlockStateIdManager">IBlockStateIdManager</a></td><td>The blockstate id manager which manages the blockstate ids for the current session.</td></tr>
+  <tr><td><a href="IBlockStateIdManager" title="IBlockStateIdManager">IBlockStateIdManager</a></td><td>The blockstate id manager which manages the blockstate ids for the current session.</td></tr>
   </tbody>
 </table>
 == Classes

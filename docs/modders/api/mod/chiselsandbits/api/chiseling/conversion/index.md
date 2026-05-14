@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.chiseling.conversion;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IConversionManager.md" title="IConversionManager">IConversionManager</a></td><td>Manages converting none chiseled objects into chiseled variants and back.</td></tr>
+  <tr><td><a href="IConversionManager" title="IConversionManager">IConversionManager</a></td><td>Manages converting none chiseled objects into chiseled variants and back.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.chiseling.conversion;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IConversionManager.md" title="IConversionManager">IConversionManager</a></td><td>Manages converting none chiseled objects into chiseled variants and back.</td></tr>
+  <tr><td><a href="IConversionManager" title="IConversionManager">IConversionManager</a></td><td>Manages converting none chiseled objects into chiseled variants and back.</td></tr>
   </tbody>
 </table>
 == Classes

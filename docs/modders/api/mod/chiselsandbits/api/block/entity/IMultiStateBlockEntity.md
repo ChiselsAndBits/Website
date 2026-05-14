@@ -3,10 +3,10 @@ title: IMultiStateBlockEntity
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.block.entity](index.md)  
+_Package:_ [mod.chiselsandbits.api.block.entity](index)  
 # Interface IMultiStateBlockEntity  
 **All Extended Interfaces:**  
-[IAABBOwner](../../aabb/IAABBOwner.md), [IAreaAccessor](../../multistate/accessor/IAreaAccessor.md), [IAreaAccessorWithVoxelShape](../../multistate/accessor/IAreaAccessorWithVoxelShape.md), [ISingleBlockAxisAlignedAreaAccessor](../../multistate/accessor/ISingleBlockAxisAlignedAreaAccessor.md), [IStateAccessor](../../multistate/accessor/IStateAccessor.md), [IWorldAreaAccessor](../../multistate/accessor/world/IWorldAreaAccessor.md), [IBatchedAreaMutator](../../multistate/mutator/batched/IBatchedAreaMutator.md), [IAreaMutator](../../multistate/mutator/IAreaMutator.md), [IGenerallyModifiableAreaMutator](../../multistate/mutator/IGenerallyModifiableAreaMutator.md), [IMirrorAndRotateble](../../multistate/mutator/IMirrorAndRotateble.md), [IWorldAreaMutator](../../multistate/mutator/world/IWorldAreaMutator.md), [IWithBatchableMutationSupport](../../util/IWithBatchableMutationSupport.md), [IWorldObject](../../util/IWorldObject.md)  
+[IAABBOwner](../../aabb/IAABBOwner), [IAreaAccessor](../../multistate/accessor/IAreaAccessor), [IAreaAccessorWithVoxelShape](../../multistate/accessor/IAreaAccessorWithVoxelShape), [ISingleBlockAxisAlignedAreaAccessor](../../multistate/accessor/ISingleBlockAxisAlignedAreaAccessor), [IStateAccessor](../../multistate/accessor/IStateAccessor), [IWorldAreaAccessor](../../multistate/accessor/world/IWorldAreaAccessor), [IBatchedAreaMutator](../../multistate/mutator/batched/IBatchedAreaMutator), [IAreaMutator](../../multistate/mutator/IAreaMutator), [IGenerallyModifiableAreaMutator](../../multistate/mutator/IGenerallyModifiableAreaMutator), [IMirrorAndRotateble](../../multistate/mutator/IMirrorAndRotateble), [IWorldAreaMutator](../../multistate/mutator/world/IWorldAreaMutator), [IWithBatchableMutationSupport](../../util/IWithBatchableMutationSupport), [IWorldObject](../../util/IWorldObject)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMultiStateBlockEntity</span><span class="extends-implements"><br/>  

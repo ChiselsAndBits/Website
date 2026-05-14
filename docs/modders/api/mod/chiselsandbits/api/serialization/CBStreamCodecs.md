@@ -3,7 +3,7 @@ title: CBStreamCodecs
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.serialization](index.md)  
+_Package:_ [mod.chiselsandbits.api.serialization](index)  
 # Interface CBStreamCodecs  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">CBStreamCodecs</span></div>  

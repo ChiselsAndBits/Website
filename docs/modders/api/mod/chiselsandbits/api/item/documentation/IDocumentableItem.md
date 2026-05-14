@@ -3,7 +3,7 @@ title: IDocumentableItem
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.documentation](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.documentation](index)  
 # Interface IDocumentableItem  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IDocumentableItem</span></div>  

@@ -3,7 +3,7 @@ title: PlacementResult
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.placement](index.md)  
+_Package:_ [mod.chiselsandbits.api.placement](index)  
 # Class PlacementResult  
 java.lang.Object  
 &ensp;↳mod.chiselsandbits.api.placement.PlacementResult  

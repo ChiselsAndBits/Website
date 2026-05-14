@@ -3,7 +3,7 @@ title: IllegalChangeAttempt
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.change.changes](index.md)  
+_Package:_ [mod.chiselsandbits.api.change.changes](index)  
 # Class IllegalChangeAttempt  
 java.lang.Object  
 &ensp;↳java.lang.Throwable  

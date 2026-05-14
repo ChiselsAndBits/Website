@@ -3,10 +3,10 @@ title: IChange
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.change.changes](index.md)  
+_Package:_ [mod.chiselsandbits.api.change.changes](index)  
 # Interface IChange  
 **All Extended Interfaces:**  
-[IChangeHandler](IChangeHandler.md)  
+[IChangeHandler](IChangeHandler)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IChange</span><span class="extends-implements"><br/>  

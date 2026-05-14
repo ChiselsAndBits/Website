@@ -3,10 +3,10 @@ title: BlockStack
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.block.entity](index.md)  
+_Package:_ [mod.chiselsandbits.api.block.entity](index)  
 # Record Class BlockStack  
 **Enclosing Class:**  
-[IMultiStateBlockEntity](IMultiStateBlockEntity.md)  
+[IMultiStateBlockEntity](IMultiStateBlockEntity)  
 
 ---
 <div class="type-signature"><span class="modifiers">public static record </span><span class="element-name type-name-label">IMultiStateBlockEntity.BlockStack</span>(net.minecraft.world.item.ItemStack&nbsp;stack, <a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a>&nbsp;multiStateItemStack)<br/>  

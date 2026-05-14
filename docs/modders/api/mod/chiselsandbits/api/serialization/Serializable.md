@@ -3,14 +3,14 @@ title: Serializable
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.serialization](index.md)  
+_Package:_ [mod.chiselsandbits.api.serialization](index)  
 # Interface Serializable\<TSelf,TBuffer extends FriendlyByteBuf\>  
 **Type Parameters:**  
 TSelf - The type of the implementing class.  
 TBuffer - The type of the buffer to serialize to/from.  
 
 **All Extended Interfaces:**  
-[RawSerializable](RawSerializable.md)  
+[RawSerializable](RawSerializable)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">Serializable&lt;TSelf, TBuffer extends net.minecraft.network.FriendlyByteBuf&gt;</span><span class="extends-implements"><br/>  

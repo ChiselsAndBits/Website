@@ -3,7 +3,7 @@ title: IMetadataKey
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.chiseling.metadata](index.md)  
+_Package:_ [mod.chiselsandbits.api.chiseling.metadata](index)  
 # Interface IMetadataKey\<T\>  
 **Type Parameters:**  
 T - The internal type.  

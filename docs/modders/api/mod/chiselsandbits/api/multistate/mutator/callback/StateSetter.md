@@ -3,7 +3,7 @@ title: StateSetter
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.mutator.callback](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.mutator.callback](index)  
 # Interface StateSetter  
 **Functional Interface:**  
 This is a functional interface and can therefore be used as the assignment target for a lambda expression or method reference.  

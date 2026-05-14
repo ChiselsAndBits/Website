@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.block.bitbag;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IBitBagAcceptingBlock.md" title="IBitBagAcceptingBlock">IBitBagAcceptingBlock</a></td><td>Represents a block which can accept a bit bags interaction.</td></tr>
+  <tr><td><a href="IBitBagAcceptingBlock" title="IBitBagAcceptingBlock">IBitBagAcceptingBlock</a></td><td>Represents a block which can accept a bit bags interaction.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.block.bitbag;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IBitBagAcceptingBlock.md" title="IBitBagAcceptingBlock">IBitBagAcceptingBlock</a></td><td>Represents a block which can accept a bit bags interaction.</td></tr>
+  <tr><td><a href="IBitBagAcceptingBlock" title="IBitBagAcceptingBlock">IBitBagAcceptingBlock</a></td><td>Represents a block which can accept a bit bags interaction.</td></tr>
   </tbody>
 </table>
 == Classes

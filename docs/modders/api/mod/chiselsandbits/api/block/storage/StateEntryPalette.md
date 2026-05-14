@@ -3,7 +3,7 @@ title: StateEntryPalette
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.block.storage](index.md)  
+_Package:_ [mod.chiselsandbits.api.block.storage](index)  
 # Record Class StateEntryPalette  
 ---
 <div class="type-signature"><span class="modifiers">public record </span><span class="element-name type-name-label">StateEntryPalette</span>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;&nbsp;paletteEntries, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;&nbsp;paletteMap)<br/>  

@@ -3,7 +3,7 @@ title: AbstractChiselsAndBitsButton
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.client.screen.widget](index.md)  
+_Package:_ [mod.chiselsandbits.api.client.screen.widget](index)  
 # Class AbstractChiselsAndBitsButton  
 java.lang.Object  
 &ensp;↳net.minecraft.client.gui.components.AbstractWidget  
@@ -13,7 +13,7 @@ java.lang.Object
 &ensp;&ensp;&ensp;&ensp;&ensp;↳mod.chiselsandbits.api.client.screen.widget.AbstractChiselsAndBitsButton  
   
 **All Implemented Interfaces:**  
-[IChiselsAndBitsWidget](IChiselsAndBitsWidget.md)  
+[IChiselsAndBitsWidget](IChiselsAndBitsWidget)  
 
 ---
 <div class="type-signature"><span class="modifiers">public abstract class </span><span class="element-name type-name-label">AbstractChiselsAndBitsButton</span><br/>  

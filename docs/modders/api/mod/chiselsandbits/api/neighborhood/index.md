@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.neighborhood;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IBlockNeighborhood.md" title="IBlockNeighborhood">IBlockNeighborhood</a></td><td>Marker interface used to detect block neighborhoods in cache keys.</td></tr>
-  <tr><td><a href="IBlockNeighborhoodBuilder.md" title="IBlockNeighborhoodBuilder">IBlockNeighborhoodBuilder</a></td><td>Represents a system which can build unique block neighborhoods.</td></tr>
+  <tr><td><a href="IBlockNeighborhoodBuilder" title="IBlockNeighborhoodBuilder">IBlockNeighborhoodBuilder</a></td><td>Represents a system which can build unique block neighborhoods.</td></tr>
+  <tr><td><a href="IBlockNeighborhood" title="IBlockNeighborhood">IBlockNeighborhood</a></td><td>Marker interface used to detect block neighborhoods in cache keys.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.neighborhood;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IBlockNeighborhood.md" title="IBlockNeighborhood">IBlockNeighborhood</a></td><td>Marker interface used to detect block neighborhoods in cache keys.</td></tr>
-  <tr><td><a href="IBlockNeighborhoodBuilder.md" title="IBlockNeighborhoodBuilder">IBlockNeighborhoodBuilder</a></td><td>Represents a system which can build unique block neighborhoods.</td></tr>
+  <tr><td><a href="IBlockNeighborhoodBuilder" title="IBlockNeighborhoodBuilder">IBlockNeighborhoodBuilder</a></td><td>Represents a system which can build unique block neighborhoods.</td></tr>
+  <tr><td><a href="IBlockNeighborhood" title="IBlockNeighborhood">IBlockNeighborhood</a></td><td>Marker interface used to detect block neighborhoods in cache keys.</td></tr>
   </tbody>
 </table>
 == Classes

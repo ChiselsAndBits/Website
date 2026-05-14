@@ -3,7 +3,7 @@ title: ISupportsUnsealing
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.sealing](index.md)  
+_Package:_ [mod.chiselsandbits.api.sealing](index)  
 # Interface ISupportsUnsealing  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">ISupportsUnsealing</span></div>  

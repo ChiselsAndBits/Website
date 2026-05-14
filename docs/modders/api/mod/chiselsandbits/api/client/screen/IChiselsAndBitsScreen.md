@@ -3,7 +3,7 @@ title: IChiselsAndBitsScreen
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.client.screen](index.md)  
+_Package:_ [mod.chiselsandbits.api.client.screen](index)  
 # Interface IChiselsAndBitsScreen  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IChiselsAndBitsScreen</span></div>  

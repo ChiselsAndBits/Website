@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.axissize;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="CollisionType.md" title="CollisionType">CollisionType</a></td><td></td></tr>
-  <tr><td><a href="IAxisSizeHandler.md" title="IAxisSizeHandler">IAxisSizeHandler</a></td><td>Represents a handler which can indicate the current active maximum and minimum size<br>of the multistate object.</td></tr>
+  <tr><td><a href="IAxisSizeHandler" title="IAxisSizeHandler">IAxisSizeHandler</a></td><td>Represents a handler which can indicate the current active maximum and minimum size<br>of the multistate object.</td></tr>
+  <tr><td><a href="CollisionType" title="CollisionType">CollisionType</a></td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,7 +29,7 @@ package mod.chiselsandbits.api.axissize;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IAxisSizeHandler.md" title="IAxisSizeHandler">IAxisSizeHandler</a></td><td>Represents a handler which can indicate the current active maximum and minimum size<br>of the multistate object.</td></tr>
+  <tr><td><a href="IAxisSizeHandler" title="IAxisSizeHandler">IAxisSizeHandler</a></td><td>Represents a handler which can indicate the current active maximum and minimum size<br>of the multistate object.</td></tr>
   </tbody>
 </table>
 == Classes
@@ -40,7 +40,7 @@ No types found.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="CollisionType.md" title="CollisionType">CollisionType</a></td><td></td></tr>
+  <tr><td><a href="CollisionType" title="CollisionType">CollisionType</a></td><td></td></tr>
   </tbody>
 </table>
 == Records

@@ -3,13 +3,13 @@ title: Result
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.block.storage](index.md)  
+_Package:_ [mod.chiselsandbits.api.block.storage](index)  
 # Record Class Result\<T\>  
 **Type Parameters:**  
 T - The type of the value.  
 
 **Enclosing Class:**  
-[StateEntryPalette](StateEntryPalette.md)  
+[StateEntryPalette](StateEntryPalette)  
 
 ---
 <div class="type-signature"><span class="modifiers">public static record </span><span class="element-name type-name-label">StateEntryPalette.Result&lt;T&gt;</span>(<a href="StateEntryPalette.Result.html#type-param-T" title="type parameter in StateEntryPalette.Result">T</a>&nbsp;value, <a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a>&nbsp;size)<br/>  

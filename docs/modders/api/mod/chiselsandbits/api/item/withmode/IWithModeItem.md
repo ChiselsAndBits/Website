@@ -3,7 +3,7 @@ title: IWithModeItem
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.withmode](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.withmode](index)  
 # Interface IWithModeItem\<M extends IToolMode\<?\>\>  
 **Type Parameters:**  
 M - The enum specifying the mode.  

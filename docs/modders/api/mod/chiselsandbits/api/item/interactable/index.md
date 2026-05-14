@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.item.interactable;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IInteractableItem.md" title="IInteractableItem">IInteractableItem</a></td><td>Represents an item which can be used to interact with other items in the other hand.</td></tr>
+  <tr><td><a href="IInteractableItem" title="IInteractableItem">IInteractableItem</a></td><td>Represents an item which can be used to interact with other items in the other hand.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.item.interactable;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IInteractableItem.md" title="IInteractableItem">IInteractableItem</a></td><td>Represents an item which can be used to interact with other items in the other hand.</td></tr>
+  <tr><td><a href="IInteractableItem" title="IInteractableItem">IInteractableItem</a></td><td>Represents an item which can be used to interact with other items in the other hand.</td></tr>
   </tbody>
 </table>
 == Classes

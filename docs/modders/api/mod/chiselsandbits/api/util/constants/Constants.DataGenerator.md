@@ -3,13 +3,13 @@ title: DataGenerator
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.util.constants](index.md)  
+_Package:_ [mod.chiselsandbits.api.util.constants](index)  
 # Class DataGenerator  
 java.lang.Object  
 &ensp;↳mod.chiselsandbits.api.util.constants.DataGenerator  
   
 **Enclosing Class:**  
-[Constants](Constants.md)  
+[Constants](Constants)  
 
 ---
 <div class="type-signature"><span class="modifiers">public static class </span><span class="element-name type-name-label">Constants.DataGenerator</span><br/>  

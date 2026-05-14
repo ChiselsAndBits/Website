@@ -3,7 +3,7 @@ title: PlacementPreviewRenderMode
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.client.render.preview.placement](index.md)  
+_Package:_ [mod.chiselsandbits.api.client.render.preview.placement](index)  
 # Enum Class PlacementPreviewRenderMode  
 ---
 <div class="type-signature"><span class="modifiers">public enum </span><span class="element-name type-name-label">PlacementPreviewRenderMode</span><br/>  

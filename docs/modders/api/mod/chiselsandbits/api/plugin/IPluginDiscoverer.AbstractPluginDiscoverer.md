@@ -3,16 +3,16 @@ title: AbstractPluginDiscoverer
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.plugin](index.md)  
+_Package:_ [mod.chiselsandbits.api.plugin](index)  
 # Class AbstractPluginDiscoverer  
 java.lang.Object  
 &ensp;↳mod.chiselsandbits.api.plugin.AbstractPluginDiscoverer  
   
 **All Implemented Interfaces:**  
-[IPluginDiscoverer](IPluginDiscoverer.md)  
+[IPluginDiscoverer](IPluginDiscoverer)  
 
 **Enclosing Class:**  
-[IPluginDiscoverer](IPluginDiscoverer.md)  
+[IPluginDiscoverer](IPluginDiscoverer)  
 
 ---
 <div class="type-signature"><span class="modifiers">public abstract static class </span><span class="element-name type-name-label">IPluginDiscoverer.AbstractPluginDiscoverer</span><br/>  

@@ -3,10 +3,10 @@ title: BlockInformation
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.blockinformation](index.md)  
+_Package:_ [mod.chiselsandbits.api.blockinformation](index)  
 # Record Class BlockInformation  
 **All Implemented Interfaces:**  
-[Registry\<BlockInformation\>](../serialization/Serializable.Registry.md), [ISnapshotable\<BlockInformation\>](../util/ISnapshotable.md), Comparable\<BlockInformation\>  
+[Registry\<BlockInformation\>](../serialization/Serializable.Registry), [ISnapshotable\<BlockInformation\>](../util/ISnapshotable), Comparable\<BlockInformation\>  
 
 ---
 <div class="type-signature"><span class="modifiers">public record </span><span class="element-name type-name-label">BlockInformation</span>(net.minecraft.world.level.block.state.BlockState&nbsp;blockState, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="../variant/state/IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;&nbsp;variant)<br/>  

@@ -3,7 +3,7 @@ title: Constants
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.util.constants](index.md)  
+_Package:_ [mod.chiselsandbits.api.util.constants](index)  
 # Class Constants  
 java.lang.Object  
 &ensp;↳mod.chiselsandbits.api.util.constants.Constants  

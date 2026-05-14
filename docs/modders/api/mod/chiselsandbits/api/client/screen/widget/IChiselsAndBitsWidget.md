@@ -3,7 +3,7 @@ title: IChiselsAndBitsWidget
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.client.screen.widget](index.md)  
+_Package:_ [mod.chiselsandbits.api.client.screen.widget](index)  
 # Interface IChiselsAndBitsWidget  
 **All Extended Interfaces:**  
 GuiEventListener, Renderable, TabOrderedElement  

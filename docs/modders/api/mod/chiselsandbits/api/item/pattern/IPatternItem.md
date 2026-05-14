@@ -3,10 +3,10 @@ title: IPatternItem
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.pattern](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.pattern](index)  
 # Interface IPatternItem  
 **All Extended Interfaces:**  
-[IChangeTrackingItem](../change/IChangeTrackingItem.md), [IMultiStateItem](../multistate/IMultiStateItem.md), [IWireframeProvidingItem](../wireframe/IWireframeProvidingItem.md), [IWithModeItem\<IPatternPlacementType\>](../withmode/IWithModeItem.md), [IPlaceable](../../placement/IPlaceable.md), [IPlacementPreviewProvidingItem](../../placement/IPlacementPreviewProvidingItem.md), [IPlacementProperties](../../placement/IPlacementProperties.md), [ISupportsSealing](../../sealing/ISupportsSealing.md)  
+[IChangeTrackingItem](../change/IChangeTrackingItem), [IMultiStateItem](../multistate/IMultiStateItem), [IWireframeProvidingItem](../wireframe/IWireframeProvidingItem), [IWithModeItem\<IPatternPlacementType\>](../withmode/IWithModeItem), [IPlaceable](../../placement/IPlaceable), [IPlacementPreviewProvidingItem](../../placement/IPlacementPreviewProvidingItem), [IPlacementProperties](../../placement/IPlacementProperties), [ISupportsSealing](../../sealing/ISupportsSealing)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IPatternItem</span><span class="extends-implements"><br/>  

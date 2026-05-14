@@ -3,7 +3,7 @@ title: IBatchMutation
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.util](index.md)  
+_Package:_ [mod.chiselsandbits.api.util](index)  
 # Interface IBatchMutation  
 **All Extended Interfaces:**  
 AutoCloseable  

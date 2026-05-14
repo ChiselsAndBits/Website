@@ -3,7 +3,7 @@ title: ISnapshotable
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.util](index.md)  
+_Package:_ [mod.chiselsandbits.api.util](index)  
 # Interface ISnapshotable\<T\>  
 **Type Parameters:**  
 T - The type of the object.  

@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.pattern.placement;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IPatternPlacementType.md" title="IPatternPlacementType">IPatternPlacementType</a></td><td>Presents a way placing a pattern in the world.</td></tr>
+  <tr><td><a href="IPatternPlacementType" title="IPatternPlacementType">IPatternPlacementType</a></td><td>Presents a way placing a pattern in the world.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.pattern.placement;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IPatternPlacementType.md" title="IPatternPlacementType">IPatternPlacementType</a></td><td>Presents a way placing a pattern in the world.</td></tr>
+  <tr><td><a href="IPatternPlacementType" title="IPatternPlacementType">IPatternPlacementType</a></td><td>Presents a way placing a pattern in the world.</td></tr>
   </tbody>
 </table>
 == Classes

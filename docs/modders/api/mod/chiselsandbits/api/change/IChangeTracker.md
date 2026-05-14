@@ -3,10 +3,10 @@ title: IChangeTracker
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.change](index.md)  
+_Package:_ [mod.chiselsandbits.api.change](index)  
 # Interface IChangeTracker  
 **All Extended Interfaces:**  
-[IChangeHandler](changes/IChangeHandler.md)  
+[IChangeHandler](changes/IChangeHandler)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IChangeTracker</span><span class="extends-implements"><br/>  

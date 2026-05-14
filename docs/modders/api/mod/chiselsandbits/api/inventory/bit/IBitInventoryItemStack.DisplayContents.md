@@ -3,10 +3,10 @@ title: DisplayContents
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)  
+_Package:_ [mod.chiselsandbits.api.inventory.bit](index)  
 # Record Class DisplayContents  
 **Enclosing Class:**  
-[IBitInventoryItemStack](IBitInventoryItemStack.md)  
+[IBitInventoryItemStack](IBitInventoryItemStack)  
 
 ---
 <div class="type-signature"><span class="modifiers">public static record </span><span class="element-name type-name-label">IBitInventoryItemStack.DisplayContents</span>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;net.minecraft.network.chat.Component&gt;&nbsp;displayComponents, boolean&nbsp;isEmpty, boolean&nbsp;clipped)<br/>  

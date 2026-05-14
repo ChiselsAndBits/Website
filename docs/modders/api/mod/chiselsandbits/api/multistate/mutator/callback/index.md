@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.multistate.mutator.callback;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="StateSetter.md" title="StateSetter">StateSetter</a></td><td>Functional callback interface for setting the state of a bit.</td></tr>
-  <tr><td><a href="StateClearer.md" title="StateClearer">StateClearer</a></td><td></td></tr>
+  <tr><td><a href="StateClearer" title="StateClearer">StateClearer</a></td><td></td></tr>
+  <tr><td><a href="StateSetter" title="StateSetter">StateSetter</a></td><td>Functional callback interface for setting the state of a bit.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.multistate.mutator.callback;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="StateSetter.md" title="StateSetter">StateSetter</a></td><td>Functional callback interface for setting the state of a bit.</td></tr>
-  <tr><td><a href="StateClearer.md" title="StateClearer">StateClearer</a></td><td></td></tr>
+  <tr><td><a href="StateClearer" title="StateClearer">StateClearer</a></td><td></td></tr>
+  <tr><td><a href="StateSetter" title="StateSetter">StateSetter</a></td><td>Functional callback interface for setting the state of a bit.</td></tr>
   </tbody>
 </table>
 == Classes

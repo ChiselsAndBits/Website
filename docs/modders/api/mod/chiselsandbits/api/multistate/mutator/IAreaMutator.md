@@ -3,10 +3,10 @@ title: IAreaMutator
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.mutator](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.mutator](index)  
 # Interface IAreaMutator  
 **All Extended Interfaces:**  
-[IAABBOwner](../../aabb/IAABBOwner.md), [IAreaAccessor](../accessor/IAreaAccessor.md), [IStateAccessor](../accessor/IStateAccessor.md)  
+[IAABBOwner](../../aabb/IAABBOwner), [IAreaAccessor](../accessor/IAreaAccessor), [IStateAccessor](../accessor/IStateAccessor)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IAreaMutator</span><span class="extends-implements"><br/>  

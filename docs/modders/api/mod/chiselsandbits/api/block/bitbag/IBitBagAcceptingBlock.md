@@ -3,7 +3,7 @@ title: IBitBagAcceptingBlock
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.block.bitbag](index.md)  
+_Package:_ [mod.chiselsandbits.api.block.bitbag](index)  
 # Interface IBitBagAcceptingBlock  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IBitBagAcceptingBlock</span></div>  

@@ -3,7 +3,7 @@ title: IPluginManager
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.plugin](index.md)  
+_Package:_ [mod.chiselsandbits.api.plugin](index)  
 # Interface IPluginManager  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IPluginManager</span></div>  

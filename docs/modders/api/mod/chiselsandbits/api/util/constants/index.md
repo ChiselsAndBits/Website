@@ -19,9 +19,9 @@ package mod.chiselsandbits.api.util.constants;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="Constants.DataGenerator.md" title="DataGenerator">DataGenerator</a></td><td></td></tr>
-  <tr><td><a href="NbtConstants.md" title="NbtConstants">NbtConstants</a></td><td></td></tr>
-  <tr><td><a href="Constants.md" title="Constants">Constants</a></td><td></td></tr>
+  <tr><td><a href="NbtConstants" title="NbtConstants">NbtConstants</a></td><td></td></tr>
+  <tr><td><a href="Constants" title="Constants">Constants</a></td><td></td></tr>
+  <tr><td><a href="Constants.DataGenerator" title="DataGenerator">DataGenerator</a></td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -32,9 +32,9 @@ No types found.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="Constants.DataGenerator.md" title="DataGenerator">DataGenerator</a></td><td></td></tr>
-  <tr><td><a href="NbtConstants.md" title="NbtConstants">NbtConstants</a></td><td></td></tr>
-  <tr><td><a href="Constants.md" title="Constants">Constants</a></td><td></td></tr>
+  <tr><td><a href="NbtConstants" title="NbtConstants">NbtConstants</a></td><td></td></tr>
+  <tr><td><a href="Constants" title="Constants">Constants</a></td><td></td></tr>
+  <tr><td><a href="Constants.DataGenerator" title="DataGenerator">DataGenerator</a></td><td></td></tr>
   </tbody>
 </table>
 == Enums

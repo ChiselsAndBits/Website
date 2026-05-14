@@ -19,12 +19,12 @@ package mod.chiselsandbits.api.multistate.accessor;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IAreaAccessorWithVoxelShape.md" title="IAreaAccessorWithVoxelShape">IAreaAccessorWithVoxelShape</a></td><td>A special <br>{@link IAreaAccessor}<br> that is capable of determining its own voxelshape.</td></tr>
-  <tr><td><a href="IAccessorFactory.md" title="IAccessorFactory">IAccessorFactory</a></td><td>Allows for the creation of new accessors used to access chiselable areas.</td></tr>
-  <tr><td><a href="IStateAccessor.md" title="IStateAccessor">IStateAccessor</a></td><td></td></tr>
-  <tr><td><a href="IStateEntryInfo.md" title="IStateEntryInfo">IStateEntryInfo</a></td><td>Represents a single entry inside an area which can have multiple states.</td></tr>
-  <tr><td><a href="IAreaAccessor.md" title="IAreaAccessor">IAreaAccessor</a></td><td>Gives access to all states in a given area.</td></tr>
-  <tr><td><a href="ISingleBlockAxisAlignedAreaAccessor.md" title="ISingleBlockAxisAlignedAreaAccessor">ISingleBlockAxisAlignedAreaAccessor</a></td><td>Represents a single block axis aligned area accessor</td></tr>
+  <tr><td><a href="IAreaAccessor" title="IAreaAccessor">IAreaAccessor</a></td><td>Gives access to all states in a given area.</td></tr>
+  <tr><td><a href="IStateAccessor" title="IStateAccessor">IStateAccessor</a></td><td></td></tr>
+  <tr><td><a href="ISingleBlockAxisAlignedAreaAccessor" title="ISingleBlockAxisAlignedAreaAccessor">ISingleBlockAxisAlignedAreaAccessor</a></td><td>Represents a single block axis aligned area accessor</td></tr>
+  <tr><td><a href="IAccessorFactory" title="IAccessorFactory">IAccessorFactory</a></td><td>Allows for the creation of new accessors used to access chiselable areas.</td></tr>
+  <tr><td><a href="IAreaAccessorWithVoxelShape" title="IAreaAccessorWithVoxelShape">IAreaAccessorWithVoxelShape</a></td><td>A special <br>{@link IAreaAccessor}<br> that is capable of determining its own voxelshape.</td></tr>
+  <tr><td><a href="IStateEntryInfo" title="IStateEntryInfo">IStateEntryInfo</a></td><td>Represents a single entry inside an area which can have multiple states.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -33,12 +33,12 @@ package mod.chiselsandbits.api.multistate.accessor;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IAreaAccessorWithVoxelShape.md" title="IAreaAccessorWithVoxelShape">IAreaAccessorWithVoxelShape</a></td><td>A special <br>{@link IAreaAccessor}<br> that is capable of determining its own voxelshape.</td></tr>
-  <tr><td><a href="IAccessorFactory.md" title="IAccessorFactory">IAccessorFactory</a></td><td>Allows for the creation of new accessors used to access chiselable areas.</td></tr>
-  <tr><td><a href="IStateAccessor.md" title="IStateAccessor">IStateAccessor</a></td><td></td></tr>
-  <tr><td><a href="IStateEntryInfo.md" title="IStateEntryInfo">IStateEntryInfo</a></td><td>Represents a single entry inside an area which can have multiple states.</td></tr>
-  <tr><td><a href="IAreaAccessor.md" title="IAreaAccessor">IAreaAccessor</a></td><td>Gives access to all states in a given area.</td></tr>
-  <tr><td><a href="ISingleBlockAxisAlignedAreaAccessor.md" title="ISingleBlockAxisAlignedAreaAccessor">ISingleBlockAxisAlignedAreaAccessor</a></td><td>Represents a single block axis aligned area accessor</td></tr>
+  <tr><td><a href="IAreaAccessor" title="IAreaAccessor">IAreaAccessor</a></td><td>Gives access to all states in a given area.</td></tr>
+  <tr><td><a href="IStateAccessor" title="IStateAccessor">IStateAccessor</a></td><td></td></tr>
+  <tr><td><a href="ISingleBlockAxisAlignedAreaAccessor" title="ISingleBlockAxisAlignedAreaAccessor">ISingleBlockAxisAlignedAreaAccessor</a></td><td>Represents a single block axis aligned area accessor</td></tr>
+  <tr><td><a href="IAccessorFactory" title="IAccessorFactory">IAccessorFactory</a></td><td>Allows for the creation of new accessors used to access chiselable areas.</td></tr>
+  <tr><td><a href="IAreaAccessorWithVoxelShape" title="IAreaAccessorWithVoxelShape">IAreaAccessorWithVoxelShape</a></td><td>A special <br>{@link IAreaAccessor}<br> that is capable of determining its own voxelshape.</td></tr>
+  <tr><td><a href="IStateEntryInfo" title="IStateEntryInfo">IStateEntryInfo</a></td><td>Represents a single entry inside an area which can have multiple states.</td></tr>
   </tbody>
 </table>
 == Classes
@@ -57,7 +57,7 @@ No types found.
   </thead>
   <tbody>
   <tr><td><a href="sortable/index.md" title="mod.chiselsandbits.api.multistate.accessor.sortable">mod.chiselsandbits.api.multistate.accessor.sortable</a></td><td></td></tr>
-  <tr><td><a href="world/index.md" title="mod.chiselsandbits.api.multistate.accessor.world">mod.chiselsandbits.api.multistate.accessor.world</a></td><td></td></tr>
   <tr><td><a href="identifier/index.md" title="mod.chiselsandbits.api.multistate.accessor.identifier">mod.chiselsandbits.api.multistate.accessor.identifier</a></td><td></td></tr>
+  <tr><td><a href="world/index.md" title="mod.chiselsandbits.api.multistate.accessor.world">mod.chiselsandbits.api.multistate.accessor.world</a></td><td></td></tr>
   </tbody>
 </table>

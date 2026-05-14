@@ -3,7 +3,7 @@ title: ChiselsAndBitsPlugin
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.plugin](index.md)  
+_Package:_ [mod.chiselsandbits.api.plugin](index)  
 # Annotation Interface ChiselsAndBitsPlugin  
 **All Extended Interfaces:**  
 Annotation  

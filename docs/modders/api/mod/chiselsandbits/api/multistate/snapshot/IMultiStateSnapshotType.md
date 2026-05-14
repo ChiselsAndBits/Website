@@ -3,7 +3,7 @@ title: IMultiStateSnapshotType
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.snapshot](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.snapshot](index)  
 # Interface IMultiStateSnapshotType  
 **All Extended Interfaces:**  
 ICustomRegistryEntry  

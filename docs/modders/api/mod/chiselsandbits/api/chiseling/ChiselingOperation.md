@@ -3,7 +3,7 @@ title: ChiselingOperation
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.chiseling](index.md)  
+_Package:_ [mod.chiselsandbits.api.chiseling](index)  
 # Enum Class ChiselingOperation  
 ---
 <div class="type-signature"><span class="modifiers">public enum </span><span class="element-name type-name-label">ChiselingOperation</span><br/>  

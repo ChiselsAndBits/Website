@@ -3,7 +3,7 @@ title: IPatternSharingManager
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.client.sharing](index.md)  
+_Package:_ [mod.chiselsandbits.api.client.sharing](index)  
 # Interface IPatternSharingManager  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IPatternSharingManager</span></div>  

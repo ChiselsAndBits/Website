@@ -3,10 +3,10 @@ title: IStatistics
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.multistate](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.multistate](index)  
 # Interface IStatistics  
 **All Extended Interfaces:**  
-[RawSerializable](../../serialization/RawSerializable.md)  
+[RawSerializable](../../serialization/RawSerializable)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IStatistics</span><span class="extends-implements"><br/>  

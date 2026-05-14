@@ -3,10 +3,10 @@ title: IChiselingItem
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.chisel](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.chisel](index)  
 # Interface IChiselingItem  
 **All Extended Interfaces:**  
-[IChangeTrackingItem](../change/IChangeTrackingItem.md), [ILeftClickControllingItem](../click/ILeftClickControllingItem.md), [IWithHighlightItem](../withhighlight/IWithHighlightItem.md), [IWithModeItem\<IChiselMode\>](../withmode/IWithModeItem.md)  
+[IChangeTrackingItem](../change/IChangeTrackingItem), [ILeftClickControllingItem](../click/ILeftClickControllingItem), [IWithHighlightItem](../withhighlight/IWithHighlightItem), [IWithModeItem\<IChiselMode\>](../withmode/IWithModeItem)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IChiselingItem</span><span class="extends-implements"><br/>  

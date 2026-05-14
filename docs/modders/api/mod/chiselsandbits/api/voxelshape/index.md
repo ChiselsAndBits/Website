@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.voxelshape;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IVoxelShapeManager.md" title="IVoxelShapeManager">IVoxelShapeManager</a></td><td>A manager for dealing with voxelshapes related to chiseled blocks and areas.</td></tr>
+  <tr><td><a href="IVoxelShapeManager" title="IVoxelShapeManager">IVoxelShapeManager</a></td><td>A manager for dealing with voxelshapes related to chiseled blocks and areas.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.voxelshape;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IVoxelShapeManager.md" title="IVoxelShapeManager">IVoxelShapeManager</a></td><td>A manager for dealing with voxelshapes related to chiseled blocks and areas.</td></tr>
+  <tr><td><a href="IVoxelShapeManager" title="IVoxelShapeManager">IVoxelShapeManager</a></td><td>A manager for dealing with voxelshapes related to chiseled blocks and areas.</td></tr>
   </tbody>
 </table>
 == Classes

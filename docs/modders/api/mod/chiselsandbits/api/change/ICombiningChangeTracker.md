@@ -3,10 +3,10 @@ title: ICombiningChangeTracker
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.change](index.md)  
+_Package:_ [mod.chiselsandbits.api.change](index)  
 # Interface ICombiningChangeTracker  
 **All Extended Interfaces:**  
-AutoCloseable, [IChangeHandler](changes/IChangeHandler.md), [IChangeTracker](IChangeTracker.md)  
+AutoCloseable, [IChangeHandler](changes/IChangeHandler), [IChangeTracker](IChangeTracker)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">ICombiningChangeTracker</span><span class="extends-implements"><br/>  

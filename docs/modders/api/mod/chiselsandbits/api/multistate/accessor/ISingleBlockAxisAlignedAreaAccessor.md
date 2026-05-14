@@ -3,10 +3,10 @@ title: ISingleBlockAxisAlignedAreaAccessor
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.accessor](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.accessor](index)  
 # Interface ISingleBlockAxisAlignedAreaAccessor  
 **All Extended Interfaces:**  
-[IAABBOwner](../../aabb/IAABBOwner.md), [IAreaAccessor](IAreaAccessor.md), [IStateAccessor](IStateAccessor.md)  
+[IAABBOwner](../../aabb/IAABBOwner), [IAreaAccessor](IAreaAccessor), [IStateAccessor](IStateAccessor)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">ISingleBlockAxisAlignedAreaAccessor</span><span class="extends-implements"><br/>  

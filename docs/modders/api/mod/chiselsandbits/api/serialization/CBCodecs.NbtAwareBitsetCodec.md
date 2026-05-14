@@ -3,13 +3,13 @@ title: NbtAwareBitsetCodec
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.serialization](index.md)  
+_Package:_ [mod.chiselsandbits.api.serialization](index)  
 # Record Class NbtAwareBitsetCodec  
 **All Implemented Interfaces:**  
 Codec\<BitSet\>  
 
 **Enclosing Class:**  
-[CBCodecs](CBCodecs.md)  
+[CBCodecs](CBCodecs)  
 
 ---
 <div class="type-signature"><span class="modifiers">public static record </span><span class="element-name type-name-label">CBCodecs.NbtAwareBitsetCodec</span>()<br/>  

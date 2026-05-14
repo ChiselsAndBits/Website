@@ -3,10 +3,10 @@ title: IMutableStateEntryInfo
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.mutator](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.mutator](index)  
 # Interface IMutableStateEntryInfo  
 **All Extended Interfaces:**  
-[IAABBOwner](../../aabb/IAABBOwner.md), [IStateEntryInfo](../accessor/IStateEntryInfo.md)  
+[IAABBOwner](../../aabb/IAABBOwner), [IStateEntryInfo](../accessor/IStateEntryInfo)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMutableStateEntryInfo</span><span class="extends-implements"><br/>  

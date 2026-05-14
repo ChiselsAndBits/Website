@@ -3,7 +3,7 @@ title: IWatch
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.inventory.bit.watchable](index.md)  
+_Package:_ [mod.chiselsandbits.api.inventory.bit.watchable](index)  
 # Interface IWatch  
 **All Extended Interfaces:**  
 AutoCloseable  

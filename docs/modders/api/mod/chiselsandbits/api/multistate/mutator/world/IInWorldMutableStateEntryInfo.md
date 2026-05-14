@@ -3,10 +3,10 @@ title: IInWorldMutableStateEntryInfo
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.mutator.world](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.mutator.world](index)  
 # Interface IInWorldMutableStateEntryInfo  
 **All Extended Interfaces:**  
-[IAABBOwner](../../../aabb/IAABBOwner.md), [IStateEntryInfo](../../accessor/IStateEntryInfo.md), [IInWorldStateEntryInfo](../../accessor/world/IInWorldStateEntryInfo.md), [IMutableStateEntryInfo](../IMutableStateEntryInfo.md), [IWorldObject](../../../util/IWorldObject.md)  
+[IAABBOwner](../../../aabb/IAABBOwner), [IStateEntryInfo](../../accessor/IStateEntryInfo), [IInWorldStateEntryInfo](../../accessor/world/IInWorldStateEntryInfo), [IMutableStateEntryInfo](../IMutableStateEntryInfo), [IWorldObject](../../../util/IWorldObject)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IInWorldMutableStateEntryInfo</span><span class="extends-implements"><br/>  

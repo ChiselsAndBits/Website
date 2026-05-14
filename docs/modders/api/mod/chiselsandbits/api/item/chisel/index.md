@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.item.chisel;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChiselingItem.md" title="IChiselingItem">IChiselingItem</a></td><td></td></tr>
-  <tr><td><a href="IChiselItem.md" title="IChiselItem">IChiselItem</a></td><td></td></tr>
+  <tr><td><a href="IChiselItem" title="IChiselItem">IChiselItem</a></td><td></td></tr>
+  <tr><td><a href="IChiselingItem" title="IChiselingItem">IChiselingItem</a></td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.item.chisel;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChiselingItem.md" title="IChiselingItem">IChiselingItem</a></td><td></td></tr>
-  <tr><td><a href="IChiselItem.md" title="IChiselItem">IChiselItem</a></td><td></td></tr>
+  <tr><td><a href="IChiselItem" title="IChiselItem">IChiselItem</a></td><td></td></tr>
+  <tr><td><a href="IChiselingItem" title="IChiselingItem">IChiselingItem</a></td><td></td></tr>
   </tbody>
 </table>
 == Classes

@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.reloading;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="ICacheClearingHandler.md" title="ICacheClearingHandler">ICacheClearingHandler</a></td><td>Invoked by Chisels and Bitss reloading handler.</td></tr>
+  <tr><td><a href="ICacheClearingHandler" title="ICacheClearingHandler">ICacheClearingHandler</a></td><td>Invoked by Chisels and Bitss reloading handler.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.reloading;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="ICacheClearingHandler.md" title="ICacheClearingHandler">ICacheClearingHandler</a></td><td>Invoked by Chisels and Bitss reloading handler.</td></tr>
+  <tr><td><a href="ICacheClearingHandler" title="ICacheClearingHandler">ICacheClearingHandler</a></td><td>Invoked by Chisels and Bitss reloading handler.</td></tr>
   </tbody>
 </table>
 == Classes

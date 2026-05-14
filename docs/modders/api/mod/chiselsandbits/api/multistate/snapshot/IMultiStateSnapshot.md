@@ -3,10 +3,10 @@ title: IMultiStateSnapshot
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.snapshot](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.snapshot](index)  
 # Interface IMultiStateSnapshot  
 **All Extended Interfaces:**  
-Cloneable, [IAABBOwner](../../aabb/IAABBOwner.md), [IAreaAccessor](../accessor/IAreaAccessor.md), [IStateAccessor](../accessor/IStateAccessor.md), [IAreaMutator](../mutator/IAreaMutator.md), [IGenerallyModifiableAreaMutator](../mutator/IGenerallyModifiableAreaMutator.md), [IMirrorAndRotateble](../mutator/IMirrorAndRotateble.md)  
+Cloneable, [IAABBOwner](../../aabb/IAABBOwner), [IAreaAccessor](../accessor/IAreaAccessor), [IStateAccessor](../accessor/IStateAccessor), [IAreaMutator](../mutator/IAreaMutator), [IGenerallyModifiableAreaMutator](../mutator/IGenerallyModifiableAreaMutator), [IMirrorAndRotateble](../mutator/IMirrorAndRotateble)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMultiStateSnapshot</span><span class="extends-implements"><br/>  

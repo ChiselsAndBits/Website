@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.client.render.preview.chiseling;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChiselContextPreviewRenderer.md" title="IChiselContextPreviewRenderer">IChiselContextPreviewRenderer</a></td><td>Renderer which is used to render the chiseling preview.</td></tr>
-  <tr><td><a href="IChiselContextPreviewRendererRegistry.md" title="IChiselContextPreviewRendererRegistry">IChiselContextPreviewRendererRegistry</a></td><td>Registry for registering possible chiseling context preview renderers,<br>and for getting the current renderer back out.</td></tr>
+  <tr><td><a href="IChiselContextPreviewRenderer" title="IChiselContextPreviewRenderer">IChiselContextPreviewRenderer</a></td><td>Renderer which is used to render the chiseling preview.</td></tr>
+  <tr><td><a href="IChiselContextPreviewRendererRegistry" title="IChiselContextPreviewRendererRegistry">IChiselContextPreviewRendererRegistry</a></td><td>Registry for registering possible chiseling context preview renderers,<br>and for getting the current renderer back out.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.client.render.preview.chiseling;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChiselContextPreviewRenderer.md" title="IChiselContextPreviewRenderer">IChiselContextPreviewRenderer</a></td><td>Renderer which is used to render the chiseling preview.</td></tr>
-  <tr><td><a href="IChiselContextPreviewRendererRegistry.md" title="IChiselContextPreviewRendererRegistry">IChiselContextPreviewRendererRegistry</a></td><td>Registry for registering possible chiseling context preview renderers,<br>and for getting the current renderer back out.</td></tr>
+  <tr><td><a href="IChiselContextPreviewRenderer" title="IChiselContextPreviewRenderer">IChiselContextPreviewRenderer</a></td><td>Renderer which is used to render the chiseling preview.</td></tr>
+  <tr><td><a href="IChiselContextPreviewRendererRegistry" title="IChiselContextPreviewRendererRegistry">IChiselContextPreviewRendererRegistry</a></td><td>Registry for registering possible chiseling context preview renderers,<br>and for getting the current renderer back out.</td></tr>
   </tbody>
 </table>
 == Classes

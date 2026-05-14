@@ -19,9 +19,9 @@ package mod.chiselsandbits.api.client.screen.widget;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChiselsAndBitsWidget.md" title="IChiselsAndBitsWidget">IChiselsAndBitsWidget</a></td><td></td></tr>
-  <tr><td><a href="AbstractChiselsAndBitsButton.md" title="AbstractChiselsAndBitsButton">AbstractChiselsAndBitsButton</a></td><td>An abstract chisels and bits button.</td></tr>
-  <tr><td><a href="AbstractChiselsAndBitsWidget.md" title="AbstractChiselsAndBitsWidget">AbstractChiselsAndBitsWidget</a></td><td>All chisels and bits widgets inherit from this class.</td></tr>
+  <tr><td><a href="IChiselsAndBitsWidget" title="IChiselsAndBitsWidget">IChiselsAndBitsWidget</a></td><td></td></tr>
+  <tr><td><a href="AbstractChiselsAndBitsWidget" title="AbstractChiselsAndBitsWidget">AbstractChiselsAndBitsWidget</a></td><td>All chisels and bits widgets inherit from this class.</td></tr>
+  <tr><td><a href="AbstractChiselsAndBitsButton" title="AbstractChiselsAndBitsButton">AbstractChiselsAndBitsButton</a></td><td>An abstract chisels and bits button.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -30,7 +30,7 @@ package mod.chiselsandbits.api.client.screen.widget;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChiselsAndBitsWidget.md" title="IChiselsAndBitsWidget">IChiselsAndBitsWidget</a></td><td></td></tr>
+  <tr><td><a href="IChiselsAndBitsWidget" title="IChiselsAndBitsWidget">IChiselsAndBitsWidget</a></td><td></td></tr>
   </tbody>
 </table>
 == Classes
@@ -39,8 +39,8 @@ package mod.chiselsandbits.api.client.screen.widget;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="AbstractChiselsAndBitsButton.md" title="AbstractChiselsAndBitsButton">AbstractChiselsAndBitsButton</a></td><td>An abstract chisels and bits button.</td></tr>
-  <tr><td><a href="AbstractChiselsAndBitsWidget.md" title="AbstractChiselsAndBitsWidget">AbstractChiselsAndBitsWidget</a></td><td>All chisels and bits widgets inherit from this class.</td></tr>
+  <tr><td><a href="AbstractChiselsAndBitsWidget" title="AbstractChiselsAndBitsWidget">AbstractChiselsAndBitsWidget</a></td><td>All chisels and bits widgets inherit from this class.</td></tr>
+  <tr><td><a href="AbstractChiselsAndBitsButton" title="AbstractChiselsAndBitsButton">AbstractChiselsAndBitsButton</a></td><td>An abstract chisels and bits button.</td></tr>
   </tbody>
 </table>
 == Enums

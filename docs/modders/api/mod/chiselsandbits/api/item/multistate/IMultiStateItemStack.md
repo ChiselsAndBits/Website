@@ -3,10 +3,10 @@ title: IMultiStateItemStack
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.multistate](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.multistate](index)  
 # Interface IMultiStateItemStack  
 **All Extended Interfaces:**  
-[IAABBOwner](../../aabb/IAABBOwner.md), [IAreaAccessor](../../multistate/accessor/IAreaAccessor.md), [ISingleBlockAxisAlignedAreaAccessor](../../multistate/accessor/ISingleBlockAxisAlignedAreaAccessor.md), [IStateAccessor](../../multistate/accessor/IStateAccessor.md), [IMirrorAndRotateble](../../multistate/mutator/IMirrorAndRotateble.md)  
+[IAABBOwner](../../aabb/IAABBOwner), [IAreaAccessor](../../multistate/accessor/IAreaAccessor), [ISingleBlockAxisAlignedAreaAccessor](../../multistate/accessor/ISingleBlockAxisAlignedAreaAccessor), [IStateAccessor](../../multistate/accessor/IStateAccessor), [IMirrorAndRotateble](../../multistate/mutator/IMirrorAndRotateble)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMultiStateItemStack</span><span class="extends-implements"><br/>  

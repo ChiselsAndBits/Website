@@ -3,10 +3,10 @@ title: IWatchableBitInventory
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.inventory.bit.watchable](index.md)  
+_Package:_ [mod.chiselsandbits.api.inventory.bit.watchable](index)  
 # Interface IWatchableBitInventory  
 **All Extended Interfaces:**  
-[IBitInventory](../IBitInventory.md)  
+[IBitInventory](../IBitInventory)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IWatchableBitInventory</span><span class="extends-implements"><br/>  

@@ -3,10 +3,10 @@ title: IBatchedAreaMutator
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.mutator.batched](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.mutator.batched](index)  
 # Interface IBatchedAreaMutator  
 **All Extended Interfaces:**  
-[IAABBOwner](../../../aabb/IAABBOwner.md), [IAreaAccessor](../../accessor/IAreaAccessor.md), [IStateAccessor](../../accessor/IStateAccessor.md), [IAreaMutator](../IAreaMutator.md), [IWithBatchableMutationSupport](../../../util/IWithBatchableMutationSupport.md)  
+[IAABBOwner](../../../aabb/IAABBOwner), [IAreaAccessor](../../accessor/IAreaAccessor), [IStateAccessor](../../accessor/IStateAccessor), [IAreaMutator](../IAreaMutator), [IWithBatchableMutationSupport](../../../util/IWithBatchableMutationSupport)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IBatchedAreaMutator</span><span class="extends-implements"><br/>  

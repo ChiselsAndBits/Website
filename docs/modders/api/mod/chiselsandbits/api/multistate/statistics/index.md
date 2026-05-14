@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.multistate.statistics;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IMultiStateObjectStatistics.md" title="IMultiStateObjectStatistics">IMultiStateObjectStatistics</a></td><td>The statistics of a multistate block.</td></tr>
+  <tr><td><a href="IMultiStateObjectStatistics" title="IMultiStateObjectStatistics">IMultiStateObjectStatistics</a></td><td>The statistics of a multistate block.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.multistate.statistics;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IMultiStateObjectStatistics.md" title="IMultiStateObjectStatistics">IMultiStateObjectStatistics</a></td><td>The statistics of a multistate block.</td></tr>
+  <tr><td><a href="IMultiStateObjectStatistics" title="IMultiStateObjectStatistics">IMultiStateObjectStatistics</a></td><td>The statistics of a multistate block.</td></tr>
   </tbody>
 </table>
 == Classes

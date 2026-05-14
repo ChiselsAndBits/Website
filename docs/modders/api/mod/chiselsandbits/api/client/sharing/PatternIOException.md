@@ -3,7 +3,7 @@ title: PatternIOException
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.client.sharing](index.md)  
+_Package:_ [mod.chiselsandbits.api.client.sharing](index)  
 # Class PatternIOException  
 java.lang.Object  
 &ensp;↳java.lang.Throwable  

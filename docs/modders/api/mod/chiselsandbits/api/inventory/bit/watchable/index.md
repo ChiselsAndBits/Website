@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.inventory.bit.watchable;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IWatchableBitInventory.md" title="IWatchableBitInventory">IWatchableBitInventory</a></td><td>Bit inventory variant which can be watched for changes.</td></tr>
-  <tr><td><a href="IWatch.md" title="IWatch">IWatch</a></td><td>Marker interface that can be used to close the watch on a bit inventory.</td></tr>
+  <tr><td><a href="IWatch" title="IWatch">IWatch</a></td><td>Marker interface that can be used to close the watch on a bit inventory.</td></tr>
+  <tr><td><a href="IWatchableBitInventory" title="IWatchableBitInventory">IWatchableBitInventory</a></td><td>Bit inventory variant which can be watched for changes.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.inventory.bit.watchable;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IWatchableBitInventory.md" title="IWatchableBitInventory">IWatchableBitInventory</a></td><td>Bit inventory variant which can be watched for changes.</td></tr>
-  <tr><td><a href="IWatch.md" title="IWatch">IWatch</a></td><td>Marker interface that can be used to close the watch on a bit inventory.</td></tr>
+  <tr><td><a href="IWatch" title="IWatch">IWatch</a></td><td>Marker interface that can be used to close the watch on a bit inventory.</td></tr>
+  <tr><td><a href="IWatchableBitInventory" title="IWatchableBitInventory">IWatchableBitInventory</a></td><td>Bit inventory variant which can be watched for changes.</td></tr>
   </tbody>
 </table>
 == Classes

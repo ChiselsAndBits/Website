@@ -3,13 +3,13 @@ title: Holder
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api](index.md)  
+_Package:_ [mod.chiselsandbits.api](index)  
 # Class Holder  
 java.lang.Object  
 &ensp;↳mod.chiselsandbits.api.Holder  
   
 **Enclosing Class:**  
-[IChiselsAndBitsAPI](IChiselsAndBitsAPI.md)  
+[IChiselsAndBitsAPI](IChiselsAndBitsAPI)  
 
 ---
 <div class="type-signature"><span class="modifiers">public static class </span><span class="element-name type-name-label">IChiselsAndBitsAPI.Holder</span><br/>  

@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.item.documentation;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IDocumentableItem.md" title="IDocumentableItem">IDocumentableItem</a></td><td>Represents an item that is documented via the Chisels and Bits documentation export system.</td></tr>
+  <tr><td><a href="IDocumentableItem" title="IDocumentableItem">IDocumentableItem</a></td><td>Represents an item that is documented via the Chisels and Bits documentation export system.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.item.documentation;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IDocumentableItem.md" title="IDocumentableItem">IDocumentableItem</a></td><td>Represents an item that is documented via the Chisels and Bits documentation export system.</td></tr>
+  <tr><td><a href="IDocumentableItem" title="IDocumentableItem">IDocumentableItem</a></td><td>Represents an item that is documented via the Chisels and Bits documentation export system.</td></tr>
   </tbody>
 </table>
 == Classes

@@ -3,7 +3,7 @@ title: IProfilerSection
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.profiling](index.md)  
+_Package:_ [mod.chiselsandbits.api.profiling](index)  
 # Interface IProfilerSection  
 **All Extended Interfaces:**  
 AutoCloseable  

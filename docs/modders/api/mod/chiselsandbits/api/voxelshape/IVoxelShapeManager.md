@@ -3,7 +3,7 @@ title: IVoxelShapeManager
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.voxelshape](index.md)  
+_Package:_ [mod.chiselsandbits.api.voxelshape](index)  
 # Interface IVoxelShapeManager  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IVoxelShapeManager</span></div>  

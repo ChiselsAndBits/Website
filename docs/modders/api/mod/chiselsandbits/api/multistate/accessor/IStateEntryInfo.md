@@ -3,10 +3,10 @@ title: IStateEntryInfo
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.accessor](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.accessor](index)  
 # Interface IStateEntryInfo  
 **All Extended Interfaces:**  
-[IAABBOwner](../../aabb/IAABBOwner.md)  
+[IAABBOwner](../../aabb/IAABBOwner)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IStateEntryInfo</span><span class="extends-implements"><br/>  

@@ -3,10 +3,10 @@ title: IToolMode
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.withmode](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.withmode](index)  
 # Interface IToolMode\<G extends IToolModeGroup\>  
 **All Extended Interfaces:**  
-[IRenderableMode](IRenderableMode.md), [IWithColor](../../util/IWithColor.md), [IWithDisplayName](../../util/IWithDisplayName.md), [IWithIcon](../../util/IWithIcon.md), [IWithIconAndColor](../../util/IWithIconAndColor.md)  
+[IRenderableMode](IRenderableMode), [IWithColor](../../util/IWithColor), [IWithDisplayName](../../util/IWithDisplayName), [IWithIcon](../../util/IWithIcon), [IWithIconAndColor](../../util/IWithIconAndColor)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IToolMode&lt;G extends <a href="group/IToolModeGroup.html" title="interface in mod.chiselsandbits.api.item.withmode.group">IToolModeGroup</a>&gt;</span><span class="extends-implements"><br/>  

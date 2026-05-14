@@ -3,7 +3,7 @@ title: IChiselContextPreviewRendererRegistry
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.client.render.preview.chiseling](index.md)  
+_Package:_ [mod.chiselsandbits.api.client.render.preview.chiseling](index)  
 # Interface IChiselContextPreviewRendererRegistry  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IChiselContextPreviewRendererRegistry</span></div>  

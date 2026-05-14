@@ -3,10 +3,10 @@ title: IAreaAccessor
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.accessor](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.accessor](index)  
 # Interface IAreaAccessor  
 **All Extended Interfaces:**  
-[IAABBOwner](../../aabb/IAABBOwner.md), [IStateAccessor](IStateAccessor.md)  
+[IAABBOwner](../../aabb/IAABBOwner), [IStateAccessor](IStateAccessor)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IAreaAccessor</span><span class="extends-implements"><br/>  

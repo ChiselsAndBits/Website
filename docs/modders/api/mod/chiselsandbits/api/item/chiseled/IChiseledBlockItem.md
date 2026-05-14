@@ -3,10 +3,10 @@ title: IChiseledBlockItem
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.chiseled](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.chiseled](index)  
 # Interface IChiseledBlockItem  
 **All Extended Interfaces:**  
-[IMultiStateItem](../multistate/IMultiStateItem.md), [IWireframeProvidingItem](../wireframe/IWireframeProvidingItem.md), [IWithModeItem\<IModificationOperation\>](../withmode/IWithModeItem.md), [IPlaceable](../../placement/IPlaceable.md), [IPlacementPreviewProvidingItem](../../placement/IPlacementPreviewProvidingItem.md), [IPlacementProperties](../../placement/IPlacementProperties.md)  
+[IMultiStateItem](../multistate/IMultiStateItem), [IWireframeProvidingItem](../wireframe/IWireframeProvidingItem), [IWithModeItem\<IModificationOperation\>](../withmode/IWithModeItem), [IPlaceable](../../placement/IPlaceable), [IPlacementPreviewProvidingItem](../../placement/IPlacementPreviewProvidingItem), [IPlacementProperties](../../placement/IPlacementProperties)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IChiseledBlockItem</span><span class="extends-implements"><br/>  

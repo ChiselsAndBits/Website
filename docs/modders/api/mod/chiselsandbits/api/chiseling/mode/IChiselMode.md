@@ -3,10 +3,10 @@ title: IChiselMode
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.chiseling.mode](index.md)  
+_Package:_ [mod.chiselsandbits.api.chiseling.mode](index)  
 # Interface IChiselMode  
 **All Extended Interfaces:**  
-ICustomRegistryEntry, [IRenderableMode](../../item/withmode/IRenderableMode.md), [IToolMode\<IToolModeGroup\>](../../item/withmode/IToolMode.md), [IWithColor](../../util/IWithColor.md), [IWithDisplayName](../../util/IWithDisplayName.md), [IWithIcon](../../util/IWithIcon.md), [IWithIconAndColor](../../util/IWithIconAndColor.md)  
+ICustomRegistryEntry, [IRenderableMode](../../item/withmode/IRenderableMode), [IToolMode\<IToolModeGroup\>](../../item/withmode/IToolMode), [IWithColor](../../util/IWithColor), [IWithDisplayName](../../util/IWithDisplayName), [IWithIcon](../../util/IWithIcon), [IWithIconAndColor](../../util/IWithIconAndColor)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IChiselMode</span><span class="extends-implements"><br/>  

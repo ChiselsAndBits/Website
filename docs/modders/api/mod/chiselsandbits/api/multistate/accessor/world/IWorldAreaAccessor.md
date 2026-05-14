@@ -3,10 +3,10 @@ title: IWorldAreaAccessor
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.accessor.world](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.accessor.world](index)  
 # Interface IWorldAreaAccessor  
 **All Extended Interfaces:**  
-[IAABBOwner](../../../aabb/IAABBOwner.md), [IAreaAccessor](../IAreaAccessor.md), [IStateAccessor](../IStateAccessor.md), [IWorldObject](../../../util/IWorldObject.md)  
+[IAABBOwner](../../../aabb/IAABBOwner), [IAreaAccessor](../IAreaAccessor), [IStateAccessor](../IStateAccessor), [IWorldObject](../../../util/IWorldObject)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IWorldAreaAccessor</span><span class="extends-implements"><br/>  

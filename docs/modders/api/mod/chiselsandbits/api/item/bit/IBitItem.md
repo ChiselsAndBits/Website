@@ -3,10 +3,10 @@ title: IBitItem
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.bit](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.bit](index)  
 # Interface IBitItem  
 **All Extended Interfaces:**  
-[IChangeTrackingItem](../change/IChangeTrackingItem.md), [IRightClickControllingItem](../click/IRightClickControllingItem.md), [IWithHighlightItem](../withhighlight/IWithHighlightItem.md), [IWithModeItem\<IChiselMode\>](../withmode/IWithModeItem.md)  
+[IChangeTrackingItem](../change/IChangeTrackingItem), [IRightClickControllingItem](../click/IRightClickControllingItem), [IWithHighlightItem](../withhighlight/IWithHighlightItem), [IWithModeItem\<IChiselMode\>](../withmode/IWithModeItem)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IBitItem</span><span class="extends-implements"><br/>  

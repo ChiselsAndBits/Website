@@ -3,10 +3,10 @@ title: IMultiStateObjectStatistics
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.statistics](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.statistics](index)  
 # Interface IMultiStateObjectStatistics  
 **All Extended Interfaces:**  
-[IStatistics](../../item/multistate/IStatistics.md), [RawSerializable](../../serialization/RawSerializable.md)  
+[IStatistics](../../item/multistate/IStatistics), [RawSerializable](../../serialization/RawSerializable)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMultiStateObjectStatistics</span><span class="extends-implements"><br/>  

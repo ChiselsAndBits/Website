@@ -3,10 +3,10 @@ title: IWorldAreaMutator
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.mutator.world](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.mutator.world](index)  
 # Interface IWorldAreaMutator  
 **All Extended Interfaces:**  
-[IAABBOwner](../../../aabb/IAABBOwner.md), [IAreaAccessor](../../accessor/IAreaAccessor.md), [IStateAccessor](../../accessor/IStateAccessor.md), [IWorldAreaAccessor](../../accessor/world/IWorldAreaAccessor.md), [IBatchedAreaMutator](../batched/IBatchedAreaMutator.md), [IAreaMutator](../IAreaMutator.md), [IWithBatchableMutationSupport](../../../util/IWithBatchableMutationSupport.md), [IWorldObject](../../../util/IWorldObject.md)  
+[IAABBOwner](../../../aabb/IAABBOwner), [IAreaAccessor](../../accessor/IAreaAccessor), [IStateAccessor](../../accessor/IStateAccessor), [IWorldAreaAccessor](../../accessor/world/IWorldAreaAccessor), [IBatchedAreaMutator](../batched/IBatchedAreaMutator), [IAreaMutator](../IAreaMutator), [IWithBatchableMutationSupport](../../../util/IWithBatchableMutationSupport), [IWorldObject](../../../util/IWorldObject)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IWorldAreaMutator</span><span class="extends-implements"><br/>  

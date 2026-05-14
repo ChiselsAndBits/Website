@@ -3,10 +3,10 @@ title: IQuillItem
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.tool](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.tool](index)  
 # Interface IQuillItem  
 **All Extended Interfaces:**  
-[IInteractableItem](../interactable/IInteractableItem.md)  
+[IInteractableItem](../interactable/IInteractableItem)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IQuillItem</span><span class="extends-implements"><br/>  

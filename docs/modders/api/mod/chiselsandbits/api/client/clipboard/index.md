@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.client.clipboard;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="ICreativeClipboardManager.md" title="ICreativeClipboardManager">ICreativeClipboardManager</a></td><td></td></tr>
+  <tr><td><a href="ICreativeClipboardManager" title="ICreativeClipboardManager">ICreativeClipboardManager</a></td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.client.clipboard;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="ICreativeClipboardManager.md" title="ICreativeClipboardManager">ICreativeClipboardManager</a></td><td></td></tr>
+  <tr><td><a href="ICreativeClipboardManager" title="ICreativeClipboardManager">ICreativeClipboardManager</a></td><td></td></tr>
   </tbody>
 </table>
 == Classes

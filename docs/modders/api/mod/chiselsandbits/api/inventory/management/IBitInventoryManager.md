@@ -3,7 +3,7 @@ title: IBitInventoryManager
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.inventory.management](index.md)  
+_Package:_ [mod.chiselsandbits.api.inventory.management](index)  
 # Interface IBitInventoryManager  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IBitInventoryManager</span></div>  

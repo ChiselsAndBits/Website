@@ -3,10 +3,10 @@ title: ToIntFunction_WithExceptions
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.util](index.md)  
+_Package:_ [mod.chiselsandbits.api.util](index)  
 # Interface ToIntFunction_WithExceptions\<T,E extends Exception\>  
 **Enclosing Class:**  
-[LambdaExceptionUtils](LambdaExceptionUtils.md)  
+[LambdaExceptionUtils](LambdaExceptionUtils)  
 
 **Functional Interface:**  
 This is a functional interface and can therefore be used as the assignment target for a lambda expression or method reference.  

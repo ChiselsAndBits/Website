@@ -19,13 +19,13 @@ package mod.chiselsandbits.api.serialization;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="CBCodecs.FallbackCodec.md" title="FallbackCodec">FallbackCodec</a></td><td></td></tr>
-  <tr><td><a href="CBStreamCodecs.md" title="CBStreamCodecs">CBStreamCodecs</a></td><td></td></tr>
-  <tr><td><a href="CBCodecs.NbtAwareBitsetCodec.md" title="NbtAwareBitsetCodec">NbtAwareBitsetCodec</a></td><td></td></tr>
-  <tr><td><a href="RawSerializable.md" title="RawSerializable">RawSerializable</a></td><td>Defines objects which can be serialized into a raw format.</td></tr>
-  <tr><td><a href="Serializable.Registry.md" title="Registry">Registry</a></td><td>Serializes specifically when a registry is involved.</td></tr>
-  <tr><td><a href="CBCodecs.md" title="CBCodecs">CBCodecs</a></td><td></td></tr>
-  <tr><td><a href="Serializable.md" title="Serializable">Serializable</a></td><td>Defines objects which can be serialized into an exact format.</td></tr>
+  <tr><td><a href="CBCodecs.FallbackCodec" title="FallbackCodec">FallbackCodec</a></td><td></td></tr>
+  <tr><td><a href="CBCodecs.NbtAwareBitsetCodec" title="NbtAwareBitsetCodec">NbtAwareBitsetCodec</a></td><td></td></tr>
+  <tr><td><a href="Serializable" title="Serializable">Serializable</a></td><td>Defines objects which can be serialized into an exact format.</td></tr>
+  <tr><td><a href="CBCodecs" title="CBCodecs">CBCodecs</a></td><td></td></tr>
+  <tr><td><a href="RawSerializable" title="RawSerializable">RawSerializable</a></td><td>Defines objects which can be serialized into a raw format.</td></tr>
+  <tr><td><a href="Serializable.Registry" title="Registry">Registry</a></td><td>Serializes specifically when a registry is involved.</td></tr>
+  <tr><td><a href="CBStreamCodecs" title="CBStreamCodecs">CBStreamCodecs</a></td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -34,11 +34,11 @@ package mod.chiselsandbits.api.serialization;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="CBStreamCodecs.md" title="CBStreamCodecs">CBStreamCodecs</a></td><td></td></tr>
-  <tr><td><a href="RawSerializable.md" title="RawSerializable">RawSerializable</a></td><td>Defines objects which can be serialized into a raw format.</td></tr>
-  <tr><td><a href="Serializable.Registry.md" title="Registry">Registry</a></td><td>Serializes specifically when a registry is involved.</td></tr>
-  <tr><td><a href="CBCodecs.md" title="CBCodecs">CBCodecs</a></td><td></td></tr>
-  <tr><td><a href="Serializable.md" title="Serializable">Serializable</a></td><td>Defines objects which can be serialized into an exact format.</td></tr>
+  <tr><td><a href="Serializable" title="Serializable">Serializable</a></td><td>Defines objects which can be serialized into an exact format.</td></tr>
+  <tr><td><a href="CBCodecs" title="CBCodecs">CBCodecs</a></td><td></td></tr>
+  <tr><td><a href="RawSerializable" title="RawSerializable">RawSerializable</a></td><td>Defines objects which can be serialized into a raw format.</td></tr>
+  <tr><td><a href="Serializable.Registry" title="Registry">Registry</a></td><td>Serializes specifically when a registry is involved.</td></tr>
+  <tr><td><a href="CBStreamCodecs" title="CBStreamCodecs">CBStreamCodecs</a></td><td></td></tr>
   </tbody>
 </table>
 == Classes
@@ -51,8 +51,8 @@ No types found.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="CBCodecs.FallbackCodec.md" title="FallbackCodec">FallbackCodec</a></td><td></td></tr>
-  <tr><td><a href="CBCodecs.NbtAwareBitsetCodec.md" title="NbtAwareBitsetCodec">NbtAwareBitsetCodec</a></td><td></td></tr>
+  <tr><td><a href="CBCodecs.FallbackCodec" title="FallbackCodec">FallbackCodec</a></td><td></td></tr>
+  <tr><td><a href="CBCodecs.NbtAwareBitsetCodec" title="NbtAwareBitsetCodec">NbtAwareBitsetCodec</a></td><td></td></tr>
   </tbody>
 </table>
 :::

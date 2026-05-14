@@ -3,7 +3,7 @@ title: ICreativeClipboardManager
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.client.clipboard](index.md)  
+_Package:_ [mod.chiselsandbits.api.client.clipboard](index)  
 # Interface ICreativeClipboardManager  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">ICreativeClipboardManager</span></div>  

@@ -3,14 +3,14 @@ title: AbstractChiselsAndBitsWidget
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.client.screen.widget](index.md)  
+_Package:_ [mod.chiselsandbits.api.client.screen.widget](index)  
 # Class AbstractChiselsAndBitsWidget  
 java.lang.Object  
 &ensp;↳net.minecraft.client.gui.components.AbstractWidget  
 &ensp;&ensp;↳mod.chiselsandbits.api.client.screen.widget.AbstractChiselsAndBitsWidget  
   
 **All Implemented Interfaces:**  
-[IChiselsAndBitsWidget](IChiselsAndBitsWidget.md)  
+[IChiselsAndBitsWidget](IChiselsAndBitsWidget)  
 
 ---
 <div class="type-signature"><span class="modifiers">public abstract class </span><span class="element-name type-name-label">AbstractChiselsAndBitsWidget</span><br/>  

@@ -3,7 +3,7 @@ title: IAABBOwner
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.aabb](index.md)  
+_Package:_ [mod.chiselsandbits.api.aabb](index)  
 # Interface IAABBOwner  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IAABBOwner</span></div>  

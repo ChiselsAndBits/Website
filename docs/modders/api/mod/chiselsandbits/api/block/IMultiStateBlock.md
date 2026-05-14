@@ -3,7 +3,7 @@ title: IMultiStateBlock
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.block](index.md)  
+_Package:_ [mod.chiselsandbits.api.block](index)  
 # Interface IMultiStateBlock  
 **All Extended Interfaces:**  
 IBlockWithWorldlyProperties, BeaconBeamBlock, EntityBlock, ItemLike  

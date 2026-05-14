@@ -3,7 +3,7 @@ title: BitUtils
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.util](index.md)  
+_Package:_ [mod.chiselsandbits.api.util](index)  
 # Class BitUtils  
 java.lang.Object  
 &ensp;↳mod.chiselsandbits.api.util.BitUtils  

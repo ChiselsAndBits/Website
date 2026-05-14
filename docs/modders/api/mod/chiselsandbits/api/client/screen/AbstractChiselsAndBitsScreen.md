@@ -3,7 +3,7 @@ title: AbstractChiselsAndBitsScreen
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.client.screen](index.md)  
+_Package:_ [mod.chiselsandbits.api.client.screen](index)  
 # Class AbstractChiselsAndBitsScreen  
 java.lang.Object  
 &ensp;↳net.minecraft.client.gui.components.events.AbstractContainerEventHandler  
@@ -11,7 +11,7 @@ java.lang.Object
 &ensp;&ensp;&ensp;↳mod.chiselsandbits.api.client.screen.AbstractChiselsAndBitsScreen  
   
 **All Implemented Interfaces:**  
-[IChiselsAndBitsScreen](IChiselsAndBitsScreen.md)  
+[IChiselsAndBitsScreen](IChiselsAndBitsScreen)  
 
 ---
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">AbstractChiselsAndBitsScreen</span><br/>  

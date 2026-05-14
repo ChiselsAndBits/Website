@@ -3,7 +3,7 @@ title: IPermissionHandler
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.permissions](index.md)  
+_Package:_ [mod.chiselsandbits.api.permissions](index)  
 # Interface IPermissionHandler  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IPermissionHandler</span></div>  

@@ -3,10 +3,10 @@ title: IStateVariant
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.variant.state](index.md)  
+_Package:_ [mod.chiselsandbits.api.variant.state](index)  
 # Interface IStateVariant  
 **All Extended Interfaces:**  
-Comparable\<IStateVariant\>, [ISnapshotable\<IStateVariant\>](../../util/ISnapshotable.md)  
+Comparable\<IStateVariant\>, [ISnapshotable\<IStateVariant\>](../../util/ISnapshotable)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IStateVariant</span><span class="extends-implements"><br/>  

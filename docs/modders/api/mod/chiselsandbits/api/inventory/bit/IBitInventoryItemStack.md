@@ -3,10 +3,10 @@ title: IBitInventoryItemStack
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.inventory.bit](index.md)  
+_Package:_ [mod.chiselsandbits.api.inventory.bit](index)  
 # Interface IBitInventoryItemStack  
 **All Extended Interfaces:**  
-Iterable\<ItemStack\>, [IBitInventory](IBitInventory.md), Clearable, Container, SlotProvider  
+Iterable\<ItemStack\>, [IBitInventory](IBitInventory), Clearable, Container, SlotProvider  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IBitInventoryItemStack</span><span class="extends-implements"><br/>  

@@ -3,10 +3,10 @@ title: IInWorldStateEntryInfo
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.accessor.world](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.accessor.world](index)  
 # Interface IInWorldStateEntryInfo  
 **All Extended Interfaces:**  
-[IAABBOwner](../../../aabb/IAABBOwner.md), [IStateEntryInfo](../IStateEntryInfo.md), [IWorldObject](../../../util/IWorldObject.md)  
+[IAABBOwner](../../../aabb/IAABBOwner), [IStateEntryInfo](../IStateEntryInfo), [IWorldObject](../../../util/IWorldObject)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IInWorldStateEntryInfo</span><span class="extends-implements"><br/>  

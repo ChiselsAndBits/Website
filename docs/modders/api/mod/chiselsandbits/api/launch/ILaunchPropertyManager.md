@@ -3,7 +3,7 @@ title: ILaunchPropertyManager
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.launch](index.md)  
+_Package:_ [mod.chiselsandbits.api.launch](index)  
 # Interface ILaunchPropertyManager  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">ILaunchPropertyManager</span></div>  

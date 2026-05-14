@@ -3,7 +3,7 @@ title: IEligibilityManager
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.chiseling.eligibility](index.md)  
+_Package:_ [mod.chiselsandbits.api.chiseling.eligibility](index)  
 # Interface IEligibilityManager  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IEligibilityManager</span></div>  

@@ -3,10 +3,10 @@ title: IMeasuringTapeItem
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.measuring](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.measuring](index)  
 # Interface IMeasuringTapeItem  
 **All Extended Interfaces:**  
-[IRightClickControllingItem](../click/IRightClickControllingItem.md), [INoHitEffectsItem](../INoHitEffectsItem.md), [IWithModeItem\<IMeasuringMode\>](../withmode/IWithModeItem.md)  
+[IRightClickControllingItem](../click/IRightClickControllingItem), [INoHitEffectsItem](../INoHitEffectsItem), [IWithModeItem\<IMeasuringMode\>](../withmode/IWithModeItem)  
 
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMeasuringTapeItem</span><span class="extends-implements"><br/>  

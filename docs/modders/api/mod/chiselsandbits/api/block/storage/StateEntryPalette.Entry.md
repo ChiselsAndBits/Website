@@ -3,13 +3,13 @@ title: Entry
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.block.storage](index.md)  
+_Package:_ [mod.chiselsandbits.api.block.storage](index)  
 # Record Class Entry  
 **All Implemented Interfaces:**  
-[Registry\<Entry\>](../../serialization/Serializable.Registry.md)  
+[Registry\<Entry\>](../../serialization/Serializable.Registry)  
 
 **Enclosing Class:**  
-[StateEntryPalette](StateEntryPalette.md)  
+[StateEntryPalette](StateEntryPalette)  
 
 ---
 <div class="type-signature"><span class="modifiers">public static record </span><span class="element-name type-name-label">StateEntryPalette.Entry</span>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)<br/>  

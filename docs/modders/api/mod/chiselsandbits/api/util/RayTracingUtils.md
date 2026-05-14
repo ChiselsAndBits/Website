@@ -3,7 +3,7 @@ title: RayTracingUtils
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.util](index.md)  
+_Package:_ [mod.chiselsandbits.api.util](index)  
 # Class RayTracingUtils  
 java.lang.Object  
 &ensp;↳mod.chiselsandbits.api.util.RayTracingUtils  

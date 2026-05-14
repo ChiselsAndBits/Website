@@ -3,7 +3,7 @@ title: IMutatorFactory
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.multistate.mutator](index.md)  
+_Package:_ [mod.chiselsandbits.api.multistate.mutator](index)  
 # Interface IMutatorFactory  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IMutatorFactory</span></div>  

@@ -3,7 +3,7 @@ title: ClickProcessingState
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.item.click](index.md)  
+_Package:_ [mod.chiselsandbits.api.item.click](index)  
 # Class ClickProcessingState  
 java.lang.Object  
 &ensp;↳mod.chiselsandbits.api.item.click.ClickProcessingState  

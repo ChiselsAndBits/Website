@@ -3,7 +3,7 @@ title: IBlockNeighborhoodBuilder
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.neighborhood](index.md)  
+_Package:_ [mod.chiselsandbits.api.neighborhood](index)  
 # Interface IBlockNeighborhoodBuilder  
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">IBlockNeighborhoodBuilder</span></div>  

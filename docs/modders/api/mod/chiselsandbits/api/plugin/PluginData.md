@@ -3,7 +3,7 @@ title: PluginData
 aside: false 
 sidebar: false 
 ---
-_Package:_ [mod.chiselsandbits.api.plugin](index.md)  
+_Package:_ [mod.chiselsandbits.api.plugin](index)  
 # Record Class PluginData\<T\>  
 ---
 <div class="type-signature"><span class="modifiers">public record </span><span class="element-name type-name-label">PluginData&lt;T&gt;</span>(<a href="PluginData.html#type-param-T" title="type parameter in PluginData">T</a>&nbsp;plugin)<br/>  

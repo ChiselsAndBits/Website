@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.glueing;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IGlueableBlockEntity](IGlueableBlockEntity.md)</td><td></td></tr>
+  <tr><td><a href="IGlueableBlockEntity.md" title="IGlueableBlockEntity">IGlueableBlockEntity</a></td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.glueing;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IGlueableBlockEntity](IGlueableBlockEntity.md)</td><td></td></tr>
+  <tr><td><a href="IGlueableBlockEntity.md" title="IGlueableBlockEntity">IGlueableBlockEntity</a></td><td></td></tr>
   </tbody>
 </table>
 == Classes

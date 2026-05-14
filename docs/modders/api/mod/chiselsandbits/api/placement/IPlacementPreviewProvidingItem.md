@@ -52,7 +52,18 @@ Method Summary
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="IPlaceable.html" title="interface in mod.chiselsandbits.api.placement">IPlaceable</a><a href="IPlaceable.html#getPlacementResult(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" title="getPlacementResult(ItemStack, Player, BlockHitResult)">getPlacementResult</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="IPlacementProperties.html" title="interface in mod.chiselsandbits.api.placement">IPlacementProperties</a><a href="IPlacementProperties.html#overridesOccupiedBits(net.minecraft.world.item.ItemStack)" title="overridesOccupiedBits(ItemStack)">overridesOccupiedBits</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.wireframe.<a href="../item/wireframe/IWireframeProvidingItem.html" title="interface in mod.chiselsandbits.api.item.wireframe">IWireframeProvidingItem</a><a href="../item/wireframe/IWireframeProvidingItem.html#getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" title="getTargetedPosition(ItemStack, Player, BlockHitResult)">getTargetedPosition</a>, <a href="../item/wireframe/IWireframeProvidingItem.html#getWireFrame(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" title="getWireFrame(ItemStack, Player, BlockHitResult)">getWireFrame</a>, <a href="../item/wireframe/IWireframeProvidingItem.html#getWireFrameColor(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" title="getWireFrameColor(ItemStack, Player, BlockHitResult)">getWireFrameColor</a>
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="IPlaceable.html" title="interface in mod.chiselsandbits.api.placement">IPlaceable</a>
+<a href="IPlaceable.html#getPlacementResult(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" title="getPlacementResult(ItemStack, Player, BlockHitResult)">getPlacementResult</a>
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="IPlacementProperties.html" title="interface in mod.chiselsandbits.api.placement">IPlacementProperties</a>
+<a href="IPlacementProperties.html#overridesOccupiedBits(net.minecraft.world.item.ItemStack)" title="overridesOccupiedBits(ItemStack)">overridesOccupiedBits</a>
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.wireframe.<a href="../item/wireframe/IWireframeProvidingItem.html" title="interface in mod.chiselsandbits.api.item.wireframe">IWireframeProvidingItem</a>
+<a href="../item/wireframe/IWireframeProvidingItem.html#getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" title="getTargetedPosition(ItemStack, Player, BlockHitResult)">getTargetedPosition</a>, <a href="../item/wireframe/IWireframeProvidingItem.html#getWireFrame(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" title="getWireFrame(ItemStack, Player, BlockHitResult)">getWireFrame</a>, <a href="../item/wireframe/IWireframeProvidingItem.html#getWireFrameColor(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" title="getWireFrameColor(ItemStack, Player, BlockHitResult)">getWireFrameColor</a>
+:::::
   
   
   

@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.item;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[INoHitEffectsItem](INoHitEffectsItem.md)</td><td>Marker interface to be used on items<br>which when wielded by the player do<br>not cause Chisels and Bits Chiseled blocks to spawn<br>hit particles.</td></tr>
+  <tr><td><a href="INoHitEffectsItem.md" title="INoHitEffectsItem">INoHitEffectsItem</a></td><td>Marker interface to be used on items<br>which when wielded by the player do<br>not cause Chisels and Bits Chiseled blocks to spawn<br>hit particles.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.item;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[INoHitEffectsItem](INoHitEffectsItem.md)</td><td>Marker interface to be used on items<br>which when wielded by the player do<br>not cause Chisels and Bits Chiseled blocks to spawn<br>hit particles.</td></tr>
+  <tr><td><a href="INoHitEffectsItem.md" title="INoHitEffectsItem">INoHitEffectsItem</a></td><td>Marker interface to be used on items<br>which when wielded by the player do<br>not cause Chisels and Bits Chiseled blocks to spawn<br>hit particles.</td></tr>
   </tbody>
 </table>
 == Classes

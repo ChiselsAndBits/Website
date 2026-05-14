@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.multistate;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[StateEntrySize](StateEntrySize.md)</td><td>The size of state entries in the current instance.</td></tr>
+  <tr><td><a href="StateEntrySize.md" title="StateEntrySize">StateEntrySize</a></td><td>The size of state entries in the current instance.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -32,7 +32,7 @@ No types found.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[StateEntrySize](StateEntrySize.md)</td><td>The size of state entries in the current instance.</td></tr>
+  <tr><td><a href="StateEntrySize.md" title="StateEntrySize">StateEntrySize</a></td><td>The size of state entries in the current instance.</td></tr>
   </tbody>
 </table>
 == Records

@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.item.chiseled;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IChiseledBlockItem](IChiseledBlockItem.md)</td><td>Represents items which represent a broken chiseled block.</td></tr>
+  <tr><td><a href="IChiseledBlockItem.md" title="IChiseledBlockItem">IChiseledBlockItem</a></td><td>Represents items which represent a broken chiseled block.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.item.chiseled;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IChiseledBlockItem](IChiseledBlockItem.md)</td><td>Represents items which represent a broken chiseled block.</td></tr>
+  <tr><td><a href="IChiseledBlockItem.md" title="IChiseledBlockItem">IChiseledBlockItem</a></td><td>Represents items which represent a broken chiseled block.</td></tr>
   </tbody>
 </table>
 == Classes

@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.client.screen;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IChiselsAndBitsScreen](IChiselsAndBitsScreen.md)</td><td>A screen for chisels and bits.</td></tr>
-  <tr><td>[AbstractChiselsAndBitsScreen](AbstractChiselsAndBitsScreen.md)</td><td>Custom screens which inherit from this class implement custom logic related to chisels and bits widgets and buttons.</td></tr>
+  <tr><td><a href="IChiselsAndBitsScreen.md" title="IChiselsAndBitsScreen">IChiselsAndBitsScreen</a></td><td>A screen for chisels and bits.</td></tr>
+  <tr><td><a href="AbstractChiselsAndBitsScreen.md" title="AbstractChiselsAndBitsScreen">AbstractChiselsAndBitsScreen</a></td><td>Custom screens which inherit from this class implement custom logic related to chisels and bits widgets and buttons.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,7 +29,7 @@ package mod.chiselsandbits.api.client.screen;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IChiselsAndBitsScreen](IChiselsAndBitsScreen.md)</td><td>A screen for chisels and bits.</td></tr>
+  <tr><td><a href="IChiselsAndBitsScreen.md" title="IChiselsAndBitsScreen">IChiselsAndBitsScreen</a></td><td>A screen for chisels and bits.</td></tr>
   </tbody>
 </table>
 == Classes
@@ -38,7 +38,7 @@ package mod.chiselsandbits.api.client.screen;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[AbstractChiselsAndBitsScreen](AbstractChiselsAndBitsScreen.md)</td><td>Custom screens which inherit from this class implement custom logic related to chisels and bits widgets and buttons.</td></tr>
+  <tr><td><a href="AbstractChiselsAndBitsScreen.md" title="AbstractChiselsAndBitsScreen">AbstractChiselsAndBitsScreen</a></td><td>Custom screens which inherit from this class implement custom logic related to chisels and bits widgets and buttons.</td></tr>
   </tbody>
 </table>
 == Enums

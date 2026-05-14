@@ -65,7 +65,10 @@ Method Summary
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a href="IChangeHandler.html" title="interface in mod.chiselsandbits.api.change.changes">IChangeHandler</a><a href="IChangeHandler.html#canRedo(net.minecraft.world.entity.player.Player)" title="canRedo(Player)">canRedo</a>, <a href="IChangeHandler.html#canUndo(net.minecraft.world.entity.player.Player)" title="canUndo(Player)">canUndo</a>, <a href="IChangeHandler.html#redo(net.minecraft.world.entity.player.Player)" title="redo(Player)">redo</a>, <a href="IChangeHandler.html#undo(net.minecraft.world.entity.player.Player)" title="undo(Player)">undo</a>
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a href="IChangeHandler.html" title="interface in mod.chiselsandbits.api.change.changes">IChangeHandler</a>
+<a href="IChangeHandler.html#canRedo(net.minecraft.world.entity.player.Player)" title="canRedo(Player)">canRedo</a>, <a href="IChangeHandler.html#canUndo(net.minecraft.world.entity.player.Player)" title="canUndo(Player)">canUndo</a>, <a href="IChangeHandler.html#redo(net.minecraft.world.entity.player.Player)" title="redo(Player)">redo</a>, <a href="IChangeHandler.html#undo(net.minecraft.world.entity.player.Player)" title="undo(Player)">undo</a>
+:::::
   
   
   

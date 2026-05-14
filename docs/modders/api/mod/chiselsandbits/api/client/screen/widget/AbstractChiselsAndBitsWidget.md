@@ -24,15 +24,25 @@ Most notably provides init support, invoked when the window itself has its init 
 
 <dl class="notes"></dl>  
 
+<!-- JavaMarkContainer Depth: 2 -->
+::::::: info Nested Class Summary  
 <!-- JavaMarkContainer Depth: 1 -->
-::::: info Nested Class Summary  
-Nested classes/interfaces inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidgetnet.minecraft.client.gui.components.AbstractWidget.WithInactiveMessageNested classes/interfaces inherited from interface&nbsp;net.minecraft.client.gui.narration.NarratableEntrynet.minecraft.client.gui.narration.NarratableEntry.NarrationPriority
+::::: tip Nested classes/interfaces inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidget
+net.minecraft.client.gui.components.AbstractWidget.WithInactiveMessage
 :::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Nested classes/interfaces inherited from interface&nbsp;net.minecraft.client.gui.narration.NarratableEntry
+net.minecraft.client.gui.narration.NarratableEntry.NarrationPriority
+:::::
+:::::::
   
   
 <!-- =========== FIELD SUMMARY =========== -->
 Field Summary  
-Fields inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidgetactive, alpha, height, isHovered, message, visible, width
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Fields inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidget
+active, alpha, height, isHovered, message, visible, width
+:::::
   
   
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
@@ -104,7 +114,34 @@ Method Summary
   </tbody>
 </table>
 :::
-Methods inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidgetcreateNarrationMessage, defaultButtonNarrationText, extractRenderState, extractScrollingStringOverContents, extractWidgetRenderState, getAlpha, getBottom, getHeight, getMessage, getRectangle, getRight, getTabOrderGroup, getWidth, getX, getY, handleCursor, isActive, isFocused, isHovered, isHoveredOrFocused, isMouseOver, isValidClickButton, mouseClicked, mouseDragged, mouseReleased, narrationPriority, nextFocusPath, onClick, onDrag, onRelease, playButtonClickSound, playDownSound, setAlpha, setFocused, setHeight, setMessage, setRectangle, setSize, setTabOrderGroup, setTooltip, setTooltipDelay, setWidth, setX, setY, updateNarration, visitWidgets, wrapDefaultNarrationMessageMethods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>Methods inherited from interface&nbsp;net.minecraft.client.gui.components.events.GuiEventListenercharTyped, getBorderForArrowNavigation, getCurrentFocusPath, getRectangle, isFocused, isMouseOver, keyPressed, keyReleased, mouseClicked, mouseDragged, mouseMoved, mouseReleased, mouseScrolled, nextFocusPath, preeditUpdated, setFocused, shouldTakeFocusAfterInteractionMethods inherited from interface&nbsp;net.minecraft.client.gui.layouts.LayoutElementsetPositionMethods inherited from interface&nbsp;net.minecraft.client.gui.narration.NarratableEntrygetNarratablesMethods inherited from interface&nbsp;net.minecraft.client.gui.components.RenderableextractRenderStateMethods inherited from interface&nbsp;net.minecraft.client.gui.components.TabOrderedElementgetTabOrderGroup
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from class&nbsp;net.minecraft.client.gui.components.AbstractWidget
+createNarrationMessage, defaultButtonNarrationText, extractRenderState, extractScrollingStringOverContents, extractWidgetRenderState, getAlpha, getBottom, getHeight, getMessage, getRectangle, getRight, getTabOrderGroup, getWidth, getX, getY, handleCursor, isActive, isFocused, isHovered, isHoveredOrFocused, isMouseOver, isValidClickButton, mouseClicked, mouseDragged, mouseReleased, narrationPriority, nextFocusPath, onClick, onDrag, onRelease, playButtonClickSound, playDownSound, setAlpha, setFocused, setHeight, setMessage, setRectangle, setSize, setTabOrderGroup, setTooltip, setTooltipDelay, setWidth, setX, setY, updateNarration, visitWidgets, wrapDefaultNarrationMessage
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>
+<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#clone()" title="class or interface in java.lang" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#finalize()" title="class or interface in java.lang" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#getClass()" title="class or interface in java.lang" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notify()" title="class or interface in java.lang" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#notifyAll()" title="class or interface in java.lang" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait()" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long)" title="class or interface in java.lang" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="class or interface in java.lang" class="external-link">wait</a>
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;net.minecraft.client.gui.components.events.GuiEventListener
+charTyped, getBorderForArrowNavigation, getCurrentFocusPath, getRectangle, isFocused, isMouseOver, keyPressed, keyReleased, mouseClicked, mouseDragged, mouseMoved, mouseReleased, mouseScrolled, nextFocusPath, preeditUpdated, setFocused, shouldTakeFocusAfterInteraction
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;net.minecraft.client.gui.layouts.LayoutElement
+setPosition
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;net.minecraft.client.gui.narration.NarratableEntry
+getNarratables
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;net.minecraft.client.gui.components.Renderable
+extractRenderState
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;net.minecraft.client.gui.components.TabOrderedElement
+getTabOrderGroup
+:::::
   
   
   

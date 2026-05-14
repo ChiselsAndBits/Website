@@ -19,10 +19,10 @@ package mod.chiselsandbits.api.chiseling;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IChiselingContext](IChiselingContext.md)</td><td>The current context for the running chiseling operation.</td></tr>
-  <tr><td>[IChiselingManager](IChiselingManager.md)</td><td></td></tr>
-  <tr><td>[ChiselingOperation](ChiselingOperation.md)</td><td>Represents the mode of operandus of the current chiseling context.</td></tr>
-  <tr><td>[ILocalChiselingContextCache](ILocalChiselingContextCache.md)</td><td>This small cache is used on the client side, primarily, to store a single active context<br>which is valid across multiple frames.</td></tr>
+  <tr><td><a href="IChiselingContext.md" title="IChiselingContext">IChiselingContext</a></td><td>The current context for the running chiseling operation.</td></tr>
+  <tr><td><a href="IChiselingManager.md" title="IChiselingManager">IChiselingManager</a></td><td></td></tr>
+  <tr><td><a href="ChiselingOperation.md" title="ChiselingOperation">ChiselingOperation</a></td><td>Represents the mode of operandus of the current chiseling context.</td></tr>
+  <tr><td><a href="ILocalChiselingContextCache.md" title="ILocalChiselingContextCache">ILocalChiselingContextCache</a></td><td>This small cache is used on the client side, primarily, to store a single active context<br>which is valid across multiple frames.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -31,9 +31,9 @@ package mod.chiselsandbits.api.chiseling;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IChiselingContext](IChiselingContext.md)</td><td>The current context for the running chiseling operation.</td></tr>
-  <tr><td>[IChiselingManager](IChiselingManager.md)</td><td></td></tr>
-  <tr><td>[ILocalChiselingContextCache](ILocalChiselingContextCache.md)</td><td>This small cache is used on the client side, primarily, to store a single active context<br>which is valid across multiple frames.</td></tr>
+  <tr><td><a href="IChiselingContext.md" title="IChiselingContext">IChiselingContext</a></td><td>The current context for the running chiseling operation.</td></tr>
+  <tr><td><a href="IChiselingManager.md" title="IChiselingManager">IChiselingManager</a></td><td></td></tr>
+  <tr><td><a href="ILocalChiselingContextCache.md" title="ILocalChiselingContextCache">ILocalChiselingContextCache</a></td><td>This small cache is used on the client side, primarily, to store a single active context<br>which is valid across multiple frames.</td></tr>
   </tbody>
 </table>
 == Classes
@@ -44,7 +44,7 @@ No types found.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[ChiselingOperation](ChiselingOperation.md)</td><td>Represents the mode of operandus of the current chiseling context.</td></tr>
+  <tr><td><a href="ChiselingOperation.md" title="ChiselingOperation">ChiselingOperation</a></td><td>Represents the mode of operandus of the current chiseling context.</td></tr>
   </tbody>
 </table>
 == Records

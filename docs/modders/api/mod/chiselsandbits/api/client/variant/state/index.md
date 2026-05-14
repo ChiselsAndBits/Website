@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.client.variant.state;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IClientStateVariantProvider](IClientStateVariantProvider.md)</td><td>A state variant provider for client side interactions.</td></tr>
-  <tr><td>[IClientStateVariantManager](IClientStateVariantManager.md)</td><td>The state variant provider for the client.</td></tr>
+  <tr><td><a href="IClientStateVariantProvider.md" title="IClientStateVariantProvider">IClientStateVariantProvider</a></td><td>A state variant provider for client side interactions.</td></tr>
+  <tr><td><a href="IClientStateVariantManager.md" title="IClientStateVariantManager">IClientStateVariantManager</a></td><td>The state variant provider for the client.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.client.variant.state;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IClientStateVariantProvider](IClientStateVariantProvider.md)</td><td>A state variant provider for client side interactions.</td></tr>
-  <tr><td>[IClientStateVariantManager](IClientStateVariantManager.md)</td><td>The state variant provider for the client.</td></tr>
+  <tr><td><a href="IClientStateVariantProvider.md" title="IClientStateVariantProvider">IClientStateVariantProvider</a></td><td>A state variant provider for client side interactions.</td></tr>
+  <tr><td><a href="IClientStateVariantManager.md" title="IClientStateVariantManager">IClientStateVariantManager</a></td><td>The state variant provider for the client.</td></tr>
   </tbody>
 </table>
 == Classes

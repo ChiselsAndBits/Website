@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.chiseling.metadata;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IMetadataKey](IMetadataKey.md)</td><td>Represents a key passed to an instance of <br>{@link IChiselingContext}<br> so that additional data can be stored<br>on the context.</td></tr>
+  <tr><td><a href="IMetadataKey.md" title="IMetadataKey">IMetadataKey</a></td><td>Represents a key passed to an instance of <br>{@link IChiselingContext}<br> so that additional data can be stored<br>on the context.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.chiseling.metadata;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IMetadataKey](IMetadataKey.md)</td><td>Represents a key passed to an instance of <br>{@link IChiselingContext}<br> so that additional data can be stored<br>on the context.</td></tr>
+  <tr><td><a href="IMetadataKey.md" title="IMetadataKey">IMetadataKey</a></td><td>Represents a key passed to an instance of <br>{@link IChiselingContext}<br> so that additional data can be stored<br>on the context.</td></tr>
   </tbody>
 </table>
 == Classes

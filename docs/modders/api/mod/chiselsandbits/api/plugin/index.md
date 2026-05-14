@@ -19,12 +19,12 @@ package mod.chiselsandbits.api.plugin;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[AbstractPluginDiscoverer](IPluginDiscoverer.AbstractPluginDiscoverer.md)</td><td></td></tr>
-  <tr><td>[IPluginDiscoverer](IPluginDiscoverer.md)</td><td>The platform plugin manager which can load the plugins for C<br>{@literal &}<br>B on a given platform.</td></tr>
-  <tr><td>[IPluginManager](IPluginManager.md)</td><td>The manager for plugins.</td></tr>
-  <tr><td>[ChiselsAndBitsPlugin](ChiselsAndBitsPlugin.md)</td><td>Annotation which marks a given class as being a chisels and bits plugin.</td></tr>
-  <tr><td>[PluginData](PluginData.md)</td><td></td></tr>
-  <tr><td>[IChiselsAndBitsPlugin](IChiselsAndBitsPlugin.md)</td><td>Represents a plugin for ChiselsAndBits.</td></tr>
+  <tr><td><a href="IPluginDiscoverer.AbstractPluginDiscoverer.md" title="AbstractPluginDiscoverer">AbstractPluginDiscoverer</a></td><td></td></tr>
+  <tr><td><a href="IPluginDiscoverer.md" title="IPluginDiscoverer">IPluginDiscoverer</a></td><td>The platform plugin manager which can load the plugins for C<br>{@literal &}<br>B on a given platform.</td></tr>
+  <tr><td><a href="IPluginManager.md" title="IPluginManager">IPluginManager</a></td><td>The manager for plugins.</td></tr>
+  <tr><td><a href="ChiselsAndBitsPlugin.md" title="ChiselsAndBitsPlugin">ChiselsAndBitsPlugin</a></td><td>Annotation which marks a given class as being a chisels and bits plugin.</td></tr>
+  <tr><td><a href="PluginData.md" title="PluginData">PluginData</a></td><td></td></tr>
+  <tr><td><a href="IChiselsAndBitsPlugin.md" title="IChiselsAndBitsPlugin">IChiselsAndBitsPlugin</a></td><td>Represents a plugin for ChiselsAndBits.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -33,10 +33,10 @@ package mod.chiselsandbits.api.plugin;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IPluginDiscoverer](IPluginDiscoverer.md)</td><td>The platform plugin manager which can load the plugins for C<br>{@literal &}<br>B on a given platform.</td></tr>
-  <tr><td>[IPluginManager](IPluginManager.md)</td><td>The manager for plugins.</td></tr>
-  <tr><td>[ChiselsAndBitsPlugin](ChiselsAndBitsPlugin.md)</td><td>Annotation which marks a given class as being a chisels and bits plugin.</td></tr>
-  <tr><td>[IChiselsAndBitsPlugin](IChiselsAndBitsPlugin.md)</td><td>Represents a plugin for ChiselsAndBits.</td></tr>
+  <tr><td><a href="IPluginDiscoverer.md" title="IPluginDiscoverer">IPluginDiscoverer</a></td><td>The platform plugin manager which can load the plugins for C<br>{@literal &}<br>B on a given platform.</td></tr>
+  <tr><td><a href="IPluginManager.md" title="IPluginManager">IPluginManager</a></td><td>The manager for plugins.</td></tr>
+  <tr><td><a href="ChiselsAndBitsPlugin.md" title="ChiselsAndBitsPlugin">ChiselsAndBitsPlugin</a></td><td>Annotation which marks a given class as being a chisels and bits plugin.</td></tr>
+  <tr><td><a href="IChiselsAndBitsPlugin.md" title="IChiselsAndBitsPlugin">IChiselsAndBitsPlugin</a></td><td>Represents a plugin for ChiselsAndBits.</td></tr>
   </tbody>
 </table>
 == Classes
@@ -45,7 +45,7 @@ package mod.chiselsandbits.api.plugin;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[AbstractPluginDiscoverer](IPluginDiscoverer.AbstractPluginDiscoverer.md)</td><td></td></tr>
+  <tr><td><a href="IPluginDiscoverer.AbstractPluginDiscoverer.md" title="AbstractPluginDiscoverer">AbstractPluginDiscoverer</a></td><td></td></tr>
   </tbody>
 </table>
 == Enums
@@ -56,7 +56,7 @@ No types found.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[PluginData](PluginData.md)</td><td></td></tr>
+  <tr><td><a href="PluginData.md" title="PluginData">PluginData</a></td><td></td></tr>
   </tbody>
 </table>
 :::

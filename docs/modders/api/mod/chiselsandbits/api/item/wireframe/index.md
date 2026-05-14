@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.item.wireframe;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IWireframeProvidingItem](IWireframeProvidingItem.md)</td><td>Represents an item which can provide a wireframe for different purposes,<br>including rendering a preview.</td></tr>
+  <tr><td><a href="IWireframeProvidingItem.md" title="IWireframeProvidingItem">IWireframeProvidingItem</a></td><td>Represents an item which can provide a wireframe for different purposes,<br>including rendering a preview.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.item.wireframe;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IWireframeProvidingItem](IWireframeProvidingItem.md)</td><td>Represents an item which can provide a wireframe for different purposes,<br>including rendering a preview.</td></tr>
+  <tr><td><a href="IWireframeProvidingItem.md" title="IWireframeProvidingItem">IWireframeProvidingItem</a></td><td>Represents an item which can provide a wireframe for different purposes,<br>including rendering a preview.</td></tr>
   </tbody>
 </table>
 == Classes

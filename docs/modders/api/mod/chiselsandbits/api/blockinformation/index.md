@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.blockinformation;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[BlockInformation](BlockInformation.md)</td><td></td></tr>
+  <tr><td><a href="BlockInformation.md" title="BlockInformation">BlockInformation</a></td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -34,7 +34,7 @@ No types found.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[BlockInformation](BlockInformation.md)</td><td></td></tr>
+  <tr><td><a href="BlockInformation.md" title="BlockInformation">BlockInformation</a></td><td></td></tr>
   </tbody>
 </table>
 :::

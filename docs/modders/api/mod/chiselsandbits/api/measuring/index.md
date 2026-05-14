@@ -19,12 +19,12 @@ package mod.chiselsandbits.api.measuring;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IClickedPositionAdapter](IMeasuringType.IClickedPositionAdapter.md)</td><td></td></tr>
-  <tr><td>[IMeasuringManager](IMeasuringManager.md)</td><td>A manager for dealing with measurements made by different players in different worlds.</td></tr>
-  <tr><td>[IMeasuringMode](IMeasuringMode.md)</td><td></td></tr>
-  <tr><td>[IMeasuringType](IMeasuringType.md)</td><td></td></tr>
-  <tr><td>[IMeasurement](IMeasurement.md)</td><td>Represents a measurement made in a given world by a given player.</td></tr>
-  <tr><td>[IPositionAdapter](IMeasuringType.IPositionAdapter.md)</td><td></td></tr>
+  <tr><td><a href="IMeasuringType.IClickedPositionAdapter.md" title="IClickedPositionAdapter">IClickedPositionAdapter</a></td><td></td></tr>
+  <tr><td><a href="IMeasuringManager.md" title="IMeasuringManager">IMeasuringManager</a></td><td>A manager for dealing with measurements made by different players in different worlds.</td></tr>
+  <tr><td><a href="IMeasuringMode.md" title="IMeasuringMode">IMeasuringMode</a></td><td></td></tr>
+  <tr><td><a href="IMeasuringType.md" title="IMeasuringType">IMeasuringType</a></td><td></td></tr>
+  <tr><td><a href="IMeasurement.md" title="IMeasurement">IMeasurement</a></td><td>Represents a measurement made in a given world by a given player.</td></tr>
+  <tr><td><a href="IMeasuringType.IPositionAdapter.md" title="IPositionAdapter">IPositionAdapter</a></td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -33,12 +33,12 @@ package mod.chiselsandbits.api.measuring;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IClickedPositionAdapter](IMeasuringType.IClickedPositionAdapter.md)</td><td></td></tr>
-  <tr><td>[IMeasuringManager](IMeasuringManager.md)</td><td>A manager for dealing with measurements made by different players in different worlds.</td></tr>
-  <tr><td>[IMeasuringMode](IMeasuringMode.md)</td><td></td></tr>
-  <tr><td>[IMeasuringType](IMeasuringType.md)</td><td></td></tr>
-  <tr><td>[IMeasurement](IMeasurement.md)</td><td>Represents a measurement made in a given world by a given player.</td></tr>
-  <tr><td>[IPositionAdapter](IMeasuringType.IPositionAdapter.md)</td><td></td></tr>
+  <tr><td><a href="IMeasuringType.IClickedPositionAdapter.md" title="IClickedPositionAdapter">IClickedPositionAdapter</a></td><td></td></tr>
+  <tr><td><a href="IMeasuringManager.md" title="IMeasuringManager">IMeasuringManager</a></td><td>A manager for dealing with measurements made by different players in different worlds.</td></tr>
+  <tr><td><a href="IMeasuringMode.md" title="IMeasuringMode">IMeasuringMode</a></td><td></td></tr>
+  <tr><td><a href="IMeasuringType.md" title="IMeasuringType">IMeasuringType</a></td><td></td></tr>
+  <tr><td><a href="IMeasurement.md" title="IMeasurement">IMeasurement</a></td><td>Represents a measurement made in a given world by a given player.</td></tr>
+  <tr><td><a href="IMeasuringType.IPositionAdapter.md" title="IPositionAdapter">IPositionAdapter</a></td><td></td></tr>
   </tbody>
 </table>
 == Classes

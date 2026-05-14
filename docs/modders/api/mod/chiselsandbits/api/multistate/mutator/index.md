@@ -19,11 +19,11 @@ package mod.chiselsandbits.api.multistate.mutator;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IGenerallyModifiableAreaMutator](IGenerallyModifiableAreaMutator.md)</td><td></td></tr>
-  <tr><td>[IMutableStateEntryInfo](IMutableStateEntryInfo.md)</td><td></td></tr>
-  <tr><td>[IMutatorFactory](IMutatorFactory.md)</td><td>Allows for the creation of new mutators used to modify chiselable areas.</td></tr>
-  <tr><td>[IMirrorAndRotateble](IMirrorAndRotateble.md)</td><td></td></tr>
-  <tr><td>[IAreaMutator](IAreaMutator.md)</td><td>A mutator for a given area.</td></tr>
+  <tr><td><a href="IGenerallyModifiableAreaMutator.md" title="IGenerallyModifiableAreaMutator">IGenerallyModifiableAreaMutator</a></td><td></td></tr>
+  <tr><td><a href="IMutableStateEntryInfo.md" title="IMutableStateEntryInfo">IMutableStateEntryInfo</a></td><td></td></tr>
+  <tr><td><a href="IMutatorFactory.md" title="IMutatorFactory">IMutatorFactory</a></td><td>Allows for the creation of new mutators used to modify chiselable areas.</td></tr>
+  <tr><td><a href="IMirrorAndRotateble.md" title="IMirrorAndRotateble">IMirrorAndRotateble</a></td><td></td></tr>
+  <tr><td><a href="IAreaMutator.md" title="IAreaMutator">IAreaMutator</a></td><td>A mutator for a given area.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -32,11 +32,11 @@ package mod.chiselsandbits.api.multistate.mutator;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IGenerallyModifiableAreaMutator](IGenerallyModifiableAreaMutator.md)</td><td></td></tr>
-  <tr><td>[IMutableStateEntryInfo](IMutableStateEntryInfo.md)</td><td></td></tr>
-  <tr><td>[IMutatorFactory](IMutatorFactory.md)</td><td>Allows for the creation of new mutators used to modify chiselable areas.</td></tr>
-  <tr><td>[IMirrorAndRotateble](IMirrorAndRotateble.md)</td><td></td></tr>
-  <tr><td>[IAreaMutator](IAreaMutator.md)</td><td>A mutator for a given area.</td></tr>
+  <tr><td><a href="IGenerallyModifiableAreaMutator.md" title="IGenerallyModifiableAreaMutator">IGenerallyModifiableAreaMutator</a></td><td></td></tr>
+  <tr><td><a href="IMutableStateEntryInfo.md" title="IMutableStateEntryInfo">IMutableStateEntryInfo</a></td><td></td></tr>
+  <tr><td><a href="IMutatorFactory.md" title="IMutatorFactory">IMutatorFactory</a></td><td>Allows for the creation of new mutators used to modify chiselable areas.</td></tr>
+  <tr><td><a href="IMirrorAndRotateble.md" title="IMirrorAndRotateble">IMirrorAndRotateble</a></td><td></td></tr>
+  <tr><td><a href="IAreaMutator.md" title="IAreaMutator">IAreaMutator</a></td><td>A mutator for a given area.</td></tr>
   </tbody>
 </table>
 == Classes

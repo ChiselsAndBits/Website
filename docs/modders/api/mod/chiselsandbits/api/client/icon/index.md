@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.client.icon;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IIconManager](IIconManager.md)</td><td></td></tr>
+  <tr><td><a href="IIconManager.md" title="IIconManager">IIconManager</a></td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.client.icon;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IIconManager](IIconManager.md)</td><td></td></tr>
+  <tr><td><a href="IIconManager.md" title="IIconManager">IIconManager</a></td><td></td></tr>
   </tbody>
 </table>
 == Classes

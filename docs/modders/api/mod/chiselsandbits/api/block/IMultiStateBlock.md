@@ -50,7 +50,18 @@ Method Summary
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;net.minecraft.world.level.block.EntityBlockgetListener, getTicker, newBlockEntityMethods inherited from interface&nbsp;com.communi.suggestu.saecularia.caudices.core.block.IBlockWithWorldlyPropertiescanBeGrass, canHarvestBlock, getBeaconColorMultiplier, getCloneItemStack, getColor, getExplosionResistance, getFriction, getSoundType, mirror, rotate, shouldCheckWeakPower, shouldDisplayFluidOverlayMethods inherited from interface&nbsp;net.minecraft.world.level.ItemLikeasItem
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;net.minecraft.world.level.block.EntityBlock
+getListener, getTicker, newBlockEntity
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;com.communi.suggestu.saecularia.caudices.core.block.IBlockWithWorldlyProperties
+canBeGrass, canHarvestBlock, getBeaconColorMultiplier, getCloneItemStack, getColor, getExplosionResistance, getFriction, getSoundType, mirror, rotate, shouldCheckWeakPower, shouldDisplayFluidOverlay
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;net.minecraft.world.level.ItemLike
+asItem
+:::::
   
   
   

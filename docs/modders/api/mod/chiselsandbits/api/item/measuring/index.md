@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.item.measuring;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IMeasuringTapeItem](IMeasuringTapeItem.md)</td><td></td></tr>
+  <tr><td><a href="IMeasuringTapeItem.md" title="IMeasuringTapeItem">IMeasuringTapeItem</a></td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.item.measuring;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IMeasuringTapeItem](IMeasuringTapeItem.md)</td><td></td></tr>
+  <tr><td><a href="IMeasuringTapeItem.md" title="IMeasuringTapeItem">IMeasuringTapeItem</a></td><td></td></tr>
   </tbody>
 </table>
 == Classes

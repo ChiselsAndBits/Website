@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.multistate.mutator.batched;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IBatchedAreaMutator](IBatchedAreaMutator.md)</td><td>A mutator which supports making mutations in batches.</td></tr>
+  <tr><td><a href="IBatchedAreaMutator.md" title="IBatchedAreaMutator">IBatchedAreaMutator</a></td><td>A mutator which supports making mutations in batches.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.multistate.mutator.batched;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IBatchedAreaMutator](IBatchedAreaMutator.md)</td><td>A mutator which supports making mutations in batches.</td></tr>
+  <tr><td><a href="IBatchedAreaMutator.md" title="IBatchedAreaMutator">IBatchedAreaMutator</a></td><td>A mutator which supports making mutations in batches.</td></tr>
   </tbody>
 </table>
 == Classes

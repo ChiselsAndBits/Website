@@ -19,10 +19,10 @@ package mod.chiselsandbits.api.profiling;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IProfilingManager](IProfilingManager.md)</td><td>A profiling manager to handle the profiling of different interactions or managements.</td></tr>
-  <tr><td>[IProfilerSection](IProfilerSection.md)</td><td>Represents a resource used for try-resource blocks that represents a<br>section of profileable code.</td></tr>
-  <tr><td>[IProfiler](IProfiler.md)</td><td>A profiler used to track the time certain operations inside Chisels and Bits take.</td></tr>
-  <tr><td>[IProfilerResult](IProfilerResult.md)</td><td>The result of a profiling operation.</td></tr>
+  <tr><td><a href="IProfilingManager.md" title="IProfilingManager">IProfilingManager</a></td><td>A profiling manager to handle the profiling of different interactions or managements.</td></tr>
+  <tr><td><a href="IProfilerSection.md" title="IProfilerSection">IProfilerSection</a></td><td>Represents a resource used for try-resource blocks that represents a<br>section of profileable code.</td></tr>
+  <tr><td><a href="IProfiler.md" title="IProfiler">IProfiler</a></td><td>A profiler used to track the time certain operations inside Chisels and Bits take.</td></tr>
+  <tr><td><a href="IProfilerResult.md" title="IProfilerResult">IProfilerResult</a></td><td>The result of a profiling operation.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -31,10 +31,10 @@ package mod.chiselsandbits.api.profiling;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IProfilingManager](IProfilingManager.md)</td><td>A profiling manager to handle the profiling of different interactions or managements.</td></tr>
-  <tr><td>[IProfilerSection](IProfilerSection.md)</td><td>Represents a resource used for try-resource blocks that represents a<br>section of profileable code.</td></tr>
-  <tr><td>[IProfiler](IProfiler.md)</td><td>A profiler used to track the time certain operations inside Chisels and Bits take.</td></tr>
-  <tr><td>[IProfilerResult](IProfilerResult.md)</td><td>The result of a profiling operation.</td></tr>
+  <tr><td><a href="IProfilingManager.md" title="IProfilingManager">IProfilingManager</a></td><td>A profiling manager to handle the profiling of different interactions or managements.</td></tr>
+  <tr><td><a href="IProfilerSection.md" title="IProfilerSection">IProfilerSection</a></td><td>Represents a resource used for try-resource blocks that represents a<br>section of profileable code.</td></tr>
+  <tr><td><a href="IProfiler.md" title="IProfiler">IProfiler</a></td><td>A profiler used to track the time certain operations inside Chisels and Bits take.</td></tr>
+  <tr><td><a href="IProfilerResult.md" title="IProfilerResult">IProfilerResult</a></td><td>The result of a profiling operation.</td></tr>
   </tbody>
 </table>
 == Classes

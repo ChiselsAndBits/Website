@@ -55,7 +55,10 @@ Method Summary
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a href="../../serialization/RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a><a href="../../serialization/RawSerializable.html#codec()" title="codec()">codec</a>, <a href="../../serialization/RawSerializable.html#mapCodec()" title="mapCodec()">mapCodec</a>, <a href="../../serialization/RawSerializable.html#streamCodec()" title="streamCodec()">streamCodec</a>
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a href="../../serialization/RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a>
+<a href="../../serialization/RawSerializable.html#codec()" title="codec()">codec</a>, <a href="../../serialization/RawSerializable.html#mapCodec()" title="mapCodec()">mapCodec</a>, <a href="../../serialization/RawSerializable.html#streamCodec()" title="streamCodec()">streamCodec</a>
+:::::
   
   
   

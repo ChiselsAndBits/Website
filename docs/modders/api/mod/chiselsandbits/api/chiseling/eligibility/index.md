@@ -19,9 +19,9 @@ package mod.chiselsandbits.api.chiseling.eligibility;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IEligibilityAnalysisResult](IEligibilityAnalysisResult.md)</td><td>The results of an eligibility analysis.</td></tr>
-  <tr><td>[IEligibilityOptions](IEligibilityOptions.md)</td><td>Determines the additional eligibility options for a given platform.</td></tr>
-  <tr><td>[IEligibilityManager](IEligibilityManager.md)</td><td>An object which can manage the eligibility of chiseling of blocks, blockstates,<br>or itemstacks (which contain blocks eligible) for chiseling.</td></tr>
+  <tr><td><a href="IEligibilityAnalysisResult.md" title="IEligibilityAnalysisResult">IEligibilityAnalysisResult</a></td><td>The results of an eligibility analysis.</td></tr>
+  <tr><td><a href="IEligibilityOptions.md" title="IEligibilityOptions">IEligibilityOptions</a></td><td>Determines the additional eligibility options for a given platform.</td></tr>
+  <tr><td><a href="IEligibilityManager.md" title="IEligibilityManager">IEligibilityManager</a></td><td>An object which can manage the eligibility of chiseling of blocks, blockstates,<br>or itemstacks (which contain blocks eligible) for chiseling.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -30,9 +30,9 @@ package mod.chiselsandbits.api.chiseling.eligibility;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IEligibilityAnalysisResult](IEligibilityAnalysisResult.md)</td><td>The results of an eligibility analysis.</td></tr>
-  <tr><td>[IEligibilityOptions](IEligibilityOptions.md)</td><td>Determines the additional eligibility options for a given platform.</td></tr>
-  <tr><td>[IEligibilityManager](IEligibilityManager.md)</td><td>An object which can manage the eligibility of chiseling of blocks, blockstates,<br>or itemstacks (which contain blocks eligible) for chiseling.</td></tr>
+  <tr><td><a href="IEligibilityAnalysisResult.md" title="IEligibilityAnalysisResult">IEligibilityAnalysisResult</a></td><td>The results of an eligibility analysis.</td></tr>
+  <tr><td><a href="IEligibilityOptions.md" title="IEligibilityOptions">IEligibilityOptions</a></td><td>Determines the additional eligibility options for a given platform.</td></tr>
+  <tr><td><a href="IEligibilityManager.md" title="IEligibilityManager">IEligibilityManager</a></td><td>An object which can manage the eligibility of chiseling of blocks, blockstates,<br>or itemstacks (which contain blocks eligible) for chiseling.</td></tr>
   </tbody>
 </table>
 == Classes

@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.chiseling.mode;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IChiselMode](IChiselMode.md)</td><td>Represents a chiselable operation that can be completed by a chisel or bit for example.</td></tr>
+  <tr><td><a href="IChiselMode.md" title="IChiselMode">IChiselMode</a></td><td>Represents a chiselable operation that can be completed by a chisel or bit for example.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.chiseling.mode;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IChiselMode](IChiselMode.md)</td><td>Represents a chiselable operation that can be completed by a chisel or bit for example.</td></tr>
+  <tr><td><a href="IChiselMode.md" title="IChiselMode">IChiselMode</a></td><td>Represents a chiselable operation that can be completed by a chisel or bit for example.</td></tr>
   </tbody>
 </table>
 == Classes

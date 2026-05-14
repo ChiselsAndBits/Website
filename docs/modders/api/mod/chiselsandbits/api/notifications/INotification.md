@@ -20,7 +20,18 @@ extends <a href="../util/IWithIcon.html" title="interface in mod.chiselsandbits.
 
 <!-- ========== METHOD SUMMARY =========== -->
 Method Summary  
-Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../util/IWithColor.html" title="interface in mod.chiselsandbits.api.util">IWithColor</a><a href="../util/IWithColor.html#getAlphaChannel()" title="getAlphaChannel()">getAlphaChannel</a>, <a href="../util/IWithColor.html#getColorVector()" title="getColorVector()">getColorVector</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../util/IWithIcon.html" title="interface in mod.chiselsandbits.api.util">IWithIcon</a><a href="../util/IWithIcon.html#getIcon()" title="getIcon()">getIcon</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../util/IWithText.html" title="interface in mod.chiselsandbits.api.util">IWithText</a><a href="../util/IWithText.html#getText()" title="getText()">getText</a>
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../util/IWithColor.html" title="interface in mod.chiselsandbits.api.util">IWithColor</a>
+<a href="../util/IWithColor.html#getAlphaChannel()" title="getAlphaChannel()">getAlphaChannel</a>, <a href="../util/IWithColor.html#getColorVector()" title="getColorVector()">getColorVector</a>
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../util/IWithIcon.html" title="interface in mod.chiselsandbits.api.util">IWithIcon</a>
+<a href="../util/IWithIcon.html#getIcon()" title="getIcon()">getIcon</a>
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../util/IWithText.html" title="interface in mod.chiselsandbits.api.util">IWithText</a>
+<a href="../util/IWithText.html#getText()" title="getText()">getText</a>
+:::::
   
   
   

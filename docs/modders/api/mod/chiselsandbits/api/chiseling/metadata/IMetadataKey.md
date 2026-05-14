@@ -53,7 +53,10 @@ Method Summary
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries.ICustomRegistryEntrygetRegistryName
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries.ICustomRegistryEntry
+getRegistryName
+:::::
   
   
   

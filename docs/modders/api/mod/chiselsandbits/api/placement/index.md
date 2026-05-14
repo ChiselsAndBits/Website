@@ -19,10 +19,10 @@ package mod.chiselsandbits.api.placement;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IPlacementPreviewProvidingItem](IPlacementPreviewProvidingItem.md)</td><td></td></tr>
-  <tr><td>[PlacementResult](PlacementResult.md)</td><td>Represents a result of a placement attempt.</td></tr>
-  <tr><td>[IPlaceable](IPlaceable.md)</td><td></td></tr>
-  <tr><td>[IPlacementProperties](IPlacementProperties.md)</td><td></td></tr>
+  <tr><td><a href="IPlacementPreviewProvidingItem.md" title="IPlacementPreviewProvidingItem">IPlacementPreviewProvidingItem</a></td><td></td></tr>
+  <tr><td><a href="PlacementResult.md" title="PlacementResult">PlacementResult</a></td><td>Represents a result of a placement attempt.</td></tr>
+  <tr><td><a href="IPlaceable.md" title="IPlaceable">IPlaceable</a></td><td></td></tr>
+  <tr><td><a href="IPlacementProperties.md" title="IPlacementProperties">IPlacementProperties</a></td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -31,9 +31,9 @@ package mod.chiselsandbits.api.placement;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IPlacementPreviewProvidingItem](IPlacementPreviewProvidingItem.md)</td><td></td></tr>
-  <tr><td>[IPlaceable](IPlaceable.md)</td><td></td></tr>
-  <tr><td>[IPlacementProperties](IPlacementProperties.md)</td><td></td></tr>
+  <tr><td><a href="IPlacementPreviewProvidingItem.md" title="IPlacementPreviewProvidingItem">IPlacementPreviewProvidingItem</a></td><td></td></tr>
+  <tr><td><a href="IPlaceable.md" title="IPlaceable">IPlaceable</a></td><td></td></tr>
+  <tr><td><a href="IPlacementProperties.md" title="IPlacementProperties">IPlacementProperties</a></td><td></td></tr>
   </tbody>
 </table>
 == Classes
@@ -42,7 +42,7 @@ package mod.chiselsandbits.api.placement;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[PlacementResult](PlacementResult.md)</td><td>Represents a result of a placement attempt.</td></tr>
+  <tr><td><a href="PlacementResult.md" title="PlacementResult">PlacementResult</a></td><td>Represents a result of a placement attempt.</td></tr>
   </tbody>
 </table>
 == Enums

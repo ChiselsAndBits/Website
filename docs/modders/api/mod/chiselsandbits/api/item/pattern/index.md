@@ -19,8 +19,8 @@ package mod.chiselsandbits.api.item.pattern;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IMultiUsePatternItem](IMultiUsePatternItem.md)</td><td></td></tr>
-  <tr><td>[IPatternItem](IPatternItem.md)</td><td>Represents an item that can be a pattern</td></tr>
+  <tr><td><a href="IMultiUsePatternItem.md" title="IMultiUsePatternItem">IMultiUsePatternItem</a></td><td></td></tr>
+  <tr><td><a href="IPatternItem.md" title="IPatternItem">IPatternItem</a></td><td>Represents an item that can be a pattern</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -29,8 +29,8 @@ package mod.chiselsandbits.api.item.pattern;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IMultiUsePatternItem](IMultiUsePatternItem.md)</td><td></td></tr>
-  <tr><td>[IPatternItem](IPatternItem.md)</td><td>Represents an item that can be a pattern</td></tr>
+  <tr><td><a href="IMultiUsePatternItem.md" title="IMultiUsePatternItem">IMultiUsePatternItem</a></td><td></td></tr>
+  <tr><td><a href="IPatternItem.md" title="IPatternItem">IPatternItem</a></td><td>Represents an item that can be a pattern</td></tr>
   </tbody>
 </table>
 == Classes

@@ -19,10 +19,10 @@ package mod.chiselsandbits.api.item.click;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[ProcessingResult](ClickProcessingState.ProcessingResult.md)</td><td>The processing result of the click interaction.</td></tr>
-  <tr><td>[ILeftClickControllingItem](ILeftClickControllingItem.md)</td><td>Deals with the way items are able to handle left click interactions.</td></tr>
-  <tr><td>[IRightClickControllingItem](IRightClickControllingItem.md)</td><td>Deals with the way items are able to handle left click interactions.</td></tr>
-  <tr><td>[ClickProcessingState](ClickProcessingState.md)</td><td>Represents the continuous processing state of a click interaction.</td></tr>
+  <tr><td><a href="ClickProcessingState.ProcessingResult.md" title="ProcessingResult">ProcessingResult</a></td><td>The processing result of the click interaction.</td></tr>
+  <tr><td><a href="ILeftClickControllingItem.md" title="ILeftClickControllingItem">ILeftClickControllingItem</a></td><td>Deals with the way items are able to handle left click interactions.</td></tr>
+  <tr><td><a href="IRightClickControllingItem.md" title="IRightClickControllingItem">IRightClickControllingItem</a></td><td>Deals with the way items are able to handle left click interactions.</td></tr>
+  <tr><td><a href="ClickProcessingState.md" title="ClickProcessingState">ClickProcessingState</a></td><td>Represents the continuous processing state of a click interaction.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -31,8 +31,8 @@ package mod.chiselsandbits.api.item.click;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[ILeftClickControllingItem](ILeftClickControllingItem.md)</td><td>Deals with the way items are able to handle left click interactions.</td></tr>
-  <tr><td>[IRightClickControllingItem](IRightClickControllingItem.md)</td><td>Deals with the way items are able to handle left click interactions.</td></tr>
+  <tr><td><a href="ILeftClickControllingItem.md" title="ILeftClickControllingItem">ILeftClickControllingItem</a></td><td>Deals with the way items are able to handle left click interactions.</td></tr>
+  <tr><td><a href="IRightClickControllingItem.md" title="IRightClickControllingItem">IRightClickControllingItem</a></td><td>Deals with the way items are able to handle left click interactions.</td></tr>
   </tbody>
 </table>
 == Classes
@@ -41,7 +41,7 @@ package mod.chiselsandbits.api.item.click;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[ClickProcessingState](ClickProcessingState.md)</td><td>Represents the continuous processing state of a click interaction.</td></tr>
+  <tr><td><a href="ClickProcessingState.md" title="ClickProcessingState">ClickProcessingState</a></td><td>Represents the continuous processing state of a click interaction.</td></tr>
   </tbody>
 </table>
 == Enums
@@ -50,7 +50,7 @@ package mod.chiselsandbits.api.item.click;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[ProcessingResult](ClickProcessingState.ProcessingResult.md)</td><td>The processing result of the click interaction.</td></tr>
+  <tr><td><a href="ClickProcessingState.ProcessingResult.md" title="ProcessingResult">ProcessingResult</a></td><td>The processing result of the click interaction.</td></tr>
   </tbody>
 </table>
 == Records

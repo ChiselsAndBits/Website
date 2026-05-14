@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.item.withmode.group;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IToolModeGroup](IToolModeGroup.md)</td><td></td></tr>
+  <tr><td><a href="IToolModeGroup.md" title="IToolModeGroup">IToolModeGroup</a></td><td></td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.item.withmode.group;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IToolModeGroup](IToolModeGroup.md)</td><td></td></tr>
+  <tr><td><a href="IToolModeGroup.md" title="IToolModeGroup">IToolModeGroup</a></td><td></td></tr>
   </tbody>
 </table>
 == Classes

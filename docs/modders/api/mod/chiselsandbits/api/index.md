@@ -19,9 +19,9 @@ package mod.chiselsandbits.api;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[Holder](IChiselsAndBitsAPI.Holder.md)</td><td></td></tr>
-  <tr><td>[IgnoreBlockLogic](IgnoreBlockLogic.md)</td><td>When checking for blocks to allow for chiseling Chisels and Bits checks various methods...</td></tr>
-  <tr><td>[IChiselsAndBitsAPI](IChiselsAndBitsAPI.md)</td><td>Do not implement it can be accessed via its <br>{@link #getInstance()}<br>-method.</td></tr>
+  <tr><td><a href="IChiselsAndBitsAPI.Holder.md" title="Holder">Holder</a></td><td></td></tr>
+  <tr><td><a href="IgnoreBlockLogic.md" title="IgnoreBlockLogic">IgnoreBlockLogic</a></td><td>When checking for blocks to allow for chiseling Chisels and Bits checks various methods...</td></tr>
+  <tr><td><a href="IChiselsAndBitsAPI.md" title="IChiselsAndBitsAPI">IChiselsAndBitsAPI</a></td><td>Do not implement it can be accessed via its <br>{@link #getInstance()}<br>-method.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -30,8 +30,8 @@ package mod.chiselsandbits.api;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IgnoreBlockLogic](IgnoreBlockLogic.md)</td><td>When checking for blocks to allow for chiseling Chisels and Bits checks various methods...</td></tr>
-  <tr><td>[IChiselsAndBitsAPI](IChiselsAndBitsAPI.md)</td><td>Do not implement it can be accessed via its <br>{@link #getInstance()}<br>-method.</td></tr>
+  <tr><td><a href="IgnoreBlockLogic.md" title="IgnoreBlockLogic">IgnoreBlockLogic</a></td><td>When checking for blocks to allow for chiseling Chisels and Bits checks various methods...</td></tr>
+  <tr><td><a href="IChiselsAndBitsAPI.md" title="IChiselsAndBitsAPI">IChiselsAndBitsAPI</a></td><td>Do not implement it can be accessed via its <br>{@link #getInstance()}<br>-method.</td></tr>
   </tbody>
 </table>
 == Classes
@@ -40,7 +40,7 @@ package mod.chiselsandbits.api;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[Holder](IChiselsAndBitsAPI.Holder.md)</td><td></td></tr>
+  <tr><td><a href="IChiselsAndBitsAPI.Holder.md" title="Holder">Holder</a></td><td></td></tr>
   </tbody>
 </table>
 == Enums

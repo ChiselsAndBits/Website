@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.registries;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IRegistryManager](IRegistryManager.md)</td><td>Manages all registries which are used by Chisels and Bits.</td></tr>
+  <tr><td><a href="IRegistryManager.md" title="IRegistryManager">IRegistryManager</a></td><td>Manages all registries which are used by Chisels and Bits.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.registries;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IRegistryManager](IRegistryManager.md)</td><td>Manages all registries which are used by Chisels and Bits.</td></tr>
+  <tr><td><a href="IRegistryManager.md" title="IRegistryManager">IRegistryManager</a></td><td>Manages all registries which are used by Chisels and Bits.</td></tr>
   </tbody>
 </table>
 == Classes

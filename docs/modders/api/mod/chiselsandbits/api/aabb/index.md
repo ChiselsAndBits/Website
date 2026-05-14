@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.aabb;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IAABBOwner](IAABBOwner.md)</td><td>Defines objects which have an axis-aligned bounding box.</td></tr>
+  <tr><td><a href="IAABBOwner.md" title="IAABBOwner">IAABBOwner</a></td><td>Defines objects which have an axis-aligned bounding box.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -28,7 +28,7 @@ package mod.chiselsandbits.api.aabb;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[IAABBOwner](IAABBOwner.md)</td><td>Defines objects which have an axis-aligned bounding box.</td></tr>
+  <tr><td><a href="IAABBOwner.md" title="IAABBOwner">IAABBOwner</a></td><td>Defines objects which have an axis-aligned bounding box.</td></tr>
   </tbody>
 </table>
 == Classes

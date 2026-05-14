@@ -21,7 +21,10 @@ its underlying bit layout, when used in a combining fashion.
 
 <!-- =========== FIELD SUMMARY =========== -->
 Field Summary  
-Fields inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.identifier.<a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a><a href="IAreaShapeIdentifier.html#DUMMY">DUMMY</a>
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Fields inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor.identifier.<a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a>
+<a href="IAreaShapeIdentifier.html#DUMMY">DUMMY</a>
+:::::
   
   
   

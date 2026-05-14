@@ -61,7 +61,22 @@ Method Summary
   </tbody>
 </table>
 :::
-Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a href="../multistate/IMultiStateItem.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItem</a><a href="../multistate/IMultiStateItem.html#createItemStack(net.minecraft.world.item.ItemStack)" title="createItemStack(ItemStack)">createItemStack</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="../../placement/IPlacementPreviewProvidingItem.html" title="interface in mod.chiselsandbits.api.placement">IPlacementPreviewProvidingItem</a><a href="../../placement/IPlacementPreviewProvidingItem.html#ignoreDepth(net.minecraft.world.item.ItemStack)" title="ignoreDepth(ItemStack)">ignoreDepth</a>, <a href="../../placement/IPlacementPreviewProvidingItem.html#ignoreDepthForPlacement(net.minecraft.world.item.ItemStack,mod.chiselsandbits.api.placement.PlacementResult)" title="ignoreDepthForPlacement(ItemStack, PlacementResult)">ignoreDepthForPlacement</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.sealing.<a href="../../sealing/ISupportsSealing.html" title="interface in mod.chiselsandbits.api.sealing">ISupportsSealing</a><a href="../../sealing/ISupportsSealing.html#seal(net.minecraft.world.item.ItemStack)" title="seal(ItemStack)">seal</a>Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a href="../withmode/IWithModeItem.html" title="interface in mod.chiselsandbits.api.item.withmode">IWithModeItem</a><a href="../withmode/IWithModeItem.html#getMode(net.minecraft.world.item.ItemStack)" title="getMode(ItemStack)">getMode</a>, <a href="../withmode/IWithModeItem.html#getPossibleModes()" title="getPossibleModes()">getPossibleModes</a>, <a href="../withmode/IWithModeItem.html#requiresUpdateOnClosure()" title="requiresUpdateOnClosure()">requiresUpdateOnClosure</a>, <a href="../withmode/IWithModeItem.html#setMode(net.minecraft.world.item.ItemStack,int)" title="setMode(ItemStack, int)">setMode</a>, <a href="../withmode/IWithModeItem.html#setMode(net.minecraft.world.item.ItemStack,M)" title="setMode(ItemStack, IPatternPlacementType)">setMode</a>
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a href="../multistate/IMultiStateItem.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItem</a>
+<a href="../multistate/IMultiStateItem.html#createItemStack(net.minecraft.world.item.ItemStack)" title="createItemStack(ItemStack)">createItemStack</a>
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="../../placement/IPlacementPreviewProvidingItem.html" title="interface in mod.chiselsandbits.api.placement">IPlacementPreviewProvidingItem</a>
+<a href="../../placement/IPlacementPreviewProvidingItem.html#ignoreDepth(net.minecraft.world.item.ItemStack)" title="ignoreDepth(ItemStack)">ignoreDepth</a>, <a href="../../placement/IPlacementPreviewProvidingItem.html#ignoreDepthForPlacement(net.minecraft.world.item.ItemStack,mod.chiselsandbits.api.placement.PlacementResult)" title="ignoreDepthForPlacement(ItemStack, PlacementResult)">ignoreDepthForPlacement</a>
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.sealing.<a href="../../sealing/ISupportsSealing.html" title="interface in mod.chiselsandbits.api.sealing">ISupportsSealing</a>
+<a href="../../sealing/ISupportsSealing.html#seal(net.minecraft.world.item.ItemStack)" title="seal(ItemStack)">seal</a>
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a href="../withmode/IWithModeItem.html" title="interface in mod.chiselsandbits.api.item.withmode">IWithModeItem</a>
+<a href="../withmode/IWithModeItem.html#getMode(net.minecraft.world.item.ItemStack)" title="getMode(ItemStack)">getMode</a>, <a href="../withmode/IWithModeItem.html#getPossibleModes()" title="getPossibleModes()">getPossibleModes</a>, <a href="../withmode/IWithModeItem.html#requiresUpdateOnClosure()" title="requiresUpdateOnClosure()">requiresUpdateOnClosure</a>, <a href="../withmode/IWithModeItem.html#setMode(net.minecraft.world.item.ItemStack,int)" title="setMode(ItemStack, int)">setMode</a>, <a href="../withmode/IWithModeItem.html#setMode(net.minecraft.world.item.ItemStack,M)" title="setMode(ItemStack, IPatternPlacementType)">setMode</a>
+:::::
   
   
   

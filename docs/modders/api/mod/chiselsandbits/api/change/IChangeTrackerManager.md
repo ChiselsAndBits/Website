@@ -76,6 +76,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -88,8 +89,12 @@ Short circuit method to get the manager instance from the api.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getChangeTracker(net.minecraft.world.entity.player.Player)">
+
 :::tabs
 == getChangeTracker
 <div class="horizontal-scroll">
@@ -104,7 +109,10 @@ Gives access to the change tracker of the given player.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

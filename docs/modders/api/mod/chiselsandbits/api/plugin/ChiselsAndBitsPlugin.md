@@ -49,6 +49,7 @@ Optional Element Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Element Details  
 <section id="requiredMods()">
+
 :::tabs
 == requiredMods
 <div class="horizontal-scroll">
@@ -65,8 +66,12 @@ Leave on the default empty to not care for mod specific filtering.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="isExperimental()">
+
 :::tabs
 == isExperimental
 <div class="horizontal-scroll">
@@ -86,7 +91,10 @@ initialization methods are never called!</p>
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

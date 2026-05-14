@@ -66,13 +66,17 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="adaptItemStack(net.minecraft.world.item.ItemStack)">
+
 :::tabs
 == adaptItemStack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">adaptItemStack</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;currentToolStack)</span></div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

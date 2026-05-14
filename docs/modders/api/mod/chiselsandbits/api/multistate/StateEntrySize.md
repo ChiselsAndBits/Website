@@ -138,7 +138,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == ONE_SIXTEENTH
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">ONE_SIXTEENTH</span></div>
-16 Bits per block.</div>
+16 Bits per block.
+</div>
 :::
 
 
@@ -150,7 +151,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == ONE_EIGHT
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">ONE_EIGHT</span></div>
-8 Bits per block.</div>
+8 Bits per block.
+</div>
 :::
 
 
@@ -162,7 +164,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == ONE_QUARTER
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">ONE_QUARTER</span></div>
-4 Bits per block.</div>
+4 Bits per block.
+</div>
 :::
 
 
@@ -174,7 +177,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == ONE_HALF
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">ONE_HALF</span></div>
-2 Bits per block.</div>
+2 Bits per block.
+</div>
 :::
 
 
@@ -187,7 +191,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">ONE</span></div>
 1 Bit per block side.
-Generally only used for testing.</div>
+Generally only used for testing.
+</div>
 :::
 
 
@@ -207,6 +212,7 @@ Generally only used for testing.</div>
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="values()">
+
 :::tabs
 == values
 <div class="horizontal-scroll">
@@ -219,8 +225,12 @@ the order they are declared.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="valueOf(java.lang.String)">
+
 :::tabs
 == valueOf
 <div class="horizontal-scroll">
@@ -240,16 +250,24 @@ not permitted.)
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="current()">
+
 :::tabs
 == current
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">current</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getBitsPerBlockSide()">
+
 :::tabs
 == getBitsPerBlockSide
 <div class="horizontal-scroll">
@@ -261,8 +279,12 @@ The amount of bits in a single layer per side of the block.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getBitsPerBlock()">
+
 :::tabs
 == getBitsPerBlock
 <div class="horizontal-scroll">
@@ -275,8 +297,12 @@ This is <a href="#getBitsPerBlockSide()"><code>getBitsPerBlockSide()</code></a> 
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getBitsPerLayer()">
+
 :::tabs
 == getBitsPerLayer
 <div class="horizontal-scroll">
@@ -289,8 +315,12 @@ This is <a href="#getBitsPerBlockSide()"><code>getBitsPerBlockSide()</code></a> 
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getSizePerBit()">
+
 :::tabs
 == getSizePerBit
 <div class="horizontal-scroll">
@@ -303,8 +333,12 @@ Is always 1 / <a href="#getBitsPerBlockSide()"><code>getBitsPerBlockSide()</code
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getSizePerBitScalingVector()">
+
 :::tabs
 == getSizePerBitScalingVector
 <div class="horizontal-scroll">
@@ -317,8 +351,12 @@ Useful for passing to <code>Vec3.multiply(Vec3)</code>
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getSizePerHalfBitScalingVector()">
+
 :::tabs
 == getSizePerHalfBitScalingVector
 <div class="horizontal-scroll">
@@ -331,8 +369,12 @@ Useful for passing to <code>Vec3.multiply(Vec3)</code>
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getBitsPerBlockSideScalingVector()">
+
 :::tabs
 == getBitsPerBlockSideScalingVector
 <div class="horizontal-scroll">
@@ -345,8 +387,12 @@ Useful for passing to <code>Vec3.multiply(Vec3)</code>
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getSizePerHalfBit()">
+
 :::tabs
 == getSizePerHalfBit
 <div class="horizontal-scroll">
@@ -359,8 +405,12 @@ Is always <a href="#getSizePerBit()"><code>getSizePerBit()</code></a> / 2.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="upperLevelY()">
+
 :::tabs
 == upperLevelY
 <div class="horizontal-scroll">
@@ -372,8 +422,12 @@ The y coordinate of the upper of the block.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getArrayIndexForPosition(net.minecraft.core.Vec3i)">
+
 :::tabs
 == getArrayIndexForPosition
 <div class="horizontal-scroll">
@@ -387,8 +441,12 @@ The array index for a given position when the current state entry size is used.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getArrayIndexForPosition(int,int,int)">
+
 :::tabs
 == getArrayIndexForPosition
 <div class="horizontal-scroll">
@@ -406,8 +464,12 @@ The array index for a given position when the current state entry size is used.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="roundDownToNearest(net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == roundDownToNearest
 <div class="horizontal-scroll">
@@ -421,8 +483,12 @@ Takes in a 3D vector and rounds its components down to the nearest multiple of t
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getDamageFactor()">
+
 :::tabs
 == getDamageFactor
 <div class="horizontal-scroll">
@@ -440,7 +506,10 @@ Calculates how much damage should be applied to tools for the harvest of a given
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

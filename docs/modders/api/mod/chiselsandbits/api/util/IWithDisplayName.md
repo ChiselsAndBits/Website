@@ -73,6 +73,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getDisplayName()">
+
 :::tabs
 == getDisplayName
 <div class="horizontal-scroll">
@@ -84,8 +85,12 @@ Returns the display name of the object in a text component.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getMultiLineDisplayName()">
+
 :::tabs
 == getMultiLineDisplayName
 <div class="horizontal-scroll">
@@ -98,7 +103,10 @@ This display name may contain several newline statements which can be wrapped.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

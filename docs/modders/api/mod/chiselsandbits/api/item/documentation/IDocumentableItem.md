@@ -62,6 +62,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getDocumentableInstances(net.minecraft.world.item.Item)">
+
 :::tabs
 == getDocumentableInstances
 <div class="horizontal-scroll">
@@ -75,7 +76,10 @@ Gives access to the variants of the item that are exportable.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

@@ -73,6 +73,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a hr
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getPrimaryState()">
+
 :::tabs
 == getPrimaryState
 <div class="horizontal-scroll">
@@ -85,8 +86,12 @@ belongs to.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="isEmpty()">
+
 :::tabs
 == isEmpty
 <div class="horizontal-scroll">
@@ -98,8 +103,12 @@ Indicates if the multistate object is empty.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getContainedStates()">
+
 :::tabs
 == getContainedStates
 <div class="horizontal-scroll">
@@ -111,7 +120,10 @@ Returns all states (without count) that are contained in the object
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

@@ -80,6 +80,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getWireFrame(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
+
 :::tabs
 == getWireFrame
 <div class="horizontal-scroll">
@@ -97,8 +98,12 @@ Provides access to the wire frame of the item.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getWireFrameColor(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
+
 :::tabs
 == getWireFrameColor
 <div class="horizontal-scroll">
@@ -116,8 +121,12 @@ The color to render the wireframe in.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
+
 :::tabs
 == getTargetedPosition
 <div class="horizontal-scroll">
@@ -135,8 +144,12 @@ Returns the position the wire frame should be rendered at.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="ignoreDepth(net.minecraft.world.item.ItemStack)">
+
 :::tabs
 == ignoreDepth
 <div class="horizontal-scroll">
@@ -150,7 +163,10 @@ Returns whether to effectively ignore the depth buffer and render in front of ev
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

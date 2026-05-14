@@ -73,6 +73,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.click.<a href=
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getBlockInformation(net.minecraft.world.item.ItemStack)">
+
 :::tabs
 == getBlockInformation
 <div class="horizontal-scroll">
@@ -88,25 +89,38 @@ given bit item.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="onMergeOperationWithBagBeginning()">
+
 :::tabs
 == onMergeOperationWithBagBeginning
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onMergeOperationWithBagBeginning</span>()</div>
 Invoked when a merge operation of a bit inside a bitbag is beginning during a shift-click interaction
-in the bit bag UI.</div>
+in the bit bag UI.
+</div>
 :::
+
+
 </section>
+
 <section id="onMergeOperationWithBagEnding()">
+
 :::tabs
 == onMergeOperationWithBagEnding
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onMergeOperationWithBagEnding</span>()</div>
 Invoked when a merge operation of a bit inside a bitbag is ending during a shift-click interaction
-in the bit bag UI.</div>
+in the bit bag UI.
+</div>
 :::
+
+
 </section>
+
 :::::
   
 

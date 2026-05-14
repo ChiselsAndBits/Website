@@ -85,6 +85,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="requiresUpdateOnClosure()">
+
 :::tabs
 == requiresUpdateOnClosure
 <div class="horizontal-scroll">
@@ -97,8 +98,12 @@ update when the player closes the interface.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getMode(net.minecraft.world.item.ItemStack)">
+
 :::tabs
 == getMode
 <div class="horizontal-scroll">
@@ -113,8 +118,12 @@ Returns the current mode of the itemstack.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="setMode(net.minecraft.world.item.ItemStack,M)">
+
 :::tabs
 == setMode
 <div class="horizontal-scroll">
@@ -128,8 +137,12 @@ Set the given mode on the given itemstack.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="setMode(net.minecraft.world.item.ItemStack,int)">
+
 :::tabs
 == setMode
 <div class="horizontal-scroll">
@@ -143,8 +156,12 @@ Set the mode with the given index on the given itemstack.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getPossibleModes()">
+
 :::tabs
 == getPossibleModes
 <div class="horizontal-scroll">
@@ -157,7 +174,10 @@ Returns all possible modes this item can have.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

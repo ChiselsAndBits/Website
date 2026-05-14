@@ -121,6 +121,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="table(java.util.function.IntFunction,java.util.function.IntFunction,java.util.function.Supplier,net.minecraft.network.codec.StreamCodec,net.minecraft.network.codec.StreamCodec,net.minecraft.network.codec.StreamCodec)">
+
 :::tabs
 == table
 <div class="horizontal-scroll">
@@ -133,8 +134,12 @@ Method Summary
  net.minecraft.network.codec.StreamCodec&lt;? super B, V&gt;&nbsp;valueCodec)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="composite(net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,com.mojang.datafixers.util.Function7)">
+
 :::tabs
 == composite
 <div class="horizontal-scroll">
@@ -156,8 +161,12 @@ Method Summary
  com.mojang.datafixers.util.Function7&lt;T1,<wbr>T2,<wbr>T3,<wbr>T4,<wbr>T5,<wbr>T6,<wbr>T7,<wbr>C&gt;&nbsp;p_331335_)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="composite(net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,com.mojang.datafixers.util.Function12)">
+
 :::tabs
 == composite
 <div class="horizontal-scroll">
@@ -189,8 +198,12 @@ Method Summary
  com.mojang.datafixers.util.Function12&lt;T1,<wbr>T2,<wbr>T3,<wbr>T4,<wbr>T5,<wbr>T6,<wbr>T7,<wbr>T8,<wbr>T9,<wbr>T10,<wbr>T11,<wbr>T12,<wbr>C&gt;&nbsp;p_331335_)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="compressed(net.minecraft.network.codec.StreamCodec)">
+
 :::tabs
 == compressed
 <div class="horizontal-scroll">
@@ -198,8 +211,12 @@ Method Summary
 <span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, T&gt;</span>&nbsp;<span class="element-name">compressed</span><wbr><span class="parameters">(net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, T&gt;&nbsp;codec)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="dispatch(net.minecraft.network.codec.StreamCodec,java.util.function.Function,java.util.function.Function)">
+
 :::tabs
 == dispatch
 <div class="horizontal-scroll">
@@ -209,8 +226,12 @@ Method Summary
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;R,<wbr>D&gt;&nbsp;dispatcherSelector)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="lazyInitialized(java.util.function.Supplier)">
+
 :::tabs
 == lazyInitialized
 <div class="horizontal-scroll">
@@ -218,8 +239,12 @@ Method Summary
 <span class="return-type">net.minecraft.network.codec.StreamCodec&lt;B,<wbr>T&gt;</span>&nbsp;<span class="element-name">lazyInitialized</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;net.minecraft.network.codec.StreamCodec&lt;B,<wbr>T&gt;&gt;&nbsp;supplier)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="nullable()">
+
 :::tabs
 == nullable
 <div class="horizontal-scroll">
@@ -227,7 +252,10 @@ Method Summary
 <span class="return-type">net.minecraft.network.codec.StreamCodec.CodecOperation&lt;B,<wbr>S,<wbr>S&gt;</span>&nbsp;<span class="element-name">nullable</span>()</div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

@@ -67,6 +67,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="provideShape(mod.chiselsandbits.api.axissize.CollisionType,net.minecraft.core.BlockPos,boolean)">
+
 :::tabs
 == provideShape
 <div class="horizontal-scroll">
@@ -84,7 +85,10 @@ Determines the voxelshape of the <a href="IAreaAccessorWithVoxelShape.html" titl
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

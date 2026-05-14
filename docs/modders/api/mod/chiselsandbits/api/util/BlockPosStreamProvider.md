@@ -88,6 +88,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getForRange(int)">
+
 :::tabs
 == getForRange
 <div class="horizontal-scroll">
@@ -105,8 +106,12 @@ and <code>size - 1</code> as max value.</p>
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getForRange(int,int)">
+
 :::tabs
 == getForRange
 <div class="horizontal-scroll">
@@ -122,8 +127,12 @@ Provides a stream of BlockPos objects within a given range from the given minima
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getForWorldObject(mod.chiselsandbits.api.util.IWorldObject)">
+
 :::tabs
 == getForWorldObject
 <div class="horizontal-scroll">
@@ -142,8 +151,12 @@ Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForR
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getForAccessor(mod.chiselsandbits.api.multistate.accessor.world.IWorldAreaAccessor)">
+
 :::tabs
 == getForAccessor
 <div class="horizontal-scroll">
@@ -162,8 +175,12 @@ Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForR
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getForWorldObject(mod.chiselsandbits.api.util.IWorldObject,boolean)">
+
 :::tabs
 == getForWorldObject
 <div class="horizontal-scroll">
@@ -184,8 +201,12 @@ Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForR
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getForRange(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == getForRange
 <div class="horizontal-scroll">
@@ -206,8 +227,12 @@ Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForR
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getForRange(double,double,double,double,double,double)">
+
 :::tabs
 == getForRange
 <div class="horizontal-scroll">
@@ -234,8 +259,12 @@ All of its logic (so the rounding) is as such also applied.</p>
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getForRange(int,int,int,int,int,int)">
+
 :::tabs
 == getForRange
 <div class="horizontal-scroll">
@@ -261,7 +290,10 @@ If the minimal and maximal values are the same, then the stream will contain onl
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

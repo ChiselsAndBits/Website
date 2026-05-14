@@ -79,6 +79,7 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getDefaultMode()">
+
 :::tabs
 == getDefaultMode
 <div class="horizontal-scroll">
@@ -90,8 +91,12 @@ The default modification operation.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getRegistry()">
+
 :::tabs
 == getRegistry
 <div class="horizontal-scroll">
@@ -103,8 +108,12 @@ The underlying registry that contains the different modification modes that can 
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="apply(mod.chiselsandbits.api.multistate.mutator.IGenerallyModifiableAreaMutator)">
+
 :::tabs
 == apply
 <div class="horizontal-scroll">
@@ -116,7 +125,10 @@ Performs a modification on the snapshot.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

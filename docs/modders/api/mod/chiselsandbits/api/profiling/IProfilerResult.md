@@ -65,6 +65,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="writeToFile(java.nio.file.Path)">
+
 :::tabs
 == writeToFile
 <div class="horizontal-scroll">
@@ -76,8 +77,12 @@ Writes all profiling result data to the given file. Creating it if necessary.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="writeAsResponse(java.util.function.Consumer)">
+
 :::tabs
 == writeAsResponse
 <div class="horizontal-scroll">
@@ -89,7 +94,10 @@ Writes all profiling result data in a readable manor into the given consumer, al
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

@@ -111,6 +111,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getPrimaryState()">
+
 :::tabs
 == getPrimaryState
 <div class="horizontal-scroll">
@@ -128,8 +129,12 @@ But this is not guaranteed.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getStateCounts()">
+
 :::tabs
 == getStateCounts
 <div class="horizontal-scroll">
@@ -141,8 +146,12 @@ An immutable copy of the map that contains the counts of all blockstates in the 
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getContainedStates()">
+
 :::tabs
 == getContainedStates
 <div class="horizontal-scroll">
@@ -156,8 +165,12 @@ Returns all states (without count) that are contained in the object
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="shouldCheckWeakPower()">
+
 :::tabs
 == shouldCheckWeakPower
 <div class="horizontal-scroll">
@@ -169,8 +182,12 @@ Indicates if the block that this statistics belongs to should check for weak pow
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getFullnessFactor()">
+
 :::tabs
 == getFullnessFactor
 <div class="horizontal-scroll">
@@ -182,8 +199,12 @@ Gives access to the fullness factor of the current block.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="isFullBlock()">
+
 :::tabs
 == isFullBlock
 <div class="horizontal-scroll">
@@ -196,8 +217,12 @@ Generally coincides with <a href="#getFullnessFactor()"><code>getFullnessFactor(
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getSlipperiness()">
+
 :::tabs
 == getSlipperiness
 <div class="horizontal-scroll">
@@ -209,8 +234,12 @@ Indicates the slipperiness of the current block.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getLightEmissionFactor()">
+
 :::tabs
 == getLightEmissionFactor
 <div class="horizontal-scroll">
@@ -222,8 +251,12 @@ The factor of how much light is emitted by the block.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getLightBlockingFactor()">
+
 :::tabs
 == getLightBlockingFactor
 <div class="horizontal-scroll">
@@ -235,8 +268,12 @@ The factor with which the bits block light.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getRelativeBlockHardness(net.minecraft.world.entity.player.Player)">
+
 :::tabs
 == getRelativeBlockHardness
 <div class="horizontal-scroll">
@@ -250,8 +287,12 @@ Indicates the relative block hardness for a given player.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="isEmptyBlock()">
+
 :::tabs
 == isEmptyBlock
 <div class="horizontal-scroll">
@@ -263,8 +304,12 @@ Indicates if the current multistate block is empty.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="canPropagateSkylight()">
+
 :::tabs
 == canPropagateSkylight
 <div class="horizontal-scroll">
@@ -276,8 +321,12 @@ Indicates if the current multistate block can propagate skylight.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="canSustainGrassBelow()">
+
 :::tabs
 == canSustainGrassBelow
 <div class="horizontal-scroll">
@@ -289,7 +338,10 @@ Indicates if the current multistate block can sustain grass below.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

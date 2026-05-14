@@ -68,6 +68,7 @@ Methods inherited from interface&nbsp;net.minecraft.world.level.block.EntityBloc
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getPrimaryState(net.minecraft.world.level.BlockGetter,net.minecraft.core.BlockPos)">
+
 :::tabs
 == getPrimaryState
 <div class="horizontal-scroll">
@@ -87,7 +88,10 @@ In terms of Chisels and Bits this is the blockstate that is represented the most
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

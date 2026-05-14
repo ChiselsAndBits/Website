@@ -76,14 +76,19 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="exportPattern(mod.chiselsandbits.api.item.multistate.IMultiStateItemStack,java.lang.String)">
+
 :::tabs
 == exportPattern
 <div class="horizontal-scroll">
@@ -97,8 +102,12 @@ Exports the given pattern to disk.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="importPattern(java.lang.String)">
+
 :::tabs
 == importPattern
 <div class="horizontal-scroll">
@@ -112,7 +121,10 @@ Imports the pattern from disk.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

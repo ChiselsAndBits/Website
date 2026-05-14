@@ -146,6 +146,7 @@ Creates a new screen, playing the narration message when opened.
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="init()">
+
 :::tabs
 == init
 <div class="horizontal-scroll">
@@ -156,8 +157,12 @@ Creates a new screen, playing the narration message when opened.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="addRenderableWidget(T)">
+
 :::tabs
 == addRenderableWidget
 <div class="horizontal-scroll">
@@ -171,8 +176,12 @@ Creates a new screen, playing the narration message when opened.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="addRenderableOnly(T)">
+
 :::tabs
 == addRenderableOnly
 <div class="horizontal-scroll">
@@ -186,8 +195,12 @@ Creates a new screen, playing the narration message when opened.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="addWidget(T)">
+
 :::tabs
 == addWidget
 <div class="horizontal-scroll">
@@ -201,8 +214,12 @@ Creates a new screen, playing the narration message when opened.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="removeWidget(net.minecraft.client.gui.components.events.GuiEventListener)">
+
 :::tabs
 == removeWidget
 <div class="horizontal-scroll">
@@ -214,8 +231,12 @@ Creates a new screen, playing the narration message when opened.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="clearWidgets()">
+
 :::tabs
 == clearWidgets
 <div class="horizontal-scroll">
@@ -226,8 +247,12 @@ Creates a new screen, playing the narration message when opened.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="removed()">
+
 :::tabs
 == removed
 <div class="horizontal-scroll">
@@ -238,8 +263,12 @@ Creates a new screen, playing the narration message when opened.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="isInitialized()">
+
 :::tabs
 == isInitialized
 <div class="horizontal-scroll">
@@ -254,8 +283,12 @@ Indicates if the screen has been initialized or not.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getWidgets()">
+
 :::tabs
 == getWidgets
 <div class="horizontal-scroll">
@@ -267,8 +300,12 @@ Returns the widgets which are included in the screen.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="extractRenderState(net.minecraft.client.gui.GuiGraphicsExtractor,int,int,float)">
+
 :::tabs
 == extractRenderState
 <div class="horizontal-scroll">
@@ -285,7 +322,10 @@ Returns the widgets which are included in the screen.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

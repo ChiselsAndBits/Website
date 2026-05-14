@@ -66,6 +66,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="set(mod.chiselsandbits.api.blockinformation.BlockInformation,net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == set
 <div class="horizontal-scroll">
@@ -82,7 +83,10 @@ Sets the block information of the targeted bit to the given block information.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

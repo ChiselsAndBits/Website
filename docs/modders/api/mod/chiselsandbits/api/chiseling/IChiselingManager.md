@@ -89,14 +89,19 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IChiselingManager.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getOrCreateContext(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.mode.IChiselMode,mod.chiselsandbits.api.chiseling.ChiselingOperation,boolean,net.minecraft.world.item.ItemStack)">
+
 :::tabs
 == getOrCreateContext
 <div class="horizontal-scroll">
@@ -122,8 +127,12 @@ A new context is created when either one of the following conditions is met:
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="get(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.mode.IChiselMode)">
+
 :::tabs
 == get
 <div class="horizontal-scroll">
@@ -139,8 +148,12 @@ Gives access to the chiseling context of the player, if it exists.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="get(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.mode.IChiselMode,mod.chiselsandbits.api.chiseling.ChiselingOperation)">
+
 :::tabs
 == get
 <div class="horizontal-scroll">
@@ -158,8 +171,12 @@ Gives access to the chiseling context of the player, if it exists.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="create(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.mode.IChiselMode,mod.chiselsandbits.api.chiseling.ChiselingOperation,boolean,net.minecraft.world.item.ItemStack)">
+
 :::tabs
 == create
 <div class="horizontal-scroll">
@@ -182,7 +199,10 @@ If <code>simulate</code> is false and an a context for the player already exists
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

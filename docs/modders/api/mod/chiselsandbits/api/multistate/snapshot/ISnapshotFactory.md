@@ -75,14 +75,19 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="ISnapshotFactory.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">ISnapshotFactory</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="singleBlock()">
+
 :::tabs
 == singleBlock
 <div class="horizontal-scroll">
@@ -94,8 +99,12 @@ Creates a new simple single block snapshot.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="singleBlock(mod.chiselsandbits.api.blockinformation.BlockInformation)">
+
 :::tabs
 == singleBlock
 <div class="horizontal-scroll">
@@ -109,7 +118,10 @@ Creates a new simple single block snapshot.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

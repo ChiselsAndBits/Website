@@ -90,6 +90,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getId()">
+
 :::tabs
 == getId
 <div class="horizontal-scroll">
@@ -102,31 +103,49 @@ Has to be unique over all plugins.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="onConstruction()">
+
 :::tabs
 == onConstruction
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">onConstruction</span>()</div>
-Invoked when the plugin is constructed.</div>
+Invoked when the plugin is constructed.
+</div>
 :::
+
+
 </section>
+
 <section id="onClientConstruction()">
+
 :::tabs
 == onClientConstruction
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">onClientConstruction</span>()</div>
-Called after ChiselsAndBits client construction completes.</div>
+Called after ChiselsAndBits client construction completes.
+</div>
 :::
+
+
 </section>
+
 <section id="onInitialize()">
+
 :::tabs
 == onInitialize
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">onInitialize</span>()</div>
-Invoked by chisels and bits when the platform it runs on (so forge or fabric) indicates that mod initialization should happen.</div>
+Invoked by chisels and bits when the platform it runs on (so forge or fabric) indicates that mod initialization should happen.
+</div>
 :::
+
+
 </section>
+
 :::::
   
 

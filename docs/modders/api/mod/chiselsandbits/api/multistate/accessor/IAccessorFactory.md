@@ -78,6 +78,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -89,8 +90,12 @@ Gives access to the accessor factory.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="in(net.minecraft.world.level.LevelAccessor,net.minecraft.core.BlockPos)">
+
 :::tabs
 == in
 <div class="horizontal-scroll">
@@ -106,8 +111,12 @@ Creates a accessor which mutates a particular block only.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="covering(net.minecraft.world.level.LevelAccessor,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos)">
+
 :::tabs
 == covering
 <div class="horizontal-scroll">
@@ -125,8 +134,12 @@ Creates an accessor which mutates a given area.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="covering(net.minecraft.world.level.LevelAccessor,net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == covering
 <div class="horizontal-scroll">
@@ -144,7 +157,10 @@ Creates an accessor which mutates a given area.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

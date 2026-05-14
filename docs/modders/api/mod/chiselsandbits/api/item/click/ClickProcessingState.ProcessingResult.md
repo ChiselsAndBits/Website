@@ -89,7 +89,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == DENY
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.ProcessingResult.html" title="enum class in mod.chiselsandbits.api.item.click">ClickProcessingState.ProcessingResult</a></span>&nbsp;<span class="element-name">DENY</span></div>
-Deny the further processing of the interaction.</div>
+Deny the further processing of the interaction.
+</div>
 :::
 
 
@@ -102,7 +103,8 @@ Deny the further processing of the interaction.</div>
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.ProcessingResult.html" title="enum class in mod.chiselsandbits.api.item.click">ClickProcessingState.ProcessingResult</a></span>&nbsp;<span class="element-name">DEFAULT</span></div>
 Continue the further processing of the interaction.
-This state did not consume the interaction.</div>
+This state did not consume the interaction.
+</div>
 :::
 
 
@@ -115,7 +117,8 @@ This state did not consume the interaction.</div>
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.ProcessingResult.html" title="enum class in mod.chiselsandbits.api.item.click">ClickProcessingState.ProcessingResult</a></span>&nbsp;<span class="element-name">ALLOW</span></div>
 Continue the further processing of the interaction.
-This state consumed the interaction.</div>
+This state consumed the interaction.
+</div>
 :::
 
 
@@ -135,6 +138,7 @@ This state consumed the interaction.</div>
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="values()">
+
 :::tabs
 == values
 <div class="horizontal-scroll">
@@ -147,8 +151,12 @@ the order they are declared.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="valueOf(java.lang.String)">
+
 :::tabs
 == valueOf
 <div class="horizontal-scroll">
@@ -168,7 +176,10 @@ not permitted.)
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

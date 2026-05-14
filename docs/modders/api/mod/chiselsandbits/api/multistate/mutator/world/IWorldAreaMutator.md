@@ -67,6 +67,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="inWorldMutableStream()">
+
 :::tabs
 == inWorldMutableStream
 <div class="horizontal-scroll">
@@ -79,7 +80,10 @@ Includes all empty areas as areas containing an air state.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

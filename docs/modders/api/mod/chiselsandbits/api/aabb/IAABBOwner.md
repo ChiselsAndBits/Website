@@ -62,6 +62,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getBoundingBox()">
+
 :::tabs
 == getBoundingBox
 <div class="horizontal-scroll">
@@ -74,7 +75,10 @@ Gives access to the bounding box of this object.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

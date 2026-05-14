@@ -82,6 +82,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../..
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="isActive()">
+
 :::tabs
 == isActive
 <div class="horizontal-scroll">
@@ -93,8 +94,12 @@ Indicates if the mode is currently active and as such should be rendered or not.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="shouldRenderName()">
+
 :::tabs
 == shouldRenderName
 <div class="horizontal-scroll">
@@ -106,8 +111,12 @@ Indicates if the name of the mode should be rendered.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="shouldRenderDisplayNameInMenu()">
+
 :::tabs
 == shouldRenderDisplayNameInMenu
 <div class="horizontal-scroll">
@@ -119,8 +128,12 @@ Indicates if this mode should render his name in the menu.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getColorVector()">
+
 :::tabs
 == getColorVector
 <div class="horizontal-scroll">
@@ -136,23 +149,34 @@ The color used to render.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getPositionVector()">
+
 :::tabs
 == getPositionVector
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec2</span>&nbsp;<span class="element-name">getPositionVector</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getScaleVector()">
+
 :::tabs
 == getScaleVector
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec2</span>&nbsp;<span class="element-name">getScaleVector</span>()</div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

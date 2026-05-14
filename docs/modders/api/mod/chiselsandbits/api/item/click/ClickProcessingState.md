@@ -118,7 +118,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == ALLOW
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">ALLOW</span></div>
-The click was successfully processed, and not further processing is needed.</div>
+The click was successfully processed, and not further processing is needed.
+</div>
 :::
 
 
@@ -130,7 +131,8 @@ The click was successfully processed, and not further processing is needed.</div
 == ALLOW_NO_CANCEL
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">ALLOW_NO_CANCEL</span></div>
-The click was successfully processed, but the interactions processing should continue.</div>
+The click was successfully processed, but the interactions processing should continue.
+</div>
 :::
 
 
@@ -142,7 +144,8 @@ The click was successfully processed, but the interactions processing should con
 == DENIED
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">DENIED</span></div>
-The click was not processed successfully, and the interactions processing should stop.</div>
+The click was not processed successfully, and the interactions processing should stop.
+</div>
 :::
 
 
@@ -154,7 +157,8 @@ The click was not processed successfully, and the interactions processing should
 == DEFAULT
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a></span>&nbsp;<span class="element-name">DEFAULT</span></div>
-No processing of the click was done, and the interactions processing should continue.</div>
+No processing of the click was done, and the interactions processing should continue.
+</div>
 :::
 
 
@@ -192,6 +196,7 @@ Creates a new processing state.
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="shouldCancel()">
+
 :::tabs
 == shouldCancel
 <div class="horizontal-scroll">
@@ -203,8 +208,12 @@ Indicates if this state should cancel the interaction.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getNextState()">
+
 :::tabs
 == getNextState
 <div class="horizontal-scroll">
@@ -216,7 +225,10 @@ Gets the next state to process.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

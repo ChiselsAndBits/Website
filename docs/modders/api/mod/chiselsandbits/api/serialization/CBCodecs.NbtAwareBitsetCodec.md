@@ -110,7 +110,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == NbtAwareBitsetCodec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">NbtAwareBitsetCodec</span>()</div>
-Creates an instance of a <code>NbtAwareBitsetCodec</code> record class.</div>
+Creates an instance of a <code>NbtAwareBitsetCodec</code> record class.
+</div>
 :::
 
 
@@ -124,6 +125,7 @@ Creates an instance of a <code>NbtAwareBitsetCodec</code> record class.</div>
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="decode(com.mojang.serialization.DynamicOps,T)">
+
 :::tabs
 == decode
 <div class="horizontal-scroll">
@@ -136,8 +138,12 @@ Creates an instance of a <code>NbtAwareBitsetCodec</code> record class.</div>
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="encode(java.util.BitSet,com.mojang.serialization.DynamicOps,T)">
+
 :::tabs
 == encode
 <div class="horizontal-scroll">
@@ -150,8 +156,12 @@ Creates an instance of a <code>NbtAwareBitsetCodec</code> record class.</div>
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="toString()">
+
 :::tabs
 == toString
 <div class="horizontal-scroll">
@@ -165,8 +175,12 @@ Returns a string representation of this record class. The representation contain
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="hashCode()">
+
 :::tabs
 == hashCode
 <div class="horizontal-scroll">
@@ -180,8 +194,12 @@ Returns a hash code value for this object. The value is derived from the hash co
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="equals(java.lang.Object)">
+
 :::tabs
 == equals
 <div class="horizontal-scroll">
@@ -197,7 +215,10 @@ Indicates whether some other object is "equal to" this one. The objects are equa
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

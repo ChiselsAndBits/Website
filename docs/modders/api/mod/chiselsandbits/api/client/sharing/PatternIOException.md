@@ -122,13 +122,17 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getErrorMessage()">
+
 :::tabs
 == getErrorMessage
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getErrorMessage</span>()</div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

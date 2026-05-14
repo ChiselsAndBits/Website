@@ -72,14 +72,19 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IAdaptingBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.bit">IAdaptingBitInventoryManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="create(java.lang.Object)">
+
 :::tabs
 == create
 <div class="horizontal-scroll">
@@ -98,7 +103,10 @@ IInventory.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

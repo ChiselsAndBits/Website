@@ -76,6 +76,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getWireFrame(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
+
 :::tabs
 == getWireFrame
 <div class="horizontal-scroll">
@@ -96,8 +97,12 @@ Provides access to the wire frame of the item.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getWireFrameColor(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
+
 :::tabs
 == getWireFrameColor
 <div class="horizontal-scroll">
@@ -118,8 +123,12 @@ The color to render the wireframe in.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
+
 :::tabs
 == getTargetedPosition
 <div class="horizontal-scroll">
@@ -140,8 +149,12 @@ Returns the position the wire frame should be rendered at.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="overridesOccupiedBits(net.minecraft.world.item.ItemStack)">
+
 :::tabs
 == overridesOccupiedBits
 <div class="horizontal-scroll">
@@ -154,7 +167,10 @@ Invoked to determine whether this replaces non-air bits of blocks, or only repla
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

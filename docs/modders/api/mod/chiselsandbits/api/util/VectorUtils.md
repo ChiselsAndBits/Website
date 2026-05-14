@@ -184,6 +184,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="rotateMultipleTimes90Degrees(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis,int)">
+
 :::tabs
 == rotateMultipleTimes90Degrees
 <div class="horizontal-scroll">
@@ -192,8 +193,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  int&nbsp;times)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="rotate90Degrees(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis)">
+
 :::tabs
 == rotate90Degrees
 <div class="horizontal-scroll">
@@ -201,8 +206,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  net.minecraft.core.Direction.Axis&nbsp;axis)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="rotateHalfRadian(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis)">
+
 :::tabs
 == rotateHalfRadian
 <div class="horizontal-scroll">
@@ -210,8 +219,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  net.minecraft.core.Direction.Axis&nbsp;axis)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="rotateDegrees(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis,double)">
+
 :::tabs
 == rotateDegrees
 <div class="horizontal-scroll">
@@ -220,8 +233,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  double&nbsp;angleInDegrees)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="rotate(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis,double)">
+
 :::tabs
 == rotate
 <div class="horizontal-scroll">
@@ -230,40 +247,60 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  double&nbsp;angleInRadian)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="scaleToOne(net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == scaleToOne
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">scaleToOne</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;v)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="getMaximalComponent(net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == getMaximalComponent
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">getMaximalComponent</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;v)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="invert(net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == invert
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">invert</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;v)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="invert(net.minecraft.core.BlockPos)">
+
 :::tabs
 == invert
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.core.BlockPos</span>&nbsp;<span class="element-name">invert</span><wbr><span class="parameters">(net.minecraft.core.BlockPos&nbsp;v)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="minimizeTowardsZero(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == minimizeTowardsZero
 <div class="horizontal-scroll">
@@ -271,8 +308,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  net.minecraft.world.phys.Vec3&nbsp;end)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="maximizeAwayFromZero(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == maximizeAwayFromZero
 <div class="horizontal-scroll">
@@ -280,16 +321,24 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  net.minecraft.world.phys.Vec3&nbsp;end)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="absolute(net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == absolute
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">absolute</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;vector3d)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="offsetRandomly(net.minecraft.world.phys.Vec3,net.minecraft.util.RandomSource,float)">
+
 :::tabs
 == offsetRandomly
 <div class="horizontal-scroll">
@@ -298,8 +347,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  float&nbsp;radius)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="minimize(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == minimize
 <div class="horizontal-scroll">
@@ -307,8 +360,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  net.minecraft.world.phys.Vec3&nbsp;b)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="maximize(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == maximize
 <div class="horizontal-scroll">
@@ -316,16 +373,24 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  net.minecraft.world.phys.Vec3&nbsp;b)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="makePositive(net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == makePositive
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">makePositive</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;inBlockOffset)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="allValuesBetweenInclusive(org.joml.Vector4f,float,float)">
+
 :::tabs
 == allValuesBetweenInclusive
 <div class="horizontal-scroll">
@@ -334,24 +399,36 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  float&nbsp;max)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="nullifyNegatives(net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == nullifyNegatives
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">nullifyNegatives</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;input)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="nullifyPositives(net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == nullifyPositives
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">nullifyPositives</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;input)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="divide(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == divide
 <div class="horizontal-scroll">
@@ -359,24 +436,36 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  net.minecraft.world.phys.Vec3&nbsp;right)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="toBlockPos(net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == toBlockPos
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.core.BlockPos</span>&nbsp;<span class="element-name">toBlockPos</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;vec3)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="toInteger(net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == toInteger
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.core.Vec3i</span>&nbsp;<span class="element-name">toInteger</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;vec3)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="toInteger(double,double,double)">
+
 :::tabs
 == toInteger
 <div class="horizontal-scroll">
@@ -385,7 +474,10 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  double&nbsp;z)</span></div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

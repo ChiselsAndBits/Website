@@ -88,6 +88,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -99,8 +100,12 @@ Gives access to the platform's plugin manager.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="loadPlugins()">
+
 :::tabs
 == loadPlugins
 <div class="horizontal-scroll">
@@ -113,7 +118,10 @@ Already has performed the instantiation logic and validation.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

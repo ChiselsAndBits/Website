@@ -76,6 +76,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="forEachInRange(int,java.util.function.Consumer)">
+
 :::tabs
 == forEachInRange
 <div class="horizontal-scroll">
@@ -83,8 +84,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;net.minecraft.core.BlockPos&gt;&nbsp;consumer)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="forEachInRange(int,int,int,java.util.function.Consumer)">
+
 :::tabs
 == forEachInRange
 <div class="horizontal-scroll">
@@ -94,8 +99,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;net.minecraft.core.BlockPos&gt;&nbsp;consumer)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="forEachInRange(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,java.util.function.Consumer)">
+
 :::tabs
 == forEachInRange
 <div class="horizontal-scroll">
@@ -104,8 +113,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;net.minecraft.core.BlockPos&gt;&nbsp;consumer)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="forEachInRange(int,int,int,int,int,int,java.util.function.Consumer)">
+
 :::tabs
 == forEachInRange
 <div class="horizontal-scroll">
@@ -118,7 +131,10 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;net.minecraft.core.BlockPos&gt;&nbsp;consumer)</span></div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

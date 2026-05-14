@@ -193,6 +193,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="values()">
+
 :::tabs
 == values
 <div class="horizontal-scroll">
@@ -205,8 +206,12 @@ the order they are declared.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="valueOf(java.lang.String)">
+
 :::tabs
 == valueOf
 <div class="horizontal-scroll">
@@ -226,39 +231,58 @@ not permitted.)
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="isValidFor(mod.chiselsandbits.api.multistate.accessor.IStateEntryInfo)">
+
 :::tabs
 == isValidFor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isValidFor</span><wbr><span class="parameters">(<a href="../multistate/accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&nbsp;info)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="isValidFor(net.minecraft.world.level.block.state.BlockState)">
+
 :::tabs
 == isValidFor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isValidFor</span><wbr><span class="parameters">(net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="canBeEmptyWithJustFluids()">
+
 :::tabs
 == canBeEmptyWithJustFluids
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canBeEmptyWithJustFluids</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getExampleState()">
+
 :::tabs
 == getExampleState
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.world.level.block.state.BlockState</span>&nbsp;<span class="element-name">getExampleState</span>()</div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

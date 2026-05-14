@@ -65,6 +65,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getBlockModelData(mod.chiselsandbits.api.variant.state.IStateVariant)">
+
 :::tabs
 == getBlockModelData
 <div class="horizontal-scroll">
@@ -78,8 +79,12 @@ Retrieves the block model data for the given state variant.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="appendHoverText(mod.chiselsandbits.api.variant.state.IStateVariant,net.minecraft.world.item.Item.TooltipContext,java.util.List,net.minecraft.world.item.TooltipFlag)">
+
 :::tabs
 == appendHoverText
 <div class="horizontal-scroll">
@@ -97,7 +102,10 @@ Invoked to add tooltip lines to the tooltip of an item containing the given vari
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

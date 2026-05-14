@@ -82,6 +82,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="apply(T1,T2,T3,T4)">
+
 :::tabs
 == apply
 <div class="horizontal-scroll">
@@ -101,39 +102,58 @@ Applies to the function to the four arguments, getting the result out.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="firstIdentity()">
+
 :::tabs
 == firstIdentity
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;G1,<wbr>G2,<wbr>G3,<wbr>G4&gt;</span>&nbsp;<span class="return-type"><a href="IQuadFunction.html" title="interface in mod.chiselsandbits.api.util">IQuadFunction</a>&lt;G1,<wbr>G2,<wbr>G3,<wbr>G4,<wbr>G1&gt;</span>&nbsp;<span class="element-name">firstIdentity</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="secondIdentity()">
+
 :::tabs
 == secondIdentity
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;G1,<wbr>G2,<wbr>G3,<wbr>G4&gt;</span>&nbsp;<span class="return-type"><a href="IQuadFunction.html" title="interface in mod.chiselsandbits.api.util">IQuadFunction</a>&lt;G1,<wbr>G2,<wbr>G3,<wbr>G4,<wbr>G2&gt;</span>&nbsp;<span class="element-name">secondIdentity</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="thirdIdentity()">
+
 :::tabs
 == thirdIdentity
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;G1,<wbr>G2,<wbr>G3,<wbr>G4&gt;</span>&nbsp;<span class="return-type"><a href="IQuadFunction.html" title="interface in mod.chiselsandbits.api.util">IQuadFunction</a>&lt;G1,<wbr>G2,<wbr>G3,<wbr>G4,<wbr>G3&gt;</span>&nbsp;<span class="element-name">thirdIdentity</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="fourthIdentity()">
+
 :::tabs
 == fourthIdentity
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;G1,<wbr>G2,<wbr>G3,<wbr>G4&gt;</span>&nbsp;<span class="return-type"><a href="IQuadFunction.html" title="interface in mod.chiselsandbits.api.util">IQuadFunction</a>&lt;G1,<wbr>G2,<wbr>G3,<wbr>G4,<wbr>G4&gt;</span>&nbsp;<span class="element-name">fourthIdentity</span>()</div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

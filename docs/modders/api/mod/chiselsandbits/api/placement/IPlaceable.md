@@ -62,6 +62,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getPlacementResult(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
+
 :::tabs
 == getPlacementResult
 <div class="horizontal-scroll">
@@ -79,7 +80,10 @@ Invoked to determine the result of attempting actual placement in the world.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

@@ -65,6 +65,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getId()">
+
 :::tabs
 == getId
 <div class="horizontal-scroll">
@@ -77,8 +78,12 @@ Used to give the player a selection option for the preview renderer.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="extractGraphics(net.minecraft.client.gui.GuiGraphicsExtractor,net.minecraft.world.item.ItemStack)">
+
 :::tabs
 == extractGraphics
 <div class="horizontal-scroll">
@@ -93,7 +98,10 @@ This is invoked already translated to the top left pixel of the slot in question
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

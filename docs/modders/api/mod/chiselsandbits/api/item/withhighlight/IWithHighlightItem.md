@@ -66,6 +66,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="shouldDrawDefaultHighlight(net.minecraft.world.entity.player.Player)">
+
 :::tabs
 == shouldDrawDefaultHighlight
 <div class="horizontal-scroll">
@@ -82,8 +83,12 @@ If this is false. The default highlight rendering is cancelled.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="renderHighlight(net.minecraft.world.entity.player.Player,net.minecraft.client.renderer.LevelRenderer,com.mojang.blaze3d.vertex.PoseStack,net.minecraft.client.renderer.MultiBufferSource.BufferSource,net.minecraft.client.renderer.state.level.LevelRenderState,float)">
+
 :::tabs
 == renderHighlight
 <div class="horizontal-scroll">
@@ -105,7 +110,10 @@ Renders the highlight for the current item.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

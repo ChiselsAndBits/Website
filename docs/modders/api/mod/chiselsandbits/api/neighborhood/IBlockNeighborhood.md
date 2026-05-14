@@ -89,7 +89,8 @@ Method Summary
 == EMPTY
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type"><a href="IBlockNeighborhood.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhood</a></span>&nbsp;<span class="element-name">EMPTY</span></div>
-Empty neighborhood.</div>
+Empty neighborhood.
+</div>
 :::
 
 
@@ -105,6 +106,7 @@ Empty neighborhood.</div>
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="around(net.minecraft.world.level.block.entity.BlockEntity)">
+
 :::tabs
 == around
 <div class="horizontal-scroll">
@@ -118,8 +120,12 @@ Creates a block neighborhood around the given block entity.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getBlockInformation(net.minecraft.core.Direction)">
+
 :::tabs
 == getBlockInformation
 <div class="horizontal-scroll">
@@ -134,8 +140,12 @@ Returns the blocks neighbor in the given direction.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getAreaAccessor(net.minecraft.core.Direction)">
+
 :::tabs
 == getAreaAccessor
 <div class="horizontal-scroll">
@@ -150,7 +160,10 @@ Returns the blocks potential area accessor neighbor in the given direction.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

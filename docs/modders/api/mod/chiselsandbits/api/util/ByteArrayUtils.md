@@ -82,6 +82,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="fill(int,int,int)">
+
 :::tabs
 == fill
 <div class="horizontal-scroll">
@@ -90,8 +91,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  int&nbsp;count)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="setValueAt(java.util.BitSet,int,int,int)">
+
 :::tabs
 == setValueAt
 <div class="horizontal-scroll">
@@ -101,8 +106,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  int&nbsp;index)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="setValueWith(java.util.BitSet,int,int,int)">
+
 :::tabs
 == setValueWith
 <div class="horizontal-scroll">
@@ -112,8 +121,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  int&nbsp;index)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="setValue(java.util.BitSet,int,int,int)">
+
 :::tabs
 == setValue
 <div class="horizontal-scroll">
@@ -123,8 +136,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  int&nbsp;bitOffset)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="getValueAt(java.util.BitSet,int,int)">
+
 :::tabs
 == getValueAt
 <div class="horizontal-scroll">
@@ -133,8 +150,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  int&nbsp;index)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="getValue(java.util.BitSet,int,int)">
+
 :::tabs
 == getValue
 <div class="horizontal-scroll">
@@ -143,7 +164,10 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  int&nbsp;bitOffset)</span></div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

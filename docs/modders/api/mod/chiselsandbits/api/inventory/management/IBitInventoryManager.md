@@ -81,6 +81,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -92,8 +93,12 @@ Gives access to the bit inventory manager.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="create(net.minecraft.world.entity.player.Player)">
+
 :::tabs
 == create
 <div class="horizontal-scroll">
@@ -109,8 +114,12 @@ as a bit inventory.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="create(java.lang.Object)">
+
 :::tabs
 == create
 <div class="horizontal-scroll">
@@ -129,8 +138,12 @@ IInventory.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="create(net.minecraft.world.Container)">
+
 :::tabs
 == create
 <div class="horizontal-scroll">
@@ -146,8 +159,12 @@ as a bit inventory.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="create(net.minecraft.world.item.ItemStack)">
+
 :::tabs
 == create
 <div class="horizontal-scroll">
@@ -161,7 +178,10 @@ Creates a new bit inventory wrapping the given itemstack.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

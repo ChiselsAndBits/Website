@@ -76,6 +76,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="handleRightClickProcessing(net.minecraft.world.entity.player.Player,net.minecraft.world.InteractionHand,net.minecraft.core.BlockPos,net.minecraft.core.Direction,mod.chiselsandbits.api.item.click.ClickProcessingState)">
+
 :::tabs
 == handleRightClickProcessing
 <div class="horizontal-scroll">
@@ -99,8 +100,12 @@ and can afterwards block the further vanilla processing.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="onRightClickProcessingEnd(net.minecraft.world.entity.player.Player,net.minecraft.world.item.ItemStack)">
+
 :::tabs
 == onRightClickProcessingEnd
 <div class="horizontal-scroll">
@@ -114,8 +119,12 @@ Invoked by the platform to indicate to this item that a right-clicking procedure
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="canUse(net.minecraft.world.entity.player.Player,net.minecraft.world.item.ItemStack)">
+
 :::tabs
 == canUse
 <div class="horizontal-scroll">
@@ -132,7 +141,10 @@ event is cancelled.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

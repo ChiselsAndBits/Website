@@ -137,6 +137,7 @@ Creates a new button with a tooltip.
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="init()">
+
 :::tabs
 == init
 <div class="horizontal-scroll">
@@ -149,8 +150,12 @@ Invoked by the screen, when said screen is initialized.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="removed()">
+
 :::tabs
 == removed
 <div class="horizontal-scroll">
@@ -163,7 +168,10 @@ Invoked by the screen, when it is removed from the display.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

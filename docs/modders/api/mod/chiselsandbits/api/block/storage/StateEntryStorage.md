@@ -272,38 +272,55 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getSize()">
+
 :::tabs
 == getSize
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getSize</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="clear()">
+
 :::tabs
 == clear
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">clear</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="initializeWith(mod.chiselsandbits.api.blockinformation.BlockInformation)">
+
 :::tabs
 == initializeWith
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">initializeWith</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;currentState)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="loadFromChunkSection(net.minecraft.world.level.chunk.LevelChunkSection)">
+
 :::tabs
 == loadFromChunkSection
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">loadFromChunkSection</span><wbr><span class="parameters">(net.minecraft.world.level.chunk.LevelChunkSection&nbsp;chunkSection)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="getBlockInformation(int,int,int)">
+
 :::tabs
 == getBlockInformation
 <div class="horizontal-scroll">
@@ -312,8 +329,12 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  int&nbsp;z)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="setBlockInformation(int,int,int,mod.chiselsandbits.api.blockinformation.BlockInformation)">
+
 :::tabs
 == setBlockInformation
 <div class="horizontal-scroll">
@@ -323,48 +344,72 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockState)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="count(java.util.function.BiConsumer)">
+
 :::tabs
 == count
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">count</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/BiConsumer.html" title="class or interface in java.util.function" class="external-link">BiConsumer</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;&nbsp;storageConsumer)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="count()">
+
 :::tabs
 == count
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</span>&nbsp;<span class="element-name">count</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getData()">
+
 :::tabs
 == getData
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/BitSet.html" title="class or interface in java.util" class="external-link">BitSet</a></span>&nbsp;<span class="element-name">getData</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getRawData()">
+
 :::tabs
 == getRawData
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">long[]</span>&nbsp;<span class="element-name">getRawData</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="createSnapshot()">
+
 :::tabs
 == createSnapshot
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="StateEntryStorage.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryStorage</a></span>&nbsp;<span class="element-name">createSnapshot</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="fillFromBottom(mod.chiselsandbits.api.blockinformation.BlockInformation,int)">
+
 :::tabs
 == fillFromBottom
 <div class="horizontal-scroll">
@@ -372,32 +417,48 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  int&nbsp;entries)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="limitedToProgress(float)">
+
 :::tabs
 == limitedToProgress
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="StateEntryStorage.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryStorage</a></span>&nbsp;<span class="element-name">limitedToProgress</span><wbr><span class="parameters">(float&nbsp;progress)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="palette()">
+
 :::tabs
 == palette
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a></span>&nbsp;<span class="element-name">palette</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="states()">
+
 :::tabs
 == states
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">states</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="rotate(net.minecraft.core.Direction.Axis,int)">
+
 :::tabs
 == rotate
 <div class="horizontal-scroll">
@@ -414,8 +475,12 @@ Rotates the current multistate block 90 degrees around the given axis with the g
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="mirror(net.minecraft.core.Direction.Axis)">
+
 :::tabs
 == mirror
 <div class="horizontal-scroll">
@@ -430,8 +495,12 @@ Mirrors the current multistate block around the given axis.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="batch()">
+
 :::tabs
 == batch
 <div class="horizontal-scroll">
@@ -446,8 +515,12 @@ Trigger a batch mutation start.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="equals(java.lang.Object)">
+
 :::tabs
 == equals
 <div class="horizontal-scroll">
@@ -458,8 +531,12 @@ Trigger a batch mutation start.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="hashCode()">
+
 :::tabs
 == hashCode
 <div class="horizontal-scroll">
@@ -470,8 +547,12 @@ Trigger a batch mutation start.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="toString()">
+
 :::tabs
 == toString
 <div class="horizontal-scroll">
@@ -482,8 +563,12 @@ Trigger a batch mutation start.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="codec()">
+
 :::tabs
 == codec
 <div class="horizontal-scroll">
@@ -500,8 +585,12 @@ Returns The codec used for direct serialization..
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="mapCodec()">
+
 :::tabs
 == mapCodec
 <div class="horizontal-scroll">
@@ -518,8 +607,12 @@ Returns The codec used for complex serialization..
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="streamCodec()">
+
 :::tabs
 == streamCodec
 <div class="horizontal-scroll">
@@ -536,7 +629,10 @@ Returns The codec used for streaming serialization..
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

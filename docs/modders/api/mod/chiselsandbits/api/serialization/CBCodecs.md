@@ -102,7 +102,8 @@ Method Summary
 == BIT_SET
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/BitSet.html" title="class or interface in java.util" class="external-link">BitSet</a>&gt;</span>&nbsp;<span class="element-name">BIT_SET</span></div>
-Codec for a bit set.</div>
+Codec for a bit set.
+</div>
 :::
 
 
@@ -118,6 +119,7 @@ Codec for a bit set.</div>
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="withFallback(com.mojang.serialization.Codec,com.mojang.serialization.Codec)">
+
 :::tabs
 == withFallback
 <div class="horizontal-scroll">
@@ -139,8 +141,12 @@ Serialization always is triggered through the first codec.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="versioned(com.mojang.serialization.MapCodec,com.mojang.serialization.Codec)">
+
 :::tabs
 == versioned
 <div class="horizontal-scroll">
@@ -158,8 +164,12 @@ The version is stored as an integer in the payload, its value will always be 0
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="versioned(java.util.Map,com.mojang.serialization.MapCodec)">
+
 :::tabs
 == versioned
 <div class="horizontal-scroll">
@@ -177,8 +187,12 @@ The version is stored as an integer in the payload.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="readLegacyCompressed(com.mojang.serialization.Codec)">
+
 :::tabs
 == readLegacyCompressed
 <div class="horizontal-scroll">
@@ -191,8 +205,12 @@ The compressed data is stored as a byte array in the payload.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="compressed(com.mojang.serialization.Codec)">
+
 :::tabs
 == compressed
 <div class="horizontal-scroll">
@@ -205,8 +223,12 @@ The compressed data is stored as a byte array in the payload.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="unboundedTable(com.mojang.serialization.Codec,com.mojang.serialization.Codec,com.mojang.serialization.Codec)">
+
 :::tabs
 == unboundedTable
 <div class="horizontal-scroll">
@@ -216,8 +238,12 @@ The compressed data is stored as a byte array in the payload.
  com.mojang.serialization.Codec&lt;V&gt;&nbsp;value)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="lazyNbtAware(com.mojang.serialization.Codec,java.util.function.Supplier)">
+
 :::tabs
 == lazyNbtAware
 <div class="horizontal-scroll">
@@ -225,8 +251,12 @@ The compressed data is stored as a byte array in the payload.
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;? extends net.minecraft.nbt.Tag&gt;&nbsp;lazyTagSupplier)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="lazyNbtAware(com.mojang.serialization.MapCodec,java.util.function.Function)">
+
 :::tabs
 == lazyNbtAware
 <div class="horizontal-scroll">
@@ -234,8 +264,12 @@ The compressed data is stored as a byte array in the payload.
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;T, net.minecraft.nbt.CompoundTag&gt;&nbsp;lazyTagSupplier)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="unboundedComplexMap(com.mojang.serialization.Codec,com.mojang.serialization.Codec)">
+
 :::tabs
 == unboundedComplexMap
 <div class="horizontal-scroll">
@@ -244,8 +278,12 @@ The compressed data is stored as a byte array in the payload.
  com.mojang.serialization.Codec&lt;V&gt;&nbsp;valueCodec)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="unboundedComplexMap(java.lang.String,com.mojang.serialization.Codec,java.lang.String,com.mojang.serialization.Codec)">
+
 :::tabs
 == unboundedComplexMap
 <div class="horizontal-scroll">
@@ -256,7 +294,10 @@ The compressed data is stored as a byte array in the payload.
  com.mojang.serialization.Codec&lt;V&gt;&nbsp;valueCodec)</span></div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

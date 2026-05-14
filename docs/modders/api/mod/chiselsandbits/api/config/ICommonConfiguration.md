@@ -81,6 +81,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -94,8 +95,12 @@ This configuration does not need to be in-sync with the server values.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getEnableHelp()">
+
 :::tabs
 == getEnableHelp
 <div class="horizontal-scroll">
@@ -107,8 +112,12 @@ Indicates if the help tooltips should be enabled or not.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getCollisionBoxCacheSize()">
+
 :::tabs
 == getCollisionBoxCacheSize
 <div class="horizontal-scroll">
@@ -120,8 +129,12 @@ Determines the size of the collision box cache size.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getClassMetadataCacheSize()">
+
 :::tabs
 == getClassMetadataCacheSize
 <div class="horizontal-scroll">
@@ -133,8 +146,12 @@ Determines the size of caches which hold class metadata.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getBlockSaveThreadCount()">
+
 :::tabs
 == getBlockSaveThreadCount
 <div class="horizontal-scroll">
@@ -147,7 +164,10 @@ Loading always happens on thread.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

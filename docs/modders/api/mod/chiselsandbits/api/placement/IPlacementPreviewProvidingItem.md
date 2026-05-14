@@ -70,6 +70,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="ignoreDepthForPlacement(net.minecraft.world.item.ItemStack,mod.chiselsandbits.api.placement.PlacementResult)">
+
 :::tabs
 == ignoreDepthForPlacement
 <div class="horizontal-scroll">
@@ -85,8 +86,12 @@ Returns whether to effectively ignore the depth buffer and render in front of ev
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="ignoreDepth(net.minecraft.world.item.ItemStack)">
+
 :::tabs
 == ignoreDepth
 <div class="horizontal-scroll">
@@ -102,7 +107,10 @@ Returns whether to effectively ignore the depth buffer and render in front of ev
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

@@ -86,6 +86,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="createNewShapeIdentifier()">
+
 :::tabs
 == createNewShapeIdentifier
 <div class="horizontal-scroll">
@@ -98,8 +99,12 @@ Note: This method always returns a new instance.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="stream()">
+
 :::tabs
 == stream
 <div class="horizontal-scroll">
@@ -111,8 +116,12 @@ Gives access to a stream with the entry state info inside the accessors range.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="isInside(net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == isInside
 <div class="horizontal-scroll">
@@ -126,8 +135,12 @@ Indicates if the given target is inside of the current accessor.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="isInside(net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == isInside
 <div class="horizontal-scroll">
@@ -143,8 +156,12 @@ Indicates if the given target (with the given block position offset) is inside o
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="createSnapshot()">
+
 :::tabs
 == createSnapshot
 <div class="horizontal-scroll">
@@ -156,8 +173,12 @@ Creates a snapshot of the current state.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="streamWithPositionMutator(mod.chiselsandbits.api.multistate.accessor.sortable.IPositionMutator)">
+
 :::tabs
 == streamWithPositionMutator
 <div class="horizontal-scroll">
@@ -172,8 +193,12 @@ Allows for the entry state order to be mutated using a position mutator.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="forEachWithPositionMutator(mod.chiselsandbits.api.multistate.accessor.sortable.IPositionMutator,java.util.function.Consumer)">
+
 :::tabs
 == forEachWithPositionMutator
 <div class="horizontal-scroll">
@@ -187,7 +212,10 @@ Runs a for each-loop over the states inside the accessor, with the ability to sp
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

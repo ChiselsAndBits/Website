@@ -107,6 +107,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="mutate(net.minecraft.core.Vec3i)">
+
 :::tabs
 == mutate
 <div class="horizontal-scroll">
@@ -120,8 +121,12 @@ Applies the mutation that this mutator performs on a given position.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="then(mod.chiselsandbits.api.multistate.accessor.sortable.IPositionMutator)">
+
 :::tabs
 == then
 <div class="horizontal-scroll">
@@ -135,8 +140,12 @@ Creates a new mutator which chains the current and the next mutator into one.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="identity()">
+
 :::tabs
 == identity
 <div class="horizontal-scroll">
@@ -149,8 +158,12 @@ Performs no change to the passed in position.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="xyz()">
+
 :::tabs
 == xyz
 <div class="horizontal-scroll">
@@ -163,8 +176,12 @@ Generally also perceived as the identity mutator.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="xzy()">
+
 :::tabs
 == xzy
 <div class="horizontal-scroll">
@@ -176,8 +193,12 @@ The xzy operator.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="zyx()">
+
 :::tabs
 == zyx
 <div class="horizontal-scroll">
@@ -189,8 +210,12 @@ The zyx operator.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="yxz()">
+
 :::tabs
 == yxz
 <div class="horizontal-scroll">
@@ -202,8 +227,12 @@ The yxz operator.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="zxy()">
+
 :::tabs
 == zxy
 <div class="horizontal-scroll">
@@ -215,8 +244,12 @@ The zxy operator.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="yzx()">
+
 :::tabs
 == yzx
 <div class="horizontal-scroll">
@@ -229,8 +262,12 @@ Is a combination of xzy and zyx.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="fromAxis(net.minecraft.core.Direction.Axis)">
+
 :::tabs
 == fromAxis
 <div class="horizontal-scroll">
@@ -245,7 +282,10 @@ The order of the other axi is not fixed.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

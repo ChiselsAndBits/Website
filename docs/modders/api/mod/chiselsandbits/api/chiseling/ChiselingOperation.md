@@ -103,7 +103,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a></span>&nbsp;<span class="element-name">CHISELING</span></div>
 The current operation is a chisel.
-As such it removes the bit underneath the cursor.</div>
+As such it removes the bit underneath the cursor.
+</div>
 :::
 
 
@@ -116,7 +117,8 @@ As such it removes the bit underneath the cursor.</div>
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a></span>&nbsp;<span class="element-name">PLACING</span></div>
 The current operation is a bit.
-As such it places the bit underneath the cursor.</div>
+As such it places the bit underneath the cursor.
+</div>
 :::
 
 
@@ -136,6 +138,7 @@ As such it places the bit underneath the cursor.</div>
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="values()">
+
 :::tabs
 == values
 <div class="horizontal-scroll">
@@ -148,8 +151,12 @@ the order they are declared.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="valueOf(java.lang.String)">
+
 :::tabs
 == valueOf
 <div class="horizontal-scroll">
@@ -169,8 +176,12 @@ not permitted.)
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="processesAir()">
+
 :::tabs
 == processesAir
 <div class="horizontal-scroll">
@@ -182,8 +193,12 @@ Indicates if this operation processes air.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="isChiseling()">
+
 :::tabs
 == isChiseling
 <div class="horizontal-scroll">
@@ -195,8 +210,12 @@ Indicates if the current mode is a chiseling mode.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="isPlacing()">
+
 :::tabs
 == isPlacing
 <div class="horizontal-scroll">
@@ -208,7 +227,10 @@ Indicates if the current mode is a placing mode.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

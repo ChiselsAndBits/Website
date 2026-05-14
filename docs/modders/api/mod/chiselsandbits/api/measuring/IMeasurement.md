@@ -85,6 +85,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getOwner()">
+
 :::tabs
 == getOwner
 <div class="horizontal-scroll">
@@ -96,8 +97,12 @@ The id of the player who made the measurement.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getFrom()">
+
 :::tabs
 == getFrom
 <div class="horizontal-scroll">
@@ -109,8 +114,12 @@ The lower left front corner of the measurement.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getTo()">
+
 :::tabs
 == getTo
 <div class="horizontal-scroll">
@@ -122,8 +131,12 @@ The top right back corner of the measurement.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getSize()">
+
 :::tabs
 == getSize
 <div class="horizontal-scroll">
@@ -135,8 +148,12 @@ The size of the measurement.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getMode()">
+
 :::tabs
 == getMode
 <div class="horizontal-scroll">
@@ -148,8 +165,12 @@ The mode of the measurement.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getWorldKey()">
+
 :::tabs
 == getWorldKey
 <div class="horizontal-scroll">
@@ -161,7 +182,10 @@ The id of the world that this measurement was made in.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

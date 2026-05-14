@@ -65,6 +65,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInAreaTarget(net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == getInAreaTarget
 <div class="horizontal-scroll">
@@ -82,8 +83,12 @@ This is a nasty implementation detail, and matters most when you are making new 
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getInBlockTarget(net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == getInBlockTarget
 <div class="horizontal-scroll">
@@ -103,7 +108,10 @@ This is a nasty implementation detail, and matters most when you are making new 
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

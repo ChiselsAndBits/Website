@@ -76,14 +76,19 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="ISelectedToolModeIconRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.tool.mode.icon">ISelectedToolModeIconRendererRegistry</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getCurrent()">
+
 :::tabs
 == getCurrent
 <div class="horizontal-scroll">
@@ -95,8 +100,12 @@ The currently configured renderer as per configuration of the player.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="register(mod.chiselsandbits.api.client.tool.mode.icon.ISelectedToolModeIconRenderer...)">
+
 :::tabs
 == register
 <div class="horizontal-scroll">
@@ -110,7 +119,10 @@ Adds the passed in renderer instances as possible candidates.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

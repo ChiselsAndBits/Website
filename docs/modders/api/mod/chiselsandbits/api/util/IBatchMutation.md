@@ -68,6 +68,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="close()">
+
 :::tabs
 == close
 <div class="horizontal-scroll">
@@ -97,7 +98,10 @@ However, implementers of this interface are strongly encouraged to make their <c
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

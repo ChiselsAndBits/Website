@@ -79,6 +79,7 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getDefaultMode()">
+
 :::tabs
 == getDefaultMode
 <div class="horizontal-scroll">
@@ -90,8 +91,12 @@ The default Glueing operation.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getRegistry()">
+
 :::tabs
 == getRegistry
 <div class="horizontal-scroll">
@@ -103,8 +108,12 @@ The underlying registry that contains the different Glueing modes that can be pe
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="apply(java.util.Collection)">
+
 :::tabs
 == apply
 <div class="horizontal-scroll">
@@ -121,7 +130,10 @@ In total a maximum 64 pieces can be given.</p>
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

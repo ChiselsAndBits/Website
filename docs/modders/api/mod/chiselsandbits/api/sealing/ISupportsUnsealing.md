@@ -62,6 +62,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="unseal(net.minecraft.world.item.ItemStack)">
+
 :::tabs
 == unseal
 <div class="horizontal-scroll">
@@ -80,7 +81,10 @@ Performs the unsealing operation on the given itemstack.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

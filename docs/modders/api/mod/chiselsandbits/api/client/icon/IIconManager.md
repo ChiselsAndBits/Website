@@ -111,125 +111,185 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IIconManager.html" title="interface in mod.chiselsandbits.api.client.icon">IIconManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getIcon(net.minecraft.resources.Identifier)">
+
 :::tabs
 == getIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getIcon</span><wbr><span class="parameters">(net.minecraft.resources.Identifier&nbsp;name)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="getSwapIcon()">
+
 :::tabs
 == getSwapIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getSwapIcon</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getPlaceIcon()">
+
 :::tabs
 == getPlaceIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getPlaceIcon</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getUndoIcon()">
+
 :::tabs
 == getUndoIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getUndoIcon</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getRedoIcon()">
+
 :::tabs
 == getRedoIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getRedoIcon</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getTrashIcon()">
+
 :::tabs
 == getTrashIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getTrashIcon</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getSortIcon()">
+
 :::tabs
 == getSortIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getSortIcon</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getRollXIcon()">
+
 :::tabs
 == getRollXIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getRollXIcon</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getRollZIcon()">
+
 :::tabs
 == getRollZIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getRollZIcon</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getWhiteIcon()">
+
 :::tabs
 == getWhiteIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getWhiteIcon</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getFilterBagModeIcon()">
+
 :::tabs
 == getFilterBagModeIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getFilterBagModeIcon</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getNormalBagModeIcon()">
+
 :::tabs
 == getNormalBagModeIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getNormalBagModeIcon</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getBagPicksUpFirstIcon()">
+
 :::tabs
 == getBagPicksUpFirstIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getBagPicksUpFirstIcon</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getBagPicksUpSecondIcon()">
+
 :::tabs
 == getBagPicksUpSecondIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.client.renderer.texture.TextureAtlasSprite</span>&nbsp;<span class="element-name">getBagPicksUpSecondIcon</span>()</div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

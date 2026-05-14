@@ -81,14 +81,19 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="getClipboard()">
+
 :::tabs
 == getClipboard
 <div class="horizontal-scroll">
@@ -100,8 +105,12 @@ The clipboard contents.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="addEntry(mod.chiselsandbits.api.item.multistate.IMultiStateItemStack,net.minecraft.core.HolderLookup.Provider)">
+
 :::tabs
 == addEntry
 <div class="horizontal-scroll">
@@ -115,8 +124,12 @@ Adds an entry to the clipboard.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="removeEntry(int,net.minecraft.core.HolderLookup.Provider)">
+
 :::tabs
 == removeEntry
 <div class="horizontal-scroll">
@@ -129,8 +142,12 @@ Removes an entry from the clipboard.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="clear(net.minecraft.core.HolderLookup.Provider)">
+
 :::tabs
 == clear
 <div class="horizontal-scroll">
@@ -142,7 +159,10 @@ Clears the entire clip board.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

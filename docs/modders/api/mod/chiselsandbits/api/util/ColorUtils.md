@@ -143,6 +143,7 @@ The minimal value for a given color channel.
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="pack(int)">
+
 :::tabs
 == pack
 <div class="horizontal-scroll">
@@ -156,8 +157,12 @@ Packs all three color channels (plus a full alpha channel) with the same value i
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="pack(int,int,int)">
+
 :::tabs
 == pack
 <div class="horizontal-scroll">
@@ -175,8 +180,12 @@ Packs all three color channels (plus a full alpha channel) with the values into 
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="pack(int,int,int,int)">
+
 :::tabs
 == pack
 <div class="horizontal-scroll">
@@ -196,8 +205,12 @@ Packs all four color channels with the values into an integer.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="pack(float,float,float,float)">
+
 :::tabs
 == pack
 <div class="horizontal-scroll">
@@ -207,23 +220,34 @@ Packs all four color channels with the values into an integer.
  float&nbsp;a)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="pack(float[])">
+
 :::tabs
 == pack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">pack</span><wbr><span class="parameters">(float[]&nbsp;color)</span></div>
 </div>
 :::
+
+
 </section>
+
 <section id="unpack(int)">
+
 :::tabs
 == unpack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">float[]</span>&nbsp;<span class="element-name">unpack</span><wbr><span class="parameters">(int&nbsp;color)</span></div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

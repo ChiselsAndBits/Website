@@ -82,6 +82,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="startSection(java.lang.String)">
+
 :::tabs
 == startSection
 <div class="horizontal-scroll">
@@ -93,8 +94,12 @@ Start a section with the given name.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="startSection(java.util.function.Supplier)">
+
 :::tabs
 == startSection
 <div class="horizontal-scroll">
@@ -106,16 +111,25 @@ Start section with the name provided by the given supplier.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="endSection()">
+
 :::tabs
 == endSection
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">endSection</span>()</div>
-Ends the current section.</div>
+Ends the current section.
+</div>
 :::
+
+
 </section>
+
 <section id="endStartSection(java.lang.String)">
+
 :::tabs
 == endStartSection
 <div class="horizontal-scroll">
@@ -127,8 +141,12 @@ End the current section and start a new section with the given name.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="endStartSection(java.util.function.Supplier)">
+
 :::tabs
 == endStartSection
 <div class="horizontal-scroll">
@@ -140,7 +158,10 @@ End the current section and start a new section with the name supplied by the gi
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

@@ -104,7 +104,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == GHOST_BLOCK_MODEL
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">GHOST_BLOCK_MODEL</span></div>
-Causes the preview to render as a ghost of the model of the block to be placed</div>
+Causes the preview to render as a ghost of the model of the block to be placed
+</div>
 :::
 
 
@@ -117,7 +118,8 @@ Causes the preview to render as a ghost of the model of the block to be placed</
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">GHOST_BLOCK_MODEL_SOLID_COLOR</span></div>
 Causes the preview to render the model of the block, such that the block's textures are
-ignored, and each quad  is rendered with the RGBA value specified by the result of placement</div>
+ignored, and each quad  is rendered with the RGBA value specified by the result of placement
+</div>
 :::
 
 
@@ -130,7 +132,8 @@ ignored, and each quad  is rendered with the RGBA value specified by the result 
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">WIREFRAME</span></div>
 Causes the preview to render a wireframe comprised of the edges of the block's model
-with the RGB value specified by the result of placement</div>
+with the RGB value specified by the result of placement
+</div>
 :::
 
 
@@ -150,6 +153,7 @@ with the RGB value specified by the result of placement</div>
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="values()">
+
 :::tabs
 == values
 <div class="horizontal-scroll">
@@ -162,8 +166,12 @@ the order they are declared.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="valueOf(java.lang.String)">
+
 :::tabs
 == valueOf
 <div class="horizontal-scroll">
@@ -183,31 +191,46 @@ not permitted.)
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="isGhost()">
+
 :::tabs
 == isGhost
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isGhost</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="isColoredGhost()">
+
 :::tabs
 == isColoredGhost
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isColoredGhost</span>()</div>
 </div>
 :::
+
+
 </section>
+
 <section id="isWireframe()">
+
 :::tabs
 == isWireframe
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isWireframe</span>()</div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

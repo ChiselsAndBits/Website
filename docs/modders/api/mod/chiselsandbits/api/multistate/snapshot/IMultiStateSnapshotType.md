@@ -70,6 +70,7 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="codec()">
+
 :::tabs
 == codec
 <div class="horizontal-scroll">
@@ -81,8 +82,12 @@ Gets the codec for the snapshot.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="streamCodec()">
+
 :::tabs
 == streamCodec
 <div class="horizontal-scroll">
@@ -94,7 +99,10 @@ Gets the stream codec for the snapshot.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

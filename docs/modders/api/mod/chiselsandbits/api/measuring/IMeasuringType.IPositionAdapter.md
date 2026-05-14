@@ -69,6 +69,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="adapt(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)">
+
 :::tabs
 == adapt
 <div class="horizontal-scroll">
@@ -81,7 +82,10 @@ Method Summary
  @NotNull net.minecraft.core.Direction&nbsp;hitFace)</span></div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

@@ -81,6 +81,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="setBlockInformation(mod.chiselsandbits.api.blockinformation.BlockInformation)">
+
 :::tabs
 == setBlockInformation
 <div class="horizontal-scroll">
@@ -95,17 +96,26 @@ Sets the current entries block information.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="clear()">
+
 :::tabs
 == clear
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span>()</div>
 Clears the current state entries blockstate.
-Effectively setting the current blockstate to air.</div>
+Effectively setting the current blockstate to air.
+</div>
 :::
+
+
 </section>
+
 <section id="overrideState(mod.chiselsandbits.api.blockinformation.BlockInformation)">
+
 :::tabs
 == overrideState
 <div class="horizontal-scroll">
@@ -117,7 +127,10 @@ Overrides the current entries block information
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

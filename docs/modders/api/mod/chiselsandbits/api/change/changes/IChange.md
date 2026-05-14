@@ -110,6 +110,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a h
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getType()">
+
 :::tabs
 == getType
 <div class="horizontal-scroll">
@@ -121,7 +122,10 @@ Returns The type of the change..
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

@@ -62,6 +62,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="batch()">
+
 :::tabs
 == batch
 <div class="horizontal-scroll">
@@ -73,7 +74,10 @@ Trigger a batch mutation start.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

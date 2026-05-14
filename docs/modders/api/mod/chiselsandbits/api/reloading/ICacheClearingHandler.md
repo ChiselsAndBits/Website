@@ -66,13 +66,18 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="clear()">
+
 :::tabs
 == clear
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span>()</div>
-Invoked when the cache needs to be cleared.</div>
+Invoked when the cache needs to be cleared.
+</div>
 :::
+
+
 </section>
+
 :::::
   
 

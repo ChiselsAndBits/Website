@@ -95,6 +95,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getBlockInformation()">
+
 :::tabs
 == getBlockInformation
 <div class="horizontal-scroll">
@@ -107,8 +108,12 @@ The state that this entry represents.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getStartPoint()">
+
 :::tabs
 == getStartPoint
 <div class="horizontal-scroll">
@@ -121,8 +126,12 @@ The start (lowest on all three axi) position of the state that this entry occupi
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getEndPoint()">
+
 :::tabs
 == getEndPoint
 <div class="horizontal-scroll">
@@ -135,8 +144,12 @@ The end (highest on all three axi) position of the state that this entry occupie
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getCenterPoint()">
+
 :::tabs
 == getCenterPoint
 <div class="horizontal-scroll">
@@ -149,8 +162,12 @@ The center point of the entry in the current block.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getBoundingBox()">
+
 :::tabs
 == getBoundingBox
 <div class="horizontal-scroll">
@@ -165,7 +182,10 @@ Gives access to the bounding box of this object.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

@@ -150,6 +150,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getMutator()">
+
 :::tabs
 == getMutator
 <div class="horizontal-scroll">
@@ -166,8 +167,12 @@ the returned <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.ba
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getWorld()">
+
 :::tabs
 == getWorld
 <div class="horizontal-scroll">
@@ -180,8 +185,12 @@ The <code>LevelAccessor</code> in which the current chiseling context is valid.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getMode()">
+
 :::tabs
 == getMode
 <div class="horizontal-scroll">
@@ -194,8 +203,12 @@ Returns the current <a href="mode/IChiselMode.html" title="interface in mod.chis
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="include(net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == include
 <div class="horizontal-scroll">
@@ -217,8 +230,12 @@ current runtime. Even if the given exact vector itself is not included in the cu
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="include(net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == include
 <div class="horizontal-scroll">
@@ -242,18 +259,27 @@ current runtime. Even if the given exact vector itself is not included in the cu
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="setComplete()">
+
 :::tabs
 == setComplete
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setComplete</span>()</div>
 Marks the current context as complete, so that it can not be reused for interactions which
 will follow this one.
-Indicates that an action has been performed using this context, making it invalid.</div>
+Indicates that an action has been performed using this context, making it invalid.
+</div>
 :::
+
+
 </section>
+
 <section id="isComplete()">
+
 :::tabs
 == isComplete
 <div class="horizontal-scroll">
@@ -265,8 +291,12 @@ Indicates if the context is completed or not.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="isSimulation()">
+
 :::tabs
 == isSimulation
 <div class="horizontal-scroll">
@@ -278,8 +308,12 @@ Indicates if the current context that is being executed is supposed to be a simu
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getModeOfOperandus()">
+
 :::tabs
 == getModeOfOperandus
 <div class="horizontal-scroll">
@@ -293,8 +327,12 @@ This indicates if the mode is used for chiseling or placing.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="createSnapshot()">
+
 :::tabs
 == createSnapshot
 <div class="horizontal-scroll">
@@ -308,8 +346,12 @@ A snapshot is automatically a simulation.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="tryDamageItem()">
+
 :::tabs
 == tryDamageItem
 <div class="horizontal-scroll">
@@ -326,8 +368,12 @@ The only case where this method does not return <code>True</code>, is when the i
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="tryDamageItem(int)">
+
 :::tabs
 == tryDamageItem
 <div class="horizontal-scroll">
@@ -345,8 +391,12 @@ The only case where this method does not return <code>True</code>, is when the i
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="tryDamageItemAndDo(java.lang.Runnable,java.lang.Runnable)">
+
 :::tabs
 == tryDamageItemAndDo
 <div class="horizontal-scroll">
@@ -367,8 +417,12 @@ Does exactly 1 damage to the item.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="tryDamageItemAndDoOrSetBrokenError(java.lang.Runnable)">
+
 :::tabs
 == tryDamageItemAndDoOrSetBrokenError
 <div class="horizontal-scroll">
@@ -387,8 +441,12 @@ Does exactly 1 damage to the item.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="tryDamageItemAndDo(int,java.lang.Runnable)">
+
 :::tabs
 == tryDamageItemAndDo
 <div class="horizontal-scroll">
@@ -408,8 +466,12 @@ The total performed damaged is returned by this method, which is always <code>0<
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="tryDamageItemAndDo(int,java.lang.Runnable,java.lang.Runnable)">
+
 :::tabs
 == tryDamageItemAndDo
 <div class="horizontal-scroll">
@@ -431,8 +493,12 @@ The total performed damaged is returned by this method, which is always <code>0<
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="setStateFilter(java.util.function.Function)">
+
 :::tabs
 == setStateFilter
 <div class="horizontal-scroll">
@@ -448,16 +514,25 @@ If this context has currently no mutator available, and gets a mutator available
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="clearStateFilter()">
+
 :::tabs
 == clearStateFilter
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clearStateFilter</span>()</div>
-Clears the state filter which is applied to the <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a> for this context.</div>
+Clears the state filter which is applied to the <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a> for this context.
+</div>
 :::
+
+
 </section>
+
 <section id="getStateFilter()">
+
 :::tabs
 == getStateFilter
 <div class="horizontal-scroll">
@@ -470,8 +545,12 @@ If one is applied.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getMetadata(mod.chiselsandbits.api.chiseling.metadata.IMetadataKey)">
+
 :::tabs
 == getMetadata
 <div class="horizontal-scroll">
@@ -487,8 +566,12 @@ Allows the storage of metadata on the context.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="removeMetadata(mod.chiselsandbits.api.chiseling.metadata.IMetadataKey)">
+
 :::tabs
 == removeMetadata
 <div class="horizontal-scroll">
@@ -500,8 +583,12 @@ Removes the metadata from the context.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="setMetadata(mod.chiselsandbits.api.chiseling.metadata.IMetadataKey,T)">
+
 :::tabs
 == setMetadata
 <div class="horizontal-scroll">
@@ -517,16 +604,25 @@ Allows for the setting of the metadata on the context.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="resetMutator()">
+
 :::tabs
 == resetMutator
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">resetMutator</span>()</div>
-Resets the mutator that is used to handle the current selected area.</div>
+Resets the mutator that is used to handle the current selected area.
+</div>
 :::
+
+
 </section>
+
 <section id="setError(net.minecraft.network.chat.MutableComponent)">
+
 :::tabs
 == setError
 <div class="horizontal-scroll">
@@ -539,8 +635,12 @@ If an error is already set on the context, then subsequent calls to this method 
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getError()">
+
 :::tabs
 == getError
 <div class="horizontal-scroll">
@@ -552,8 +652,12 @@ Returns the error message that is displayed when the chiseling operation fails.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="validateBuildHeights()">
+
 :::tabs
 == validateBuildHeights
 <div class="horizontal-scroll">
@@ -565,7 +669,10 @@ Checks whether the mutator currently modifies blocks outside the levels build he
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

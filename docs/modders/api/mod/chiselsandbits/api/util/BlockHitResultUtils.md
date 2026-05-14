@@ -67,6 +67,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getCenterOfHitObject(net.minecraft.world.phys.BlockHitResult,net.minecraft.world.phys.Vec3)">
+
 :::tabs
 == getCenterOfHitObject
 <div class="horizontal-scroll">
@@ -74,7 +75,10 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  net.minecraft.world.phys.Vec3&nbsp;objectSize)</span></div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

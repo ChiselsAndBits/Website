@@ -86,6 +86,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -97,8 +98,12 @@ The instance of the manager.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getChiseledVariantOf(net.minecraft.world.level.block.state.BlockState)">
+
 :::tabs
 == getChiseledVariantOf
 <div class="horizontal-scroll">
@@ -113,8 +118,12 @@ In general this is material dependent.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getChiseledVariantOf(net.minecraft.world.level.block.Block)">
+
 :::tabs
 == getChiseledVariantOf
 <div class="horizontal-scroll">
@@ -129,8 +138,12 @@ In general this is material dependent.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="getChiseledVariantOf(net.minecraft.world.level.ItemLike)">
+
 :::tabs
 == getChiseledVariantOf
 <div class="horizontal-scroll">
@@ -146,7 +159,10 @@ If an item is passed in which is not a <code>BlockItem</code> then an empty opti
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

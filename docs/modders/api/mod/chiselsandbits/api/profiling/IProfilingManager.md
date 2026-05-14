@@ -78,6 +78,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
+
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -89,8 +90,12 @@ Gives access to the current profiling manager.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="startProfiling(net.minecraft.util.profiling.jfr.Environment)">
+
 :::tabs
 == startProfiling
 <div class="horizontal-scroll">
@@ -104,8 +109,12 @@ Creates a new profiler.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="endProfiling(mod.chiselsandbits.api.profiling.IProfiler)">
+
 :::tabs
 == endProfiling
 <div class="horizontal-scroll">
@@ -119,8 +128,12 @@ Ends the profiling of a given profiler
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="stopProfiling(mod.chiselsandbits.api.profiling.IProfiler)">
+
 :::tabs
 == stopProfiling
 <div class="horizontal-scroll">
@@ -134,7 +147,10 @@ This stops the profiler given and clears out any profiling data, returns the col
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

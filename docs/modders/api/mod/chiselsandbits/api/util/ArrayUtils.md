@@ -70,6 +70,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="multiply(float[],float)">
+
 :::tabs
 == multiply
 <div class="horizontal-scroll">
@@ -85,8 +86,12 @@ Multiplies the given array by the given factor.
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="createDeepClone(T[],java.util.function.IntFunction)">
+
 :::tabs
 == createDeepClone
 <div class="horizontal-scroll">
@@ -95,7 +100,10 @@ Multiplies the given array by the given factor.
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/IntFunction.html" title="class or interface in java.util.function" class="external-link">IntFunction</a>&lt;T[]&gt;&nbsp;arrayCreator)</span></div>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

@@ -97,7 +97,8 @@ Methods inherited from interface&nbsp;java.lang.<a href="https://docs.oracle.com
 == CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">CODEC</span></div>
-The codec that can be used to serialize a state variant.</div>
+The codec that can be used to serialize a state variant.
+</div>
 :::
 
 
@@ -109,7 +110,8 @@ The codec that can be used to serialize a state variant.</div>
 == MAP_CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">com.mojang.serialization.MapCodec&lt;<a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">MAP_CODEC</span></div>
-The map codec that can be used to serialize a state variant.</div>
+The map codec that can be used to serialize a state variant.
+</div>
 :::
 
 
@@ -121,7 +123,8 @@ The map codec that can be used to serialize a state variant.</div>
 == STREAM_CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">STREAM_CODEC</span></div>
-The stream codec that can be used to serialize a state variant.</div>
+The stream codec that can be used to serialize a state variant.
+</div>
 :::
 
 
@@ -137,6 +140,7 @@ The stream codec that can be used to serialize a state variant.</div>
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="provider()">
+
 :::tabs
 == provider
 <div class="horizontal-scroll">
@@ -148,8 +152,12 @@ Returns The provider that created this state variant..
 </dl>
 </div>
 :::
+
+
 </section>
+
 <section id="updateBlockEntity(net.minecraft.world.level.block.entity.BlockEntity)">
+
 :::tabs
 == updateBlockEntity
 <div class="horizontal-scroll">
@@ -159,9 +167,13 @@ Updates a block entity with the correct state of this variant.
     By default, this does nothing, however a particular implementation can decide to properly instantiate it so that
     the model extraction system can provide other minecraft subsystems, like coloring, the correct information needed
     for this variant.
-</p></div>
+</p>
+</div>
 :::
+
+
 </section>
+
 :::::
   
 

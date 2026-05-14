@@ -62,6 +62,7 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getText()">
+
 :::tabs
 == getText
 <div class="horizontal-scroll">
@@ -74,7 +75,10 @@ The text associated with this object.
 </dl>
 </div>
 :::
+
+
 </section>
+
 :::::
   
 

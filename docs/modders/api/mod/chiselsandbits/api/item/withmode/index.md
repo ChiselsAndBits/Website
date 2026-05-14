@@ -50,6 +50,6 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[mod.chiselsandbits.api.item.withmode.group](group/index.md)</td><td></td></tr>
+  <tr><td><a href="group/index.md" title="mod.chiselsandbits.api.item.withmode.group">mod.chiselsandbits.api.item.withmode.group</a></td><td></td></tr>
   </tbody>
 </table>

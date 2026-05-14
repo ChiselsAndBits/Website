@@ -60,6 +60,6 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[mod.chiselsandbits.api.inventory.bit.watchable](watchable/index.md)</td><td></td></tr>
+  <tr><td><a href="watchable/index.md" title="mod.chiselsandbits.api.inventory.bit.watchable">mod.chiselsandbits.api.inventory.bit.watchable</a></td><td></td></tr>
   </tbody>
 </table>

@@ -54,6 +54,6 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[mod.chiselsandbits.api.client.screen.widget](widget/index.md)</td><td></td></tr>
+  <tr><td><a href="widget/index.md" title="mod.chiselsandbits.api.client.screen.widget">mod.chiselsandbits.api.client.screen.widget</a></td><td></td></tr>
   </tbody>
 </table>

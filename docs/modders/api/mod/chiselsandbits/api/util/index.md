@@ -128,6 +128,6 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[mod.chiselsandbits.api.util.constants](constants/index.md)</td><td></td></tr>
+  <tr><td><a href="constants/index.md" title="mod.chiselsandbits.api.util.constants">mod.chiselsandbits.api.util.constants</a></td><td></td></tr>
   </tbody>
 </table>

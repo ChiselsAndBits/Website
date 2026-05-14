@@ -58,9 +58,9 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[mod.chiselsandbits.api.chiseling.conversion](conversion/index.md)</td><td></td></tr>
-  <tr><td>[mod.chiselsandbits.api.chiseling.eligibility](eligibility/index.md)</td><td></td></tr>
-  <tr><td>[mod.chiselsandbits.api.chiseling.metadata](metadata/index.md)</td><td></td></tr>
-  <tr><td>[mod.chiselsandbits.api.chiseling.mode](mode/index.md)</td><td></td></tr>
+  <tr><td><a href="conversion/index.md" title="mod.chiselsandbits.api.chiseling.conversion">mod.chiselsandbits.api.chiseling.conversion</a></td><td></td></tr>
+  <tr><td><a href="eligibility/index.md" title="mod.chiselsandbits.api.chiseling.eligibility">mod.chiselsandbits.api.chiseling.eligibility</a></td><td></td></tr>
+  <tr><td><a href="metadata/index.md" title="mod.chiselsandbits.api.chiseling.metadata">mod.chiselsandbits.api.chiseling.metadata</a></td><td></td></tr>
+  <tr><td><a href="mode/index.md" title="mod.chiselsandbits.api.chiseling.mode">mod.chiselsandbits.api.chiseling.mode</a></td><td></td></tr>
   </tbody>
 </table>

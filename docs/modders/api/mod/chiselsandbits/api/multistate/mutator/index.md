@@ -54,8 +54,8 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[mod.chiselsandbits.api.multistate.mutator.world](world/index.md)</td><td></td></tr>
-  <tr><td>[mod.chiselsandbits.api.multistate.mutator.callback](callback/index.md)</td><td></td></tr>
-  <tr><td>[mod.chiselsandbits.api.multistate.mutator.batched](batched/index.md)</td><td></td></tr>
+  <tr><td><a href="world/index.md" title="mod.chiselsandbits.api.multistate.mutator.world">mod.chiselsandbits.api.multistate.mutator.world</a></td><td></td></tr>
+  <tr><td><a href="callback/index.md" title="mod.chiselsandbits.api.multistate.mutator.callback">mod.chiselsandbits.api.multistate.mutator.callback</a></td><td></td></tr>
+  <tr><td><a href="batched/index.md" title="mod.chiselsandbits.api.multistate.mutator.batched">mod.chiselsandbits.api.multistate.mutator.batched</a></td><td></td></tr>
   </tbody>
 </table>

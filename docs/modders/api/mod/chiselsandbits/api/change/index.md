@@ -50,6 +50,6 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td>[mod.chiselsandbits.api.change.changes](changes/index.md)</td><td></td></tr>
+  <tr><td><a href="changes/index.md" title="mod.chiselsandbits.api.change.changes">mod.chiselsandbits.api.change.changes</a></td><td></td></tr>
   </tbody>
 </table>

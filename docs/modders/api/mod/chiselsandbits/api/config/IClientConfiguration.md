@@ -162,7 +162,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -176,12 +175,8 @@ This configuration does not need to be in-sync with the server values.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getInvertBitBagFullness()">
-
 :::tabs
 == getInvertBitBagFullness
 <div class="horizontal-scroll">
@@ -194,12 +189,8 @@ shows fullness or emptiness.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getSuccessfulPlacementRenderMode()">
-
 :::tabs
 == getSuccessfulPlacementRenderMode
 <div class="horizontal-scroll">
@@ -211,12 +202,8 @@ Determines the render mode used for successful pattern or chiseled block placeme
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getFailedPlacementRenderMode()">
-
 :::tabs
 == getFailedPlacementRenderMode
 <div class="horizontal-scroll">
@@ -228,12 +215,8 @@ Determines the render mode used for successful pattern or chiseled block placeme
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getSuccessfulPlacementColor()">
-
 :::tabs
 == getSuccessfulPlacementColor
 <div class="horizontal-scroll">
@@ -245,12 +228,8 @@ Determines the color used for successful pattern or chiseled block placement.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getNotFittingPatternPlacementColor()">
-
 :::tabs
 == getNotFittingPatternPlacementColor
 <div class="horizontal-scroll">
@@ -262,12 +241,8 @@ Determines the color used for pattern placement which does not fit on the target
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getMissingBitsOrSpacePatternPlacementColor()">
-
 :::tabs
 == getMissingBitsOrSpacePatternPlacementColor
 <div class="horizontal-scroll">
@@ -280,12 +255,8 @@ enough space to pick up the bits.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getPreviewChiselingColor()">
-
 :::tabs
 == getPreviewChiselingColor
 <div class="horizontal-scroll">
@@ -297,12 +268,8 @@ Provides the RGBA color channels for the color of the chiseling outline.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getPreviewPlacementColor()">
-
 :::tabs
 == getPreviewPlacementColor
 <div class="horizontal-scroll">
@@ -314,12 +281,8 @@ Provides the RGBA color channels for the color of the placement outline.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getPreviewRenderer()">
-
 :::tabs
 == getPreviewRenderer
 <div class="horizontal-scroll">
@@ -332,12 +295,8 @@ Returns the id of the preview renderer.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getToolModeRenderer()">
-
 :::tabs
 == getToolModeRenderer
 <div class="horizontal-scroll">
@@ -350,12 +309,8 @@ Returns the id of the tool mode renderer.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getInvertPickBlockBehaviour()">
-
 :::tabs
 == getInvertPickBlockBehaviour
 <div class="horizontal-scroll">
@@ -369,12 +324,8 @@ then the full block is picked and shift needs to be held to pick the bit.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBitStorageContentCacheSize()">
-
 :::tabs
 == getBitStorageContentCacheSize
 <div class="horizontal-scroll">
@@ -386,12 +337,8 @@ Indicates the size of the bit storage content model cache size.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getPrinterContentCacheSize()">
-
 :::tabs
 == getPrinterContentCacheSize
 <div class="horizontal-scroll">
@@ -403,12 +350,8 @@ Indicates the size of the printer content model cache size.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getEnableFaceLightmapExtraction()">
-
 :::tabs
 == getEnableFaceLightmapExtraction
 <div class="horizontal-scroll">
@@ -420,12 +363,8 @@ Indicates if the lightmap values of a face should be used to extract lighting in
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getUseGetLightValue()">
-
 :::tabs
 == getUseGetLightValue
 <div class="horizontal-scroll">
@@ -437,12 +376,8 @@ Indicates if the light emission values of a block should be used to extract ligh
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getEnableMouseIndicatorInRadialMenu()">
-
 :::tabs
 == getEnableMouseIndicatorInRadialMenu
 <div class="horizontal-scroll">
@@ -454,12 +389,8 @@ Indicates if a mouse indicator should be shown when the mouse is in a selection 
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getModelCacheSize()">
-
 :::tabs
 == getModelCacheSize
 <div class="horizontal-scroll">
@@ -471,12 +402,8 @@ Indicates how many block models should be kept in the model cache.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getFaceLayerCacheSize()">
-
 :::tabs
 == getFaceLayerCacheSize
 <div class="horizontal-scroll">
@@ -488,12 +415,8 @@ Indicates how many faces should be kept in the face layer cache.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getModelBuildingThreadCount()">
-
 :::tabs
 == getModelBuildingThreadCount
 <div class="horizontal-scroll">
@@ -505,12 +428,8 @@ Indicates how many threads should be used during building of the model cache.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getClipboardSize()">
-
 :::tabs
 == getClipboardSize
 <div class="horizontal-scroll">
@@ -522,12 +441,8 @@ Indicates the amount of itemstacks that can be stored in the clipboard.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getShouldBrokenBlocksBeAddedToClipboard()">
-
 :::tabs
 == getShouldBrokenBlocksBeAddedToClipboard
 <div class="horizontal-scroll">
@@ -539,12 +454,8 @@ Indicates if a broken chiseled block should be added to the clipboard.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getShouldPickedBlocksBeAddedToClipboard()">
-
 :::tabs
 == getShouldPickedBlocksBeAddedToClipboard
 <div class="horizontal-scroll">
@@ -556,12 +467,8 @@ Indicates if a picked chiseled block should be added to the clipboard.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getPatternExportPath()">
-
 :::tabs
 == getPatternExportPath
 <div class="horizontal-scroll">
@@ -573,12 +480,8 @@ Indicates the path where chisels and bits will export and import patterns from.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getStackModelCacheSize()">
-
 :::tabs
 == getStackModelCacheSize
 <div class="horizontal-scroll">
@@ -590,12 +493,8 @@ Indicates the size of the stack model cache.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getCullTestingCacheSize()">
-
 :::tabs
 == getCullTestingCacheSize
 <div class="horizontal-scroll">
@@ -607,12 +506,8 @@ Indicates the size of the cull testing cache.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getMutatorPreviewChiselingColor()">
-
 :::tabs
 == getMutatorPreviewChiselingColor
 <div class="horizontal-scroll">
@@ -624,12 +519,8 @@ Determines the color used during debug rendering of the mutator area when chisel
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getMutatorPreviewPlacementColor()">
-
 :::tabs
 == getMutatorPreviewPlacementColor
 <div class="horizontal-scroll">
@@ -641,12 +532,8 @@ Determines the color used during debug rendering of the mutator area when placin
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getMutatorPreviewDebug()">
-
 :::tabs
 == getMutatorPreviewDebug
 <div class="horizontal-scroll">
@@ -658,12 +545,8 @@ Indicates if the preview rendering should run in debug mode.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getShowCoolDownError()">
-
 :::tabs
 == getShowCoolDownError
 <div class="horizontal-scroll">
@@ -675,12 +558,8 @@ Indicates if an error notification should be shown when the player attempts to c
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getShouldScrollInteractionsChangeMode()">
-
 :::tabs
 == getShouldScrollInteractionsChangeMode
 <div class="horizontal-scroll">
@@ -692,10 +571,7 @@ Indicates if a scroll interactions should change the mode of a held item.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

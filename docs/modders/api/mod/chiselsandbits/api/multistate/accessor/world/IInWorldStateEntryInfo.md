@@ -92,7 +92,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getBlockPos()">
-
 :::tabs
 == getBlockPos
 <div class="horizontal-scroll">
@@ -104,12 +103,8 @@ The position of the block that this state entry is part of.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getInWorldStartPoint()">
-
 :::tabs
 == getInWorldStartPoint
 <div class="horizontal-scroll">
@@ -123,12 +118,8 @@ The start (lowest on all three axi) position of the state that this entry occupi
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getInWorldEndPoint()">
-
 :::tabs
 == getInWorldEndPoint
 <div class="horizontal-scroll">
@@ -142,12 +133,8 @@ The end (highest on all three axi) position of the state that this entry occupie
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getInWorldCenterPoint()">
-
 :::tabs
 == getInWorldCenterPoint
 <div class="horizontal-scroll">
@@ -159,10 +146,7 @@ The center position of the state that this entry occupies.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

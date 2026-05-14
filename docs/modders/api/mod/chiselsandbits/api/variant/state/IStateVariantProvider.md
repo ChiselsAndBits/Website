@@ -98,7 +98,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getRegistryName()">
-
 :::tabs
 == getRegistryName
 <div class="horizontal-scroll">
@@ -110,12 +109,8 @@ Returns the registry name of the provider.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getStateVariant(net.minecraft.world.level.block.state.BlockState,java.util.Optional)">
-
 :::tabs
 == getStateVariant
 <div class="horizontal-scroll">
@@ -131,12 +126,8 @@ Returns the state variant, if one exists, for the blockstate and block entity co
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getStateVariant(net.minecraft.world.level.material.FluidState)">
-
 :::tabs
 == getStateVariant
 <div class="horizontal-scroll">
@@ -150,12 +141,8 @@ Returns the state variant, if one exists, for the fluid state.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getStateVariant(net.minecraft.world.level.block.state.BlockState,net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == getStateVariant
 <div class="horizontal-scroll">
@@ -171,12 +158,8 @@ Returns the state variant, if one exists, for the block state and item stack com
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getStateVariant(com.communi.suggestu.scena.core.fluid.FluidInformation)">
-
 :::tabs
 == getStateVariant
 <div class="horizontal-scroll">
@@ -190,12 +173,8 @@ Returns the state variant, if one exists, for the fluid information.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getAllDefaultVariants(net.minecraft.world.level.block.state.BlockState)">
-
 :::tabs
 == getAllDefaultVariants
 <div class="horizontal-scroll">
@@ -209,12 +188,8 @@ Returns all the default variants for the given block state.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getItemStack(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == getItemStack
 <div class="horizontal-scroll">
@@ -228,12 +203,8 @@ Returns the item stack for the given state variant.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getFluidInformation(mod.chiselsandbits.api.variant.state.IStateVariant,long)">
-
 :::tabs
 == getFluidInformation
 <div class="horizontal-scroll">
@@ -249,12 +220,8 @@ Returns the fluid information for the given state variant.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getName(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == getName
 <div class="horizontal-scroll">
@@ -268,12 +235,8 @@ Returns the name of the given state variant.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="mapCodec()">
-
 :::tabs
 == mapCodec
 <div class="horizontal-scroll">
@@ -285,12 +248,8 @@ Returns the map codec for the state variant.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="streamCodec()">
-
 :::tabs
 == streamCodec
 <div class="horizontal-scroll">
@@ -302,12 +261,8 @@ Returns the stream codec for the state variant.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="setFullBlock(net.minecraft.world.level.LevelAccessor,net.minecraft.core.BlockPos,mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == setFullBlock
 <div class="horizontal-scroll">
@@ -323,12 +278,8 @@ Sets the full block at the given position.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBeaconColorMultiplier(mod.chiselsandbits.api.blockinformation.BlockInformation,net.minecraft.world.level.LevelReader,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos)">
-
 :::tabs
 == getBeaconColorMultiplier
 <div class="horizontal-scroll">
@@ -349,10 +300,7 @@ Returns the beacon color multiplier for the given block information.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

@@ -81,7 +81,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -93,18 +92,13 @@ Gives access to the bit inventory manager.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="create(net.minecraft.world.entity.player.Player)">
-
 :::tabs
 == create
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../bit/IBitInventory.html" title="interface in mod.chiselsandbits.api.inventory.bit">IBitInventory</a></span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</span></div>
 Creates a new bit inventory wrapping the inventory of the player.
-
 This player inventory is aware of items which themselves can act
 as a bit inventory.
 <dl class="notes">
@@ -115,21 +109,15 @@ as a bit inventory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="create(java.lang.Object)">
-
 :::tabs
 == create
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../bit/IBitInventory.html" title="interface in mod.chiselsandbits.api.inventory.bit">IBitInventory</a></span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;target)</span></div>
 Creates a new bit inventory wrapping the given <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link"><code>Object</code></a>.
-
 This inventory is aware of items which themselves can act
 as a bit inventory.
-
 This endpoint is platform specific and might or might not be able to convert the object given.
 Importantly on forge this endpoint is able to accept IItemHandlers, while on Fabric it will only support
 IInventory.
@@ -141,18 +129,13 @@ IInventory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="create(net.minecraft.world.Container)">
-
 :::tabs
 == create
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../bit/IBitInventory.html" title="interface in mod.chiselsandbits.api.inventory.bit">IBitInventory</a></span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(net.minecraft.world.Container&nbsp;inventory)</span></div>
 Creates a new bit inventory wrapping the given inventory.
-
 This inventory is aware of items which themselves can act
 as a bit inventory.
 <dl class="notes">
@@ -163,12 +146,8 @@ as a bit inventory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="create(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == create
 <div class="horizontal-scroll">
@@ -182,10 +161,7 @@ Creates a new bit inventory wrapping the given itemstack.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

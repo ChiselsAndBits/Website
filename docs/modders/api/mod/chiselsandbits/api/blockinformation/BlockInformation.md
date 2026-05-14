@@ -232,31 +232,22 @@ Creates an instance of a <code>BlockInformation</code> record class.
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="isFluid()">
-
 :::tabs
 == isFluid
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isFluid</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="isAir()">
-
 :::tabs
 == isAir
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isAir</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="createSnapshot()">
-
 :::tabs
 == createSnapshot
 <div class="horizontal-scroll">
@@ -267,12 +258,8 @@ Creates an instance of a <code>BlockInformation</code> record class.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="compareTo(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == compareTo
 <div class="horizontal-scroll">
@@ -284,12 +271,8 @@ Creates an instance of a <code>BlockInformation</code> record class.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="codec()">
-
 :::tabs
 == codec
 <div class="horizontal-scroll">
@@ -306,12 +289,8 @@ Returns The codec used for direct serialization..
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="mapCodec()">
-
 :::tabs
 == mapCodec
 <div class="horizontal-scroll">
@@ -328,12 +307,8 @@ Returns The codec used for complex serialization..
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="streamCodec()">
-
 :::tabs
 == streamCodec
 <div class="horizontal-scroll">
@@ -350,12 +325,8 @@ Returns The codec used for streaming serialization..
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="newBlockEntityAtZero()">
-
 :::tabs
 == newBlockEntityAtZero
 <div class="horizontal-scroll">
@@ -363,12 +334,8 @@ Returns The codec used for streaming serialization..
 </span><span class="modifiers">public</span>&nbsp;<span class="return-type">@Nullable net.minecraft.world.level.block.entity.BlockEntity</span>&nbsp;<span class="element-name">newBlockEntityAtZero</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="newBlockEntity(net.minecraft.core.BlockPos)">
-
 :::tabs
 == newBlockEntity
 <div class="horizontal-scroll">
@@ -376,12 +343,8 @@ Returns The codec used for streaming serialization..
 </span><span class="modifiers">public</span>&nbsp;<span class="return-type">@Nullable net.minecraft.world.level.block.entity.BlockEntity</span>&nbsp;<span class="element-name">newBlockEntity</span><wbr><span class="parameters">(net.minecraft.core.BlockPos&nbsp;pos)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="toString()">
-
 :::tabs
 == toString
 <div class="horizontal-scroll">
@@ -395,12 +358,8 @@ Returns a string representation of this record class. The representation contain
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="hashCode()">
-
 :::tabs
 == hashCode
 <div class="horizontal-scroll">
@@ -414,12 +373,8 @@ Returns a hash code value for this object. The value is derived from the hash co
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="equals(java.lang.Object)">
-
 :::tabs
 == equals
 <div class="horizontal-scroll">
@@ -435,12 +390,8 @@ Indicates whether some other object is "equal to" this one. The objects are equa
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="blockState()">
-
 :::tabs
 == blockState
 <div class="horizontal-scroll">
@@ -452,12 +403,8 @@ Returns the value of the <code>blockState</code> record component.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="variant()">
-
 :::tabs
 == variant
 <div class="horizontal-scroll">
@@ -469,10 +416,7 @@ Returns the value of the <code>variant</code> record component.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

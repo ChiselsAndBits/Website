@@ -150,7 +150,6 @@ with the RGB value specified by the result of placement</div>
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="values()">
-
 :::tabs
 == values
 <div class="horizontal-scroll">
@@ -163,12 +162,8 @@ the order they are declared.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="valueOf(java.lang.String)">
-
 :::tabs
 == valueOf
 <div class="horizontal-scroll">
@@ -188,46 +183,31 @@ not permitted.)
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="isGhost()">
-
 :::tabs
 == isGhost
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isGhost</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="isColoredGhost()">
-
 :::tabs
 == isColoredGhost
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isColoredGhost</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="isWireframe()">
-
 :::tabs
 == isWireframe
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isWireframe</span>()</div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

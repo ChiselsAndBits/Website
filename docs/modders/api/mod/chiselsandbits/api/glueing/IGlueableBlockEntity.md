@@ -82,65 +82,45 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="blockGetter()">
-
 :::tabs
 == blockGetter
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.level.BlockGetter</span>&nbsp;<span class="element-name">blockGetter</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="blockPos()">
-
 :::tabs
 == blockPos
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.core.BlockPos</span>&nbsp;<span class="element-name">blockPos</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="gluedSides()">
-
 :::tabs
 == gluedSides
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/EnumSet.html" title="class or interface in java.util" class="external-link">EnumSet</a>&lt;net.minecraft.core.Direction&gt;</span>&nbsp;<span class="element-name">gluedSides</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="createGluedDrop()">
-
 :::tabs
 == createGluedDrop
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">createGluedDrop</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="connectedPositions()">
-
 :::tabs
 == connectedPositions
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link">Set</a>&lt;net.minecraft.core.BlockPos&gt;</span>&nbsp;<span class="element-name">connectedPositions</span>()</div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

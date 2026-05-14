@@ -210,7 +210,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -222,12 +221,8 @@ Gives access to the api instance.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getAccessorFactory()">
-
 :::tabs
 == getAccessorFactory
 <div class="horizontal-scroll">
@@ -240,12 +235,8 @@ Gives access to the factory that can produce different accessors.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getMutatorFactory()">
-
 :::tabs
 == getMutatorFactory
 <div class="horizontal-scroll">
@@ -258,12 +249,8 @@ Gives access to the factory that can produce different mutators.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getEligibilityManager()">
-
 :::tabs
 == getEligibilityManager
 <div class="horizontal-scroll">
@@ -276,12 +263,8 @@ Manager which deals with chiseling eligibility.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getConversionManager()">
-
 :::tabs
 == getConversionManager
 <div class="horizontal-scroll">
@@ -295,12 +278,8 @@ variants.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getVoxelShapeManager()">
-
 :::tabs
 == getVoxelShapeManager
 <div class="horizontal-scroll">
@@ -314,12 +293,8 @@ can be constructed from a given area.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getMultiStateItemFactory()">
-
 :::tabs
 == getMultiStateItemFactory
 <div class="horizontal-scroll">
@@ -332,12 +307,8 @@ A factory which can produce a multistate item from a given source.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getDefaultChiselMode()">
-
 :::tabs
 == getDefaultChiselMode
 <div class="horizontal-scroll">
@@ -350,12 +321,8 @@ Represents the default mode for the chiseling system.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getRegistryManager()">
-
 :::tabs
 == getRegistryManager
 <div class="horizontal-scroll">
@@ -368,12 +335,8 @@ Gives access to all registries which are used by chisels and bits.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getChiselingManager()">
-
 :::tabs
 == getChiselingManager
 <div class="horizontal-scroll">
@@ -386,12 +349,8 @@ Gives access to the manager which controls chiseling operations.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getConfiguration()">
-
 :::tabs
 == getConfiguration
 <div class="horizontal-scroll">
@@ -403,12 +362,8 @@ The configuration on top of which chisels and bits is running.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBlockStateIdManager()">
-
 :::tabs
 == getBlockStateIdManager
 <div class="horizontal-scroll">
@@ -421,12 +376,8 @@ The manager which deals with calculating the given blockstate ids in the current
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBitInventoryManager()">
-
 :::tabs
 == getBitInventoryManager
 <div class="horizontal-scroll">
@@ -440,12 +391,8 @@ These special bit inventories respect the core interfaces that make up an object
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBitItemManager()">
-
 :::tabs
 == getBitItemManager
 <div class="horizontal-scroll">
@@ -459,12 +406,8 @@ Allows for the creation of bit based itemstacks.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getMeasuringManager()">
-
 :::tabs
 == getMeasuringManager
 <div class="horizontal-scroll">
@@ -478,12 +421,8 @@ Gives access to measurements created by a given player.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getStateEntrySize()">
-
 :::tabs
 == getStateEntrySize
 <div class="horizontal-scroll">
@@ -496,12 +435,8 @@ Represents the size of the bits in the current instance.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getProfilingManager()">
-
 :::tabs
 == getProfilingManager
 <div class="horizontal-scroll">
@@ -514,12 +449,8 @@ The profiling manager, allows for the profiling of operations related Chisels an
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getLocalChiselingContextCache()">
-
 :::tabs
 == getLocalChiselingContextCache
 <div class="horizontal-scroll">
@@ -534,12 +465,8 @@ without it becoming the active context for that player.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getChangeTrackerManager()">
-
 :::tabs
 == getChangeTrackerManager
 <div class="horizontal-scroll">
@@ -553,12 +480,8 @@ Gives access to each players change tracker.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBlockNeighborhoodBuilder()">
-
 :::tabs
 == getBlockNeighborhoodBuilder
 <div class="horizontal-scroll">
@@ -572,12 +495,8 @@ Allows for building block specific cache keys when the block environment is requ
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getDefaultModificationOperation()">
-
 :::tabs
 == getDefaultModificationOperation
 <div class="horizontal-scroll">
@@ -590,12 +509,8 @@ The default mode for performing modification operations if no other is supplied.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getPluginManager()">
-
 :::tabs
 == getPluginManager
 <div class="horizontal-scroll">
@@ -608,12 +523,8 @@ Gives access to the plugin manager that is used to process chisels and bits plug
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getChiselContextPreviewRendererRegistry()">
-
 :::tabs
 == getChiselContextPreviewRendererRegistry
 <div class="horizontal-scroll">
@@ -626,12 +537,8 @@ Gives access to the chisel context preview renderer registry.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getSelectedToolModeIconRenderer()">
-
 :::tabs
 == getSelectedToolModeIconRenderer
 <div class="horizontal-scroll">
@@ -644,12 +551,8 @@ Gives access to the selected tool mode icon renderer registry.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getForcedTag()">
-
 :::tabs
 == getForcedTag
 <div class="horizontal-scroll">
@@ -662,12 +565,8 @@ Returns the tag used in the eligibility system to force compatibility.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBlockedTag()">
-
 :::tabs
 == getBlockedTag
 <div class="horizontal-scroll">
@@ -680,12 +579,8 @@ Returns the tag used in the eligibility system to block compatibility.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getPermissionHandler()">
-
 :::tabs
 == getPermissionHandler
 <div class="horizontal-scroll">
@@ -699,12 +594,8 @@ is chiselable or not.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getCreativeClipboardManager()">
-
 :::tabs
 == getCreativeClipboardManager
 <div class="horizontal-scroll">
@@ -717,12 +608,8 @@ Returns the clipboard manager for the creative clipboard.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getPatternSharingManager()">
-
 :::tabs
 == getPatternSharingManager
 <div class="horizontal-scroll">
@@ -736,12 +623,8 @@ This manager only works on the client side, and will do nothing on the server si
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getNotificationManager()">
-
 :::tabs
 == getNotificationManager
 <div class="horizontal-scroll">
@@ -754,12 +637,8 @@ Handles showing notifications to the player.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getStateVariantManager()">
-
 :::tabs
 == getStateVariantManager
 <div class="horizontal-scroll">
@@ -767,12 +646,8 @@ Handles showing notifications to the player.
 </span><span class="return-type">@NotNull <a href="variant/state/IStateVariantManager.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariantManager</a></span>&nbsp;<span class="element-name">getStateVariantManager</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getDefaultCuttingOperation()">
-
 :::tabs
 == getDefaultCuttingOperation
 <div class="horizontal-scroll">
@@ -780,12 +655,8 @@ Handles showing notifications to the player.
 </span><span class="return-type">@NotNull <a href="cutting/operation/ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a></span>&nbsp;<span class="element-name">getDefaultCuttingOperation</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getDefaultGlueingOperation()">
-
 :::tabs
 == getDefaultGlueingOperation
 <div class="horizontal-scroll">
@@ -793,12 +664,8 @@ Handles showing notifications to the player.
 </span><span class="return-type">@NotNull <a href="glueing/operation/IGlueingOperation.html" title="interface in mod.chiselsandbits.api.glueing.operation">IGlueingOperation</a></span>&nbsp;<span class="element-name">getDefaultGlueingOperation</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getSnapshotFactory()">
-
 :::tabs
 == getSnapshotFactory
 <div class="horizontal-scroll">
@@ -806,12 +673,8 @@ Handles showing notifications to the player.
 </span><span class="return-type">@NotNull <a href="multistate/snapshot/ISnapshotFactory.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">ISnapshotFactory</a></span>&nbsp;<span class="element-name">getSnapshotFactory</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getEligibilityOptions()">
-
 :::tabs
 == getEligibilityOptions
 <div class="horizontal-scroll">
@@ -819,12 +682,8 @@ Handles showing notifications to the player.
 </span><span class="return-type">@NotNull <a href="chiseling/eligibility/IEligibilityOptions.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityOptions</a></span>&nbsp;<span class="element-name">getEligibilityOptions</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getAdaptingBitInventoryManager()">
-
 :::tabs
 == getAdaptingBitInventoryManager
 <div class="horizontal-scroll">
@@ -832,12 +691,8 @@ Handles showing notifications to the player.
 </span><span class="return-type">@NotNull <a href="inventory/bit/IAdaptingBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.bit">IAdaptingBitInventoryManager</a></span>&nbsp;<span class="element-name">getAdaptingBitInventoryManager</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getPluginDiscoverer()">
-
 :::tabs
 == getPluginDiscoverer
 <div class="horizontal-scroll">
@@ -845,12 +700,8 @@ Handles showing notifications to the player.
 </span><span class="return-type">@NotNull <a href="plugin/IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></span>&nbsp;<span class="element-name">getPluginDiscoverer</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getClientStateVariantManager()">
-
 :::tabs
 == getClientStateVariantManager
 <div class="horizontal-scroll">
@@ -858,12 +709,8 @@ Handles showing notifications to the player.
 </span><span class="return-type">@NotNull <a href="client/variant/state/IClientStateVariantManager.html" title="interface in mod.chiselsandbits.api.client.variant.state">IClientStateVariantManager</a></span>&nbsp;<span class="element-name">getClientStateVariantManager</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getLaunchPropertyManager()">
-
 :::tabs
 == getLaunchPropertyManager
 <div class="horizontal-scroll">
@@ -871,12 +718,8 @@ Handles showing notifications to the player.
 </span><span class="return-type">@NotNull <a href="launch/ILaunchPropertyManager.html" title="interface in mod.chiselsandbits.api.launch">ILaunchPropertyManager</a></span>&nbsp;<span class="element-name">getLaunchPropertyManager</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getIconManager()">
-
 :::tabs
 == getIconManager
 <div class="horizontal-scroll">
@@ -884,10 +727,7 @@ Handles showing notifications to the player.
 </span><span class="return-type">@NotNull <a href="client/icon/IIconManager.html" title="interface in mod.chiselsandbits.api.client.icon">IIconManager</a></span>&nbsp;<span class="element-name">getIconManager</span>()</div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

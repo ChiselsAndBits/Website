@@ -79,19 +79,14 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="identity()">
-
 :::tabs
 == identity
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IMeasuringType.IClickedPositionAdapter.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringType.IClickedPositionAdapter</a></span>&nbsp;<span class="element-name">identity</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="adapt(net.minecraft.world.phys.BlockHitResult)">
-
 :::tabs
 == adapt
 <div class="horizontal-scroll">
@@ -100,10 +95,7 @@ Method Summary
  @NotNull net.minecraft.world.phys.BlockHitResult&nbsp;startPosition)</span></div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

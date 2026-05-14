@@ -114,7 +114,6 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getDefaultMode()">
-
 :::tabs
 == getDefaultMode
 <div class="horizontal-scroll">
@@ -126,12 +125,8 @@ The default mode of the chisel or bit.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getRegistry()">
-
 :::tabs
 == getRegistry
 <div class="horizontal-scroll">
@@ -143,12 +138,8 @@ The underlying registry that contains the different modes a chisel can assume.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="onLeftClickBy(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.IChiselingContext)">
-
 :::tabs
 == onLeftClickBy
 <div class="horizontal-scroll">
@@ -164,19 +155,14 @@ Invoked by the system when a chisel or a bit is left clicked to perform an assoc
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="onStoppedLeftClicking(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.IChiselingContext)">
-
 :::tabs
 == onStoppedLeftClicking
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onStoppedLeftClicking</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</span></div>
 Invoked by the system when the player has released the left click button.
-
 Currently not invoked by the system. Future endpoint.
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -185,12 +171,8 @@ Currently not invoked by the system. Future endpoint.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="onRightClickBy(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.IChiselingContext)">
-
 :::tabs
 == onRightClickBy
 <div class="horizontal-scroll">
@@ -206,19 +188,14 @@ Invoked by the system when a chisel or a bit is right clicked to perform an asso
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="onStoppedRightClicking(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.IChiselingContext)">
-
 :::tabs
 == onStoppedRightClicking
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onStoppedRightClicking</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</span></div>
 Invoked by the system when the player has released the right click button.
-
 Currently not invoked by the system. Future endpoint.
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -227,12 +204,8 @@ Currently not invoked by the system. Future endpoint.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getCurrentAccessor(mod.chiselsandbits.api.chiseling.IChiselingContext)">
-
 :::tabs
 == getCurrentAccessor
 <div class="horizontal-scroll">
@@ -246,12 +219,8 @@ Performs an extraction and potential modification of the accessor for the given 
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="isStillValid(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.IChiselingContext,mod.chiselsandbits.api.chiseling.ChiselingOperation)">
-
 :::tabs
 == isStillValid
 <div class="horizontal-scroll">
@@ -269,12 +238,8 @@ Checks if the passed context is still valid for the given entity.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="requiresPlaceableEditStack()">
-
 :::tabs
 == requiresPlaceableEditStack
 <div class="horizontal-scroll">
@@ -287,12 +252,8 @@ Useful when placement and removal perform the same task AND requires a bit to be
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getShape(mod.chiselsandbits.api.chiseling.IChiselingContext)">
-
 :::tabs
 == getShape
 <div class="horizontal-scroll">
@@ -309,12 +270,8 @@ This is the general shape, so a sphere, cube, or line any area specific changes 
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="isSingleClickUse()">
-
 :::tabs
 == isSingleClickUse
 <div class="horizontal-scroll">
@@ -326,10 +283,7 @@ Indicates if this mode requires a single click to trigger or not.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

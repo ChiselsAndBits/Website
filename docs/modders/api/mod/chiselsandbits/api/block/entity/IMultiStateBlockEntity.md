@@ -108,7 +108,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="isCanBeFlooded()">
-
 :::tabs
 == isCanBeFlooded
 <div class="horizontal-scroll">
@@ -120,12 +119,8 @@ Indicates whether the current block entity can be flooded with water.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="setCanBeFlooded(boolean)">
-
 :::tabs
 == setCanBeFlooded
 <div class="horizontal-scroll">
@@ -137,12 +132,8 @@ Sets the flooding indicator.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="isEmitsLightBasedOnFullBlock()">
-
 :::tabs
 == isEmitsLightBasedOnFullBlock
 <div class="horizontal-scroll">
@@ -154,12 +145,8 @@ Indicates whether the lighting conditions of the block are based on the amount o
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="setEmitsLightBasedOnFullBlock(boolean)">
-
 :::tabs
 == setEmitsLightBasedOnFullBlock
 <div class="horizontal-scroll">
@@ -171,12 +158,8 @@ Sets the lighting conditions indicator.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getStatistics()">
-
 :::tabs
 == getStatistics
 <div class="horizontal-scroll">
@@ -190,12 +173,8 @@ The statistics of this block.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="rotate(net.minecraft.core.Direction.Axis,int)">
-
 :::tabs
 == rotate
 <div class="horizontal-scroll">
@@ -211,12 +190,8 @@ Rotates the current multistate block 90 degrees around the given axis with the g
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="initializeWith(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == initializeWith
 <div class="horizontal-scroll">
@@ -229,12 +204,8 @@ have the given block information as their block information.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getShape(mod.chiselsandbits.api.axissize.CollisionType)">
-
 :::tabs
 == getShape
 <div class="horizontal-scroll">
@@ -248,12 +219,8 @@ Returns the current blocks shape for the given collision type.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBlockStack()">
-
 :::tabs
 == getBlockStack
 <div class="horizontal-scroll">
@@ -265,10 +232,7 @@ Creates an <code>ItemStack</code> for placement as a block.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

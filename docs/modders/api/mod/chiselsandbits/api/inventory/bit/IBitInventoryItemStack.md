@@ -104,7 +104,6 @@ Methods inherited from interface&nbsp;net.minecraft.world.ClearableclearContentM
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="toItemStack()">
-
 :::tabs
 == toItemStack
 <div class="horizontal-scroll">
@@ -116,12 +115,8 @@ Converts this bit inventory into an itemstack.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="listContents()">
-
 :::tabs
 == listContents
 <div class="horizontal-scroll">
@@ -133,12 +128,8 @@ This lists the contents of the itemstacks bit inventory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getFilledRatio()">
-
 :::tabs
 == getFilledRatio
 <div class="horizontal-scroll">
@@ -151,12 +142,8 @@ Useful to render the fullness ration as durability bar on the item.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="clear(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == clear
 <div class="horizontal-scroll">
@@ -168,34 +155,23 @@ Clears the bit inventory of the current state.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="sort()">
-
 :::tabs
 == sort
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">sort</span>()</div>
 Sorts the bit inventory.</div>
 :::
-
-
 </section>
-
 <section id="convert(net.minecraft.world.entity.player.Player)">
-
 :::tabs
 == convert
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">convert</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span></div>
 Converts the inventory into blocks</div>
 :::
-
-
 </section>
-
 :::::
   
 

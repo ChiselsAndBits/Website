@@ -108,7 +108,6 @@ Creates an instance of a <code>PluginData</code> record class.
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="toString()">
-
 :::tabs
 == toString
 <div class="horizontal-scroll">
@@ -122,12 +121,8 @@ Returns a string representation of this record class. The representation contain
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="hashCode()">
-
 :::tabs
 == hashCode
 <div class="horizontal-scroll">
@@ -141,12 +136,8 @@ Returns a hash code value for this object. The value is derived from the hash co
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="equals(java.lang.Object)">
-
 :::tabs
 == equals
 <div class="horizontal-scroll">
@@ -162,12 +153,8 @@ Indicates whether some other object is "equal to" this one. The objects are equa
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="plugin()">
-
 :::tabs
 == plugin
 <div class="horizontal-scroll">
@@ -179,10 +166,7 @@ Returns the value of the <code>plugin</code> record component.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

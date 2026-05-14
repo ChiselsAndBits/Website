@@ -70,7 +70,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getRandomSupportedInformation(net.minecraft.util.RandomSource)">
-
 :::tabs
 == getRandomSupportedInformation
 <div class="horizontal-scroll">
@@ -84,12 +83,8 @@ Gets a random chiselable block information from the blocks in the registry.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getRandomSupportedInformation(net.minecraft.util.RandomSource,int)">
-
 :::tabs
 == getRandomSupportedInformation
 <div class="horizontal-scroll">
@@ -105,10 +100,7 @@ Gets a random chiselable block information from the blocks in the registry.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

@@ -73,7 +73,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getColorVector()">
-
 :::tabs
 == getColorVector
 <div class="horizontal-scroll">
@@ -86,12 +85,8 @@ The color used to render.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getAlphaChannel()">
-
 :::tabs
 == getAlphaChannel
 <div class="horizontal-scroll">
@@ -104,10 +99,7 @@ By default, this is 1.0.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

@@ -76,7 +76,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="rotate(net.minecraft.core.Direction.Axis,int)">
-
 :::tabs
 == rotate
 <div class="horizontal-scroll">
@@ -90,12 +89,8 @@ Rotates the current multistate block 90 degrees around the given axis with the g
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="rotate(net.minecraft.core.Direction.Axis)">
-
 :::tabs
 == rotate
 <div class="horizontal-scroll">
@@ -107,12 +102,8 @@ Rotates the current multistate block exactly once 90 degrees around the given ax
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="mirror(net.minecraft.core.Direction.Axis)">
-
 :::tabs
 == mirror
 <div class="horizontal-scroll">
@@ -124,10 +115,7 @@ Mirrors the current multistate block around the given axis.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

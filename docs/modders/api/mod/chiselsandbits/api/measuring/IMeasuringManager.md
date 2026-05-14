@@ -98,19 +98,14 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getInWorld(net.minecraft.world.level.Level)">
-
 :::tabs
 == getInWorld
 <div class="horizontal-scroll">
@@ -124,12 +119,8 @@ Determines the active measurements in a given world.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getInWorld(net.minecraft.resources.Identifier)">
-
 :::tabs
 == getInWorld
 <div class="horizontal-scroll">
@@ -143,12 +134,8 @@ Determines the active measurements in a given world which is identified by the g
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getForPlayer(net.minecraft.world.entity.player.Player)">
-
 :::tabs
 == getForPlayer
 <div class="horizontal-scroll">
@@ -162,12 +149,8 @@ Determines the active measurements for a given player.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getForPlayer(java.util.UUID)">
-
 :::tabs
 == getForPlayer
 <div class="horizontal-scroll">
@@ -181,12 +164,8 @@ Determines the active measurements for a given player represented by his unique 
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="create(net.minecraft.world.level.Level,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction,mod.chiselsandbits.api.measuring.IMeasuringMode)">
-
 :::tabs
 == create
 <div class="horizontal-scroll">
@@ -210,12 +189,8 @@ Creates a new measurement for the given player in the given world.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="resetMeasurementsFor(net.minecraft.world.entity.player.Player)">
-
 :::tabs
 == resetMeasurementsFor
 <div class="horizontal-scroll">
@@ -227,12 +202,8 @@ Resets all measurements for a given player. (Removing them from the game and mem
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="resetMeasurementsFor(java.util.UUID)">
-
 :::tabs
 == resetMeasurementsFor
 <div class="horizontal-scroll">
@@ -244,10 +215,7 @@ Resets all measurements for a given player represented by the given id. (Removin
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

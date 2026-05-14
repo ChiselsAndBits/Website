@@ -106,43 +106,30 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="deserialize(java.lang.String)">
-
 :::tabs
 == deserialize
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">com.mojang.serialization.DataResult&lt;net.minecraft.world.level.block.state.BlockState&gt;</span>&nbsp;<span class="element-name">deserialize</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;string)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="serialize(net.minecraft.world.level.block.state.BlockState)">
-
 :::tabs
 == serialize
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">serialize</span><wbr><span class="parameters">(net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="deserialize(net.minecraft.network.FriendlyByteBuf)">
-
 :::tabs
 == deserialize
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.level.block.state.BlockState</span>&nbsp;<span class="element-name">deserialize</span><wbr><span class="parameters">(net.minecraft.network.FriendlyByteBuf&nbsp;buffer)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="serialize(net.minecraft.network.FriendlyByteBuf,net.minecraft.world.level.block.state.BlockState)">
-
 :::tabs
 == serialize
 <div class="horizontal-scroll">
@@ -150,10 +137,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</span></div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

@@ -62,7 +62,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="seal(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == seal
 <div class="horizontal-scroll">
@@ -81,10 +80,7 @@ Performs the sealing operation on the given itemstack.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

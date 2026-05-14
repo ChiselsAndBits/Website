@@ -71,7 +71,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="canUndo(net.minecraft.world.entity.player.Player)">
-
 :::tabs
 == canUndo
 <div class="horizontal-scroll">
@@ -85,12 +84,8 @@ Checks if the change can still be undone.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="canRedo(net.minecraft.world.entity.player.Player)">
-
 :::tabs
 == canRedo
 <div class="horizontal-scroll">
@@ -104,12 +99,8 @@ Checks if the change can still be redone.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="undo(net.minecraft.world.entity.player.Player)">
-
 :::tabs
 == undo
 <div class="horizontal-scroll">
@@ -124,12 +115,8 @@ Undoes the change.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="redo(net.minecraft.world.entity.player.Player)">
-
 :::tabs
 == redo
 <div class="horizontal-scroll">
@@ -144,10 +131,7 @@ Redoes the change
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

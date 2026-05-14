@@ -65,7 +65,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getId()">
-
 :::tabs
 == getId
 <div class="horizontal-scroll">
@@ -78,12 +77,8 @@ Used to give the player a selection option for the preview renderer.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="renderExistingContextsBoundingBox(net.minecraft.client.renderer.LevelRenderer,com.mojang.blaze3d.vertex.PoseStack,net.minecraft.client.renderer.MultiBufferSource.BufferSource,net.minecraft.client.renderer.state.level.LevelRenderState,float,mod.chiselsandbits.api.chiseling.IChiselingContext)">
-
 :::tabs
 == renderExistingContextsBoundingBox
 <div class="horizontal-scroll">
@@ -105,10 +100,7 @@ Invoked by the engine to render previews of the given <a href="../../../../chise
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

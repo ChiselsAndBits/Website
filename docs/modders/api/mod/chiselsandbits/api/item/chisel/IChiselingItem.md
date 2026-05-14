@@ -67,17 +67,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.click.<a href=
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="isDamageableDuringChiseling()">
-
 :::tabs
 == isDamageableDuringChiseling
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isDamageableDuringChiseling</span>()</div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

@@ -254,7 +254,6 @@ Creates an instance of a <code>StateEntryPalette</code> record class.
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="paletteEntries()">
-
 :::tabs
 == paletteEntries
 <div class="horizontal-scroll">
@@ -266,12 +265,8 @@ Returns the value of the <code>paletteEntries</code> record component.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="paletteMap()">
-
 :::tabs
 == paletteMap
 <div class="horizontal-scroll">
@@ -283,72 +278,48 @@ Returns the value of the <code>paletteMap</code> record component.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="size()">
-
 :::tabs
 == size
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">long</span>&nbsp;<span class="element-name">size</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getIndex(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == getIndex
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</span>&nbsp;<span class="element-name">getIndex</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;state)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="getBlockState(int)">
-
 :::tabs
 == getBlockState
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getBlockState</span><wbr><span class="parameters">(int&nbsp;blockStateId)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="clear()">
-
 :::tabs
 == clear
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</span>&nbsp;<span class="element-name">clear</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="states()">
-
 :::tabs
 == states
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">states</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="toString()">
-
 :::tabs
 == toString
 <div class="horizontal-scroll">
@@ -362,12 +333,8 @@ Returns a string representation of this record class. The representation contain
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="hashCode()">
-
 :::tabs
 == hashCode
 <div class="horizontal-scroll">
@@ -381,12 +348,8 @@ Returns a hash code value for this object. The value is derived from the hash co
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="equals(java.lang.Object)">
-
 :::tabs
 == equals
 <div class="horizontal-scroll">
@@ -402,10 +365,7 @@ Indicates whether some other object is "equal to" this one. The objects are equa
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

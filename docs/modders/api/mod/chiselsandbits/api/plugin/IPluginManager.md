@@ -75,7 +75,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -87,12 +86,8 @@ The instance of the plugin manager.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getPlugins()">
-
 :::tabs
 == getPlugins
 <div class="horizontal-scroll">
@@ -104,12 +99,8 @@ Gets the plugins.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="run(java.lang.String,java.util.function.Consumer)">
-
 :::tabs
 == run
 <div class="horizontal-scroll">
@@ -123,10 +114,7 @@ Runs a specific task on all available plugins.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

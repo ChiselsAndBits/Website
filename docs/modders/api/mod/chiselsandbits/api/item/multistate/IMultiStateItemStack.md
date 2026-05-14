@@ -76,7 +76,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="toBlockStack()">
-
 :::tabs
 == toBlockStack
 <div class="horizontal-scroll">
@@ -88,12 +87,8 @@ Converts this multistate itemstack data to an actual use able itemstack.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="toPatternStack()">
-
 :::tabs
 == toPatternStack
 <div class="horizontal-scroll">
@@ -106,24 +101,16 @@ By default converts this into a single use pattern.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="writeDataTo(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == writeDataTo
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">writeDataTo</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
 Writes the state data to the itemstack.</div>
 :::
-
-
 </section>
-
 <section id="copy()">
-
 :::tabs
 == copy
 <div class="horizontal-scroll">
@@ -135,10 +122,7 @@ Copies the current stack.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

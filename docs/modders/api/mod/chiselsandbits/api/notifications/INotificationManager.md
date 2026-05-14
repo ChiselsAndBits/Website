@@ -86,7 +86,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -98,12 +97,8 @@ The current instance of the notification manager.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="notify(net.minecraft.resources.Identifier,net.minecraft.world.phys.Vec3,net.minecraft.network.chat.Component)">
-
 :::tabs
 == notify
 <div class="horizontal-scroll">
@@ -119,12 +114,8 @@ Notifies the player with a simple message, icon and color.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="notify(net.minecraft.resources.Identifier,net.minecraft.network.chat.Component)">
-
 :::tabs
 == notify
 <div class="horizontal-scroll">
@@ -138,12 +129,8 @@ Notifies the player with a simple message and icon.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="notify(mod.chiselsandbits.api.notifications.INotification)">
-
 :::tabs
 == notify
 <div class="horizontal-scroll">
@@ -155,10 +142,7 @@ Notifies the player with the given notification.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

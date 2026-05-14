@@ -101,19 +101,14 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IVoxelShapeManager.html" title="interface in mod.chiselsandbits.api.voxelshape">IVoxelShapeManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="get(mod.chiselsandbits.api.multistate.accessor.IAreaAccessor)">
-
 :::tabs
 == get
 <div class="horizontal-scroll">
@@ -128,12 +123,8 @@ Excludes all air states.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="get(mod.chiselsandbits.api.multistate.accessor.IAreaAccessor,net.minecraft.core.BlockPos)">
-
 :::tabs
 == get
 <div class="horizontal-scroll">
@@ -150,12 +141,8 @@ Excludes all air states.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="get(mod.chiselsandbits.api.multistate.accessor.IAreaAccessor,mod.chiselsandbits.api.axissize.CollisionType)">
-
 :::tabs
 == get
 <div class="horizontal-scroll">
@@ -171,12 +158,8 @@ Returns the shape of the multistate entries which are contained in the given are
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="get(mod.chiselsandbits.api.multistate.accessor.IAreaAccessor,mod.chiselsandbits.api.axissize.CollisionType,boolean)">
-
 :::tabs
 == get
 <div class="horizontal-scroll">
@@ -194,12 +177,8 @@ Returns the shape of the multistate entries which are contained in the given are
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="get(mod.chiselsandbits.api.multistate.accessor.IAreaAccessor,net.minecraft.core.BlockPos,mod.chiselsandbits.api.axissize.CollisionType,boolean)">
-
 :::tabs
 == get
 <div class="horizontal-scroll">
@@ -219,12 +198,8 @@ Returns the shape of the multistate entries which are contained in the given are
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getCached(mod.chiselsandbits.api.multistate.accessor.identifier.IAreaShapeIdentifier,net.minecraft.core.BlockPos)">
-
 :::tabs
 == getCached
 <div class="horizontal-scroll">
@@ -241,12 +216,8 @@ If no shape with the given identifier is known then an empty optional is returne
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getCached(mod.chiselsandbits.api.multistate.accessor.identifier.IAreaShapeIdentifier,net.minecraft.core.BlockPos,mod.chiselsandbits.api.axissize.CollisionType)">
-
 :::tabs
 == getCached
 <div class="horizontal-scroll">
@@ -265,12 +236,8 @@ If no shape with the given identifier is known then an empty optional is returne
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getCached(mod.chiselsandbits.api.multistate.accessor.identifier.IAreaShapeIdentifier,net.minecraft.core.BlockPos,mod.chiselsandbits.api.axissize.CollisionType,boolean)">
-
 :::tabs
 == getCached
 <div class="horizontal-scroll">
@@ -291,10 +258,7 @@ If no shape with the given identifier is known then an empty optional is returne
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

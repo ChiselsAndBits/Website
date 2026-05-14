@@ -90,19 +90,14 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="canBeChiseled(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == canBeChiseled
 <div class="horizontal-scroll">
@@ -117,12 +112,8 @@ Checks if a given block information can be chiseled or is already chiseled.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="canBeChiseled(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == canBeChiseled
 <div class="horizontal-scroll">
@@ -137,12 +128,8 @@ Checks if a given <code>ItemStack</code> can be chiseled or is already chiseled.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="analyse(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == analyse
 <div class="horizontal-scroll">
@@ -157,12 +144,8 @@ Performs a chiselability analysis on the given block information.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="analyse(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == analyse
 <div class="horizontal-scroll">
@@ -177,10 +160,7 @@ Performs a chiselability analysis on the given <code>ItemStack</code>.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

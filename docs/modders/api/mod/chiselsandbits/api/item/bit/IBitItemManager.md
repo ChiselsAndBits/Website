@@ -83,19 +83,14 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="create(mod.chiselsandbits.api.blockinformation.BlockInformation,int)">
-
 :::tabs
 == create
 <div class="horizontal-scroll">
@@ -111,12 +106,8 @@ Creates an itemstack that contains a bit of the given block information and is o
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="create(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == create
 <div class="horizontal-scroll">
@@ -130,10 +121,7 @@ Creates an itemstack that contains a bit of the given block information with a s
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

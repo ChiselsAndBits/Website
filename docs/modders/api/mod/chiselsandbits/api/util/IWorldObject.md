@@ -85,7 +85,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getWorld()">
-
 :::tabs
 == getWorld
 <div class="horizontal-scroll">
@@ -97,12 +96,8 @@ The world the object is in.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getInWorldStartPoint()">
-
 :::tabs
 == getInWorldStartPoint
 <div class="horizontal-scroll">
@@ -114,12 +109,8 @@ The start point of the object in the world.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getInWorldEndPoint()">
-
 :::tabs
 == getInWorldEndPoint
 <div class="horizontal-scroll">
@@ -131,12 +122,8 @@ The end point of the object in the world.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getInWorldStartBlockPoint()">
-
 :::tabs
 == getInWorldStartBlockPoint
 <div class="horizontal-scroll">
@@ -148,12 +135,8 @@ The start block point of the object in the world.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getInWorldEndBlockPoint()">
-
 :::tabs
 == getInWorldEndBlockPoint
 <div class="horizontal-scroll">
@@ -165,12 +148,8 @@ The end block point of the object in the world.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getInWorldBoundingBox()">
-
 :::tabs
 == getInWorldBoundingBox
 <div class="horizontal-scroll">
@@ -182,10 +161,7 @@ Gives access to the in world axis aligned bounding box of the object.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

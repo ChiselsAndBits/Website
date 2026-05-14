@@ -70,7 +70,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="setField(java.lang.Object,java.lang.String,java.lang.Object)">
-
 :::tabs
 == setField
 <div class="horizontal-scroll">
@@ -79,12 +78,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;value)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="getField(java.lang.Object,java.lang.String)">
-
 :::tabs
 == getField
 <div class="horizontal-scroll">
@@ -92,10 +87,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

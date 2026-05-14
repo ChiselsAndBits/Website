@@ -72,7 +72,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -86,12 +85,8 @@ Short circuit method for the central API call.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="build(java.util.function.Function,java.util.function.Function)">
-
 :::tabs
 == build
 <div class="horizontal-scroll">
@@ -110,10 +105,7 @@ Builds a block neighborhood for the requested target.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

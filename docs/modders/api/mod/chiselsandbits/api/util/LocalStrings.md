@@ -2841,7 +2841,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="values()">
-
 :::tabs
 == values
 <div class="horizontal-scroll">
@@ -2854,12 +2853,8 @@ the order they are declared.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="valueOf(java.lang.String)">
-
 :::tabs
 == valueOf
 <div class="horizontal-scroll">
@@ -2879,12 +2874,8 @@ not permitted.)
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="toString()">
-
 :::tabs
 == toString
 <div class="horizontal-scroll">
@@ -2895,46 +2886,31 @@ not permitted.)
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getText()">
-
 :::tabs
 == getText
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.chat.MutableComponent</span>&nbsp;<span class="element-name">getText</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getText(java.lang.Object...)">
-
 :::tabs
 == getText
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.chat.MutableComponent</span>&nbsp;<span class="element-name">getText</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="getTextLines(java.lang.Object...)">
-
 :::tabs
 == getTextLines
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;net.minecraft.network.chat.MutableComponent&gt;</span>&nbsp;<span class="element-name">getTextLines</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</span></div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

@@ -72,7 +72,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -86,12 +85,8 @@ Useful in case the platform defines different default classes for the processing
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="isValidExplosionDefinitionClass(java.lang.Class)">
-
 :::tabs
 == isValidExplosionDefinitionClass
 <div class="horizontal-scroll">
@@ -105,10 +100,7 @@ Indicates if the class that defines the explosion resistance is valid for compat
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

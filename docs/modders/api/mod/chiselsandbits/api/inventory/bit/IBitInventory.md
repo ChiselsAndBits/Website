@@ -112,7 +112,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="canExtractOne(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == canExtractOne
 <div class="horizontal-scroll">
@@ -127,12 +126,8 @@ the current inventory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="canExtract(mod.chiselsandbits.api.blockinformation.BlockInformation,int)">
-
 :::tabs
 == canExtract
 <div class="horizontal-scroll">
@@ -149,12 +144,8 @@ the current inventory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getMaxExtractAmount(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == getMaxExtractAmount
 <div class="horizontal-scroll">
@@ -169,12 +160,8 @@ of a given blockstate.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="extractOne(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == extractOne
 <div class="horizontal-scroll">
@@ -190,12 +177,8 @@ the current inventory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="extract(mod.chiselsandbits.api.blockinformation.BlockInformation,int)">
-
 :::tabs
 == extract
 <div class="horizontal-scroll">
@@ -213,12 +196,8 @@ the current inventory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="canInsertOne(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == canInsertOne
 <div class="horizontal-scroll">
@@ -233,12 +212,8 @@ the current inventory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="canInsert(mod.chiselsandbits.api.blockinformation.BlockInformation,int)">
-
 :::tabs
 == canInsert
 <div class="horizontal-scroll">
@@ -255,12 +230,8 @@ the current inventory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getMaxInsertAmount(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == getMaxInsertAmount
 <div class="horizontal-scroll">
@@ -275,12 +246,8 @@ of a given blockstate.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="insertOne(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == insertOne
 <div class="horizontal-scroll">
@@ -296,12 +263,8 @@ the current inventory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="insert(mod.chiselsandbits.api.blockinformation.BlockInformation,int)">
-
 :::tabs
 == insert
 <div class="horizontal-scroll">
@@ -319,12 +282,8 @@ the current inventory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="insertOrDiscard(mod.chiselsandbits.api.blockinformation.BlockInformation,int)">
-
 :::tabs
 == insertOrDiscard
 <div class="horizontal-scroll">
@@ -339,12 +298,8 @@ the current inventory, discards bits that don't fit.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="isEmpty()">
-
 :::tabs
 == isEmpty
 <div class="horizontal-scroll">
@@ -356,12 +311,8 @@ Indicates if this inventory is empty or not.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="insert(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == insert
 <div class="horizontal-scroll">
@@ -376,12 +327,8 @@ Draining the itemstack completely if possible.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getContainedStates()">
-
 :::tabs
 == getContainedStates
 <div class="horizontal-scroll">
@@ -393,12 +340,8 @@ Returns the summed contained states of all bits in the inventory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="contains(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == contains
 <div class="horizontal-scroll">
@@ -412,10 +355,7 @@ Indicates whether the inventory contains a bit with this block.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

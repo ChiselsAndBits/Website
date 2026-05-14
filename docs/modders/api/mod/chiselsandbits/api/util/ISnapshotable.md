@@ -65,17 +65,13 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="createSnapshot()">
-
 :::tabs
 == createSnapshot
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="#type-param-T" title="type parameter in ISnapshotable">T</a></span>&nbsp;<span class="element-name">createSnapshot</span>()</div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

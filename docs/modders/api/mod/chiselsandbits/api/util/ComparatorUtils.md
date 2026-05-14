@@ -70,7 +70,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="createOptionalComparator()">
-
 :::tabs
 == createOptionalComparator
 <div class="horizontal-scroll">
@@ -78,12 +77,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Comparator.html" title="class or interface in java.util" class="external-link">Comparator</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;T&gt;&gt;</span>&nbsp;<span class="element-name">createOptionalComparator</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="createOptionalComparator(java.util.Comparator)">
-
 :::tabs
 == createOptionalComparator
 <div class="horizontal-scroll">
@@ -91,10 +86,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Comparator.html" title="class or interface in java.util" class="external-link">Comparator</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;T&gt;&gt;</span>&nbsp;<span class="element-name">createOptionalComparator</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Comparator.html" title="class or interface in java.util" class="external-link">Comparator</a>&lt;T&gt;&nbsp;comparator)</span></div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

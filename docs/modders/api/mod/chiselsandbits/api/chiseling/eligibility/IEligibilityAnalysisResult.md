@@ -68,7 +68,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="canBeChiseled()">
-
 :::tabs
 == canBeChiseled
 <div class="horizontal-scroll">
@@ -80,12 +79,8 @@ Indicates if the requested object can be chiseled.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="isAlreadyChiseled()">
-
 :::tabs
 == isAlreadyChiseled
 <div class="horizontal-scroll">
@@ -97,12 +92,8 @@ Indicates if the requested object is already chiseled.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getReason()">
-
 :::tabs
 == getReason
 <div class="horizontal-scroll">
@@ -114,10 +105,7 @@ The reason why a given eligibility result returned if it can be chiseled or not.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

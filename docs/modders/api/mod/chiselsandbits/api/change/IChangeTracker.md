@@ -88,7 +88,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a h
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="onBlockUpdated(net.minecraft.core.BlockPos,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)">
-
 :::tabs
 == onBlockUpdated
 <div class="horizontal-scroll">
@@ -104,12 +103,8 @@ Invoked when a chiseled block is updated from one state to the next.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="onBlocksUpdated(java.util.Map,java.util.Map)">
-
 :::tabs
 == onBlocksUpdated
 <div class="horizontal-scroll">
@@ -123,12 +118,8 @@ Invoked when several chiseled blocks are updated from one state to the next.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getChanges()">
-
 :::tabs
 == getChanges
 <div class="horizontal-scroll">
@@ -140,12 +131,8 @@ Gets a readonly-copy of the changes in the queue.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="setChanges(java.util.Deque)">
-
 :::tabs
 == setChanges
 <div class="horizontal-scroll">
@@ -157,22 +144,15 @@ Sets the changes in the tracker.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="clear()">
-
 :::tabs
 == clear
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span>()</div>
 Clears the tracker from all currently stored changes.</div>
 :::
-
-
 </section>
-
 :::::
   
 

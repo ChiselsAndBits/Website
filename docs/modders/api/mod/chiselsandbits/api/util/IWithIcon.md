@@ -62,7 +62,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getIcon()">
-
 :::tabs
 == getIcon
 <div class="horizontal-scroll">
@@ -74,10 +73,7 @@ The icon to render.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

@@ -81,7 +81,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -94,12 +93,8 @@ Gives access to the the mutator factory.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="in(net.minecraft.world.level.LevelAccessor,net.minecraft.core.BlockPos)">
-
 :::tabs
 == in
 <div class="horizontal-scroll">
@@ -116,12 +111,8 @@ Creates a mutator which mutates a particular block only.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="covering(net.minecraft.world.level.LevelAccessor,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos)">
-
 :::tabs
 == covering
 <div class="horizontal-scroll">
@@ -140,12 +131,8 @@ Creates a mutator which mutates a given area.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="covering(net.minecraft.world.level.LevelAccessor,net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
-
 :::tabs
 == covering
 <div class="horizontal-scroll">
@@ -164,12 +151,8 @@ Creates a mutator which mutates a given area.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="clonedFromAccessor(mod.chiselsandbits.api.multistate.accessor.IAreaAccessor)">
-
 :::tabs
 == clonedFromAccessor
 <div class="horizontal-scroll">
@@ -184,10 +167,7 @@ Creates a clone of the accessor and returns a mutator of it.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

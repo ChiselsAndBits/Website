@@ -73,41 +73,29 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getBitMask(int)">
-
 :::tabs
 == getBitMask
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getBitMask</span><wbr><span class="parameters">(int&nbsp;bitWidth)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="getByteCount(int)">
-
 :::tabs
 == getByteCount
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getByteCount</span><wbr><span class="parameters">(int&nbsp;totalBitCount)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="getMaskWidth(int)">
-
 :::tabs
 == getMaskWidth
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getMaskWidth</span><wbr><span class="parameters">(int&nbsp;bitMask)</span></div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

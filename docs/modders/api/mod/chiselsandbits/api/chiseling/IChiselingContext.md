@@ -150,7 +150,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getMutator()">
-
 :::tabs
 == getMutator
 <div class="horizontal-scroll">
@@ -159,7 +158,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor
 Returns the current <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a> if there is one.
 If a new chiseling operation is started no <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a> is available,
 as such an empty <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link"><code>Optional</code></a> will be returned in that case.
-
 Only after the primary call to <a href="#include(net.minecraft.world.phys.Vec3)"><code>include(Vec3)</code></a> or <a href="#include(net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)"><code>include(BlockPos, Vec3)</code></a>
 the returned <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link"><code>Optional</code></a> can contain a <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a>.
 <dl class="notes">
@@ -168,12 +166,8 @@ the returned <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.ba
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getWorld()">
-
 :::tabs
 == getWorld
 <div class="horizontal-scroll">
@@ -186,12 +180,8 @@ The <code>LevelAccessor</code> in which the current chiseling context is valid.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getMode()">
-
 :::tabs
 == getMode
 <div class="horizontal-scroll">
@@ -204,12 +194,8 @@ Returns the current <a href="mode/IChiselMode.html" title="interface in mod.chis
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="include(net.minecraft.world.phys.Vec3)">
-
 :::tabs
 == include
 <div class="horizontal-scroll">
@@ -217,10 +203,8 @@ Returns the current <a href="mode/IChiselMode.html" title="interface in mod.chis
 </span><span class="return-type">@NotNull <a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a></span>&nbsp;<span class="element-name">include</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;worldPosition)</span></div>
 Includes the given exact position in the world of this context, retrievable via <a href="#getWorld()"><code>getWorld()</code></a>, in
 the current <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a>.
-
 If the given position is already contained in the current <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a>, this method makes
 no changes to the current context.
-
 It is up to the contexts implementation as well as the entire implementation of the chisels and bits api
 to round the given value up and down into a precision which it can process, meaning that a given exact position
 might already be included in the current <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a> if it is within the precision of the
@@ -233,12 +217,8 @@ current runtime. Even if the given exact vector itself is not included in the cu
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="include(net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)">
-
 :::tabs
 == include
 <div class="horizontal-scroll">
@@ -247,10 +227,8 @@ current runtime. Even if the given exact vector itself is not included in the cu
  net.minecraft.world.phys.Vec3&nbsp;relativeInBlockPosition)</span></div>
 Includes the given exact position in the world of this context, retrievable via <a href="#getWorld()"><code>getWorld()</code></a>, in
 the current <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a>.
-
 If the given position is already contained in the current <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a>, this method makes
 no changes to the current context.
-
 It is up to the contexts implementation as well as the entire implementation of the chisels and bits api
 to round the given value up and down into a precision which it can process, meaning that a given exact position
 might already be included in the current <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a> if it is within the precision of the
@@ -264,27 +242,18 @@ current runtime. Even if the given exact vector itself is not included in the cu
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="setComplete()">
-
 :::tabs
 == setComplete
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setComplete</span>()</div>
 Marks the current context as complete, so that it can not be reused for interactions which
 will follow this one.
-
 Indicates that an action has been performed using this context, making it invalid.</div>
 :::
-
-
 </section>
-
 <section id="isComplete()">
-
 :::tabs
 == isComplete
 <div class="horizontal-scroll">
@@ -296,12 +265,8 @@ Indicates if the context is completed or not.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="isSimulation()">
-
 :::tabs
 == isSimulation
 <div class="horizontal-scroll">
@@ -313,12 +278,8 @@ Indicates if the current context that is being executed is supposed to be a simu
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getModeOfOperandus()">
-
 :::tabs
 == getModeOfOperandus
 <div class="horizontal-scroll">
@@ -332,12 +293,8 @@ This indicates if the mode is used for chiseling or placing.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="createSnapshot()">
-
 :::tabs
 == createSnapshot
 <div class="horizontal-scroll">
@@ -351,12 +308,8 @@ A snapshot is automatically a simulation.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="tryDamageItem()">
-
 :::tabs
 == tryDamageItem
 <div class="horizontal-scroll">
@@ -365,9 +318,7 @@ Invoked to try to damage the item that caused the chiseling operation.
 If no item was the cause of the operation this function always returns successfully.
 If this item does not support damaging the item on a chiseling operation this method also
 always returns successfully.
-
 Does exactly 1 damage to the item.
-
 The only case where this method does not return <code>True</code>, is when the item that caused the operation broke in the previous operation.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -375,12 +326,8 @@ The only case where this method does not return <code>True</code>, is when the i
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="tryDamageItem(int)">
-
 :::tabs
 == tryDamageItem
 <div class="horizontal-scroll">
@@ -389,7 +336,6 @@ Invoked to try to damage the item that caused the chiseling operation.
 If no item was the cause of the operation this function always returns successfully.
 If this item does not support damaging the item on a chiseling operation this method also
 always returns successfully.
-
 The only case where this method does not return <code>True</code>, is when the item that caused the operation broke in the previous operation.
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -399,25 +345,18 @@ The only case where this method does not return <code>True</code>, is when the i
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="tryDamageItemAndDo(java.lang.Runnable,java.lang.Runnable)">
-
 :::tabs
 == tryDamageItemAndDo
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">tryDamageItemAndDo</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Runnable.html" title="class or interface in java.lang" class="external-link">Runnable</a>&nbsp;onDamaged,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Runnable.html" title="class or interface in java.lang" class="external-link">Runnable</a>&nbsp;onBroken)</span></div>
 Invoked to try to damage the item that caused the chiseling operations.
-
 If no item was the cause of the operation, then the <code>onDamaged</code> callback is always invoked.
 If the item that caused the operation, does not support damaging the item on a chiseling operation, then the <code>onDamaged</code> callback is always invoked.
 If the item that caused the operation is already broken, then the <code>onBroken</code> callback is always invoked.
-
 The total performed damaged is returned by this method, which is always <code>0</code> if the item that caused the operation is already broken.
-
 Does exactly 1 damage to the item.
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -428,24 +367,17 @@ Does exactly 1 damage to the item.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="tryDamageItemAndDoOrSetBrokenError(java.lang.Runnable)">
-
 :::tabs
 == tryDamageItemAndDoOrSetBrokenError
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">tryDamageItemAndDoOrSetBrokenError</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Runnable.html" title="class or interface in java.lang" class="external-link">Runnable</a>&nbsp;onDamaged)</span></div>
 Invoked to try to damage the item that caused the chiseling operations.
-
 If no item was the cause of the operation, then the <code>onDamaged</code> callback is always invoked.
 If the item that caused the operation, does not support damaging the item on a chiseling operation, then the <code>onDamaged</code> callback is always invoked.
 If the item that caused the operation is already broken, then the broken chisel item error message is set.
-
 The total performed damaged is returned by this method, which is always <code>0</code> if the item that caused the operation is already broken.
-
 Does exactly 1 damage to the item.
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -455,23 +387,17 @@ Does exactly 1 damage to the item.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="tryDamageItemAndDo(int,java.lang.Runnable)">
-
 :::tabs
 == tryDamageItemAndDo
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">tryDamageItemAndDo</span><wbr><span class="parameters">(int&nbsp;damage,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Runnable.html" title="class or interface in java.lang" class="external-link">Runnable</a>&nbsp;onDamaged)</span></div>
 Invoked to try to damage the item that caused the chiseling operations.
-
 If no item was the cause of the operation, then the <code>onDamaged</code> callback is always invoked.
 If the item that caused the operation, does not support damaging the item on a chiseling operation, then the <code>onDamaged</code> callback is always invoked.
 If the item that caused the operation is already broken, then the broken chisel item error message is set.
-
 The total performed damaged is returned by this method, which is always <code>0</code> if the item that caused the operation is already broken.
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -482,12 +408,8 @@ The total performed damaged is returned by this method, which is always <code>0<
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="tryDamageItemAndDo(int,java.lang.Runnable,java.lang.Runnable)">
-
 :::tabs
 == tryDamageItemAndDo
 <div class="horizontal-scroll">
@@ -495,11 +417,9 @@ The total performed damaged is returned by this method, which is always <code>0<
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Runnable.html" title="class or interface in java.lang" class="external-link">Runnable</a>&nbsp;onDamaged,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Runnable.html" title="class or interface in java.lang" class="external-link">Runnable</a>&nbsp;onBroken)</span></div>
 Invoked to try to damage the item that caused the chiseling operations.
-
 If no item was the cause of the operation, then the <code>onDamaged</code> callback is always invoked.
 If the item that caused the operation, does not support damaging the item on a chiseling operation, then the <code>onDamaged</code> callback is always invoked.
 If the item that caused the operation is already broken, then the <code>onBroken</code> callback is always invoked.
-
 The total performed damaged is returned by this method, which is always <code>0</code> if the item that caused the operation is already broken.
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -511,12 +431,8 @@ The total performed damaged is returned by this method, which is always <code>0<
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="setStateFilter(java.util.function.Function)">
-
 :::tabs
 == setStateFilter
 <div class="horizontal-scroll">
@@ -525,7 +441,6 @@ The total performed damaged is returned by this method, which is always <code>0<
 Allows for the setting of a filterBuilder on the context, which limits which <a href="../multistate/accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor"><code>IStateEntryInfo</code></a> are returned from
 the relevant accessor methods of the <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a>, as well as which limits the setter methods on the same <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a>
 contained in the returned optional of the <a href="#getMutator()"><code>getMutator()</code></a>.
-
 If this context has currently no mutator available, and gets a mutator available afterwards then this filterBuilder will be applied to the new mutator.
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -533,24 +448,16 @@ If this context has currently no mutator available, and gets a mutator available
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="clearStateFilter()">
-
 :::tabs
 == clearStateFilter
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clearStateFilter</span>()</div>
 Clears the state filter which is applied to the <a href="../multistate/mutator/world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world"><code>IWorldAreaMutator</code></a> for this context.</div>
 :::
-
-
 </section>
-
 <section id="getStateFilter()">
-
 :::tabs
 == getStateFilter
 <div class="horizontal-scroll">
@@ -563,12 +470,8 @@ If one is applied.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getMetadata(mod.chiselsandbits.api.chiseling.metadata.IMetadataKey)">
-
 :::tabs
 == getMetadata
 <div class="horizontal-scroll">
@@ -584,12 +487,8 @@ Allows the storage of metadata on the context.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="removeMetadata(mod.chiselsandbits.api.chiseling.metadata.IMetadataKey)">
-
 :::tabs
 == removeMetadata
 <div class="horizontal-scroll">
@@ -601,12 +500,8 @@ Removes the metadata from the context.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="setMetadata(mod.chiselsandbits.api.chiseling.metadata.IMetadataKey,T)">
-
 :::tabs
 == setMetadata
 <div class="horizontal-scroll">
@@ -622,24 +517,16 @@ Allows for the setting of the metadata on the context.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="resetMutator()">
-
 :::tabs
 == resetMutator
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">resetMutator</span>()</div>
 Resets the mutator that is used to handle the current selected area.</div>
 :::
-
-
 </section>
-
 <section id="setError(net.minecraft.network.chat.MutableComponent)">
-
 :::tabs
 == setError
 <div class="horizontal-scroll">
@@ -652,12 +539,8 @@ If an error is already set on the context, then subsequent calls to this method 
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getError()">
-
 :::tabs
 == getError
 <div class="horizontal-scroll">
@@ -669,12 +552,8 @@ Returns the error message that is displayed when the chiseling operation fails.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="validateBuildHeights()">
-
 :::tabs
 == validateBuildHeights
 <div class="horizontal-scroll">
@@ -686,10 +565,7 @@ Checks whether the mutator currently modifies blocks outside the levels build he
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

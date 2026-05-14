@@ -70,29 +70,21 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getColor()">
-
 :::tabs
 == getColor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.DyeColor</span>&nbsp;<span class="element-name">getColor</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getType()">
-
 :::tabs
 == getType
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IMeasuringType.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringType</a></span>&nbsp;<span class="element-name">getType</span>()</div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

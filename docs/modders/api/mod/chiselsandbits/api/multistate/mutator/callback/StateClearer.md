@@ -66,17 +66,13 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="accept(net.minecraft.world.phys.Vec3)">
-
 :::tabs
 == accept
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">accept</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;pos)</span></div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

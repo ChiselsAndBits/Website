@@ -70,7 +70,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="inWorldStream()">
-
 :::tabs
 == inWorldStream
 <div class="horizontal-scroll">
@@ -84,12 +83,8 @@ in <a href="../IAreaAccessor.html#stream()"><code>IAreaAccessor.stream()</code><
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="coveredAreaStream()">
-
 :::tabs
 == coveredAreaStream
 <div class="horizontal-scroll">
@@ -101,10 +96,7 @@ Gives access to a stream which represents all the blocks touched by the accessor
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

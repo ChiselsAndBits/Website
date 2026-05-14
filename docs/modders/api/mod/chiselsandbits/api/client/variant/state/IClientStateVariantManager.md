@@ -79,19 +79,14 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IClientStateVariantManager.html" title="interface in mod.chiselsandbits.api.client.variant.state">IClientStateVariantManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="registerStateVariantProvider(java.util.function.Supplier,mod.chiselsandbits.api.client.variant.state.IClientStateVariantProvider)">
-
 :::tabs
 == registerStateVariantProvider
 <div class="horizontal-scroll">
@@ -106,12 +101,8 @@ Registers a new state variant provider.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBlockModelData(mod.chiselsandbits.api.blockinformation.BlockInformation)">
-
 :::tabs
 == getBlockModelData
 <div class="horizontal-scroll">
@@ -125,12 +116,8 @@ Retrieves the block model data for the state block information.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="appendHoverText(mod.chiselsandbits.api.blockinformation.BlockInformation,net.minecraft.world.item.Item.TooltipContext,net.minecraft.world.item.component.TooltipDisplay,java.util.function.Consumer,net.minecraft.world.item.TooltipFlag)">
-
 :::tabs
 == appendHoverText
 <div class="horizontal-scroll">
@@ -151,10 +138,7 @@ If no variant is found this method does nothing.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

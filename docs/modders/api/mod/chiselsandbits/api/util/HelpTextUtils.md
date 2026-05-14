@@ -71,7 +71,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="build(mod.chiselsandbits.api.util.LocalStrings,java.util.List,java.lang.Object...)">
-
 :::tabs
 == build
 <div class="horizontal-scroll">
@@ -87,12 +86,8 @@ Builds a new help tooltip if this is enabled by the player.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="build(mod.chiselsandbits.api.util.LocalStrings,java.util.function.Consumer,java.lang.Object...)">
-
 :::tabs
 == build
 <div class="horizontal-scroll">
@@ -108,10 +103,7 @@ Builds a new help tooltip if this is enabled by the player.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

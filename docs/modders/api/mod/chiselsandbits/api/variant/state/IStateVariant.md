@@ -137,7 +137,6 @@ The stream codec that can be used to serialize a state variant.</div>
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="provider()">
-
 :::tabs
 == provider
 <div class="horizontal-scroll">
@@ -149,12 +148,8 @@ Returns The provider that created this state variant..
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="updateBlockEntity(net.minecraft.world.level.block.entity.BlockEntity)">
-
 :::tabs
 == updateBlockEntity
 <div class="horizontal-scroll">
@@ -166,10 +161,7 @@ Updates a block entity with the correct state of this variant.
     for this variant.
 </p></div>
 :::
-
-
 </section>
-
 :::::
   
 

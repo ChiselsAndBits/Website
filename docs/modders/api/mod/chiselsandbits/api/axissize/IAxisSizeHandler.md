@@ -76,19 +76,14 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="empty()">
-
 :::tabs
 == empty
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IAxisSizeHandler.html" title="interface in mod.chiselsandbits.api.axissize">IAxisSizeHandler</a></span>&nbsp;<span class="element-name">empty</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getLowest()">
-
 :::tabs
 == getLowest
 <div class="horizontal-scroll">
@@ -100,12 +95,8 @@ The lowest set value on the axis of the size handler.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getHighest()">
-
 :::tabs
 == getHighest
 <div class="horizontal-scroll">
@@ -117,10 +108,7 @@ The highest set value on the axis of the size handler.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

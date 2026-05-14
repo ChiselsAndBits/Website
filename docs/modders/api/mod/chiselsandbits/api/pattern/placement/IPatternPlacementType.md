@@ -73,7 +73,6 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="buildVoxelShapeForWireframe(mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)">
-
 :::tabs
 == buildVoxelShapeForWireframe
 <div class="horizontal-scroll">
@@ -93,12 +92,8 @@ Used to build a voxelshape for rendering in the preview.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="performPlacement(mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,net.minecraft.world.item.context.BlockPlaceContext,boolean)">
-
 :::tabs
 == performPlacement
 <div class="horizontal-scroll">
@@ -116,12 +111,8 @@ Invoked to perform the actual placement of the pattern in the world.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
-
 :::tabs
 == getTargetedPosition
 <div class="horizontal-scroll">
@@ -139,10 +130,7 @@ Invoked to determine where the targeted position of the placement type is.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

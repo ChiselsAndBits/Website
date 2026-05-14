@@ -71,7 +71,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="groupByUsingSet(java.lang.Iterable,java.util.function.Function)">
-
 :::tabs
 == groupByUsingSet
 <div class="horizontal-scroll">
@@ -91,12 +90,8 @@ Returns a <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="groupByUsingList(java.lang.Iterable,java.util.function.Function)">
-
 :::tabs
 == groupByUsingList
 <div class="horizontal-scroll">
@@ -116,10 +111,7 @@ Returns a <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

@@ -67,7 +67,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.inventory.bit.<a hr
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="startWatching(java.lang.Runnable)">
-
 :::tabs
 == startWatching
 <div class="horizontal-scroll">
@@ -81,10 +80,7 @@ Invoke to start receiving change callbacks on this given callback.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

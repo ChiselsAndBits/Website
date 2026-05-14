@@ -84,7 +84,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.click.<a href=
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getStart(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == getStart
 <div class="horizontal-scroll">
@@ -100,12 +99,8 @@ Determines the start point stored in the stack of the item.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="setStart(net.minecraft.world.item.ItemStack,net.minecraft.world.phys.Vec3)">
-
 :::tabs
 == setStart
 <div class="horizontal-scroll">
@@ -121,12 +116,8 @@ Sets the start point of the current measurement.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="clear(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == clear
 <div class="horizontal-scroll">
@@ -139,12 +130,8 @@ Clears the measurement state of a given stack.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="onRightClickProcessingEnd(net.minecraft.world.entity.player.Player,net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == onRightClickProcessingEnd
 <div class="horizontal-scroll">
@@ -160,10 +147,7 @@ Invoked by the platform to indicate to this item that a right-clicking procedure
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

@@ -79,7 +79,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="almostEqual(java.lang.Number,java.lang.Number)">
-
 :::tabs
 == almostEqual
 <div class="horizontal-scroll">
@@ -87,12 +86,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="almostEqual(java.lang.Number,java.lang.Number,java.lang.Number)">
-
 :::tabs
 == almostEqual
 <div class="horizontal-scroll">
@@ -101,12 +96,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;epsilon)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="minimizeTowardsZero(double,double)">
-
 :::tabs
 == minimizeTowardsZero
 <div class="horizontal-scroll">
@@ -114,12 +105,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  double&nbsp;r)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="maximizeAwayFromZero(double,double)">
-
 :::tabs
 == maximizeAwayFromZero
 <div class="horizontal-scroll">
@@ -127,22 +114,15 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  double&nbsp;r)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="makePositive(double)">
-
 :::tabs
 == makePositive
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">makePositive</span><wbr><span class="parameters">(double&nbsp;d)</span></div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

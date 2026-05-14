@@ -96,7 +96,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="adaptClickedPosition(net.minecraft.world.phys.BlockHitResult)">
-
 :::tabs
 == adaptClickedPosition
 <div class="horizontal-scroll">
@@ -105,12 +104,8 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
  @NotNull net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="adaptStartCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)">
-
 :::tabs
 == adaptStartCorner
 <div class="horizontal-scroll">
@@ -123,12 +118,8 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
  @NotNull net.minecraft.core.Direction&nbsp;hitFace)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="adaptEndCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)">
-
 :::tabs
 == adaptEndCorner
 <div class="horizontal-scroll">
@@ -141,34 +132,23 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
  @NotNull net.minecraft.core.Direction&nbsp;hitFace)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="getResolution()">
-
 :::tabs
 == getResolution
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getResolution</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="isNeedsNormalization()">
-
 :::tabs
 == isNeedsNormalization
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isNeedsNormalization</span>()</div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

@@ -67,7 +67,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getGroup()">
-
 :::tabs
 == getGroup
 <div class="horizontal-scroll">
@@ -81,10 +80,7 @@ is part of.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

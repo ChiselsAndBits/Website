@@ -103,29 +103,21 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="setInstance(mod.chiselsandbits.api.IChiselsAndBitsAPI)">
-
 :::tabs
 == setInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setInstance</span><wbr><span class="parameters">(<a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a>&nbsp;instance)</span></div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

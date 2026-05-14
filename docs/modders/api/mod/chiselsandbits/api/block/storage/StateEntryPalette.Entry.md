@@ -199,7 +199,6 @@ Creates an instance of a <code>Entry</code> record class.
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="codec()">
-
 :::tabs
 == codec
 <div class="horizontal-scroll">
@@ -216,12 +215,8 @@ Returns The codec used for direct serialization..
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="mapCodec()">
-
 :::tabs
 == mapCodec
 <div class="horizontal-scroll">
@@ -238,12 +233,8 @@ Returns The codec used for complex serialization..
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="streamCodec()">
-
 :::tabs
 == streamCodec
 <div class="horizontal-scroll">
@@ -260,12 +251,8 @@ Returns The codec used for streaming serialization..
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="toString()">
-
 :::tabs
 == toString
 <div class="horizontal-scroll">
@@ -279,12 +266,8 @@ Returns a string representation of this record class. The representation contain
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="hashCode()">
-
 :::tabs
 == hashCode
 <div class="horizontal-scroll">
@@ -298,12 +281,8 @@ Returns a hash code value for this object. The value is derived from the hash co
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="equals(java.lang.Object)">
-
 :::tabs
 == equals
 <div class="horizontal-scroll">
@@ -319,12 +298,8 @@ Indicates whether some other object is "equal to" this one. The objects are equa
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="blockInformation()">
-
 :::tabs
 == blockInformation
 <div class="horizontal-scroll">
@@ -336,10 +311,7 @@ Returns the value of the <code>blockInformation</code> record component.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

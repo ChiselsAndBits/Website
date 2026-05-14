@@ -74,7 +74,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -86,12 +85,8 @@ The current instance of the launch property manager.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="get(java.lang.String,java.lang.String)">
-
 :::tabs
 == get
 <div class="horizontal-scroll">
@@ -108,10 +103,7 @@ Retrieves the value of the launch property with the given key.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

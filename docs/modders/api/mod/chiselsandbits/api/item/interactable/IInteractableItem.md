@@ -71,7 +71,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="isInteracting(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == isInteracting
 <div class="horizontal-scroll">
@@ -85,12 +84,8 @@ Indicates if the current given itemstack is in use during an interaction.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getInteractionTarget(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == getInteractionTarget
 <div class="horizontal-scroll">
@@ -104,12 +99,8 @@ Gives access to the stack the interaction is occurring with.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="isRunningASimulatedInteraction(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == isRunningASimulatedInteraction
 <div class="horizontal-scroll">
@@ -123,12 +114,8 @@ Indicates if the interactable stack is used in a simulation for display purposes
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBobbingTickCount()">
-
 :::tabs
 == getBobbingTickCount
 <div class="horizontal-scroll">
@@ -141,10 +128,7 @@ This is done by returning the bobbing animation length from this method.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

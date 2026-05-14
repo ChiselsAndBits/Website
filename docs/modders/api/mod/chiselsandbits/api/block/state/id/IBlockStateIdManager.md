@@ -77,19 +77,14 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getIdFrom(net.minecraft.world.level.block.state.BlockState)">
-
 :::tabs
 == getIdFrom
 <div class="horizontal-scroll">
@@ -103,12 +98,8 @@ Calculates the the integer id representation of the blockstate.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBlockStateFrom(int)">
-
 :::tabs
 == getBlockStateFrom
 <div class="horizontal-scroll">
@@ -122,10 +113,7 @@ Calculates the blockstate from the given id.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

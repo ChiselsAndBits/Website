@@ -102,7 +102,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="success()">
-
 :::tabs
 == success
 <div class="horizontal-scroll">
@@ -114,12 +113,8 @@ Creates a new successful placement result with client config specified color if 
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="success(java.util.function.Function)">
-
 :::tabs
 == success
 <div class="horizontal-scroll">
@@ -133,12 +128,8 @@ Creates a new successful placement result with specified client config color if 
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="failure(java.util.function.Function)">
-
 :::tabs
 == failure
 <div class="horizontal-scroll">
@@ -152,12 +143,8 @@ Creates a new failed placement result with specified client config color if clie
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="failure(java.util.function.Function,net.minecraft.network.chat.Component)">
-
 :::tabs
 == failure
 <div class="horizontal-scroll">
@@ -173,12 +160,8 @@ Creates a new failed placement result with specified failure message and client 
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="success(org.joml.Vector4f)">
-
 :::tabs
 == success
 <div class="horizontal-scroll">
@@ -192,12 +175,8 @@ Creates a new successful placement result with specified color.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="failure(org.joml.Vector4f)">
-
 :::tabs
 == failure
 <div class="horizontal-scroll">
@@ -211,12 +190,8 @@ Creates a new failed placement result with specified color.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="failure(org.joml.Vector4f,net.minecraft.network.chat.Component)">
-
 :::tabs
 == failure
 <div class="horizontal-scroll">
@@ -232,46 +207,31 @@ Creates a new failed placement result with specified color and failure message.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="isSuccess()">
-
 :::tabs
 == isSuccess
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isSuccess</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getColor()">
-
 :::tabs
 == getColor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">org.joml.Vector4f</span>&nbsp;<span class="element-name">getColor</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getFailureMessage()">
-
 :::tabs
 == getFailureMessage
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getFailureMessage</span>()</div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

@@ -67,7 +67,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="isInstanceOf(O,java.lang.Class)">
-
 :::tabs
 == isInstanceOf
 <div class="horizontal-scroll">
@@ -75,10 +74,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;T&gt;&nbsp;cls)</span></div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

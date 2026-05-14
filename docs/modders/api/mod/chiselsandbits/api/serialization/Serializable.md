@@ -92,7 +92,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="codec()">
-
 :::tabs
 == codec
 <div class="horizontal-scroll">
@@ -106,12 +105,8 @@ Returns The codec used for direct serialization..
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="mapCodec()">
-
 :::tabs
 == mapCodec
 <div class="horizontal-scroll">
@@ -125,12 +120,8 @@ Returns The codec used for complex serialization..
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="streamCodec()">
-
 :::tabs
 == streamCodec
 <div class="horizontal-scroll">
@@ -144,10 +135,7 @@ Returns The codec used for streaming serialization..
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

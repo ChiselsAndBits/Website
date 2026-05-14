@@ -68,7 +68,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="create(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == create
 <div class="horizontal-scroll">
@@ -83,12 +82,8 @@ given itemstack which contains this item.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="isPreferredPickupInventory(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == isPreferredPickupInventory
 <div class="horizontal-scroll">
@@ -102,12 +97,8 @@ Indicates if this items inventory is an inventory which should be preferred when
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="isFilteredPickupInventory(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == isFilteredPickupInventory
 <div class="horizontal-scroll">
@@ -121,10 +112,7 @@ Indicates if this items inventory is an inventory which is filtered, so that onl
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

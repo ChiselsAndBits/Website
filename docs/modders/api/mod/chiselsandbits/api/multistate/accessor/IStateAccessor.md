@@ -65,7 +65,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInAreaTarget(net.minecraft.world.phys.Vec3)">
-
 :::tabs
 == getInAreaTarget
 <div class="horizontal-scroll">
@@ -73,7 +72,6 @@ Method Summary
 Gets the target state in the current area, using the offset from the area as well as the in area target offset.
 Note if this accessor potentially targets more than 1 block position (even if it does not in reality the potential is what matters here)
 you will need to pass in the world position exactly.
-
 If this accessor can not potentially ever target more than 1 block position, you can pass in the relative position.
 This is a nasty implementation detail, and matters most when you are making new chisel or pattern placement modes!
 <dl class="notes">
@@ -84,12 +82,8 @@ This is a nasty implementation detail, and matters most when you are making new 
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getInBlockTarget(net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)">
-
 :::tabs
 == getInBlockTarget
 <div class="horizontal-scroll">
@@ -98,7 +92,6 @@ This is a nasty implementation detail, and matters most when you are making new 
 Gets the target state in the current area, using the in area block position offset as well as the in block target offset to calculate the in area offset for setting.
 Note if this accessor potentially targets more than 1 block position (even if it does not in reality the potential is what matters here)
 you will need to pass in the world position exactly.
-
 If this accessor can not potentially ever target more than 1 block position, you can pass in the relative position.
 This is a nasty implementation detail, and matters most when you are making new chisel or pattern placement modes!
 <dl class="notes">
@@ -110,10 +103,7 @@ This is a nasty implementation detail, and matters most when you are making new 
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

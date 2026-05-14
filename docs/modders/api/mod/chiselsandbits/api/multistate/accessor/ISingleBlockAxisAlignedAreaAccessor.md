@@ -67,7 +67,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getStatistics()">
-
 :::tabs
 == getStatistics
 <div class="horizontal-scroll">
@@ -79,10 +78,7 @@ The statistics of the itemstack.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

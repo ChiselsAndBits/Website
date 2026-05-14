@@ -62,7 +62,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="createItemStack(net.minecraft.world.item.ItemStack)">
-
 :::tabs
 == createItemStack
 <div class="horizontal-scroll">
@@ -78,10 +77,7 @@ multistate information contained within the given itemstack.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

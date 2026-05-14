@@ -136,19 +136,14 @@ Creates an instance of a <code>Result</code> record class.
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="notChanged(T)">
-
 :::tabs
 == notChanged
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="type-parameters">&lt;T&gt;</span>&nbsp;<span class="return-type"><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a>&lt;T&gt;</span>&nbsp;<span class="element-name">notChanged</span><wbr><span class="parameters">(T&nbsp;value)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="changed(T,int)">
-
 :::tabs
 == changed
 <div class="horizontal-scroll">
@@ -156,24 +151,16 @@ Creates an instance of a <code>Result</code> record class.
  int&nbsp;size)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="whenSizeChanged(java.util.function.Consumer)">
-
 :::tabs
 == whenSizeChanged
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">whenSizeChanged</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;&nbsp;consumer)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="toString()">
-
 :::tabs
 == toString
 <div class="horizontal-scroll">
@@ -187,12 +174,8 @@ Returns a string representation of this record class. The representation contain
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="hashCode()">
-
 :::tabs
 == hashCode
 <div class="horizontal-scroll">
@@ -206,12 +189,8 @@ Returns a hash code value for this object. The value is derived from the hash co
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="equals(java.lang.Object)">
-
 :::tabs
 == equals
 <div class="horizontal-scroll">
@@ -227,12 +206,8 @@ Indicates whether some other object is "equal to" this one. The objects are equa
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="value()">
-
 :::tabs
 == value
 <div class="horizontal-scroll">
@@ -244,12 +219,8 @@ Returns the value of the <a href="#param-value"><code>value</code></a> record co
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="size()">
-
 :::tabs
 == size
 <div class="horizontal-scroll">
@@ -261,10 +232,7 @@ Returns the value of the <a href="#param-size"><code>size</code></a> record comp
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

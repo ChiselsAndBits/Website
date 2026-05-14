@@ -62,7 +62,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="onBitBagInteraction(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
-
 :::tabs
 == onBitBagInteraction
 <div class="horizontal-scroll">
@@ -78,10 +77,7 @@ Invoked when a bit bag interaction is performed against a given block.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

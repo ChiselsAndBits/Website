@@ -75,7 +75,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -87,12 +86,8 @@ Gives access to the current permission handler.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="registerChecker(mod.chiselsandbits.api.permissions.IPermissionChecker)">
-
 :::tabs
 == registerChecker
 <div class="horizontal-scroll">
@@ -106,12 +101,8 @@ Registers a new <a href="IPermissionChecker.html" title="interface in mod.chisel
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="canManipulate(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.accessor.world.IWorldAreaAccessor)">
-
 :::tabs
 == canManipulate
 <div class="horizontal-scroll">
@@ -129,10 +120,7 @@ can edit a particular area.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

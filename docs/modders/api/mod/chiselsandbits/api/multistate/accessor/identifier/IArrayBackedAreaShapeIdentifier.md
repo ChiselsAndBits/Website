@@ -75,7 +75,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getBackingData()">
-
 :::tabs
 == getBackingData
 <div class="horizontal-scroll">
@@ -87,12 +86,8 @@ Gives access to the backing long array.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getPalette()">
-
 :::tabs
 == getPalette
 <div class="horizontal-scroll">
@@ -104,10 +99,7 @@ The palette that is in use for this identifier.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

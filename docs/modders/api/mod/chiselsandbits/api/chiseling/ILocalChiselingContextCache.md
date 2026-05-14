@@ -79,7 +79,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -91,12 +90,8 @@ Gives access to the instance.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="get(mod.chiselsandbits.api.chiseling.ChiselingOperation)">
-
 :::tabs
 == get
 <div class="horizontal-scroll">
@@ -111,12 +106,8 @@ The caller needs to validate that the returned value is still valid for his usag
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="set(mod.chiselsandbits.api.chiseling.ChiselingOperation,mod.chiselsandbits.api.chiseling.IChiselingContext)">
-
 :::tabs
 == set
 <div class="horizontal-scroll">
@@ -130,12 +121,8 @@ Sets the current context in the cache.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="clear(mod.chiselsandbits.api.chiseling.ChiselingOperation)">
-
 :::tabs
 == clear
 <div class="horizontal-scroll">
@@ -147,10 +134,7 @@ Clears the current context.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

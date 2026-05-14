@@ -74,7 +74,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="registryAccess()">
-
 :::tabs
 == registryAccess
 <div class="horizontal-scroll">
@@ -86,12 +85,8 @@ Returns The registry access for this entity..
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="blockPos()">
-
 :::tabs
 == blockPos
 <div class="horizontal-scroll">
@@ -103,12 +98,8 @@ Returns The position of the block..
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="payload()">
-
 :::tabs
 == payload
 <div class="horizontal-scroll">
@@ -120,12 +111,8 @@ Returns The payload to transfer..
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="streamCodec()">
-
 :::tabs
 == streamCodec
 <div class="horizontal-scroll">
@@ -137,12 +124,8 @@ Returns The stream codec used to serialize the payload..
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="receivePayload(TPayload)">
-
 :::tabs
 == receivePayload
 <div class="horizontal-scroll">
@@ -154,10 +137,7 @@ Called when the client receives a payload useful for updating the entity.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

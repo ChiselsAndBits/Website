@@ -121,7 +121,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="loadPlugins()">
-
 :::tabs
 == loadPlugins
 <div class="horizontal-scroll">
@@ -137,22 +136,15 @@ Already has performed the instantiation logic and validation.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="isModNotLoaded(java.lang.String)">
-
 :::tabs
 == isModNotLoaded
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">protected abstract</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isModNotLoaded</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</span></div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

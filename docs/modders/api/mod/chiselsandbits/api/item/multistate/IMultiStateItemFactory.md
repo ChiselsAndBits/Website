@@ -72,7 +72,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -84,12 +83,8 @@ The instance of the manager.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="createBlockFrom(mod.chiselsandbits.api.multistate.accessor.IStateEntryInfo)">
-
 :::tabs
 == createBlockFrom
 <div class="horizontal-scroll">
@@ -103,10 +98,7 @@ Creates a new multistate itemstack with a single state internally.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

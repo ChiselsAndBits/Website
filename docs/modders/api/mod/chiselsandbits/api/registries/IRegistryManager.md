@@ -90,19 +90,14 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IRegistryManager.html" title="interface in mod.chiselsandbits.api.registries">IRegistryManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 </div>
 :::
-
-
 </section>
-
 <section id="getChiselModeRegistry()">
-
 :::tabs
 == getChiselModeRegistry
 <div class="horizontal-scroll">
@@ -114,12 +109,8 @@ The registry which controls all available chiseling modes.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getModificationOperationRegistry()">
-
 :::tabs
 == getModificationOperationRegistry
 <div class="horizontal-scroll">
@@ -132,12 +123,8 @@ The registry used for modifications of single use patterns.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getCuttingOperationRegistry()">
-
 :::tabs
 == getCuttingOperationRegistry
 <div class="horizontal-scroll">
@@ -150,12 +137,8 @@ The registry used for cutting of single use patterns.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getGlueingOperationRegistry()">
-
 :::tabs
 == getGlueingOperationRegistry
 <div class="horizontal-scroll">
@@ -168,12 +151,8 @@ The registry used for glueing of single use patterns.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getChangeTypeRegistry()">
-
 :::tabs
 == getChangeTypeRegistry
 <div class="horizontal-scroll">
@@ -186,12 +165,8 @@ The registry used for change types.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getMultiStateSnapshotTypeRegistry()">
-
 :::tabs
 == getMultiStateSnapshotTypeRegistry
 <div class="horizontal-scroll">
@@ -204,12 +179,8 @@ The registry used for multi state snapshot types.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getPatternPlacementTypeRegistry()">
-
 :::tabs
 == getPatternPlacementTypeRegistry
 <div class="horizontal-scroll">
@@ -222,10 +193,7 @@ The registry used for pattern placement types.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

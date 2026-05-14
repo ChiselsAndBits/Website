@@ -62,7 +62,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="isInitialized()">
-
 :::tabs
 == isInitialized
 <div class="horizontal-scroll">
@@ -74,10 +73,7 @@ Indicates if the screen has been initialized or not.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

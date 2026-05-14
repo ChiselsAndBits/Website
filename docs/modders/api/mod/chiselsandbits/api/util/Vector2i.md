@@ -213,7 +213,6 @@ An immutable vector with zero as all coordinates.</div>
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="hashCode()">
-
 :::tabs
 == hashCode
 <div class="horizontal-scroll">
@@ -224,12 +223,8 @@ An immutable vector with zero as all coordinates.</div>
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="equals(java.lang.Object)">
-
 :::tabs
 == equals
 <div class="horizontal-scroll">
@@ -240,12 +235,8 @@ An immutable vector with zero as all coordinates.</div>
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getX()">
-
 :::tabs
 == getX
 <div class="horizontal-scroll">
@@ -257,12 +248,8 @@ Gets the X coordinate.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getY()">
-
 :::tabs
 == getY
 <div class="horizontal-scroll">
@@ -274,12 +261,8 @@ Gets the Y coordinate.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="setY(int)">
-
 :::tabs
 == setY
 <div class="horizontal-scroll">
@@ -291,12 +274,8 @@ Sets the Y coordinate.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="setX(int)">
-
 :::tabs
 == setX
 <div class="horizontal-scroll">
@@ -308,12 +287,8 @@ Sets the X coordinate.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="toString()">
-
 :::tabs
 == toString
 <div class="horizontal-scroll">
@@ -324,12 +299,8 @@ Sets the X coordinate.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="compareTo(mod.chiselsandbits.api.util.Vector2i)">
-
 :::tabs
 == compareTo
 <div class="horizontal-scroll">
@@ -340,36 +311,24 @@ Sets the X coordinate.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="up()">
-
 :::tabs
 == up
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">up</span>()</div>
 Offset this BlockPos 1 block up</div>
 :::
-
-
 </section>
-
 <section id="up(int)">
-
 :::tabs
 == up
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">up</span><wbr><span class="parameters">(int&nbsp;n)</span></div>
 Offset this BlockPos n blocks up</div>
 :::
-
-
 </section>
-
 <section id="offset(net.minecraft.core.Direction,int)">
-
 :::tabs
 == offset
 <div class="horizontal-scroll">
@@ -377,36 +336,24 @@ Offset this BlockPos n blocks up</div>
  int&nbsp;n)</span></div>
 Offsets this BlockPos n blocks in the given direction</div>
 :::
-
-
 </section>
-
 <section id="down()">
-
 :::tabs
 == down
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">down</span>()</div>
 Offset this BlockPos 1 block down</div>
 :::
-
-
 </section>
-
 <section id="down(int)">
-
 :::tabs
 == down
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">down</span><wbr><span class="parameters">(int&nbsp;n)</span></div>
 Offset this BlockPos n blocks down</div>
 :::
-
-
 </section>
-
 <section id="withinDistance(mod.chiselsandbits.api.util.Vector2i,double)">
-
 :::tabs
 == withinDistance
 <div class="horizontal-scroll">
@@ -414,12 +361,8 @@ Offset this BlockPos n blocks down</div>
  double&nbsp;distance)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="distanceSq(double,double,boolean)">
-
 :::tabs
 == distanceSq
 <div class="horizontal-scroll">
@@ -428,12 +371,8 @@ Offset this BlockPos n blocks down</div>
  boolean&nbsp;useCenter)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="withinDistance(net.minecraft.core.Position,double)">
-
 :::tabs
 == withinDistance
 <div class="horizontal-scroll">
@@ -441,46 +380,31 @@ Offset this BlockPos n blocks down</div>
  double&nbsp;distance)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="distanceSq(mod.chiselsandbits.api.util.Vector2i)">
-
 :::tabs
 == distanceSq
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">distanceSq</span><wbr><span class="parameters">(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</span></div>
 Calculate squared distance to the given Vector</div>
 :::
-
-
 </section>
-
 <section id="manhattanDistance(mod.chiselsandbits.api.util.Vector2i)">
-
 :::tabs
 == manhattanDistance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">manhattanDistance</span><wbr><span class="parameters">(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector)</span></div>
 </div>
 :::
-
-
 </section>
-
 <section id="getCoordinatesAsString()">
-
 :::tabs
 == getCoordinatesAsString
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getCoordinatesAsString</span>()</div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

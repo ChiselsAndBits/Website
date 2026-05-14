@@ -192,7 +192,6 @@ Creates a new processing state.
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="shouldCancel()">
-
 :::tabs
 == shouldCancel
 <div class="horizontal-scroll">
@@ -204,12 +203,8 @@ Indicates if this state should cancel the interaction.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getNextState()">
-
 :::tabs
 == getNextState
 <div class="horizontal-scroll">
@@ -221,10 +216,7 @@ Gets the next state to process.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

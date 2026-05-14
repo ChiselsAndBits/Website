@@ -135,7 +135,6 @@ This state consumed the interaction.</div>
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="values()">
-
 :::tabs
 == values
 <div class="horizontal-scroll">
@@ -148,12 +147,8 @@ the order they are declared.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="valueOf(java.lang.String)">
-
 :::tabs
 == valueOf
 <div class="horizontal-scroll">
@@ -173,10 +168,7 @@ not permitted.)
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

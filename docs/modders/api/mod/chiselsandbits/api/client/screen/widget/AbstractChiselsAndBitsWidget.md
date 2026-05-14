@@ -150,7 +150,6 @@ Creates a new widget.
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getMinecraft()">
-
 :::tabs
 == getMinecraft
 <div class="horizontal-scroll">
@@ -163,12 +162,8 @@ Gives access to the current instance of minecraft.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getFont()">
-
 :::tabs
 == getFont
 <div class="horizontal-scroll">
@@ -181,12 +176,8 @@ The font used in this widget.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="init()">
-
 :::tabs
 == init
 <div class="horizontal-scroll">
@@ -199,12 +190,8 @@ Invoked by the screen, when said screen is initialized.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="removed()">
-
 :::tabs
 == removed
 <div class="horizontal-scroll">
@@ -217,12 +204,8 @@ Invoked by the screen, when it is removed from the display.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="updateWidgetNarration(net.minecraft.client.gui.narration.NarrationElementOutput)">
-
 :::tabs
 == updateWidgetNarration
 <div class="horizontal-scroll">
@@ -234,12 +217,8 @@ Invoked by the screen, when it is removed from the display.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getExtendedGraphicsExtractor(net.minecraft.client.gui.GuiGraphicsExtractor)">
-
 :::tabs
 == getExtendedGraphicsExtractor
 <div class="horizontal-scroll">
@@ -247,10 +226,7 @@ Invoked by the screen, when it is removed from the display.
  @NotNull net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;graphics)</span></div>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

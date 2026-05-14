@@ -122,7 +122,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getType()">
-
 :::tabs
 == getType
 <div class="horizontal-scroll">
@@ -134,12 +133,8 @@ Gets the type of the snapshot.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="toItemStack()">
-
 :::tabs
 == toItemStack
 <div class="horizontal-scroll">
@@ -151,12 +146,8 @@ Converts the current snapshot to a variant which is itemstack capable.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getStatics()">
-
 :::tabs
 == getStatics
 <div class="horizontal-scroll">
@@ -168,12 +159,8 @@ Returns the statistics of the current snapshot.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="clone()">
-
 :::tabs
 == clone
 <div class="horizontal-scroll">
@@ -185,12 +172,8 @@ Creates a clone of the snapshot.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="limitedToProgression(float)">
-
 :::tabs
 == limitedToProgression
 <div class="horizontal-scroll">
@@ -204,10 +187,7 @@ Creates a new snapshot which limits the currents snapshots contents to the given
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

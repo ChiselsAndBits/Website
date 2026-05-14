@@ -94,7 +94,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -107,12 +106,8 @@ influence gameplay mechanics they need to be kept in sync.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBlackListRandomTickingBlocks()">
-
 :::tabs
 == getBlackListRandomTickingBlocks
 <div class="horizontal-scroll">
@@ -124,12 +119,8 @@ Determines if random ticking blocks like grass or others should be eligible for 
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getCompatabilityMode()">
-
 :::tabs
 == getCompatabilityMode
 <div class="horizontal-scroll">
@@ -141,12 +132,8 @@ Determines if the eligibility compatibility mode is active or not.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBagStackSize()">
-
 :::tabs
 == getBagStackSize
 <div class="horizontal-scroll">
@@ -158,12 +145,8 @@ The size of the bit stack in a bit bag.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getBitSize()">
-
 :::tabs
 == getBitSize
 <div class="horizontal-scroll">
@@ -175,12 +158,8 @@ The size of a bit in the world.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getChangeTrackerSize()">
-
 :::tabs
 == getChangeTrackerSize
 <div class="horizontal-scroll">
@@ -192,12 +171,8 @@ Ths size of the change tracker, aka how much the user can undo.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getDeleteExcessBits()">
-
 :::tabs
 == getDeleteExcessBits
 <div class="horizontal-scroll">
@@ -209,12 +184,8 @@ Indicates if Chisels and Bits will delete excess bits when a block is broken.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getLightFactorMultiplier()">
-
 :::tabs
 == getLightFactorMultiplier
 <div class="horizontal-scroll">
@@ -226,12 +197,8 @@ Provides access to the factor with which the bit light strength is multiplied.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getRequireChiselInOffHandForBitBreaking()">
-
 :::tabs
 == getRequireChiselInOffHandForBitBreaking
 <div class="horizontal-scroll">
@@ -243,10 +210,7 @@ Indicates if the player should be required to have a chisel in their offhand to 
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

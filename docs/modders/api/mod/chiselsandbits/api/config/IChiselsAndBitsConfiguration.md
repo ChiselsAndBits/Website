@@ -78,7 +78,6 @@ Method Summary
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
 <section id="getInstance()">
-
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
@@ -90,12 +89,8 @@ Gives access to the current configuration of C&amp;B.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getClient()">
-
 :::tabs
 == getClient
 <div class="horizontal-scroll">
@@ -109,12 +104,8 @@ This configuration does not need to be in-sync with the server values.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getCommon()">
-
 :::tabs
 == getCommon
 <div class="horizontal-scroll">
@@ -128,12 +119,8 @@ This configuration does not need to be in-sync with the server values.
 </dl>
 </div>
 :::
-
-
 </section>
-
 <section id="getServer()">
-
 :::tabs
 == getServer
 <div class="horizontal-scroll">
@@ -147,10 +134,7 @@ Since this options influence gameplay mechanics they need to be kept in sync.
 </dl>
 </div>
 :::
-
-
 </section>
-
 :::::
   
 

@@ -87,15 +87,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Gives access to the platform's plugin manager.</div>
+Gives access to the platform's plugin manager.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The platform's plugin manager.</dd>
@@ -106,16 +104,14 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="loadPlugins()">
 
 :::tabs
 == loadPlugins
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</span>&nbsp;<span class="element-name">loadPlugins</span>()</div>
-<div class="block">Loads the plugins.
-Already has performed the instantiation logic and validation.</div>
+Loads the plugins.
+Already has performed the instantiation logic and validation.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The loaded plugins.</dd>
@@ -126,8 +122,6 @@ Already has performed the instantiation logic and validation.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

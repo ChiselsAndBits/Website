@@ -81,8 +81,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="apply(T1,T2,T3,T4)">
 
 :::tabs
@@ -92,7 +90,7 @@ Method Summary
  <a href="#type-param-T2" title="type parameter in IQuadFunction">T2</a>&nbsp;two,
  <a href="#type-param-T3" title="type parameter in IQuadFunction">T3</a>&nbsp;three,
  <a href="#type-param-T4" title="type parameter in IQuadFunction">T4</a>&nbsp;four)</span></div>
-<div class="block">Applies to the function to the four arguments, getting the result out.</div>
+Applies to the function to the four arguments, getting the result out.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>one</code> - The primary argument.</dd>
@@ -108,8 +106,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="firstIdentity()">
 
 :::tabs
@@ -122,8 +118,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="secondIdentity()">
 
 :::tabs
@@ -136,8 +130,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="thirdIdentity()">
 
 :::tabs
@@ -150,8 +142,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="fourthIdentity()">
 
 :::tabs
@@ -164,8 +154,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

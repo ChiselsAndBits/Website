@@ -72,8 +72,6 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="buildVoxelShapeForWireframe(mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)">
 
 :::tabs
@@ -83,7 +81,7 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.Vec3&nbsp;targetedPoint,
  net.minecraft.core.Direction&nbsp;hitFace)</span></div>
-<div class="block">Used to build a voxelshape for rendering in the preview.</div>
+Used to build a voxelshape for rendering in the preview.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>sourceSnapshot</code> - The snapshot stored in the pattern for placement.</dd>
@@ -99,8 +97,6 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 </section>
 
-</li>
-<li>
 <section id="performPlacement(mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,net.minecraft.world.item.context.BlockPlaceContext,boolean)">
 
 :::tabs
@@ -109,7 +105,7 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 <div class="member-signature"><span class="return-type"><a href="../../placement/PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></span>&nbsp;<span class="element-name">performPlacement</span><wbr><span class="parameters">(<a href="../../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;source,
  net.minecraft.world.item.context.BlockPlaceContext&nbsp;context,
  boolean&nbsp;simulate)</span></div>
-<div class="block">Invoked to perform the actual placement of the pattern in the world.</div>
+Invoked to perform the actual placement of the pattern in the world.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>source</code> - The snapshot stored in the pattern for placement.</dd>
@@ -124,8 +120,6 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 </section>
 
-</li>
-<li>
 <section id="getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
@@ -134,7 +128,7 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getTargetedPosition</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-<div class="block">Invoked to determine where the targeted position of the placement type is.</div>
+Invoked to determine where the targeted position of the placement type is.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack that the player is holding.</dd>
@@ -149,8 +143,6 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

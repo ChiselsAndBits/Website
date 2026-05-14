@@ -92,16 +92,14 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="mutableStream()">
 
 :::tabs
 == mutableStream
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="IMutableStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutableStateEntryInfo</a>&gt;</span>&nbsp;<span class="element-name">mutableStream</span>()</div>
-<div class="block">Returns all entries in the current area in a mutable fashion.
-Includes all empty areas as areas containing an air state.</div>
+Returns all entries in the current area in a mutable fashion.
+Includes all empty areas as areas containing an air state.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A stream with a mutable state entry info for each mutable section in the area.</dd>
@@ -112,8 +110,6 @@ Includes all empty areas as areas containing an air state.</div>
 
 </section>
 
-</li>
-<li>
 <section id="setInAreaTarget(mod.chiselsandbits.api.blockinformation.BlockInformation,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -122,7 +118,7 @@ Includes all empty areas as areas containing an air state.</div>
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setInAreaTarget</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  net.minecraft.world.phys.Vec3&nbsp;inAreaTarget)</span>
               throws <span class="exceptions"><a href="../../exceptions/SpaceOccupiedException.html" title="class in mod.chiselsandbits.api.exceptions">SpaceOccupiedException</a></span></div>
-<div class="block">Sets the target block information in the current area, using the offset from the area as well as the in area target offset.</div>
+Sets the target block information in the current area, using the offset from the area as well as the in area target offset.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -136,8 +132,6 @@ Includes all empty areas as areas containing an air state.</div>
 
 </section>
 
-</li>
-<li>
 <section id="setInBlockTarget(mod.chiselsandbits.api.blockinformation.BlockInformation,net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -147,8 +141,8 @@ Includes all empty areas as areas containing an air state.</div>
  net.minecraft.core.BlockPos&nbsp;inAreaBlockPosOffset,
  net.minecraft.world.phys.Vec3&nbsp;inBlockTarget)</span>
                throws <span class="exceptions"><a href="../../exceptions/SpaceOccupiedException.html" title="class in mod.chiselsandbits.api.exceptions">SpaceOccupiedException</a></span></div>
-<div class="block">Sets the target block information in the current area, using the in area block position offset
-as well as the in block target offset to calculate the in area offset for setting.</div>
+Sets the target block information in the current area, using the in area block position offset
+as well as the in block target offset to calculate the in area offset for setting.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -163,15 +157,13 @@ as well as the in block target offset to calculate the in area offset for settin
 
 </section>
 
-</li>
-<li>
 <section id="clearInAreaTarget(net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == clearInAreaTarget
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clearInAreaTarget</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;inAreaTarget)</span></div>
-<div class="block">Clears the current area, using the offset from the area as well as the in area target offset.</div>
+Clears the current area, using the offset from the area as well as the in area target offset.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inAreaTarget</code> - The in area offset.</dd>
@@ -182,8 +174,6 @@ as well as the in block target offset to calculate the in area offset for settin
 
 </section>
 
-</li>
-<li>
 <section id="clearInBlockTarget(net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -191,7 +181,7 @@ as well as the in block target offset to calculate the in area offset for settin
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clearInBlockTarget</span><wbr><span class="parameters">(net.minecraft.core.BlockPos&nbsp;inAreaBlockPosOffset,
  net.minecraft.world.phys.Vec3&nbsp;inBlockTarget)</span></div>
-<div class="block">Clears the current area, using the in area block position offset as well as the in block target offset to calculate the in area offset for setting.</div>
+Clears the current area, using the in area block position offset as well as the in block target offset to calculate the in area offset for setting.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inAreaBlockPosOffset</code> - The offset of blocks in the current area.</dd>
@@ -203,8 +193,6 @@ as well as the in block target offset to calculate the in area offset for settin
 
 </section>
 
-</li>
-<li>
 <section id="overrideInAreaTarget(mod.chiselsandbits.api.blockinformation.BlockInformation,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -212,8 +200,8 @@ as well as the in block target offset to calculate the in area offset for settin
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">overrideInAreaTarget</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  net.minecraft.world.phys.Vec3&nbsp;inAreaTarget)</span></div>
-<div class="block">Overrides the target block information in the current area, using the offset from the
-area as well as the in area target offset.</div>
+Overrides the target block information in the current area, using the offset from the
+area as well as the in area target offset.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -225,8 +213,6 @@ area as well as the in area target offset.</div>
 
 </section>
 
-</li>
-<li>
 <section id="overrideInAreaTarget(mod.chiselsandbits.api.blockinformation.BlockInformation,net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -235,8 +221,8 @@ area as well as the in area target offset.</div>
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">overrideInAreaTarget</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  net.minecraft.core.BlockPos&nbsp;inAreaBlockPosOffset,
  net.minecraft.world.phys.Vec3&nbsp;inBlockTarget)</span></div>
-<div class="block">Overrides the target block information in the current area, using the in area block position offset as well
-as the in block target offset to calculate the in area offset for setting.</div>
+Overrides the target block information in the current area, using the in area block position offset as well
+as the in block target offset to calculate the in area offset for setting.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -249,8 +235,6 @@ as the in block target offset to calculate the in area offset for setting.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

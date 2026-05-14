@@ -81,8 +81,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="fill(int,int,int)">
 
 :::tabs
@@ -97,8 +95,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="setValueAt(java.util.BitSet,int,int,int)">
 
 :::tabs
@@ -114,8 +110,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="setValueWith(java.util.BitSet,int,int,int)">
 
 :::tabs
@@ -131,8 +125,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="setValue(java.util.BitSet,int,int,int)">
 
 :::tabs
@@ -148,8 +140,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="getValueAt(java.util.BitSet,int,int)">
 
 :::tabs
@@ -164,8 +154,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="getValue(java.util.BitSet,int,int)">
 
 :::tabs
@@ -180,8 +168,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

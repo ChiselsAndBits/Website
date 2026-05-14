@@ -85,15 +85,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="INotificationManager.html" title="interface in mod.chiselsandbits.api.notifications">INotificationManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">The current instance of the notification manager.</div>
+The current instance of the notification manager.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The notification manager.</dd>
@@ -104,8 +102,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="notify(net.minecraft.resources.Identifier,net.minecraft.world.phys.Vec3,net.minecraft.network.chat.Component)">
 
 :::tabs
@@ -114,7 +110,7 @@ Method Summary
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">notify</span><wbr><span class="parameters">(net.minecraft.resources.Identifier&nbsp;icon,
  net.minecraft.world.phys.Vec3&nbsp;color,
  net.minecraft.network.chat.Component&nbsp;message)</span></div>
-<div class="block">Notifies the player with a simple message, icon and color.</div>
+Notifies the player with a simple message, icon and color.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>icon</code> - The icon to display.</dd>
@@ -127,8 +123,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="notify(net.minecraft.resources.Identifier,net.minecraft.network.chat.Component)">
 
 :::tabs
@@ -136,7 +130,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">notify</span><wbr><span class="parameters">(net.minecraft.resources.Identifier&nbsp;icon,
  net.minecraft.network.chat.Component&nbsp;message)</span></div>
-<div class="block">Notifies the player with a simple message and icon.</div>
+Notifies the player with a simple message and icon.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>icon</code> - The icon to display.</dd>
@@ -148,15 +142,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="notify(mod.chiselsandbits.api.notifications.INotification)">
 
 :::tabs
 == notify
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">notify</span><wbr><span class="parameters">(<a href="INotification.html" title="interface in mod.chiselsandbits.api.notifications">INotification</a>&nbsp;notification)</span></div>
-<div class="block">Notifies the player with the given notification.</div>
+Notifies the player with the given notification.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>notification</code> - The notification to display.</dd>
@@ -167,8 +159,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

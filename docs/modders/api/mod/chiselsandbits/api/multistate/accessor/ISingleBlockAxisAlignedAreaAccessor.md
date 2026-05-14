@@ -66,15 +66,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getStatistics()">
 
 :::tabs
 == getStatistics
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../../item/multistate/IStatistics.html" title="interface in mod.chiselsandbits.api.item.multistate">IStatistics</a></span>&nbsp;<span class="element-name">getStatistics</span>()</div>
-<div class="block">The statistics of the itemstack.</div>
+The statistics of the itemstack.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The statistics.</dd>
@@ -85,8 +83,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

@@ -116,23 +116,18 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="rethrowConsumer(mod.chiselsandbits.api.util.LambdaExceptionUtils.Consumer_WithExceptions)">
 
 :::tabs
 == rethrowConsumer
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="type-parameters">&lt;T, E extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Exception.html" title="class or interface in java.lang" class="external-link">Exception</a>&gt;</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;T&gt;</span>&nbsp;<span class="element-name">rethrowConsumer</span><wbr><span class="parameters">(<a href="LambdaExceptionUtils.Consumer_WithExceptions.html" title="interface in mod.chiselsandbits.api.util">LambdaExceptionUtils.Consumer_WithExceptions</a>&lt;T,<wbr>E&gt;&nbsp;consumer)</span></div>
-<div class="block">.forEach(rethrowConsumer(name -&gt; System.out.println(Class.forName(name)))); or .forEach(rethrowConsumer(ClassNameUtil::println));</div>
-</div>
+.forEach(rethrowConsumer(name -&gt; System.out.println(Class.forName(name)))); or .forEach(rethrowConsumer(ClassNameUtil::println));</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="rethrowToIntFunction(mod.chiselsandbits.api.util.LambdaExceptionUtils.ToIntFunction_WithExceptions)">
 
 :::tabs
@@ -146,8 +141,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

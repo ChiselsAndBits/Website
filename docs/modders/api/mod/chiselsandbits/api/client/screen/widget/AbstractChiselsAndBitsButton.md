@@ -112,7 +112,7 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.components.Buttonbuil
  net.minecraft.network.chat.Component&nbsp;narration,
  net.minecraft.client.gui.components.Button.OnPress&nbsp;pressable,
  net.minecraft.client.gui.components.Button.CreateNarration&nbsp;tooltip)</span></div>
-<div class="block">Creates a new button with a tooltip.</div>
+Creates a new button with a tooltip.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>x</code> - The x position.</dd>
@@ -136,8 +136,6 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.components.Buttonbuil
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="init()">
 
 :::tabs
@@ -145,7 +143,7 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.components.Buttonbuil
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">init</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="IChiselsAndBitsWidget.html#init()">IChiselsAndBitsWidget</a></code></span></div>
-<div class="block">Invoked by the screen, when said screen is initialized.</div>
+Invoked by the screen, when said screen is initialized.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="IChiselsAndBitsWidget.html#init()">init</a></code>&nbsp;in interface&nbsp;<code><a href="IChiselsAndBitsWidget.html" title="interface in mod.chiselsandbits.api.client.screen.widget">IChiselsAndBitsWidget</a></code></dd>
@@ -156,8 +154,6 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.components.Buttonbuil
 
 </section>
 
-</li>
-<li>
 <section id="removed()">
 
 :::tabs
@@ -165,7 +161,7 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.components.Buttonbuil
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">removed</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="IChiselsAndBitsWidget.html#removed()">IChiselsAndBitsWidget</a></code></span></div>
-<div class="block">Invoked by the screen, when it is removed from the display.</div>
+Invoked by the screen, when it is removed from the display.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="IChiselsAndBitsWidget.html#removed()">removed</a></code>&nbsp;in interface&nbsp;<code><a href="IChiselsAndBitsWidget.html" title="interface in mod.chiselsandbits.api.client.screen.widget">IChiselsAndBitsWidget</a></code></dd>
@@ -176,8 +172,6 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.components.Buttonbuil
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

@@ -64,8 +64,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="createSnapshot()">
 
 :::tabs
@@ -78,8 +76,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

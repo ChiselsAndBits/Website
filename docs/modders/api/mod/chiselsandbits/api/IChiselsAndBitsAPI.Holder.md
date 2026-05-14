@@ -102,8 +102,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
@@ -116,8 +114,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="setInstance(mod.chiselsandbits.api.IChiselsAndBitsAPI)">
 
 :::tabs
@@ -130,8 +126,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

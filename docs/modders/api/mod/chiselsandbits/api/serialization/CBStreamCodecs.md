@@ -120,8 +120,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="table(java.util.function.IntFunction,java.util.function.IntFunction,java.util.function.Supplier,net.minecraft.network.codec.StreamCodec,net.minecraft.network.codec.StreamCodec,net.minecraft.network.codec.StreamCodec)">
 
 :::tabs
@@ -140,8 +138,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="composite(net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,com.mojang.datafixers.util.Function7)">
 
 :::tabs
@@ -169,8 +165,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="composite(net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,net.minecraft.network.codec.StreamCodec,java.util.function.Function,com.mojang.datafixers.util.Function12)">
 
 :::tabs
@@ -208,8 +202,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="compressed(net.minecraft.network.codec.StreamCodec)">
 
 :::tabs
@@ -223,8 +215,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="dispatch(net.minecraft.network.codec.StreamCodec,java.util.function.Function,java.util.function.Function)">
 
 :::tabs
@@ -240,8 +230,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="lazyInitialized(java.util.function.Supplier)">
 
 :::tabs
@@ -255,8 +243,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="nullable()">
 
 :::tabs
@@ -270,8 +256,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

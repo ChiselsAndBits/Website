@@ -109,15 +109,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a h
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getType()">
 
 :::tabs
 == getType
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IChangeType.html" title="interface in mod.chiselsandbits.api.change.changes">IChangeType</a></span>&nbsp;<span class="element-name">getType</span>()</div>
-<div class="block">Returns The type of the change..</div>
+Returns The type of the change..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The type of the change.</dd>
@@ -128,8 +126,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a h
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

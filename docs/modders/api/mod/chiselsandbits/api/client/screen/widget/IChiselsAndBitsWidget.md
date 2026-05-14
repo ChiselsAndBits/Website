@@ -69,38 +69,30 @@ Methods inherited from interface&nbsp;net.minecraft.client.gui.components.events
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="init()">
 
 :::tabs
 == init
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">init</span>()</div>
-<div class="block">Invoked by the screen, when said screen is initialized.</div>
-</div>
+Invoked by the screen, when said screen is initialized.</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="removed()">
 
 :::tabs
 == removed
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">removed</span>()</div>
-<div class="block">Invoked by the screen, when it is removed from the display.</div>
-</div>
+Invoked by the screen, when it is removed from the display.</div>
 :::
 
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

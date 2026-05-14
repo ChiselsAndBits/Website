@@ -66,8 +66,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getGroup()">
 
 :::tabs
@@ -75,8 +73,8 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="#type-param-G" title="type parameter in IToolMode">G</a>&gt;</span>&nbsp;<span class="element-name">getGroup</span>()</div>
-<div class="block">An optional which indicates the group this tool mode
-is part of.</div>
+An optional which indicates the group this tool mode
+is part of.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The optional tool mode group.</dd>
@@ -87,8 +85,6 @@ is part of.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

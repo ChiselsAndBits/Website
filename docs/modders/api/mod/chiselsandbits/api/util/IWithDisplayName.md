@@ -72,15 +72,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getDisplayName()">
 
 :::tabs
 == getDisplayName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getDisplayName</span>()</div>
-<div class="block">Returns the display name of the object in a text component.</div>
+Returns the display name of the object in a text component.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The display name.</dd>
@@ -91,16 +89,14 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getMultiLineDisplayName()">
 
 :::tabs
 == getMultiLineDisplayName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getMultiLineDisplayName</span>()</div>
-<div class="block">Returns the display name of the object in a text component.
-This display name may contain several newline statements which can be wrapped.</div>
+Returns the display name of the object in a text component.
+This display name may contain several newline statements which can be wrapped.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The multiline display name.</dd>
@@ -111,8 +107,6 @@ This display name may contain several newline statements which can be wrapped.</
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

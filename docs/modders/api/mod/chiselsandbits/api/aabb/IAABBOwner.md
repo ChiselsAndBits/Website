@@ -61,8 +61,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getBoundingBox()">
 
 :::tabs
@@ -70,7 +68,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull net.minecraft.world.phys.AABB</span>&nbsp;<span class="element-name">getBoundingBox</span>()</div>
-<div class="block">Gives access to the bounding box of this object.</div>
+Gives access to the bounding box of this object.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The axis aligned bounding box.</dd>
@@ -81,8 +79,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

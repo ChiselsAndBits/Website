@@ -80,8 +80,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
@@ -89,7 +87,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="modifiers">static</span>&nbsp;<span class="return-type">@NotNull <a href="IMutatorFactory.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutatorFactory</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Gives access to the the mutator factory.</div>
+Gives access to the the mutator factory.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The mutator factory.</dd>
@@ -100,8 +98,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="in(net.minecraft.world.level.LevelAccessor,net.minecraft.core.BlockPos)">
 
 :::tabs
@@ -110,7 +106,7 @@ Method Summary
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world">IWorldAreaMutator</a></span>&nbsp;<span class="element-name">in</span><wbr><span class="parameters">(net.minecraft.world.level.LevelAccessor&nbsp;world,
  net.minecraft.core.BlockPos&nbsp;pos)</span></div>
-<div class="block">Creates a mutator which mutates a particular block only.</div>
+Creates a mutator which mutates a particular block only.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>world</code> - The world to mutate in.</dd>
@@ -124,8 +120,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="covering(net.minecraft.world.level.LevelAccessor,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos)">
 
 :::tabs
@@ -135,7 +129,7 @@ Method Summary
 </span><span class="return-type">@NotNull <a href="world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world">IWorldAreaMutator</a></span>&nbsp;<span class="element-name">covering</span><wbr><span class="parameters">(net.minecraft.world.level.LevelAccessor&nbsp;world,
  net.minecraft.core.BlockPos&nbsp;from,
  net.minecraft.core.BlockPos&nbsp;to)</span></div>
-<div class="block">Creates a mutator which mutates a given area.</div>
+Creates a mutator which mutates a given area.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>world</code> - The world to mutate in.</dd>
@@ -150,8 +144,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="covering(net.minecraft.world.level.LevelAccessor,net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -161,7 +153,7 @@ Method Summary
 </span><span class="return-type">@NotNull <a href="world/IWorldAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world">IWorldAreaMutator</a></span>&nbsp;<span class="element-name">covering</span><wbr><span class="parameters">(net.minecraft.world.level.LevelAccessor&nbsp;world,
  net.minecraft.world.phys.Vec3&nbsp;from,
  net.minecraft.world.phys.Vec3&nbsp;to)</span></div>
-<div class="block">Creates a mutator which mutates a given area.</div>
+Creates a mutator which mutates a given area.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>world</code> - The world to mutate in.</dd>
@@ -176,8 +168,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="clonedFromAccessor(mod.chiselsandbits.api.multistate.accessor.IAreaAccessor)">
 
 :::tabs
@@ -185,7 +175,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="IGenerallyModifiableAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IGenerallyModifiableAreaMutator</a></span>&nbsp;<span class="element-name">clonedFromAccessor</span><wbr><span class="parameters">(<a href="../accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&nbsp;source)</span></div>
-<div class="block">Creates a clone of the accessor and returns a mutator of it.</div>
+Creates a clone of the accessor and returns a mutator of it.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>source</code> - The source accessor.</dd>
@@ -198,8 +188,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

@@ -81,15 +81,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="startSection(java.lang.String)">
 
 :::tabs
 == startSection
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">startSection</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-<div class="block">Start a section with the given name.</div>
+Start a section with the given name.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>name</code> - the name to start the section with.</dd>
@@ -100,15 +98,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="startSection(java.util.function.Supplier)">
 
 :::tabs
 == startSection
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">startSection</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;&nbsp;nameSupplier)</span></div>
-<div class="block">Start section with the name provided by the given supplier.</div>
+Start section with the name provided by the given supplier.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>nameSupplier</code> - the supplier for the name of the new section.</dd>
@@ -119,30 +115,25 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="endSection()">
 
 :::tabs
 == endSection
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">endSection</span>()</div>
-<div class="block">Ends the current section.</div>
-</div>
+Ends the current section.</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="endStartSection(java.lang.String)">
 
 :::tabs
 == endStartSection
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">endStartSection</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-<div class="block">End the current section and start a new section with the given name.</div>
+End the current section and start a new section with the given name.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>name</code> - the name to start the new section with.</dd>
@@ -153,15 +144,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="endStartSection(java.util.function.Supplier)">
 
 :::tabs
 == endStartSection
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">endStartSection</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;&nbsp;nameSupplier)</span></div>
-<div class="block">End the current section and start a new section with the name supplied by the given supplier.</div>
+End the current section and start a new section with the name supplied by the given supplier.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>nameSupplier</code> - the supplier for the name to start the new section with.</dd>
@@ -172,8 +161,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

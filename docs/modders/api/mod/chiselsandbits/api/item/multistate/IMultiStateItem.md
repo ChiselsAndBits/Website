@@ -61,8 +61,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="createItemStack(net.minecraft.world.item.ItemStack)">
 
 :::tabs
@@ -70,8 +68,8 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></span>&nbsp;<span class="element-name">createItemStack</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Creates an itemstack aware context wrapper that gives access to the
-multistate information contained within the given itemstack.</div>
+Creates an itemstack aware context wrapper that gives access to the
+multistate information contained within the given itemstack.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to get an <a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate"><code>IMultiStateItemStack</code></a> for.</dd>
@@ -84,8 +82,6 @@ multistate information contained within the given itemstack.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

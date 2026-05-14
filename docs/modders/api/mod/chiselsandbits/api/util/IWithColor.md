@@ -72,8 +72,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getColorVector()">
 
 :::tabs
@@ -81,7 +79,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getColorVector</span>()</div>
-<div class="block">The color used to render.</div>
+The color used to render.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The color in a 3d double vector as RGB.</dd>
@@ -92,16 +90,14 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getAlphaChannel()">
 
 :::tabs
 == getAlphaChannel
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">getAlphaChannel</span>()</div>
-<div class="block">The alpha channel intensity to render with.
-By default, this is 1.0.</div>
+The alpha channel intensity to render with.
+By default, this is 1.0.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The alpha channel intensity.</dd>
@@ -112,8 +108,6 @@ By default, this is 1.0.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

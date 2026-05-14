@@ -61,8 +61,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="unseal(net.minecraft.world.item.ItemStack)">
 
 :::tabs
@@ -72,7 +70,7 @@ Method Summary
 </span><span class="return-type">@NotNull net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">unseal</span><wbr><span class="parameters">(@NotNull
  @NotNull net.minecraft.world.item.ItemStack&nbsp;source)</span>
                                             throws <span class="exceptions"><a href="../exceptions/SealingNotSupportedException.html" title="class in mod.chiselsandbits.api.exceptions">SealingNotSupportedException</a></span></div>
-<div class="block">Performs the unsealing operation on the given itemstack.</div>
+Performs the unsealing operation on the given itemstack.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>source</code> - The source itemstack to unseal.</dd>
@@ -87,8 +85,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

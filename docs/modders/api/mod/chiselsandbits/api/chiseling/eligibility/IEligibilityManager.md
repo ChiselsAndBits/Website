@@ -89,8 +89,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
@@ -103,8 +101,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="canBeChiseled(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
@@ -112,7 +108,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canBeChiseled</span><wbr><span class="parameters">(@NotNull
  @NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Checks if a given block information can be chiseled or is already chiseled.</div>
+Checks if a given block information can be chiseled or is already chiseled.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The given block information in question.</dd>
@@ -125,8 +121,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="canBeChiseled(net.minecraft.world.item.ItemStack)">
 
 :::tabs
@@ -134,7 +128,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canBeChiseled</span><wbr><span class="parameters">(@NotNull
  @NotNull net.minecraft.world.item.ItemStack&nbsp;provider)</span></div>
-<div class="block">Checks if a given <code>ItemStack</code> can be chiseled or is already chiseled.</div>
+Checks if a given <code>ItemStack</code> can be chiseled or is already chiseled.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>provider</code> - The given <code>ItemStack</code> in question.</dd>
@@ -147,8 +141,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="analyse(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
@@ -156,7 +148,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></span>&nbsp;<span class="element-name">analyse</span><wbr><span class="parameters">(@NotNull
  @NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Performs a chiselability analysis on the given block information.</div>
+Performs a chiselability analysis on the given block information.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information to analyze.</dd>
@@ -169,8 +161,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="analyse(net.minecraft.world.item.ItemStack)">
 
 :::tabs
@@ -178,7 +168,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></span>&nbsp;<span class="element-name">analyse</span><wbr><span class="parameters">(@NotNull
  @NotNull net.minecraft.world.item.ItemStack&nbsp;provider)</span></div>
-<div class="block">Performs a chiselability analysis on the given <code>ItemStack</code>.</div>
+Performs a chiselability analysis on the given <code>ItemStack</code>.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>provider</code> - The <code>ItemStack</code> to analyze.</dd>
@@ -191,8 +181,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

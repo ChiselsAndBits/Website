@@ -87,19 +87,17 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getForRange(int)">
 
 :::tabs
 == getForRange
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;net.minecraft.core.BlockPos&gt;</span>&nbsp;<span class="element-name">getForRange</span><wbr><span class="parameters">(int&nbsp;size)</span></div>
-<div class="block">Provides a stream of BlockPos objects within a given range which is <code>size</code> cubed in size.
+Provides a stream of BlockPos objects within a given range which is <code>size</code> cubed in size.
 The coordinates will as such (on each axis) run from 0 to <code>size - 1</code>.
 <p>
 Internally invokes <a href="#getForRange(int,int)"><code>getForRange(int, int)</code></a>, with <code>0</code> as the min value,
-and <code>size - 1</code> as max value.</div>
+and <code>size - 1</code> as max value.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>size</code> - The size of each axis for the block positions stream.</dd>
@@ -112,8 +110,6 @@ and <code>size - 1</code> as max value.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getForRange(int,int)">
 
 :::tabs
@@ -121,7 +117,7 @@ and <code>size - 1</code> as max value.</div>
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;net.minecraft.core.BlockPos&gt;</span>&nbsp;<span class="element-name">getForRange</span><wbr><span class="parameters">(int&nbsp;min,
  int&nbsp;max)</span></div>
-<div class="block">Provides a stream of BlockPos objects within a given range from the given minimal value to the given maximal value (on all axis).</div>
+Provides a stream of BlockPos objects within a given range from the given minimal value to the given maximal value (on all axis).
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>min</code> - The minimal value of the block positions stream on all axis.</dd>
@@ -135,20 +131,18 @@ and <code>size - 1</code> as max value.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getForWorldObject(mod.chiselsandbits.api.util.IWorldObject)">
 
 :::tabs
 == getForWorldObject
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;net.minecraft.core.BlockPos&gt;</span>&nbsp;<span class="element-name">getForWorldObject</span><wbr><span class="parameters">(<a href="IWorldObject.html" title="interface in mod.chiselsandbits.api.util">IWorldObject</a>&nbsp;worldObject)</span></div>
-<div class="block">Provides a stream of BlockPos objects within a given world object.
+Provides a stream of BlockPos objects within a given world object.
 <p>
 This rounds the vectors down to the block positions they are in, and then extracts the minimal and maximal values
 for each axis.
-<p>
-Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForRange(int, int, int, int, int, int)</code></a>, with the rounded down vectors as the min and max values.</div>
+</p><p>
+Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForRange(int, int, int, int, int, int)</code></a>, with the rounded down vectors as the min and max values.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>worldObject</code> - The world object to iterate over.</dd>
@@ -161,20 +155,18 @@ Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForR
 
 </section>
 
-</li>
-<li>
 <section id="getForAccessor(mod.chiselsandbits.api.multistate.accessor.world.IWorldAreaAccessor)">
 
 :::tabs
 == getForAccessor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;net.minecraft.core.BlockPos&gt;</span>&nbsp;<span class="element-name">getForAccessor</span><wbr><span class="parameters">(<a href="../multistate/accessor/world/IWorldAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor.world">IWorldAreaAccessor</a>&nbsp;worldAreaAccessor)</span></div>
-<div class="block">Provides a stream of BlockPos objects within a given world accessor.
+Provides a stream of BlockPos objects within a given world accessor.
 <p>
 This rounds the vectors down to the block positions they are in, and then extracts the minimal and maximal values
 for each axis.
-<p>
-Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForRange(int, int, int, int, int, int)</code></a>, with the rounded down vectors as the min and max values.</div>
+</p><p>
+Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForRange(int, int, int, int, int, int)</code></a>, with the rounded down vectors as the min and max values.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>worldAreaAccessor</code> - The world accessor to iterate over.</dd>
@@ -187,8 +179,6 @@ Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForR
 
 </section>
 
-</li>
-<li>
 <section id="getForWorldObject(mod.chiselsandbits.api.util.IWorldObject,boolean)">
 
 :::tabs
@@ -196,12 +186,12 @@ Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForR
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;net.minecraft.core.BlockPos&gt;</span>&nbsp;<span class="element-name">getForWorldObject</span><wbr><span class="parameters">(<a href="IWorldObject.html" title="interface in mod.chiselsandbits.api.util">IWorldObject</a>&nbsp;worldObject,
  boolean&nbsp;subtractBitSize)</span></div>
-<div class="block">Provides a stream of BlockPos objects within a given world object.
+Provides a stream of BlockPos objects within a given world object.
 <p>
 This rounds the vectors down to the block positions they are in, and then extracts the minimal and maximal values
 for each axis.
-<p>
-Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForRange(int, int, int, int, int, int)</code></a>, with the rounded down vectors as the min and max values.</div>
+</p><p>
+Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForRange(int, int, int, int, int, int)</code></a>, with the rounded down vectors as the min and max values.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>worldObject</code> - The world object to iterate over.</dd>
@@ -215,8 +205,6 @@ Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForR
 
 </section>
 
-</li>
-<li>
 <section id="getForRange(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -224,12 +212,12 @@ Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForR
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;net.minecraft.core.BlockPos&gt;</span>&nbsp;<span class="element-name">getForRange</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;min,
  net.minecraft.world.phys.Vec3&nbsp;max)</span></div>
-<div class="block">Provides a stream of BlockPos objects within a given range from the given minimal value to the given maximal value.
+Provides a stream of BlockPos objects within a given range from the given minimal value to the given maximal value.
 <p>
 This rounds the vectors down to the block positions they are in, and then extracts the minimal and maximal values
 for each axis.
-<p>
-Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForRange(int, int, int, int, int, int)</code></a>, with the rounded down vectors as the min and max values.</div>
+</p><p>
+Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForRange(int, int, int, int, int, int)</code></a>, with the rounded down vectors as the min and max values.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>min</code> - The unrounded minimal value of the block positions stream on all axis.</dd>
@@ -243,8 +231,6 @@ Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForR
 
 </section>
 
-</li>
-<li>
 <section id="getForRange(double,double,double,double,double,double)">
 
 :::tabs
@@ -256,10 +242,10 @@ Internally invokes <a href="#getForRange(int,int,int,int,int,int)"><code>getForR
  double&nbsp;maxX,
  double&nbsp;maxY,
  double&nbsp;maxZ)</span></div>
-<div class="block">Provides a stream of BlockPos objects within a given range from the given minimal value to the given maximal value.
+Provides a stream of BlockPos objects within a given range from the given minimal value to the given maximal value.
 <p>
 Internally this calls <a href="#getForRange(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)"><code>getForRange(Vec3, Vec3)</code></a>, with vectors constructed from the minimal and maximal values.
-All of its logic (so the rounding) is as such also applied.</div>
+All of its logic (so the rounding) is as such also applied.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>minX</code> - The minimal value of the X coordinate.</dd>
@@ -277,8 +263,6 @@ All of its logic (so the rounding) is as such also applied.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getForRange(int,int,int,int,int,int)">
 
 :::tabs
@@ -290,9 +274,9 @@ All of its logic (so the rounding) is as such also applied.</div>
  int&nbsp;maxX,
  int&nbsp;maxY,
  int&nbsp;maxZ)</span></div>
-<div class="block">Provides a stream of BlockPos objects within a given range from the given minimal value to the given maximal value.
+Provides a stream of BlockPos objects within a given range from the given minimal value to the given maximal value.
 <p>
-If the minimal and maximal values are the same, then the stream will contain only one block position.</div>
+If the minimal and maximal values are the same, then the stream will contain only one block position.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>minX</code> - The minimal value of the X coordinate.</dd>
@@ -310,8 +294,6 @@ If the minimal and maximal values are the same, then the stream will contain onl
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

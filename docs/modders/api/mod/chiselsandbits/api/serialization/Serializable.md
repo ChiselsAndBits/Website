@@ -91,15 +91,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="codec()">
 
 :::tabs
 == codec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.mojang.serialization.Codec&lt;<a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</span>&nbsp;<span class="element-name">codec</span>()</div>
-<div class="block">Returns The codec used for direct serialization..</div>
+Returns The codec used for direct serialization..
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="RawSerializable.html#codec()">codec</a></code>&nbsp;in interface&nbsp;<code><a href="RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
@@ -112,15 +110,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="mapCodec()">
 
 :::tabs
 == mapCodec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.mojang.serialization.MapCodec&lt;<a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</span>&nbsp;<span class="element-name">mapCodec</span>()</div>
-<div class="block">Returns The codec used for complex serialization..</div>
+Returns The codec used for complex serialization..
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="RawSerializable.html#mapCodec()">mapCodec</a></code>&nbsp;in interface&nbsp;<code><a href="RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
@@ -133,15 +129,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="streamCodec()">
 
 :::tabs
 == streamCodec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;<a href="#type-param-TBuffer" title="type parameter in Serializable">TBuffer</a>,<wbr><a href="#type-param-TSelf" title="type parameter in Serializable">TSelf</a>&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
-<div class="block">Returns The codec used for streaming serialization..</div>
+Returns The codec used for streaming serialization..
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="RawSerializable.html#streamCodec()">streamCodec</a></code>&nbsp;in interface&nbsp;<code><a href="RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
@@ -154,8 +148,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

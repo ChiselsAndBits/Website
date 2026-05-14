@@ -69,17 +69,15 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="inWorldStream()">
 
 :::tabs
 == inWorldStream
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="IInWorldStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor.world">IInWorldStateEntryInfo</a>&gt;</span>&nbsp;<span class="element-name">inWorldStream</span>()</div>
-<div class="block">Gives access to a stream of in world state entries.
+Gives access to a stream of in world state entries.
 Filters out all "virtual"-none-in-world state entries that might or might not be included
-in <a href="../IAreaAccessor.html#stream()"><code>IAreaAccessor.stream()</code></a>.</div>
+in <a href="../IAreaAccessor.html#stream()"><code>IAreaAccessor.stream()</code></a>.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A stream with only state entries which actually exist in world.</dd>
@@ -90,15 +88,13 @@ in <a href="../IAreaAccessor.html#stream()"><code>IAreaAccessor.stream()</code><
 
 </section>
 
-</li>
-<li>
 <section id="coveredAreaStream()">
 
 :::tabs
 == coveredAreaStream
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;net.minecraft.core.BlockPos&gt;</span>&nbsp;<span class="element-name">coveredAreaStream</span>()</div>
-<div class="block">Gives access to a stream which represents all the blocks touched by the accessor.</div>
+Gives access to a stream which represents all the blocks touched by the accessor.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The blocks touched by the accessor.</dd>
@@ -109,8 +105,6 @@ in <a href="../IAreaAccessor.html#stream()"><code>IAreaAccessor.stream()</code><
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

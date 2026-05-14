@@ -69,8 +69,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="multiply(float[],float)">
 
 :::tabs
@@ -78,7 +76,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">float[]</span>&nbsp;<span class="element-name">multiply</span><wbr><span class="parameters">(float[]&nbsp;input,
  float&nbsp;count)</span></div>
-<div class="block">Multiplies the given array by the given factor.</div>
+Multiplies the given array by the given factor.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>input</code> - The input array.</dd>
@@ -92,8 +90,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="createDeepClone(T[],java.util.function.IntFunction)">
 
 :::tabs
@@ -108,8 +104,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

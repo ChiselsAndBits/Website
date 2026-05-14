@@ -74,15 +74,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getBackingData()">
 
 :::tabs
 == getBackingData
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">long[]</span>&nbsp;<span class="element-name">getBackingData</span>()</div>
-<div class="block">Gives access to the backing long array.</div>
+Gives access to the backing long array.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The backing long array.</dd>
@@ -93,15 +91,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getPalette()">
 
 :::tabs
 == getPalette
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">getPalette</span>()</div>
-<div class="block">The palette that is in use for this identifier.</div>
+The palette that is in use for this identifier.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The palette list.</dd>
@@ -112,8 +108,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

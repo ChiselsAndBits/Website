@@ -65,8 +65,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="set(mod.chiselsandbits.api.blockinformation.BlockInformation,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -75,7 +73,7 @@ Method Summary
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">set</span><wbr><span class="parameters">(<a href="../../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,
  net.minecraft.world.phys.Vec3&nbsp;inAreaTarget)</span>
   throws <span class="exceptions"><a href="../../../exceptions/SpaceOccupiedException.html" title="class in mod.chiselsandbits.api.exceptions">SpaceOccupiedException</a></span></div>
-<div class="block">Sets the block information of the targeted bit to the given block information.</div>
+Sets the block information of the targeted bit to the given block information.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information to set the bit to.</dd>
@@ -89,8 +87,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

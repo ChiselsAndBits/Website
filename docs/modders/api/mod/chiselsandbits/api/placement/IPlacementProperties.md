@@ -61,23 +61,18 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="overridesOccupiedBits(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == overridesOccupiedBits
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">overridesOccupiedBits</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack)</span></div>
-<div class="block">Invoked to determine whether this replaces non-air bits of blocks, or only replaces air bits.</div>
-</div>
+Invoked to determine whether this replaces non-air bits of blocks, or only replaces air bits.</div>
 :::
 
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

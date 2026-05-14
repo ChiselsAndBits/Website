@@ -103,15 +103,13 @@ Methods inherited from interface&nbsp;net.minecraft.world.ClearableclearContentM
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="toItemStack()">
 
 :::tabs
 == toItemStack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">toItemStack</span>()</div>
-<div class="block">Converts this bit inventory into an itemstack.</div>
+Converts this bit inventory into an itemstack.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The itemstack which represents this inventory.</dd>
@@ -122,15 +120,13 @@ Methods inherited from interface&nbsp;net.minecraft.world.ClearableclearContentM
 
 </section>
 
-</li>
-<li>
 <section id="listContents()">
 
 :::tabs
 == listContents
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IBitInventoryItemStack.DisplayContents.html" title="class in mod.chiselsandbits.api.inventory.bit">IBitInventoryItemStack.DisplayContents</a></span>&nbsp;<span class="element-name">listContents</span>()</div>
-<div class="block">This lists the contents of the itemstacks bit inventory.</div>
+This lists the contents of the itemstacks bit inventory.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The contents.</dd>
@@ -141,16 +137,14 @@ Methods inherited from interface&nbsp;net.minecraft.world.ClearableclearContentM
 
 </section>
 
-</li>
-<li>
 <section id="getFilledRatio()">
 
 :::tabs
 == getFilledRatio
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">double</span>&nbsp;<span class="element-name">getFilledRatio</span>()</div>
-<div class="block">Calculates the fullness ratio of the itemstack inventory.
-Useful to render the fullness ration as durability bar on the item.</div>
+Calculates the fullness ratio of the itemstack inventory.
+Useful to render the fullness ration as durability bar on the item.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The filled ratio.</dd>
@@ -161,15 +155,13 @@ Useful to render the fullness ration as durability bar on the item.</div>
 
 </section>
 
-</li>
-<li>
 <section id="clear(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
 == clear
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;state)</span></div>
-<div class="block">Clears the bit inventory of the current state.</div>
+Clears the bit inventory of the current state.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>state</code> - The blockstate to remove from the bit inventory.</dd>
@@ -180,38 +172,30 @@ Useful to render the fullness ration as durability bar on the item.</div>
 
 </section>
 
-</li>
-<li>
 <section id="sort()">
 
 :::tabs
 == sort
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">sort</span>()</div>
-<div class="block">Sorts the bit inventory.</div>
-</div>
+Sorts the bit inventory.</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="convert(net.minecraft.world.entity.player.Player)">
 
 :::tabs
 == convert
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">convert</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span></div>
-<div class="block">Converts the inventory into blocks</div>
-</div>
+Converts the inventory into blocks</div>
 :::
 
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

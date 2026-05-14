@@ -84,16 +84,14 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="requiresUpdateOnClosure()">
 
 :::tabs
 == requiresUpdateOnClosure
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">requiresUpdateOnClosure</span>()</div>
-<div class="block">Indicates to the ux system that this item requires an additional
-update when the player closes the interface.</div>
+Indicates to the ux system that this item requires an additional
+update when the player closes the interface.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True when the update is required, false when not.</dd>
@@ -104,8 +102,6 @@ update when the player closes the interface.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getMode(net.minecraft.world.item.ItemStack)">
 
 :::tabs
@@ -113,7 +109,7 @@ update when the player closes the interface.</div>
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type"><a href="#type-param-M" title="type parameter in IWithModeItem">M</a></span>&nbsp;<span class="element-name">getMode</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Returns the current mode of the itemstack.</div>
+Returns the current mode of the itemstack.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack in question.</dd>
@@ -126,8 +122,6 @@ update when the player closes the interface.</div>
 
 </section>
 
-</li>
-<li>
 <section id="setMode(net.minecraft.world.item.ItemStack,M)">
 
 :::tabs
@@ -135,7 +129,7 @@ update when the player closes the interface.</div>
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setMode</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack,
  <a href="#type-param-M" title="type parameter in IWithModeItem">M</a>&nbsp;mode)</span></div>
-<div class="block">Set the given mode on the given itemstack.</div>
+Set the given mode on the given itemstack.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to set the mode on.</dd>
@@ -147,8 +141,6 @@ update when the player closes the interface.</div>
 
 </section>
 
-</li>
-<li>
 <section id="setMode(net.minecraft.world.item.ItemStack,int)">
 
 :::tabs
@@ -156,7 +148,7 @@ update when the player closes the interface.</div>
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setMode</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack,
  int&nbsp;modeIndex)</span></div>
-<div class="block">Set the mode with the given index on the given itemstack.</div>
+Set the mode with the given index on the given itemstack.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to set the mode on.</dd>
@@ -168,8 +160,6 @@ update when the player closes the interface.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getPossibleModes()">
 
 :::tabs
@@ -177,7 +167,7 @@ update when the player closes the interface.</div>
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="#type-param-M" title="type parameter in IWithModeItem">M</a>&gt;</span>&nbsp;<span class="element-name">getPossibleModes</span>()</div>
-<div class="block">Returns all possible modes this item can have.</div>
+Returns all possible modes this item can have.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The possible modes in an array.</dd>
@@ -188,8 +178,6 @@ update when the player closes the interface.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

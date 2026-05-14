@@ -78,8 +78,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="almostEqual(java.lang.Number,java.lang.Number)">
 
 :::tabs
@@ -93,8 +91,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="almostEqual(java.lang.Number,java.lang.Number,java.lang.Number)">
 
 :::tabs
@@ -109,8 +105,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="minimizeTowardsZero(double,double)">
 
 :::tabs
@@ -124,8 +118,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="maximizeAwayFromZero(double,double)">
 
 :::tabs
@@ -139,8 +131,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="makePositive(double)">
 
 :::tabs
@@ -153,8 +143,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

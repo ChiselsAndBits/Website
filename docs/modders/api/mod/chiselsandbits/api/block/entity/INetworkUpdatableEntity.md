@@ -73,15 +73,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="registryAccess()">
 
 :::tabs
 == registryAccess
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.core.RegistryAccess</span>&nbsp;<span class="element-name">registryAccess</span>()</div>
-<div class="block">Returns The registry access for this entity..</div>
+Returns The registry access for this entity..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The registry access for this entity.</dd>
@@ -92,15 +90,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="blockPos()">
 
 :::tabs
 == blockPos
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.core.BlockPos</span>&nbsp;<span class="element-name">blockPos</span>()</div>
-<div class="block">Returns The position of the block..</div>
+Returns The position of the block..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The position of the block.</dd>
@@ -111,15 +107,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="payload()">
 
 :::tabs
 == payload
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="#type-param-TPayload" title="type parameter in INetworkUpdatableEntity">TPayload</a></span>&nbsp;<span class="element-name">payload</span>()</div>
-<div class="block">Returns The payload to transfer..</div>
+Returns The payload to transfer..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The payload to transfer.</dd>
@@ -130,15 +124,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="streamCodec()">
 
 :::tabs
 == streamCodec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="#type-param-TPayload" title="type parameter in INetworkUpdatableEntity">TPayload</a>&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
-<div class="block">Returns The stream codec used to serialize the payload..</div>
+Returns The stream codec used to serialize the payload..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The stream codec used to serialize the payload.</dd>
@@ -149,15 +141,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="receivePayload(TPayload)">
 
 :::tabs
 == receivePayload
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">receivePayload</span><wbr><span class="parameters">(<a href="#type-param-TPayload" title="type parameter in INetworkUpdatableEntity">TPayload</a>&nbsp;payload)</span></div>
-<div class="block">Called when the client receives a payload useful for updating the entity.</div>
+Called when the client receives a payload useful for updating the entity.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>payload</code> - The payload to receive.</dd>
@@ -168,8 +158,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

@@ -78,15 +78,13 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getDefaultMode()">
 
 :::tabs
 == getDefaultMode
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IGlueingOperation.html" title="interface in mod.chiselsandbits.api.glueing.operation">IGlueingOperation</a></span>&nbsp;<span class="element-name">getDefaultMode</span>()</div>
-<div class="block">The default Glueing operation.</div>
+The default Glueing operation.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The default operation.</dd>
@@ -97,15 +95,13 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 </section>
 
-</li>
-<li>
 <section id="getRegistry()">
 
 :::tabs
 == getRegistry
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type">com.communi.suggestu.scena.core.registries.ICustomRegistry&lt;<a href="IGlueingOperation.html" title="interface in mod.chiselsandbits.api.glueing.operation">IGlueingOperation</a>&gt;</span>&nbsp;<span class="element-name">getRegistry</span>()</div>
-<div class="block">The underlying registry that contains the different Glueing modes that can be performed.</div>
+The underlying registry that contains the different Glueing modes that can be performed.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The underlying forge registry.</dd>
@@ -116,18 +112,16 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 </section>
 
-</li>
-<li>
 <section id="apply(java.util.Collection)">
 
 :::tabs
 == apply
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a></span>&nbsp;<span class="element-name">apply</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="../../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&gt;&nbsp;sources)</span></div>
-<div class="block">Performs a glueing on the given snapshots.
+Performs a glueing on the given snapshots.
 The given collection contains the individual pieces that are needed to be glued together.
 <p>
-In total a maximum 64 pieces can be given.</div>
+In total a maximum 64 pieces can be given.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>sources</code> - The accessors to glue.</dd>
@@ -140,8 +134,6 @@ In total a maximum 64 pieces can be given.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

@@ -75,15 +75,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="toBlockStack()">
 
 :::tabs
 == toBlockStack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">toBlockStack</span>()</div>
-<div class="block">Converts this multistate itemstack data to an actual use able itemstack.</div>
+Converts this multistate itemstack data to an actual use able itemstack.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The itemstack with the data of this multistate itemstack.</dd>
@@ -94,16 +92,14 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="toPatternStack()">
 
 :::tabs
 == toPatternStack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">toPatternStack</span>()</div>
-<div class="block">Converts this multistate itemstack data into a pattern that can be reused.
-By default converts this into a single use pattern.</div>
+Converts this multistate itemstack data into a pattern that can be reused.
+By default converts this into a single use pattern.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The single use patter from this multi state itemstack.</dd>
@@ -114,30 +110,25 @@ By default converts this into a single use pattern.</div>
 
 </section>
 
-</li>
-<li>
 <section id="writeDataTo(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == writeDataTo
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">writeDataTo</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Writes the state data to the itemstack.</div>
-</div>
+Writes the state data to the itemstack.</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="copy()">
 
 :::tabs
 == copy
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></span>&nbsp;<span class="element-name">copy</span>()</div>
-<div class="block">Copies the current stack.</div>
+Copies the current stack.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The stack copied.</dd>
@@ -148,8 +139,6 @@ By default converts this into a single use pattern.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

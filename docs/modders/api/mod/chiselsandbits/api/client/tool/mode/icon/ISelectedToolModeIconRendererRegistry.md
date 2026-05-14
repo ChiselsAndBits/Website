@@ -75,8 +75,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
@@ -89,15 +87,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getCurrent()">
 
 :::tabs
 == getCurrent
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="ISelectedToolModeIconRenderer.html" title="interface in mod.chiselsandbits.api.client.tool.mode.icon">ISelectedToolModeIconRenderer</a></span>&nbsp;<span class="element-name">getCurrent</span>()</div>
-<div class="block">The currently configured renderer as per configuration of the player.</div>
+The currently configured renderer as per configuration of the player.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The renderer.</dd>
@@ -108,15 +104,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="register(mod.chiselsandbits.api.client.tool.mode.icon.ISelectedToolModeIconRenderer...)">
 
 :::tabs
 == register
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="ISelectedToolModeIconRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.tool.mode.icon">ISelectedToolModeIconRendererRegistry</a></span>&nbsp;<span class="element-name">register</span><wbr><span class="parameters">(<a href="ISelectedToolModeIconRenderer.html" title="interface in mod.chiselsandbits.api.client.tool.mode.icon">ISelectedToolModeIconRenderer</a>...&nbsp;renderers)</span></div>
-<div class="block">Adds the passed in renderer instances as possible candidates.</div>
+Adds the passed in renderer instances as possible candidates.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>renderers</code> - The candidates.</dd>
@@ -129,8 +123,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

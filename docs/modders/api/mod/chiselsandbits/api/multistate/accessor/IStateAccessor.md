@@ -64,20 +64,18 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInAreaTarget(net.minecraft.world.phys.Vec3)">
 
 :::tabs
 == getInAreaTarget
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&gt;</span>&nbsp;<span class="element-name">getInAreaTarget</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;inAreaTarget)</span></div>
-<div class="block">Gets the target state in the current area, using the offset from the area as well as the in area target offset.
+Gets the target state in the current area, using the offset from the area as well as the in area target offset.
 Note if this accessor potentially targets more than 1 block position (even if it does not in reality the potential is what matters here)
 you will need to pass in the world position exactly.
 
 If this accessor can not potentially ever target more than 1 block position, you can pass in the relative position.
-This is a nasty implementation detail, and matters most when you are making new chisel or pattern placement modes!</div>
+This is a nasty implementation detail, and matters most when you are making new chisel or pattern placement modes!
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inAreaTarget</code> - The in area offset.</dd>
@@ -90,8 +88,6 @@ This is a nasty implementation detail, and matters most when you are making new 
 
 </section>
 
-</li>
-<li>
 <section id="getInBlockTarget(net.minecraft.core.BlockPos,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -99,12 +95,12 @@ This is a nasty implementation detail, and matters most when you are making new 
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&gt;</span>&nbsp;<span class="element-name">getInBlockTarget</span><wbr><span class="parameters">(net.minecraft.core.BlockPos&nbsp;inAreaBlockPosOffset,
  net.minecraft.world.phys.Vec3&nbsp;inBlockTarget)</span></div>
-<div class="block">Gets the target state in the current area, using the in area block position offset as well as the in block target offset to calculate the in area offset for setting.
+Gets the target state in the current area, using the in area block position offset as well as the in block target offset to calculate the in area offset for setting.
 Note if this accessor potentially targets more than 1 block position (even if it does not in reality the potential is what matters here)
 you will need to pass in the world position exactly.
 
 If this accessor can not potentially ever target more than 1 block position, you can pass in the relative position.
-This is a nasty implementation detail, and matters most when you are making new chisel or pattern placement modes!</div>
+This is a nasty implementation detail, and matters most when you are making new chisel or pattern placement modes!
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inAreaBlockPosOffset</code> - The offset of blocks in the current area.</dd>
@@ -118,8 +114,6 @@ This is a nasty implementation detail, and matters most when you are making new 
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

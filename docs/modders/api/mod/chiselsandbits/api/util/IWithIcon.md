@@ -61,15 +61,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getIcon()">
 
 :::tabs
 == getIcon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.resources.Identifier</span>&nbsp;<span class="element-name">getIcon</span>()</div>
-<div class="block">The icon to render.</div>
+The icon to render.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The icon.</dd>
@@ -80,8 +78,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

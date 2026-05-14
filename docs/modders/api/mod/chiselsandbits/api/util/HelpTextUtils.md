@@ -70,8 +70,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="build(mod.chiselsandbits.api.util.LocalStrings,java.util.List,java.lang.Object...)">
 
 :::tabs
@@ -80,7 +78,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">build</span><wbr><span class="parameters">(<a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>&nbsp;helpText,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;net.minecraft.network.chat.Component&gt;&nbsp;tooltip,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;variables)</span></div>
-<div class="block">Builds a new help tooltip if this is enabled by the player.</div>
+Builds a new help tooltip if this is enabled by the player.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>helpText</code> - The help tooltip.</dd>
@@ -93,8 +91,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="build(mod.chiselsandbits.api.util.LocalStrings,java.util.function.Consumer,java.lang.Object...)">
 
 :::tabs
@@ -103,7 +99,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">build</span><wbr><span class="parameters">(<a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>&nbsp;helpText,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;net.minecraft.network.chat.Component&gt;&nbsp;tooltip,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;variables)</span></div>
-<div class="block">Builds a new help tooltip if this is enabled by the player.</div>
+Builds a new help tooltip if this is enabled by the player.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>helpText</code> - The help tooltip.</dd>
@@ -116,8 +112,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

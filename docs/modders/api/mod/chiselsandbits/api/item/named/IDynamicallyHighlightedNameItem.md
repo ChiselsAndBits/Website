@@ -65,8 +65,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="adaptItemStack(net.minecraft.world.item.ItemStack)">
 
 :::tabs
@@ -79,8 +77,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

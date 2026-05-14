@@ -69,8 +69,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="isAllowed(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.accessor.world.IWorldAreaAccessor)">
 
 :::tabs
@@ -91,8 +89,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

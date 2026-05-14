@@ -66,8 +66,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="provideShape(mod.chiselsandbits.api.axissize.CollisionType,net.minecraft.core.BlockPos,boolean)">
 
 :::tabs
@@ -76,7 +74,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.shapes.VoxelShape</span>&nbsp;<span class="element-name">provideShape</span><wbr><span class="parameters">(<a href="../../axissize/CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&nbsp;type,
  net.minecraft.core.BlockPos&nbsp;offset,
  boolean&nbsp;simplify)</span></div>
-<div class="block">Determines the voxelshape of the <a href="IAreaAccessorWithVoxelShape.html" title="interface in mod.chiselsandbits.api.multistate.accessor"><code>IAreaAccessorWithVoxelShape</code></a> at the given position.</div>
+Determines the voxelshape of the <a href="IAreaAccessorWithVoxelShape.html" title="interface in mod.chiselsandbits.api.multistate.accessor"><code>IAreaAccessorWithVoxelShape</code></a> at the given position.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>type</code> - The type of the voxel shape that is needed.</dd>
@@ -91,8 +89,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

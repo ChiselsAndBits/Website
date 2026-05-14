@@ -69,8 +69,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="ignoreDepthForPlacement(net.minecraft.world.item.ItemStack,mod.chiselsandbits.api.placement.PlacementResult)">
 
 :::tabs
@@ -78,7 +76,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">ignoreDepthForPlacement</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a>&nbsp;placementResult)</span></div>
-<div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything for a given placement result.</div>
+Returns whether to effectively ignore the depth buffer and render in front of everything for a given placement result.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get depth logic for.</dd>
@@ -92,15 +90,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="
 
 </section>
 
-</li>
-<li>
 <section id="ignoreDepth(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == ignoreDepth
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">ignoreDepth</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack)</span></div>
-<div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything</div>
+Returns whether to effectively ignore the depth buffer and render in front of everything
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../item/wireframe/IWireframeProvidingItem.html#ignoreDepth(net.minecraft.world.item.ItemStack)">ignoreDepth</a></code>&nbsp;in interface&nbsp;<code><a href="../item/wireframe/IWireframeProvidingItem.html" title="interface in mod.chiselsandbits.api.item.wireframe">IWireframeProvidingItem</a></code></dd>
@@ -115,8 +111,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.placement.<a href="
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

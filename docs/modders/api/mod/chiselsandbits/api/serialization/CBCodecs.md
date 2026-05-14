@@ -102,8 +102,7 @@ Method Summary
 == BIT_SET
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/BitSet.html" title="class or interface in java.util" class="external-link">BitSet</a>&gt;</span>&nbsp;<span class="element-name">BIT_SET</span></div>
-<div class="block">Codec for a bit set.</div>
-</div>
+Codec for a bit set.</div>
 :::
 
 
@@ -118,8 +117,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="withFallback(com.mojang.serialization.Codec,com.mojang.serialization.Codec)">
 
 :::tabs
@@ -127,11 +124,11 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;F&gt;</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;F&gt;</span>&nbsp;<span class="element-name">withFallback</span><wbr><span class="parameters">(com.mojang.serialization.Codec&lt;F&gt;&nbsp;first,
  com.mojang.serialization.Codec&lt;F&gt;&nbsp;second)</span></div>
-<div class="block">Creates a codec that attempts deserialization first using the first codec,
+Creates a codec that attempts deserialization first using the first codec,
 and if that fails using the second codec.
 <p>
 Serialization always is triggered through the first codec.
-</p></div>
+</p>
 <dl class="notes">
 <dt>Type Parameters:</dt>
 <dd><span id="withFallback(com.mojang.serialization.Codec,com.mojang.serialization.Codec)-type-param-F"><code>F</code> - The object type that is encoded.</span></dd>
@@ -147,8 +144,6 @@ Serialization always is triggered through the first codec.
 
 </section>
 
-</li>
-<li>
 <section id="versioned(com.mojang.serialization.MapCodec,com.mojang.serialization.Codec)">
 
 :::tabs
@@ -156,8 +151,8 @@ Serialization always is triggered through the first codec.
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;T&gt;</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;T&gt;</span>&nbsp;<span class="element-name">versioned</span><wbr><span class="parameters">(com.mojang.serialization.MapCodec&lt;T&gt;&nbsp;singleVersionCodec,
  com.mojang.serialization.Codec&lt;T&gt;&nbsp;fallback)</span></div>
-<div class="block">Creates a codec that is versioned, but currently only has a single version.
-The version is stored as an integer in the payload, its value will always be 0</div>
+Creates a codec that is versioned, but currently only has a single version.
+The version is stored as an integer in the payload, its value will always be 0
 <dl class="notes">
 <dt>Type Parameters:</dt>
 <dd><span id="versioned(com.mojang.serialization.MapCodec,com.mojang.serialization.Codec)-type-param-T"><code>T</code> - The type of the codec.</span></dd>
@@ -172,8 +167,6 @@ The version is stored as an integer in the payload, its value will always be 0</
 
 </section>
 
-</li>
-<li>
 <section id="versioned(java.util.Map,com.mojang.serialization.MapCodec)">
 
 :::tabs
@@ -181,8 +174,8 @@ The version is stored as an integer in the payload, its value will always be 0</
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;T&gt;</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;T&gt;</span>&nbsp;<span class="element-name">versioned</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>, com.mojang.serialization.MapCodec&lt;T&gt;&gt;&nbsp;versions,
  com.mojang.serialization.MapCodec&lt;T&gt;&nbsp;fallback)</span></div>
-<div class="block">Creates a codec that is versioned.
-The version is stored as an integer in the payload.</div>
+Creates a codec that is versioned.
+The version is stored as an integer in the payload.
 <dl class="notes">
 <dt>Type Parameters:</dt>
 <dd><span id="versioned(java.util.Map,com.mojang.serialization.MapCodec)-type-param-T"><code>T</code> - The type of the codec.</span></dd>
@@ -197,16 +190,14 @@ The version is stored as an integer in the payload.</div>
 
 </section>
 
-</li>
-<li>
 <section id="readLegacyCompressed(com.mojang.serialization.Codec)">
 
 :::tabs
 == readLegacyCompressed
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;T&gt;</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;T&gt;</span>&nbsp;<span class="element-name">readLegacyCompressed</span><wbr><span class="parameters">(com.mojang.serialization.Codec&lt;T&gt;&nbsp;inner)</span></div>
-<div class="block">Creates a codec that compresses the data using LZ4.
-The compressed data is stored as a byte array in the payload.</div>
+Creates a codec that compresses the data using LZ4.
+The compressed data is stored as a byte array in the payload.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inner</code> - The inner codec.</dd>
@@ -217,16 +208,14 @@ The compressed data is stored as a byte array in the payload.</div>
 
 </section>
 
-</li>
-<li>
 <section id="compressed(com.mojang.serialization.Codec)">
 
 :::tabs
 == compressed
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="type-parameters">&lt;T&gt;</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;T&gt;</span>&nbsp;<span class="element-name">compressed</span><wbr><span class="parameters">(com.mojang.serialization.Codec&lt;T&gt;&nbsp;inner)</span></div>
-<div class="block">Creates a codec that compresses the data using LZ4.
-The compressed data is stored as a byte array in the payload.</div>
+Creates a codec that compresses the data using LZ4.
+The compressed data is stored as a byte array in the payload.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inner</code> - The inner codec.</dd>
@@ -237,8 +226,6 @@ The compressed data is stored as a byte array in the payload.</div>
 
 </section>
 
-</li>
-<li>
 <section id="unboundedTable(com.mojang.serialization.Codec,com.mojang.serialization.Codec,com.mojang.serialization.Codec)">
 
 :::tabs
@@ -254,8 +241,6 @@ The compressed data is stored as a byte array in the payload.</div>
 
 </section>
 
-</li>
-<li>
 <section id="lazyNbtAware(com.mojang.serialization.Codec,java.util.function.Supplier)">
 
 :::tabs
@@ -269,8 +254,6 @@ The compressed data is stored as a byte array in the payload.</div>
 
 </section>
 
-</li>
-<li>
 <section id="lazyNbtAware(com.mojang.serialization.MapCodec,java.util.function.Function)">
 
 :::tabs
@@ -284,8 +267,6 @@ The compressed data is stored as a byte array in the payload.</div>
 
 </section>
 
-</li>
-<li>
 <section id="unboundedComplexMap(com.mojang.serialization.Codec,com.mojang.serialization.Codec)">
 
 :::tabs
@@ -300,8 +281,6 @@ The compressed data is stored as a byte array in the payload.</div>
 
 </section>
 
-</li>
-<li>
 <section id="unboundedComplexMap(java.lang.String,com.mojang.serialization.Codec,java.lang.String,com.mojang.serialization.Codec)">
 
 :::tabs
@@ -318,8 +297,6 @@ The compressed data is stored as a byte array in the payload.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

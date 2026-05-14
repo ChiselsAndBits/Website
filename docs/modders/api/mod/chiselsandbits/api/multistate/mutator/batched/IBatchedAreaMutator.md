@@ -66,16 +66,14 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="batch(mod.chiselsandbits.api.change.IChangeTracker)">
 
 :::tabs
 == batch
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../../../util/IBatchMutation.html" title="interface in mod.chiselsandbits.api.util">IBatchMutation</a></span>&nbsp;<span class="element-name">batch</span><wbr><span class="parameters">(<a href="../../../change/IChangeTracker.html" title="interface in mod.chiselsandbits.api.change">IChangeTracker</a>&nbsp;changeTracker)</span></div>
-<div class="block">Triggers a batch mutation start for block placement.
-Enables tracking of the changes.</div>
+Triggers a batch mutation start for block placement.
+Enables tracking of the changes.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>changeTracker</code> - The change tracker to apply the changes to.</dd>
@@ -88,8 +86,6 @@ Enables tracking of the changes.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

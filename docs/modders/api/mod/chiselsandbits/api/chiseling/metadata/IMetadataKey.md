@@ -70,16 +70,14 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="snapshot(T)">
 
 :::tabs
 == snapshot
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="#type-param-T" title="type parameter in IMetadataKey">T</a></span>&nbsp;<span class="element-name">snapshot</span><wbr><span class="parameters">(<a href="#type-param-T" title="type parameter in IMetadataKey">T</a>&nbsp;value)</span></div>
-<div class="block">Creates a snapshot of the value that is passed to it.
-The primary task of this method is to create a deep copy of the given value.</div>
+Creates a snapshot of the value that is passed to it.
+The primary task of this method is to create a deep copy of the given value.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>value</code> - The value.</dd>
@@ -92,8 +90,6 @@ The primary task of this method is to create a deep copy of the given value.</di
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

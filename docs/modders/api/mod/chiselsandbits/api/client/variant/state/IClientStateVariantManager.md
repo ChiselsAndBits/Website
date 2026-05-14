@@ -78,8 +78,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
@@ -92,8 +90,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="registerStateVariantProvider(java.util.function.Supplier,mod.chiselsandbits.api.client.variant.state.IClientStateVariantProvider)">
 
 :::tabs
@@ -101,7 +97,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IClientStateVariantManager.html" title="interface in mod.chiselsandbits.api.client.variant.state">IClientStateVariantManager</a></span>&nbsp;<span class="element-name">registerStateVariantProvider</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;net.minecraft.world.level.block.Block&gt;&nbsp;block,
  <a href="IClientStateVariantProvider.html" title="interface in mod.chiselsandbits.api.client.variant.state">IClientStateVariantProvider</a>&nbsp;provider)</span></div>
-<div class="block">Registers a new state variant provider.</div>
+Registers a new state variant provider.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>provider</code> - The provider to register.</dd>
@@ -114,15 +110,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getBlockModelData(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
 == getBlockModelData
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.communi.suggestu.scena.core.client.models.data.IBlockModelData</span>&nbsp;<span class="element-name">getBlockModelData</span><wbr><span class="parameters">(<a href="../../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Retrieves the block model data for the state block information.</div>
+Retrieves the block model data for the state block information.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The state block information.</dd>
@@ -135,8 +129,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="appendHoverText(mod.chiselsandbits.api.blockinformation.BlockInformation,net.minecraft.world.item.Item.TooltipContext,net.minecraft.world.item.component.TooltipDisplay,java.util.function.Consumer,net.minecraft.world.item.TooltipFlag)">
 
 :::tabs
@@ -147,8 +139,8 @@ Method Summary
  net.minecraft.world.item.component.TooltipDisplay&nbsp;tooltipDisplay,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;net.minecraft.network.chat.Component&gt;&nbsp;tooltipAdder,
  net.minecraft.world.item.TooltipFlag&nbsp;flag)</span></div>
-<div class="block">Invoked to append a tooltip for the given variant in the block information.
-If no variant is found this method does nothing.</div>
+Invoked to append a tooltip for the given variant in the block information.
+If no variant is found this method does nothing.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information to append the tooltip for.</dd>
@@ -163,8 +155,6 @@ If no variant is found this method does nothing.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

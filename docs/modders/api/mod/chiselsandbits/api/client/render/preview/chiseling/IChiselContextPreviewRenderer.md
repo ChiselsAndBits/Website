@@ -64,16 +64,14 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getId()">
 
 :::tabs
 == getId
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.resources.Identifier</span>&nbsp;<span class="element-name">getId</span>()</div>
-<div class="block">The id of teh renderer.
-Used to give the player a selection option for the preview renderer.</div>
+The id of teh renderer.
+Used to give the player a selection option for the preview renderer.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The id of the preview renderer.</dd>
@@ -84,8 +82,6 @@ Used to give the player a selection option for the preview renderer.</div>
 
 </section>
 
-</li>
-<li>
 <section id="renderExistingContextsBoundingBox(net.minecraft.client.renderer.LevelRenderer,com.mojang.blaze3d.vertex.PoseStack,net.minecraft.client.renderer.MultiBufferSource.BufferSource,net.minecraft.client.renderer.state.level.LevelRenderState,float,mod.chiselsandbits.api.chiseling.IChiselingContext)">
 
 :::tabs
@@ -97,7 +93,7 @@ Used to give the player a selection option for the preview renderer.</div>
  net.minecraft.client.renderer.state.level.LevelRenderState&nbsp;levelRenderState,
  float&nbsp;partialTicks,
  <a href="../../../../chiseling/IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;currentContextSnapshot)</span></div>
-<div class="block">Invoked by the engine to render previews of the given <a href="../../../../chiseling/IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling"><code>IChiselingContext</code></a>.</div>
+Invoked by the engine to render previews of the given <a href="../../../../chiseling/IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling"><code>IChiselingContext</code></a>.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>levelRenderer</code> - The level renderer in which the bounding box is being rendered.</dd>
@@ -113,8 +109,6 @@ Used to give the player a selection option for the preview renderer.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

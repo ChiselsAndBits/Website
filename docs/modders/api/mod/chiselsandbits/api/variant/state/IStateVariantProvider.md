@@ -97,15 +97,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getRegistryName()">
 
 :::tabs
 == getRegistryName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.resources.Identifier</span>&nbsp;<span class="element-name">getRegistryName</span>()</div>
-<div class="block">Returns the registry name of the provider.</div>
+Returns the registry name of the provider.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The registry name.</dd>
@@ -116,8 +114,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getStateVariant(net.minecraft.world.level.block.state.BlockState,java.util.Optional)">
 
 :::tabs
@@ -125,7 +121,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">getStateVariant</span><wbr><span class="parameters">(net.minecraft.world.level.block.state.BlockState&nbsp;blockState,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;net.minecraft.world.level.block.entity.BlockEntity&gt;&nbsp;blockEntity)</span></div>
-<div class="block">Returns the state variant, if one exists, for the blockstate and block entity combination.</div>
+Returns the state variant, if one exists, for the blockstate and block entity combination.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockState</code> - The block state.</dd>
@@ -139,15 +135,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getStateVariant(net.minecraft.world.level.material.FluidState)">
 
 :::tabs
 == getStateVariant
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">getStateVariant</span><wbr><span class="parameters">(net.minecraft.world.level.material.FluidState&nbsp;fluidStateIn)</span></div>
-<div class="block">Returns the state variant, if one exists, for the fluid state.</div>
+Returns the state variant, if one exists, for the fluid state.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>fluidStateIn</code> - The fluid state.</dd>
@@ -160,8 +154,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getStateVariant(net.minecraft.world.level.block.state.BlockState,net.minecraft.world.item.ItemStack)">
 
 :::tabs
@@ -169,7 +161,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">getStateVariant</span><wbr><span class="parameters">(net.minecraft.world.level.block.state.BlockState&nbsp;blockState,
  net.minecraft.world.item.ItemStack&nbsp;itemStack)</span></div>
-<div class="block">Returns the state variant, if one exists, for the block state and item stack combination.</div>
+Returns the state variant, if one exists, for the block state and item stack combination.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockState</code> - The block state.</dd>
@@ -183,15 +175,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getStateVariant(com.communi.suggestu.scena.core.fluid.FluidInformation)">
 
 :::tabs
 == getStateVariant
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">getStateVariant</span><wbr><span class="parameters">(com.communi.suggestu.scena.core.fluid.FluidInformation&nbsp;fluidInformation)</span></div>
-<div class="block">Returns the state variant, if one exists, for the fluid information.</div>
+Returns the state variant, if one exists, for the fluid information.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>fluidInformation</code> - The fluid information.</dd>
@@ -204,15 +194,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getAllDefaultVariants(net.minecraft.world.level.block.state.BlockState)">
 
 :::tabs
 == getAllDefaultVariants
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;? extends <a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">getAllDefaultVariants</span><wbr><span class="parameters">(net.minecraft.world.level.block.state.BlockState&nbsp;state)</span></div>
-<div class="block">Returns all the default variants for the given block state.</div>
+Returns all the default variants for the given block state.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>state</code> - The block state.</dd>
@@ -225,15 +213,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getItemStack(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
 == getItemStack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;net.minecraft.world.item.ItemStack&gt;</span>&nbsp;<span class="element-name">getItemStack</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;stateVariant)</span></div>
-<div class="block">Returns the item stack for the given state variant.</div>
+Returns the item stack for the given state variant.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stateVariant</code> - The state variant.</dd>
@@ -246,8 +232,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getFluidInformation(mod.chiselsandbits.api.variant.state.IStateVariant,long)">
 
 :::tabs
@@ -255,7 +239,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;com.communi.suggestu.scena.core.fluid.FluidInformation&gt;</span>&nbsp;<span class="element-name">getFluidInformation</span><wbr><span class="parameters">(<a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&nbsp;stateVariant,
  long&nbsp;amount)</span></div>
-<div class="block">Returns the fluid information for the given state variant.</div>
+Returns the fluid information for the given state variant.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stateVariant</code> - The state variant.</dd>
@@ -269,15 +253,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getName(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
 == getName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;net.minecraft.network.chat.Component&gt;</span>&nbsp;<span class="element-name">getName</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;variant)</span></div>
-<div class="block">Returns the name of the given state variant.</div>
+Returns the name of the given state variant.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>variant</code> - The state variant to get the name for.</dd>
@@ -290,15 +272,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="mapCodec()">
 
 :::tabs
 == mapCodec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.mojang.serialization.MapCodec&lt;? extends <a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">mapCodec</span>()</div>
-<div class="block">Returns the map codec for the state variant.</div>
+Returns the map codec for the state variant.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The map codec.</dd>
@@ -309,15 +289,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="streamCodec()">
 
 :::tabs
 == streamCodec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;? super net.minecraft.network.RegistryFriendlyByteBuf, ? extends <a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
-<div class="block">Returns the stream codec for the state variant.</div>
+Returns the stream codec for the state variant.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The stream codec.</dd>
@@ -328,8 +306,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="setFullBlock(net.minecraft.world.level.LevelAccessor,net.minecraft.core.BlockPos,mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
@@ -338,7 +314,7 @@ Method Summary
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setFullBlock</span><wbr><span class="parameters">(net.minecraft.world.level.LevelAccessor&nbsp;levelAccessor,
  net.minecraft.core.BlockPos&nbsp;inWorldPos,
  <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Sets the full block at the given position.</div>
+Sets the full block at the given position.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>levelAccessor</code> - The level accessor.</dd>
@@ -351,8 +327,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getBeaconColorMultiplier(mod.chiselsandbits.api.blockinformation.BlockInformation,net.minecraft.world.level.LevelReader,net.minecraft.core.BlockPos,net.minecraft.core.BlockPos)">
 
 :::tabs
@@ -363,7 +337,7 @@ Method Summary
  net.minecraft.world.level.LevelReader&nbsp;levelReader,
  net.minecraft.core.BlockPos&nbsp;pos,
  net.minecraft.core.BlockPos&nbsp;beaconPos)</span></div>
-<div class="block">Returns the beacon color multiplier for the given block information.</div>
+Returns the beacon color multiplier for the given block information.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information.</dd>
@@ -379,8 +353,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

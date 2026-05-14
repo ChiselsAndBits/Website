@@ -61,8 +61,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getPlacementResult(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
@@ -71,7 +69,7 @@ Method Summary
 <div class="member-signature"><span class="return-type"><a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></span>&nbsp;<span class="element-name">getPlacementResult</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-<div class="block">Invoked to determine the result of attempting actual placement in the world.</div>
+Invoked to determine the result of attempting actual placement in the world.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get the color for.</dd>
@@ -86,8 +84,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

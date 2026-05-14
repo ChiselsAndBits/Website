@@ -68,8 +68,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="adapt(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)">
 
 :::tabs
@@ -88,8 +86,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

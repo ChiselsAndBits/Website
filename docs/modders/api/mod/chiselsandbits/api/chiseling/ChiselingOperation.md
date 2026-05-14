@@ -102,9 +102,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == CHISELING
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a></span>&nbsp;<span class="element-name">CHISELING</span></div>
-<div class="block">The current operation is a chisel.
+The current operation is a chisel.
 As such it removes the bit underneath the cursor.</div>
-</div>
 :::
 
 
@@ -116,9 +115,8 @@ As such it removes the bit underneath the cursor.</div>
 == PLACING
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a></span>&nbsp;<span class="element-name">PLACING</span></div>
-<div class="block">The current operation is a bit.
+The current operation is a bit.
 As such it places the bit underneath the cursor.</div>
-</div>
 :::
 
 
@@ -137,16 +135,14 @@ As such it places the bit underneath the cursor.</div>
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="values()">
 
 :::tabs
 == values
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>[]</span>&nbsp;<span class="element-name">values</span>()</div>
-<div class="block">Returns an array containing the constants of this enum class, in
-the order they are declared.</div>
+Returns an array containing the constants of this enum class, in
+the order they are declared.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>an array containing the constants of this enum class, in the order they are declared</dd>
@@ -157,18 +153,16 @@ the order they are declared.</div>
 
 </section>
 
-</li>
-<li>
 <section id="valueOf(java.lang.String)">
 
 :::tabs
 == valueOf
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a></span>&nbsp;<span class="element-name">valueOf</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-<div class="block">Returns the enum constant of this class with the specified name.
+Returns the enum constant of this class with the specified name.
 The string must match <i>exactly</i> an identifier used to declare an
 enum constant in this class.  (Extraneous whitespace characters are 
-not permitted.)</div>
+not permitted.)
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>name</code> - the name of the enum constant to be returned.</dd>
@@ -184,15 +178,13 @@ not permitted.)</div>
 
 </section>
 
-</li>
-<li>
 <section id="processesAir()">
 
 :::tabs
 == processesAir
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">processesAir</span>()</div>
-<div class="block">Indicates if this operation processes air.</div>
+Indicates if this operation processes air.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> if this operation processes air, <code>false</code> otherwise.</dd>
@@ -203,15 +195,13 @@ not permitted.)</div>
 
 </section>
 
-</li>
-<li>
 <section id="isChiseling()">
 
 :::tabs
 == isChiseling
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isChiseling</span>()</div>
-<div class="block">Indicates if the current mode is a chiseling mode.</div>
+Indicates if the current mode is a chiseling mode.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True when this is a chiseling mode, false otherwise.</dd>
@@ -222,15 +212,13 @@ not permitted.)</div>
 
 </section>
 
-</li>
-<li>
 <section id="isPlacing()">
 
 :::tabs
 == isPlacing
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isPlacing</span>()</div>
-<div class="block">Indicates if the current mode is a placing mode.</div>
+Indicates if the current mode is a placing mode.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True when this is a placing mode, false otherwise.</dd>
@@ -241,8 +229,6 @@ not permitted.)</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

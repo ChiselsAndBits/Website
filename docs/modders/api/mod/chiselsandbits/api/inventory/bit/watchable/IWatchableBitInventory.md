@@ -66,15 +66,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.inventory.bit.<a hr
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="startWatching(java.lang.Runnable)">
 
 :::tabs
 == startWatching
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IWatch.html" title="interface in mod.chiselsandbits.api.inventory.bit.watchable">IWatch</a></span>&nbsp;<span class="element-name">startWatching</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Runnable.html" title="class or interface in java.lang" class="external-link">Runnable</a>&nbsp;onChangeCallback)</span></div>
-<div class="block">Invoke to start receiving change callbacks on this given callback.</div>
+Invoke to start receiving change callbacks on this given callback.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>onChangeCallback</code> - Triggered when the inventory changes.</dd>
@@ -87,8 +85,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.inventory.bit.<a hr
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

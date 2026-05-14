@@ -89,8 +89,7 @@ Method Summary
 == EMPTY
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type"><a href="IBlockNeighborhood.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhood</a></span>&nbsp;<span class="element-name">EMPTY</span></div>
-<div class="block">Empty neighborhood.</div>
-</div>
+Empty neighborhood.</div>
 :::
 
 
@@ -105,15 +104,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="around(net.minecraft.world.level.block.entity.BlockEntity)">
 
 :::tabs
 == around
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IBlockNeighborhood.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhood</a></span>&nbsp;<span class="element-name">around</span><wbr><span class="parameters">(net.minecraft.world.level.block.entity.BlockEntity&nbsp;blockEntity)</span></div>
-<div class="block">Creates a block neighborhood around the given block entity.</div>
+Creates a block neighborhood around the given block entity.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockEntity</code> - the entity to get the neighborhood for.</dd>
@@ -126,8 +123,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getBlockInformation(net.minecraft.core.Direction)">
 
 :::tabs
@@ -135,7 +130,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getBlockInformation</span><wbr><span class="parameters">(net.minecraft.core.Direction&nbsp;direction)</span></div>
-<div class="block">Returns the blocks neighbor in the given direction.</div>
+Returns the blocks neighbor in the given direction.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>direction</code> - The direction.</dd>
@@ -148,8 +143,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getAreaAccessor(net.minecraft.core.Direction)">
 
 :::tabs
@@ -157,7 +150,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@Nullable
 </span><span class="return-type">@Nullable <a href="../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a></span>&nbsp;<span class="element-name">getAreaAccessor</span><wbr><span class="parameters">(net.minecraft.core.Direction&nbsp;direction)</span></div>
-<div class="block">Returns the blocks potential area accessor neighbor in the given direction.</div>
+Returns the blocks potential area accessor neighbor in the given direction.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>direction</code> - The direction.</dd>
@@ -170,8 +163,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

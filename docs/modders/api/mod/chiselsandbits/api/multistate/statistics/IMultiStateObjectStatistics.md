@@ -110,19 +110,17 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getPrimaryState()">
 
 :::tabs
 == getPrimaryState
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getPrimaryState</span>()</div>
-<div class="block">The primary blockstate.
+The primary blockstate.
 If the multistate block is empty, then <code>Block.defaultBlockState()</code> is returned.
 Generally speaking this is the blockstate that occurs the most often
 in the multistate block.
-But this is not guaranteed.</div>
+But this is not guaranteed.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../item/multistate/IStatistics.html#getPrimaryState()">getPrimaryState</a></code>&nbsp;in interface&nbsp;<code><a href="../../item/multistate/IStatistics.html" title="interface in mod.chiselsandbits.api.item.multistate">IStatistics</a></code></dd>
@@ -135,15 +133,13 @@ But this is not guaranteed.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getStateCounts()">
 
 :::tabs
 == getStateCounts
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</span>&nbsp;<span class="element-name">getStateCounts</span>()</div>
-<div class="block">An immutable copy of the map that contains the counts of all blockstates in the multistate block.</div>
+An immutable copy of the map that contains the counts of all blockstates in the multistate block.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The blockstate count map.</dd>
@@ -154,15 +150,13 @@ But this is not guaranteed.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getContainedStates()">
 
 :::tabs
 == getContainedStates
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link">Set</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">getContainedStates</span>()</div>
-<div class="block">Returns all states (without count) that are contained in the object</div>
+Returns all states (without count) that are contained in the object
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../item/multistate/IStatistics.html#getContainedStates()">getContainedStates</a></code>&nbsp;in interface&nbsp;<code><a href="../../item/multistate/IStatistics.html" title="interface in mod.chiselsandbits.api.item.multistate">IStatistics</a></code></dd>
@@ -175,15 +169,13 @@ But this is not guaranteed.</div>
 
 </section>
 
-</li>
-<li>
 <section id="shouldCheckWeakPower()">
 
 :::tabs
 == shouldCheckWeakPower
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldCheckWeakPower</span>()</div>
-<div class="block">Indicates if the block that this statistics belongs to should check for weak power.</div>
+Indicates if the block that this statistics belongs to should check for weak power.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>Indicates if this block should check for weak power.</dd>
@@ -194,15 +186,13 @@ But this is not guaranteed.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getFullnessFactor()">
 
 :::tabs
 == getFullnessFactor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">float</span>&nbsp;<span class="element-name">getFullnessFactor</span>()</div>
-<div class="block">Gives access to the fullness factor of the current block.</div>
+Gives access to the fullness factor of the current block.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The fullness factor.</dd>
@@ -213,16 +203,14 @@ But this is not guaranteed.</div>
 
 </section>
 
-</li>
-<li>
 <section id="isFullBlock()">
 
 :::tabs
 == isFullBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isFullBlock</span>()</div>
-<div class="block">Indicates if the current block is full.
-Generally coincides with <a href="#getFullnessFactor()"><code>getFullnessFactor()</code></a> being equal to <code>1f</code>.</div>
+Indicates if the current block is full.
+Generally coincides with <a href="#getFullnessFactor()"><code>getFullnessFactor()</code></a> being equal to <code>1f</code>.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>Indicates if this block is full or not.</dd>
@@ -233,15 +221,13 @@ Generally coincides with <a href="#getFullnessFactor()"><code>getFullnessFactor(
 
 </section>
 
-</li>
-<li>
 <section id="getSlipperiness()">
 
 :::tabs
 == getSlipperiness
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">float</span>&nbsp;<span class="element-name">getSlipperiness</span>()</div>
-<div class="block">Indicates the slipperiness of the current block.</div>
+Indicates the slipperiness of the current block.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The slipperiness.</dd>
@@ -252,15 +238,13 @@ Generally coincides with <a href="#getFullnessFactor()"><code>getFullnessFactor(
 
 </section>
 
-</li>
-<li>
 <section id="getLightEmissionFactor()">
 
 :::tabs
 == getLightEmissionFactor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">float</span>&nbsp;<span class="element-name">getLightEmissionFactor</span>()</div>
-<div class="block">The factor of how much light is emitted by the block.</div>
+The factor of how much light is emitted by the block.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A factor of how much light is emitted by the block, between 0 and 1.</dd>
@@ -271,15 +255,13 @@ Generally coincides with <a href="#getFullnessFactor()"><code>getFullnessFactor(
 
 </section>
 
-</li>
-<li>
 <section id="getLightBlockingFactor()">
 
 :::tabs
 == getLightBlockingFactor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">float</span>&nbsp;<span class="element-name">getLightBlockingFactor</span>()</div>
-<div class="block">The factor with which the bits block light.</div>
+The factor with which the bits block light.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A factor of how much light is blocked by the block, between 0 and 1.</dd>
@@ -290,15 +272,13 @@ Generally coincides with <a href="#getFullnessFactor()"><code>getFullnessFactor(
 
 </section>
 
-</li>
-<li>
 <section id="getRelativeBlockHardness(net.minecraft.world.entity.player.Player)">
 
 :::tabs
 == getRelativeBlockHardness
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">float</span>&nbsp;<span class="element-name">getRelativeBlockHardness</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span></div>
-<div class="block">Indicates the relative block hardness for a given player.</div>
+Indicates the relative block hardness for a given player.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The players to get the hardness for.</dd>
@@ -311,15 +291,13 @@ Generally coincides with <a href="#getFullnessFactor()"><code>getFullnessFactor(
 
 </section>
 
-</li>
-<li>
 <section id="isEmptyBlock()">
 
 :::tabs
 == isEmptyBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isEmptyBlock</span>()</div>
-<div class="block">Indicates if the current multistate block is empty.</div>
+Indicates if the current multistate block is empty.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The current multistate block.</dd>
@@ -330,15 +308,13 @@ Generally coincides with <a href="#getFullnessFactor()"><code>getFullnessFactor(
 
 </section>
 
-</li>
-<li>
 <section id="canPropagateSkylight()">
 
 :::tabs
 == canPropagateSkylight
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">canPropagateSkylight</span>()</div>
-<div class="block">Indicates if the current multistate block can propagate skylight.</div>
+Indicates if the current multistate block can propagate skylight.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True when the block can propagate skylight, false when not.</dd>
@@ -349,15 +325,13 @@ Generally coincides with <a href="#getFullnessFactor()"><code>getFullnessFactor(
 
 </section>
 
-</li>
-<li>
 <section id="canSustainGrassBelow()">
 
 :::tabs
 == canSustainGrassBelow
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">canSustainGrassBelow</span>()</div>
-<div class="block">Indicates if the current multistate block can sustain grass below.</div>
+Indicates if the current multistate block can sustain grass below.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> for grass sustainers, <code>false</code> for non-grass sustainers.</dd>
@@ -368,8 +342,6 @@ Generally coincides with <a href="#getFullnessFactor()"><code>getFullnessFactor(
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

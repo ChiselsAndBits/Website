@@ -80,8 +80,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
@@ -94,15 +92,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getClipboard()">
 
 :::tabs
 == getClipboard
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a>&gt;</span>&nbsp;<span class="element-name">getClipboard</span>()</div>
-<div class="block">The clipboard contents.</div>
+The clipboard contents.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The clipboard contents.</dd>
@@ -113,8 +109,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="addEntry(mod.chiselsandbits.api.item.multistate.IMultiStateItemStack,net.minecraft.core.HolderLookup.Provider)">
 
 :::tabs
@@ -122,7 +116,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">addEntry</span><wbr><span class="parameters">(<a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a>&nbsp;multiStateItemStack,
  net.minecraft.core.HolderLookup.Provider&nbsp;provider)</span></div>
-<div class="block">Adds an entry to the clipboard.</div>
+Adds an entry to the clipboard.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>multiStateItemStack</code> - The multi-state item stack to add.</dd>
@@ -134,8 +128,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="removeEntry(int,net.minecraft.core.HolderLookup.Provider)">
 
 :::tabs
@@ -143,7 +135,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">removeEntry</span><wbr><span class="parameters">(int&nbsp;index,
  net.minecraft.core.HolderLookup.Provider&nbsp;provider)</span></div>
-<div class="block">Removes an entry from the clipboard.</div>
+Removes an entry from the clipboard.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>index</code> - The index of the entry to remove.</dd>
@@ -154,15 +146,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="clear(net.minecraft.core.HolderLookup.Provider)">
 
 :::tabs
 == clear
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span><wbr><span class="parameters">(net.minecraft.core.HolderLookup.Provider&nbsp;provider)</span></div>
-<div class="block">Clears the entire clip board.</div>
+Clears the entire clip board.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>provider</code> - The provider.</dd>
@@ -173,8 +163,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

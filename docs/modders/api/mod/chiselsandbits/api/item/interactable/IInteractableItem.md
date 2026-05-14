@@ -70,15 +70,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="isInteracting(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == isInteracting
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isInteracting</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Indicates if the current given itemstack is in use during an interaction.</div>
+Indicates if the current given itemstack is in use during an interaction.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack in question.</dd>
@@ -91,15 +89,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getInteractionTarget(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == getInteractionTarget
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">getInteractionTarget</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Gives access to the stack the interaction is occurring with.</div>
+Gives access to the stack the interaction is occurring with.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack that is leading the interaction.</dd>
@@ -112,15 +108,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="isRunningASimulatedInteraction(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == isRunningASimulatedInteraction
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isRunningASimulatedInteraction</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Indicates if the interactable stack is used in a simulation for display purposes.</div>
+Indicates if the interactable stack is used in a simulation for display purposes.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack in question</dd>
@@ -133,16 +127,14 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getBobbingTickCount()">
 
 :::tabs
 == getBobbingTickCount
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">float</span>&nbsp;<span class="element-name">getBobbingTickCount</span>()</div>
-<div class="block">Indicates how often the bobbing animation needs to play inside the use time of the item.
-This is done by returning the bobbing animation length from this method.</div>
+Indicates how often the bobbing animation needs to play inside the use time of the item.
+This is done by returning the bobbing animation length from this method.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The amount of ticks a bobbing animation takes.</dd>
@@ -153,8 +145,6 @@ This is done by returning the bobbing animation length from this method.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

@@ -101,15 +101,13 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="success()">
 
 :::tabs
 == success
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></span>&nbsp;<span class="element-name">success</span>()</div>
-<div class="block">Creates a new successful placement result with client config specified color if clientside.</div>
+Creates a new successful placement result with client config specified color if clientside.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A new result indicating successful placement.</dd>
@@ -120,15 +118,13 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="success(java.util.function.Function)">
 
 :::tabs
 == success
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></span>&nbsp;<span class="element-name">success</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;<a href="../config/IClientConfiguration.html" title="interface in mod.chiselsandbits.api.config">IClientConfiguration</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;org.joml.Vector4f&gt;&gt;&nbsp;clientColor)</span></div>
-<div class="block">Creates a new successful placement result with specified client config color if clientside.</div>
+Creates a new successful placement result with specified client config color if clientside.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>clientColor</code> - The client config specified color of the ghost or wireframe to indicate the failure type.</dd>
@@ -141,15 +137,13 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="failure(java.util.function.Function)">
 
 :::tabs
 == failure
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></span>&nbsp;<span class="element-name">failure</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;<a href="../config/IClientConfiguration.html" title="interface in mod.chiselsandbits.api.config">IClientConfiguration</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;org.joml.Vector4f&gt;&gt;&nbsp;clientColor)</span></div>
-<div class="block">Creates a new failed placement result with specified client config color if clientside.</div>
+Creates a new failed placement result with specified client config color if clientside.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>clientColor</code> - The client config specified color of the ghost or wireframe to indicate the failure type.</dd>
@@ -162,8 +156,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="failure(java.util.function.Function,net.minecraft.network.chat.Component)">
 
 :::tabs
@@ -171,7 +163,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></span>&nbsp;<span class="element-name">failure</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;<a href="../config/IClientConfiguration.html" title="interface in mod.chiselsandbits.api.config">IClientConfiguration</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;org.joml.Vector4f&gt;&gt;&nbsp;clientColor,
  net.minecraft.network.chat.Component&nbsp;message)</span></div>
-<div class="block">Creates a new failed placement result with specified failure message and client config color if clientside.</div>
+Creates a new failed placement result with specified failure message and client config color if clientside.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>clientColor</code> - The client config specified color of the ghost or wireframe to indicate the failure type.</dd>
@@ -185,15 +177,13 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="success(org.joml.Vector4f)">
 
 :::tabs
 == success
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></span>&nbsp;<span class="element-name">success</span><wbr><span class="parameters">(org.joml.Vector4f&nbsp;color)</span></div>
-<div class="block">Creates a new successful placement result with specified color.</div>
+Creates a new successful placement result with specified color.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>color</code> - The color of the ghost or wireframe to indicate the success type.</dd>
@@ -206,15 +196,13 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="failure(org.joml.Vector4f)">
 
 :::tabs
 == failure
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></span>&nbsp;<span class="element-name">failure</span><wbr><span class="parameters">(org.joml.Vector4f&nbsp;color)</span></div>
-<div class="block">Creates a new failed placement result with specified color.</div>
+Creates a new failed placement result with specified color.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>color</code> - The color of the ghost or wireframe to indicate the failure type.</dd>
@@ -227,8 +215,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="failure(org.joml.Vector4f,net.minecraft.network.chat.Component)">
 
 :::tabs
@@ -236,7 +222,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></span>&nbsp;<span class="element-name">failure</span><wbr><span class="parameters">(org.joml.Vector4f&nbsp;color,
  net.minecraft.network.chat.Component&nbsp;message)</span></div>
-<div class="block">Creates a new failed placement result with specified color and failure message.</div>
+Creates a new failed placement result with specified color and failure message.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>color</code> - The color of the ghost or wireframe to indicate the failure type.</dd>
@@ -250,8 +236,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="isSuccess()">
 
 :::tabs
@@ -264,8 +248,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="getColor()">
 
 :::tabs
@@ -278,8 +260,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="getFailureMessage()">
 
 :::tabs
@@ -292,8 +272,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

@@ -64,16 +64,14 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getId()">
 
 :::tabs
 == getId
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.resources.Identifier</span>&nbsp;<span class="element-name">getId</span>()</div>
-<div class="block">The id of the renderer.
-Used to give the player a selection option for the preview renderer.</div>
+The id of the renderer.
+Used to give the player a selection option for the preview renderer.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The id of the preview renderer.</dd>
@@ -84,8 +82,6 @@ Used to give the player a selection option for the preview renderer.</div>
 
 </section>
 
-</li>
-<li>
 <section id="extractGraphics(net.minecraft.client.gui.GuiGraphicsExtractor,net.minecraft.world.item.ItemStack)">
 
 :::tabs
@@ -93,8 +89,8 @@ Used to give the player a selection option for the preview renderer.</div>
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">extractGraphics</span><wbr><span class="parameters">(net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;guiGraphics,
  net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Invoked to render the stacks tool mode icon in the given itemstack.
-This is invoked already translated to the top left pixel of the slot in question.</div>
+Invoked to render the stacks tool mode icon in the given itemstack.
+This is invoked already translated to the top left pixel of the slot in question.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>guiGraphics</code> - The matrix stack.</dd>
@@ -106,8 +102,6 @@ This is invoked already translated to the top left pixel of the slot in question
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

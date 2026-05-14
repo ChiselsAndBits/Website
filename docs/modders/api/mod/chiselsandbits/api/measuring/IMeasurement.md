@@ -84,15 +84,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getOwner()">
 
 :::tabs
 == getOwner
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a></span>&nbsp;<span class="element-name">getOwner</span>()</div>
-<div class="block">The id of the player who made the measurement.</div>
+The id of the player who made the measurement.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The id of the owner.</dd>
@@ -103,15 +101,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getFrom()">
 
 :::tabs
 == getFrom
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getFrom</span>()</div>
-<div class="block">The lower left front corner of the measurement.</div>
+The lower left front corner of the measurement.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The start point of the measurement.</dd>
@@ -122,15 +118,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getTo()">
 
 :::tabs
 == getTo
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getTo</span>()</div>
-<div class="block">The top right back corner of the measurement.</div>
+The top right back corner of the measurement.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The end point of the measurement.</dd>
@@ -141,15 +135,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getSize()">
 
 :::tabs
 == getSize
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getSize</span>()</div>
-<div class="block">The size of the measurement.</div>
+The size of the measurement.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The size of the measurement.</dd>
@@ -160,15 +152,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getMode()">
 
 :::tabs
 == getMode
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IMeasuringMode.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringMode</a></span>&nbsp;<span class="element-name">getMode</span>()</div>
-<div class="block">The mode of the measurement.</div>
+The mode of the measurement.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The mode of the measurement.</dd>
@@ -179,15 +169,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getWorldKey()">
 
 :::tabs
 == getWorldKey
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.resources.Identifier</span>&nbsp;<span class="element-name">getWorldKey</span>()</div>
-<div class="block">The id of the world that this measurement was made in.</div>
+The id of the world that this measurement was made in.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The id of the world.</dd>
@@ -198,8 +186,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

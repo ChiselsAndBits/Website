@@ -78,15 +78,13 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getDefaultMode()">
 
 :::tabs
 == getDefaultMode
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a></span>&nbsp;<span class="element-name">getDefaultMode</span>()</div>
-<div class="block">The default modification operation.</div>
+The default modification operation.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The default operation.</dd>
@@ -97,15 +95,13 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 </section>
 
-</li>
-<li>
 <section id="getRegistry()">
 
 :::tabs
 == getRegistry
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type">com.communi.suggestu.scena.core.registries.ICustomRegistry&lt;<a href="IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a>&gt;</span>&nbsp;<span class="element-name">getRegistry</span>()</div>
-<div class="block">The underlying registry that contains the different modification modes that can be performed.</div>
+The underlying registry that contains the different modification modes that can be performed.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The underlying forge registry.</dd>
@@ -116,15 +112,13 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 </section>
 
-</li>
-<li>
 <section id="apply(mod.chiselsandbits.api.multistate.mutator.IGenerallyModifiableAreaMutator)">
 
 :::tabs
 == apply
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">apply</span><wbr><span class="parameters">(<a href="../../multistate/mutator/IGenerallyModifiableAreaMutator.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IGenerallyModifiableAreaMutator</a>&nbsp;source)</span></div>
-<div class="block">Performs a modification on the snapshot.</div>
+Performs a modification on the snapshot.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>source</code> - The mutator to modify.</dd>
@@ -135,8 +129,6 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

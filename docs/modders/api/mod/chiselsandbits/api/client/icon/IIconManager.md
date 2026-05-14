@@ -110,8 +110,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
@@ -124,8 +122,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getIcon(net.minecraft.resources.Identifier)">
 
 :::tabs
@@ -138,8 +134,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getSwapIcon()">
 
 :::tabs
@@ -152,8 +146,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getPlaceIcon()">
 
 :::tabs
@@ -166,8 +158,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getUndoIcon()">
 
 :::tabs
@@ -180,8 +170,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getRedoIcon()">
 
 :::tabs
@@ -194,8 +182,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getTrashIcon()">
 
 :::tabs
@@ -208,8 +194,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getSortIcon()">
 
 :::tabs
@@ -222,8 +206,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getRollXIcon()">
 
 :::tabs
@@ -236,8 +218,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getRollZIcon()">
 
 :::tabs
@@ -250,8 +230,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getWhiteIcon()">
 
 :::tabs
@@ -264,8 +242,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getFilterBagModeIcon()">
 
 :::tabs
@@ -278,8 +254,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getNormalBagModeIcon()">
 
 :::tabs
@@ -292,8 +266,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getBagPicksUpFirstIcon()">
 
 :::tabs
@@ -306,8 +278,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getBagPicksUpSecondIcon()">
 
 :::tabs
@@ -320,8 +290,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

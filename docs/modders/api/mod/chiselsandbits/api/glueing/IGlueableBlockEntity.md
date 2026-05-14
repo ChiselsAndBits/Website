@@ -81,8 +81,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="blockGetter()">
 
 :::tabs
@@ -95,8 +93,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="blockPos()">
 
 :::tabs
@@ -109,8 +105,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="gluedSides()">
 
 :::tabs
@@ -123,8 +117,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="createGluedDrop()">
 
 :::tabs
@@ -137,8 +129,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="connectedPositions()">
 
 :::tabs
@@ -151,8 +141,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

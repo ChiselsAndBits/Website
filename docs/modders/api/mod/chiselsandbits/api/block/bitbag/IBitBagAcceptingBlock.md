@@ -61,8 +61,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="onBitBagInteraction(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
@@ -71,7 +69,7 @@ Method Summary
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">onBitBagInteraction</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;bitBagStack,
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-<div class="block">Invoked when a bit bag interaction is performed against a given block.</div>
+Invoked when a bit bag interaction is performed against a given block.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>bitBagStack</code> - The bit bag stack.</dd>
@@ -84,8 +82,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

@@ -97,7 +97,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == FULL_CHANNEL
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">FULL_CHANNEL</span></div>
-<div class="block">The maximal value for a given color channel.</div>
+The maximal value for a given color channel.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -118,7 +118,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == EMPTY_CHANNEL
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">EMPTY_CHANNEL</span></div>
-<div class="block">The minimal value for a given color channel.</div>
+The minimal value for a given color channel.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -142,15 +142,13 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="pack(int)">
 
 :::tabs
 == pack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">pack</span><wbr><span class="parameters">(int&nbsp;c)</span></div>
-<div class="block">Packs all three color channels (plus a full alpha channel) with the same value into an integer.</div>
+Packs all three color channels (plus a full alpha channel) with the same value into an integer.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>c</code> - The value of the color channels to pack.</dd>
@@ -163,8 +161,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="pack(int,int,int)">
 
 :::tabs
@@ -173,7 +169,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">pack</span><wbr><span class="parameters">(int&nbsp;r,
  int&nbsp;g,
  int&nbsp;b)</span></div>
-<div class="block">Packs all three color channels (plus a full alpha channel) with the values into an integer.</div>
+Packs all three color channels (plus a full alpha channel) with the values into an integer.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>r</code> - The value for the red channel.</dd>
@@ -188,8 +184,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="pack(int,int,int,int)">
 
 :::tabs
@@ -199,7 +193,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
  int&nbsp;g,
  int&nbsp;b,
  int&nbsp;a)</span></div>
-<div class="block">Packs all four color channels with the values into an integer.</div>
+Packs all four color channels with the values into an integer.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>r</code> - The value for the red channel.</dd>
@@ -215,8 +209,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="pack(float,float,float,float)">
 
 :::tabs
@@ -232,8 +224,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="pack(float[])">
 
 :::tabs
@@ -246,8 +236,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="unpack(int)">
 
 :::tabs
@@ -260,8 +248,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

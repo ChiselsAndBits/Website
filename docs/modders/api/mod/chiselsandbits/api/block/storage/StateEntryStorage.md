@@ -271,8 +271,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getSize()">
 
 :::tabs
@@ -285,8 +283,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="clear()">
 
 :::tabs
@@ -299,8 +295,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="initializeWith(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
@@ -313,8 +307,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="loadFromChunkSection(net.minecraft.world.level.chunk.LevelChunkSection)">
 
 :::tabs
@@ -327,8 +319,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="getBlockInformation(int,int,int)">
 
 :::tabs
@@ -343,8 +333,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="setBlockInformation(int,int,int,mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
@@ -360,8 +348,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="count(java.util.function.BiConsumer)">
 
 :::tabs
@@ -374,8 +360,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="count()">
 
 :::tabs
@@ -388,8 +372,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="getData()">
 
 :::tabs
@@ -402,8 +384,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="getRawData()">
 
 :::tabs
@@ -416,8 +396,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="createSnapshot()">
 
 :::tabs
@@ -430,8 +408,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="fillFromBottom(mod.chiselsandbits.api.blockinformation.BlockInformation,int)">
 
 :::tabs
@@ -445,8 +421,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="limitedToProgress(float)">
 
 :::tabs
@@ -459,8 +433,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="palette()">
 
 :::tabs
@@ -473,8 +445,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="states()">
 
 :::tabs
@@ -487,8 +457,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="rotate(net.minecraft.core.Direction.Axis,int)">
 
 :::tabs
@@ -497,7 +465,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">rotate</span><wbr><span class="parameters">(net.minecraft.core.Direction.Axis&nbsp;axis,
  int&nbsp;rotationCount)</span></div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../multistate/mutator/IMirrorAndRotateble.html#rotate(net.minecraft.core.Direction.Axis,int)">IMirrorAndRotateble</a></code></span></div>
-<div class="block">Rotates the current multistate block 90 degrees around the given axis with the given rotation count.</div>
+Rotates the current multistate block 90 degrees around the given axis with the given rotation count.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../multistate/mutator/IMirrorAndRotateble.html#rotate(net.minecraft.core.Direction.Axis,int)">rotate</a></code>&nbsp;in interface&nbsp;<code><a href="../../multistate/mutator/IMirrorAndRotateble.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMirrorAndRotateble</a></code></dd>
@@ -511,8 +479,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="mirror(net.minecraft.core.Direction.Axis)">
 
 :::tabs
@@ -520,7 +486,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">mirror</span><wbr><span class="parameters">(net.minecraft.core.Direction.Axis&nbsp;axis)</span></div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../multistate/mutator/IMirrorAndRotateble.html#mirror(net.minecraft.core.Direction.Axis)">IMirrorAndRotateble</a></code></span></div>
-<div class="block">Mirrors the current multistate block around the given axis.</div>
+Mirrors the current multistate block around the given axis.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../multistate/mutator/IMirrorAndRotateble.html#mirror(net.minecraft.core.Direction.Axis)">mirror</a></code>&nbsp;in interface&nbsp;<code><a href="../../multistate/mutator/IMirrorAndRotateble.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMirrorAndRotateble</a></code></dd>
@@ -533,8 +499,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="batch()">
 
 :::tabs
@@ -542,7 +506,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="../../util/IBatchMutation.html" title="interface in mod.chiselsandbits.api.util">IBatchMutation</a></span>&nbsp;<span class="element-name">batch</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../util/IWithBatchableMutationSupport.html#batch()">IWithBatchableMutationSupport</a></code></span></div>
-<div class="block">Trigger a batch mutation start.</div>
+Trigger a batch mutation start.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../util/IWithBatchableMutationSupport.html#batch()">batch</a></code>&nbsp;in interface&nbsp;<code><a href="../../util/IWithBatchableMutationSupport.html" title="interface in mod.chiselsandbits.api.util">IWithBatchableMutationSupport</a></code></dd>
@@ -555,8 +519,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="equals(java.lang.Object)">
 
 :::tabs
@@ -573,8 +535,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="hashCode()">
 
 :::tabs
@@ -591,8 +551,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="toString()">
 
 :::tabs
@@ -609,8 +567,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="codec()">
 
 :::tabs
@@ -618,7 +574,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="StateEntryStorage.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryStorage</a>&gt;</span>&nbsp;<span class="element-name">codec</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../serialization/Serializable.html#codec()">Serializable</a></code></span></div>
-<div class="block">Returns The codec used for direct serialization..</div>
+Returns The codec used for direct serialization..
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../serialization/RawSerializable.html#codec()">codec</a></code>&nbsp;in interface&nbsp;<code><a href="../../serialization/RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
@@ -633,8 +589,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="mapCodec()">
 
 :::tabs
@@ -642,7 +596,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">com.mojang.serialization.MapCodec&lt;<a href="StateEntryStorage.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryStorage</a>&gt;</span>&nbsp;<span class="element-name">mapCodec</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../serialization/Serializable.html#mapCodec()">Serializable</a></code></span></div>
-<div class="block">Returns The codec used for complex serialization..</div>
+Returns The codec used for complex serialization..
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../serialization/RawSerializable.html#mapCodec()">mapCodec</a></code>&nbsp;in interface&nbsp;<code><a href="../../serialization/RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
@@ -657,8 +611,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="streamCodec()">
 
 :::tabs
@@ -666,7 +618,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryStorage.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryStorage</a>&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../serialization/Serializable.html#streamCodec()">Serializable</a></code></span></div>
-<div class="block">Returns The codec used for streaming serialization..</div>
+Returns The codec used for streaming serialization..
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../serialization/RawSerializable.html#streamCodec()">streamCodec</a></code>&nbsp;in interface&nbsp;<code><a href="../../serialization/RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
@@ -681,8 +633,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

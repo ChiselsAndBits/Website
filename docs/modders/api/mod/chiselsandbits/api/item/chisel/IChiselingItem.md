@@ -66,8 +66,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.click.<a href=
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="isDamageableDuringChiseling()">
 
 :::tabs
@@ -80,8 +78,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.click.<a href=
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

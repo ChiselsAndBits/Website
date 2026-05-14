@@ -95,8 +95,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="adaptClickedPosition(net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
@@ -111,8 +109,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 
 </section>
 
-</li>
-<li>
 <section id="adaptStartCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)">
 
 :::tabs
@@ -131,8 +127,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 
 </section>
 
-</li>
-<li>
 <section id="adaptEndCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)">
 
 :::tabs
@@ -151,8 +145,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 
 </section>
 
-</li>
-<li>
 <section id="getResolution()">
 
 :::tabs
@@ -165,8 +157,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 
 </section>
 
-</li>
-<li>
 <section id="isNeedsNormalization()">
 
 :::tabs
@@ -179,8 +169,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

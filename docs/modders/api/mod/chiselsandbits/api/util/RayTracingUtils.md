@@ -69,15 +69,13 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="rayTracePlayer(net.minecraft.world.entity.player.Player)">
 
 :::tabs
 == rayTracePlayer
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.HitResult</span>&nbsp;<span class="element-name">rayTracePlayer</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</span></div>
-<div class="block">Performs a raytrace result within the given reach distance of the given player.</div>
+Performs a raytrace result within the given reach distance of the given player.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player to run a raytrace for.</dd>
@@ -90,8 +88,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="getFullFacingVector(net.minecraft.world.entity.player.Player)">
 
 :::tabs
@@ -104,8 +100,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

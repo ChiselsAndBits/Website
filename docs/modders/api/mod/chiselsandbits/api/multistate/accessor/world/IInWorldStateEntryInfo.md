@@ -91,15 +91,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getBlockPos()">
 
 :::tabs
 == getBlockPos
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.core.BlockPos</span>&nbsp;<span class="element-name">getBlockPos</span>()</div>
-<div class="block">The position of the block that this state entry is part of.</div>
+The position of the block that this state entry is part of.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The in world block position.</dd>
@@ -110,15 +108,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor
 
 </section>
 
-</li>
-<li>
 <section id="getInWorldStartPoint()">
 
 :::tabs
 == getInWorldStartPoint
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getInWorldStartPoint</span>()</div>
-<div class="block">The start (lowest on all three axi) position of the state that this entry occupies.</div>
+The start (lowest on all three axi) position of the state that this entry occupies.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../../util/IWorldObject.html#getInWorldStartPoint()">getInWorldStartPoint</a></code>&nbsp;in interface&nbsp;<code><a href="../../../util/IWorldObject.html" title="interface in mod.chiselsandbits.api.util">IWorldObject</a></code></dd>
@@ -131,15 +127,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor
 
 </section>
 
-</li>
-<li>
 <section id="getInWorldEndPoint()">
 
 :::tabs
 == getInWorldEndPoint
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getInWorldEndPoint</span>()</div>
-<div class="block">The end (highest on all three axi) position of the state that this entry occupies.</div>
+The end (highest on all three axi) position of the state that this entry occupies.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../../util/IWorldObject.html#getInWorldEndPoint()">getInWorldEndPoint</a></code>&nbsp;in interface&nbsp;<code><a href="../../../util/IWorldObject.html" title="interface in mod.chiselsandbits.api.util">IWorldObject</a></code></dd>
@@ -152,15 +146,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor
 
 </section>
 
-</li>
-<li>
 <section id="getInWorldCenterPoint()">
 
 :::tabs
 == getInWorldCenterPoint
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getInWorldCenterPoint</span>()</div>
-<div class="block">The center position of the state that this entry occupies.</div>
+The center position of the state that this entry occupies.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The center position of this entry in the given world.</dd>
@@ -171,8 +163,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

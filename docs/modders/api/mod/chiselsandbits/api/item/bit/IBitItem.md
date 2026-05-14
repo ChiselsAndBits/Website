@@ -72,8 +72,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.click.<a href=
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getBlockInformation(net.minecraft.world.item.ItemStack)">
 
 :::tabs
@@ -81,8 +79,8 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.click.<a href=
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getBlockInformation</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Returns the block information which is contained in a stack with the
-given bit item.</div>
+Returns the block information which is contained in a stack with the
+given bit item.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack which contains this bit item.</dd>
@@ -95,40 +93,32 @@ given bit item.</div>
 
 </section>
 
-</li>
-<li>
 <section id="onMergeOperationWithBagBeginning()">
 
 :::tabs
 == onMergeOperationWithBagBeginning
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onMergeOperationWithBagBeginning</span>()</div>
-<div class="block">Invoked when a merge operation of a bit inside a bitbag is beginning during a shift-click interaction
+Invoked when a merge operation of a bit inside a bitbag is beginning during a shift-click interaction
 in the bit bag UI.</div>
-</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="onMergeOperationWithBagEnding()">
 
 :::tabs
 == onMergeOperationWithBagEnding
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onMergeOperationWithBagEnding</span>()</div>
-<div class="block">Invoked when a merge operation of a bit inside a bitbag is ending during a shift-click interaction
+Invoked when a merge operation of a bit inside a bitbag is ending during a shift-click interaction
 in the bit bag UI.</div>
-</div>
 :::
 
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

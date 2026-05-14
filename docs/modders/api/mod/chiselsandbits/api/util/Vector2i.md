@@ -168,8 +168,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == NULL_VECTOR
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">NULL_VECTOR</span></div>
-<div class="block">An immutable vector with zero as all coordinates.</div>
-</div>
+An immutable vector with zero as all coordinates.</div>
 :::
 
 
@@ -213,8 +212,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="hashCode()">
 
 :::tabs
@@ -231,8 +228,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="equals(java.lang.Object)">
 
 :::tabs
@@ -249,15 +244,13 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="getX()">
 
 :::tabs
 == getX
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getX</span>()</div>
-<div class="block">Gets the X coordinate.</div>
+Gets the X coordinate.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The x part of the coordinate.</dd>
@@ -268,15 +261,13 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="getY()">
 
 :::tabs
 == getY
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getY</span>()</div>
-<div class="block">Gets the Y coordinate.</div>
+Gets the Y coordinate.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The y part of the coordinate.</dd>
@@ -287,15 +278,13 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="setY(int)">
 
 :::tabs
 == setY
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setY</span><wbr><span class="parameters">(int&nbsp;yIn)</span></div>
-<div class="block">Sets the Y coordinate.</div>
+Sets the Y coordinate.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>yIn</code> - The new y part of the coordinate</dd>
@@ -306,15 +295,13 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="setX(int)">
 
 :::tabs
 == setX
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setX</span><wbr><span class="parameters">(int&nbsp;xIn)</span></div>
-<div class="block">Sets the X coordinate.</div>
+Sets the X coordinate.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>xIn</code> - The new x part of the coordinate.</dd>
@@ -325,8 +312,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="toString()">
 
 :::tabs
@@ -343,8 +328,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="compareTo(mod.chiselsandbits.api.util.Vector2i)">
 
 :::tabs
@@ -361,38 +344,30 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="up()">
 
 :::tabs
 == up
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">up</span>()</div>
-<div class="block">Offset this BlockPos 1 block up</div>
-</div>
+Offset this BlockPos 1 block up</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="up(int)">
 
 :::tabs
 == up
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">up</span><wbr><span class="parameters">(int&nbsp;n)</span></div>
-<div class="block">Offset this BlockPos n blocks up</div>
-</div>
+Offset this BlockPos n blocks up</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="offset(net.minecraft.core.Direction,int)">
 
 :::tabs
@@ -400,45 +375,36 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">offset</span><wbr><span class="parameters">(net.minecraft.core.Direction&nbsp;facing,
  int&nbsp;n)</span></div>
-<div class="block">Offsets this BlockPos n blocks in the given direction</div>
-</div>
+Offsets this BlockPos n blocks in the given direction</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="down()">
 
 :::tabs
 == down
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">down</span>()</div>
-<div class="block">Offset this BlockPos 1 block down</div>
-</div>
+Offset this BlockPos 1 block down</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="down(int)">
 
 :::tabs
 == down
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">down</span><wbr><span class="parameters">(int&nbsp;n)</span></div>
-<div class="block">Offset this BlockPos n blocks down</div>
-</div>
+Offset this BlockPos n blocks down</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="withinDistance(mod.chiselsandbits.api.util.Vector2i,double)">
 
 :::tabs
@@ -452,8 +418,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="distanceSq(double,double,boolean)">
 
 :::tabs
@@ -468,8 +432,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="withinDistance(net.minecraft.core.Position,double)">
 
 :::tabs
@@ -483,23 +445,18 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="distanceSq(mod.chiselsandbits.api.util.Vector2i)">
 
 :::tabs
 == distanceSq
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">distanceSq</span><wbr><span class="parameters">(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</span></div>
-<div class="block">Calculate squared distance to the given Vector</div>
-</div>
+Calculate squared distance to the given Vector</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="manhattanDistance(mod.chiselsandbits.api.util.Vector2i)">
 
 :::tabs
@@ -512,8 +469,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="getCoordinatesAsString()">
 
 :::tabs
@@ -526,8 +481,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

@@ -69,15 +69,13 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getRandomSupportedInformation(net.minecraft.util.RandomSource)">
 
 :::tabs
 == getRandomSupportedInformation
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getRandomSupportedInformation</span><wbr><span class="parameters">(net.minecraft.util.RandomSource&nbsp;random)</span></div>
-<div class="block">Gets a random chiselable block information from the blocks in the registry.</div>
+Gets a random chiselable block information from the blocks in the registry.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>random</code> - The random to get the random ids from.</dd>
@@ -90,8 +88,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="getRandomSupportedInformation(net.minecraft.util.RandomSource,int)">
 
 :::tabs
@@ -99,7 +95,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>[]</span>&nbsp;<span class="element-name">getRandomSupportedInformation</span><wbr><span class="parameters">(net.minecraft.util.RandomSource&nbsp;random,
  int&nbsp;count)</span></div>
-<div class="block">Gets a random chiselable block information from the blocks in the registry.</div>
+Gets a random chiselable block information from the blocks in the registry.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>random</code> - The random to get the random ids from.</dd>
@@ -113,8 +109,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

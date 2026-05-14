@@ -88,8 +88,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
@@ -102,8 +100,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getOrCreateContext(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.mode.IChiselMode,mod.chiselsandbits.api.chiseling.ChiselingOperation,boolean,net.minecraft.world.item.ItemStack)">
 
 :::tabs
@@ -114,12 +110,12 @@ Method Summary
  <a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;modeOfOperandus,
  boolean&nbsp;simulation,
  net.minecraft.world.item.ItemStack&nbsp;causingItemStack)</span></div>
-<div class="block">Gets or creates a new chiseling context for the given player.
+Gets or creates a new chiseling context for the given player.
 
 A new context is created when either one of the following conditions is met:
  - No context has been created before.
  - The world of the player and the world of the existing context are not equal
- - The new chisel mode and the chisel mode of the existing context are not equal.</div>
+ - The new chisel mode and the chisel mode of the existing context are not equal.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player for which the context is looked up.</dd>
@@ -136,8 +132,6 @@ A new context is created when either one of the following conditions is met:
 
 </section>
 
-</li>
-<li>
 <section id="get(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.mode.IChiselMode)">
 
 :::tabs
@@ -145,7 +139,7 @@ A new context is created when either one of the following conditions is met:
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&gt;</span>&nbsp;<span class="element-name">get</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  <a href="mode/IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a>&nbsp;mode)</span></div>
-<div class="block">Gives access to the chiseling context of the player, if it exists.</div>
+Gives access to the chiseling context of the player, if it exists.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player for which the context is looked up.</dd>
@@ -159,8 +153,6 @@ A new context is created when either one of the following conditions is met:
 
 </section>
 
-</li>
-<li>
 <section id="get(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.mode.IChiselMode,mod.chiselsandbits.api.chiseling.ChiselingOperation)">
 
 :::tabs
@@ -169,7 +161,7 @@ A new context is created when either one of the following conditions is met:
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&gt;</span>&nbsp;<span class="element-name">get</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  <a href="mode/IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a>&nbsp;mode,
  <a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;modeOfOperandus)</span></div>
-<div class="block">Gives access to the chiseling context of the player, if it exists.</div>
+Gives access to the chiseling context of the player, if it exists.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player for which the context is looked up.</dd>
@@ -184,8 +176,6 @@ A new context is created when either one of the following conditions is met:
 
 </section>
 
-</li>
-<li>
 <section id="create(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.mode.IChiselMode,mod.chiselsandbits.api.chiseling.ChiselingOperation,boolean,net.minecraft.world.item.ItemStack)">
 
 :::tabs
@@ -196,8 +186,8 @@ A new context is created when either one of the following conditions is met:
  <a href="ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;modeOfOperandus,
  boolean&nbsp;simulation,
  net.minecraft.world.item.ItemStack&nbsp;causingItemStack)</span></div>
-<div class="block">Creates a new context for a given player.
-If <code>simulate</code> is false and an a context for the player already exists, then that context is overriden.</div>
+Creates a new context for a given player.
+If <code>simulate</code> is false and an a context for the player already exists, then that context is overriden.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player for which the context is created.</dd>
@@ -214,8 +204,6 @@ If <code>simulate</code> is false and an a context for the player already exists
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

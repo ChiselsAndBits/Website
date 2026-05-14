@@ -121,15 +121,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getType()">
 
 :::tabs
 == getType
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IMultiStateSnapshotType.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshotType</a></span>&nbsp;<span class="element-name">getType</span>()</div>
-<div class="block">Gets the type of the snapshot.</div>
+Gets the type of the snapshot.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The type of the snapshot.</dd>
@@ -140,15 +138,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="toItemStack()">
 
 :::tabs
 == toItemStack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></span>&nbsp;<span class="element-name">toItemStack</span>()</div>
-<div class="block">Converts the current snapshot to a variant which is itemstack capable.</div>
+Converts the current snapshot to a variant which is itemstack capable.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The multistate itemstack which is the itemstack nbt representation of the current snapshot.</dd>
@@ -159,15 +155,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="getStatics()">
 
 :::tabs
 == getStatics
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../statistics/IMultiStateObjectStatistics.html" title="interface in mod.chiselsandbits.api.multistate.statistics">IMultiStateObjectStatistics</a></span>&nbsp;<span class="element-name">getStatics</span>()</div>
-<div class="block">Returns the statistics of the current snapshot.</div>
+Returns the statistics of the current snapshot.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The statistics</dd>
@@ -178,15 +172,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="clone()">
 
 :::tabs
 == clone
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a></span>&nbsp;<span class="element-name">clone</span>()</div>
-<div class="block">Creates a clone of the snapshot.</div>
+Creates a clone of the snapshot.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The clone.</dd>
@@ -197,15 +189,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="limitedToProgression(float)">
 
 :::tabs
 == limitedToProgression
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a></span>&nbsp;<span class="element-name">limitedToProgression</span><wbr><span class="parameters">(float&nbsp;progress)</span></div>
-<div class="block">Creates a new snapshot which limits the currents snapshots contents to the given progression.</div>
+Creates a new snapshot which limits the currents snapshots contents to the given progression.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>progress</code> - The current progress in procent</dd>
@@ -218,8 +208,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

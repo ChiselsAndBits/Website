@@ -69,8 +69,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)">
 
 :::tabs
@@ -84,8 +82,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="extractChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)">
 
 :::tabs
@@ -99,8 +95,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

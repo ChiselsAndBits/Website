@@ -78,15 +78,13 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getDefaultMode()">
 
 :::tabs
 == getDefaultMode
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a></span>&nbsp;<span class="element-name">getDefaultMode</span>()</div>
-<div class="block">The default Cutting operation.</div>
+The default Cutting operation.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The default operation.</dd>
@@ -97,15 +95,13 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 </section>
 
-</li>
-<li>
 <section id="getRegistry()">
 
 :::tabs
 == getRegistry
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type">com.communi.suggestu.scena.core.registries.ICustomRegistry&lt;<a href="ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a>&gt;</span>&nbsp;<span class="element-name">getRegistry</span>()</div>
-<div class="block">The underlying registry that contains the different Cutting modes that can be performed.</div>
+The underlying registry that contains the different Cutting modes that can be performed.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The underlying forge registry.</dd>
@@ -116,20 +112,18 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 </section>
 
-</li>
-<li>
 <section id="apply(mod.chiselsandbits.api.multistate.accessor.IAreaAccessor)">
 
 :::tabs
 == apply
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="../../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&gt;</span>&nbsp;<span class="element-name">apply</span><wbr><span class="parameters">(<a href="../../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&nbsp;source)</span></div>
-<div class="block">Performs a Cutting on the snapshot.
+Performs a Cutting on the snapshot.
 The returned collection contains the individual pieces that result of this cut.
 
 In total a maximum 64 pieces can be returned.
 
-Note: The cutter generates a bundle if more than one unique piece is cut.</div>
+Note: The cutter generates a bundle if more than one unique piece is cut.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>source</code> - The mutator to modify.</dd>
@@ -142,8 +136,6 @@ Note: The cutter generates a bundle if more than one unique piece is cut.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

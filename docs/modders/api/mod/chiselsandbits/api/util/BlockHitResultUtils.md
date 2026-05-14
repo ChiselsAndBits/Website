@@ -66,8 +66,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getCenterOfHitObject(net.minecraft.world.phys.BlockHitResult,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -81,8 +79,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

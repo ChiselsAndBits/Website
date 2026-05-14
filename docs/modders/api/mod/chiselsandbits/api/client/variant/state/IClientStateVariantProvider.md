@@ -64,15 +64,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getBlockModelData(mod.chiselsandbits.api.variant.state.IStateVariant)">
 
 :::tabs
 == getBlockModelData
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.communi.suggestu.scena.core.client.models.data.IBlockModelData</span>&nbsp;<span class="element-name">getBlockModelData</span><wbr><span class="parameters">(<a href="../../../variant/state/IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&nbsp;variant)</span></div>
-<div class="block">Retrieves the block model data for the given state variant.</div>
+Retrieves the block model data for the given state variant.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>variant</code> - The state variant.</dd>
@@ -85,8 +83,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="appendHoverText(mod.chiselsandbits.api.variant.state.IStateVariant,net.minecraft.world.item.Item.TooltipContext,java.util.List,net.minecraft.world.item.TooltipFlag)">
 
 :::tabs
@@ -96,7 +92,7 @@ Method Summary
  net.minecraft.world.item.Item.TooltipContext&nbsp;context,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;net.minecraft.network.chat.Component&gt;&nbsp;tooltip,
  net.minecraft.world.item.TooltipFlag&nbsp;flags)</span></div>
-<div class="block">Invoked to add tooltip lines to the tooltip of an item containing the given variant.</div>
+Invoked to add tooltip lines to the tooltip of an item containing the given variant.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>variant</code> - The variant contained in the stack in question.</dd>
@@ -110,8 +106,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

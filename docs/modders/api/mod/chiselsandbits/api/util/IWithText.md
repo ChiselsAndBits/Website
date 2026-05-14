@@ -61,8 +61,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getText()">
 
 :::tabs
@@ -70,7 +68,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getText</span>()</div>
-<div class="block">The text associated with this object.</div>
+The text associated with this object.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The text.</dd>
@@ -81,8 +79,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

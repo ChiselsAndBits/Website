@@ -85,15 +85,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IConversionManager.html" title="interface in mod.chiselsandbits.api.chiseling.conversion">IConversionManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">The instance of the manager.</div>
+The instance of the manager.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The manager.</dd>
@@ -104,16 +102,14 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getChiseledVariantOf(net.minecraft.world.level.block.state.BlockState)">
 
 :::tabs
 == getChiseledVariantOf
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;net.minecraft.world.level.block.Block&gt;</span>&nbsp;<span class="element-name">getChiseledVariantOf</span><wbr><span class="parameters">(net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</span></div>
-<div class="block">Allows you to get the chiseled block variant of a given blockstate.
-In general this is material dependent.</div>
+Allows you to get the chiseled block variant of a given blockstate.
+In general this is material dependent.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockState</code> - The blockstate to convert.</dd>
@@ -126,16 +122,14 @@ In general this is material dependent.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getChiseledVariantOf(net.minecraft.world.level.block.Block)">
 
 :::tabs
 == getChiseledVariantOf
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;net.minecraft.world.level.block.Block&gt;</span>&nbsp;<span class="element-name">getChiseledVariantOf</span><wbr><span class="parameters">(net.minecraft.world.level.block.Block&nbsp;block)</span></div>
-<div class="block">Allows you to get the chiseled block variant of a given block.
-In general this is material dependent.</div>
+Allows you to get the chiseled block variant of a given block.
+In general this is material dependent.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>block</code> - The block to convert.</dd>
@@ -148,17 +142,15 @@ In general this is material dependent.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getChiseledVariantOf(net.minecraft.world.level.ItemLike)">
 
 :::tabs
 == getChiseledVariantOf
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;net.minecraft.world.level.block.Block&gt;</span>&nbsp;<span class="element-name">getChiseledVariantOf</span><wbr><span class="parameters">(net.minecraft.world.level.ItemLike&nbsp;provider)</span></div>
-<div class="block">Allows you to get the chiseled block variant of a given item.
+Allows you to get the chiseled block variant of a given item.
 In general this is material dependent.
-If an item is passed in which is not a <code>BlockItem</code> then an empty optional is returned.</div>
+If an item is passed in which is not a <code>BlockItem</code> then an empty optional is returned.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>provider</code> - The item provider to convert.</dd>
@@ -171,8 +163,6 @@ If an item is passed in which is not a <code>BlockItem</code> then an empty opti
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

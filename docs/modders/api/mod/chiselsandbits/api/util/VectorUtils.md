@@ -183,8 +183,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="rotateMultipleTimes90Degrees(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis,int)">
 
 :::tabs
@@ -199,8 +197,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="rotate90Degrees(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis)">
 
 :::tabs
@@ -214,8 +210,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="rotateHalfRadian(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis)">
 
 :::tabs
@@ -229,8 +223,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="rotateDegrees(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis,double)">
 
 :::tabs
@@ -245,8 +237,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="rotate(net.minecraft.world.phys.Vec3,net.minecraft.core.Direction.Axis,double)">
 
 :::tabs
@@ -261,8 +251,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="scaleToOne(net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -275,8 +263,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="getMaximalComponent(net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -289,8 +275,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="invert(net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -303,8 +287,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="invert(net.minecraft.core.BlockPos)">
 
 :::tabs
@@ -317,8 +299,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="minimizeTowardsZero(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -332,8 +312,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="maximizeAwayFromZero(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -347,8 +325,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="absolute(net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -361,8 +337,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="offsetRandomly(net.minecraft.world.phys.Vec3,net.minecraft.util.RandomSource,float)">
 
 :::tabs
@@ -377,8 +351,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="minimize(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -392,8 +364,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="maximize(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -407,8 +377,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="makePositive(net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -421,8 +389,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="allValuesBetweenInclusive(org.joml.Vector4f,float,float)">
 
 :::tabs
@@ -437,8 +403,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="nullifyNegatives(net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -451,8 +415,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="nullifyPositives(net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -465,8 +427,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="divide(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -480,8 +440,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="toBlockPos(net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -494,8 +452,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="toInteger(net.minecraft.world.phys.Vec3)">
 
 :::tabs
@@ -508,8 +464,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-<li>
 <section id="toInteger(double,double,double)">
 
 :::tabs
@@ -524,8 +478,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

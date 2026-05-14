@@ -75,8 +75,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
@@ -89,8 +87,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="exportPattern(mod.chiselsandbits.api.item.multistate.IMultiStateItemStack,java.lang.String)">
 
 :::tabs
@@ -98,7 +94,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">exportPattern</span><wbr><span class="parameters">(<a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a>&nbsp;multiStateItemStack,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-<div class="block">Exports the given pattern to disk.</div>
+Exports the given pattern to disk.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>multiStateItemStack</code> - The multistate itemstack to export.</dd>
@@ -110,15 +106,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="importPattern(java.lang.String)">
 
 :::tabs
 == importPattern
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.mojang.datafixers.util.Either&lt;<a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a>, <a href="PatternIOException.html" title="class in mod.chiselsandbits.api.client.sharing">PatternIOException</a>&gt;</span>&nbsp;<span class="element-name">importPattern</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-<div class="block">Imports the pattern from disk.</div>
+Imports the pattern from disk.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>name</code> - The name of the pattern to import.</dd>
@@ -131,8 +125,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

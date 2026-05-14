@@ -89,16 +89,14 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getId()">
 
 :::tabs
 == getId
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getId</span>()</div>
-<div class="block">The id of the plugin.
-Has to be unique over all plugins.</div>
+The id of the plugin.
+Has to be unique over all plugins.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The id.</dd>
@@ -109,53 +107,42 @@ Has to be unique over all plugins.</div>
 
 </section>
 
-</li>
-<li>
 <section id="onConstruction()">
 
 :::tabs
 == onConstruction
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">onConstruction</span>()</div>
-<div class="block">Invoked when the plugin is constructed.</div>
-</div>
+Invoked when the plugin is constructed.</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="onClientConstruction()">
 
 :::tabs
 == onClientConstruction
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">onClientConstruction</span>()</div>
-<div class="block">Called after ChiselsAndBits client construction completes.</div>
-</div>
+Called after ChiselsAndBits client construction completes.</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="onInitialize()">
 
 :::tabs
 == onInitialize
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">onInitialize</span>()</div>
-<div class="block">Invoked by chisels and bits when the platform it runs on (so forge or fabric) indicates that mod initialization should happen.</div>
-</div>
+Invoked by chisels and bits when the platform it runs on (so forge or fabric) indicates that mod initialization should happen.</div>
 :::
 
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

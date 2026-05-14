@@ -68,8 +68,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="applyAsInt(T)">
 
 :::tabs
@@ -87,8 +85,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

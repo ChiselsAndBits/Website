@@ -71,15 +71,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IMultiStateItemFactory.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemFactory</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">The instance of the manager.</div>
+The instance of the manager.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The instance.</dd>
@@ -90,15 +88,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="createBlockFrom(mod.chiselsandbits.api.multistate.accessor.IStateEntryInfo)">
 
 :::tabs
 == createBlockFrom
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">createBlockFrom</span><wbr><span class="parameters">(<a href="../../multistate/accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&nbsp;stateEntryInfo)</span></div>
-<div class="block">Creates a new multistate itemstack with a single state internally.</div>
+Creates a new multistate itemstack with a single state internally.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stateEntryInfo</code> - The state entry info to create an itemstack for.</dd>
@@ -111,8 +107,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

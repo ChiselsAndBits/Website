@@ -69,15 +69,13 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="codec()">
 
 :::tabs
 == codec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.mojang.serialization.MapCodec&lt;? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</span>&nbsp;<span class="element-name">codec</span>()</div>
-<div class="block">Gets the codec for the snapshot.</div>
+Gets the codec for the snapshot.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec.</dd>
@@ -88,15 +86,13 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 </section>
 
-</li>
-<li>
 <section id="streamCodec()">
 
 :::tabs
 == streamCodec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, ? extends <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
-<div class="block">Gets the stream codec for the snapshot.</div>
+Gets the stream codec for the snapshot.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The stream codec.</dd>
@@ -107,8 +103,6 @@ Methods inherited from interface&nbsp;com.communi.suggestu.scena.core.registries
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

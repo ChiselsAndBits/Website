@@ -76,8 +76,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
@@ -90,15 +88,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getIdFrom(net.minecraft.world.level.block.state.BlockState)">
 
 :::tabs
 == getIdFrom
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getIdFrom</span><wbr><span class="parameters">(net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</span></div>
-<div class="block">Calculates the the integer id representation of the blockstate.</div>
+Calculates the the integer id representation of the blockstate.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockState</code> - The blockstate for which the id is requested.</dd>
@@ -111,15 +107,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getBlockStateFrom(int)">
 
 :::tabs
 == getBlockStateFrom
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.level.block.state.BlockState</span>&nbsp;<span class="element-name">getBlockStateFrom</span><wbr><span class="parameters">(int&nbsp;id)</span></div>
-<div class="block">Calculates the blockstate from the given id.</div>
+Calculates the blockstate from the given id.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>id</code> - The integer id representation of the requested blockstate.</dd>
@@ -132,8 +126,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

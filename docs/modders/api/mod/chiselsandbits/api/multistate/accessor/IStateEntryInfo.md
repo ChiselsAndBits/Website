@@ -94,8 +94,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getBlockInformation()">
 
 :::tabs
@@ -103,7 +101,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getBlockInformation</span>()</div>
-<div class="block">The state that this entry represents.</div>
+The state that this entry represents.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The state.</dd>
@@ -114,8 +112,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getStartPoint()">
 
 :::tabs
@@ -123,7 +119,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getStartPoint</span>()</div>
-<div class="block">The start (lowest on all three axi) position of the state that this entry occupies.</div>
+The start (lowest on all three axi) position of the state that this entry occupies.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The start position of this entry in the given block.</dd>
@@ -134,8 +130,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getEndPoint()">
 
 :::tabs
@@ -143,7 +137,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getEndPoint</span>()</div>
-<div class="block">The end (highest on all three axi) position of the state that this entry occupies.</div>
+The end (highest on all three axi) position of the state that this entry occupies.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The start position of this entry in the given block.</dd>
@@ -154,8 +148,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getCenterPoint()">
 
 :::tabs
@@ -163,7 +155,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="modifiers">default</span>&nbsp;<span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getCenterPoint</span>()</div>
-<div class="block">The center point of the entry in the current block.</div>
+The center point of the entry in the current block.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The center position of this entry in the given block.</dd>
@@ -174,8 +166,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getBoundingBox()">
 
 :::tabs
@@ -183,7 +173,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="modifiers">default</span>&nbsp;<span class="return-type">@NotNull net.minecraft.world.phys.AABB</span>&nbsp;<span class="element-name">getBoundingBox</span>()</div>
-<div class="block">Gives access to the bounding box of this object.</div>
+Gives access to the bounding box of this object.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../aabb/IAABBOwner.html#getBoundingBox()">getBoundingBox</a></code>&nbsp;in interface&nbsp;<code><a href="../../aabb/IAABBOwner.html" title="interface in mod.chiselsandbits.api.aabb">IAABBOwner</a></code></dd>
@@ -196,8 +186,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

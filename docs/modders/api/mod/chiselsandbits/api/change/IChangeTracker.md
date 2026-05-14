@@ -87,8 +87,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a h
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="onBlockUpdated(net.minecraft.core.BlockPos,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)">
 
 :::tabs
@@ -97,7 +95,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a h
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">onBlockUpdated</span><wbr><span class="parameters">(net.minecraft.core.BlockPos&nbsp;blockPos,
  <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;before,
  <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;after)</span></div>
-<div class="block">Invoked when a chiseled block is updated from one state to the next.</div>
+Invoked when a chiseled block is updated from one state to the next.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockPos</code> - The position of the block updated.</dd>
@@ -110,8 +108,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a h
 
 </section>
 
-</li>
-<li>
 <section id="onBlocksUpdated(java.util.Map,java.util.Map)">
 
 :::tabs
@@ -119,7 +115,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a h
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onBlocksUpdated</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;net.minecraft.core.BlockPos, <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;&nbsp;beforeStates,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;net.minecraft.core.BlockPos, <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;&nbsp;afterState)</span></div>
-<div class="block">Invoked when several chiseled blocks are updated from one state to the next.</div>
+Invoked when several chiseled blocks are updated from one state to the next.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>beforeStates</code> - The states before the update.</dd>
@@ -131,15 +127,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a h
 
 </section>
 
-</li>
-<li>
 <section id="getChanges()">
 
 :::tabs
 == getChanges
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Deque.html" title="class or interface in java.util" class="external-link">Deque</a>&lt;<a href="changes/IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</span>&nbsp;<span class="element-name">getChanges</span>()</div>
-<div class="block">Gets a readonly-copy of the changes in the queue.</div>
+Gets a readonly-copy of the changes in the queue.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The changes last performed and recorded by this tracker.</dd>
@@ -150,15 +144,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a h
 
 </section>
 
-</li>
-<li>
 <section id="setChanges(java.util.Deque)">
 
 :::tabs
 == setChanges
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setChanges</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Deque.html" title="class or interface in java.util" class="external-link">Deque</a>&lt;<a href="changes/IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;&nbsp;changes)</span></div>
-<div class="block">Sets the changes in the tracker.</div>
+Sets the changes in the tracker.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>changes</code> - The changes to set.</dd>
@@ -169,23 +161,18 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.change.changes.<a h
 
 </section>
 
-</li>
-<li>
 <section id="clear()">
 
 :::tabs
 == clear
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span>()</div>
-<div class="block">Clears the tracker from all currently stored changes.</div>
-</div>
+Clears the tracker from all currently stored changes.</div>
 :::
 
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

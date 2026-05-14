@@ -107,15 +107,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="isCanBeFlooded()">
 
 :::tabs
 == isCanBeFlooded
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isCanBeFlooded</span>()</div>
-<div class="block">Indicates whether the current block entity can be flooded with water.</div>
+Indicates whether the current block entity can be flooded with water.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True to allow flooding, false when not.</dd>
@@ -126,15 +124,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="setCanBeFlooded(boolean)">
 
 :::tabs
 == setCanBeFlooded
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setCanBeFlooded</span><wbr><span class="parameters">(boolean&nbsp;canBeFlooded)</span></div>
-<div class="block">Sets the flooding indicator.</div>
+Sets the flooding indicator.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>canBeFlooded</code> - True to allow flooding, false when not.</dd>
@@ -145,15 +141,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="isEmitsLightBasedOnFullBlock()">
 
 :::tabs
 == isEmitsLightBasedOnFullBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isEmitsLightBasedOnFullBlock</span>()</div>
-<div class="block">Indicates whether the lighting conditions of the block are based on the amount of bits in the block or the full block.</div>
+Indicates whether the lighting conditions of the block are based on the amount of bits in the block or the full block.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True to use full block size calculation, false when not.</dd>
@@ -164,15 +158,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="setEmitsLightBasedOnFullBlock(boolean)">
 
 :::tabs
 == setEmitsLightBasedOnFullBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setEmitsLightBasedOnFullBlock</span><wbr><span class="parameters">(boolean&nbsp;emitsLightBasedOnFullBlock)</span></div>
-<div class="block">Sets the lighting conditions indicator.</div>
+Sets the lighting conditions indicator.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>emitsLightBasedOnFullBlock</code> - True to calculate lighting conditions over the full block, false only over the set bits.</dd>
@@ -183,15 +175,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="getStatistics()">
 
 :::tabs
 == getStatistics
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../../multistate/statistics/IMultiStateObjectStatistics.html" title="interface in mod.chiselsandbits.api.multistate.statistics">IMultiStateObjectStatistics</a></span>&nbsp;<span class="element-name">getStatistics</span>()</div>
-<div class="block">The statistics of this block.</div>
+The statistics of this block.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../multistate/accessor/ISingleBlockAxisAlignedAreaAccessor.html#getStatistics()">getStatistics</a></code>&nbsp;in interface&nbsp;<code><a href="../../multistate/accessor/ISingleBlockAxisAlignedAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">ISingleBlockAxisAlignedAreaAccessor</a></code></dd>
@@ -204,8 +194,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="rotate(net.minecraft.core.Direction.Axis,int)">
 
 :::tabs
@@ -213,7 +201,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">rotate</span><wbr><span class="parameters">(net.minecraft.core.Direction.Axis&nbsp;axis,
  int&nbsp;rotationCount)</span></div>
-<div class="block">Rotates the current multistate block 90 degrees around the given axis with the given rotation count.</div>
+Rotates the current multistate block 90 degrees around the given axis with the given rotation count.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../multistate/mutator/IMirrorAndRotateble.html#rotate(net.minecraft.core.Direction.Axis,int)">rotate</a></code>&nbsp;in interface&nbsp;<code><a href="../../multistate/mutator/IMirrorAndRotateble.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMirrorAndRotateble</a></code></dd>
@@ -227,16 +215,14 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="initializeWith(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
 == initializeWith
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">initializeWith</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;initialInformation)</span></div>
-<div class="block">Initializes the block entity so that all its state entries
-have the given block information as their block information.</div>
+Initializes the block entity so that all its state entries
+have the given block information as their block information.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>initialInformation</code> - The new initial block information.</dd>
@@ -247,15 +233,13 @@ have the given block information as their block information.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getShape(mod.chiselsandbits.api.axissize.CollisionType)">
 
 :::tabs
 == getShape
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.shapes.VoxelShape</span>&nbsp;<span class="element-name">getShape</span><wbr><span class="parameters">(<a href="../../axissize/CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&nbsp;type)</span></div>
-<div class="block">Returns the current blocks shape for the given collision type.</div>
+Returns the current blocks shape for the given collision type.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>type</code> - The collision type to get the shape for.</dd>
@@ -268,15 +252,13 @@ have the given block information as their block information.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getBlockStack()">
 
 :::tabs
 == getBlockStack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IMultiStateBlockEntity.BlockStack.html" title="class in mod.chiselsandbits.api.block.entity">IMultiStateBlockEntity.BlockStack</a></span>&nbsp;<span class="element-name">getBlockStack</span>()</div>
-<div class="block">Creates an <code>ItemStack</code> for placement as a block.</div>
+Creates an <code>ItemStack</code> for placement as a block.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The block stack.</dd>
@@ -287,8 +269,6 @@ have the given block information as their block information.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

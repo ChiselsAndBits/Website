@@ -77,15 +77,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IChiselsAndBitsConfiguration.html" title="interface in mod.chiselsandbits.api.config">IChiselsAndBitsConfiguration</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Gives access to the current configuration of C&amp;B.</div>
+Gives access to the current configuration of C&amp;B.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The current configuration.</dd>
@@ -96,17 +94,15 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getClient()">
 
 :::tabs
 == getClient
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IClientConfiguration.html" title="interface in mod.chiselsandbits.api.config">IClientConfiguration</a></span>&nbsp;<span class="element-name">getClient</span>()</div>
-<div class="block">The client configuration.
+The client configuration.
 Elements in this configuration are only relevant for the client side of C&amp;B.
-This configuration does not need to be in-sync with the server values.</div>
+This configuration does not need to be in-sync with the server values.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The client configuration.</dd>
@@ -117,17 +113,15 @@ This configuration does not need to be in-sync with the server values.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getCommon()">
 
 :::tabs
 == getCommon
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="ICommonConfiguration.html" title="interface in mod.chiselsandbits.api.config">ICommonConfiguration</a></span>&nbsp;<span class="element-name">getCommon</span>()</div>
-<div class="block">The common configuration.
+The common configuration.
 Elements in this configuration are relevant for both the server and the client side of C&amp;B.
-This configuration does not need to be in-sync with the server values.</div>
+This configuration does not need to be in-sync with the server values.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The common configuration.</dd>
@@ -138,17 +132,15 @@ This configuration does not need to be in-sync with the server values.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getServer()">
 
 :::tabs
 == getServer
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IServerConfiguration.html" title="interface in mod.chiselsandbits.api.config">IServerConfiguration</a></span>&nbsp;<span class="element-name">getServer</span>()</div>
-<div class="block">Gives access to the current server's configuration.
+Gives access to the current server's configuration.
 Elements in this configuration are relevant for both the server and client side of C&amp;B.
-Since this options influence gameplay mechanics they need to be kept in sync.</div>
+Since this options influence gameplay mechanics they need to be kept in sync.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The server configuration.</dd>
@@ -159,8 +151,6 @@ Since this options influence gameplay mechanics they need to be kept in sync.</d
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

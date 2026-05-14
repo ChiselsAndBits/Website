@@ -75,8 +75,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
@@ -84,7 +82,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="modifiers">static</span>&nbsp;<span class="return-type">@NotNull <a href="IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">Short circuit method to get the manager instance from the api.</div>
+Short circuit method to get the manager instance from the api.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The change tracker manager.</dd>
@@ -95,8 +93,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getChangeTracker(net.minecraft.world.entity.player.Player)">
 
 :::tabs
@@ -104,7 +100,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="return-type">@NotNull <a href="IChangeTracker.html" title="interface in mod.chiselsandbits.api.change">IChangeTracker</a></span>&nbsp;<span class="element-name">getChangeTracker</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span></div>
-<div class="block">Gives access to the change tracker of the given player.</div>
+Gives access to the change tracker of the given player.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player in question.</dd>
@@ -117,8 +113,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

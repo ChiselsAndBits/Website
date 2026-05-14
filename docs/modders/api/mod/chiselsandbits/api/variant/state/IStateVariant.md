@@ -97,8 +97,7 @@ Methods inherited from interface&nbsp;java.lang.<a href="https://docs.oracle.com
 == CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">CODEC</span></div>
-<div class="block">The codec that can be used to serialize a state variant.</div>
-</div>
+The codec that can be used to serialize a state variant.</div>
 :::
 
 
@@ -110,8 +109,7 @@ Methods inherited from interface&nbsp;java.lang.<a href="https://docs.oracle.com
 == MAP_CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">com.mojang.serialization.MapCodec&lt;<a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">MAP_CODEC</span></div>
-<div class="block">The map codec that can be used to serialize a state variant.</div>
-</div>
+The map codec that can be used to serialize a state variant.</div>
 :::
 
 
@@ -123,8 +121,7 @@ Methods inherited from interface&nbsp;java.lang.<a href="https://docs.oracle.com
 == STREAM_CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">STREAM_CODEC</span></div>
-<div class="block">The stream codec that can be used to serialize a state variant.</div>
-</div>
+The stream codec that can be used to serialize a state variant.</div>
 :::
 
 
@@ -139,15 +136,13 @@ Methods inherited from interface&nbsp;java.lang.<a href="https://docs.oracle.com
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="provider()">
 
 :::tabs
 == provider
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IStateVariantProvider.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariantProvider</a></span>&nbsp;<span class="element-name">provider</span>()</div>
-<div class="block">Returns The provider that created this state variant..</div>
+Returns The provider that created this state variant..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The provider that created this state variant.</dd>
@@ -158,28 +153,23 @@ Methods inherited from interface&nbsp;java.lang.<a href="https://docs.oracle.com
 
 </section>
 
-</li>
-<li>
 <section id="updateBlockEntity(net.minecraft.world.level.block.entity.BlockEntity)">
 
 :::tabs
 == updateBlockEntity
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">updateBlockEntity</span><wbr><span class="parameters">(net.minecraft.world.level.block.entity.BlockEntity&nbsp;blockEntity)</span></div>
-<div class="block">Updates a block entity with the correct state of this variant.
+Updates a block entity with the correct state of this variant.
 <p>
     By default, this does nothing, however a particular implementation can decide to properly instantiate it so that
     the model extraction system can provide other minecraft subsystems, like coloring, the correct information needed
     for this variant.
 </p></div>
-</div>
 :::
 
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

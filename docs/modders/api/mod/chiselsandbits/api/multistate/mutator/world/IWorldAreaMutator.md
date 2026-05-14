@@ -66,16 +66,14 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.aabb.<a href="../..
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="inWorldMutableStream()">
 
 :::tabs
 == inWorldMutableStream
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="IInWorldMutableStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.mutator.world">IInWorldMutableStateEntryInfo</a>&gt;</span>&nbsp;<span class="element-name">inWorldMutableStream</span>()</div>
-<div class="block">Returns all entries in the current area in a mutable fashion.
-Includes all empty areas as areas containing an air state.</div>
+Returns all entries in the current area in a mutable fashion.
+Includes all empty areas as areas containing an air state.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A stream with a mutable state entry info for each mutable section in the area.</dd>
@@ -86,8 +84,6 @@ Includes all empty areas as areas containing an air state.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

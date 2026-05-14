@@ -81,15 +81,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../..
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="isActive()">
 
 :::tabs
 == isActive
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isActive</span>()</div>
-<div class="block">Indicates if the mode is currently active and as such should be rendered or not.</div>
+Indicates if the mode is currently active and as such should be rendered or not.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True for active modes, false for not.</dd>
@@ -100,15 +98,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="shouldRenderName()">
 
 :::tabs
 == shouldRenderName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldRenderName</span>()</div>
-<div class="block">Indicates if the name of the mode should be rendered.</div>
+Indicates if the name of the mode should be rendered.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> when the name should be rendered.</dd>
@@ -119,15 +115,13 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="shouldRenderDisplayNameInMenu()">
 
 :::tabs
 == shouldRenderDisplayNameInMenu
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldRenderDisplayNameInMenu</span>()</div>
-<div class="block">Indicates if this mode should render his name in the menu.</div>
+Indicates if this mode should render his name in the menu.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> when then name should be rendered in the menu.</dd>
@@ -138,8 +132,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="getColorVector()">
 
 :::tabs
@@ -148,7 +140,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../..
 <div class="member-signature"><span class="annotations">@NotNull
 </span><span class="modifiers">default</span>&nbsp;<span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getColorVector</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../util/IWithColor.html#getColorVector()">IWithColor</a></code></span></div>
-<div class="block">The color used to render.</div>
+The color used to render.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../util/IWithColor.html#getColorVector()">getColorVector</a></code>&nbsp;in interface&nbsp;<code><a href="../../util/IWithColor.html" title="interface in mod.chiselsandbits.api.util">IWithColor</a></code></dd>
@@ -161,8 +153,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="getPositionVector()">
 
 :::tabs
@@ -175,8 +165,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../..
 
 </section>
 
-</li>
-<li>
 <section id="getScaleVector()">
 
 :::tabs
@@ -189,8 +177,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../..
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

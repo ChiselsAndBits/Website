@@ -48,15 +48,14 @@ Optional Element Summary
 <!-- ============ ANNOTATION INTERFACE MEMBER DETAIL =========== -->
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Element Details  
-<li>
 <section id="requiredMods()">
 
 :::tabs
 == requiredMods
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>[]</span>&nbsp;<span class="element-name">requiredMods</span></div>
-<div class="block">Mod ids of the mods required to load this plugin.
-Leave on the default empty to not care for mod specific filtering.</div>
+Mod ids of the mods required to load this plugin.
+Leave on the default empty to not care for mod specific filtering.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The ids of the mods required to load.</dd>
@@ -71,19 +70,17 @@ Leave on the default empty to not care for mod specific filtering.</div>
 
 </section>
 
-</li>
-<li>
 <section id="isExperimental()">
 
 :::tabs
 == isExperimental
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isExperimental</span></div>
-<div class="block">Indicator for an experimental plugin.
+Indicator for an experimental plugin.
 Is only loaded when the user enables experimental plugins in the config.
 <p>
 Experimental plugins get constructed if their mods list matches, however their
-initialization methods are never called!</div>
+initialization methods are never called!</p>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True for an experimental plugin.</dd>
@@ -98,7 +95,6 @@ initialization methods are never called!</div>
 
 </section>
 
-</li>
 :::::
   
 

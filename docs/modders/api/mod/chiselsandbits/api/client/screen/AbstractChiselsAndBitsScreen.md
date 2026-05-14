@@ -127,7 +127,7 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, 
 == AbstractChiselsAndBitsScreen
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="element-name">AbstractChiselsAndBitsScreen</span><wbr><span class="parameters">(net.minecraft.network.chat.Component&nbsp;narrationMessage)</span></div>
-<div class="block">Creates a new screen, playing the narration message when opened.</div>
+Creates a new screen, playing the narration message when opened.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>narrationMessage</code> - The narration message for the screen.</dd>
@@ -145,8 +145,6 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, 
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="init()">
 
 :::tabs
@@ -163,8 +161,6 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, 
 
 </section>
 
-</li>
-<li>
 <section id="addRenderableWidget(T)">
 
 :::tabs
@@ -184,8 +180,6 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, 
 
 </section>
 
-</li>
-<li>
 <section id="addRenderableOnly(T)">
 
 :::tabs
@@ -205,8 +199,6 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, 
 
 </section>
 
-</li>
-<li>
 <section id="addWidget(T)">
 
 :::tabs
@@ -226,8 +218,6 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, 
 
 </section>
 
-</li>
-<li>
 <section id="removeWidget(net.minecraft.client.gui.components.events.GuiEventListener)">
 
 :::tabs
@@ -245,8 +235,6 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, 
 
 </section>
 
-</li>
-<li>
 <section id="clearWidgets()">
 
 :::tabs
@@ -263,8 +251,6 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, 
 
 </section>
 
-</li>
-<li>
 <section id="removed()">
 
 :::tabs
@@ -281,8 +267,6 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, 
 
 </section>
 
-</li>
-<li>
 <section id="isInitialized()">
 
 :::tabs
@@ -290,7 +274,7 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, 
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isInitialized</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="IChiselsAndBitsScreen.html#isInitialized()">IChiselsAndBitsScreen</a></code></span></div>
-<div class="block">Indicates if the screen has been initialized or not.</div>
+Indicates if the screen has been initialized or not.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="IChiselsAndBitsScreen.html#isInitialized()">isInitialized</a></code>&nbsp;in interface&nbsp;<code><a href="IChiselsAndBitsScreen.html" title="interface in mod.chiselsandbits.api.client.screen">IChiselsAndBitsScreen</a></code></dd>
@@ -303,15 +287,13 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, 
 
 </section>
 
-</li>
-<li>
 <section id="getWidgets()">
 
 :::tabs
 == getWidgets
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="widget/IChiselsAndBitsWidget.html" title="interface in mod.chiselsandbits.api.client.screen.widget">IChiselsAndBitsWidget</a>&gt;</span>&nbsp;<span class="element-name">getWidgets</span>()</div>
-<div class="block">Returns the widgets which are included in the screen.</div>
+Returns the widgets which are included in the screen.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The widgets on this screen.</dd>
@@ -322,8 +304,6 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, 
 
 </section>
 
-</li>
-<li>
 <section id="extractRenderState(net.minecraft.client.gui.GuiGraphicsExtractor,int,int,float)">
 
 :::tabs
@@ -346,8 +326,6 @@ Methods inherited from class&nbsp;net.minecraft.client.gui.screens.Screenadded, 
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

@@ -80,8 +80,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="setBlockInformation(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
@@ -89,7 +87,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">setBlockInformation</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span>
                   throws <span class="exceptions"><a href="../../exceptions/SpaceOccupiedException.html" title="class in mod.chiselsandbits.api.exceptions">SpaceOccupiedException</a></span></div>
-<div class="block">Sets the current entries block information.</div>
+Sets the current entries block information.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The new block information of the entry.</dd>
@@ -102,31 +100,26 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.multistate.accessor
 
 </section>
 
-</li>
-<li>
 <section id="clear()">
 
 :::tabs
 == clear
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">clear</span>()</div>
-<div class="block">Clears the current state entries blockstate.
+Clears the current state entries blockstate.
 Effectively setting the current blockstate to air.</div>
-</div>
 :::
 
 
 </section>
 
-</li>
-<li>
 <section id="overrideState(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
 == overrideState
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">overrideState</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Overrides the current entries block information</div>
+Overrides the current entries block information
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The new block information of the entry.</dd>
@@ -137,8 +130,6 @@ Effectively setting the current blockstate to air.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

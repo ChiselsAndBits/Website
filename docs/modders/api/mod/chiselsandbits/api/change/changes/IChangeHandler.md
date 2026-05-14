@@ -70,15 +70,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="canUndo(net.minecraft.world.entity.player.Player)">
 
 :::tabs
 == canUndo
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">canUndo</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span></div>
-<div class="block">Checks if the change can still be undone.</div>
+Checks if the change can still be undone.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player for which the can undo check is performed.</dd>
@@ -91,15 +89,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="canRedo(net.minecraft.world.entity.player.Player)">
 
 :::tabs
 == canRedo
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">canRedo</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span></div>
-<div class="block">Checks if the change can still be redone.</div>
+Checks if the change can still be redone.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player for which the can redo check is performed.</dd>
@@ -112,8 +108,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="undo(net.minecraft.world.entity.player.Player)">
 
 :::tabs
@@ -121,7 +115,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">undo</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span>
    throws <span class="exceptions"><a href="IllegalChangeAttempt.html" title="class in mod.chiselsandbits.api.change.changes">IllegalChangeAttempt</a></span></div>
-<div class="block">Undoes the change.</div>
+Undoes the change.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player for which undoes the change.</dd>
@@ -134,8 +128,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="redo(net.minecraft.world.entity.player.Player)">
 
 :::tabs
@@ -143,7 +135,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">redo</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span>
    throws <span class="exceptions"><a href="IllegalChangeAttempt.html" title="class in mod.chiselsandbits.api.change.changes">IllegalChangeAttempt</a></span></div>
-<div class="block">Redoes the change</div>
+Redoes the change
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player for which redoes the change.</dd>
@@ -156,8 +148,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

@@ -44,9 +44,8 @@ Field Summary
 == DUMMY
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type"><a href="IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a></span>&nbsp;<span class="element-name">DUMMY</span></div>
-<div class="block">The dummy instance of the identifier, in-case it is not relevant in the current context,
+The dummy instance of the identifier, in-case it is not relevant in the current context,
 but needs to be supplied.</div>
-</div>
 :::
 
 

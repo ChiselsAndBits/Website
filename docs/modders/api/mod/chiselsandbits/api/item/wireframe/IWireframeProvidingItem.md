@@ -79,8 +79,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getWireFrame(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
@@ -89,7 +87,7 @@ Method Summary
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.shapes.VoxelShape</span>&nbsp;<span class="element-name">getWireFrame</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack,
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.BlockHitResult&nbsp;rayTraceResult)</span></div>
-<div class="block">Provides access to the wire frame of the item.</div>
+Provides access to the wire frame of the item.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to get the wire frame from.</dd>
@@ -104,8 +102,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getWireFrameColor(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
@@ -114,7 +110,7 @@ Method Summary
 <div class="member-signature"><span class="return-type">org.joml.Vector4f</span>&nbsp;<span class="element-name">getWireFrameColor</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-<div class="block">The color to render the wireframe in.</div>
+The color to render the wireframe in.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get the wire frame color for.</dd>
@@ -129,8 +125,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
@@ -139,7 +133,7 @@ Method Summary
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getTargetedPosition</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack,
  net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</span></div>
-<div class="block">Returns the position the wire frame should be rendered at.</div>
+Returns the position the wire frame should be rendered at.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get the position for.</dd>
@@ -154,15 +148,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="ignoreDepth(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == ignoreDepth
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">ignoreDepth</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack)</span></div>
-<div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything</div>
+Returns whether to effectively ignore the depth buffer and render in front of everything
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get depth logic for.</dd>
@@ -175,8 +167,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

@@ -67,16 +67,14 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="create(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == create
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IBitInventoryItemStack.html" title="interface in mod.chiselsandbits.api.inventory.bit">IBitInventoryItemStack</a></span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Creates a bit inventory which is represented by the
-given itemstack which contains this item.</div>
+Creates a bit inventory which is represented by the
+given itemstack which contains this item.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to create an inventory of.</dd>
@@ -89,15 +87,13 @@ given itemstack which contains this item.</div>
 
 </section>
 
-</li>
-<li>
 <section id="isPreferredPickupInventory(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == isPreferredPickupInventory
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isPreferredPickupInventory</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Indicates if this items inventory is an inventory which should be preferred when bits are being picked up by the player.</div>
+Indicates if this items inventory is an inventory which should be preferred when bits are being picked up by the player.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to check for.</dd>
@@ -110,15 +106,13 @@ given itemstack which contains this item.</div>
 
 </section>
 
-</li>
-<li>
 <section id="isFilteredPickupInventory(net.minecraft.world.item.ItemStack)">
 
 :::tabs
 == isFilteredPickupInventory
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isFilteredPickupInventory</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
-<div class="block">Indicates if this items inventory is an inventory which is filtered, so that only bits which are already in the inventory are added when the player picks them up.</div>
+Indicates if this items inventory is an inventory which is filtered, so that only bits which are already in the inventory are added when the player picks them up.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>stack</code> - The stack to check for.</dd>
@@ -131,8 +125,6 @@ given itemstack which contains this item.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

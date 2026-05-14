@@ -74,8 +74,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
@@ -88,15 +86,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="singleBlock()">
 
 :::tabs
 == singleBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a></span>&nbsp;<span class="element-name">singleBlock</span>()</div>
-<div class="block">Creates a new simple single block snapshot.</div>
+Creates a new simple single block snapshot.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The new snapshot.</dd>
@@ -107,15 +103,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="singleBlock(mod.chiselsandbits.api.blockinformation.BlockInformation)">
 
 :::tabs
 == singleBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a></span>&nbsp;<span class="element-name">singleBlock</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-<div class="block">Creates a new simple single block snapshot.</div>
+Creates a new simple single block snapshot.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The block information which will fill up the entire snapshot once returned.</dd>
@@ -128,8 +122,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

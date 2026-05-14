@@ -78,8 +78,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getWireFrame(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
@@ -89,7 +87,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.BlockHitResult&nbsp;rayTraceResult)</span></div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../wireframe/IWireframeProvidingItem.html#getWireFrame(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">IWireframeProvidingItem</a></code></span></div>
-<div class="block">Provides access to the wire frame of the item.</div>
+Provides access to the wire frame of the item.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../wireframe/IWireframeProvidingItem.html#getWireFrame(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">getWireFrame</a></code>&nbsp;in interface&nbsp;<code><a href="../wireframe/IWireframeProvidingItem.html" title="interface in mod.chiselsandbits.api.item.wireframe">IWireframeProvidingItem</a></code></dd>
@@ -106,8 +104,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
 
 </section>
 
-</li>
-<li>
 <section id="getWireFrameColor(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
@@ -117,7 +113,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult)</span></div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../wireframe/IWireframeProvidingItem.html#getWireFrameColor(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">IWireframeProvidingItem</a></code></span></div>
-<div class="block">The color to render the wireframe in.</div>
+The color to render the wireframe in.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../wireframe/IWireframeProvidingItem.html#getWireFrameColor(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">getWireFrameColor</a></code>&nbsp;in interface&nbsp;<code><a href="../wireframe/IWireframeProvidingItem.html" title="interface in mod.chiselsandbits.api.item.wireframe">IWireframeProvidingItem</a></code></dd>
@@ -134,8 +130,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
 
 </section>
 
-</li>
-<li>
 <section id="getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
@@ -145,7 +139,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult)</span></div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../wireframe/IWireframeProvidingItem.html#getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">IWireframeProvidingItem</a></code></span></div>
-<div class="block">Returns the position the wire frame should be rendered at.</div>
+Returns the position the wire frame should be rendered at.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../wireframe/IWireframeProvidingItem.html#getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">getTargetedPosition</a></code>&nbsp;in interface&nbsp;<code><a href="../wireframe/IWireframeProvidingItem.html" title="interface in mod.chiselsandbits.api.item.wireframe">IWireframeProvidingItem</a></code></dd>
@@ -162,8 +156,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
 
 </section>
 
-</li>
-<li>
 <section id="getPlacementResult(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">
 
 :::tabs
@@ -173,7 +165,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
  net.minecraft.world.entity.player.Player&nbsp;player,
  net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult)</span></div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../placement/IPlaceable.html#getPlacementResult(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">IPlaceable</a></code></span></div>
-<div class="block">Invoked to determine the result of attempting actual placement in the world.</div>
+Invoked to determine the result of attempting actual placement in the world.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../placement/IPlaceable.html#getPlacementResult(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)">getPlacementResult</a></code>&nbsp;in interface&nbsp;<code><a href="../../placement/IPlaceable.html" title="interface in mod.chiselsandbits.api.placement">IPlaceable</a></code></dd>
@@ -190,8 +182,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
 
 </section>
 
-</li>
-<li>
 <section id="overridesOccupiedBits(net.minecraft.world.item.ItemStack)">
 
 :::tabs
@@ -199,7 +189,7 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">overridesOccupiedBits</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack)</span></div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../placement/IPlacementProperties.html#overridesOccupiedBits(net.minecraft.world.item.ItemStack)">IPlacementProperties</a></code></span></div>
-<div class="block">Invoked to determine whether this replaces non-air bits of blocks, or only replaces air bits.</div>
+Invoked to determine whether this replaces non-air bits of blocks, or only replaces air bits.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../placement/IPlacementProperties.html#overridesOccupiedBits(net.minecraft.world.item.ItemStack)">overridesOccupiedBits</a></code>&nbsp;in interface&nbsp;<code><a href="../../placement/IPlacementProperties.html" title="interface in mod.chiselsandbits.api.placement">IPlacementProperties</a></code></dd>
@@ -210,8 +200,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.multistate.<a 
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

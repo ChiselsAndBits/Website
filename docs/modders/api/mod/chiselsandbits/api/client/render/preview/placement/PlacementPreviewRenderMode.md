@@ -104,8 +104,7 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == GHOST_BLOCK_MODEL
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">GHOST_BLOCK_MODEL</span></div>
-<div class="block">Causes the preview to render as a ghost of the model of the block to be placed</div>
-</div>
+Causes the preview to render as a ghost of the model of the block to be placed</div>
 :::
 
 
@@ -117,9 +116,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 == GHOST_BLOCK_MODEL_SOLID_COLOR
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">GHOST_BLOCK_MODEL_SOLID_COLOR</span></div>
-<div class="block">Causes the preview to render the model of the block, such that the block's textures are
+Causes the preview to render the model of the block, such that the block's textures are
 ignored, and each quad  is rendered with the RGBA value specified by the result of placement</div>
-</div>
 :::
 
 
@@ -131,9 +129,8 @@ ignored, and each quad  is rendered with the RGBA value specified by the result 
 == WIREFRAME
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">WIREFRAME</span></div>
-<div class="block">Causes the preview to render a wireframe comprised of the edges of the block's model
+Causes the preview to render a wireframe comprised of the edges of the block's model
 with the RGB value specified by the result of placement</div>
-</div>
 :::
 
 
@@ -152,16 +149,14 @@ with the RGB value specified by the result of placement</div>
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="values()">
 
 :::tabs
 == values
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a>[]</span>&nbsp;<span class="element-name">values</span>()</div>
-<div class="block">Returns an array containing the constants of this enum class, in
-the order they are declared.</div>
+Returns an array containing the constants of this enum class, in
+the order they are declared.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>an array containing the constants of this enum class, in the order they are declared</dd>
@@ -172,18 +167,16 @@ the order they are declared.</div>
 
 </section>
 
-</li>
-<li>
 <section id="valueOf(java.lang.String)">
 
 :::tabs
 == valueOf
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">valueOf</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
-<div class="block">Returns the enum constant of this class with the specified name.
+Returns the enum constant of this class with the specified name.
 The string must match <i>exactly</i> an identifier used to declare an
 enum constant in this class.  (Extraneous whitespace characters are 
-not permitted.)</div>
+not permitted.)
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>name</code> - the name of the enum constant to be returned.</dd>
@@ -199,8 +192,6 @@ not permitted.)</div>
 
 </section>
 
-</li>
-<li>
 <section id="isGhost()">
 
 :::tabs
@@ -213,8 +204,6 @@ not permitted.)</div>
 
 </section>
 
-</li>
-<li>
 <section id="isColoredGhost()">
 
 :::tabs
@@ -227,8 +216,6 @@ not permitted.)</div>
 
 </section>
 
-</li>
-<li>
 <section id="isWireframe()">
 
 :::tabs
@@ -241,8 +228,6 @@ not permitted.)</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

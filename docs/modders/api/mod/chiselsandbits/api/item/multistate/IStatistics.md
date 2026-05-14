@@ -72,16 +72,14 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.serialization.<a hr
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getPrimaryState()">
 
 :::tabs
 == getPrimaryState
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getPrimaryState</span>()</div>
-<div class="block">The primary state of the mutli state itemstacks this statistics object
-belongs to.</div>
+The primary state of the mutli state itemstacks this statistics object
+belongs to.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The primary blockstate.</dd>
@@ -92,15 +90,13 @@ belongs to.</div>
 
 </section>
 
-</li>
-<li>
 <section id="isEmpty()">
 
 :::tabs
 == isEmpty
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isEmpty</span>()</div>
-<div class="block">Indicates if the multistate object is empty.</div>
+Indicates if the multistate object is empty.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> for an empty multi state object.</dd>
@@ -111,15 +107,13 @@ belongs to.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getContainedStates()">
 
 :::tabs
 == getContainedStates
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link">Set</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">getContainedStates</span>()</div>
-<div class="block">Returns all states (without count) that are contained in the object</div>
+Returns all states (without count) that are contained in the object
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>All states in the object.</dd>
@@ -130,8 +124,6 @@ belongs to.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

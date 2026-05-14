@@ -69,8 +69,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getColor()">
 
 :::tabs
@@ -83,8 +81,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 
 </section>
 
-</li>
-<li>
 <section id="getType()">
 
 :::tabs
@@ -97,8 +93,6 @@ Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.<a hr
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

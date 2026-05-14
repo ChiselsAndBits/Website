@@ -64,15 +64,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="writeToFile(java.nio.file.Path)">
 
 :::tabs
 == writeToFile
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">writeToFile</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/nio/file/Path.html" title="class or interface in java.nio.file" class="external-link">Path</a>&nbsp;file)</span></div>
-<div class="block">Writes all profiling result data to the given file. Creating it if necessary.</div>
+Writes all profiling result data to the given file. Creating it if necessary.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>file</code> - The file to write to.</dd>
@@ -83,15 +81,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="writeAsResponse(java.util.function.Consumer)">
 
 :::tabs
 == writeAsResponse
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">writeAsResponse</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&gt;&nbsp;lineConsumer)</span></div>
-<div class="block">Writes all profiling result data in a readable manor into the given consumer, allows for the outputting of the results to a player in chat, or the server console.</div>
+Writes all profiling result data in a readable manor into the given consumer, allows for the outputting of the results to a player in chat, or the server console.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>lineConsumer</code> - The line consumer.</dd>
@@ -102,8 +98,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

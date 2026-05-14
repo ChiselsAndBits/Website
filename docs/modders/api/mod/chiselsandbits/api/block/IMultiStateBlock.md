@@ -67,8 +67,6 @@ Methods inherited from interface&nbsp;net.minecraft.world.level.block.EntityBloc
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getPrimaryState(net.minecraft.world.level.BlockGetter,net.minecraft.core.BlockPos)">
 
 :::tabs
@@ -79,8 +77,8 @@ Methods inherited from interface&nbsp;net.minecraft.world.level.block.EntityBloc
  @NotNull net.minecraft.world.level.BlockGetter&nbsp;world,
  @NotNull
  @NotNull net.minecraft.core.BlockPos&nbsp;pos)</span></div>
-<div class="block">Returns the primary state of the block.
-In terms of Chisels and Bits this is the blockstate that is represented the most inside the block.</div>
+Returns the primary state of the block.
+In terms of Chisels and Bits this is the blockstate that is represented the most inside the block.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>world</code> - The world to read the data from. Required to get access to the tile entity with the backing data.</dd>
@@ -94,8 +92,6 @@ In terms of Chisels and Bits this is the blockstate that is represented the most
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

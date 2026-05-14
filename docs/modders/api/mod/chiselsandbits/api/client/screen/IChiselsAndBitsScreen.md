@@ -61,15 +61,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="isInitialized()">
 
 :::tabs
 == isInitialized
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isInitialized</span>()</div>
-<div class="block">Indicates if the screen has been initialized or not.</div>
+Indicates if the screen has been initialized or not.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd><code>true</code> if the screen has been initialized, <code>false</code> otherwise.</dd>
@@ -80,8 +78,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

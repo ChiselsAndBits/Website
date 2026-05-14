@@ -75,8 +75,6 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="empty()">
 
 :::tabs
@@ -89,15 +87,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getLowest()">
 
 :::tabs
 == getLowest
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">int</span>&nbsp;<span class="element-name">getLowest</span>()</div>
-<div class="block">The lowest set value on the axis of the size handler.</div>
+The lowest set value on the axis of the size handler.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The lowest set value.</dd>
@@ -108,15 +104,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getHighest()">
 
 :::tabs
 == getHighest
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">int</span>&nbsp;<span class="element-name">getHighest</span>()</div>
-<div class="block">The highest set value on the axis of the size handler.</div>
+The highest set value on the axis of the size handler.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The highest set value.</dd>
@@ -127,8 +121,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

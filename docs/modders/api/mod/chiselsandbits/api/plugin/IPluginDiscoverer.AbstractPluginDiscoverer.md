@@ -120,8 +120,6 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="loadPlugins()">
 
 :::tabs
@@ -129,8 +127,8 @@ Methods inherited from class&nbsp;java.lang.<a href="https://docs.oracle.com/en/
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</span>&nbsp;<span class="element-name">loadPlugins</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="IPluginDiscoverer.html#loadPlugins()">IPluginDiscoverer</a></code></span></div>
-<div class="block">Loads the plugins.
-Already has performed the instantiation logic and validation.</div>
+Loads the plugins.
+Already has performed the instantiation logic and validation.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="IPluginDiscoverer.html#loadPlugins()">loadPlugins</a></code>&nbsp;in interface&nbsp;<code><a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></code></dd>
@@ -143,8 +141,6 @@ Already has performed the instantiation logic and validation.</div>
 
 </section>
 
-</li>
-<li>
 <section id="isModNotLoaded(java.lang.String)">
 
 :::tabs
@@ -157,8 +153,6 @@ Already has performed the instantiation logic and validation.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

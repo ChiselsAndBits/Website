@@ -80,17 +80,15 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="ICommonConfiguration.html" title="interface in mod.chiselsandbits.api.config">ICommonConfiguration</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">The common configuration.
+The common configuration.
 Elements in this configuration are relevant for both the server and the client side of C&amp;B.
-This configuration does not need to be in-sync with the server values.</div>
+This configuration does not need to be in-sync with the server values.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The common configuration.</dd>
@@ -101,15 +99,13 @@ This configuration does not need to be in-sync with the server values.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getEnableHelp()">
 
 :::tabs
 == getEnableHelp
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Boolean.html" title="class or interface in java.lang" class="external-link">Boolean</a>&gt;</span>&nbsp;<span class="element-name">getEnableHelp</span>()</div>
-<div class="block">Indicates if the help tooltips should be enabled or not.</div>
+Indicates if the help tooltips should be enabled or not.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A supplier that can indicate of the help tooltips should be shown or not.</dd>
@@ -120,15 +116,13 @@ This configuration does not need to be in-sync with the server values.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getCollisionBoxCacheSize()">
 
 :::tabs
 == getCollisionBoxCacheSize
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&gt;</span>&nbsp;<span class="element-name">getCollisionBoxCacheSize</span>()</div>
-<div class="block">Determines the size of the collision box cache size.</div>
+Determines the size of the collision box cache size.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A supplier that determines the size of the collision box cache size.</dd>
@@ -139,15 +133,13 @@ This configuration does not need to be in-sync with the server values.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getClassMetadataCacheSize()">
 
 :::tabs
 == getClassMetadataCacheSize
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Long.html" title="class or interface in java.lang" class="external-link">Long</a>&gt;</span>&nbsp;<span class="element-name">getClassMetadataCacheSize</span>()</div>
-<div class="block">Determines the size of caches which hold class metadata.</div>
+Determines the size of caches which hold class metadata.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The class metadata cache size.</dd>
@@ -158,16 +150,14 @@ This configuration does not need to be in-sync with the server values.</div>
 
 </section>
 
-</li>
-<li>
 <section id="getBlockSaveThreadCount()">
 
 :::tabs
 == getBlockSaveThreadCount
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</span>&nbsp;<span class="element-name">getBlockSaveThreadCount</span>()</div>
-<div class="block">Indicates how many threads can be used to calculate and compress off-thread NBT data for saving.
-Loading always happens on thread.</div>
+Indicates how many threads can be used to calculate and compress off-thread NBT data for saving.
+Loading always happens on thread.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>A supplier that determines the number of threads to use for block saving.</dd>
@@ -178,8 +168,6 @@ Loading always happens on thread.</div>
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

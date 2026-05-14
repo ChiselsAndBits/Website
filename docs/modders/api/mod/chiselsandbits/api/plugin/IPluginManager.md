@@ -74,15 +74,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="getInstance()">
 
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPluginManager.html" title="interface in mod.chiselsandbits.api.plugin">IPluginManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
-<div class="block">The instance of the plugin manager.</div>
+The instance of the plugin manager.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The plugin manager.</dd>
@@ -93,15 +91,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="getPlugins()">
 
 :::tabs
 == getPlugins
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.google.common.collect.ImmutableSet&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;</span>&nbsp;<span class="element-name">getPlugins</span>()</div>
-<div class="block">Gets the plugins.</div>
+Gets the plugins.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>An immutable set with the plugins.</dd>
@@ -112,8 +108,6 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="run(java.lang.String,java.util.function.Consumer)">
 
 :::tabs
@@ -121,7 +115,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">run</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;action,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&nbsp;callback)</span></div>
-<div class="block">Runs a specific task on all available plugins.</div>
+Runs a specific task on all available plugins.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>action</code> - The name of the action to execute, used in logging.</dd>
@@ -133,8 +127,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

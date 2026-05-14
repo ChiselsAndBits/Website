@@ -67,15 +67,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="codec()">
 
 :::tabs
 == codec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.mojang.serialization.Codec&lt;?&gt;</span>&nbsp;<span class="element-name">codec</span>()</div>
-<div class="block">Returns The codec used for direct serialization..</div>
+Returns The codec used for direct serialization..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec used for direct serialization.</dd>
@@ -86,15 +84,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="mapCodec()">
 
 :::tabs
 == mapCodec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">com.mojang.serialization.MapCodec&lt;?&gt;</span>&nbsp;<span class="element-name">mapCodec</span>()</div>
-<div class="block">Returns The codec used for complex serialization..</div>
+Returns The codec used for complex serialization..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec used for complex serialization.</dd>
@@ -105,15 +101,13 @@ Method Summary
 
 </section>
 
-</li>
-<li>
 <section id="streamCodec()">
 
 :::tabs
 == streamCodec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;?,<wbr>?&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
-<div class="block">Returns The codec used for streaming serialization..</div>
+Returns The codec used for streaming serialization..
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec used for streaming serialization.</dd>
@@ -124,8 +118,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

@@ -61,15 +61,13 @@ Method Summary
 
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: info Method Details  
-<ul class="member-list">
-<li>
 <section id="batch()">
 
 :::tabs
 == batch
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IBatchMutation.html" title="interface in mod.chiselsandbits.api.util">IBatchMutation</a></span>&nbsp;<span class="element-name">batch</span>()</div>
-<div class="block">Trigger a batch mutation start.</div>
+Trigger a batch mutation start.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The batch mutation lock.</dd>
@@ -80,8 +78,6 @@ Method Summary
 
 </section>
 
-</li>
-</ul>
 :::::
   
 

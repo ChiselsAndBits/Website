@@ -59,6 +59,21 @@ export default defineConfig({
         includeRootIndexFile: true,
         includeFolderIndexFile: true,
         rootGroupText: 'Modder Documentation'
+      },
+      {
+        documentRootPath: '/docs/contributors',
+        basePath: '/docs/contributors/',
+        resolvePath: '/docs/contributors/',
+        useTitleFromFrontmatter: true,
+        useFolderTitleFromIndexFile: true,
+        frontmatterTitleFieldName: 'title',
+        sortMenusByFrontmatterOrder: true,
+        capitalizeFirst: true,
+        hyphenToSpace: true,
+        collapsed: false,
+        includeRootIndexFile: true,
+        includeFolderIndexFile: true,
+        rootGroupText: 'Contributor Documentation'
       }]),
 
     search: {

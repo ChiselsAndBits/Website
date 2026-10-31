@@ -10,7 +10,7 @@ _Package:_ [mod.chiselsandbits.api.config](index)
 
   
 
-  
+Exposes configuration values shared by client and server code.  
 
 <dl class="notes"></dl>  
 

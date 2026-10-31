@@ -26,11 +26,11 @@ Method Summary
   <tr><td><code><a href="IMeasurement.html" title="interface in mod.chiselsandbits.api.measuring">IMeasurement</a></code></td><td><code><a href="#create(net.minecraft.world.level.Level,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction,mod.chiselsandbits.api.measuring.IMeasuringMode)" class="member-name-link">create</a><wbr>(net.minecraft.world.level.Level&nbsp;world,<br> net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> net.minecraft.world.phys.Vec3&nbsp;from,<br> net.minecraft.world.phys.Vec3&nbsp;to,<br> net.minecraft.core.Direction&nbsp;hitFace,<br> <a href="IMeasuringMode.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringMode</a>&nbsp;mode)</code></td><td><div class="block">Creates a new measurement for the given player in the given world.</div><br></td></tr>
   <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;? extends <a href="IMeasurement.html" title="interface in mod.chiselsandbits.api.measuring">IMeasurement</a>&gt;</code></td><td><code><a href="#getForPlayer(java.util.UUID)" class="member-name-link">getForPlayer</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;playerId)</code></td><td><div class="block">Determines the active measurements for a given player represented by his unique UUID.</div><br></td></tr>
   <tr><td><code>default <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;? extends <a href="IMeasurement.html" title="interface in mod.chiselsandbits.api.measuring">IMeasurement</a>&gt;</code></td><td><code><a href="#getForPlayer(net.minecraft.world.entity.player.Player)" class="member-name-link">getForPlayer</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Determines the active measurements for a given player.</div><br></td></tr>
-  <tr><td><code>static <a href="IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the measuring manager exposed by the active API instance.</div><br></td></tr>
   <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;? extends <a href="IMeasurement.html" title="interface in mod.chiselsandbits.api.measuring">IMeasurement</a>&gt;</code></td><td><code><a href="#getInWorld(net.minecraft.resources.Identifier)" class="member-name-link">getInWorld</a><wbr>(net.minecraft.resources.Identifier&nbsp;worldKey)</code></td><td><div class="block">Determines the active measurements in a given world which is identified by the given world key.</div><br></td></tr>
   <tr><td><code>default <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;? extends <a href="IMeasurement.html" title="interface in mod.chiselsandbits.api.measuring">IMeasurement</a>&gt;</code></td><td><code><a href="#getInWorld(net.minecraft.world.level.Level)" class="member-name-link">getInWorld</a><wbr>(net.minecraft.world.level.Level&nbsp;world)</code></td><td><div class="block">Determines the active measurements in a given world.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#resetMeasurementsFor(java.util.UUID)" class="member-name-link">resetMeasurementsFor</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;playerId)</code></td><td><div class="block">Resets all measurements for a given player represented by the given id.</div><br></td></tr>
-  <tr><td><code>default void</code></td><td><code><a href="#resetMeasurementsFor(net.minecraft.world.entity.player.Player)" class="member-name-link">resetMeasurementsFor</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Resets all measurements for a given player.</div><br></td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#resetMeasurementsFor(java.util.UUID)" class="member-name-link">resetMeasurementsFor</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;playerId)</code></td><td><div class="block">Resets all measurements for a given player represented by the given id.(Removing them from the game and memory).</div><br></td></tr>
+  <tr><td><code>default void</code></td><td><code><a href="#resetMeasurementsFor(net.minecraft.world.entity.player.Player)" class="member-name-link">resetMeasurementsFor</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Resets all measurements for a given player.(Removing them from the game and memory).</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -39,7 +39,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the measuring manager exposed by the active API instance.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -53,8 +53,8 @@ Method Summary
   <tr><td><code>default <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;? extends <a href="IMeasurement.html" title="interface in mod.chiselsandbits.api.measuring">IMeasurement</a>&gt;</code></td><td><code><a href="#getForPlayer(net.minecraft.world.entity.player.Player)" class="member-name-link">getForPlayer</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Determines the active measurements for a given player.</div><br></td></tr>
   <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;? extends <a href="IMeasurement.html" title="interface in mod.chiselsandbits.api.measuring">IMeasurement</a>&gt;</code></td><td><code><a href="#getInWorld(net.minecraft.resources.Identifier)" class="member-name-link">getInWorld</a><wbr>(net.minecraft.resources.Identifier&nbsp;worldKey)</code></td><td><div class="block">Determines the active measurements in a given world which is identified by the given world key.</div><br></td></tr>
   <tr><td><code>default <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;? extends <a href="IMeasurement.html" title="interface in mod.chiselsandbits.api.measuring">IMeasurement</a>&gt;</code></td><td><code><a href="#getInWorld(net.minecraft.world.level.Level)" class="member-name-link">getInWorld</a><wbr>(net.minecraft.world.level.Level&nbsp;world)</code></td><td><div class="block">Determines the active measurements in a given world.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#resetMeasurementsFor(java.util.UUID)" class="member-name-link">resetMeasurementsFor</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;playerId)</code></td><td><div class="block">Resets all measurements for a given player represented by the given id.</div><br></td></tr>
-  <tr><td><code>default void</code></td><td><code><a href="#resetMeasurementsFor(net.minecraft.world.entity.player.Player)" class="member-name-link">resetMeasurementsFor</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Resets all measurements for a given player.</div><br></td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#resetMeasurementsFor(java.util.UUID)" class="member-name-link">resetMeasurementsFor</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;playerId)</code></td><td><div class="block">Resets all measurements for a given player represented by the given id.(Removing them from the game and memory).</div><br></td></tr>
+  <tr><td><code>default void</code></td><td><code><a href="#resetMeasurementsFor(net.minecraft.world.entity.player.Player)" class="member-name-link">resetMeasurementsFor</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Resets all measurements for a given player.(Removing them from the game and memory).</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -66,7 +66,7 @@ Method Summary
   <tr><td><code><a href="IMeasurement.html" title="interface in mod.chiselsandbits.api.measuring">IMeasurement</a></code></td><td><code><a href="#create(net.minecraft.world.level.Level,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction,mod.chiselsandbits.api.measuring.IMeasuringMode)" class="member-name-link">create</a><wbr>(net.minecraft.world.level.Level&nbsp;world,<br> net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> net.minecraft.world.phys.Vec3&nbsp;from,<br> net.minecraft.world.phys.Vec3&nbsp;to,<br> net.minecraft.core.Direction&nbsp;hitFace,<br> <a href="IMeasuringMode.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringMode</a>&nbsp;mode)</code></td><td><div class="block">Creates a new measurement for the given player in the given world.</div><br></td></tr>
   <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;? extends <a href="IMeasurement.html" title="interface in mod.chiselsandbits.api.measuring">IMeasurement</a>&gt;</code></td><td><code><a href="#getForPlayer(java.util.UUID)" class="member-name-link">getForPlayer</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;playerId)</code></td><td><div class="block">Determines the active measurements for a given player represented by his unique UUID.</div><br></td></tr>
   <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;? extends <a href="IMeasurement.html" title="interface in mod.chiselsandbits.api.measuring">IMeasurement</a>&gt;</code></td><td><code><a href="#getInWorld(net.minecraft.resources.Identifier)" class="member-name-link">getInWorld</a><wbr>(net.minecraft.resources.Identifier&nbsp;worldKey)</code></td><td><div class="block">Determines the active measurements in a given world which is identified by the given world key.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#resetMeasurementsFor(java.util.UUID)" class="member-name-link">resetMeasurementsFor</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;playerId)</code></td><td><div class="block">Resets all measurements for a given player represented by the given id.</div><br></td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#resetMeasurementsFor(java.util.UUID)" class="member-name-link">resetMeasurementsFor</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;playerId)</code></td><td><div class="block">Resets all measurements for a given player represented by the given id.(Removing them from the game and memory).</div><br></td></tr>
   </tbody>
 </table>
 == Default Methods
@@ -77,7 +77,7 @@ Method Summary
   <tbody>
   <tr><td><code>default <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;? extends <a href="IMeasurement.html" title="interface in mod.chiselsandbits.api.measuring">IMeasurement</a>&gt;</code></td><td><code><a href="#getForPlayer(net.minecraft.world.entity.player.Player)" class="member-name-link">getForPlayer</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Determines the active measurements for a given player.</div><br></td></tr>
   <tr><td><code>default <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;? extends <a href="IMeasurement.html" title="interface in mod.chiselsandbits.api.measuring">IMeasurement</a>&gt;</code></td><td><code><a href="#getInWorld(net.minecraft.world.level.Level)" class="member-name-link">getInWorld</a><wbr>(net.minecraft.world.level.Level&nbsp;world)</code></td><td><div class="block">Determines the active measurements in a given world.</div><br></td></tr>
-  <tr><td><code>default void</code></td><td><code><a href="#resetMeasurementsFor(net.minecraft.world.entity.player.Player)" class="member-name-link">resetMeasurementsFor</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Resets all measurements for a given player.</div><br></td></tr>
+  <tr><td><code>default void</code></td><td><code><a href="#resetMeasurementsFor(net.minecraft.world.entity.player.Player)" class="member-name-link">resetMeasurementsFor</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Resets all measurements for a given player.(Removing them from the game and memory).</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -103,6 +103,11 @@ Method Summary
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
+Returns the measuring manager exposed by the active API instance.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>active measuring manager</dd>
+</dl>
 </div>
 :::
 
@@ -175,7 +180,7 @@ Determines the active measurements for a given player.
 Determines the active measurements for a given player represented by his unique UUID.
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>playerId</code> - The if of the player in question.</dd>
+<dd><code>playerId</code> - The UUID of the player in question.</dd>
 <dt>Returns:</dt>
 <dd>A collection of measurements which are active for the given player.</dd>
 </dl>
@@ -203,7 +208,7 @@ Creates a new measurement for the given player in the given world.
 <dd><code>playerEntity</code> - The player to create the given measurement for.</dd>
 <dd><code>from</code> - The start-point of the measurement.</dd>
 <dd><code>to</code> - The end-point of the measurement.</dd>
-<dd><code>hitFace</code> - </dd>
+<dd><code>hitFace</code> - face that was clicked when the measurement was started</dd>
 <dd><code>mode</code> - The measurement mode.</dd>
 <dt>Returns:</dt>
 <dd>The newly created and processed measurement.</dd>
@@ -220,7 +225,7 @@ Creates a new measurement for the given player in the given world.
 == resetMeasurementsFor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">resetMeasurementsFor</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</span></div>
-Resets all measurements for a given player. (Removing them from the game and memory).
+Resets all measurements for a given player.(Removing them from the game and memory).
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player to remove the measurements for.</dd>
@@ -237,7 +242,7 @@ Resets all measurements for a given player. (Removing them from the game and mem
 == resetMeasurementsFor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">resetMeasurementsFor</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/UUID.html" title="class or interface in java.util" class="external-link">UUID</a>&nbsp;playerId)</span></div>
-Resets all measurements for a given player represented by the given id. (Removing them from the game and memory).
+Resets all measurements for a given player represented by the given id.(Removing them from the game and memory).
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerId</code> - The id of the player to remove the measurements for.</dd>

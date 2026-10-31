@@ -23,7 +23,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></code></td><td><code><a href="#endProfiling(mod.chiselsandbits.api.profiling.IProfiler)" class="member-name-link">endProfiling</a><wbr>(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</code></td><td><div class="block">Ends the profiling of a given profiler</div><br></td></tr>
+  <tr><td><code><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></code></td><td><code><a href="#endProfiling(mod.chiselsandbits.api.profiling.IProfiler)" class="member-name-link">endProfiling</a><wbr>(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</code></td><td><div class="block">Ends the profiling of a given profiler.</div><br></td></tr>
   <tr><td><code>static <a href="IProfilingManager.html" title="interface in mod.chiselsandbits.api.profiling">IProfilingManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Gives access to the current profiling manager.</div><br></td></tr>
   <tr><td><code><a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a></code></td><td><code><a href="#startProfiling(net.minecraft.util.profiling.jfr.Environment)" class="member-name-link">startProfiling</a><wbr>(net.minecraft.util.profiling.jfr.Environment&nbsp;profilingEnvironment)</code></td><td><div class="block">Creates a new profiler.</div><br></td></tr>
   <tr><td><code><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></code></td><td><code><a href="#stopProfiling(mod.chiselsandbits.api.profiling.IProfiler)" class="member-name-link">stopProfiling</a><wbr>(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</code></td><td><div class="block">This stops the profiler given and clears out any profiling data, returns the collected data and stops further profiling.</div><br></td></tr>
@@ -44,7 +44,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></code></td><td><code><a href="#endProfiling(mod.chiselsandbits.api.profiling.IProfiler)" class="member-name-link">endProfiling</a><wbr>(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</code></td><td><div class="block">Ends the profiling of a given profiler</div><br></td></tr>
+  <tr><td><code><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></code></td><td><code><a href="#endProfiling(mod.chiselsandbits.api.profiling.IProfiler)" class="member-name-link">endProfiling</a><wbr>(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</code></td><td><div class="block">Ends the profiling of a given profiler.</div><br></td></tr>
   <tr><td><code><a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a></code></td><td><code><a href="#startProfiling(net.minecraft.util.profiling.jfr.Environment)" class="member-name-link">startProfiling</a><wbr>(net.minecraft.util.profiling.jfr.Environment&nbsp;profilingEnvironment)</code></td><td><div class="block">Creates a new profiler.</div><br></td></tr>
   <tr><td><code><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></code></td><td><code><a href="#stopProfiling(mod.chiselsandbits.api.profiling.IProfiler)" class="member-name-link">stopProfiling</a><wbr>(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</code></td><td><div class="block">This stops the profiler given and clears out any profiling data, returns the collected data and stops further profiling.</div><br></td></tr>
   </tbody>
@@ -55,7 +55,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></code></td><td><code><a href="#endProfiling(mod.chiselsandbits.api.profiling.IProfiler)" class="member-name-link">endProfiling</a><wbr>(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</code></td><td><div class="block">Ends the profiling of a given profiler</div><br></td></tr>
+  <tr><td><code><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></code></td><td><code><a href="#endProfiling(mod.chiselsandbits.api.profiling.IProfiler)" class="member-name-link">endProfiling</a><wbr>(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</code></td><td><div class="block">Ends the profiling of a given profiler.</div><br></td></tr>
   <tr><td><code><a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a></code></td><td><code><a href="#startProfiling(net.minecraft.util.profiling.jfr.Environment)" class="member-name-link">startProfiling</a><wbr>(net.minecraft.util.profiling.jfr.Environment&nbsp;profilingEnvironment)</code></td><td><div class="block">Creates a new profiler.</div><br></td></tr>
   <tr><td><code><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></code></td><td><code><a href="#stopProfiling(mod.chiselsandbits.api.profiling.IProfiler)" class="member-name-link">stopProfiling</a><wbr>(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</code></td><td><div class="block">This stops the profiler given and clears out any profiling data, returns the collected data and stops further profiling.</div><br></td></tr>
   </tbody>
@@ -119,7 +119,7 @@ Creates a new profiler.
 == endProfiling
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IProfilerResult.html" title="interface in mod.chiselsandbits.api.profiling">IProfilerResult</a></span>&nbsp;<span class="element-name">endProfiling</span><wbr><span class="parameters">(<a href="IProfiler.html" title="interface in mod.chiselsandbits.api.profiling">IProfiler</a>&nbsp;profiler)</span></div>
-Ends the profiling of a given profiler
+Ends the profiling of a given profiler.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>profiler</code> - The profiler to end profiling.</dd>

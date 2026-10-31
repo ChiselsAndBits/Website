@@ -27,7 +27,7 @@ A bit inventory which can be converted to an itemstack.
     <tr><th>Modifier and Type</th><th>Interface</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final record&nbsp;</code></td><td><code><a href="IBitInventoryItemStack.DisplayContents.html" class="type-name-link" title="class in mod.chiselsandbits.api.inventory.bit">IBitInventoryItemStack.DisplayContents</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final record&nbsp;</code></td><td><code><a href="IBitInventoryItemStack.DisplayContents.html" class="type-name-link" title="class in mod.chiselsandbits.api.inventory.bit">IBitInventoryItemStack.DisplayContents</a></code></td><td><div class="block">Display-ready summary of an item-backed bit inventory and whether the summary was truncated.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -56,7 +56,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code>void</code></td><td><code><a href="#clear(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">clear</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;state)</code></td><td><div class="block">Clears the bit inventory of the current state.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#convert(net.minecraft.world.entity.player.Player)" class="member-name-link">convert</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Converts the inventory into blocks</div><br></td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#convert(net.minecraft.world.entity.player.Player)" class="member-name-link">convert</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Converts the inventory contents into blocks for the given player.</div><br></td></tr>
   <tr><td><code>double</code></td><td><code><a href="#getFilledRatio()" class="member-name-link">getFilledRatio</a>()</code></td><td><div class="block">Calculates the fullness ratio of the itemstack inventory.</div><br></td></tr>
   <tr><td><code><a href="IBitInventoryItemStack.DisplayContents.html" title="class in mod.chiselsandbits.api.inventory.bit">IBitInventoryItemStack.DisplayContents</a></code></td><td><code><a href="#listContents()" class="member-name-link">listContents</a>()</code></td><td><div class="block">This lists the contents of the itemstacks bit inventory.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#sort()" class="member-name-link">sort</a>()</code></td><td><div class="block">Sorts the bit inventory.</div><br></td></tr>
@@ -70,7 +70,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code>void</code></td><td><code><a href="#clear(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">clear</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;state)</code></td><td><div class="block">Clears the bit inventory of the current state.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#convert(net.minecraft.world.entity.player.Player)" class="member-name-link">convert</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Converts the inventory into blocks</div><br></td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#convert(net.minecraft.world.entity.player.Player)" class="member-name-link">convert</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Converts the inventory contents into blocks for the given player.</div><br></td></tr>
   <tr><td><code>double</code></td><td><code><a href="#getFilledRatio()" class="member-name-link">getFilledRatio</a>()</code></td><td><div class="block">Calculates the fullness ratio of the itemstack inventory.</div><br></td></tr>
   <tr><td><code><a href="IBitInventoryItemStack.DisplayContents.html" title="class in mod.chiselsandbits.api.inventory.bit">IBitInventoryItemStack.DisplayContents</a></code></td><td><code><a href="#listContents()" class="member-name-link">listContents</a>()</code></td><td><div class="block">This lists the contents of the itemstacks bit inventory.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#sort()" class="member-name-link">sort</a>()</code></td><td><div class="block">Sorts the bit inventory.</div><br></td></tr>
@@ -84,7 +84,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code>void</code></td><td><code><a href="#clear(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">clear</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;state)</code></td><td><div class="block">Clears the bit inventory of the current state.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#convert(net.minecraft.world.entity.player.Player)" class="member-name-link">convert</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Converts the inventory into blocks</div><br></td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#convert(net.minecraft.world.entity.player.Player)" class="member-name-link">convert</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Converts the inventory contents into blocks for the given player.</div><br></td></tr>
   <tr><td><code>double</code></td><td><code><a href="#getFilledRatio()" class="member-name-link">getFilledRatio</a>()</code></td><td><div class="block">Calculates the fullness ratio of the itemstack inventory.</div><br></td></tr>
   <tr><td><code><a href="IBitInventoryItemStack.DisplayContents.html" title="class in mod.chiselsandbits.api.inventory.bit">IBitInventoryItemStack.DisplayContents</a></code></td><td><code><a href="#listContents()" class="member-name-link">listContents</a>()</code></td><td><div class="block">This lists the contents of the itemstacks bit inventory.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#sort()" class="member-name-link">sort</a>()</code></td><td><div class="block">Sorts the bit inventory.</div><br></td></tr>
@@ -216,7 +216,11 @@ Sorts the bit inventory.
 == convert
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">convert</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span></div>
-Converts the inventory into blocks
+Converts the inventory contents into blocks for the given player.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>player</code> - player receiving or performing the conversion</dd>
+</dl>
 </div>
 :::
 

@@ -27,7 +27,7 @@ Method Summary
   <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" class="member-name-link">getTargetedPosition</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack,<br> net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</code></td><td><div class="block">Returns the position the wire frame should be rendered at.</div><br></td></tr>
   <tr><td><code>net.minecraft.world.phys.shapes.VoxelShape</code></td><td><code><a href="#getWireFrame(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" class="member-name-link">getWireFrame</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack,<br> net.minecraft.world.entity.player.Player&nbsp;player,<br> net.minecraft.world.phys.BlockHitResult&nbsp;rayTraceResult)</code></td><td><div class="block">Provides access to the wire frame of the item.</div><br></td></tr>
   <tr><td><code>org.joml.Vector4f</code></td><td><code><a href="#getWireFrameColor(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" class="member-name-link">getWireFrameColor</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack,<br> net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</code></td><td><div class="block">The color to render the wireframe in.</div><br></td></tr>
-  <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepth(net.minecraft.world.item.ItemStack)" class="member-name-link">ignoreDepth</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepth(net.minecraft.world.item.ItemStack)" class="member-name-link">ignoreDepth</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -39,7 +39,7 @@ Method Summary
   <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" class="member-name-link">getTargetedPosition</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack,<br> net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</code></td><td><div class="block">Returns the position the wire frame should be rendered at.</div><br></td></tr>
   <tr><td><code>net.minecraft.world.phys.shapes.VoxelShape</code></td><td><code><a href="#getWireFrame(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" class="member-name-link">getWireFrame</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack,<br> net.minecraft.world.entity.player.Player&nbsp;player,<br> net.minecraft.world.phys.BlockHitResult&nbsp;rayTraceResult)</code></td><td><div class="block">Provides access to the wire frame of the item.</div><br></td></tr>
   <tr><td><code>org.joml.Vector4f</code></td><td><code><a href="#getWireFrameColor(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" class="member-name-link">getWireFrameColor</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack,<br> net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</code></td><td><div class="block">The color to render the wireframe in.</div><br></td></tr>
-  <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepth(net.minecraft.world.item.ItemStack)" class="member-name-link">ignoreDepth</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepth(net.minecraft.world.item.ItemStack)" class="member-name-link">ignoreDepth</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -59,7 +59,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepth(net.minecraft.world.item.ItemStack)" class="member-name-link">ignoreDepth</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepth(net.minecraft.world.item.ItemStack)" class="member-name-link">ignoreDepth</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -154,7 +154,7 @@ Returns the position the wire frame should be rendered at.
 == ignoreDepth
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">ignoreDepth</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack)</span></div>
-Returns whether to effectively ignore the depth buffer and render in front of everything
+Returns whether to effectively ignore the depth buffer and render in front of everything.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>heldStack</code> - The stack to get depth logic for.</dd>

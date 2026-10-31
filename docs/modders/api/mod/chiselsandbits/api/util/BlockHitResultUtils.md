@@ -14,7 +14,7 @@ java.lang.Object
 
   
 
-  
+Computes placement geometry for a <code>BlockHitResult</code>.  
 
 <dl class="notes"></dl>  
 
@@ -27,7 +27,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getCenterOfHitObject(net.minecraft.world.phys.BlockHitResult,net.minecraft.world.phys.Vec3)" class="member-name-link">getCenterOfHitObject</a><wbr>(net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult,<br> net.minecraft.world.phys.Vec3&nbsp;objectSize)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getCenterOfHitObject(net.minecraft.world.phys.BlockHitResult,net.minecraft.world.phys.Vec3)" class="member-name-link">getCenterOfHitObject</a><wbr>(net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult,<br> net.minecraft.world.phys.Vec3&nbsp;objectSize)</code></td><td><div class="block">Computes the center point of an object being placed at a block hit result, offset by the given object size.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -36,7 +36,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getCenterOfHitObject(net.minecraft.world.phys.BlockHitResult,net.minecraft.world.phys.Vec3)" class="member-name-link">getCenterOfHitObject</a><wbr>(net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult,<br> net.minecraft.world.phys.Vec3&nbsp;objectSize)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getCenterOfHitObject(net.minecraft.world.phys.BlockHitResult,net.minecraft.world.phys.Vec3)" class="member-name-link">getCenterOfHitObject</a><wbr>(net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult,<br> net.minecraft.world.phys.Vec3&nbsp;objectSize)</code></td><td><div class="block">Computes the center point of an object being placed at a block hit result, offset by the given object size.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -45,7 +45,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getCenterOfHitObject(net.minecraft.world.phys.BlockHitResult,net.minecraft.world.phys.Vec3)" class="member-name-link">getCenterOfHitObject</a><wbr>(net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult,<br> net.minecraft.world.phys.Vec3&nbsp;objectSize)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getCenterOfHitObject(net.minecraft.world.phys.BlockHitResult,net.minecraft.world.phys.Vec3)" class="member-name-link">getCenterOfHitObject</a><wbr>(net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult,<br> net.minecraft.world.phys.Vec3&nbsp;objectSize)</code></td><td><div class="block">Computes the center point of an object being placed at a block hit result, offset by the given object size.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -76,6 +76,14 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getCenterOfHitObject</span><wbr><span class="parameters">(net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult,
  net.minecraft.world.phys.Vec3&nbsp;objectSize)</span></div>
+Computes the center point of an object being placed at a block hit result, offset by the given object size.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>blockHitResult</code> - the ray-hit result indicating the placement location and facing</dd>
+<dd><code>objectSize</code> - the full extent (size) of the target object along each axis</dd>
+<dt>Returns:</dt>
+<dd>the center coordinate of the placed object</dd>
+</dl>
 </div>
 :::
 

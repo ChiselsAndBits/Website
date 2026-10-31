@@ -27,7 +27,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static &lt;T extends <a href="ISnapshotable.html" title="interface in mod.chiselsandbits.api.util">ISnapshotable</a>&lt;? extends T&gt;&gt;<br>T[]</code></td><td><code><a href="#createDeepClone(T%5B%5D,java.util.function.IntFunction)" class="member-name-link">createDeepClone</a><wbr>(T[]&nbsp;additionalStateInfos,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/IntFunction.html" title="class or interface in java.util.function" class="external-link">IntFunction</a>&lt;T[]&gt;&nbsp;arrayCreator)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static &lt;T extends <a href="ISnapshotable.html" title="interface in mod.chiselsandbits.api.util">ISnapshotable</a>&lt;? extends T&gt;&gt;<br>T[]</code></td><td><code><a href="#createDeepClone(T%5B%5D,java.util.function.IntFunction)" class="member-name-link">createDeepClone</a><wbr>(T[]&nbsp;additionalStateInfos,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/IntFunction.html" title="class or interface in java.util.function" class="external-link">IntFunction</a>&lt;T[]&gt;&nbsp;arrayCreator)</code></td><td><div class="block">Creates a deep clone of <code>additionalStateInfos</code> by replacing each non-null element with its own snapshot,<br>passing null entries through unchanged.</div><br></td></tr>
   <tr><td><code>static float[]</code></td><td><code><a href="#multiply(float%5B%5D,float)" class="member-name-link">multiply</a><wbr>(float[]&nbsp;input,<br> float&nbsp;count)</code></td><td><div class="block">Multiplies the given array by the given factor.</div><br></td></tr>
   </tbody>
 </table>
@@ -37,7 +37,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static &lt;T extends <a href="ISnapshotable.html" title="interface in mod.chiselsandbits.api.util">ISnapshotable</a>&lt;? extends T&gt;&gt;<br>T[]</code></td><td><code><a href="#createDeepClone(T%5B%5D,java.util.function.IntFunction)" class="member-name-link">createDeepClone</a><wbr>(T[]&nbsp;additionalStateInfos,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/IntFunction.html" title="class or interface in java.util.function" class="external-link">IntFunction</a>&lt;T[]&gt;&nbsp;arrayCreator)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static &lt;T extends <a href="ISnapshotable.html" title="interface in mod.chiselsandbits.api.util">ISnapshotable</a>&lt;? extends T&gt;&gt;<br>T[]</code></td><td><code><a href="#createDeepClone(T%5B%5D,java.util.function.IntFunction)" class="member-name-link">createDeepClone</a><wbr>(T[]&nbsp;additionalStateInfos,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/IntFunction.html" title="class or interface in java.util.function" class="external-link">IntFunction</a>&lt;T[]&gt;&nbsp;arrayCreator)</code></td><td><div class="block">Creates a deep clone of <code>additionalStateInfos</code> by replacing each non-null element with its own snapshot,<br>passing null entries through unchanged.</div><br></td></tr>
   <tr><td><code>static float[]</code></td><td><code><a href="#multiply(float%5B%5D,float)" class="member-name-link">multiply</a><wbr>(float[]&nbsp;input,<br> float&nbsp;count)</code></td><td><div class="block">Multiplies the given array by the given factor.</div><br></td></tr>
   </tbody>
 </table>
@@ -47,7 +47,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static &lt;T extends <a href="ISnapshotable.html" title="interface in mod.chiselsandbits.api.util">ISnapshotable</a>&lt;? extends T&gt;&gt;<br>T[]</code></td><td><code><a href="#createDeepClone(T%5B%5D,java.util.function.IntFunction)" class="member-name-link">createDeepClone</a><wbr>(T[]&nbsp;additionalStateInfos,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/IntFunction.html" title="class or interface in java.util.function" class="external-link">IntFunction</a>&lt;T[]&gt;&nbsp;arrayCreator)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static &lt;T extends <a href="ISnapshotable.html" title="interface in mod.chiselsandbits.api.util">ISnapshotable</a>&lt;? extends T&gt;&gt;<br>T[]</code></td><td><code><a href="#createDeepClone(T%5B%5D,java.util.function.IntFunction)" class="member-name-link">createDeepClone</a><wbr>(T[]&nbsp;additionalStateInfos,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/IntFunction.html" title="class or interface in java.util.function" class="external-link">IntFunction</a>&lt;T[]&gt;&nbsp;arrayCreator)</code></td><td><div class="block">Creates a deep clone of <code>additionalStateInfos</code> by replacing each non-null element with its own snapshot,<br>passing null entries through unchanged.</div><br></td></tr>
   <tr><td><code>static float[]</code></td><td><code><a href="#multiply(float%5B%5D,float)" class="member-name-link">multiply</a><wbr>(float[]&nbsp;input,<br> float&nbsp;count)</code></td><td><div class="block">Multiplies the given array by the given factor.</div><br></td></tr>
   </tbody>
 </table>
@@ -101,6 +101,17 @@ Multiplies the given array by the given factor.
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="type-parameters">&lt;T extends <a href="ISnapshotable.html" title="interface in mod.chiselsandbits.api.util">ISnapshotable</a>&lt;? extends T&gt;&gt;</span>
 <span class="return-type">T[]</span>&nbsp;<span class="element-name">createDeepClone</span><wbr><span class="parameters">(T[]&nbsp;additionalStateInfos,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/IntFunction.html" title="class or interface in java.util.function" class="external-link">IntFunction</a>&lt;T[]&gt;&nbsp;arrayCreator)</span></div>
+Creates a deep clone of <code>additionalStateInfos</code> by replacing each non-null element with its own snapshot,
+passing null entries through unchanged.
+<dl class="notes">
+<dt>Type Parameters:</dt>
+<dd><span id="createDeepClone(T[],java.util.function.IntFunction)-type-param-T"><code>T</code> - The snapshot state type described by each element.</span></dd>
+<dt>Parameters:</dt>
+<dd><code>additionalStateInfos</code> - The source array whose elements are cloned via <a href="ISnapshotable.html#createSnapshot()"><code>ISnapshotable.createSnapshot()</code></a>.</dd>
+<dd><code>arrayCreator</code> - Factory that allocates the destination array of matching size.</dd>
+<dt>Returns:</dt>
+<dd>A new array holding a snapshot for each non-null input element, or null for null entries.</dd>
+</dl>
 </div>
 :::
 

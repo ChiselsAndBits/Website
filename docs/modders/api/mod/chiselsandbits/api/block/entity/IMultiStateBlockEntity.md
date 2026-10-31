@@ -28,7 +28,7 @@ provided by the <a href="../IMultiStateBlock.html" title="interface in mod.chise
     <tr><th>Modifier and Type</th><th>Interface</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final record&nbsp;</code></td><td><code><a href="IMultiStateBlockEntity.BlockStack.html" class="type-name-link" title="class in mod.chiselsandbits.api.block.entity">IMultiStateBlockEntity.BlockStack</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final record&nbsp;</code></td><td><code><a href="IMultiStateBlockEntity.BlockStack.html" class="type-name-link" title="class in mod.chiselsandbits.api.block.entity">IMultiStateBlockEntity.BlockStack</a></code></td><td><div class="block">Placement stack pairing the ordinary block item with its multi-state payload.</div><br></td></tr>
   </tbody>
 </table>
 :::

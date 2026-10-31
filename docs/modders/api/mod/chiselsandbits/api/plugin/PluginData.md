@@ -5,13 +5,16 @@ sidebar: false
 ---
 _Package:_ [mod.chiselsandbits.api.plugin](index)  
 # Record Class PluginData\<T\>  
+**Type Parameters:**  
+T - plugin implementation type  
+
 ---
 <div class="type-signature"><span class="modifiers">public record </span><span class="element-name type-name-label">PluginData&lt;T&gt;</span>(<a href="PluginData.html#type-param-T" title="type parameter in PluginData">T</a>&nbsp;plugin)<br/>  
 <span class="extends-implements">extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Record.html" title="class or interface in java.lang" class="external-link">Record</a></span></div>  
 
   
 
-  
+Pairs a discovered plugin instance with its service metadata.  
 
 <dl class="notes"></dl>  
 
@@ -41,7 +44,7 @@ Method Summary
   <tbody>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code><a href="#type-param-T" title="type parameter in PluginData">T</a></code></td><td><code><a href="#plugin()" class="member-name-link">plugin</a>()</code></td><td><div class="block">Returns the value of the <code>plugin</code> record component.</div><br></td></tr>
+  <tr><td><code><a href="#type-param-T" title="type parameter in PluginData">T</a></code></td><td><code><a href="#plugin()" class="member-name-link">plugin</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-plugin"><code>plugin</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -53,7 +56,7 @@ Method Summary
   <tbody>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code><a href="#type-param-T" title="type parameter in PluginData">T</a></code></td><td><code><a href="#plugin()" class="member-name-link">plugin</a>()</code></td><td><div class="block">Returns the value of the <code>plugin</code> record component.</div><br></td></tr>
+  <tr><td><code><a href="#type-param-T" title="type parameter in PluginData">T</a></code></td><td><code><a href="#plugin()" class="member-name-link">plugin</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-plugin"><code>plugin</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -65,7 +68,7 @@ Method Summary
   <tbody>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code><a href="#type-param-T" title="type parameter in PluginData">T</a></code></td><td><code><a href="#plugin()" class="member-name-link">plugin</a>()</code></td><td><div class="block">Returns the value of the <code>plugin</code> record component.</div><br></td></tr>
+  <tr><td><code><a href="#type-param-T" title="type parameter in PluginData">T</a></code></td><td><code><a href="#plugin()" class="member-name-link">plugin</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-plugin"><code>plugin</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -95,7 +98,7 @@ Method Summary
 Creates an instance of a <code>PluginData</code> record class.
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>plugin</code> - the value for the <code>plugin</code> record component</dd>
+<dd><code>plugin</code> - the value for the <a href="#param-plugin"><code>plugin</code></a> record component</dd>
 </dl>
 </div>
 :::
@@ -175,10 +178,10 @@ Indicates whether some other object is "equal to" this one. The objects are equa
 == plugin
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="#type-param-T" title="type parameter in PluginData">T</a></span>&nbsp;<span class="element-name">plugin</span>()</div>
-Returns the value of the <code>plugin</code> record component.
+Returns the value of the <a href="#param-plugin"><code>plugin</code></a> record component.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <code>plugin</code> record component</dd>
+<dd>the value of the <a href="#param-plugin"><code>plugin</code></a> record component</dd>
 </dl>
 </div>
 :::

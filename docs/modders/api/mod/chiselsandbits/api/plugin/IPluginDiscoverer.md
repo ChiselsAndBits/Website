@@ -23,7 +23,7 @@ The platform plugin manager which can load the plugins for C&amp;B on a given pl
     <tr><th>Modifier and Type</th><th>Interface</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static class&nbsp;</code></td><td><code><a href="IPluginDiscoverer.AbstractPluginDiscoverer.html" class="type-name-link" title="class in mod.chiselsandbits.api.plugin">IPluginDiscoverer.AbstractPluginDiscoverer</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static class&nbsp;</code></td><td><code><a href="IPluginDiscoverer.AbstractPluginDiscoverer.html" class="type-name-link" title="class in mod.chiselsandbits.api.plugin">IPluginDiscoverer.AbstractPluginDiscoverer</a></code></td><td><div class="block">Shared service-loader implementation that filters plugins by platform availability and experimental status.</div><br></td></tr>
   </tbody>
 </table>
 :::

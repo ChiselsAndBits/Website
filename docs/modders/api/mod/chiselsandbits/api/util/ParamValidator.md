@@ -14,7 +14,7 @@ java.lang.Object
 
   
 
-  
+Validates method parameters and reports violations with descriptive exceptions.  
 
 <dl class="notes"></dl>  
 
@@ -27,7 +27,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static &lt;O,<wbr>T&gt;&nbsp;O</code></td><td><code><a href="#isInstanceOf(O,java.lang.Class)" class="member-name-link">isInstanceOf</a><wbr>(O&nbsp;target,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;T&gt;&nbsp;cls)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static &lt;O,<wbr>T&gt;&nbsp;O</code></td><td><code><a href="#isInstanceOf(O,java.lang.Class)" class="member-name-link">isInstanceOf</a><wbr>(O&nbsp;target,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;T&gt;&nbsp;cls)</code></td><td><div class="block">Checks that the target is an instance of the requested class.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -36,7 +36,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static &lt;O,<wbr>T&gt;&nbsp;O</code></td><td><code><a href="#isInstanceOf(O,java.lang.Class)" class="member-name-link">isInstanceOf</a><wbr>(O&nbsp;target,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;T&gt;&nbsp;cls)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static &lt;O,<wbr>T&gt;&nbsp;O</code></td><td><code><a href="#isInstanceOf(O,java.lang.Class)" class="member-name-link">isInstanceOf</a><wbr>(O&nbsp;target,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;T&gt;&nbsp;cls)</code></td><td><div class="block">Checks that the target is an instance of the requested class.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -45,7 +45,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static &lt;O,<wbr>T&gt;&nbsp;O</code></td><td><code><a href="#isInstanceOf(O,java.lang.Class)" class="member-name-link">isInstanceOf</a><wbr>(O&nbsp;target,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;T&gt;&nbsp;cls)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static &lt;O,<wbr>T&gt;&nbsp;O</code></td><td><code><a href="#isInstanceOf(O,java.lang.Class)" class="member-name-link">isInstanceOf</a><wbr>(O&nbsp;target,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;T&gt;&nbsp;cls)</code></td><td><div class="block">Checks that the target is an instance of the requested class.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -76,6 +76,19 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="type-parameters">&lt;O,<wbr>T&gt;</span>&nbsp;<span class="return-type">O</span>&nbsp;<span class="element-name">isInstanceOf</span><wbr><span class="parameters">(O&nbsp;target,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Class.html" title="class or interface in java.lang" class="external-link">Class</a>&lt;T&gt;&nbsp;cls)</span></div>
+Checks that the target is an instance of the requested class.
+<dl class="notes">
+<dt>Type Parameters:</dt>
+<dd><span id="isInstanceOf(O,java.lang.Class)-type-param-O"><code>O</code> - target value type</span></dd>
+<dd><span id="isInstanceOf(O,java.lang.Class)-type-param-T"><code>T</code> - required class type</span></dd>
+<dt>Parameters:</dt>
+<dd><code>target</code> - object to type-check</dd>
+<dd><code>cls</code> - class whose membership is required</dd>
+<dt>Returns:</dt>
+<dd><code>target</code> when it is an instance of <code>cls</code></dd>
+<dt>Throws:</dt>
+<dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/IllegalStateException.html" title="class or interface in java.lang" class="external-link">IllegalStateException</a></code> - if <code>target</code> is not an instance of <code>cls</code></dd>
+</dl>
 </div>
 :::
 

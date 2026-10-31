@@ -15,8 +15,9 @@ extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/ja
   
 
 Object which provides additional information about a state.
+
 <p>
-    This has to be immutable as it is used in data components in the game.
+This has to be immutable as it is used in data components in the game.
 </p>  
 
 <dl class="notes"></dl>  
@@ -171,10 +172,14 @@ Returns The provider that created this state variant..
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">updateBlockEntity</span><wbr><span class="parameters">(net.minecraft.world.level.block.entity.BlockEntity&nbsp;blockEntity)</span></div>
 Updates a block entity with the correct state of this variant.
 <p>
-    By default, this does nothing, however a particular implementation can decide to properly instantiate it so that
-    the model extraction system can provide other minecraft subsystems, like coloring, the correct information needed
-    for this variant.
+By default, this does nothing, however a particular implementation can decide to properly instantiate it so that
+the model extraction system can provide other minecraft subsystems, like coloring, the correct information needed
+for this variant.
 </p>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>blockEntity</code> - block entity to update with this variant's state</dd>
+</dl>
 </div>
 :::
 

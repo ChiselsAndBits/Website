@@ -23,7 +23,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.world.item.ItemStack</code></td><td><code><a href="#unseal(net.minecraft.world.item.ItemStack)" class="member-name-link">unseal</a><wbr>(@NotNull net.minecraft.world.item.ItemStack&nbsp;source)</code></td><td><div class="block">Performs the unsealing operation on the given itemstack.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#unseal(net.minecraft.world.item.ItemStack)" class="member-name-link">unseal</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;source)</code></td><td><div class="block">Performs the unsealing operation on the given itemstack.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -32,7 +32,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.world.item.ItemStack</code></td><td><code><a href="#unseal(net.minecraft.world.item.ItemStack)" class="member-name-link">unseal</a><wbr>(@NotNull net.minecraft.world.item.ItemStack&nbsp;source)</code></td><td><div class="block">Performs the unsealing operation on the given itemstack.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#unseal(net.minecraft.world.item.ItemStack)" class="member-name-link">unseal</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;source)</code></td><td><div class="block">Performs the unsealing operation on the given itemstack.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -41,7 +41,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.world.item.ItemStack</code></td><td><code><a href="#unseal(net.minecraft.world.item.ItemStack)" class="member-name-link">unseal</a><wbr>(@NotNull net.minecraft.world.item.ItemStack&nbsp;source)</code></td><td><div class="block">Performs the unsealing operation on the given itemstack.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#unseal(net.minecraft.world.item.ItemStack)" class="member-name-link">unseal</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;source)</code></td><td><div class="block">Performs the unsealing operation on the given itemstack.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -66,10 +66,8 @@ Method Summary
 :::tabs
 == unseal
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">unseal</span><wbr><span class="parameters">(@NotNull
- @NotNull net.minecraft.world.item.ItemStack&nbsp;source)</span>
-                                            throws <span class="exceptions"><a href="../exceptions/SealingNotSupportedException.html" title="class in mod.chiselsandbits.api.exceptions">SealingNotSupportedException</a></span></div>
+<div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">unseal</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;source)</span>
+                                   throws <span class="exceptions"><a href="../exceptions/SealingNotSupportedException.html" title="class in mod.chiselsandbits.api.exceptions">SealingNotSupportedException</a></span></div>
 Performs the unsealing operation on the given itemstack.
 <dl class="notes">
 <dt>Parameters:</dt>

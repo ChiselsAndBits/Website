@@ -5,6 +5,9 @@ sidebar: false
 ---
 _Package:_ [mod.chiselsandbits.api.serialization](index)  
 # Record Class FallbackCodec\<F\>  
+**Type Parameters:**  
+F - value type handled by both codecs  
+
 **All Implemented Interfaces:**  
 Codec\<F\>  
 
@@ -18,7 +21,7 @@ implements com.mojang.serialization.Codec&lt;F&gt;</span></div>
 
   
 
-  
+Codec that reads from primary then fallback, but always writes with primary.  
 
 <dl class="notes"></dl>  
 
@@ -70,9 +73,9 @@ Method Summary
   <tr><td><code>&lt;T&gt;&nbsp;com.mojang.serialization.DataResult<wbr>&lt;com.mojang.datafixers.util.Pair&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>,<wbr>T&gt;&gt;</code></td><td><code><a href="#decode(com.mojang.serialization.DynamicOps,T)" class="member-name-link">decode</a><wbr>(com.mojang.serialization.DynamicOps&lt;T&gt;&nbsp;ops,<br> T&nbsp;input)</code></td><td>&nbsp;</td></tr>
   <tr><td><code>&lt;T&gt;&nbsp;com.mojang.serialization.DataResult<wbr>&lt;T&gt;</code></td><td><code><a href="#encode(F,com.mojang.serialization.DynamicOps,T)" class="member-name-link">encode</a><wbr>(<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&nbsp;input,<br> com.mojang.serialization.DynamicOps&lt;T&gt;&nbsp;ops,<br> T&nbsp;prefix)</code></td><td>&nbsp;</td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</code></td><td><code><a href="#fallback()" class="member-name-link">fallback</a>()</code></td><td><div class="block">Returns the value of the <code>fallback</code> record component.</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</code></td><td><code><a href="#fallback()" class="member-name-link">fallback</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-fallback"><code>fallback</code></a> record component.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</code></td><td><code><a href="#primary()" class="member-name-link">primary</a>()</code></td><td><div class="block">Returns the value of the <code>primary</code> record component.</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</code></td><td><code><a href="#primary()" class="member-name-link">primary</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-primary"><code>primary</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -85,9 +88,9 @@ Method Summary
   <tr><td><code>&lt;T&gt;&nbsp;com.mojang.serialization.DataResult<wbr>&lt;com.mojang.datafixers.util.Pair&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>,<wbr>T&gt;&gt;</code></td><td><code><a href="#decode(com.mojang.serialization.DynamicOps,T)" class="member-name-link">decode</a><wbr>(com.mojang.serialization.DynamicOps&lt;T&gt;&nbsp;ops,<br> T&nbsp;input)</code></td><td>&nbsp;</td></tr>
   <tr><td><code>&lt;T&gt;&nbsp;com.mojang.serialization.DataResult<wbr>&lt;T&gt;</code></td><td><code><a href="#encode(F,com.mojang.serialization.DynamicOps,T)" class="member-name-link">encode</a><wbr>(<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&nbsp;input,<br> com.mojang.serialization.DynamicOps&lt;T&gt;&nbsp;ops,<br> T&nbsp;prefix)</code></td><td>&nbsp;</td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</code></td><td><code><a href="#fallback()" class="member-name-link">fallback</a>()</code></td><td><div class="block">Returns the value of the <code>fallback</code> record component.</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</code></td><td><code><a href="#fallback()" class="member-name-link">fallback</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-fallback"><code>fallback</code></a> record component.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</code></td><td><code><a href="#primary()" class="member-name-link">primary</a>()</code></td><td><div class="block">Returns the value of the <code>primary</code> record component.</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</code></td><td><code><a href="#primary()" class="member-name-link">primary</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-primary"><code>primary</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -100,9 +103,9 @@ Method Summary
   <tr><td><code>&lt;T&gt;&nbsp;com.mojang.serialization.DataResult<wbr>&lt;com.mojang.datafixers.util.Pair&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>,<wbr>T&gt;&gt;</code></td><td><code><a href="#decode(com.mojang.serialization.DynamicOps,T)" class="member-name-link">decode</a><wbr>(com.mojang.serialization.DynamicOps&lt;T&gt;&nbsp;ops,<br> T&nbsp;input)</code></td><td>&nbsp;</td></tr>
   <tr><td><code>&lt;T&gt;&nbsp;com.mojang.serialization.DataResult<wbr>&lt;T&gt;</code></td><td><code><a href="#encode(F,com.mojang.serialization.DynamicOps,T)" class="member-name-link">encode</a><wbr>(<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&nbsp;input,<br> com.mojang.serialization.DynamicOps&lt;T&gt;&nbsp;ops,<br> T&nbsp;prefix)</code></td><td>&nbsp;</td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</code></td><td><code><a href="#fallback()" class="member-name-link">fallback</a>()</code></td><td><div class="block">Returns the value of the <code>fallback</code> record component.</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</code></td><td><code><a href="#fallback()" class="member-name-link">fallback</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-fallback"><code>fallback</code></a> record component.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</code></td><td><code><a href="#primary()" class="member-name-link">primary</a>()</code></td><td><div class="block">Returns the value of the <code>primary</code> record component.</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</code></td><td><code><a href="#primary()" class="member-name-link">primary</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-primary"><code>primary</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -145,8 +148,8 @@ comap, encodeStart, flatComap
 Creates an instance of a <code>FallbackCodec</code> record class.
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>primary</code> - the value for the <code>primary</code> record component</dd>
-<dd><code>fallback</code> - the value for the <code>fallback</code> record component</dd>
+<dd><code>primary</code> - the value for the <a href="#param-primary"><code>primary</code></a> record component</dd>
+<dd><code>fallback</code> - the value for the <a href="#param-fallback"><code>fallback</code></a> record component</dd>
 </dl>
 </div>
 :::
@@ -262,10 +265,10 @@ Indicates whether some other object is "equal to" this one. The objects are equa
 == primary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</span>&nbsp;<span class="element-name">primary</span>()</div>
-Returns the value of the <code>primary</code> record component.
+Returns the value of the <a href="#param-primary"><code>primary</code></a> record component.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <code>primary</code> record component</dd>
+<dd>the value of the <a href="#param-primary"><code>primary</code></a> record component</dd>
 </dl>
 </div>
 :::
@@ -279,10 +282,10 @@ Returns the value of the <code>primary</code> record component.
 == fallback
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="#type-param-F" title="type parameter in CBCodecs.FallbackCodec">F</a>&gt;</span>&nbsp;<span class="element-name">fallback</span>()</div>
-Returns the value of the <code>fallback</code> record component.
+Returns the value of the <a href="#param-fallback"><code>fallback</code></a> record component.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <code>fallback</code> record component</dd>
+<dd>the value of the <a href="#param-fallback"><code>fallback</code></a> record component</dd>
 </dl>
 </div>
 :::

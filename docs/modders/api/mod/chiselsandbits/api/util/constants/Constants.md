@@ -14,7 +14,7 @@ java.lang.Object
 
   
 
-  
+Compile-time constants shared by the Chisels &amp; Bits API: mod identifiers, resource/datapack directory paths, and chisel tick tunables.  
 
 <dl class="notes"></dl>  
 
@@ -27,7 +27,7 @@ java.lang.Object
     <tr><th>Modifier and Type</th><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static class&nbsp;</code></td><td><code><a href="Constants.DataGenerator.html" class="type-name-link" title="class in mod.chiselsandbits.api.util.constants">Constants.DataGenerator</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static class&nbsp;</code></td><td><code><a href="Constants.DataGenerator.html" class="type-name-link" title="class in mod.chiselsandbits.api.util.constants">Constants.DataGenerator</a></code></td><td><div class="block">Paths and a shared Gson instance used by the data generator to emit resources into the resource pack and datapacks.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -43,12 +43,12 @@ Field Summary
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#INTERACTABLE_MODEL_LOADER" class="member-name-link">INTERACTABLE_MODEL_LOADER</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MOD_ID" class="member-name-link">MOD_ID</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MOD_NAME" class="member-name-link">MOD_NAME</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MOD_VERSION" class="member-name-link">MOD_VERSION</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final int</code></td><td><code><a href="#TICKS_BETWEEN_CHISEL_ERRORS" class="member-name-link">TICKS_BETWEEN_CHISEL_ERRORS</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final int</code></td><td><code><a href="#TICKS_BETWEEN_CHISEL_USAGE" class="member-name-link">TICKS_BETWEEN_CHISEL_USAGE</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#INTERACTABLE_MODEL_LOADER" class="member-name-link">INTERACTABLE_MODEL_LOADER</a></code></td><td><div class="block">Resource location of the custom model loader used to render interactable (tile) blocks.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MOD_ID" class="member-name-link">MOD_ID</a></code></td><td><div class="block">Namespace / mod identifier used to namespace all Chisels &amp; Bits resources.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MOD_NAME" class="member-name-link">MOD_NAME</a></code></td><td><div class="block">Human-readable display name of the mod.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MOD_VERSION" class="member-name-link">MOD_VERSION</a></code></td><td><div class="block">Version string for the mod (substituted from "%VERSION%" at build time).</div><br></td></tr>
+  <tr><td><code>static final int</code></td><td><code><a href="#TICKS_BETWEEN_CHISEL_ERRORS" class="member-name-link">TICKS_BETWEEN_CHISEL_ERRORS</a></code></td><td><div class="block">Number of ticks to wait between reported chisel usage errors.</div><br></td></tr>
+  <tr><td><code>static final int</code></td><td><code><a href="#TICKS_BETWEEN_CHISEL_USAGE" class="member-name-link">TICKS_BETWEEN_CHISEL_USAGE</a></code></td><td><div class="block">Minimum number of ticks required between successful chisel usages.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -76,6 +76,7 @@ Method Summary
 == MOD_ID
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MOD_ID</span></div>
+Namespace / mod identifier used to namespace all Chisels &amp; Bits resources.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -96,6 +97,7 @@ Method Summary
 == MOD_NAME
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MOD_NAME</span></div>
+Human-readable display name of the mod.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -116,6 +118,7 @@ Method Summary
 == MOD_VERSION
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MOD_VERSION</span></div>
+Version string for the mod (substituted from "%VERSION%" at build time).
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -136,6 +139,7 @@ Method Summary
 == INTERACTABLE_MODEL_LOADER
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">INTERACTABLE_MODEL_LOADER</span></div>
+Resource location of the custom model loader used to render interactable (tile) blocks.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -156,6 +160,7 @@ Method Summary
 == TICKS_BETWEEN_CHISEL_USAGE
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">TICKS_BETWEEN_CHISEL_USAGE</span></div>
+Minimum number of ticks required between successful chisel usages.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -176,6 +181,7 @@ Method Summary
 == TICKS_BETWEEN_CHISEL_ERRORS
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">TICKS_BETWEEN_CHISEL_ERRORS</span></div>
+Number of ticks to wait between reported chisel usage errors.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>

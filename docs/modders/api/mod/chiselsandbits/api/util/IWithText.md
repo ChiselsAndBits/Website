@@ -23,7 +23,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.network.chat.Component</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td><div class="block">The text associated with this object.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td><div class="block">The text associated with this object.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -32,7 +32,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.network.chat.Component</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td><div class="block">The text associated with this object.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td><div class="block">The text associated with this object.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -41,7 +41,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.network.chat.Component</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td><div class="block">The text associated with this object.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td><div class="block">The text associated with this object.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -66,8 +66,7 @@ Method Summary
 :::tabs
 == getText
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getText</span>()</div>
+<div class="member-signature"><span class="return-type">net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getText</span>()</div>
 The text associated with this object.
 <dl class="notes">
 <dt>Returns:</dt>

@@ -23,7 +23,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></code></td><td><code><a href="#createItemStack(net.minecraft.world.item.ItemStack)" class="member-name-link">createItemStack</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Creates an itemstack aware context wrapper that gives access to the<br>multistate information contained within the given itemstack.</div><br></td></tr>
+  <tr><td><code><a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></code></td><td><code><a href="#createItemStack(net.minecraft.world.item.ItemStack)" class="member-name-link">createItemStack</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Creates an itemstack aware context wrapper that gives access to the<br>multistate information contained within the given itemstack.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -32,7 +32,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></code></td><td><code><a href="#createItemStack(net.minecraft.world.item.ItemStack)" class="member-name-link">createItemStack</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Creates an itemstack aware context wrapper that gives access to the<br>multistate information contained within the given itemstack.</div><br></td></tr>
+  <tr><td><code><a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></code></td><td><code><a href="#createItemStack(net.minecraft.world.item.ItemStack)" class="member-name-link">createItemStack</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Creates an itemstack aware context wrapper that gives access to the<br>multistate information contained within the given itemstack.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -41,7 +41,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></code></td><td><code><a href="#createItemStack(net.minecraft.world.item.ItemStack)" class="member-name-link">createItemStack</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Creates an itemstack aware context wrapper that gives access to the<br>multistate information contained within the given itemstack.</div><br></td></tr>
+  <tr><td><code><a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></code></td><td><code><a href="#createItemStack(net.minecraft.world.item.ItemStack)" class="member-name-link">createItemStack</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Creates an itemstack aware context wrapper that gives access to the<br>multistate information contained within the given itemstack.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -66,8 +66,7 @@ Method Summary
 :::tabs
 == createItemStack
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></span>&nbsp;<span class="element-name">createItemStack</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
+<div class="member-signature"><span class="return-type"><a href="IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></span>&nbsp;<span class="element-name">createItemStack</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
 Creates an itemstack aware context wrapper that gives access to the
 multistate information contained within the given itemstack.
 <dl class="notes">

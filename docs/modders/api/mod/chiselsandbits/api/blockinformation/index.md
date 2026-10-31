@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.blockinformation;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="BlockInformation" title="BlockInformation">BlockInformation</a></td><td></td></tr>
+  <tr><td><a href="BlockInformation" title="BlockInformation">BlockInformation</a></td><td>Immutable description of a micro-block held in the Chisels <br>&amp;<br> Bits world: a base <br>{@link net.minecraft.world.level.block.state.BlockState}<br><br>paired with an optional <br>{@link mod.chiselsandbits.api.variant.state.IStateVariant}<br> that preserves per-instance overrides.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -34,7 +34,7 @@ No types found.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="BlockInformation" title="BlockInformation">BlockInformation</a></td><td></td></tr>
+  <tr><td><a href="BlockInformation" title="BlockInformation">BlockInformation</a></td><td>Immutable description of a micro-block held in the Chisels <br>&amp;<br> Bits world: a base <br>{@link net.minecraft.world.level.block.state.BlockState}<br><br>paired with an optional <br>{@link mod.chiselsandbits.api.variant.state.IStateVariant}<br> that preserves per-instance overrides.</td></tr>
   </tbody>
 </table>
 :::

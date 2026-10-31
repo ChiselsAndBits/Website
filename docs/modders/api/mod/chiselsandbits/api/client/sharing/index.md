@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.client.sharing;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="PatternIOException" title="PatternIOException">PatternIOException</a></td><td></td></tr>
+  <tr><td><a href="PatternIOException" title="PatternIOException">PatternIOException</a></td><td>I/O failure that carries both a user-facing component and a diagnostic log message.</td></tr>
   <tr><td><a href="IPatternSharingManager" title="IPatternSharingManager">IPatternSharingManager</a></td><td>Central manager which handles sharing of patterns.</td></tr>
   </tbody>
 </table>
@@ -38,7 +38,7 @@ package mod.chiselsandbits.api.client.sharing;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="PatternIOException" title="PatternIOException">PatternIOException</a></td><td></td></tr>
+  <tr><td><a href="PatternIOException" title="PatternIOException">PatternIOException</a></td><td>I/O failure that carries both a user-facing component and a diagnostic log message.</td></tr>
   </tbody>
 </table>
 == Enums

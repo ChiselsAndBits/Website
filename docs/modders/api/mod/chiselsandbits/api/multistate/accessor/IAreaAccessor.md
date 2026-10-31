@@ -99,7 +99,8 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="identifier/IAreaShapeIdentifier.html" title="interface in mod.chiselsandbits.api.multistate.accessor.identifier">IAreaShapeIdentifier</a></span>&nbsp;<span class="element-name">createNewShapeIdentifier</span>()</div>
 Creates a new area shape identifier.
-Note: This method always returns a new instance.
+<p>
+Note: This method always returns a new instance.</p>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The new identifier.</dd>

@@ -5,12 +5,15 @@ sidebar: false
 ---
 _Package:_ [mod.chiselsandbits.api.block.entity](index)  
 # Interface INetworkUpdatableEntity\<TPayload\>  
+**Type Parameters:**  
+TPayload - The type of payload transferred with this entity.  
+
 ---
 <div class="type-signature"><span class="modifiers">public interface </span><span class="element-name type-name-label">INetworkUpdatableEntity&lt;TPayload&gt;</span></div>  
 
   
 
-Marks the entity as a network updatable entity.  
+Marks an updatable block entity whose state is synchronized across the network.  
 
 <dl class="notes"></dl>  
 

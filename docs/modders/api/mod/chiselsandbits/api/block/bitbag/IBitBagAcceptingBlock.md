@@ -75,6 +75,8 @@ Invoked when a bit bag interaction is performed against a given block.
 <dd><code>bitBagStack</code> - The bit bag stack.</dd>
 <dd><code>player</code> - The player performing the action.</dd>
 <dd><code>blockRayTraceResult</code> - The ray trace result.</dd>
+<dt>Returns:</dt>
+<dd>the updated bit bag stack after the interaction</dd>
 </dl>
 </div>
 :::

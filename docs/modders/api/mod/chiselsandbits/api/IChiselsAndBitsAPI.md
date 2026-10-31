@@ -23,7 +23,7 @@ Do not implement it can be accessed via its <a href="IChiselsAndBitsAPI.html#get
     <tr><th>Modifier and Type</th><th>Interface</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static class&nbsp;</code></td><td><code><a href="IChiselsAndBitsAPI.Holder.html" class="type-name-link" title="class in mod.chiselsandbits.api">IChiselsAndBitsAPI.Holder</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static class&nbsp;</code></td><td><code><a href="IChiselsAndBitsAPI.Holder.html" class="type-name-link" title="class in mod.chiselsandbits.api">IChiselsAndBitsAPI.Holder</a></code></td><td><div class="block">Holds the API instance installed by the platform bootstrap.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -39,46 +39,46 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="multistate/accessor/IAccessorFactory.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAccessorFactory</a></code></td><td><code><a href="#getAccessorFactory()" class="member-name-link">getAccessorFactory</a>()</code></td><td><div class="block">Gives access to the factory that can produce different accessors.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="inventory/bit/IAdaptingBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.bit">IAdaptingBitInventoryManager</a></code></td><td><code><a href="#getAdaptingBitInventoryManager()" class="member-name-link">getAdaptingBitInventoryManager</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="inventory/management/IBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.management">IBitInventoryManager</a></code></td><td><code><a href="#getBitInventoryManager()" class="member-name-link">getBitInventoryManager</a>()</code></td><td><div class="block">Gives access to the bits inventory manager, which allows the conversion of normal inventory systems to bit inventories.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="item/bit/IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></code></td><td><code><a href="#getBitItemManager()" class="member-name-link">getBitItemManager</a>()</code></td><td><div class="block">The bit item manager.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.tags.TagKey<wbr>&lt;net.minecraft.world.level.block.Block&gt;</code></td><td><code><a href="#getBlockedTag()" class="member-name-link">getBlockedTag</a>()</code></td><td><div class="block">Returns the tag used in the eligibility system to block compatibility.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="neighborhood/IBlockNeighborhoodBuilder.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhoodBuilder</a></code></td><td><code><a href="#getBlockNeighborhoodBuilder()" class="member-name-link">getBlockNeighborhoodBuilder</a>()</code></td><td><div class="block">Gives access to the block neighborhood builder.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="block/state/id/IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></code></td><td><code><a href="#getBlockStateIdManager()" class="member-name-link">getBlockStateIdManager</a>()</code></td><td><div class="block">The manager which deals with calculating the given blockstate ids in the current running session.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="change/IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></code></td><td><code><a href="#getChangeTrackerManager()" class="member-name-link">getChangeTrackerManager</a>()</code></td><td><div class="block">The change tracker manager.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/render/preview/chiseling/IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></code></td><td><code><a href="#getChiselContextPreviewRendererRegistry()" class="member-name-link">getChiselContextPreviewRendererRegistry</a>()</code></td><td><div class="block">Gives access to the chisel context preview renderer registry.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/IChiselingManager.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingManager</a></code></td><td><code><a href="#getChiselingManager()" class="member-name-link">getChiselingManager</a>()</code></td><td><div class="block">Gives access to the manager which controls chiseling operations.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/variant/state/IClientStateVariantManager.html" title="interface in mod.chiselsandbits.api.client.variant.state">IClientStateVariantManager</a></code></td><td><code><a href="#getClientStateVariantManager()" class="member-name-link">getClientStateVariantManager</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="multistate/accessor/IAccessorFactory.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAccessorFactory</a></code></td><td><code><a href="#getAccessorFactory()" class="member-name-link">getAccessorFactory</a>()</code></td><td><div class="block">Gives access to the factory that can produce different accessors.</div><br></td></tr>
+  <tr><td><code><a href="inventory/bit/IAdaptingBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.bit">IAdaptingBitInventoryManager</a></code></td><td><code><a href="#getAdaptingBitInventoryManager()" class="member-name-link">getAdaptingBitInventoryManager</a>()</code></td><td><div class="block">Returns the manager that adapts ordinary inventories to bit inventories.</div><br></td></tr>
+  <tr><td><code><a href="inventory/management/IBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.management">IBitInventoryManager</a></code></td><td><code><a href="#getBitInventoryManager()" class="member-name-link">getBitInventoryManager</a>()</code></td><td><div class="block">Gives access to the bits inventory manager, which allows the conversion of normal inventory systems to bit inventories.</div><br></td></tr>
+  <tr><td><code><a href="item/bit/IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></code></td><td><code><a href="#getBitItemManager()" class="member-name-link">getBitItemManager</a>()</code></td><td><div class="block">The bit item manager.</div><br></td></tr>
+  <tr><td><code>net.minecraft.tags.TagKey<wbr>&lt;net.minecraft.world.level.block.Block&gt;</code></td><td><code><a href="#getBlockedTag()" class="member-name-link">getBlockedTag</a>()</code></td><td><div class="block">Returns the tag used in the eligibility system to block compatibility.</div><br></td></tr>
+  <tr><td><code><a href="neighborhood/IBlockNeighborhoodBuilder.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhoodBuilder</a></code></td><td><code><a href="#getBlockNeighborhoodBuilder()" class="member-name-link">getBlockNeighborhoodBuilder</a>()</code></td><td><div class="block">Gives access to the block neighborhood builder.</div><br></td></tr>
+  <tr><td><code><a href="block/state/id/IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></code></td><td><code><a href="#getBlockStateIdManager()" class="member-name-link">getBlockStateIdManager</a>()</code></td><td><div class="block">The manager which deals with calculating the given blockstate ids in the current running session.</div><br></td></tr>
+  <tr><td><code><a href="change/IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></code></td><td><code><a href="#getChangeTrackerManager()" class="member-name-link">getChangeTrackerManager</a>()</code></td><td><div class="block">The change tracker manager.</div><br></td></tr>
+  <tr><td><code><a href="client/render/preview/chiseling/IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></code></td><td><code><a href="#getChiselContextPreviewRendererRegistry()" class="member-name-link">getChiselContextPreviewRendererRegistry</a>()</code></td><td><div class="block">Gives access to the chisel context preview renderer registry.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/IChiselingManager.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingManager</a></code></td><td><code><a href="#getChiselingManager()" class="member-name-link">getChiselingManager</a>()</code></td><td><div class="block">Gives access to the manager which controls chiseling operations.</div><br></td></tr>
+  <tr><td><code><a href="client/variant/state/IClientStateVariantManager.html" title="interface in mod.chiselsandbits.api.client.variant.state">IClientStateVariantManager</a></code></td><td><code><a href="#getClientStateVariantManager()" class="member-name-link">getClientStateVariantManager</a>()</code></td><td><div class="block">Returns the client manager for state variants.</div><br></td></tr>
   <tr><td><code><a href="config/IChiselsAndBitsConfiguration.html" title="interface in mod.chiselsandbits.api.config">IChiselsAndBitsConfiguration</a></code></td><td><code><a href="#getConfiguration()" class="member-name-link">getConfiguration</a>()</code></td><td><div class="block">The configuration on top of which chisels and bits is running.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/conversion/IConversionManager.html" title="interface in mod.chiselsandbits.api.chiseling.conversion">IConversionManager</a></code></td><td><code><a href="#getConversionManager()" class="member-name-link">getConversionManager</a>()</code></td><td><div class="block">Manager which deals with converting eligible blocks, blockstates and IItemProviders into their chiseled<br>variants.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/clipboard/ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></code></td><td><code><a href="#getCreativeClipboardManager()" class="member-name-link">getCreativeClipboardManager</a>()</code></td><td><div class="block">Returns the clipboard manager for the creative clipboard.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/mode/IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a></code></td><td><code><a href="#getDefaultChiselMode()" class="member-name-link">getDefaultChiselMode</a>()</code></td><td><div class="block">Represents the default mode for the chiseling system.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="cutting/operation/ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a></code></td><td><code><a href="#getDefaultCuttingOperation()" class="member-name-link">getDefaultCuttingOperation</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="glueing/operation/IGlueingOperation.html" title="interface in mod.chiselsandbits.api.glueing.operation">IGlueingOperation</a></code></td><td><code><a href="#getDefaultGlueingOperation()" class="member-name-link">getDefaultGlueingOperation</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="modification/operation/IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a></code></td><td><code><a href="#getDefaultModificationOperation()" class="member-name-link">getDefaultModificationOperation</a>()</code></td><td><div class="block">The default mode for performing modification operations if no other is supplied.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/eligibility/IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></code></td><td><code><a href="#getEligibilityManager()" class="member-name-link">getEligibilityManager</a>()</code></td><td><div class="block">Manager which deals with chiseling eligibility.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/eligibility/IEligibilityOptions.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityOptions</a></code></td><td><code><a href="#getEligibilityOptions()" class="member-name-link">getEligibilityOptions</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull net.minecraft.tags.TagKey<wbr>&lt;net.minecraft.world.level.block.Block&gt;</code></td><td><code><a href="#getForcedTag()" class="member-name-link">getForcedTag</a>()</code></td><td><div class="block">Returns the tag used in the eligibility system to force compatibility.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/icon/IIconManager.html" title="interface in mod.chiselsandbits.api.client.icon">IIconManager</a></code></td><td><code><a href="#getIconManager()" class="member-name-link">getIconManager</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="chiseling/conversion/IConversionManager.html" title="interface in mod.chiselsandbits.api.chiseling.conversion">IConversionManager</a></code></td><td><code><a href="#getConversionManager()" class="member-name-link">getConversionManager</a>()</code></td><td><div class="block">Manager which deals with converting eligible blocks, blockstates and IItemProviders into their chiseled<br>variants.</div><br></td></tr>
+  <tr><td><code><a href="client/clipboard/ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></code></td><td><code><a href="#getCreativeClipboardManager()" class="member-name-link">getCreativeClipboardManager</a>()</code></td><td><div class="block">Returns the clipboard manager for the creative clipboard.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/mode/IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a></code></td><td><code><a href="#getDefaultChiselMode()" class="member-name-link">getDefaultChiselMode</a>()</code></td><td><div class="block">Represents the default mode for the chiseling system.</div><br></td></tr>
+  <tr><td><code><a href="cutting/operation/ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a></code></td><td><code><a href="#getDefaultCuttingOperation()" class="member-name-link">getDefaultCuttingOperation</a>()</code></td><td><div class="block">Returns the default cutting operation used when no operation is selected.</div><br></td></tr>
+  <tr><td><code><a href="glueing/operation/IGlueingOperation.html" title="interface in mod.chiselsandbits.api.glueing.operation">IGlueingOperation</a></code></td><td><code><a href="#getDefaultGlueingOperation()" class="member-name-link">getDefaultGlueingOperation</a>()</code></td><td><div class="block">Returns the default glueing operation used when no operation is selected.</div><br></td></tr>
+  <tr><td><code><a href="modification/operation/IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a></code></td><td><code><a href="#getDefaultModificationOperation()" class="member-name-link">getDefaultModificationOperation</a>()</code></td><td><div class="block">The default mode for performing modification operations if no other is supplied.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/eligibility/IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></code></td><td><code><a href="#getEligibilityManager()" class="member-name-link">getEligibilityManager</a>()</code></td><td><div class="block">Manager which deals with chiseling eligibility.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/eligibility/IEligibilityOptions.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityOptions</a></code></td><td><code><a href="#getEligibilityOptions()" class="member-name-link">getEligibilityOptions</a>()</code></td><td><div class="block">Returns the options used to determine whether blocks may be chiseled.</div><br></td></tr>
+  <tr><td><code>net.minecraft.tags.TagKey<wbr>&lt;net.minecraft.world.level.block.Block&gt;</code></td><td><code><a href="#getForcedTag()" class="member-name-link">getForcedTag</a>()</code></td><td><div class="block">Returns the tag used in the eligibility system to force compatibility.</div><br></td></tr>
+  <tr><td><code><a href="client/icon/IIconManager.html" title="interface in mod.chiselsandbits.api.client.icon">IIconManager</a></code></td><td><code><a href="#getIconManager()" class="member-name-link">getIconManager</a>()</code></td><td><div class="block">Returns the manager that provides UI atlas sprites.</div><br></td></tr>
   <tr><td><code>static <a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Gives access to the api instance.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="launch/ILaunchPropertyManager.html" title="interface in mod.chiselsandbits.api.launch">ILaunchPropertyManager</a></code></td><td><code><a href="#getLaunchPropertyManager()" class="member-name-link">getLaunchPropertyManager</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/ILocalChiselingContextCache.html" title="interface in mod.chiselsandbits.api.chiseling">ILocalChiselingContextCache</a></code></td><td><code><a href="#getLocalChiselingContextCache()" class="member-name-link">getLocalChiselingContextCache</a>()</code></td><td><div class="block">This method gives access to the client side local chiseling context cache.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="measuring/IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></code></td><td><code><a href="#getMeasuringManager()" class="member-name-link">getMeasuringManager</a>()</code></td><td><div class="block">The measuring manager.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="item/multistate/IMultiStateItemFactory.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemFactory</a></code></td><td><code><a href="#getMultiStateItemFactory()" class="member-name-link">getMultiStateItemFactory</a>()</code></td><td><div class="block">A factory which can produce a multistate item from a given source.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="multistate/mutator/IMutatorFactory.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutatorFactory</a></code></td><td><code><a href="#getMutatorFactory()" class="member-name-link">getMutatorFactory</a>()</code></td><td><div class="block">Gives access to the factory that can produce different mutators.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="notifications/INotificationManager.html" title="interface in mod.chiselsandbits.api.notifications">INotificationManager</a></code></td><td><code><a href="#getNotificationManager()" class="member-name-link">getNotificationManager</a>()</code></td><td><div class="block">Handles showing notifications to the player.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/sharing/IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></code></td><td><code><a href="#getPatternSharingManager()" class="member-name-link">getPatternSharingManager</a>()</code></td><td><div class="block">The pattern sharing manager.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="permissions/IPermissionHandler.html" title="interface in mod.chiselsandbits.api.permissions">IPermissionHandler</a></code></td><td><code><a href="#getPermissionHandler()" class="member-name-link">getPermissionHandler</a>()</code></td><td><div class="block">Returns the permission handler which is used to check if a particular area<br>is chiselable or not.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="plugin/IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></code></td><td><code><a href="#getPluginDiscoverer()" class="member-name-link">getPluginDiscoverer</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="plugin/IPluginManager.html" title="interface in mod.chiselsandbits.api.plugin">IPluginManager</a></code></td><td><code><a href="#getPluginManager()" class="member-name-link">getPluginManager</a>()</code></td><td><div class="block">Gives access to the plugin manager that is used to process chisels and bits plugins</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="profiling/IProfilingManager.html" title="interface in mod.chiselsandbits.api.profiling">IProfilingManager</a></code></td><td><code><a href="#getProfilingManager()" class="member-name-link">getProfilingManager</a>()</code></td><td><div class="block">The profiling manager, allows for the profiling of operations related Chisels and Bits.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="registries/IRegistryManager.html" title="interface in mod.chiselsandbits.api.registries">IRegistryManager</a></code></td><td><code><a href="#getRegistryManager()" class="member-name-link">getRegistryManager</a>()</code></td><td><div class="block">Gives access to all registries which are used by chisels and bits.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/tool/mode/icon/ISelectedToolModeIconRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.tool.mode.icon">ISelectedToolModeIconRendererRegistry</a></code></td><td><code><a href="#getSelectedToolModeIconRenderer()" class="member-name-link">getSelectedToolModeIconRenderer</a>()</code></td><td><div class="block">Gives access to the selected tool mode icon renderer registry.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="multistate/snapshot/ISnapshotFactory.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">ISnapshotFactory</a></code></td><td><code><a href="#getSnapshotFactory()" class="member-name-link">getSnapshotFactory</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>default @NotNull <a href="multistate/StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></code></td><td><code><a href="#getStateEntrySize()" class="member-name-link">getStateEntrySize</a>()</code></td><td><div class="block">Represents the size of the bits in the current instance.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="variant/state/IStateVariantManager.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariantManager</a></code></td><td><code><a href="#getStateVariantManager()" class="member-name-link">getStateVariantManager</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="voxelshape/IVoxelShapeManager.html" title="interface in mod.chiselsandbits.api.voxelshape">IVoxelShapeManager</a></code></td><td><code><a href="#getVoxelShapeManager()" class="member-name-link">getVoxelShapeManager</a>()</code></td><td><div class="block">Manager which deals with calculating, and optionally caching, the voxel shapes, which<br>can be constructed from a given area.</div><br></td></tr>
+  <tr><td><code><a href="launch/ILaunchPropertyManager.html" title="interface in mod.chiselsandbits.api.launch">ILaunchPropertyManager</a></code></td><td><code><a href="#getLaunchPropertyManager()" class="member-name-link">getLaunchPropertyManager</a>()</code></td><td><div class="block">Returns the manager for launch-time properties.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/ILocalChiselingContextCache.html" title="interface in mod.chiselsandbits.api.chiseling">ILocalChiselingContextCache</a></code></td><td><code><a href="#getLocalChiselingContextCache()" class="member-name-link">getLocalChiselingContextCache</a>()</code></td><td><div class="block">This method gives access to the client side local chiseling context cache.</div><br></td></tr>
+  <tr><td><code><a href="measuring/IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></code></td><td><code><a href="#getMeasuringManager()" class="member-name-link">getMeasuringManager</a>()</code></td><td><div class="block">The measuring manager.</div><br></td></tr>
+  <tr><td><code><a href="item/multistate/IMultiStateItemFactory.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemFactory</a></code></td><td><code><a href="#getMultiStateItemFactory()" class="member-name-link">getMultiStateItemFactory</a>()</code></td><td><div class="block">A factory which can produce a multistate item from a given source.</div><br></td></tr>
+  <tr><td><code><a href="multistate/mutator/IMutatorFactory.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutatorFactory</a></code></td><td><code><a href="#getMutatorFactory()" class="member-name-link">getMutatorFactory</a>()</code></td><td><div class="block">Gives access to the factory that can produce different mutators.</div><br></td></tr>
+  <tr><td><code><a href="notifications/INotificationManager.html" title="interface in mod.chiselsandbits.api.notifications">INotificationManager</a></code></td><td><code><a href="#getNotificationManager()" class="member-name-link">getNotificationManager</a>()</code></td><td><div class="block">Handles showing notifications to the player.</div><br></td></tr>
+  <tr><td><code><a href="client/sharing/IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></code></td><td><code><a href="#getPatternSharingManager()" class="member-name-link">getPatternSharingManager</a>()</code></td><td><div class="block">The pattern sharing manager.</div><br></td></tr>
+  <tr><td><code><a href="permissions/IPermissionHandler.html" title="interface in mod.chiselsandbits.api.permissions">IPermissionHandler</a></code></td><td><code><a href="#getPermissionHandler()" class="member-name-link">getPermissionHandler</a>()</code></td><td><div class="block">Returns the permission handler which is used to check if a particular area<br>is chiselable or not.</div><br></td></tr>
+  <tr><td><code><a href="plugin/IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></code></td><td><code><a href="#getPluginDiscoverer()" class="member-name-link">getPluginDiscoverer</a>()</code></td><td><div class="block">Returns the service that discovers platform plugins.</div><br></td></tr>
+  <tr><td><code><a href="plugin/IPluginManager.html" title="interface in mod.chiselsandbits.api.plugin">IPluginManager</a></code></td><td><code><a href="#getPluginManager()" class="member-name-link">getPluginManager</a>()</code></td><td><div class="block">Gives access to the plugin manager that is used to process chisels and bits plugins.</div><br></td></tr>
+  <tr><td><code><a href="profiling/IProfilingManager.html" title="interface in mod.chiselsandbits.api.profiling">IProfilingManager</a></code></td><td><code><a href="#getProfilingManager()" class="member-name-link">getProfilingManager</a>()</code></td><td><div class="block">The profiling manager, allows for the profiling of operations related Chisels and Bits.</div><br></td></tr>
+  <tr><td><code><a href="registries/IRegistryManager.html" title="interface in mod.chiselsandbits.api.registries">IRegistryManager</a></code></td><td><code><a href="#getRegistryManager()" class="member-name-link">getRegistryManager</a>()</code></td><td><div class="block">Gives access to all registries which are used by chisels and bits.</div><br></td></tr>
+  <tr><td><code><a href="client/tool/mode/icon/ISelectedToolModeIconRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.tool.mode.icon">ISelectedToolModeIconRendererRegistry</a></code></td><td><code><a href="#getSelectedToolModeIconRenderer()" class="member-name-link">getSelectedToolModeIconRenderer</a>()</code></td><td><div class="block">Gives access to the selected tool mode icon renderer registry.</div><br></td></tr>
+  <tr><td><code><a href="multistate/snapshot/ISnapshotFactory.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">ISnapshotFactory</a></code></td><td><code><a href="#getSnapshotFactory()" class="member-name-link">getSnapshotFactory</a>()</code></td><td><div class="block">Returns the factory used to create snapshots of multi-state objects.</div><br></td></tr>
+  <tr><td><code>default <a href="multistate/StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></code></td><td><code><a href="#getStateEntrySize()" class="member-name-link">getStateEntrySize</a>()</code></td><td><div class="block">Represents the size of the bits in the current instance.</div><br></td></tr>
+  <tr><td><code><a href="variant/state/IStateVariantManager.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariantManager</a></code></td><td><code><a href="#getStateVariantManager()" class="member-name-link">getStateVariantManager</a>()</code></td><td><div class="block">Returns the manager that registers and applies state variants.</div><br></td></tr>
+  <tr><td><code><a href="voxelshape/IVoxelShapeManager.html" title="interface in mod.chiselsandbits.api.voxelshape">IVoxelShapeManager</a></code></td><td><code><a href="#getVoxelShapeManager()" class="member-name-link">getVoxelShapeManager</a>()</code></td><td><div class="block">Manager which deals with calculating, and optionally caching, the voxel shapes, which<br>can be constructed from a given area.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -96,45 +96,45 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="multistate/accessor/IAccessorFactory.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAccessorFactory</a></code></td><td><code><a href="#getAccessorFactory()" class="member-name-link">getAccessorFactory</a>()</code></td><td><div class="block">Gives access to the factory that can produce different accessors.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="inventory/bit/IAdaptingBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.bit">IAdaptingBitInventoryManager</a></code></td><td><code><a href="#getAdaptingBitInventoryManager()" class="member-name-link">getAdaptingBitInventoryManager</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="inventory/management/IBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.management">IBitInventoryManager</a></code></td><td><code><a href="#getBitInventoryManager()" class="member-name-link">getBitInventoryManager</a>()</code></td><td><div class="block">Gives access to the bits inventory manager, which allows the conversion of normal inventory systems to bit inventories.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="item/bit/IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></code></td><td><code><a href="#getBitItemManager()" class="member-name-link">getBitItemManager</a>()</code></td><td><div class="block">The bit item manager.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.tags.TagKey<wbr>&lt;net.minecraft.world.level.block.Block&gt;</code></td><td><code><a href="#getBlockedTag()" class="member-name-link">getBlockedTag</a>()</code></td><td><div class="block">Returns the tag used in the eligibility system to block compatibility.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="neighborhood/IBlockNeighborhoodBuilder.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhoodBuilder</a></code></td><td><code><a href="#getBlockNeighborhoodBuilder()" class="member-name-link">getBlockNeighborhoodBuilder</a>()</code></td><td><div class="block">Gives access to the block neighborhood builder.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="block/state/id/IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></code></td><td><code><a href="#getBlockStateIdManager()" class="member-name-link">getBlockStateIdManager</a>()</code></td><td><div class="block">The manager which deals with calculating the given blockstate ids in the current running session.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="change/IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></code></td><td><code><a href="#getChangeTrackerManager()" class="member-name-link">getChangeTrackerManager</a>()</code></td><td><div class="block">The change tracker manager.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/render/preview/chiseling/IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></code></td><td><code><a href="#getChiselContextPreviewRendererRegistry()" class="member-name-link">getChiselContextPreviewRendererRegistry</a>()</code></td><td><div class="block">Gives access to the chisel context preview renderer registry.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/IChiselingManager.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingManager</a></code></td><td><code><a href="#getChiselingManager()" class="member-name-link">getChiselingManager</a>()</code></td><td><div class="block">Gives access to the manager which controls chiseling operations.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/variant/state/IClientStateVariantManager.html" title="interface in mod.chiselsandbits.api.client.variant.state">IClientStateVariantManager</a></code></td><td><code><a href="#getClientStateVariantManager()" class="member-name-link">getClientStateVariantManager</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="multistate/accessor/IAccessorFactory.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAccessorFactory</a></code></td><td><code><a href="#getAccessorFactory()" class="member-name-link">getAccessorFactory</a>()</code></td><td><div class="block">Gives access to the factory that can produce different accessors.</div><br></td></tr>
+  <tr><td><code><a href="inventory/bit/IAdaptingBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.bit">IAdaptingBitInventoryManager</a></code></td><td><code><a href="#getAdaptingBitInventoryManager()" class="member-name-link">getAdaptingBitInventoryManager</a>()</code></td><td><div class="block">Returns the manager that adapts ordinary inventories to bit inventories.</div><br></td></tr>
+  <tr><td><code><a href="inventory/management/IBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.management">IBitInventoryManager</a></code></td><td><code><a href="#getBitInventoryManager()" class="member-name-link">getBitInventoryManager</a>()</code></td><td><div class="block">Gives access to the bits inventory manager, which allows the conversion of normal inventory systems to bit inventories.</div><br></td></tr>
+  <tr><td><code><a href="item/bit/IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></code></td><td><code><a href="#getBitItemManager()" class="member-name-link">getBitItemManager</a>()</code></td><td><div class="block">The bit item manager.</div><br></td></tr>
+  <tr><td><code>net.minecraft.tags.TagKey<wbr>&lt;net.minecraft.world.level.block.Block&gt;</code></td><td><code><a href="#getBlockedTag()" class="member-name-link">getBlockedTag</a>()</code></td><td><div class="block">Returns the tag used in the eligibility system to block compatibility.</div><br></td></tr>
+  <tr><td><code><a href="neighborhood/IBlockNeighborhoodBuilder.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhoodBuilder</a></code></td><td><code><a href="#getBlockNeighborhoodBuilder()" class="member-name-link">getBlockNeighborhoodBuilder</a>()</code></td><td><div class="block">Gives access to the block neighborhood builder.</div><br></td></tr>
+  <tr><td><code><a href="block/state/id/IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></code></td><td><code><a href="#getBlockStateIdManager()" class="member-name-link">getBlockStateIdManager</a>()</code></td><td><div class="block">The manager which deals with calculating the given blockstate ids in the current running session.</div><br></td></tr>
+  <tr><td><code><a href="change/IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></code></td><td><code><a href="#getChangeTrackerManager()" class="member-name-link">getChangeTrackerManager</a>()</code></td><td><div class="block">The change tracker manager.</div><br></td></tr>
+  <tr><td><code><a href="client/render/preview/chiseling/IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></code></td><td><code><a href="#getChiselContextPreviewRendererRegistry()" class="member-name-link">getChiselContextPreviewRendererRegistry</a>()</code></td><td><div class="block">Gives access to the chisel context preview renderer registry.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/IChiselingManager.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingManager</a></code></td><td><code><a href="#getChiselingManager()" class="member-name-link">getChiselingManager</a>()</code></td><td><div class="block">Gives access to the manager which controls chiseling operations.</div><br></td></tr>
+  <tr><td><code><a href="client/variant/state/IClientStateVariantManager.html" title="interface in mod.chiselsandbits.api.client.variant.state">IClientStateVariantManager</a></code></td><td><code><a href="#getClientStateVariantManager()" class="member-name-link">getClientStateVariantManager</a>()</code></td><td><div class="block">Returns the client manager for state variants.</div><br></td></tr>
   <tr><td><code><a href="config/IChiselsAndBitsConfiguration.html" title="interface in mod.chiselsandbits.api.config">IChiselsAndBitsConfiguration</a></code></td><td><code><a href="#getConfiguration()" class="member-name-link">getConfiguration</a>()</code></td><td><div class="block">The configuration on top of which chisels and bits is running.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/conversion/IConversionManager.html" title="interface in mod.chiselsandbits.api.chiseling.conversion">IConversionManager</a></code></td><td><code><a href="#getConversionManager()" class="member-name-link">getConversionManager</a>()</code></td><td><div class="block">Manager which deals with converting eligible blocks, blockstates and IItemProviders into their chiseled<br>variants.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/clipboard/ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></code></td><td><code><a href="#getCreativeClipboardManager()" class="member-name-link">getCreativeClipboardManager</a>()</code></td><td><div class="block">Returns the clipboard manager for the creative clipboard.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/mode/IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a></code></td><td><code><a href="#getDefaultChiselMode()" class="member-name-link">getDefaultChiselMode</a>()</code></td><td><div class="block">Represents the default mode for the chiseling system.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="cutting/operation/ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a></code></td><td><code><a href="#getDefaultCuttingOperation()" class="member-name-link">getDefaultCuttingOperation</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="glueing/operation/IGlueingOperation.html" title="interface in mod.chiselsandbits.api.glueing.operation">IGlueingOperation</a></code></td><td><code><a href="#getDefaultGlueingOperation()" class="member-name-link">getDefaultGlueingOperation</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="modification/operation/IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a></code></td><td><code><a href="#getDefaultModificationOperation()" class="member-name-link">getDefaultModificationOperation</a>()</code></td><td><div class="block">The default mode for performing modification operations if no other is supplied.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/eligibility/IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></code></td><td><code><a href="#getEligibilityManager()" class="member-name-link">getEligibilityManager</a>()</code></td><td><div class="block">Manager which deals with chiseling eligibility.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/eligibility/IEligibilityOptions.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityOptions</a></code></td><td><code><a href="#getEligibilityOptions()" class="member-name-link">getEligibilityOptions</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull net.minecraft.tags.TagKey<wbr>&lt;net.minecraft.world.level.block.Block&gt;</code></td><td><code><a href="#getForcedTag()" class="member-name-link">getForcedTag</a>()</code></td><td><div class="block">Returns the tag used in the eligibility system to force compatibility.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/icon/IIconManager.html" title="interface in mod.chiselsandbits.api.client.icon">IIconManager</a></code></td><td><code><a href="#getIconManager()" class="member-name-link">getIconManager</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="launch/ILaunchPropertyManager.html" title="interface in mod.chiselsandbits.api.launch">ILaunchPropertyManager</a></code></td><td><code><a href="#getLaunchPropertyManager()" class="member-name-link">getLaunchPropertyManager</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/ILocalChiselingContextCache.html" title="interface in mod.chiselsandbits.api.chiseling">ILocalChiselingContextCache</a></code></td><td><code><a href="#getLocalChiselingContextCache()" class="member-name-link">getLocalChiselingContextCache</a>()</code></td><td><div class="block">This method gives access to the client side local chiseling context cache.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="measuring/IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></code></td><td><code><a href="#getMeasuringManager()" class="member-name-link">getMeasuringManager</a>()</code></td><td><div class="block">The measuring manager.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="item/multistate/IMultiStateItemFactory.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemFactory</a></code></td><td><code><a href="#getMultiStateItemFactory()" class="member-name-link">getMultiStateItemFactory</a>()</code></td><td><div class="block">A factory which can produce a multistate item from a given source.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="multistate/mutator/IMutatorFactory.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutatorFactory</a></code></td><td><code><a href="#getMutatorFactory()" class="member-name-link">getMutatorFactory</a>()</code></td><td><div class="block">Gives access to the factory that can produce different mutators.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="notifications/INotificationManager.html" title="interface in mod.chiselsandbits.api.notifications">INotificationManager</a></code></td><td><code><a href="#getNotificationManager()" class="member-name-link">getNotificationManager</a>()</code></td><td><div class="block">Handles showing notifications to the player.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/sharing/IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></code></td><td><code><a href="#getPatternSharingManager()" class="member-name-link">getPatternSharingManager</a>()</code></td><td><div class="block">The pattern sharing manager.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="permissions/IPermissionHandler.html" title="interface in mod.chiselsandbits.api.permissions">IPermissionHandler</a></code></td><td><code><a href="#getPermissionHandler()" class="member-name-link">getPermissionHandler</a>()</code></td><td><div class="block">Returns the permission handler which is used to check if a particular area<br>is chiselable or not.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="plugin/IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></code></td><td><code><a href="#getPluginDiscoverer()" class="member-name-link">getPluginDiscoverer</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="plugin/IPluginManager.html" title="interface in mod.chiselsandbits.api.plugin">IPluginManager</a></code></td><td><code><a href="#getPluginManager()" class="member-name-link">getPluginManager</a>()</code></td><td><div class="block">Gives access to the plugin manager that is used to process chisels and bits plugins</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="profiling/IProfilingManager.html" title="interface in mod.chiselsandbits.api.profiling">IProfilingManager</a></code></td><td><code><a href="#getProfilingManager()" class="member-name-link">getProfilingManager</a>()</code></td><td><div class="block">The profiling manager, allows for the profiling of operations related Chisels and Bits.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="registries/IRegistryManager.html" title="interface in mod.chiselsandbits.api.registries">IRegistryManager</a></code></td><td><code><a href="#getRegistryManager()" class="member-name-link">getRegistryManager</a>()</code></td><td><div class="block">Gives access to all registries which are used by chisels and bits.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/tool/mode/icon/ISelectedToolModeIconRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.tool.mode.icon">ISelectedToolModeIconRendererRegistry</a></code></td><td><code><a href="#getSelectedToolModeIconRenderer()" class="member-name-link">getSelectedToolModeIconRenderer</a>()</code></td><td><div class="block">Gives access to the selected tool mode icon renderer registry.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="multistate/snapshot/ISnapshotFactory.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">ISnapshotFactory</a></code></td><td><code><a href="#getSnapshotFactory()" class="member-name-link">getSnapshotFactory</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>default @NotNull <a href="multistate/StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></code></td><td><code><a href="#getStateEntrySize()" class="member-name-link">getStateEntrySize</a>()</code></td><td><div class="block">Represents the size of the bits in the current instance.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="variant/state/IStateVariantManager.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariantManager</a></code></td><td><code><a href="#getStateVariantManager()" class="member-name-link">getStateVariantManager</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="voxelshape/IVoxelShapeManager.html" title="interface in mod.chiselsandbits.api.voxelshape">IVoxelShapeManager</a></code></td><td><code><a href="#getVoxelShapeManager()" class="member-name-link">getVoxelShapeManager</a>()</code></td><td><div class="block">Manager which deals with calculating, and optionally caching, the voxel shapes, which<br>can be constructed from a given area.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/conversion/IConversionManager.html" title="interface in mod.chiselsandbits.api.chiseling.conversion">IConversionManager</a></code></td><td><code><a href="#getConversionManager()" class="member-name-link">getConversionManager</a>()</code></td><td><div class="block">Manager which deals with converting eligible blocks, blockstates and IItemProviders into their chiseled<br>variants.</div><br></td></tr>
+  <tr><td><code><a href="client/clipboard/ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></code></td><td><code><a href="#getCreativeClipboardManager()" class="member-name-link">getCreativeClipboardManager</a>()</code></td><td><div class="block">Returns the clipboard manager for the creative clipboard.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/mode/IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a></code></td><td><code><a href="#getDefaultChiselMode()" class="member-name-link">getDefaultChiselMode</a>()</code></td><td><div class="block">Represents the default mode for the chiseling system.</div><br></td></tr>
+  <tr><td><code><a href="cutting/operation/ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a></code></td><td><code><a href="#getDefaultCuttingOperation()" class="member-name-link">getDefaultCuttingOperation</a>()</code></td><td><div class="block">Returns the default cutting operation used when no operation is selected.</div><br></td></tr>
+  <tr><td><code><a href="glueing/operation/IGlueingOperation.html" title="interface in mod.chiselsandbits.api.glueing.operation">IGlueingOperation</a></code></td><td><code><a href="#getDefaultGlueingOperation()" class="member-name-link">getDefaultGlueingOperation</a>()</code></td><td><div class="block">Returns the default glueing operation used when no operation is selected.</div><br></td></tr>
+  <tr><td><code><a href="modification/operation/IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a></code></td><td><code><a href="#getDefaultModificationOperation()" class="member-name-link">getDefaultModificationOperation</a>()</code></td><td><div class="block">The default mode for performing modification operations if no other is supplied.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/eligibility/IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></code></td><td><code><a href="#getEligibilityManager()" class="member-name-link">getEligibilityManager</a>()</code></td><td><div class="block">Manager which deals with chiseling eligibility.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/eligibility/IEligibilityOptions.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityOptions</a></code></td><td><code><a href="#getEligibilityOptions()" class="member-name-link">getEligibilityOptions</a>()</code></td><td><div class="block">Returns the options used to determine whether blocks may be chiseled.</div><br></td></tr>
+  <tr><td><code>net.minecraft.tags.TagKey<wbr>&lt;net.minecraft.world.level.block.Block&gt;</code></td><td><code><a href="#getForcedTag()" class="member-name-link">getForcedTag</a>()</code></td><td><div class="block">Returns the tag used in the eligibility system to force compatibility.</div><br></td></tr>
+  <tr><td><code><a href="client/icon/IIconManager.html" title="interface in mod.chiselsandbits.api.client.icon">IIconManager</a></code></td><td><code><a href="#getIconManager()" class="member-name-link">getIconManager</a>()</code></td><td><div class="block">Returns the manager that provides UI atlas sprites.</div><br></td></tr>
+  <tr><td><code><a href="launch/ILaunchPropertyManager.html" title="interface in mod.chiselsandbits.api.launch">ILaunchPropertyManager</a></code></td><td><code><a href="#getLaunchPropertyManager()" class="member-name-link">getLaunchPropertyManager</a>()</code></td><td><div class="block">Returns the manager for launch-time properties.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/ILocalChiselingContextCache.html" title="interface in mod.chiselsandbits.api.chiseling">ILocalChiselingContextCache</a></code></td><td><code><a href="#getLocalChiselingContextCache()" class="member-name-link">getLocalChiselingContextCache</a>()</code></td><td><div class="block">This method gives access to the client side local chiseling context cache.</div><br></td></tr>
+  <tr><td><code><a href="measuring/IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></code></td><td><code><a href="#getMeasuringManager()" class="member-name-link">getMeasuringManager</a>()</code></td><td><div class="block">The measuring manager.</div><br></td></tr>
+  <tr><td><code><a href="item/multistate/IMultiStateItemFactory.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemFactory</a></code></td><td><code><a href="#getMultiStateItemFactory()" class="member-name-link">getMultiStateItemFactory</a>()</code></td><td><div class="block">A factory which can produce a multistate item from a given source.</div><br></td></tr>
+  <tr><td><code><a href="multistate/mutator/IMutatorFactory.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutatorFactory</a></code></td><td><code><a href="#getMutatorFactory()" class="member-name-link">getMutatorFactory</a>()</code></td><td><div class="block">Gives access to the factory that can produce different mutators.</div><br></td></tr>
+  <tr><td><code><a href="notifications/INotificationManager.html" title="interface in mod.chiselsandbits.api.notifications">INotificationManager</a></code></td><td><code><a href="#getNotificationManager()" class="member-name-link">getNotificationManager</a>()</code></td><td><div class="block">Handles showing notifications to the player.</div><br></td></tr>
+  <tr><td><code><a href="client/sharing/IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></code></td><td><code><a href="#getPatternSharingManager()" class="member-name-link">getPatternSharingManager</a>()</code></td><td><div class="block">The pattern sharing manager.</div><br></td></tr>
+  <tr><td><code><a href="permissions/IPermissionHandler.html" title="interface in mod.chiselsandbits.api.permissions">IPermissionHandler</a></code></td><td><code><a href="#getPermissionHandler()" class="member-name-link">getPermissionHandler</a>()</code></td><td><div class="block">Returns the permission handler which is used to check if a particular area<br>is chiselable or not.</div><br></td></tr>
+  <tr><td><code><a href="plugin/IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></code></td><td><code><a href="#getPluginDiscoverer()" class="member-name-link">getPluginDiscoverer</a>()</code></td><td><div class="block">Returns the service that discovers platform plugins.</div><br></td></tr>
+  <tr><td><code><a href="plugin/IPluginManager.html" title="interface in mod.chiselsandbits.api.plugin">IPluginManager</a></code></td><td><code><a href="#getPluginManager()" class="member-name-link">getPluginManager</a>()</code></td><td><div class="block">Gives access to the plugin manager that is used to process chisels and bits plugins.</div><br></td></tr>
+  <tr><td><code><a href="profiling/IProfilingManager.html" title="interface in mod.chiselsandbits.api.profiling">IProfilingManager</a></code></td><td><code><a href="#getProfilingManager()" class="member-name-link">getProfilingManager</a>()</code></td><td><div class="block">The profiling manager, allows for the profiling of operations related Chisels and Bits.</div><br></td></tr>
+  <tr><td><code><a href="registries/IRegistryManager.html" title="interface in mod.chiselsandbits.api.registries">IRegistryManager</a></code></td><td><code><a href="#getRegistryManager()" class="member-name-link">getRegistryManager</a>()</code></td><td><div class="block">Gives access to all registries which are used by chisels and bits.</div><br></td></tr>
+  <tr><td><code><a href="client/tool/mode/icon/ISelectedToolModeIconRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.tool.mode.icon">ISelectedToolModeIconRendererRegistry</a></code></td><td><code><a href="#getSelectedToolModeIconRenderer()" class="member-name-link">getSelectedToolModeIconRenderer</a>()</code></td><td><div class="block">Gives access to the selected tool mode icon renderer registry.</div><br></td></tr>
+  <tr><td><code><a href="multistate/snapshot/ISnapshotFactory.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">ISnapshotFactory</a></code></td><td><code><a href="#getSnapshotFactory()" class="member-name-link">getSnapshotFactory</a>()</code></td><td><div class="block">Returns the factory used to create snapshots of multi-state objects.</div><br></td></tr>
+  <tr><td><code>default <a href="multistate/StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></code></td><td><code><a href="#getStateEntrySize()" class="member-name-link">getStateEntrySize</a>()</code></td><td><div class="block">Represents the size of the bits in the current instance.</div><br></td></tr>
+  <tr><td><code><a href="variant/state/IStateVariantManager.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariantManager</a></code></td><td><code><a href="#getStateVariantManager()" class="member-name-link">getStateVariantManager</a>()</code></td><td><div class="block">Returns the manager that registers and applies state variants.</div><br></td></tr>
+  <tr><td><code><a href="voxelshape/IVoxelShapeManager.html" title="interface in mod.chiselsandbits.api.voxelshape">IVoxelShapeManager</a></code></td><td><code><a href="#getVoxelShapeManager()" class="member-name-link">getVoxelShapeManager</a>()</code></td><td><div class="block">Manager which deals with calculating, and optionally caching, the voxel shapes, which<br>can be constructed from a given area.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -143,44 +143,44 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="multistate/accessor/IAccessorFactory.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAccessorFactory</a></code></td><td><code><a href="#getAccessorFactory()" class="member-name-link">getAccessorFactory</a>()</code></td><td><div class="block">Gives access to the factory that can produce different accessors.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="inventory/bit/IAdaptingBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.bit">IAdaptingBitInventoryManager</a></code></td><td><code><a href="#getAdaptingBitInventoryManager()" class="member-name-link">getAdaptingBitInventoryManager</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="inventory/management/IBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.management">IBitInventoryManager</a></code></td><td><code><a href="#getBitInventoryManager()" class="member-name-link">getBitInventoryManager</a>()</code></td><td><div class="block">Gives access to the bits inventory manager, which allows the conversion of normal inventory systems to bit inventories.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="item/bit/IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></code></td><td><code><a href="#getBitItemManager()" class="member-name-link">getBitItemManager</a>()</code></td><td><div class="block">The bit item manager.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.tags.TagKey<wbr>&lt;net.minecraft.world.level.block.Block&gt;</code></td><td><code><a href="#getBlockedTag()" class="member-name-link">getBlockedTag</a>()</code></td><td><div class="block">Returns the tag used in the eligibility system to block compatibility.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="neighborhood/IBlockNeighborhoodBuilder.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhoodBuilder</a></code></td><td><code><a href="#getBlockNeighborhoodBuilder()" class="member-name-link">getBlockNeighborhoodBuilder</a>()</code></td><td><div class="block">Gives access to the block neighborhood builder.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="block/state/id/IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></code></td><td><code><a href="#getBlockStateIdManager()" class="member-name-link">getBlockStateIdManager</a>()</code></td><td><div class="block">The manager which deals with calculating the given blockstate ids in the current running session.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="change/IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></code></td><td><code><a href="#getChangeTrackerManager()" class="member-name-link">getChangeTrackerManager</a>()</code></td><td><div class="block">The change tracker manager.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/render/preview/chiseling/IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></code></td><td><code><a href="#getChiselContextPreviewRendererRegistry()" class="member-name-link">getChiselContextPreviewRendererRegistry</a>()</code></td><td><div class="block">Gives access to the chisel context preview renderer registry.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/IChiselingManager.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingManager</a></code></td><td><code><a href="#getChiselingManager()" class="member-name-link">getChiselingManager</a>()</code></td><td><div class="block">Gives access to the manager which controls chiseling operations.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/variant/state/IClientStateVariantManager.html" title="interface in mod.chiselsandbits.api.client.variant.state">IClientStateVariantManager</a></code></td><td><code><a href="#getClientStateVariantManager()" class="member-name-link">getClientStateVariantManager</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="multistate/accessor/IAccessorFactory.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAccessorFactory</a></code></td><td><code><a href="#getAccessorFactory()" class="member-name-link">getAccessorFactory</a>()</code></td><td><div class="block">Gives access to the factory that can produce different accessors.</div><br></td></tr>
+  <tr><td><code><a href="inventory/bit/IAdaptingBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.bit">IAdaptingBitInventoryManager</a></code></td><td><code><a href="#getAdaptingBitInventoryManager()" class="member-name-link">getAdaptingBitInventoryManager</a>()</code></td><td><div class="block">Returns the manager that adapts ordinary inventories to bit inventories.</div><br></td></tr>
+  <tr><td><code><a href="inventory/management/IBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.management">IBitInventoryManager</a></code></td><td><code><a href="#getBitInventoryManager()" class="member-name-link">getBitInventoryManager</a>()</code></td><td><div class="block">Gives access to the bits inventory manager, which allows the conversion of normal inventory systems to bit inventories.</div><br></td></tr>
+  <tr><td><code><a href="item/bit/IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></code></td><td><code><a href="#getBitItemManager()" class="member-name-link">getBitItemManager</a>()</code></td><td><div class="block">The bit item manager.</div><br></td></tr>
+  <tr><td><code>net.minecraft.tags.TagKey<wbr>&lt;net.minecraft.world.level.block.Block&gt;</code></td><td><code><a href="#getBlockedTag()" class="member-name-link">getBlockedTag</a>()</code></td><td><div class="block">Returns the tag used in the eligibility system to block compatibility.</div><br></td></tr>
+  <tr><td><code><a href="neighborhood/IBlockNeighborhoodBuilder.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhoodBuilder</a></code></td><td><code><a href="#getBlockNeighborhoodBuilder()" class="member-name-link">getBlockNeighborhoodBuilder</a>()</code></td><td><div class="block">Gives access to the block neighborhood builder.</div><br></td></tr>
+  <tr><td><code><a href="block/state/id/IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></code></td><td><code><a href="#getBlockStateIdManager()" class="member-name-link">getBlockStateIdManager</a>()</code></td><td><div class="block">The manager which deals with calculating the given blockstate ids in the current running session.</div><br></td></tr>
+  <tr><td><code><a href="change/IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></code></td><td><code><a href="#getChangeTrackerManager()" class="member-name-link">getChangeTrackerManager</a>()</code></td><td><div class="block">The change tracker manager.</div><br></td></tr>
+  <tr><td><code><a href="client/render/preview/chiseling/IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></code></td><td><code><a href="#getChiselContextPreviewRendererRegistry()" class="member-name-link">getChiselContextPreviewRendererRegistry</a>()</code></td><td><div class="block">Gives access to the chisel context preview renderer registry.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/IChiselingManager.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingManager</a></code></td><td><code><a href="#getChiselingManager()" class="member-name-link">getChiselingManager</a>()</code></td><td><div class="block">Gives access to the manager which controls chiseling operations.</div><br></td></tr>
+  <tr><td><code><a href="client/variant/state/IClientStateVariantManager.html" title="interface in mod.chiselsandbits.api.client.variant.state">IClientStateVariantManager</a></code></td><td><code><a href="#getClientStateVariantManager()" class="member-name-link">getClientStateVariantManager</a>()</code></td><td><div class="block">Returns the client manager for state variants.</div><br></td></tr>
   <tr><td><code><a href="config/IChiselsAndBitsConfiguration.html" title="interface in mod.chiselsandbits.api.config">IChiselsAndBitsConfiguration</a></code></td><td><code><a href="#getConfiguration()" class="member-name-link">getConfiguration</a>()</code></td><td><div class="block">The configuration on top of which chisels and bits is running.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/conversion/IConversionManager.html" title="interface in mod.chiselsandbits.api.chiseling.conversion">IConversionManager</a></code></td><td><code><a href="#getConversionManager()" class="member-name-link">getConversionManager</a>()</code></td><td><div class="block">Manager which deals with converting eligible blocks, blockstates and IItemProviders into their chiseled<br>variants.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/clipboard/ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></code></td><td><code><a href="#getCreativeClipboardManager()" class="member-name-link">getCreativeClipboardManager</a>()</code></td><td><div class="block">Returns the clipboard manager for the creative clipboard.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/mode/IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a></code></td><td><code><a href="#getDefaultChiselMode()" class="member-name-link">getDefaultChiselMode</a>()</code></td><td><div class="block">Represents the default mode for the chiseling system.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="cutting/operation/ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a></code></td><td><code><a href="#getDefaultCuttingOperation()" class="member-name-link">getDefaultCuttingOperation</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="glueing/operation/IGlueingOperation.html" title="interface in mod.chiselsandbits.api.glueing.operation">IGlueingOperation</a></code></td><td><code><a href="#getDefaultGlueingOperation()" class="member-name-link">getDefaultGlueingOperation</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="modification/operation/IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a></code></td><td><code><a href="#getDefaultModificationOperation()" class="member-name-link">getDefaultModificationOperation</a>()</code></td><td><div class="block">The default mode for performing modification operations if no other is supplied.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/eligibility/IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></code></td><td><code><a href="#getEligibilityManager()" class="member-name-link">getEligibilityManager</a>()</code></td><td><div class="block">Manager which deals with chiseling eligibility.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/eligibility/IEligibilityOptions.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityOptions</a></code></td><td><code><a href="#getEligibilityOptions()" class="member-name-link">getEligibilityOptions</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull net.minecraft.tags.TagKey<wbr>&lt;net.minecraft.world.level.block.Block&gt;</code></td><td><code><a href="#getForcedTag()" class="member-name-link">getForcedTag</a>()</code></td><td><div class="block">Returns the tag used in the eligibility system to force compatibility.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/icon/IIconManager.html" title="interface in mod.chiselsandbits.api.client.icon">IIconManager</a></code></td><td><code><a href="#getIconManager()" class="member-name-link">getIconManager</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="launch/ILaunchPropertyManager.html" title="interface in mod.chiselsandbits.api.launch">ILaunchPropertyManager</a></code></td><td><code><a href="#getLaunchPropertyManager()" class="member-name-link">getLaunchPropertyManager</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="chiseling/ILocalChiselingContextCache.html" title="interface in mod.chiselsandbits.api.chiseling">ILocalChiselingContextCache</a></code></td><td><code><a href="#getLocalChiselingContextCache()" class="member-name-link">getLocalChiselingContextCache</a>()</code></td><td><div class="block">This method gives access to the client side local chiseling context cache.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="measuring/IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></code></td><td><code><a href="#getMeasuringManager()" class="member-name-link">getMeasuringManager</a>()</code></td><td><div class="block">The measuring manager.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="item/multistate/IMultiStateItemFactory.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemFactory</a></code></td><td><code><a href="#getMultiStateItemFactory()" class="member-name-link">getMultiStateItemFactory</a>()</code></td><td><div class="block">A factory which can produce a multistate item from a given source.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="multistate/mutator/IMutatorFactory.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutatorFactory</a></code></td><td><code><a href="#getMutatorFactory()" class="member-name-link">getMutatorFactory</a>()</code></td><td><div class="block">Gives access to the factory that can produce different mutators.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="notifications/INotificationManager.html" title="interface in mod.chiselsandbits.api.notifications">INotificationManager</a></code></td><td><code><a href="#getNotificationManager()" class="member-name-link">getNotificationManager</a>()</code></td><td><div class="block">Handles showing notifications to the player.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/sharing/IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></code></td><td><code><a href="#getPatternSharingManager()" class="member-name-link">getPatternSharingManager</a>()</code></td><td><div class="block">The pattern sharing manager.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="permissions/IPermissionHandler.html" title="interface in mod.chiselsandbits.api.permissions">IPermissionHandler</a></code></td><td><code><a href="#getPermissionHandler()" class="member-name-link">getPermissionHandler</a>()</code></td><td><div class="block">Returns the permission handler which is used to check if a particular area<br>is chiselable or not.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="plugin/IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></code></td><td><code><a href="#getPluginDiscoverer()" class="member-name-link">getPluginDiscoverer</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="plugin/IPluginManager.html" title="interface in mod.chiselsandbits.api.plugin">IPluginManager</a></code></td><td><code><a href="#getPluginManager()" class="member-name-link">getPluginManager</a>()</code></td><td><div class="block">Gives access to the plugin manager that is used to process chisels and bits plugins</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="profiling/IProfilingManager.html" title="interface in mod.chiselsandbits.api.profiling">IProfilingManager</a></code></td><td><code><a href="#getProfilingManager()" class="member-name-link">getProfilingManager</a>()</code></td><td><div class="block">The profiling manager, allows for the profiling of operations related Chisels and Bits.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="registries/IRegistryManager.html" title="interface in mod.chiselsandbits.api.registries">IRegistryManager</a></code></td><td><code><a href="#getRegistryManager()" class="member-name-link">getRegistryManager</a>()</code></td><td><div class="block">Gives access to all registries which are used by chisels and bits.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="client/tool/mode/icon/ISelectedToolModeIconRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.tool.mode.icon">ISelectedToolModeIconRendererRegistry</a></code></td><td><code><a href="#getSelectedToolModeIconRenderer()" class="member-name-link">getSelectedToolModeIconRenderer</a>()</code></td><td><div class="block">Gives access to the selected tool mode icon renderer registry.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="multistate/snapshot/ISnapshotFactory.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">ISnapshotFactory</a></code></td><td><code><a href="#getSnapshotFactory()" class="member-name-link">getSnapshotFactory</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="variant/state/IStateVariantManager.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariantManager</a></code></td><td><code><a href="#getStateVariantManager()" class="member-name-link">getStateVariantManager</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull <a href="voxelshape/IVoxelShapeManager.html" title="interface in mod.chiselsandbits.api.voxelshape">IVoxelShapeManager</a></code></td><td><code><a href="#getVoxelShapeManager()" class="member-name-link">getVoxelShapeManager</a>()</code></td><td><div class="block">Manager which deals with calculating, and optionally caching, the voxel shapes, which<br>can be constructed from a given area.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/conversion/IConversionManager.html" title="interface in mod.chiselsandbits.api.chiseling.conversion">IConversionManager</a></code></td><td><code><a href="#getConversionManager()" class="member-name-link">getConversionManager</a>()</code></td><td><div class="block">Manager which deals with converting eligible blocks, blockstates and IItemProviders into their chiseled<br>variants.</div><br></td></tr>
+  <tr><td><code><a href="client/clipboard/ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></code></td><td><code><a href="#getCreativeClipboardManager()" class="member-name-link">getCreativeClipboardManager</a>()</code></td><td><div class="block">Returns the clipboard manager for the creative clipboard.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/mode/IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a></code></td><td><code><a href="#getDefaultChiselMode()" class="member-name-link">getDefaultChiselMode</a>()</code></td><td><div class="block">Represents the default mode for the chiseling system.</div><br></td></tr>
+  <tr><td><code><a href="cutting/operation/ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a></code></td><td><code><a href="#getDefaultCuttingOperation()" class="member-name-link">getDefaultCuttingOperation</a>()</code></td><td><div class="block">Returns the default cutting operation used when no operation is selected.</div><br></td></tr>
+  <tr><td><code><a href="glueing/operation/IGlueingOperation.html" title="interface in mod.chiselsandbits.api.glueing.operation">IGlueingOperation</a></code></td><td><code><a href="#getDefaultGlueingOperation()" class="member-name-link">getDefaultGlueingOperation</a>()</code></td><td><div class="block">Returns the default glueing operation used when no operation is selected.</div><br></td></tr>
+  <tr><td><code><a href="modification/operation/IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a></code></td><td><code><a href="#getDefaultModificationOperation()" class="member-name-link">getDefaultModificationOperation</a>()</code></td><td><div class="block">The default mode for performing modification operations if no other is supplied.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/eligibility/IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></code></td><td><code><a href="#getEligibilityManager()" class="member-name-link">getEligibilityManager</a>()</code></td><td><div class="block">Manager which deals with chiseling eligibility.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/eligibility/IEligibilityOptions.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityOptions</a></code></td><td><code><a href="#getEligibilityOptions()" class="member-name-link">getEligibilityOptions</a>()</code></td><td><div class="block">Returns the options used to determine whether blocks may be chiseled.</div><br></td></tr>
+  <tr><td><code>net.minecraft.tags.TagKey<wbr>&lt;net.minecraft.world.level.block.Block&gt;</code></td><td><code><a href="#getForcedTag()" class="member-name-link">getForcedTag</a>()</code></td><td><div class="block">Returns the tag used in the eligibility system to force compatibility.</div><br></td></tr>
+  <tr><td><code><a href="client/icon/IIconManager.html" title="interface in mod.chiselsandbits.api.client.icon">IIconManager</a></code></td><td><code><a href="#getIconManager()" class="member-name-link">getIconManager</a>()</code></td><td><div class="block">Returns the manager that provides UI atlas sprites.</div><br></td></tr>
+  <tr><td><code><a href="launch/ILaunchPropertyManager.html" title="interface in mod.chiselsandbits.api.launch">ILaunchPropertyManager</a></code></td><td><code><a href="#getLaunchPropertyManager()" class="member-name-link">getLaunchPropertyManager</a>()</code></td><td><div class="block">Returns the manager for launch-time properties.</div><br></td></tr>
+  <tr><td><code><a href="chiseling/ILocalChiselingContextCache.html" title="interface in mod.chiselsandbits.api.chiseling">ILocalChiselingContextCache</a></code></td><td><code><a href="#getLocalChiselingContextCache()" class="member-name-link">getLocalChiselingContextCache</a>()</code></td><td><div class="block">This method gives access to the client side local chiseling context cache.</div><br></td></tr>
+  <tr><td><code><a href="measuring/IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></code></td><td><code><a href="#getMeasuringManager()" class="member-name-link">getMeasuringManager</a>()</code></td><td><div class="block">The measuring manager.</div><br></td></tr>
+  <tr><td><code><a href="item/multistate/IMultiStateItemFactory.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemFactory</a></code></td><td><code><a href="#getMultiStateItemFactory()" class="member-name-link">getMultiStateItemFactory</a>()</code></td><td><div class="block">A factory which can produce a multistate item from a given source.</div><br></td></tr>
+  <tr><td><code><a href="multistate/mutator/IMutatorFactory.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutatorFactory</a></code></td><td><code><a href="#getMutatorFactory()" class="member-name-link">getMutatorFactory</a>()</code></td><td><div class="block">Gives access to the factory that can produce different mutators.</div><br></td></tr>
+  <tr><td><code><a href="notifications/INotificationManager.html" title="interface in mod.chiselsandbits.api.notifications">INotificationManager</a></code></td><td><code><a href="#getNotificationManager()" class="member-name-link">getNotificationManager</a>()</code></td><td><div class="block">Handles showing notifications to the player.</div><br></td></tr>
+  <tr><td><code><a href="client/sharing/IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></code></td><td><code><a href="#getPatternSharingManager()" class="member-name-link">getPatternSharingManager</a>()</code></td><td><div class="block">The pattern sharing manager.</div><br></td></tr>
+  <tr><td><code><a href="permissions/IPermissionHandler.html" title="interface in mod.chiselsandbits.api.permissions">IPermissionHandler</a></code></td><td><code><a href="#getPermissionHandler()" class="member-name-link">getPermissionHandler</a>()</code></td><td><div class="block">Returns the permission handler which is used to check if a particular area<br>is chiselable or not.</div><br></td></tr>
+  <tr><td><code><a href="plugin/IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></code></td><td><code><a href="#getPluginDiscoverer()" class="member-name-link">getPluginDiscoverer</a>()</code></td><td><div class="block">Returns the service that discovers platform plugins.</div><br></td></tr>
+  <tr><td><code><a href="plugin/IPluginManager.html" title="interface in mod.chiselsandbits.api.plugin">IPluginManager</a></code></td><td><code><a href="#getPluginManager()" class="member-name-link">getPluginManager</a>()</code></td><td><div class="block">Gives access to the plugin manager that is used to process chisels and bits plugins.</div><br></td></tr>
+  <tr><td><code><a href="profiling/IProfilingManager.html" title="interface in mod.chiselsandbits.api.profiling">IProfilingManager</a></code></td><td><code><a href="#getProfilingManager()" class="member-name-link">getProfilingManager</a>()</code></td><td><div class="block">The profiling manager, allows for the profiling of operations related Chisels and Bits.</div><br></td></tr>
+  <tr><td><code><a href="registries/IRegistryManager.html" title="interface in mod.chiselsandbits.api.registries">IRegistryManager</a></code></td><td><code><a href="#getRegistryManager()" class="member-name-link">getRegistryManager</a>()</code></td><td><div class="block">Gives access to all registries which are used by chisels and bits.</div><br></td></tr>
+  <tr><td><code><a href="client/tool/mode/icon/ISelectedToolModeIconRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.tool.mode.icon">ISelectedToolModeIconRendererRegistry</a></code></td><td><code><a href="#getSelectedToolModeIconRenderer()" class="member-name-link">getSelectedToolModeIconRenderer</a>()</code></td><td><div class="block">Gives access to the selected tool mode icon renderer registry.</div><br></td></tr>
+  <tr><td><code><a href="multistate/snapshot/ISnapshotFactory.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">ISnapshotFactory</a></code></td><td><code><a href="#getSnapshotFactory()" class="member-name-link">getSnapshotFactory</a>()</code></td><td><div class="block">Returns the factory used to create snapshots of multi-state objects.</div><br></td></tr>
+  <tr><td><code><a href="variant/state/IStateVariantManager.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariantManager</a></code></td><td><code><a href="#getStateVariantManager()" class="member-name-link">getStateVariantManager</a>()</code></td><td><div class="block">Returns the manager that registers and applies state variants.</div><br></td></tr>
+  <tr><td><code><a href="voxelshape/IVoxelShapeManager.html" title="interface in mod.chiselsandbits.api.voxelshape">IVoxelShapeManager</a></code></td><td><code><a href="#getVoxelShapeManager()" class="member-name-link">getVoxelShapeManager</a>()</code></td><td><div class="block">Manager which deals with calculating, and optionally caching, the voxel shapes, which<br>can be constructed from a given area.</div><br></td></tr>
   </tbody>
 </table>
 == Default Methods
@@ -189,7 +189,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>default @NotNull <a href="multistate/StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></code></td><td><code><a href="#getStateEntrySize()" class="member-name-link">getStateEntrySize</a>()</code></td><td><div class="block">Represents the size of the bits in the current instance.</div><br></td></tr>
+  <tr><td><code>default <a href="multistate/StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></code></td><td><code><a href="#getStateEntrySize()" class="member-name-link">getStateEntrySize</a>()</code></td><td><div class="block">Represents the size of the bits in the current instance.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -231,8 +231,7 @@ Gives access to the api instance.
 :::tabs
 == getAccessorFactory
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="multistate/accessor/IAccessorFactory.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAccessorFactory</a></span>&nbsp;<span class="element-name">getAccessorFactory</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="multistate/accessor/IAccessorFactory.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAccessorFactory</a></span>&nbsp;<span class="element-name">getAccessorFactory</span>()</div>
 Gives access to the factory that can produce different accessors.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -249,8 +248,7 @@ Gives access to the factory that can produce different accessors.
 :::tabs
 == getMutatorFactory
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="multistate/mutator/IMutatorFactory.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutatorFactory</a></span>&nbsp;<span class="element-name">getMutatorFactory</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="multistate/mutator/IMutatorFactory.html" title="interface in mod.chiselsandbits.api.multistate.mutator">IMutatorFactory</a></span>&nbsp;<span class="element-name">getMutatorFactory</span>()</div>
 Gives access to the factory that can produce different mutators.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -267,8 +265,7 @@ Gives access to the factory that can produce different mutators.
 :::tabs
 == getEligibilityManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="chiseling/eligibility/IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></span>&nbsp;<span class="element-name">getEligibilityManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="chiseling/eligibility/IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></span>&nbsp;<span class="element-name">getEligibilityManager</span>()</div>
 Manager which deals with chiseling eligibility.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -285,8 +282,7 @@ Manager which deals with chiseling eligibility.
 :::tabs
 == getConversionManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="chiseling/conversion/IConversionManager.html" title="interface in mod.chiselsandbits.api.chiseling.conversion">IConversionManager</a></span>&nbsp;<span class="element-name">getConversionManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="chiseling/conversion/IConversionManager.html" title="interface in mod.chiselsandbits.api.chiseling.conversion">IConversionManager</a></span>&nbsp;<span class="element-name">getConversionManager</span>()</div>
 Manager which deals with converting eligible blocks, blockstates and IItemProviders into their chiseled
 variants.
 <dl class="notes">
@@ -304,8 +300,7 @@ variants.
 :::tabs
 == getVoxelShapeManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="voxelshape/IVoxelShapeManager.html" title="interface in mod.chiselsandbits.api.voxelshape">IVoxelShapeManager</a></span>&nbsp;<span class="element-name">getVoxelShapeManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="voxelshape/IVoxelShapeManager.html" title="interface in mod.chiselsandbits.api.voxelshape">IVoxelShapeManager</a></span>&nbsp;<span class="element-name">getVoxelShapeManager</span>()</div>
 Manager which deals with calculating, and optionally caching, the voxel shapes, which
 can be constructed from a given area.
 <dl class="notes">
@@ -323,8 +318,7 @@ can be constructed from a given area.
 :::tabs
 == getMultiStateItemFactory
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="item/multistate/IMultiStateItemFactory.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemFactory</a></span>&nbsp;<span class="element-name">getMultiStateItemFactory</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="item/multistate/IMultiStateItemFactory.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemFactory</a></span>&nbsp;<span class="element-name">getMultiStateItemFactory</span>()</div>
 A factory which can produce a multistate item from a given source.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -341,8 +335,7 @@ A factory which can produce a multistate item from a given source.
 :::tabs
 == getDefaultChiselMode
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="chiseling/mode/IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a></span>&nbsp;<span class="element-name">getDefaultChiselMode</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="chiseling/mode/IChiselMode.html" title="interface in mod.chiselsandbits.api.chiseling.mode">IChiselMode</a></span>&nbsp;<span class="element-name">getDefaultChiselMode</span>()</div>
 Represents the default mode for the chiseling system.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -359,8 +352,7 @@ Represents the default mode for the chiseling system.
 :::tabs
 == getRegistryManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="registries/IRegistryManager.html" title="interface in mod.chiselsandbits.api.registries">IRegistryManager</a></span>&nbsp;<span class="element-name">getRegistryManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="registries/IRegistryManager.html" title="interface in mod.chiselsandbits.api.registries">IRegistryManager</a></span>&nbsp;<span class="element-name">getRegistryManager</span>()</div>
 Gives access to all registries which are used by chisels and bits.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -377,8 +369,7 @@ Gives access to all registries which are used by chisels and bits.
 :::tabs
 == getChiselingManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="chiseling/IChiselingManager.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingManager</a></span>&nbsp;<span class="element-name">getChiselingManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="chiseling/IChiselingManager.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingManager</a></span>&nbsp;<span class="element-name">getChiselingManager</span>()</div>
 Gives access to the manager which controls chiseling operations.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -412,8 +403,7 @@ The configuration on top of which chisels and bits is running.
 :::tabs
 == getBlockStateIdManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="block/state/id/IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></span>&nbsp;<span class="element-name">getBlockStateIdManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="block/state/id/IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></span>&nbsp;<span class="element-name">getBlockStateIdManager</span>()</div>
 The manager which deals with calculating the given blockstate ids in the current running session.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -430,8 +420,7 @@ The manager which deals with calculating the given blockstate ids in the current
 :::tabs
 == getBitInventoryManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="inventory/management/IBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.management">IBitInventoryManager</a></span>&nbsp;<span class="element-name">getBitInventoryManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="inventory/management/IBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.management">IBitInventoryManager</a></span>&nbsp;<span class="element-name">getBitInventoryManager</span>()</div>
 Gives access to the bits inventory manager, which allows the conversion of normal inventory systems to bit inventories.
 These special bit inventories respect the core interfaces that make up an object that can hold or is a bit.
 <dl class="notes">
@@ -449,8 +438,7 @@ These special bit inventories respect the core interfaces that make up an object
 :::tabs
 == getBitItemManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="item/bit/IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></span>&nbsp;<span class="element-name">getBitItemManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="item/bit/IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></span>&nbsp;<span class="element-name">getBitItemManager</span>()</div>
 The bit item manager.
 Allows for the creation of bit based itemstacks.
 <dl class="notes">
@@ -468,8 +456,7 @@ Allows for the creation of bit based itemstacks.
 :::tabs
 == getMeasuringManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="measuring/IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></span>&nbsp;<span class="element-name">getMeasuringManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="measuring/IMeasuringManager.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringManager</a></span>&nbsp;<span class="element-name">getMeasuringManager</span>()</div>
 The measuring manager.
 Gives access to measurements created by a given player.
 <dl class="notes">
@@ -487,8 +474,7 @@ Gives access to measurements created by a given player.
 :::tabs
 == getStateEntrySize
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="modifiers">default</span>&nbsp;<span class="return-type">@NotNull <a href="multistate/StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">getStateEntrySize</span>()</div>
+<div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type"><a href="multistate/StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">getStateEntrySize</span>()</div>
 Represents the size of the bits in the current instance.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -505,8 +491,7 @@ Represents the size of the bits in the current instance.
 :::tabs
 == getProfilingManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="profiling/IProfilingManager.html" title="interface in mod.chiselsandbits.api.profiling">IProfilingManager</a></span>&nbsp;<span class="element-name">getProfilingManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="profiling/IProfilingManager.html" title="interface in mod.chiselsandbits.api.profiling">IProfilingManager</a></span>&nbsp;<span class="element-name">getProfilingManager</span>()</div>
 The profiling manager, allows for the profiling of operations related Chisels and Bits.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -523,8 +508,7 @@ The profiling manager, allows for the profiling of operations related Chisels an
 :::tabs
 == getLocalChiselingContextCache
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="chiseling/ILocalChiselingContextCache.html" title="interface in mod.chiselsandbits.api.chiseling">ILocalChiselingContextCache</a></span>&nbsp;<span class="element-name">getLocalChiselingContextCache</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="chiseling/ILocalChiselingContextCache.html" title="interface in mod.chiselsandbits.api.chiseling">ILocalChiselingContextCache</a></span>&nbsp;<span class="element-name">getLocalChiselingContextCache</span>()</div>
 This method gives access to the client side local chiseling context cache.
 Although this method also exists on the server side, it should be considered a cross tick cache for the latest chiseling context in use by the current player,
 without it becoming the active context for that player.
@@ -543,8 +527,7 @@ without it becoming the active context for that player.
 :::tabs
 == getChangeTrackerManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="change/IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></span>&nbsp;<span class="element-name">getChangeTrackerManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="change/IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></span>&nbsp;<span class="element-name">getChangeTrackerManager</span>()</div>
 The change tracker manager.
 Gives access to each players change tracker.
 <dl class="notes">
@@ -562,8 +545,7 @@ Gives access to each players change tracker.
 :::tabs
 == getBlockNeighborhoodBuilder
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="neighborhood/IBlockNeighborhoodBuilder.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhoodBuilder</a></span>&nbsp;<span class="element-name">getBlockNeighborhoodBuilder</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="neighborhood/IBlockNeighborhoodBuilder.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhoodBuilder</a></span>&nbsp;<span class="element-name">getBlockNeighborhoodBuilder</span>()</div>
 Gives access to the block neighborhood builder.
 Allows for building block specific cache keys when the block environment is required.
 <dl class="notes">
@@ -581,8 +563,7 @@ Allows for building block specific cache keys when the block environment is requ
 :::tabs
 == getDefaultModificationOperation
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="modification/operation/IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a></span>&nbsp;<span class="element-name">getDefaultModificationOperation</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="modification/operation/IModificationOperation.html" title="interface in mod.chiselsandbits.api.modification.operation">IModificationOperation</a></span>&nbsp;<span class="element-name">getDefaultModificationOperation</span>()</div>
 The default mode for performing modification operations if no other is supplied.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -599,9 +580,8 @@ The default mode for performing modification operations if no other is supplied.
 :::tabs
 == getPluginManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="plugin/IPluginManager.html" title="interface in mod.chiselsandbits.api.plugin">IPluginManager</a></span>&nbsp;<span class="element-name">getPluginManager</span>()</div>
-Gives access to the plugin manager that is used to process chisels and bits plugins
+<div class="member-signature"><span class="return-type"><a href="plugin/IPluginManager.html" title="interface in mod.chiselsandbits.api.plugin">IPluginManager</a></span>&nbsp;<span class="element-name">getPluginManager</span>()</div>
+Gives access to the plugin manager that is used to process chisels and bits plugins.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The plugin manager</dd>
@@ -617,8 +597,7 @@ Gives access to the plugin manager that is used to process chisels and bits plug
 :::tabs
 == getChiselContextPreviewRendererRegistry
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="client/render/preview/chiseling/IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></span>&nbsp;<span class="element-name">getChiselContextPreviewRendererRegistry</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="client/render/preview/chiseling/IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></span>&nbsp;<span class="element-name">getChiselContextPreviewRendererRegistry</span>()</div>
 Gives access to the chisel context preview renderer registry.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -635,8 +614,7 @@ Gives access to the chisel context preview renderer registry.
 :::tabs
 == getSelectedToolModeIconRenderer
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="client/tool/mode/icon/ISelectedToolModeIconRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.tool.mode.icon">ISelectedToolModeIconRendererRegistry</a></span>&nbsp;<span class="element-name">getSelectedToolModeIconRenderer</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="client/tool/mode/icon/ISelectedToolModeIconRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.tool.mode.icon">ISelectedToolModeIconRendererRegistry</a></span>&nbsp;<span class="element-name">getSelectedToolModeIconRenderer</span>()</div>
 Gives access to the selected tool mode icon renderer registry.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -653,8 +631,7 @@ Gives access to the selected tool mode icon renderer registry.
 :::tabs
 == getForcedTag
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull net.minecraft.tags.TagKey&lt;net.minecraft.world.level.block.Block&gt;</span>&nbsp;<span class="element-name">getForcedTag</span>()</div>
+<div class="member-signature"><span class="return-type">net.minecraft.tags.TagKey&lt;net.minecraft.world.level.block.Block&gt;</span>&nbsp;<span class="element-name">getForcedTag</span>()</div>
 Returns the tag used in the eligibility system to force compatibility.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -671,8 +648,7 @@ Returns the tag used in the eligibility system to force compatibility.
 :::tabs
 == getBlockedTag
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull net.minecraft.tags.TagKey&lt;net.minecraft.world.level.block.Block&gt;</span>&nbsp;<span class="element-name">getBlockedTag</span>()</div>
+<div class="member-signature"><span class="return-type">net.minecraft.tags.TagKey&lt;net.minecraft.world.level.block.Block&gt;</span>&nbsp;<span class="element-name">getBlockedTag</span>()</div>
 Returns the tag used in the eligibility system to block compatibility.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -689,8 +665,7 @@ Returns the tag used in the eligibility system to block compatibility.
 :::tabs
 == getPermissionHandler
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="permissions/IPermissionHandler.html" title="interface in mod.chiselsandbits.api.permissions">IPermissionHandler</a></span>&nbsp;<span class="element-name">getPermissionHandler</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="permissions/IPermissionHandler.html" title="interface in mod.chiselsandbits.api.permissions">IPermissionHandler</a></span>&nbsp;<span class="element-name">getPermissionHandler</span>()</div>
 Returns the permission handler which is used to check if a particular area
 is chiselable or not.
 <dl class="notes">
@@ -708,8 +683,7 @@ is chiselable or not.
 :::tabs
 == getCreativeClipboardManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="client/clipboard/ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></span>&nbsp;<span class="element-name">getCreativeClipboardManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="client/clipboard/ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></span>&nbsp;<span class="element-name">getCreativeClipboardManager</span>()</div>
 Returns the clipboard manager for the creative clipboard.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -726,8 +700,7 @@ Returns the clipboard manager for the creative clipboard.
 :::tabs
 == getPatternSharingManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="client/sharing/IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></span>&nbsp;<span class="element-name">getPatternSharingManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="client/sharing/IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></span>&nbsp;<span class="element-name">getPatternSharingManager</span>()</div>
 The pattern sharing manager.
 This manager only works on the client side, and will do nothing on the server side.
 <dl class="notes">
@@ -745,8 +718,7 @@ This manager only works on the client side, and will do nothing on the server si
 :::tabs
 == getNotificationManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="notifications/INotificationManager.html" title="interface in mod.chiselsandbits.api.notifications">INotificationManager</a></span>&nbsp;<span class="element-name">getNotificationManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="notifications/INotificationManager.html" title="interface in mod.chiselsandbits.api.notifications">INotificationManager</a></span>&nbsp;<span class="element-name">getNotificationManager</span>()</div>
 Handles showing notifications to the player.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -763,8 +735,12 @@ Handles showing notifications to the player.
 :::tabs
 == getStateVariantManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="variant/state/IStateVariantManager.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariantManager</a></span>&nbsp;<span class="element-name">getStateVariantManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="variant/state/IStateVariantManager.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariantManager</a></span>&nbsp;<span class="element-name">getStateVariantManager</span>()</div>
+Returns the manager that registers and applies state variants.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 
@@ -776,8 +752,12 @@ Handles showing notifications to the player.
 :::tabs
 == getDefaultCuttingOperation
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="cutting/operation/ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a></span>&nbsp;<span class="element-name">getDefaultCuttingOperation</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="cutting/operation/ICuttingOperation.html" title="interface in mod.chiselsandbits.api.cutting.operation">ICuttingOperation</a></span>&nbsp;<span class="element-name">getDefaultCuttingOperation</span>()</div>
+Returns the default cutting operation used when no operation is selected.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 
@@ -789,8 +769,12 @@ Handles showing notifications to the player.
 :::tabs
 == getDefaultGlueingOperation
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="glueing/operation/IGlueingOperation.html" title="interface in mod.chiselsandbits.api.glueing.operation">IGlueingOperation</a></span>&nbsp;<span class="element-name">getDefaultGlueingOperation</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="glueing/operation/IGlueingOperation.html" title="interface in mod.chiselsandbits.api.glueing.operation">IGlueingOperation</a></span>&nbsp;<span class="element-name">getDefaultGlueingOperation</span>()</div>
+Returns the default glueing operation used when no operation is selected.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 
@@ -802,8 +786,12 @@ Handles showing notifications to the player.
 :::tabs
 == getSnapshotFactory
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="multistate/snapshot/ISnapshotFactory.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">ISnapshotFactory</a></span>&nbsp;<span class="element-name">getSnapshotFactory</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="multistate/snapshot/ISnapshotFactory.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">ISnapshotFactory</a></span>&nbsp;<span class="element-name">getSnapshotFactory</span>()</div>
+Returns the factory used to create snapshots of multi-state objects.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 
@@ -815,8 +803,12 @@ Handles showing notifications to the player.
 :::tabs
 == getEligibilityOptions
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="chiseling/eligibility/IEligibilityOptions.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityOptions</a></span>&nbsp;<span class="element-name">getEligibilityOptions</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="chiseling/eligibility/IEligibilityOptions.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityOptions</a></span>&nbsp;<span class="element-name">getEligibilityOptions</span>()</div>
+Returns the options used to determine whether blocks may be chiseled.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 
@@ -828,8 +820,12 @@ Handles showing notifications to the player.
 :::tabs
 == getAdaptingBitInventoryManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="inventory/bit/IAdaptingBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.bit">IAdaptingBitInventoryManager</a></span>&nbsp;<span class="element-name">getAdaptingBitInventoryManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="inventory/bit/IAdaptingBitInventoryManager.html" title="interface in mod.chiselsandbits.api.inventory.bit">IAdaptingBitInventoryManager</a></span>&nbsp;<span class="element-name">getAdaptingBitInventoryManager</span>()</div>
+Returns the manager that adapts ordinary inventories to bit inventories.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 
@@ -841,8 +837,12 @@ Handles showing notifications to the player.
 :::tabs
 == getPluginDiscoverer
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="plugin/IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></span>&nbsp;<span class="element-name">getPluginDiscoverer</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="plugin/IPluginDiscoverer.html" title="interface in mod.chiselsandbits.api.plugin">IPluginDiscoverer</a></span>&nbsp;<span class="element-name">getPluginDiscoverer</span>()</div>
+Returns the service that discovers platform plugins.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 
@@ -854,8 +854,12 @@ Handles showing notifications to the player.
 :::tabs
 == getClientStateVariantManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="client/variant/state/IClientStateVariantManager.html" title="interface in mod.chiselsandbits.api.client.variant.state">IClientStateVariantManager</a></span>&nbsp;<span class="element-name">getClientStateVariantManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="client/variant/state/IClientStateVariantManager.html" title="interface in mod.chiselsandbits.api.client.variant.state">IClientStateVariantManager</a></span>&nbsp;<span class="element-name">getClientStateVariantManager</span>()</div>
+Returns the client manager for state variants.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 
@@ -867,8 +871,12 @@ Handles showing notifications to the player.
 :::tabs
 == getLaunchPropertyManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="launch/ILaunchPropertyManager.html" title="interface in mod.chiselsandbits.api.launch">ILaunchPropertyManager</a></span>&nbsp;<span class="element-name">getLaunchPropertyManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="launch/ILaunchPropertyManager.html" title="interface in mod.chiselsandbits.api.launch">ILaunchPropertyManager</a></span>&nbsp;<span class="element-name">getLaunchPropertyManager</span>()</div>
+Returns the manager for launch-time properties.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 
@@ -880,8 +888,12 @@ Handles showing notifications to the player.
 :::tabs
 == getIconManager
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="client/icon/IIconManager.html" title="interface in mod.chiselsandbits.api.client.icon">IIconManager</a></span>&nbsp;<span class="element-name">getIconManager</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="client/icon/IIconManager.html" title="interface in mod.chiselsandbits.api.client.icon">IIconManager</a></span>&nbsp;<span class="element-name">getIconManager</span>()</div>
+Returns the manager that provides UI atlas sprites.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 

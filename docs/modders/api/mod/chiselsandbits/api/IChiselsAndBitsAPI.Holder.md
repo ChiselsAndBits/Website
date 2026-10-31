@@ -17,7 +17,7 @@ java.lang.Object
 
   
 
-  
+Holds the API instance installed by the platform bootstrap.  
 
 <dl class="notes"></dl>  
 
@@ -30,7 +30,7 @@ Constructor Summary
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">Holder</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">Holder</a>()</code></td><td><div class="block">Creates the holder; the API instance is shared statically.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -45,8 +45,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static void</code></td><td><code><a href="#setInstance(mod.chiselsandbits.api.IChiselsAndBitsAPI)" class="member-name-link">setInstance</a><wbr>(<a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a>&nbsp;instance)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the API instance installed during bootstrap.</div><br></td></tr>
+  <tr><td><code>static void</code></td><td><code><a href="#setInstance(mod.chiselsandbits.api.IChiselsAndBitsAPI)" class="member-name-link">setInstance</a><wbr>(<a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a>&nbsp;instance)</code></td><td><div class="block">Installs the API instance once during platform initialization.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -55,8 +55,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static void</code></td><td><code><a href="#setInstance(mod.chiselsandbits.api.IChiselsAndBitsAPI)" class="member-name-link">setInstance</a><wbr>(<a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a>&nbsp;instance)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the API instance installed during bootstrap.</div><br></td></tr>
+  <tr><td><code>static void</code></td><td><code><a href="#setInstance(mod.chiselsandbits.api.IChiselsAndBitsAPI)" class="member-name-link">setInstance</a><wbr>(<a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a>&nbsp;instance)</code></td><td><div class="block">Installs the API instance once during platform initialization.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -65,8 +65,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static void</code></td><td><code><a href="#setInstance(mod.chiselsandbits.api.IChiselsAndBitsAPI)" class="member-name-link">setInstance</a><wbr>(<a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a>&nbsp;instance)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the API instance installed during bootstrap.</div><br></td></tr>
+  <tr><td><code>static void</code></td><td><code><a href="#setInstance(mod.chiselsandbits.api.IChiselsAndBitsAPI)" class="member-name-link">setInstance</a><wbr>(<a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a>&nbsp;instance)</code></td><td><div class="block">Installs the API instance once during platform initialization.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -92,6 +92,7 @@ Method Summary
 == Holder
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">Holder</span>()</div>
+Creates the holder; the API instance is shared statically.
 </div>
 :::
 
@@ -111,6 +112,11 @@ Method Summary
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
+Returns the API instance installed during bootstrap.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 
@@ -123,6 +129,11 @@ Method Summary
 == setInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">setInstance</span><wbr><span class="parameters">(<a href="IChiselsAndBitsAPI.html" title="interface in mod.chiselsandbits.api">IChiselsAndBitsAPI</a>&nbsp;instance)</span></div>
+Installs the API instance once during platform initialization.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>instance</code> - API implementation to install</dd>
+</dl>
 </div>
 :::
 

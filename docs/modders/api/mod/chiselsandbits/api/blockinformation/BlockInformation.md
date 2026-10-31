@@ -15,7 +15,14 @@ implements <a href="../serialization/Serializable.Registry.html" title="interfac
 
   
 
-  
+Immutable description of a micro-block held in the Chisels &amp; Bits world: a base <code>BlockState</code>
+paired with an optional <a href="../variant/state/IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state"><code>IStateVariant</code></a> that preserves per-instance overrides.
+
+<p>
+Instances are (de)serialised through the <code>CODEC</code>, <code>MAP_CODEC</code>, and <code>STREAM_CODEC</code> fields, snapshotted via
+<a href="BlockInformation.html#createSnapshot()"><code>BlockInformation.createSnapshot()</code></a>, ordered by block-state id then variant in <a href="BlockInformation.html#compareTo(mod.chiselsandbits.api.blockinformation.BlockInformation)"><code>BlockInformation.compareTo(BlockInformation)</code></a>, and used to build block entities at a position.
+The <a href="BlockInformation.html#AIR"><code>BlockInformation.AIR</code></a> constant describes empty space.
+</p>  
 
 <dl class="notes"></dl>  
 
@@ -71,20 +78,20 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.world.level.block.state.BlockState</code></td><td><code><a href="#blockState()" class="member-name-link">blockState</a>()</code></td><td><div class="block">Returns the value of the <code>blockState</code> record component.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.level.block.state.BlockState</code></td><td><code><a href="#blockState()" class="member-name-link">blockState</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-blockState"><code>blockState</code></a> record component.</div><br></td></tr>
   <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns The codec used for direct serialization..</div><br></td></tr>
-  <tr><td><code>int</code></td><td><code><a href="#compareTo(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">compareTo</a><wbr>(@NotNull <a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#compareTo(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">compareTo</a><wbr>(<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td><div class="block">Creates and returns a deep, independent clone of this object.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isAir()" class="member-name-link">isAir</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isFluid()" class="member-name-link">isFluid</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isAir()" class="member-name-link">isAir</a>()</code></td><td><div class="block">Reports whether the stored block state is air, i.e.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isFluid()" class="member-name-link">isFluid</a>()</code></td><td><div class="block">Reports whether the stored block state currently holds a source (still) fluid such as water or lava.</div><br></td></tr>
   <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns The codec used for complex serialization..</div><br></td></tr>
-  <tr><td><code>@Nullable net.minecraft.world.level.block.entity.BlockEntity</code></td><td><code><a href="#newBlockEntity(net.minecraft.core.BlockPos)" class="member-name-link">newBlockEntity</a><wbr>(net.minecraft.core.BlockPos&nbsp;pos)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@Nullable net.minecraft.world.level.block.entity.BlockEntity</code></td><td><code><a href="#newBlockEntityAtZero()" class="member-name-link">newBlockEntityAtZero</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>@Nullable net.minecraft.world.level.block.entity.BlockEntity</code></td><td><code><a href="#newBlockEntity(net.minecraft.core.BlockPos)" class="member-name-link">newBlockEntity</a><wbr>(net.minecraft.core.BlockPos&nbsp;pos)</code></td><td><div class="block">Creates a fresh block entity for this block state at the given position, then applies this information's variant to it when present.</div><br></td></tr>
+  <tr><td><code>@Nullable net.minecraft.world.level.block.entity.BlockEntity</code></td><td><code><a href="#newBlockEntityAtZero()" class="member-name-link">newBlockEntityAtZero</a>()</code></td><td><div class="block">Creates a fresh block entity for this block state at origin (<code>BlockPos.ZERO</code>).</div><br></td></tr>
   <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns The codec used for streaming serialization..</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="../variant/state/IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</code></td><td><code><a href="#variant()" class="member-name-link">variant</a>()</code></td><td><div class="block">Returns the value of the <code>variant</code> record component.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="../variant/state/IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</code></td><td><code><a href="#variant()" class="member-name-link">variant</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-variant"><code>variant</code></a> record component.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -93,20 +100,20 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.world.level.block.state.BlockState</code></td><td><code><a href="#blockState()" class="member-name-link">blockState</a>()</code></td><td><div class="block">Returns the value of the <code>blockState</code> record component.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.level.block.state.BlockState</code></td><td><code><a href="#blockState()" class="member-name-link">blockState</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-blockState"><code>blockState</code></a> record component.</div><br></td></tr>
   <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns The codec used for direct serialization..</div><br></td></tr>
-  <tr><td><code>int</code></td><td><code><a href="#compareTo(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">compareTo</a><wbr>(@NotNull <a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#compareTo(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">compareTo</a><wbr>(<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td><div class="block">Creates and returns a deep, independent clone of this object.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isAir()" class="member-name-link">isAir</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isFluid()" class="member-name-link">isFluid</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isAir()" class="member-name-link">isAir</a>()</code></td><td><div class="block">Reports whether the stored block state is air, i.e.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isFluid()" class="member-name-link">isFluid</a>()</code></td><td><div class="block">Reports whether the stored block state currently holds a source (still) fluid such as water or lava.</div><br></td></tr>
   <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns The codec used for complex serialization..</div><br></td></tr>
-  <tr><td><code>@Nullable net.minecraft.world.level.block.entity.BlockEntity</code></td><td><code><a href="#newBlockEntity(net.minecraft.core.BlockPos)" class="member-name-link">newBlockEntity</a><wbr>(net.minecraft.core.BlockPos&nbsp;pos)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@Nullable net.minecraft.world.level.block.entity.BlockEntity</code></td><td><code><a href="#newBlockEntityAtZero()" class="member-name-link">newBlockEntityAtZero</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>@Nullable net.minecraft.world.level.block.entity.BlockEntity</code></td><td><code><a href="#newBlockEntity(net.minecraft.core.BlockPos)" class="member-name-link">newBlockEntity</a><wbr>(net.minecraft.core.BlockPos&nbsp;pos)</code></td><td><div class="block">Creates a fresh block entity for this block state at the given position, then applies this information's variant to it when present.</div><br></td></tr>
+  <tr><td><code>@Nullable net.minecraft.world.level.block.entity.BlockEntity</code></td><td><code><a href="#newBlockEntityAtZero()" class="member-name-link">newBlockEntityAtZero</a>()</code></td><td><div class="block">Creates a fresh block entity for this block state at origin (<code>BlockPos.ZERO</code>).</div><br></td></tr>
   <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns The codec used for streaming serialization..</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="../variant/state/IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</code></td><td><code><a href="#variant()" class="member-name-link">variant</a>()</code></td><td><div class="block">Returns the value of the <code>variant</code> record component.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="../variant/state/IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</code></td><td><code><a href="#variant()" class="member-name-link">variant</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-variant"><code>variant</code></a> record component.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -115,20 +122,20 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.world.level.block.state.BlockState</code></td><td><code><a href="#blockState()" class="member-name-link">blockState</a>()</code></td><td><div class="block">Returns the value of the <code>blockState</code> record component.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.level.block.state.BlockState</code></td><td><code><a href="#blockState()" class="member-name-link">blockState</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-blockState"><code>blockState</code></a> record component.</div><br></td></tr>
   <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns The codec used for direct serialization..</div><br></td></tr>
-  <tr><td><code>int</code></td><td><code><a href="#compareTo(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">compareTo</a><wbr>(@NotNull <a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#compareTo(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">compareTo</a><wbr>(<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td><div class="block">Creates and returns a deep, independent clone of this object.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isAir()" class="member-name-link">isAir</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isFluid()" class="member-name-link">isFluid</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isAir()" class="member-name-link">isAir</a>()</code></td><td><div class="block">Reports whether the stored block state is air, i.e.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isFluid()" class="member-name-link">isFluid</a>()</code></td><td><div class="block">Reports whether the stored block state currently holds a source (still) fluid such as water or lava.</div><br></td></tr>
   <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns The codec used for complex serialization..</div><br></td></tr>
-  <tr><td><code>@Nullable net.minecraft.world.level.block.entity.BlockEntity</code></td><td><code><a href="#newBlockEntity(net.minecraft.core.BlockPos)" class="member-name-link">newBlockEntity</a><wbr>(net.minecraft.core.BlockPos&nbsp;pos)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@Nullable net.minecraft.world.level.block.entity.BlockEntity</code></td><td><code><a href="#newBlockEntityAtZero()" class="member-name-link">newBlockEntityAtZero</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>@Nullable net.minecraft.world.level.block.entity.BlockEntity</code></td><td><code><a href="#newBlockEntity(net.minecraft.core.BlockPos)" class="member-name-link">newBlockEntity</a><wbr>(net.minecraft.core.BlockPos&nbsp;pos)</code></td><td><div class="block">Creates a fresh block entity for this block state at the given position, then applies this information's variant to it when present.</div><br></td></tr>
+  <tr><td><code>@Nullable net.minecraft.world.level.block.entity.BlockEntity</code></td><td><code><a href="#newBlockEntityAtZero()" class="member-name-link">newBlockEntityAtZero</a>()</code></td><td><div class="block">Creates a fresh block entity for this block state at origin (<code>BlockPos.ZERO</code>).</div><br></td></tr>
   <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns The codec used for streaming serialization..</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="../variant/state/IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</code></td><td><code><a href="#variant()" class="member-name-link">variant</a>()</code></td><td><div class="block">Returns the value of the <code>variant</code> record component.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="../variant/state/IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</code></td><td><code><a href="#variant()" class="member-name-link">variant</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-variant"><code>variant</code></a> record component.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -221,8 +228,8 @@ Method Summary
 Creates an instance of a <code>BlockInformation</code> record class.
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>blockState</code> - the value for the <code>blockState</code> record component</dd>
-<dd><code>variant</code> - the value for the <code>variant</code> record component</dd>
+<dd><code>blockState</code> - the value for the <a href="#param-blockState"><code>blockState</code></a> record component</dd>
+<dd><code>variant</code> - the value for the <a href="#param-variant"><code>variant</code></a> record component</dd>
 </dl>
 </div>
 :::
@@ -243,6 +250,11 @@ Creates an instance of a <code>BlockInformation</code> record class.
 == isFluid
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isFluid</span>()</div>
+Reports whether the stored block state currently holds a source (still) fluid such as water or lava.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd><code>true</code> if this position occupies a still/source fluid; <code>false</code> for solids, air, and flowing fluids.</dd>
+</dl>
 </div>
 :::
 
@@ -255,6 +267,11 @@ Creates an instance of a <code>BlockInformation</code> record class.
 == isAir
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isAir</span>()</div>
+Reports whether the stored block state is air, i.e. represents empty space in the micro-block world.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd><code>true</code> if the block state is air; otherwise <code>false</code>.</dd>
+</dl>
 </div>
 :::
 
@@ -267,9 +284,13 @@ Creates an instance of a <code>BlockInformation</code> record class.
 == createSnapshot
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">createSnapshot</span>()</div>
+<div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../util/ISnapshotable.html#createSnapshot()">ISnapshotable</a></code></span></div>
+Creates and returns a deep, independent clone of this object.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../util/ISnapshotable.html#createSnapshot()">createSnapshot</a></code>&nbsp;in interface&nbsp;<code><a href="../util/ISnapshotable.html" title="interface in mod.chiselsandbits.api.util">ISnapshotable</a>&lt;<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></dd>
+<dt>Returns:</dt>
+<dd>an independent snapshot of this object</dd>
 </dl>
 </div>
 :::
@@ -282,8 +303,7 @@ Creates an instance of a <code>BlockInformation</code> record class.
 :::tabs
 == compareTo
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">compareTo</span><wbr><span class="parameters">(@NotNull
- @NotNull <a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">compareTo</span><wbr><span class="parameters">(<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Comparable.html#compareTo(T)" title="class or interface in java.lang" class="external-link">compareTo</a></code>&nbsp;in interface&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Comparable.html" title="class or interface in java.lang" class="external-link">Comparable</a>&lt;<a href="BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></dd>
@@ -365,8 +385,12 @@ Returns The codec used for streaming serialization..
 :::tabs
 == newBlockEntityAtZero
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@Nullable
-</span><span class="modifiers">public</span>&nbsp;<span class="return-type">@Nullable net.minecraft.world.level.block.entity.BlockEntity</span>&nbsp;<span class="element-name">newBlockEntityAtZero</span>()</div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">@Nullable net.minecraft.world.level.block.entity.BlockEntity</span>&nbsp;<span class="element-name">newBlockEntityAtZero</span>()</div>
+Creates a fresh block entity for this block state at origin (<code>BlockPos.ZERO</code>).
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the created block entity, or <code>null</code> if no entity could be constructed. The value may be <code>null</code>.</dd>
+</dl>
 </div>
 :::
 
@@ -378,8 +402,14 @@ Returns The codec used for streaming serialization..
 :::tabs
 == newBlockEntity
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@Nullable
-</span><span class="modifiers">public</span>&nbsp;<span class="return-type">@Nullable net.minecraft.world.level.block.entity.BlockEntity</span>&nbsp;<span class="element-name">newBlockEntity</span><wbr><span class="parameters">(net.minecraft.core.BlockPos&nbsp;pos)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">@Nullable net.minecraft.world.level.block.entity.BlockEntity</span>&nbsp;<span class="element-name">newBlockEntity</span><wbr><span class="parameters">(net.minecraft.core.BlockPos&nbsp;pos)</span></div>
+Creates a fresh block entity for this block state at the given position, then applies this information's variant to it when present.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>pos</code> - the world position at which to create the block entity.</dd>
+<dt>Returns:</dt>
+<dd>the newly created block entity, or <code>null</code> if the block is not an entity block or no entity was constructed. The value may be <code>null</code>.</dd>
+</dl>
 </div>
 :::
 
@@ -451,10 +481,10 @@ Indicates whether some other object is "equal to" this one. The objects are equa
 == blockState
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.world.level.block.state.BlockState</span>&nbsp;<span class="element-name">blockState</span>()</div>
-Returns the value of the <code>blockState</code> record component.
+Returns the value of the <a href="#param-blockState"><code>blockState</code></a> record component.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <code>blockState</code> record component</dd>
+<dd>the value of the <a href="#param-blockState"><code>blockState</code></a> record component</dd>
 </dl>
 </div>
 :::
@@ -468,10 +498,10 @@ Returns the value of the <code>blockState</code> record component.
 == variant
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="../variant/state/IStateVariant.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariant</a>&gt;</span>&nbsp;<span class="element-name">variant</span>()</div>
-Returns the value of the <code>variant</code> record component.
+Returns the value of the <a href="#param-variant"><code>variant</code></a> record component.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <code>variant</code> record component</dd>
+<dd>the value of the <a href="#param-variant"><code>variant</code></a> record component</dd>
 </dl>
 </div>
 :::

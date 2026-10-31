@@ -12,7 +12,9 @@ _Package:_ [mod.chiselsandbits.api.block.state.id](index)
 
 The blockstate id manager which manages the blockstate ids for the current session.
 
-Generally this manager is comparable to the relevant methods in the game registry.  
+<p>
+Generally this manager is comparable to the relevant methods in the game registry.
+</p>  
 
 <dl class="notes"></dl>  
 
@@ -27,7 +29,7 @@ Method Summary
   <tbody>
   <tr><td><code>default net.minecraft.world.level.block.state.BlockState</code></td><td><code><a href="#getBlockStateFrom(int)" class="member-name-link">getBlockStateFrom</a><wbr>(int&nbsp;id)</code></td><td><div class="block">Calculates the blockstate from the given id.</div><br></td></tr>
   <tr><td><code>default int</code></td><td><code><a href="#getIdFrom(net.minecraft.world.level.block.state.BlockState)" class="member-name-link">getIdFrom</a><wbr>(net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</code></td><td><div class="block">Calculates the the integer id representation of the blockstate.</div><br></td></tr>
-  <tr><td><code>static <a href="IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the shared block state id manager instance.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -36,7 +38,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the shared block state id manager instance.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -82,6 +84,11 @@ Method Summary
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IBlockStateIdManager.html" title="interface in mod.chiselsandbits.api.block.state.id">IBlockStateIdManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
+Returns the shared block state id manager instance.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the manager provided by the active Chisels &amp; Bits API instance</dd>
+</dl>
 </div>
 :::
 

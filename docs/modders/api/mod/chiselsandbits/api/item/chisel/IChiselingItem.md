@@ -14,7 +14,7 @@ extends <a href="../click/ILeftClickControllingItem.html" title="interface in mo
 
   
 
-  
+Contract for items that initiate chiseling interactions.  
 
 <dl class="notes"></dl>  
 
@@ -27,7 +27,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>boolean</code></td><td><code><a href="#isDamageableDuringChiseling()" class="member-name-link">isDamageableDuringChiseling</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isDamageableDuringChiseling()" class="member-name-link">isDamageableDuringChiseling</a>()</code></td><td><div class="block">Reports whether the chisel item takes damage while chiseling.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -36,7 +36,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>boolean</code></td><td><code><a href="#isDamageableDuringChiseling()" class="member-name-link">isDamageableDuringChiseling</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isDamageableDuringChiseling()" class="member-name-link">isDamageableDuringChiseling</a>()</code></td><td><div class="block">Reports whether the chisel item takes damage while chiseling.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -45,7 +45,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>boolean</code></td><td><code><a href="#isDamageableDuringChiseling()" class="member-name-link">isDamageableDuringChiseling</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isDamageableDuringChiseling()" class="member-name-link">isDamageableDuringChiseling</a>()</code></td><td><div class="block">Reports whether the chisel item takes damage while chiseling.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -83,6 +83,11 @@ Method Summary
 == isDamageableDuringChiseling
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isDamageableDuringChiseling</span>()</div>
+Reports whether the chisel item takes damage while chiseling.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>whether the requested condition holds.</dd>
+</dl>
 </div>
 :::
 

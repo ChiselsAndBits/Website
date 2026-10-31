@@ -14,7 +14,7 @@ extends net.minecraft.client.gui.components.Renderable, net.minecraft.client.gui
 
   
 
-  
+Contract for widgets integrated with Chisels &amp; Bits screens.  
 
 <dl class="notes"></dl>  
 

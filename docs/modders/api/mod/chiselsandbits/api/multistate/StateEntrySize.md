@@ -53,7 +53,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></code></td><td><code><a href="#current()" class="member-name-link">current</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></code></td><td><code><a href="#current()" class="member-name-link">current</a>()</code></td><td><div class="block">Returns the currently configured state-entry size.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getArrayIndexForPosition(int,int,int)" class="member-name-link">getArrayIndexForPosition</a><wbr>(int&nbsp;x,<br> int&nbsp;y,<br> int&nbsp;z)</code></td><td><div class="block">The array index for a given position when the current state entry size is used.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getArrayIndexForPosition(net.minecraft.core.Vec3i)" class="member-name-link">getArrayIndexForPosition</a><wbr>(net.minecraft.core.Vec3i&nbsp;coordinate)</code></td><td><div class="block">The array index for a given position when the current state entry size is used.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getBitsPerBlock()" class="member-name-link">getBitsPerBlock</a>()</code></td><td><div class="block">The total amount of bits per block.</div><br></td></tr>
@@ -77,7 +77,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></code></td><td><code><a href="#current()" class="member-name-link">current</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></code></td><td><code><a href="#current()" class="member-name-link">current</a>()</code></td><td><div class="block">Returns the currently configured state-entry size.</div><br></td></tr>
   <tr><td><code>static <a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></code></td><td><code><a href="#valueOf(java.lang.String)" class="member-name-link">valueOf</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Returns the enum constant of this class with the specified name.</div><br></td></tr>
   <tr><td><code>static <a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a>[]</code></td><td><code><a href="#values()" class="member-name-link">values</a>()</code></td><td><div class="block">Returns an array containing the constants of this enum class, in<br>the order they are declared.</div><br></td></tr>
   </tbody>
@@ -109,7 +109,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></code></td><td><code><a href="#current()" class="member-name-link">current</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></code></td><td><code><a href="#current()" class="member-name-link">current</a>()</code></td><td><div class="block">Returns the currently configured state-entry size.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getArrayIndexForPosition(int,int,int)" class="member-name-link">getArrayIndexForPosition</a><wbr>(int&nbsp;x,<br> int&nbsp;y,<br> int&nbsp;z)</code></td><td><div class="block">The array index for a given position when the current state entry size is used.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getArrayIndexForPosition(net.minecraft.core.Vec3i)" class="member-name-link">getArrayIndexForPosition</a><wbr>(net.minecraft.core.Vec3i&nbsp;coordinate)</code></td><td><div class="block">The array index for a given position when the current state entry size is used.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getBitsPerBlock()" class="member-name-link">getBitsPerBlock</a>()</code></td><td><div class="block">The total amount of bits per block.</div><br></td></tr>
@@ -270,6 +270,11 @@ not permitted.)
 == current
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="StateEntrySize.html" title="enum class in mod.chiselsandbits.api.multistate">StateEntrySize</a></span>&nbsp;<span class="element-name">current</span>()</div>
+Returns the currently configured state-entry size.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>configured size, or <a href="#ONE_SIXTEENTH"><code>ONE_SIXTEENTH</code></a> before API initialization</dd>
+</dl>
 </div>
 :::
 
@@ -505,10 +510,10 @@ Takes in a 3D vector and rounds its components down to the nearest multiple of t
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">getDamageFactor</span>()</div>
 Calculates how much damage should be applied to tools for the harvest of a given bit within this size.
 <p>
-    The scale factor is 1 for 1/16, and grows with the cubicly per level, with the amount of 1/16 bits that the size represents.
-    So for 1/8, it is 8 (as 2x2x2 1/16th bits fit in one 1/8 bit)
-    For 1/4, it is 64 (as 4x4x4 1/16th bits fit in one 1/4 bit)
-    etc.
+The scale factor is 1 for 1/16, and grows with the cubicly per level, with the amount of 1/16 bits that the size represents.
+So for 1/8, it is 8 (as 2x2x2 1/16th bits fit in one 1/8 bit)
+For 1/4, it is 64 (as 4x4x4 1/16th bits fit in one 1/4 bit)
+etc.
 </p>
 <dl class="notes">
 <dt>Returns:</dt>

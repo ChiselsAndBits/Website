@@ -27,8 +27,8 @@ Field Summary
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</code></td><td><code><a href="#CODEC" class="member-name-link">CODEC</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</code></td><td><code><a href="#STREAM_CODEC" class="member-name-link">STREAM_CODEC</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</code></td><td><code><a href="#CODEC" class="member-name-link">CODEC</a></code></td><td><div class="block">Codec for serializing changes by their registered change type.</div><br></td></tr>
+  <tr><td><code>static final net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</code></td><td><code><a href="#STREAM_CODEC" class="member-name-link">STREAM_CODEC</a></code></td><td><div class="block">Network codec for serializing changes by their registered change type.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -85,6 +85,7 @@ Method Summary
 == CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</span>&nbsp;<span class="element-name">CODEC</span></div>
+Codec for serializing changes by their registered change type.
 </div>
 :::
 
@@ -97,6 +98,7 @@ Method Summary
 == STREAM_CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="IChange.html" title="interface in mod.chiselsandbits.api.change.changes">IChange</a>&gt;</span>&nbsp;<span class="element-name">STREAM_CODEC</span></div>
+Network codec for serializing changes by their registered change type.
 </div>
 :::
 

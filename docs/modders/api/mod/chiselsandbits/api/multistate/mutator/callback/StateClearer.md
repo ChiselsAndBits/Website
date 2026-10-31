@@ -14,7 +14,7 @@ This is a functional interface and can therefore be used as the assignment targe
 
   
 
-  
+Defines state clearer.  
 
 <dl class="notes"></dl>  
 
@@ -27,7 +27,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>void</code></td><td><code><a href="#accept(net.minecraft.world.phys.Vec3)" class="member-name-link">accept</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;pos)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#accept(net.minecraft.world.phys.Vec3)" class="member-name-link">accept</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;pos)</code></td><td><div class="block">Applies the callback to the supplied position.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -36,7 +36,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>void</code></td><td><code><a href="#accept(net.minecraft.world.phys.Vec3)" class="member-name-link">accept</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;pos)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#accept(net.minecraft.world.phys.Vec3)" class="member-name-link">accept</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;pos)</code></td><td><div class="block">Applies the callback to the supplied position.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -45,7 +45,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>void</code></td><td><code><a href="#accept(net.minecraft.world.phys.Vec3)" class="member-name-link">accept</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;pos)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#accept(net.minecraft.world.phys.Vec3)" class="member-name-link">accept</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;pos)</code></td><td><div class="block">Applies the callback to the supplied position.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -71,6 +71,11 @@ Method Summary
 == accept
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">accept</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;pos)</span></div>
+Applies the callback to the supplied position.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>pos</code> - position to inspect.</dd>
+</dl>
 </div>
 :::
 

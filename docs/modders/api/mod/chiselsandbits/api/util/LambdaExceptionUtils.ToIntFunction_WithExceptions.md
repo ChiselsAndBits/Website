@@ -5,6 +5,10 @@ sidebar: false
 ---
 _Package:_ [mod.chiselsandbits.api.util](index)  
 # Interface ToIntFunction_WithExceptions\<T,E extends Exception\>  
+**Type Parameters:**  
+T - type of input value  
+E - checked exception type that may be thrown  
+
 **Enclosing Class:**  
 [LambdaExceptionUtils](LambdaExceptionUtils)  
 
@@ -17,7 +21,7 @@ This is a functional interface and can therefore be used as the assignment targe
 
   
 
-  
+Integer-returning function whose operation may throw a checked exception.  
 
 <dl class="notes"></dl>  
 
@@ -30,7 +34,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>int</code></td><td><code><a href="#applyAsInt(T)" class="member-name-link">applyAsInt</a><wbr>(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.ToIntFunction_WithExceptions">T</a>&nbsp;t)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#applyAsInt(T)" class="member-name-link">applyAsInt</a><wbr>(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.ToIntFunction_WithExceptions">T</a>&nbsp;t)</code></td><td><div class="block">Applies the function and may throw the declared exception.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -39,7 +43,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>int</code></td><td><code><a href="#applyAsInt(T)" class="member-name-link">applyAsInt</a><wbr>(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.ToIntFunction_WithExceptions">T</a>&nbsp;t)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#applyAsInt(T)" class="member-name-link">applyAsInt</a><wbr>(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.ToIntFunction_WithExceptions">T</a>&nbsp;t)</code></td><td><div class="block">Applies the function and may throw the declared exception.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -48,7 +52,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>int</code></td><td><code><a href="#applyAsInt(T)" class="member-name-link">applyAsInt</a><wbr>(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.ToIntFunction_WithExceptions">T</a>&nbsp;t)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#applyAsInt(T)" class="member-name-link">applyAsInt</a><wbr>(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.ToIntFunction_WithExceptions">T</a>&nbsp;t)</code></td><td><div class="block">Applies the function and may throw the declared exception.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -75,9 +79,14 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">int</span>&nbsp;<span class="element-name">applyAsInt</span><wbr><span class="parameters">(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.ToIntFunction_WithExceptions">T</a>&nbsp;t)</span>
         throws <span class="exceptions">E</span></div>
+Applies the function and may throw the declared exception.
 <dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>t</code> - input value</dd>
+<dt>Returns:</dt>
+<dd>the computed integer</dd>
 <dt>Throws:</dt>
-<dd><code>E</code></dd>
+<dd><code>E</code> - if the operation fails</dd>
 </dl>
 </div>
 :::

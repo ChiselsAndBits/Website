@@ -45,14 +45,14 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static &lt;T&gt;&nbsp;<a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;T&gt;</code></td><td><code><a href="#changed(T,int)" class="member-name-link">changed</a><wbr>(T&nbsp;value,<br> int&nbsp;size)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static &lt;T&gt;&nbsp;<a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;T&gt;</code></td><td><code><a href="#changed(T,int)" class="member-name-link">changed</a><wbr>(T&nbsp;value,<br> int&nbsp;size)</code></td><td><div class="block">Wraps a result value and the new palette size after a change.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>static &lt;T&gt;&nbsp;<a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;T&gt;</code></td><td><code><a href="#notChanged(T)" class="member-name-link">notChanged</a><wbr>(T&nbsp;value)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static &lt;T&gt;&nbsp;<a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;T&gt;</code></td><td><code><a href="#notChanged(T)" class="member-name-link">notChanged</a><wbr>(T&nbsp;value)</code></td><td><div class="block">Wraps a result value when the operation left palette size unchanged.</div><br></td></tr>
   <tr><td><code><a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#size()" class="member-name-link">size</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-size"><code>size</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   <tr><td><code><a href="#type-param-T" title="type parameter in StateEntryPalette.Result">T</a></code></td><td><code><a href="#value()" class="member-name-link">value</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-value"><code>value</code></a> record component.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#whenSizeChanged(java.util.function.Consumer)" class="member-name-link">whenSizeChanged</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;&nbsp;consumer)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#whenSizeChanged(java.util.function.Consumer)" class="member-name-link">whenSizeChanged</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;&nbsp;consumer)</code></td><td><div class="block">Invokes the consumer only when the operation changed palette size.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -61,8 +61,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static &lt;T&gt;&nbsp;<a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;T&gt;</code></td><td><code><a href="#changed(T,int)" class="member-name-link">changed</a><wbr>(T&nbsp;value,<br> int&nbsp;size)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static &lt;T&gt;&nbsp;<a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;T&gt;</code></td><td><code><a href="#notChanged(T)" class="member-name-link">notChanged</a><wbr>(T&nbsp;value)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static &lt;T&gt;&nbsp;<a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;T&gt;</code></td><td><code><a href="#changed(T,int)" class="member-name-link">changed</a><wbr>(T&nbsp;value,<br> int&nbsp;size)</code></td><td><div class="block">Wraps a result value and the new palette size after a change.</div><br></td></tr>
+  <tr><td><code>static &lt;T&gt;&nbsp;<a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;T&gt;</code></td><td><code><a href="#notChanged(T)" class="member-name-link">notChanged</a><wbr>(T&nbsp;value)</code></td><td><div class="block">Wraps a result value when the operation left palette size unchanged.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -76,7 +76,7 @@ Method Summary
   <tr><td><code><a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#size()" class="member-name-link">size</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-size"><code>size</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   <tr><td><code><a href="#type-param-T" title="type parameter in StateEntryPalette.Result">T</a></code></td><td><code><a href="#value()" class="member-name-link">value</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-value"><code>value</code></a> record component.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#whenSizeChanged(java.util.function.Consumer)" class="member-name-link">whenSizeChanged</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;&nbsp;consumer)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#whenSizeChanged(java.util.function.Consumer)" class="member-name-link">whenSizeChanged</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;&nbsp;consumer)</code></td><td><div class="block">Invokes the consumer only when the operation changed palette size.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -85,14 +85,14 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static &lt;T&gt;&nbsp;<a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;T&gt;</code></td><td><code><a href="#changed(T,int)" class="member-name-link">changed</a><wbr>(T&nbsp;value,<br> int&nbsp;size)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static &lt;T&gt;&nbsp;<a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;T&gt;</code></td><td><code><a href="#changed(T,int)" class="member-name-link">changed</a><wbr>(T&nbsp;value,<br> int&nbsp;size)</code></td><td><div class="block">Wraps a result value and the new palette size after a change.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>static &lt;T&gt;&nbsp;<a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;T&gt;</code></td><td><code><a href="#notChanged(T)" class="member-name-link">notChanged</a><wbr>(T&nbsp;value)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static &lt;T&gt;&nbsp;<a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;T&gt;</code></td><td><code><a href="#notChanged(T)" class="member-name-link">notChanged</a><wbr>(T&nbsp;value)</code></td><td><div class="block">Wraps a result value when the operation left palette size unchanged.</div><br></td></tr>
   <tr><td><code><a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#size()" class="member-name-link">size</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-size"><code>size</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   <tr><td><code><a href="#type-param-T" title="type parameter in StateEntryPalette.Result">T</a></code></td><td><code><a href="#value()" class="member-name-link">value</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-value"><code>value</code></a> record component.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#whenSizeChanged(java.util.function.Consumer)" class="member-name-link">whenSizeChanged</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;&nbsp;consumer)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#whenSizeChanged(java.util.function.Consumer)" class="member-name-link">whenSizeChanged</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;&nbsp;consumer)</code></td><td><div class="block">Invokes the consumer only when the operation changed palette size.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -144,6 +144,15 @@ Creates an instance of a <code>Result</code> record class.
 == notChanged
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="type-parameters">&lt;T&gt;</span>&nbsp;<span class="return-type"><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a>&lt;T&gt;</span>&nbsp;<span class="element-name">notChanged</span><wbr><span class="parameters">(T&nbsp;value)</span></div>
+Wraps a result value when the operation left palette size unchanged.
+<dl class="notes">
+<dt>Type Parameters:</dt>
+<dd><span id="notChanged(T)-type-param-T"><code>T</code> - type of the wrapped value</span></dd>
+<dt>Parameters:</dt>
+<dd><code>value</code> - value produced by the operation</dd>
+<dt>Returns:</dt>
+<dd>a result marked as having no palette-size change</dd>
+</dl>
 </div>
 :::
 
@@ -157,6 +166,16 @@ Creates an instance of a <code>Result</code> record class.
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="type-parameters">&lt;T&gt;</span>&nbsp;<span class="return-type"><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a>&lt;T&gt;</span>&nbsp;<span class="element-name">changed</span><wbr><span class="parameters">(T&nbsp;value,
  int&nbsp;size)</span></div>
+Wraps a result value and the new palette size after a change.
+<dl class="notes">
+<dt>Type Parameters:</dt>
+<dd><span id="changed(T,int)-type-param-T"><code>T</code> - type of the wrapped value</span></dd>
+<dt>Parameters:</dt>
+<dd><code>value</code> - value produced by the operation</dd>
+<dd><code>size</code> - new palette size</dd>
+<dt>Returns:</dt>
+<dd>a result marked with the supplied new palette size</dd>
+</dl>
 </div>
 :::
 
@@ -169,6 +188,11 @@ Creates an instance of a <code>Result</code> record class.
 == whenSizeChanged
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">whenSizeChanged</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Consumer.html" title="class or interface in java.util.function" class="external-link">Consumer</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;&nbsp;consumer)</span></div>
+Invokes the consumer only when the operation changed palette size.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>consumer</code> - callback that receives the new palette size when it changed</dd>
+</dl>
 </div>
 :::
 

@@ -36,11 +36,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation()" class="member-name-link">getBlockInformation</a>()</code></td><td><div class="block">The state that this entry represents.</div><br></td></tr>
-  <tr><td><code>default @NotNull net.minecraft.world.phys.AABB</code></td><td><code><a href="#getBoundingBox()" class="member-name-link">getBoundingBox</a>()</code></td><td><div class="block">Gives access to the bounding box of this object.</div><br></td></tr>
-  <tr><td><code>default @NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getCenterPoint()" class="member-name-link">getCenterPoint</a>()</code></td><td><div class="block">The center point of the entry in the current block.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getEndPoint()" class="member-name-link">getEndPoint</a>()</code></td><td><div class="block">The end (highest on all three axi) position of the state that this entry occupies.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getStartPoint()" class="member-name-link">getStartPoint</a>()</code></td><td><div class="block">The start (lowest on all three axi) position of the state that this entry occupies.</div><br></td></tr>
+  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation()" class="member-name-link">getBlockInformation</a>()</code></td><td><div class="block">The state that this entry represents.</div><br></td></tr>
+  <tr><td><code>default net.minecraft.world.phys.AABB</code></td><td><code><a href="#getBoundingBox()" class="member-name-link">getBoundingBox</a>()</code></td><td><div class="block">Gives access to the bounding box of this object.</div><br></td></tr>
+  <tr><td><code>default net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getCenterPoint()" class="member-name-link">getCenterPoint</a>()</code></td><td><div class="block">The center point of the entry in the current block.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getEndPoint()" class="member-name-link">getEndPoint</a>()</code></td><td><div class="block">The end (highest on all three axi) position of the state that this entry occupies.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getStartPoint()" class="member-name-link">getStartPoint</a>()</code></td><td><div class="block">The start (lowest on all three axi) position of the state that this entry occupies.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -49,11 +49,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation()" class="member-name-link">getBlockInformation</a>()</code></td><td><div class="block">The state that this entry represents.</div><br></td></tr>
-  <tr><td><code>default @NotNull net.minecraft.world.phys.AABB</code></td><td><code><a href="#getBoundingBox()" class="member-name-link">getBoundingBox</a>()</code></td><td><div class="block">Gives access to the bounding box of this object.</div><br></td></tr>
-  <tr><td><code>default @NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getCenterPoint()" class="member-name-link">getCenterPoint</a>()</code></td><td><div class="block">The center point of the entry in the current block.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getEndPoint()" class="member-name-link">getEndPoint</a>()</code></td><td><div class="block">The end (highest on all three axi) position of the state that this entry occupies.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getStartPoint()" class="member-name-link">getStartPoint</a>()</code></td><td><div class="block">The start (lowest on all three axi) position of the state that this entry occupies.</div><br></td></tr>
+  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation()" class="member-name-link">getBlockInformation</a>()</code></td><td><div class="block">The state that this entry represents.</div><br></td></tr>
+  <tr><td><code>default net.minecraft.world.phys.AABB</code></td><td><code><a href="#getBoundingBox()" class="member-name-link">getBoundingBox</a>()</code></td><td><div class="block">Gives access to the bounding box of this object.</div><br></td></tr>
+  <tr><td><code>default net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getCenterPoint()" class="member-name-link">getCenterPoint</a>()</code></td><td><div class="block">The center point of the entry in the current block.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getEndPoint()" class="member-name-link">getEndPoint</a>()</code></td><td><div class="block">The end (highest on all three axi) position of the state that this entry occupies.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getStartPoint()" class="member-name-link">getStartPoint</a>()</code></td><td><div class="block">The start (lowest on all three axi) position of the state that this entry occupies.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -62,9 +62,9 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation()" class="member-name-link">getBlockInformation</a>()</code></td><td><div class="block">The state that this entry represents.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getEndPoint()" class="member-name-link">getEndPoint</a>()</code></td><td><div class="block">The end (highest on all three axi) position of the state that this entry occupies.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getStartPoint()" class="member-name-link">getStartPoint</a>()</code></td><td><div class="block">The start (lowest on all three axi) position of the state that this entry occupies.</div><br></td></tr>
+  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation()" class="member-name-link">getBlockInformation</a>()</code></td><td><div class="block">The state that this entry represents.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getEndPoint()" class="member-name-link">getEndPoint</a>()</code></td><td><div class="block">The end (highest on all three axi) position of the state that this entry occupies.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getStartPoint()" class="member-name-link">getStartPoint</a>()</code></td><td><div class="block">The start (lowest on all three axi) position of the state that this entry occupies.</div><br></td></tr>
   </tbody>
 </table>
 == Default Methods
@@ -73,8 +73,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>default @NotNull net.minecraft.world.phys.AABB</code></td><td><code><a href="#getBoundingBox()" class="member-name-link">getBoundingBox</a>()</code></td><td><div class="block">Gives access to the bounding box of this object.</div><br></td></tr>
-  <tr><td><code>default @NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getCenterPoint()" class="member-name-link">getCenterPoint</a>()</code></td><td><div class="block">The center point of the entry in the current block.</div><br></td></tr>
+  <tr><td><code>default net.minecraft.world.phys.AABB</code></td><td><code><a href="#getBoundingBox()" class="member-name-link">getBoundingBox</a>()</code></td><td><div class="block">Gives access to the bounding box of this object.</div><br></td></tr>
+  <tr><td><code>default net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getCenterPoint()" class="member-name-link">getCenterPoint</a>()</code></td><td><div class="block">The center point of the entry in the current block.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -99,8 +99,7 @@ Method Summary
 :::tabs
 == getBlockInformation
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getBlockInformation</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getBlockInformation</span>()</div>
 The state that this entry represents.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -117,8 +116,7 @@ The state that this entry represents.
 :::tabs
 == getStartPoint
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getStartPoint</span>()</div>
+<div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getStartPoint</span>()</div>
 The start (lowest on all three axi) position of the state that this entry occupies.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -135,8 +133,7 @@ The start (lowest on all three axi) position of the state that this entry occupi
 :::tabs
 == getEndPoint
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getEndPoint</span>()</div>
+<div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getEndPoint</span>()</div>
 The end (highest on all three axi) position of the state that this entry occupies.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -153,8 +150,7 @@ The end (highest on all three axi) position of the state that this entry occupie
 :::tabs
 == getCenterPoint
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="modifiers">default</span>&nbsp;<span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getCenterPoint</span>()</div>
+<div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getCenterPoint</span>()</div>
 The center point of the entry in the current block.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -171,8 +167,7 @@ The center point of the entry in the current block.
 :::tabs
 == getBoundingBox
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="modifiers">default</span>&nbsp;<span class="return-type">@NotNull net.minecraft.world.phys.AABB</span>&nbsp;<span class="element-name">getBoundingBox</span>()</div>
+<div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.AABB</span>&nbsp;<span class="element-name">getBoundingBox</span>()</div>
 Gives access to the bounding box of this object.
 <dl class="notes">
 <dt>Specified by:</dt>

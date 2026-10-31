@@ -27,7 +27,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static net.minecraft.core.Vec3i</code></td><td><code><a href="#getFullFacingVector(net.minecraft.world.entity.player.Player)" class="member-name-link">getFullFacingVector</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static net.minecraft.core.Vec3i</code></td><td><code><a href="#getFullFacingVector(net.minecraft.world.entity.player.Player)" class="member-name-link">getFullFacingVector</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Returns the full integer vector for the direction the player is facing.</div><br></td></tr>
   <tr><td><code>static net.minecraft.world.phys.HitResult</code></td><td><code><a href="#rayTracePlayer(net.minecraft.world.entity.player.Player)" class="member-name-link">rayTracePlayer</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Performs a raytrace result within the given reach distance of the given player.</div><br></td></tr>
   </tbody>
 </table>
@@ -37,7 +37,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static net.minecraft.core.Vec3i</code></td><td><code><a href="#getFullFacingVector(net.minecraft.world.entity.player.Player)" class="member-name-link">getFullFacingVector</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static net.minecraft.core.Vec3i</code></td><td><code><a href="#getFullFacingVector(net.minecraft.world.entity.player.Player)" class="member-name-link">getFullFacingVector</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Returns the full integer vector for the direction the player is facing.</div><br></td></tr>
   <tr><td><code>static net.minecraft.world.phys.HitResult</code></td><td><code><a href="#rayTracePlayer(net.minecraft.world.entity.player.Player)" class="member-name-link">rayTracePlayer</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Performs a raytrace result within the given reach distance of the given player.</div><br></td></tr>
   </tbody>
 </table>
@@ -47,7 +47,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static net.minecraft.core.Vec3i</code></td><td><code><a href="#getFullFacingVector(net.minecraft.world.entity.player.Player)" class="member-name-link">getFullFacingVector</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static net.minecraft.core.Vec3i</code></td><td><code><a href="#getFullFacingVector(net.minecraft.world.entity.player.Player)" class="member-name-link">getFullFacingVector</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Returns the full integer vector for the direction the player is facing.</div><br></td></tr>
   <tr><td><code>static net.minecraft.world.phys.HitResult</code></td><td><code><a href="#rayTracePlayer(net.minecraft.world.entity.player.Player)" class="member-name-link">rayTracePlayer</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Performs a raytrace result within the given reach distance of the given player.</div><br></td></tr>
   </tbody>
 </table>
@@ -97,6 +97,13 @@ Performs a raytrace result within the given reach distance of the given player.
 == getFullFacingVector
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.core.Vec3i</span>&nbsp;<span class="element-name">getFullFacingVector</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</span></div>
+Returns the full integer vector for the direction the player is facing.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>playerEntity</code> - player whose look direction is converted</dd>
+<dt>Returns:</dt>
+<dd>a vector containing the signs of the player's look-direction components</dd>
+</dl>
 </div>
 :::
 

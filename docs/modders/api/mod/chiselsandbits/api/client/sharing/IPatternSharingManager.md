@@ -25,7 +25,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code>void</code></td><td><code><a href="#exportPattern(mod.chiselsandbits.api.item.multistate.IMultiStateItemStack,java.lang.String)" class="member-name-link">exportPattern</a><wbr>(<a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a>&nbsp;multiStateItemStack,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Exports the given pattern to disk.</div><br></td></tr>
-  <tr><td><code>static <a href="IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the shared pattern sharing manager instance.</div><br></td></tr>
   <tr><td><code>com.mojang.datafixers.util.Either<wbr>&lt;<a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a>, <a href="PatternIOException.html" title="class in mod.chiselsandbits.api.client.sharing">PatternIOException</a>&gt;</code></td><td><code><a href="#importPattern(java.lang.String)" class="member-name-link">importPattern</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Imports the pattern from disk.</div><br></td></tr>
   </tbody>
 </table>
@@ -35,7 +35,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the shared pattern sharing manager instance.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -81,6 +81,11 @@ Method Summary
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IPatternSharingManager.html" title="interface in mod.chiselsandbits.api.client.sharing">IPatternSharingManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
+Returns the shared pattern sharing manager instance.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the manager provided by the active Chisels &amp; Bits API instance</dd>
+</dl>
 </div>
 :::
 

@@ -43,12 +43,12 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static int</code></td><td><code><a href="#pack(float%5B%5D)" class="member-name-link">pack</a><wbr>(float[]&nbsp;color)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static int</code></td><td><code><a href="#pack(float,float,float,float)" class="member-name-link">pack</a><wbr>(float&nbsp;r,<br> float&nbsp;g,<br> float&nbsp;b,<br> float&nbsp;a)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static int</code></td><td><code><a href="#pack(float%5B%5D)" class="member-name-link">pack</a><wbr>(float[]&nbsp;color)</code></td><td><div class="block">Packs the four channels of <code>color</code> (red, green, blue, alpha in that order) as floats into an ARGB integer.</div><br></td></tr>
+  <tr><td><code>static int</code></td><td><code><a href="#pack(float,float,float,float)" class="member-name-link">pack</a><wbr>(float&nbsp;r,<br> float&nbsp;g,<br> float&nbsp;b,<br> float&nbsp;a)</code></td><td><div class="block">Packs four color channels given as floats in the range <code>0..1</code> into an ARGB integer, scaling each channel to its full byte range.</div><br></td></tr>
   <tr><td><code>static int</code></td><td><code><a href="#pack(int)" class="member-name-link">pack</a><wbr>(int&nbsp;c)</code></td><td><div class="block">Packs all three color channels (plus a full alpha channel) with the same value into an integer.</div><br></td></tr>
   <tr><td><code>static int</code></td><td><code><a href="#pack(int,int,int)" class="member-name-link">pack</a><wbr>(int&nbsp;r,<br> int&nbsp;g,<br> int&nbsp;b)</code></td><td><div class="block">Packs all three color channels (plus a full alpha channel) with the values into an integer.</div><br></td></tr>
   <tr><td><code>static int</code></td><td><code><a href="#pack(int,int,int,int)" class="member-name-link">pack</a><wbr>(int&nbsp;r,<br> int&nbsp;g,<br> int&nbsp;b,<br> int&nbsp;a)</code></td><td><div class="block">Packs all four color channels with the values into an integer.</div><br></td></tr>
-  <tr><td><code>static float[]</code></td><td><code><a href="#unpack(int)" class="member-name-link">unpack</a><wbr>(int&nbsp;color)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static float[]</code></td><td><code><a href="#unpack(int)" class="member-name-link">unpack</a><wbr>(int&nbsp;color)</code></td><td><div class="block">Splits an ARGB integer into its four channels, returned as floats scaled to the range <code>0..1</code>.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -57,12 +57,12 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static int</code></td><td><code><a href="#pack(float%5B%5D)" class="member-name-link">pack</a><wbr>(float[]&nbsp;color)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static int</code></td><td><code><a href="#pack(float,float,float,float)" class="member-name-link">pack</a><wbr>(float&nbsp;r,<br> float&nbsp;g,<br> float&nbsp;b,<br> float&nbsp;a)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static int</code></td><td><code><a href="#pack(float%5B%5D)" class="member-name-link">pack</a><wbr>(float[]&nbsp;color)</code></td><td><div class="block">Packs the four channels of <code>color</code> (red, green, blue, alpha in that order) as floats into an ARGB integer.</div><br></td></tr>
+  <tr><td><code>static int</code></td><td><code><a href="#pack(float,float,float,float)" class="member-name-link">pack</a><wbr>(float&nbsp;r,<br> float&nbsp;g,<br> float&nbsp;b,<br> float&nbsp;a)</code></td><td><div class="block">Packs four color channels given as floats in the range <code>0..1</code> into an ARGB integer, scaling each channel to its full byte range.</div><br></td></tr>
   <tr><td><code>static int</code></td><td><code><a href="#pack(int)" class="member-name-link">pack</a><wbr>(int&nbsp;c)</code></td><td><div class="block">Packs all three color channels (plus a full alpha channel) with the same value into an integer.</div><br></td></tr>
   <tr><td><code>static int</code></td><td><code><a href="#pack(int,int,int)" class="member-name-link">pack</a><wbr>(int&nbsp;r,<br> int&nbsp;g,<br> int&nbsp;b)</code></td><td><div class="block">Packs all three color channels (plus a full alpha channel) with the values into an integer.</div><br></td></tr>
   <tr><td><code>static int</code></td><td><code><a href="#pack(int,int,int,int)" class="member-name-link">pack</a><wbr>(int&nbsp;r,<br> int&nbsp;g,<br> int&nbsp;b,<br> int&nbsp;a)</code></td><td><div class="block">Packs all four color channels with the values into an integer.</div><br></td></tr>
-  <tr><td><code>static float[]</code></td><td><code><a href="#unpack(int)" class="member-name-link">unpack</a><wbr>(int&nbsp;color)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static float[]</code></td><td><code><a href="#unpack(int)" class="member-name-link">unpack</a><wbr>(int&nbsp;color)</code></td><td><div class="block">Splits an ARGB integer into its four channels, returned as floats scaled to the range <code>0..1</code>.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -71,12 +71,12 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static int</code></td><td><code><a href="#pack(float%5B%5D)" class="member-name-link">pack</a><wbr>(float[]&nbsp;color)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static int</code></td><td><code><a href="#pack(float,float,float,float)" class="member-name-link">pack</a><wbr>(float&nbsp;r,<br> float&nbsp;g,<br> float&nbsp;b,<br> float&nbsp;a)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static int</code></td><td><code><a href="#pack(float%5B%5D)" class="member-name-link">pack</a><wbr>(float[]&nbsp;color)</code></td><td><div class="block">Packs the four channels of <code>color</code> (red, green, blue, alpha in that order) as floats into an ARGB integer.</div><br></td></tr>
+  <tr><td><code>static int</code></td><td><code><a href="#pack(float,float,float,float)" class="member-name-link">pack</a><wbr>(float&nbsp;r,<br> float&nbsp;g,<br> float&nbsp;b,<br> float&nbsp;a)</code></td><td><div class="block">Packs four color channels given as floats in the range <code>0..1</code> into an ARGB integer, scaling each channel to its full byte range.</div><br></td></tr>
   <tr><td><code>static int</code></td><td><code><a href="#pack(int)" class="member-name-link">pack</a><wbr>(int&nbsp;c)</code></td><td><div class="block">Packs all three color channels (plus a full alpha channel) with the same value into an integer.</div><br></td></tr>
   <tr><td><code>static int</code></td><td><code><a href="#pack(int,int,int)" class="member-name-link">pack</a><wbr>(int&nbsp;r,<br> int&nbsp;g,<br> int&nbsp;b)</code></td><td><div class="block">Packs all three color channels (plus a full alpha channel) with the values into an integer.</div><br></td></tr>
   <tr><td><code>static int</code></td><td><code><a href="#pack(int,int,int,int)" class="member-name-link">pack</a><wbr>(int&nbsp;r,<br> int&nbsp;g,<br> int&nbsp;b,<br> int&nbsp;a)</code></td><td><div class="block">Packs all four color channels with the values into an integer.</div><br></td></tr>
-  <tr><td><code>static float[]</code></td><td><code><a href="#unpack(int)" class="member-name-link">unpack</a><wbr>(int&nbsp;color)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static float[]</code></td><td><code><a href="#unpack(int)" class="member-name-link">unpack</a><wbr>(int&nbsp;color)</code></td><td><div class="block">Splits an ARGB integer into its four channels, returned as floats scaled to the range <code>0..1</code>.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -221,6 +221,16 @@ Packs all four color channels with the values into an integer.
  float&nbsp;g,
  float&nbsp;b,
  float&nbsp;a)</span></div>
+Packs four color channels given as floats in the range <code>0..1</code> into an ARGB integer, scaling each channel to its full byte range.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>r</code> - The red channel value between 0 and 1.</dd>
+<dd><code>g</code> - The green channel value between 0 and 1.</dd>
+<dd><code>b</code> - The blue channel value between 0 and 1.</dd>
+<dd><code>a</code> - The alpha channel value between 0 and 1.</dd>
+<dt>Returns:</dt>
+<dd>A packed ARGB integer with each channel scaled from <code>0..1</code> to <code>0..255</code>.</dd>
+</dl>
 </div>
 :::
 
@@ -233,6 +243,13 @@ Packs all four color channels with the values into an integer.
 == pack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">pack</span><wbr><span class="parameters">(float[]&nbsp;color)</span></div>
+Packs the four channels of <code>color</code> (red, green, blue, alpha in that order) as floats into an ARGB integer.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>color</code> - An array with at least four float channel values between 0 and 1.</dd>
+<dt>Returns:</dt>
+<dd>A packed ARGB integer for the supplied channels.</dd>
+</dl>
 </div>
 :::
 
@@ -245,6 +262,13 @@ Packs all four color channels with the values into an integer.
 == unpack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">float[]</span>&nbsp;<span class="element-name">unpack</span><wbr><span class="parameters">(int&nbsp;color)</span></div>
+Splits an ARGB integer into its four channels, returned as floats scaled to the range <code>0..1</code>.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>color</code> - The packed ARGB color to decompose.</dd>
+<dt>Returns:</dt>
+<dd>A float array of length four holding red, green, blue and alpha in that order.</dd>
+</dl>
 </div>
 :::
 

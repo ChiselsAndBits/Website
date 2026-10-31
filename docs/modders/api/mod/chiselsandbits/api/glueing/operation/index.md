@@ -20,7 +20,7 @@ package mod.chiselsandbits.api.glueing.operation;
   </thead>
   <tbody>
   <tr><td><a href="IGlueingOperation" title="IGlueingOperation">IGlueingOperation</a></td><td>A Glueing operation that can be performed in the Glueing table.</td></tr>
-  <tr><td><a href="IGlueingOperationGroup" title="IGlueingOperationGroup">IGlueingOperationGroup</a></td><td></td></tr>
+  <tr><td><a href="IGlueingOperationGroup" title="IGlueingOperationGroup">IGlueingOperationGroup</a></td><td>Groups the operations that combine multistate pieces with glue.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -30,7 +30,7 @@ package mod.chiselsandbits.api.glueing.operation;
   </thead>
   <tbody>
   <tr><td><a href="IGlueingOperation" title="IGlueingOperation">IGlueingOperation</a></td><td>A Glueing operation that can be performed in the Glueing table.</td></tr>
-  <tr><td><a href="IGlueingOperationGroup" title="IGlueingOperationGroup">IGlueingOperationGroup</a></td><td></td></tr>
+  <tr><td><a href="IGlueingOperationGroup" title="IGlueingOperationGroup">IGlueingOperationGroup</a></td><td>Groups the operations that combine multistate pieces with glue.</td></tr>
   </tbody>
 </table>
 == Classes

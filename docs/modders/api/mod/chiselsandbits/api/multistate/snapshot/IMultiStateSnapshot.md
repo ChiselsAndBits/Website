@@ -14,7 +14,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/ja
 
   
 
-  
+Immutable snapshot of the block information in a multistate area.  
 
 <dl class="notes"></dl>  
 
@@ -27,8 +27,8 @@ Field Summary
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</code></td><td><code><a href="#CODEC" class="member-name-link">CODEC</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</code></td><td><code><a href="#STREAM_CODEC" class="member-name-link">STREAM_CODEC</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</code></td><td><code><a href="#CODEC" class="member-name-link">CODEC</a></code></td><td><div class="block">Codec for serializing snapshots by their registered snapshot type.</div><br></td></tr>
+  <tr><td><code>static final net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</code></td><td><code><a href="#STREAM_CODEC" class="member-name-link">STREAM_CODEC</a></code></td><td><div class="block">Network codec for serializing snapshots by their registered snapshot type.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -113,6 +113,7 @@ Method Summary
 == CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</span>&nbsp;<span class="element-name">CODEC</span></div>
+Codec for serializing snapshots by their registered snapshot type.
 </div>
 :::
 
@@ -125,6 +126,7 @@ Method Summary
 == STREAM_CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static final</span>&nbsp;<span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&gt;</span>&nbsp;<span class="element-name">STREAM_CODEC</span></div>
+Network codec for serializing snapshots by their registered snapshot type.
 </div>
 :::
 

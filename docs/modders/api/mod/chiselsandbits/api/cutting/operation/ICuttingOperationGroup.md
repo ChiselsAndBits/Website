@@ -14,7 +14,7 @@ extends <a href="../../item/withmode/group/IToolModeGroup.html" title="interface
 
   
 
-  
+Groups operations that cut or extract portions of multistate pieces.  
 
 <dl class="notes"></dl>  
 

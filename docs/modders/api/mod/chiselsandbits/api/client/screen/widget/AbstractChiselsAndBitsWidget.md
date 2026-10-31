@@ -69,12 +69,12 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>protected static com.communi.suggestu.scena.core.client.rendering.IExtendedGuiGraphics</code></td><td><code><a href="#getExtendedGraphicsExtractor(net.minecraft.client.gui.GuiGraphicsExtractor)" class="member-name-link">getExtendedGraphicsExtractor</a><wbr>(@NotNull net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;graphics)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull net.minecraft.client.gui.Font</code></td><td><code><a href="#getFont()" class="member-name-link">getFont</a>()</code></td><td><div class="block">The font used in this widget.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.client.Minecraft</code></td><td><code><a href="#getMinecraft()" class="member-name-link">getMinecraft</a>()</code></td><td><div class="block">Gives access to the current instance of minecraft.</div><br></td></tr>
+  <tr><td><code>protected static com.communi.suggestu.scena.core.client.rendering.IExtendedGuiGraphics</code></td><td><code><a href="#getExtendedGraphicsExtractor(net.minecraft.client.gui.GuiGraphicsExtractor)" class="member-name-link">getExtendedGraphicsExtractor</a><wbr>(net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;graphics)</code></td><td><div class="block">Returns the extended graphics interface for the supplied extractor.</div><br></td></tr>
+  <tr><td><code>net.minecraft.client.gui.Font</code></td><td><code><a href="#getFont()" class="member-name-link">getFont</a>()</code></td><td><div class="block">The font used in this widget.</div><br></td></tr>
+  <tr><td><code>net.minecraft.client.Minecraft</code></td><td><code><a href="#getMinecraft()" class="member-name-link">getMinecraft</a>()</code></td><td><div class="block">Gives access to the current instance of minecraft.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#init()" class="member-name-link">init</a>()</code></td><td><div class="block">Invoked by the screen, when said screen is initialized.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#removed()" class="member-name-link">removed</a>()</code></td><td><div class="block">Invoked by the screen, when it is removed from the display.</div><br></td></tr>
-  <tr><td><code>protected void</code></td><td><code><a href="#updateWidgetNarration(net.minecraft.client.gui.narration.NarrationElementOutput)" class="member-name-link">updateWidgetNarration</a><wbr>(@NotNull net.minecraft.client.gui.narration.NarrationElementOutput&nbsp;output)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>protected void</code></td><td><code><a href="#updateWidgetNarration(net.minecraft.client.gui.narration.NarrationElementOutput)" class="member-name-link">updateWidgetNarration</a><wbr>(net.minecraft.client.gui.narration.NarrationElementOutput&nbsp;output)</code></td><td>&nbsp;</td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -83,7 +83,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>protected static com.communi.suggestu.scena.core.client.rendering.IExtendedGuiGraphics</code></td><td><code><a href="#getExtendedGraphicsExtractor(net.minecraft.client.gui.GuiGraphicsExtractor)" class="member-name-link">getExtendedGraphicsExtractor</a><wbr>(@NotNull net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;graphics)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>protected static com.communi.suggestu.scena.core.client.rendering.IExtendedGuiGraphics</code></td><td><code><a href="#getExtendedGraphicsExtractor(net.minecraft.client.gui.GuiGraphicsExtractor)" class="member-name-link">getExtendedGraphicsExtractor</a><wbr>(net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;graphics)</code></td><td><div class="block">Returns the extended graphics interface for the supplied extractor.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -92,11 +92,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.client.gui.Font</code></td><td><code><a href="#getFont()" class="member-name-link">getFont</a>()</code></td><td><div class="block">The font used in this widget.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.client.Minecraft</code></td><td><code><a href="#getMinecraft()" class="member-name-link">getMinecraft</a>()</code></td><td><div class="block">Gives access to the current instance of minecraft.</div><br></td></tr>
+  <tr><td><code>net.minecraft.client.gui.Font</code></td><td><code><a href="#getFont()" class="member-name-link">getFont</a>()</code></td><td><div class="block">The font used in this widget.</div><br></td></tr>
+  <tr><td><code>net.minecraft.client.Minecraft</code></td><td><code><a href="#getMinecraft()" class="member-name-link">getMinecraft</a>()</code></td><td><div class="block">Gives access to the current instance of minecraft.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#init()" class="member-name-link">init</a>()</code></td><td><div class="block">Invoked by the screen, when said screen is initialized.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#removed()" class="member-name-link">removed</a>()</code></td><td><div class="block">Invoked by the screen, when it is removed from the display.</div><br></td></tr>
-  <tr><td><code>protected void</code></td><td><code><a href="#updateWidgetNarration(net.minecraft.client.gui.narration.NarrationElementOutput)" class="member-name-link">updateWidgetNarration</a><wbr>(@NotNull net.minecraft.client.gui.narration.NarrationElementOutput&nbsp;output)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>protected void</code></td><td><code><a href="#updateWidgetNarration(net.minecraft.client.gui.narration.NarrationElementOutput)" class="member-name-link">updateWidgetNarration</a><wbr>(net.minecraft.client.gui.narration.NarrationElementOutput&nbsp;output)</code></td><td>&nbsp;</td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -105,12 +105,12 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>protected static com.communi.suggestu.scena.core.client.rendering.IExtendedGuiGraphics</code></td><td><code><a href="#getExtendedGraphicsExtractor(net.minecraft.client.gui.GuiGraphicsExtractor)" class="member-name-link">getExtendedGraphicsExtractor</a><wbr>(@NotNull net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;graphics)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull net.minecraft.client.gui.Font</code></td><td><code><a href="#getFont()" class="member-name-link">getFont</a>()</code></td><td><div class="block">The font used in this widget.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.client.Minecraft</code></td><td><code><a href="#getMinecraft()" class="member-name-link">getMinecraft</a>()</code></td><td><div class="block">Gives access to the current instance of minecraft.</div><br></td></tr>
+  <tr><td><code>protected static com.communi.suggestu.scena.core.client.rendering.IExtendedGuiGraphics</code></td><td><code><a href="#getExtendedGraphicsExtractor(net.minecraft.client.gui.GuiGraphicsExtractor)" class="member-name-link">getExtendedGraphicsExtractor</a><wbr>(net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;graphics)</code></td><td><div class="block">Returns the extended graphics interface for the supplied extractor.</div><br></td></tr>
+  <tr><td><code>net.minecraft.client.gui.Font</code></td><td><code><a href="#getFont()" class="member-name-link">getFont</a>()</code></td><td><div class="block">The font used in this widget.</div><br></td></tr>
+  <tr><td><code>net.minecraft.client.Minecraft</code></td><td><code><a href="#getMinecraft()" class="member-name-link">getMinecraft</a>()</code></td><td><div class="block">Gives access to the current instance of minecraft.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#init()" class="member-name-link">init</a>()</code></td><td><div class="block">Invoked by the screen, when said screen is initialized.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#removed()" class="member-name-link">removed</a>()</code></td><td><div class="block">Invoked by the screen, when it is removed from the display.</div><br></td></tr>
-  <tr><td><code>protected void</code></td><td><code><a href="#updateWidgetNarration(net.minecraft.client.gui.narration.NarrationElementOutput)" class="member-name-link">updateWidgetNarration</a><wbr>(@NotNull net.minecraft.client.gui.narration.NarrationElementOutput&nbsp;output)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>protected void</code></td><td><code><a href="#updateWidgetNarration(net.minecraft.client.gui.narration.NarrationElementOutput)" class="member-name-link">updateWidgetNarration</a><wbr>(net.minecraft.client.gui.narration.NarrationElementOutput&nbsp;output)</code></td><td>&nbsp;</td></tr>
   </tbody>
 </table>
 :::
@@ -191,8 +191,7 @@ Creates a new widget.
 :::tabs
 == getMinecraft
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="modifiers">public</span>&nbsp;<span class="return-type">@NotNull net.minecraft.client.Minecraft</span>&nbsp;<span class="element-name">getMinecraft</span>()</div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.client.Minecraft</span>&nbsp;<span class="element-name">getMinecraft</span>()</div>
 Gives access to the current instance of minecraft.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -209,8 +208,7 @@ Gives access to the current instance of minecraft.
 :::tabs
 == getFont
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="modifiers">public</span>&nbsp;<span class="return-type">@NotNull net.minecraft.client.gui.Font</span>&nbsp;<span class="element-name">getFont</span>()</div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.client.gui.Font</span>&nbsp;<span class="element-name">getFont</span>()</div>
 The font used in this widget.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -263,8 +261,7 @@ Invoked by the screen, when it is removed from the display.
 :::tabs
 == updateWidgetNarration
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">updateWidgetNarration</span><wbr><span class="parameters">(@NotNull
- @NotNull net.minecraft.client.gui.narration.NarrationElementOutput&nbsp;output)</span></div>
+<div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">updateWidgetNarration</span><wbr><span class="parameters">(net.minecraft.client.gui.narration.NarrationElementOutput&nbsp;output)</span></div>
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code>updateWidgetNarration</code>&nbsp;in class&nbsp;<code>net.minecraft.client.gui.components.AbstractWidget</code></dd>
@@ -280,8 +277,14 @@ Invoked by the screen, when it is removed from the display.
 :::tabs
 == getExtendedGraphicsExtractor
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="modifiers">protected static</span>&nbsp;<span class="return-type">com.communi.suggestu.scena.core.client.rendering.IExtendedGuiGraphics</span>&nbsp;<span class="element-name">getExtendedGraphicsExtractor</span><wbr><span class="parameters">(@NotNull
- @NotNull net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;graphics)</span></div>
+<div class="member-signature"><span class="modifiers">protected static</span>&nbsp;<span class="return-type">com.communi.suggestu.scena.core.client.rendering.IExtendedGuiGraphics</span>&nbsp;<span class="element-name">getExtendedGraphicsExtractor</span><wbr><span class="parameters">(net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;graphics)</span></div>
+Returns the extended graphics interface for the supplied extractor.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>graphics</code> - graphics extractor to adapt</dd>
+<dt>Returns:</dt>
+<dd>the extended graphics view of the supplied extractor</dd>
+</dl>
 </div>
 :::
 

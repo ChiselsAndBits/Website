@@ -36,7 +36,7 @@ Constructor Summary
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">CannotBeChiseledException</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">CannotBeChiseledException</a>()</code></td><td><div class="block">Creates an exception with no message, indicating that the target block cannot hold chiseled<br>bits or be converted to a chiseled block.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -70,6 +70,8 @@ Method Summary
 == CannotBeChiseledException
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">CannotBeChiseledException</span>()</div>
+Creates an exception with no message, indicating that the target block cannot hold chiseled
+bits or be converted to a chiseled block.
 </div>
 :::
 

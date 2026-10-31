@@ -19,10 +19,10 @@ package mod.chiselsandbits.api.inventory.bit;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IAdaptingBitInventoryManager" title="IAdaptingBitInventoryManager">IAdaptingBitInventoryManager</a></td><td></td></tr>
-  <tr><td><a href="IBitInventory" title="IBitInventory">IBitInventory</a></td><td>Represents an inventory in which bits are contained.</td></tr>
+  <tr><td><a href="IBitInventoryItemStack.DisplayContents" title="DisplayContents">DisplayContents</a></td><td>Display-ready summary of an item-backed bit inventory and whether the summary was truncated.</td></tr>
   <tr><td><a href="IBitInventoryItemStack" title="IBitInventoryItemStack">IBitInventoryItemStack</a></td><td>A bit inventory which can be converted to an itemstack.</td></tr>
-  <tr><td><a href="IBitInventoryItemStack.DisplayContents" title="DisplayContents">DisplayContents</a></td><td></td></tr>
+  <tr><td><a href="IAdaptingBitInventoryManager" title="IAdaptingBitInventoryManager">IAdaptingBitInventoryManager</a></td><td>Manages bit inventories by adapting compatible player inventory slots.</td></tr>
+  <tr><td><a href="IBitInventory" title="IBitInventory">IBitInventory</a></td><td>Represents an inventory in which bits are contained.</td></tr>
   <tr><td><a href="IBitInventoryItem" title="IBitInventoryItem">IBitInventoryItem</a></td><td>Represents an item which is a bit inventory.</td></tr>
   </tbody>
 </table>
@@ -32,9 +32,9 @@ package mod.chiselsandbits.api.inventory.bit;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IAdaptingBitInventoryManager" title="IAdaptingBitInventoryManager">IAdaptingBitInventoryManager</a></td><td></td></tr>
-  <tr><td><a href="IBitInventory" title="IBitInventory">IBitInventory</a></td><td>Represents an inventory in which bits are contained.</td></tr>
   <tr><td><a href="IBitInventoryItemStack" title="IBitInventoryItemStack">IBitInventoryItemStack</a></td><td>A bit inventory which can be converted to an itemstack.</td></tr>
+  <tr><td><a href="IAdaptingBitInventoryManager" title="IAdaptingBitInventoryManager">IAdaptingBitInventoryManager</a></td><td>Manages bit inventories by adapting compatible player inventory slots.</td></tr>
+  <tr><td><a href="IBitInventory" title="IBitInventory">IBitInventory</a></td><td>Represents an inventory in which bits are contained.</td></tr>
   <tr><td><a href="IBitInventoryItem" title="IBitInventoryItem">IBitInventoryItem</a></td><td>Represents an item which is a bit inventory.</td></tr>
   </tbody>
 </table>
@@ -48,7 +48,7 @@ No types found.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IBitInventoryItemStack.DisplayContents" title="DisplayContents">DisplayContents</a></td><td></td></tr>
+  <tr><td><a href="IBitInventoryItemStack.DisplayContents" title="DisplayContents">DisplayContents</a></td><td>Display-ready summary of an item-backed bit inventory and whether the summary was truncated.</td></tr>
   </tbody>
 </table>
 :::

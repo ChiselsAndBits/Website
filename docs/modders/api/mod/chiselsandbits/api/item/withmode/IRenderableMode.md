@@ -27,9 +27,9 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>default @NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getColorVector()" class="member-name-link">getColorVector</a>()</code></td><td><div class="block">The color used to render.</div><br></td></tr>
-  <tr><td><code>default net.minecraft.world.phys.Vec2</code></td><td><code><a href="#getPositionVector()" class="member-name-link">getPositionVector</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>default net.minecraft.world.phys.Vec2</code></td><td><code><a href="#getScaleVector()" class="member-name-link">getScaleVector</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>default net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getColorVector()" class="member-name-link">getColorVector</a>()</code></td><td><div class="block">The color used to render.</div><br></td></tr>
+  <tr><td><code>default net.minecraft.world.phys.Vec2</code></td><td><code><a href="#getPositionVector()" class="member-name-link">getPositionVector</a>()</code></td><td><div class="block">Returns the default offset for rendering this mode's icon.</div><br></td></tr>
+  <tr><td><code>default net.minecraft.world.phys.Vec2</code></td><td><code><a href="#getScaleVector()" class="member-name-link">getScaleVector</a>()</code></td><td><div class="block">Returns the default scale for rendering this mode's icon.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#isActive()" class="member-name-link">isActive</a>()</code></td><td><div class="block">Indicates if the mode is currently active and as such should be rendered or not.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#shouldRenderDisplayNameInMenu()" class="member-name-link">shouldRenderDisplayNameInMenu</a>()</code></td><td><div class="block">Indicates if this mode should render his name in the menu.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#shouldRenderName()" class="member-name-link">shouldRenderName</a>()</code></td><td><div class="block">Indicates if the name of the mode should be rendered.</div><br></td></tr>
@@ -41,9 +41,9 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>default @NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getColorVector()" class="member-name-link">getColorVector</a>()</code></td><td><div class="block">The color used to render.</div><br></td></tr>
-  <tr><td><code>default net.minecraft.world.phys.Vec2</code></td><td><code><a href="#getPositionVector()" class="member-name-link">getPositionVector</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>default net.minecraft.world.phys.Vec2</code></td><td><code><a href="#getScaleVector()" class="member-name-link">getScaleVector</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>default net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getColorVector()" class="member-name-link">getColorVector</a>()</code></td><td><div class="block">The color used to render.</div><br></td></tr>
+  <tr><td><code>default net.minecraft.world.phys.Vec2</code></td><td><code><a href="#getPositionVector()" class="member-name-link">getPositionVector</a>()</code></td><td><div class="block">Returns the default offset for rendering this mode's icon.</div><br></td></tr>
+  <tr><td><code>default net.minecraft.world.phys.Vec2</code></td><td><code><a href="#getScaleVector()" class="member-name-link">getScaleVector</a>()</code></td><td><div class="block">Returns the default scale for rendering this mode's icon.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#isActive()" class="member-name-link">isActive</a>()</code></td><td><div class="block">Indicates if the mode is currently active and as such should be rendered or not.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#shouldRenderDisplayNameInMenu()" class="member-name-link">shouldRenderDisplayNameInMenu</a>()</code></td><td><div class="block">Indicates if this mode should render his name in the menu.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#shouldRenderName()" class="member-name-link">shouldRenderName</a>()</code></td><td><div class="block">Indicates if the name of the mode should be rendered.</div><br></td></tr>
@@ -55,9 +55,9 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>default @NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getColorVector()" class="member-name-link">getColorVector</a>()</code></td><td><div class="block">The color used to render.</div><br></td></tr>
-  <tr><td><code>default net.minecraft.world.phys.Vec2</code></td><td><code><a href="#getPositionVector()" class="member-name-link">getPositionVector</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>default net.minecraft.world.phys.Vec2</code></td><td><code><a href="#getScaleVector()" class="member-name-link">getScaleVector</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>default net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getColorVector()" class="member-name-link">getColorVector</a>()</code></td><td><div class="block">The color used to render.</div><br></td></tr>
+  <tr><td><code>default net.minecraft.world.phys.Vec2</code></td><td><code><a href="#getPositionVector()" class="member-name-link">getPositionVector</a>()</code></td><td><div class="block">Returns the default offset for rendering this mode's icon.</div><br></td></tr>
+  <tr><td><code>default net.minecraft.world.phys.Vec2</code></td><td><code><a href="#getScaleVector()" class="member-name-link">getScaleVector</a>()</code></td><td><div class="block">Returns the default scale for rendering this mode's icon.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#isActive()" class="member-name-link">isActive</a>()</code></td><td><div class="block">Indicates if the mode is currently active and as such should be rendered or not.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#shouldRenderDisplayNameInMenu()" class="member-name-link">shouldRenderDisplayNameInMenu</a>()</code></td><td><div class="block">Indicates if this mode should render his name in the menu.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#shouldRenderName()" class="member-name-link">shouldRenderName</a>()</code></td><td><div class="block">Indicates if the name of the mode should be rendered.</div><br></td></tr>
@@ -148,8 +148,7 @@ Indicates if this mode should render his name in the menu.
 :::tabs
 == getColorVector
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="modifiers">default</span>&nbsp;<span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getColorVector</span>()</div>
+<div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getColorVector</span>()</div>
 <div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../util/IWithColor.html#getColorVector()">IWithColor</a></code></span></div>
 The color used to render.
 <dl class="notes">
@@ -170,6 +169,11 @@ The color used to render.
 == getPositionVector
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec2</span>&nbsp;<span class="element-name">getPositionVector</span>()</div>
+Returns the default offset for rendering this mode's icon.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>icon offset relative to its default position</dd>
+</dl>
 </div>
 :::
 
@@ -182,6 +186,11 @@ The color used to render.
 == getScaleVector
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">net.minecraft.world.phys.Vec2</span>&nbsp;<span class="element-name">getScaleVector</span>()</div>
+Returns the default scale for rendering this mode's icon.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>icon scale along the horizontal and vertical axes</dd>
+</dl>
 </div>
 :::
 

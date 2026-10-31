@@ -25,7 +25,7 @@ Method Summary
   <tbody>
   <tr><td><code>boolean</code></td><td><code><a href="#canRedo(net.minecraft.world.entity.player.Player)" class="member-name-link">canRedo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Checks if the change can still be redone.</div><br></td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#canUndo(net.minecraft.world.entity.player.Player)" class="member-name-link">canUndo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Checks if the change can still be undone.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#redo(net.minecraft.world.entity.player.Player)" class="member-name-link">redo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Redoes the change</div><br></td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#redo(net.minecraft.world.entity.player.Player)" class="member-name-link">redo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Redoes the change.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#undo(net.minecraft.world.entity.player.Player)" class="member-name-link">undo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Undoes the change.</div><br></td></tr>
   </tbody>
 </table>
@@ -37,7 +37,7 @@ Method Summary
   <tbody>
   <tr><td><code>boolean</code></td><td><code><a href="#canRedo(net.minecraft.world.entity.player.Player)" class="member-name-link">canRedo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Checks if the change can still be redone.</div><br></td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#canUndo(net.minecraft.world.entity.player.Player)" class="member-name-link">canUndo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Checks if the change can still be undone.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#redo(net.minecraft.world.entity.player.Player)" class="member-name-link">redo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Redoes the change</div><br></td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#redo(net.minecraft.world.entity.player.Player)" class="member-name-link">redo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Redoes the change.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#undo(net.minecraft.world.entity.player.Player)" class="member-name-link">undo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Undoes the change.</div><br></td></tr>
   </tbody>
 </table>
@@ -49,7 +49,7 @@ Method Summary
   <tbody>
   <tr><td><code>boolean</code></td><td><code><a href="#canRedo(net.minecraft.world.entity.player.Player)" class="member-name-link">canRedo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Checks if the change can still be redone.</div><br></td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#canUndo(net.minecraft.world.entity.player.Player)" class="member-name-link">canUndo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Checks if the change can still be undone.</div><br></td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#redo(net.minecraft.world.entity.player.Player)" class="member-name-link">redo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Redoes the change</div><br></td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#redo(net.minecraft.world.entity.player.Player)" class="member-name-link">redo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Redoes the change.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#undo(net.minecraft.world.entity.player.Player)" class="member-name-link">undo</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Undoes the change.</div><br></td></tr>
   </tbody>
 </table>
@@ -135,7 +135,7 @@ Undoes the change.
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">redo</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span>
    throws <span class="exceptions"><a href="IllegalChangeAttempt.html" title="class in mod.chiselsandbits.api.change.changes">IllegalChangeAttempt</a></span></div>
-Redoes the change
+Redoes the change.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>player</code> - The player for which redoes the change.</dd>

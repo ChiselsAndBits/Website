@@ -18,7 +18,7 @@ implements <a href="../../serialization/Serializable.Registry.html" title="inter
 
   
 
-  
+Palette entry pairing a packed palette index with its block information.  
 
 <dl class="notes"></dl>  
 
@@ -40,10 +40,10 @@ Field Summary
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#CODEC" class="member-name-link">CODEC</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#LEGACY_CODEC" class="member-name-link">LEGACY_CODEC</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final com.mojang.serialization.MapCodec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#MAP_CODEC" class="member-name-link">MAP_CODEC</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#STREAM_CODEC" class="member-name-link">STREAM_CODEC</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#CODEC" class="member-name-link">CODEC</a></code></td><td><div class="block">Codec for entries in the current serialized format.</div><br></td></tr>
+  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#LEGACY_CODEC" class="member-name-link">LEGACY_CODEC</a></code></td><td><div class="block">Codec for entries in the legacy block-information format.</div><br></td></tr>
+  <tr><td><code>static final com.mojang.serialization.MapCodec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#MAP_CODEC" class="member-name-link">MAP_CODEC</a></code></td><td><div class="block">Map codec for embedding an entry in another serialized object.</div><br></td></tr>
+  <tr><td><code>static final net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#STREAM_CODEC" class="member-name-link">STREAM_CODEC</a></code></td><td><div class="block">Network codec for a single palette entry.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -73,12 +73,12 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#blockInformation()" class="member-name-link">blockInformation</a>()</code></td><td><div class="block">Returns the value of the <code>blockInformation</code> record component.</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns The codec used for direct serialization..</div><br></td></tr>
+  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#blockInformation()" class="member-name-link">blockInformation</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-blockInformation"><code>blockInformation</code></a> record component.</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns the current serialized codec for this entry type.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns The codec used for complex serialization..</div><br></td></tr>
-  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns The codec used for streaming serialization..</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns the current map codec for this entry type.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns the network codec for this entry type.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -88,12 +88,12 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#blockInformation()" class="member-name-link">blockInformation</a>()</code></td><td><div class="block">Returns the value of the <code>blockInformation</code> record component.</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns The codec used for direct serialization..</div><br></td></tr>
+  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#blockInformation()" class="member-name-link">blockInformation</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-blockInformation"><code>blockInformation</code></a> record component.</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns the current serialized codec for this entry type.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns The codec used for complex serialization..</div><br></td></tr>
-  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns The codec used for streaming serialization..</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns the current map codec for this entry type.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns the network codec for this entry type.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -103,12 +103,12 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#blockInformation()" class="member-name-link">blockInformation</a>()</code></td><td><div class="block">Returns the value of the <code>blockInformation</code> record component.</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns The codec used for direct serialization..</div><br></td></tr>
+  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#blockInformation()" class="member-name-link">blockInformation</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-blockInformation"><code>blockInformation</code></a> record component.</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#codec()" class="member-name-link">codec</a>()</code></td><td><div class="block">Returns the current serialized codec for this entry type.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns The codec used for complex serialization..</div><br></td></tr>
-  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns The codec used for streaming serialization..</div><br></td></tr>
+  <tr><td><code>com.mojang.serialization.MapCodec<wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#mapCodec()" class="member-name-link">mapCodec</a>()</code></td><td><div class="block">Returns the current map codec for this entry type.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#streamCodec()" class="member-name-link">streamCodec</a>()</code></td><td><div class="block">Returns the network codec for this entry type.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -133,6 +133,7 @@ Method Summary
 == LEGACY_CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</span>&nbsp;<span class="element-name">LEGACY_CODEC</span></div>
+Codec for entries in the legacy block-information format.
 </div>
 :::
 
@@ -145,6 +146,7 @@ Method Summary
 == CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</span>&nbsp;<span class="element-name">CODEC</span></div>
+Codec for entries in the current serialized format.
 </div>
 :::
 
@@ -157,6 +159,7 @@ Method Summary
 == MAP_CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">com.mojang.serialization.MapCodec&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</span>&nbsp;<span class="element-name">MAP_CODEC</span></div>
+Map codec for embedding an entry in another serialized object.
 </div>
 :::
 
@@ -169,6 +172,7 @@ Method Summary
 == STREAM_CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</span>&nbsp;<span class="element-name">STREAM_CODEC</span></div>
+Network codec for a single palette entry.
 </div>
 :::
 
@@ -189,7 +193,7 @@ Method Summary
 Creates an instance of a <code>Entry</code> record class.
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>blockInformation</code> - the value for the <code>blockInformation</code> record component</dd>
+<dd><code>blockInformation</code> - the value for the <a href="#param-blockInformation"><code>blockInformation</code></a> record component</dd>
 </dl>
 </div>
 :::
@@ -210,8 +214,7 @@ Creates an instance of a <code>Entry</code> record class.
 == codec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</span>&nbsp;<span class="element-name">codec</span>()</div>
-<div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../serialization/Serializable.html#codec()">Serializable</a></code></span></div>
-Returns The codec used for direct serialization..
+Returns the current serialized codec for this entry type.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../serialization/RawSerializable.html#codec()">codec</a></code>&nbsp;in interface&nbsp;<code><a href="../../serialization/RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
@@ -232,8 +235,7 @@ Returns The codec used for direct serialization..
 == mapCodec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">com.mojang.serialization.MapCodec&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</span>&nbsp;<span class="element-name">mapCodec</span>()</div>
-<div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../serialization/Serializable.html#mapCodec()">Serializable</a></code></span></div>
-Returns The codec used for complex serialization..
+Returns the current map codec for this entry type.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../serialization/RawSerializable.html#mapCodec()">mapCodec</a></code>&nbsp;in interface&nbsp;<code><a href="../../serialization/RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
@@ -254,8 +256,7 @@ Returns The codec used for complex serialization..
 == streamCodec
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</span>&nbsp;<span class="element-name">streamCodec</span>()</div>
-<div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../serialization/Serializable.html#streamCodec()">Serializable</a></code></span></div>
-Returns The codec used for streaming serialization..
+Returns the network codec for this entry type.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../serialization/RawSerializable.html#streamCodec()">streamCodec</a></code>&nbsp;in interface&nbsp;<code><a href="../../serialization/RawSerializable.html" title="interface in mod.chiselsandbits.api.serialization">RawSerializable</a></code></dd>
@@ -335,10 +336,10 @@ Indicates whether some other object is "equal to" this one. The objects are equa
 == blockInformation
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">blockInformation</span>()</div>
-Returns the value of the <code>blockInformation</code> record component.
+Returns the value of the <a href="#param-blockInformation"><code>blockInformation</code></a> record component.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <code>blockInformation</code> record component</dd>
+<dd>the value of the <a href="#param-blockInformation"><code>blockInformation</code></a> record component</dd>
 </dl>
 </div>
 :::

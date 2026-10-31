@@ -14,7 +14,7 @@ extends <a href="../item/wireframe/IWireframeProvidingItem.html" title="interfac
 
   
 
-  
+Contract for items that provide a preview before multistate placement.  
 
 <dl class="notes"></dl>  
 
@@ -27,7 +27,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepth(net.minecraft.world.item.ItemStack)" class="member-name-link">ignoreDepth</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepth(net.minecraft.world.item.ItemStack)" class="member-name-link">ignoreDepth</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepthForPlacement(net.minecraft.world.item.ItemStack,mod.chiselsandbits.api.placement.PlacementResult)" class="member-name-link">ignoreDepthForPlacement</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack,<br> <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a>&nbsp;placementResult)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything for a given placement result.</div><br></td></tr>
   </tbody>
 </table>
@@ -37,7 +37,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepth(net.minecraft.world.item.ItemStack)" class="member-name-link">ignoreDepth</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepth(net.minecraft.world.item.ItemStack)" class="member-name-link">ignoreDepth</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepthForPlacement(net.minecraft.world.item.ItemStack,mod.chiselsandbits.api.placement.PlacementResult)" class="member-name-link">ignoreDepthForPlacement</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack,<br> <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a>&nbsp;placementResult)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything for a given placement result.</div><br></td></tr>
   </tbody>
 </table>
@@ -47,7 +47,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepth(net.minecraft.world.item.ItemStack)" class="member-name-link">ignoreDepth</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepth(net.minecraft.world.item.ItemStack)" class="member-name-link">ignoreDepth</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#ignoreDepthForPlacement(net.minecraft.world.item.ItemStack,mod.chiselsandbits.api.placement.PlacementResult)" class="member-name-link">ignoreDepthForPlacement</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack,<br> <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a>&nbsp;placementResult)</code></td><td><div class="block">Returns whether to effectively ignore the depth buffer and render in front of everything for a given placement result.</div><br></td></tr>
   </tbody>
 </table>
@@ -107,7 +107,7 @@ Returns whether to effectively ignore the depth buffer and render in front of ev
 == ignoreDepth
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">ignoreDepth</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;heldStack)</span></div>
-Returns whether to effectively ignore the depth buffer and render in front of everything
+Returns whether to effectively ignore the depth buffer and render in front of everything.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../item/wireframe/IWireframeProvidingItem.html#ignoreDepth(net.minecraft.world.item.ItemStack)">ignoreDepth</a></code>&nbsp;in interface&nbsp;<code><a href="../item/wireframe/IWireframeProvidingItem.html" title="interface in mod.chiselsandbits.api.item.wireframe">IWireframeProvidingItem</a></code></dd>

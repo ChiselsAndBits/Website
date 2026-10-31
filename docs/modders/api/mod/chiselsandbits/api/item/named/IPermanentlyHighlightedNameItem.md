@@ -10,7 +10,7 @@ _Package:_ [mod.chiselsandbits.api.item.named](index)
 
   
 
-  
+Contract for items whose names are always highlighted in their tooltip.  
 
 <dl class="notes"></dl>  
 

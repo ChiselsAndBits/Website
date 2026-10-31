@@ -14,7 +14,7 @@ extends <a href="../../item/withmode/group/IToolModeGroup.html" title="interface
 
   
 
-  
+Groups operations that modify multistate block contents.  
 
 <dl class="notes"></dl>  
 

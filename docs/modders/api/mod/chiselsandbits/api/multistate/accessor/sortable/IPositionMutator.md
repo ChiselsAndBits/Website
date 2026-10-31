@@ -17,10 +17,12 @@ This is a functional interface and can therefore be used as the assignment targe
 Represents an object which can mutate the order of the coordinate members
 before they are retrieved from storage.
 
+<p>
 The default loop order is XYZ.
 However by swapping for example the X and Y coordinate member of the
 passed coordinates a YXZ loop order can be achieved without
-the performance degradation of sorting.  
+the performance degradation of sorting.
+</p>  
 
 <dl class="notes"></dl>  
 

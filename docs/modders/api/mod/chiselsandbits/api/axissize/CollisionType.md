@@ -11,7 +11,7 @@ _Package:_ [mod.chiselsandbits.api.axissize](index)
 
   
 
-  
+Defines which block states count as occupied for collision and empty-space checks.  
 
 <dl class="notes"></dl>  
 
@@ -33,9 +33,9 @@ _Package:_ [mod.chiselsandbits.api.axissize](index)
     <tr><th>Enum Constant</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#ALL" class="member-name-link">ALL</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#COLLIDEABLE_ONLY" class="member-name-link">COLLIDEABLE_ONLY</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#NONE_AIR" class="member-name-link">NONE_AIR</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#ALL" class="member-name-link">ALL</a></code></td><td><div class="block">Every block state counts as occupying, including air; the region is never considered empty even if it contains only fluids.</div><br></td></tr>
+  <tr><td><code><a href="#COLLIDEABLE_ONLY" class="member-name-link">COLLIDEABLE_ONLY</a></code></td><td><div class="block">Only fully collidable block states are considered occupied; fluids do not occupy, so the region may be empty when filled only with fluids.</div><br></td></tr>
+  <tr><td><code><a href="#NONE_AIR" class="member-name-link">NONE_AIR</a></code></td><td><div class="block">Only non-air block states count as occupying; a column of fluids still occupies this type.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -51,8 +51,8 @@ Field Summary
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&gt;</code></td><td><code><a href="#CODEC" class="member-name-link">CODEC</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final net.minecraft.network.codec.StreamCodec<wbr>&lt;io.netty.buffer.ByteBuf, <a href="CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&gt;</code></td><td><code><a href="#STREAM_CODEC" class="member-name-link">STREAM_CODEC</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&gt;</code></td><td><code><a href="#CODEC" class="member-name-link">CODEC</a></code></td><td><div class="block">Encodes this type to its <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#name()" title="class or interface in java.lang" class="external-link"><code>Enum.name()</code></a> string and decodes back via <code>valueOf</code>.</div><br></td></tr>
+  <tr><td><code>static final net.minecraft.network.codec.StreamCodec<wbr>&lt;io.netty.buffer.ByteBuf, <a href="CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&gt;</code></td><td><code><a href="#STREAM_CODEC" class="member-name-link">STREAM_CODEC</a></code></td><td><div class="block">Encodes this type by its ordinal index and restores it from that index.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -67,10 +67,10 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>boolean</code></td><td><code><a href="#canBeEmptyWithJustFluids()" class="member-name-link">canBeEmptyWithJustFluids</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.world.level.block.state.BlockState</code></td><td><code><a href="#getExampleState()" class="member-name-link">getExampleState</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isValidFor(mod.chiselsandbits.api.multistate.accessor.IStateEntryInfo)" class="member-name-link">isValidFor</a><wbr>(<a href="../multistate/accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&nbsp;info)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isValidFor(net.minecraft.world.level.block.state.BlockState)" class="member-name-link">isValidFor</a><wbr>(net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#canBeEmptyWithJustFluids()" class="member-name-link">canBeEmptyWithJustFluids</a>()</code></td><td><div class="block">Returns whether a region filled only with fluids is considered empty for this collision type.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.level.block.state.BlockState</code></td><td><code><a href="#getExampleState()" class="member-name-link">getExampleState</a>()</code></td><td><div class="block">Returns a representative block state for this collision type.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isValidFor(mod.chiselsandbits.api.multistate.accessor.IStateEntryInfo)" class="member-name-link">isValidFor</a><wbr>(<a href="../multistate/accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&nbsp;info)</code></td><td><div class="block">Returns whether the entry's block state counts as occupying for this collision type.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isValidFor(net.minecraft.world.level.block.state.BlockState)" class="member-name-link">isValidFor</a><wbr>(net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</code></td><td><div class="block">Returns whether the given block state counts as occupying for this collision type.</div><br></td></tr>
   <tr><td><code>static <a href="CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a></code></td><td><code><a href="#valueOf(java.lang.String)" class="member-name-link">valueOf</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Returns the enum constant of this class with the specified name.</div><br></td></tr>
   <tr><td><code>static <a href="CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>[]</code></td><td><code><a href="#values()" class="member-name-link">values</a>()</code></td><td><div class="block">Returns an array containing the constants of this enum class, in<br>the order they are declared.</div><br></td></tr>
   </tbody>
@@ -91,10 +91,10 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>boolean</code></td><td><code><a href="#canBeEmptyWithJustFluids()" class="member-name-link">canBeEmptyWithJustFluids</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.world.level.block.state.BlockState</code></td><td><code><a href="#getExampleState()" class="member-name-link">getExampleState</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isValidFor(mod.chiselsandbits.api.multistate.accessor.IStateEntryInfo)" class="member-name-link">isValidFor</a><wbr>(<a href="../multistate/accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&nbsp;info)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isValidFor(net.minecraft.world.level.block.state.BlockState)" class="member-name-link">isValidFor</a><wbr>(net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#canBeEmptyWithJustFluids()" class="member-name-link">canBeEmptyWithJustFluids</a>()</code></td><td><div class="block">Returns whether a region filled only with fluids is considered empty for this collision type.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.level.block.state.BlockState</code></td><td><code><a href="#getExampleState()" class="member-name-link">getExampleState</a>()</code></td><td><div class="block">Returns a representative block state for this collision type.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isValidFor(mod.chiselsandbits.api.multistate.accessor.IStateEntryInfo)" class="member-name-link">isValidFor</a><wbr>(<a href="../multistate/accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&nbsp;info)</code></td><td><div class="block">Returns whether the entry's block state counts as occupying for this collision type.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isValidFor(net.minecraft.world.level.block.state.BlockState)" class="member-name-link">isValidFor</a><wbr>(net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</code></td><td><div class="block">Returns whether the given block state counts as occupying for this collision type.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -103,10 +103,10 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>boolean</code></td><td><code><a href="#canBeEmptyWithJustFluids()" class="member-name-link">canBeEmptyWithJustFluids</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.world.level.block.state.BlockState</code></td><td><code><a href="#getExampleState()" class="member-name-link">getExampleState</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isValidFor(mod.chiselsandbits.api.multistate.accessor.IStateEntryInfo)" class="member-name-link">isValidFor</a><wbr>(<a href="../multistate/accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&nbsp;info)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isValidFor(net.minecraft.world.level.block.state.BlockState)" class="member-name-link">isValidFor</a><wbr>(net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#canBeEmptyWithJustFluids()" class="member-name-link">canBeEmptyWithJustFluids</a>()</code></td><td><div class="block">Returns whether a region filled only with fluids is considered empty for this collision type.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.level.block.state.BlockState</code></td><td><code><a href="#getExampleState()" class="member-name-link">getExampleState</a>()</code></td><td><div class="block">Returns a representative block state for this collision type.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isValidFor(mod.chiselsandbits.api.multistate.accessor.IStateEntryInfo)" class="member-name-link">isValidFor</a><wbr>(<a href="../multistate/accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&nbsp;info)</code></td><td><div class="block">Returns whether the entry's block state counts as occupying for this collision type.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isValidFor(net.minecraft.world.level.block.state.BlockState)" class="member-name-link">isValidFor</a><wbr>(net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</code></td><td><div class="block">Returns whether the given block state counts as occupying for this collision type.</div><br></td></tr>
   <tr><td><code>static <a href="CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a></code></td><td><code><a href="#valueOf(java.lang.String)" class="member-name-link">valueOf</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Returns the enum constant of this class with the specified name.</div><br></td></tr>
   <tr><td><code>static <a href="CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>[]</code></td><td><code><a href="#values()" class="member-name-link">values</a>()</code></td><td><div class="block">Returns an array containing the constants of this enum class, in<br>the order they are declared.</div><br></td></tr>
   </tbody>
@@ -132,6 +132,7 @@ Method Summary
 == NONE_AIR
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a></span>&nbsp;<span class="element-name">NONE_AIR</span></div>
+Only non-air block states count as occupying; a column of fluids still occupies this type.
 </div>
 :::
 
@@ -144,6 +145,7 @@ Method Summary
 == COLLIDEABLE_ONLY
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a></span>&nbsp;<span class="element-name">COLLIDEABLE_ONLY</span></div>
+Only fully collidable block states are considered occupied; fluids do not occupy, so the region may be empty when filled only with fluids.
 </div>
 :::
 
@@ -156,6 +158,7 @@ Method Summary
 == ALL
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a></span>&nbsp;<span class="element-name">ALL</span></div>
+Every block state counts as occupying, including air; the region is never considered empty even if it contains only fluids.
 </div>
 :::
 
@@ -175,6 +178,7 @@ Method Summary
 == CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&gt;</span>&nbsp;<span class="element-name">CODEC</span></div>
+Encodes this type to its <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#name()" title="class or interface in java.lang" class="external-link"><code>Enum.name()</code></a> string and decodes back via <code>valueOf</code>.
 </div>
 :::
 
@@ -187,6 +191,7 @@ Method Summary
 == STREAM_CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">net.minecraft.network.codec.StreamCodec&lt;io.netty.buffer.ByteBuf, <a href="CollisionType.html" title="enum class in mod.chiselsandbits.api.axissize">CollisionType</a>&gt;</span>&nbsp;<span class="element-name">STREAM_CODEC</span></div>
+Encodes this type by its ordinal index and restores it from that index.
 </div>
 :::
 
@@ -251,6 +256,13 @@ not permitted.)
 == isValidFor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isValidFor</span><wbr><span class="parameters">(<a href="../multistate/accessor/IStateEntryInfo.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IStateEntryInfo</a>&nbsp;info)</span></div>
+Returns whether the entry's block state counts as occupying for this collision type.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>info</code> - entry whose block information is tested</dd>
+<dt>Returns:</dt>
+<dd><code>true</code> when its state is valid for this collision type</dd>
+</dl>
 </div>
 :::
 
@@ -263,6 +275,13 @@ not permitted.)
 == isValidFor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isValidFor</span><wbr><span class="parameters">(net.minecraft.world.level.block.state.BlockState&nbsp;blockState)</span></div>
+Returns whether the given block state counts as occupying for this collision type.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>blockState</code> - state to test</dd>
+<dt>Returns:</dt>
+<dd><code>true</code> when the state is valid for this collision type</dd>
+</dl>
 </div>
 :::
 
@@ -275,6 +294,11 @@ not permitted.)
 == canBeEmptyWithJustFluids
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canBeEmptyWithJustFluids</span>()</div>
+Returns whether a region filled only with fluids is considered empty for this collision type.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd><code>true</code> when fluid-only contents do not count as occupied</dd>
+</dl>
 </div>
 :::
 
@@ -287,6 +311,11 @@ not permitted.)
 == getExampleState
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.world.level.block.state.BlockState</span>&nbsp;<span class="element-name">getExampleState</span>()</div>
+Returns a representative block state for this collision type.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>example state used to represent occupancy</dd>
+</dl>
 </div>
 :::
 

@@ -26,7 +26,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#type-param-T" title="type parameter in ISnapshotable">T</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#type-param-T" title="type parameter in ISnapshotable">T</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td><div class="block">Creates and returns a deep, independent clone of this object.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -35,7 +35,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#type-param-T" title="type parameter in ISnapshotable">T</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#type-param-T" title="type parameter in ISnapshotable">T</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td><div class="block">Creates and returns a deep, independent clone of this object.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -44,7 +44,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#type-param-T" title="type parameter in ISnapshotable">T</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#type-param-T" title="type parameter in ISnapshotable">T</a></code></td><td><code><a href="#createSnapshot()" class="member-name-link">createSnapshot</a>()</code></td><td><div class="block">Creates and returns a deep, independent clone of this object.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -70,6 +70,11 @@ Method Summary
 == createSnapshot
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="#type-param-T" title="type parameter in ISnapshotable">T</a></span>&nbsp;<span class="element-name">createSnapshot</span>()</div>
+Creates and returns a deep, independent clone of this object.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>an independent snapshot of this object</dd>
+</dl>
 </div>
 :::
 

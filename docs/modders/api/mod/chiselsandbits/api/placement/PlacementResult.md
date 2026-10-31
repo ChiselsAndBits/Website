@@ -31,9 +31,9 @@ Method Summary
   <tr><td><code>static <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#failure(java.util.function.Function,net.minecraft.network.chat.Component)" class="member-name-link">failure</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;<a href="../config/IClientConfiguration.html" title="interface in mod.chiselsandbits.api.config">IClientConfiguration</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;org.joml.Vector4f&gt;&gt;&nbsp;clientColor,<br> net.minecraft.network.chat.Component&nbsp;message)</code></td><td><div class="block">Creates a new failed placement result with specified failure message and client config color if clientside.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#failure(org.joml.Vector4f)" class="member-name-link">failure</a><wbr>(org.joml.Vector4f&nbsp;color)</code></td><td><div class="block">Creates a new failed placement result with specified color.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#failure(org.joml.Vector4f,net.minecraft.network.chat.Component)" class="member-name-link">failure</a><wbr>(org.joml.Vector4f&nbsp;color,<br> net.minecraft.network.chat.Component&nbsp;message)</code></td><td><div class="block">Creates a new failed placement result with specified color and failure message.</div><br></td></tr>
-  <tr><td><code>org.joml.Vector4f</code></td><td><code><a href="#getColor()" class="member-name-link">getColor</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getFailureMessage()" class="member-name-link">getFailureMessage</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isSuccess()" class="member-name-link">isSuccess</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>org.joml.Vector4f</code></td><td><code><a href="#getColor()" class="member-name-link">getColor</a>()</code></td><td><div class="block">Returns the color used to render the placement preview.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getFailureMessage()" class="member-name-link">getFailureMessage</a>()</code></td><td><div class="block">Returns the user-facing reason for a failed placement, or an empty component on success.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isSuccess()" class="member-name-link">isSuccess</a>()</code></td><td><div class="block">Returns whether the placement attempt succeeded.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#success()" class="member-name-link">success</a>()</code></td><td><div class="block">Creates a new successful placement result with client config specified color if clientside.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#success(java.util.function.Function)" class="member-name-link">success</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;<a href="../config/IClientConfiguration.html" title="interface in mod.chiselsandbits.api.config">IClientConfiguration</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;org.joml.Vector4f&gt;&gt;&nbsp;clientColor)</code></td><td><div class="block">Creates a new successful placement result with specified client config color if clientside.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#success(org.joml.Vector4f)" class="member-name-link">success</a><wbr>(org.joml.Vector4f&nbsp;color)</code></td><td><div class="block">Creates a new successful placement result with specified color.</div><br></td></tr>
@@ -60,9 +60,9 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>org.joml.Vector4f</code></td><td><code><a href="#getColor()" class="member-name-link">getColor</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getFailureMessage()" class="member-name-link">getFailureMessage</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isSuccess()" class="member-name-link">isSuccess</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>org.joml.Vector4f</code></td><td><code><a href="#getColor()" class="member-name-link">getColor</a>()</code></td><td><div class="block">Returns the color used to render the placement preview.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getFailureMessage()" class="member-name-link">getFailureMessage</a>()</code></td><td><div class="block">Returns the user-facing reason for a failed placement, or an empty component on success.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isSuccess()" class="member-name-link">isSuccess</a>()</code></td><td><div class="block">Returns whether the placement attempt succeeded.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -75,9 +75,9 @@ Method Summary
   <tr><td><code>static <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#failure(java.util.function.Function,net.minecraft.network.chat.Component)" class="member-name-link">failure</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;<a href="../config/IClientConfiguration.html" title="interface in mod.chiselsandbits.api.config">IClientConfiguration</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;org.joml.Vector4f&gt;&gt;&nbsp;clientColor,<br> net.minecraft.network.chat.Component&nbsp;message)</code></td><td><div class="block">Creates a new failed placement result with specified failure message and client config color if clientside.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#failure(org.joml.Vector4f)" class="member-name-link">failure</a><wbr>(org.joml.Vector4f&nbsp;color)</code></td><td><div class="block">Creates a new failed placement result with specified color.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#failure(org.joml.Vector4f,net.minecraft.network.chat.Component)" class="member-name-link">failure</a><wbr>(org.joml.Vector4f&nbsp;color,<br> net.minecraft.network.chat.Component&nbsp;message)</code></td><td><div class="block">Creates a new failed placement result with specified color and failure message.</div><br></td></tr>
-  <tr><td><code>org.joml.Vector4f</code></td><td><code><a href="#getColor()" class="member-name-link">getColor</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getFailureMessage()" class="member-name-link">getFailureMessage</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isSuccess()" class="member-name-link">isSuccess</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>org.joml.Vector4f</code></td><td><code><a href="#getColor()" class="member-name-link">getColor</a>()</code></td><td><div class="block">Returns the color used to render the placement preview.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getFailureMessage()" class="member-name-link">getFailureMessage</a>()</code></td><td><div class="block">Returns the user-facing reason for a failed placement, or an empty component on success.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isSuccess()" class="member-name-link">isSuccess</a>()</code></td><td><div class="block">Returns whether the placement attempt succeeded.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#success()" class="member-name-link">success</a>()</code></td><td><div class="block">Creates a new successful placement result with client config specified color if clientside.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#success(java.util.function.Function)" class="member-name-link">success</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Function.html" title="class or interface in java.util.function" class="external-link">Function</a>&lt;<a href="../config/IClientConfiguration.html" title="interface in mod.chiselsandbits.api.config">IClientConfiguration</a>, <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Supplier.html" title="class or interface in java.util.function" class="external-link">Supplier</a>&lt;org.joml.Vector4f&gt;&gt;&nbsp;clientColor)</code></td><td><div class="block">Creates a new successful placement result with specified client config color if clientside.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#success(org.joml.Vector4f)" class="member-name-link">success</a><wbr>(org.joml.Vector4f&nbsp;color)</code></td><td><div class="block">Creates a new successful placement result with specified color.</div><br></td></tr>
@@ -245,6 +245,11 @@ Creates a new failed placement result with specified color and failure message.
 == isSuccess
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isSuccess</span>()</div>
+Returns whether the placement attempt succeeded.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd><code>true</code> when placement is allowed</dd>
+</dl>
 </div>
 :::
 
@@ -257,6 +262,11 @@ Creates a new failed placement result with specified color and failure message.
 == getColor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">org.joml.Vector4f</span>&nbsp;<span class="element-name">getColor</span>()</div>
+Returns the color used to render the placement preview.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>preview RGBA color</dd>
+</dl>
 </div>
 :::
 
@@ -269,6 +279,11 @@ Creates a new failed placement result with specified color and failure message.
 == getFailureMessage
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getFailureMessage</span>()</div>
+Returns the user-facing reason for a failed placement, or an empty component on success.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>failure message component</dd>
+</dl>
 </div>
 :::
 

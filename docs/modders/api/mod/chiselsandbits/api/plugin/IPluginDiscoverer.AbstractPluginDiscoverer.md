@@ -21,7 +21,7 @@ implements <a href="IPluginDiscoverer.html" title="interface in mod.chiselsandbi
 
   
 
-  
+Shared service-loader implementation that filters plugins by platform availability and experimental status.  
 
 <dl class="notes"></dl>  
 
@@ -40,10 +40,10 @@ Constructor Summary
 == Constructors
 <table class="stretched-table">
   <thead>
-    <tr><th>Constructor</th><th>Description</th></tr>
+    <tr><th>Modifier</th><th>Constructor</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">AbstractPluginDiscoverer</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>protected </code></td><td><code><a href="#%3Cinit%3E()" class="member-name-link">AbstractPluginDiscoverer</a>()</code></td><td><div class="block">Creates a platform plugin discoverer.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -58,7 +58,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>protected abstract boolean</code></td><td><code><a href="#isModNotLoaded(java.lang.String)" class="member-name-link">isModNotLoaded</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>protected abstract boolean</code></td><td><code><a href="#isModNotLoaded(java.lang.String)" class="member-name-link">isModNotLoaded</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</code></td><td><div class="block">Checks whether a required mod identifier is unavailable on this platform.</div><br></td></tr>
   <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</code></td><td><code><a href="#loadPlugins()" class="member-name-link">loadPlugins</a>()</code></td><td><div class="block">Loads the plugins.</div><br></td></tr>
   </tbody>
 </table>
@@ -68,7 +68,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>protected abstract boolean</code></td><td><code><a href="#isModNotLoaded(java.lang.String)" class="member-name-link">isModNotLoaded</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>protected abstract boolean</code></td><td><code><a href="#isModNotLoaded(java.lang.String)" class="member-name-link">isModNotLoaded</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</code></td><td><div class="block">Checks whether a required mod identifier is unavailable on this platform.</div><br></td></tr>
   <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/stream/Stream.html" title="class or interface in java.util.stream" class="external-link">Stream</a><wbr>&lt;<a href="PluginData.html" title="class in mod.chiselsandbits.api.plugin">PluginData</a>&lt;<a href="IChiselsAndBitsPlugin.html" title="interface in mod.chiselsandbits.api.plugin">IChiselsAndBitsPlugin</a>&gt;&gt;</code></td><td><code><a href="#loadPlugins()" class="member-name-link">loadPlugins</a>()</code></td><td><div class="block">Loads the plugins.</div><br></td></tr>
   </tbody>
 </table>
@@ -78,7 +78,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>protected abstract boolean</code></td><td><code><a href="#isModNotLoaded(java.lang.String)" class="member-name-link">isModNotLoaded</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>protected abstract boolean</code></td><td><code><a href="#isModNotLoaded(java.lang.String)" class="member-name-link">isModNotLoaded</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</code></td><td><div class="block">Checks whether a required mod identifier is unavailable on this platform.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -112,7 +112,8 @@ Method Summary
 :::tabs
 == AbstractPluginDiscoverer
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">AbstractPluginDiscoverer</span>()</div>
+<div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="element-name">AbstractPluginDiscoverer</span>()</div>
+Creates a platform plugin discoverer.
 </div>
 :::
 
@@ -153,6 +154,13 @@ Already has performed the instantiation logic and validation.
 == isModNotLoaded
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">protected abstract</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isModNotLoaded</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;modId)</span></div>
+Checks whether a required mod identifier is unavailable on this platform.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>modId</code> - required mod identifier to check</dd>
+<dt>Returns:</dt>
+<dd><code>true</code> when the required mod is not loaded</dd>
+</dl>
 </div>
 :::
 

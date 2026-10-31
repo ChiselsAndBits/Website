@@ -14,7 +14,7 @@ java.lang.Object
 
   
 
-  
+Field names used to encode Chisels &amp; Bits data in Minecraft NBT compounds.  
 
 <dl class="notes"></dl>  
 
@@ -27,70 +27,70 @@ Field Summary
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#AFTER" class="member-name-link">AFTER</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#BEFORE" class="member-name-link">BEFORE</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#BITS" class="member-name-link">BITS</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#BLOCK" class="member-name-link">BLOCK</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#BLOCK_INFORMATION" class="member-name-link">BLOCK_INFORMATION</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#BLOCK_STATES" class="member-name-link">BLOCK_STATES</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#CAN_BE_FLOODED" class="member-name-link">CAN_BE_FLOODED</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#CAN_LOWEST_BIT_SUSTAIN_GRASS" class="member-name-link">CAN_LOWEST_BIT_SUSTAIN_GRASS</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#CAN_PROPAGATE_SKYLIGHT_DOWN" class="member-name-link">CAN_PROPAGATE_SKYLIGHT_DOWN</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#CHISEL_ERROR" class="member-name-link">CHISEL_ERROR</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#CHISEL_MODE" class="member-name-link">CHISEL_MODE</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#COLLISION_DATA" class="member-name-link">COLLISION_DATA</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#COLUMN_STATISTICS" class="member-name-link">COLUMN_STATISTICS</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#COMPRESSED" class="member-name-link">COMPRESSED</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#COUNT" class="member-name-link">COUNT</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#DATA" class="member-name-link">DATA</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#DEFAULT_INSTANCE_INDICATOR" class="member-name-link">DEFAULT_INSTANCE_INDICATOR</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#EMITS_LIGHT_BASED_ON_FULL_BLOCK" class="member-name-link">EMITS_LIGHT_BASED_ON_FULL_BLOCK</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#END" class="member-name-link">END</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#ENTRIES" class="member-name-link">ENTRIES</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#FROM" class="member-name-link">FROM</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#HIGHEST_BIT" class="member-name-link">HIGHEST_BIT</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#HIGHEST_BIT_FRICTION" class="member-name-link">HIGHEST_BIT_FRICTION</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#HIGHLIGHT" class="member-name-link">HIGHLIGHT</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#HIGHLIGHT_START_TIME" class="member-name-link">HIGHLIGHT_START_TIME</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#INTERACTION_TARGET" class="member-name-link">INTERACTION_TARGET</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#IS_FILTERED_PICKUP" class="member-name-link">IS_FILTERED_PICKUP</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#IS_PREFERRED_PICKUP" class="member-name-link">IS_PREFERRED_PICKUP</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#IS_SIMULATING" class="member-name-link">IS_SIMULATING</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#LEGACY_CHISELED_DATA" class="member-name-link">LEGACY_CHISELED_DATA</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#LEVEL" class="member-name-link">LEVEL</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MEASURING_MODE" class="member-name-link">MEASURING_MODE</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MODE" class="member-name-link">MODE</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MODIFICATION_OPERATION" class="member-name-link">MODIFICATION_OPERATION</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MULTI_STATE_ITEM_STACK_DATA" class="member-name-link">MULTI_STATE_ITEM_STACK_DATA</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#NONE_AIR_BITS" class="member-name-link">NONE_AIR_BITS</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#OPERATION" class="member-name-link">OPERATION</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#OWNER" class="member-name-link">OWNER</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#PALETTE" class="member-name-link">PALETTE</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#PATTERN" class="member-name-link">PATTERN</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#PATTERN_PLACEMENT_TYPE" class="member-name-link">PATTERN_PLACEMENT_TYPE</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#PAYLOAD" class="member-name-link">PAYLOAD</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#POSITION" class="member-name-link">POSITION</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#PRIMARY_STATE" class="member-name-link">PRIMARY_STATE</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#PROGRESS" class="member-name-link">PROGRESS</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#REQUIRES_RECALCULATION" class="member-name-link">REQUIRES_RECALCULATION</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#RESULT" class="member-name-link">RESULT</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#SKYLIGHT_BLOCKING_BITS" class="member-name-link">SKYLIGHT_BLOCKING_BITS</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#SLOTS" class="member-name-link">SLOTS</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#SLOTTED_BIT_INVENTORY_DATA" class="member-name-link">SLOTTED_BIT_INVENTORY_DATA</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#SNAPSHOTS" class="member-name-link">SNAPSHOTS</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#START" class="member-name-link">START</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#STATE" class="member-name-link">STATE</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#STATE_COUNTS" class="member-name-link">STATE_COUNTS</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#STATISTICS" class="member-name-link">STATISTICS</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#STORAGE" class="member-name-link">STORAGE</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#TO" class="member-name-link">TO</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#TOOL" class="member-name-link">TOOL</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#TOTAL_LIGHT_BLOCK_LEVEL" class="member-name-link">TOTAL_LIGHT_BLOCK_LEVEL</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#TOTAL_LIGHT_LEVEL" class="member-name-link">TOTAL_LIGHT_LEVEL</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#TOTAL_USED_BLOCK_COUNT" class="member-name-link">TOTAL_USED_BLOCK_COUNT</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#TOTAL_USED_CHECKS_WEAK_POWER_COUNT" class="member-name-link">TOTAL_USED_CHECKS_WEAK_POWER_COUNT</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#VARIANT" class="member-name-link">VARIANT</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#VERSION" class="member-name-link">VERSION</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#AFTER" class="member-name-link">AFTER</a></code></td><td><div class="block">NBT compound key <code>after</code> for after data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#BEFORE" class="member-name-link">BEFORE</a></code></td><td><div class="block">NBT compound key <code>before</code> for before data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#BITS" class="member-name-link">BITS</a></code></td><td><div class="block">NBT compound key <code>bits</code> for bits data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#BLOCK" class="member-name-link">BLOCK</a></code></td><td><div class="block">NBT compound key <code>block</code> for block data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#BLOCK_INFORMATION" class="member-name-link">BLOCK_INFORMATION</a></code></td><td><div class="block">NBT compound key <code>block_information</code> for block information data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#BLOCK_STATES" class="member-name-link">BLOCK_STATES</a></code></td><td><div class="block">NBT compound key <code>block_states</code> for block states data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#CAN_BE_FLOODED" class="member-name-link">CAN_BE_FLOODED</a></code></td><td><div class="block">NBT compound key <code>can_be_flooded</code> for can be flooded data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#CAN_LOWEST_BIT_SUSTAIN_GRASS" class="member-name-link">CAN_LOWEST_BIT_SUSTAIN_GRASS</a></code></td><td><div class="block">NBT compound key <code>can_lowest_bit_sustain_grass</code> for can lowest bit sustain grass data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#CAN_PROPAGATE_SKYLIGHT_DOWN" class="member-name-link">CAN_PROPAGATE_SKYLIGHT_DOWN</a></code></td><td><div class="block">NBT compound key <code>can_propagate_skylight_down</code> for can propagate skylight down data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#CHISEL_ERROR" class="member-name-link">CHISEL_ERROR</a></code></td><td><div class="block">NBT compound key <code>chisel_error</code> for chisel error data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#CHISEL_MODE" class="member-name-link">CHISEL_MODE</a></code></td><td><div class="block">NBT compound key <code>chisel_mode</code> for chisel mode data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#COLLISION_DATA" class="member-name-link">COLLISION_DATA</a></code></td><td><div class="block">NBT compound key <code>collision_data</code> for collision data data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#COLUMN_STATISTICS" class="member-name-link">COLUMN_STATISTICS</a></code></td><td><div class="block">NBT compound key <code>column_statistics</code> for column statistics data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#COMPRESSED" class="member-name-link">COMPRESSED</a></code></td><td><div class="block">NBT compound key <code>compressed</code> for compressed data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#COUNT" class="member-name-link">COUNT</a></code></td><td><div class="block">NBT compound key <code>count</code> for count data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#DATA" class="member-name-link">DATA</a></code></td><td><div class="block">NBT compound key <code>data</code> for data data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#DEFAULT_INSTANCE_INDICATOR" class="member-name-link">DEFAULT_INSTANCE_INDICATOR</a></code></td><td><div class="block">NBT compound key <code>default_instance_indicator</code> for default instance indicator data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#EMITS_LIGHT_BASED_ON_FULL_BLOCK" class="member-name-link">EMITS_LIGHT_BASED_ON_FULL_BLOCK</a></code></td><td><div class="block">NBT compound key <code>emits_light_based_on_full_block</code> for emits light based on full block data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#END" class="member-name-link">END</a></code></td><td><div class="block">NBT compound key <code>end</code> for end data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#ENTRIES" class="member-name-link">ENTRIES</a></code></td><td><div class="block">NBT compound key <code>entries</code> for entries data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#FROM" class="member-name-link">FROM</a></code></td><td><div class="block">NBT compound key <code>from</code> for from data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#HIGHEST_BIT" class="member-name-link">HIGHEST_BIT</a></code></td><td><div class="block">NBT compound key <code>highestBit</code> for highest bit data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#HIGHEST_BIT_FRICTION" class="member-name-link">HIGHEST_BIT_FRICTION</a></code></td><td><div class="block">NBT compound key <code>highestBitFriction</code> for highest bit friction data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#HIGHLIGHT" class="member-name-link">HIGHLIGHT</a></code></td><td><div class="block">NBT compound key <code>highlight</code> for highlight data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#HIGHLIGHT_START_TIME" class="member-name-link">HIGHLIGHT_START_TIME</a></code></td><td><div class="block">NBT compound key <code>highlight_start_time</code> for highlight start time data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#INTERACTION_TARGET" class="member-name-link">INTERACTION_TARGET</a></code></td><td><div class="block">NBT compound key <code>interaction_target</code> for interaction target data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#IS_FILTERED_PICKUP" class="member-name-link">IS_FILTERED_PICKUP</a></code></td><td><div class="block">NBT compound key <code>is_filtered_pickup</code> for is filtered pickup data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#IS_PREFERRED_PICKUP" class="member-name-link">IS_PREFERRED_PICKUP</a></code></td><td><div class="block">NBT compound key <code>is_preferred_pickup</code> for is preferred pickup data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#IS_SIMULATING" class="member-name-link">IS_SIMULATING</a></code></td><td><div class="block">NBT compound key <code>is_simulating</code> for is simulating data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#LEGACY_CHISELED_DATA" class="member-name-link">LEGACY_CHISELED_DATA</a></code></td><td><div class="block">NBT compound key <code>chiseledData</code> for legacy chiseled data data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#LEVEL" class="member-name-link">LEVEL</a></code></td><td><div class="block">NBT compound key <code>level</code> for level data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MEASURING_MODE" class="member-name-link">MEASURING_MODE</a></code></td><td><div class="block">NBT compound key <code>measuring_mode</code> for measuring mode data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MODE" class="member-name-link">MODE</a></code></td><td><div class="block">NBT compound key <code>mode</code> for mode data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MODIFICATION_OPERATION" class="member-name-link">MODIFICATION_OPERATION</a></code></td><td><div class="block">NBT compound key <code>modification_operation</code> for modification operation data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#MULTI_STATE_ITEM_STACK_DATA" class="member-name-link">MULTI_STATE_ITEM_STACK_DATA</a></code></td><td><div class="block">NBT compound key <code>multi_state_item_stack_data</code> for multi state item stack data data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#NONE_AIR_BITS" class="member-name-link">NONE_AIR_BITS</a></code></td><td><div class="block">NBT compound key <code>none_air_bits</code> for none air bits data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#OPERATION" class="member-name-link">OPERATION</a></code></td><td><div class="block">NBT compound key <code>operation</code> for operation data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#OWNER" class="member-name-link">OWNER</a></code></td><td><div class="block">NBT compound key <code>owner</code> for owner data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#PALETTE" class="member-name-link">PALETTE</a></code></td><td><div class="block">NBT compound key <code>palette</code> for palette data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#PATTERN" class="member-name-link">PATTERN</a></code></td><td><div class="block">NBT compound key <code>pattern</code> for pattern data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#PATTERN_PLACEMENT_TYPE" class="member-name-link">PATTERN_PLACEMENT_TYPE</a></code></td><td><div class="block">NBT compound key <code>pattern_placement_type</code> for pattern placement type data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#PAYLOAD" class="member-name-link">PAYLOAD</a></code></td><td><div class="block">NBT compound key <code>payload</code> for payload data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#POSITION" class="member-name-link">POSITION</a></code></td><td><div class="block">NBT compound key <code>position</code> for position data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#PRIMARY_STATE" class="member-name-link">PRIMARY_STATE</a></code></td><td><div class="block">NBT compound key <code>primary_state</code> for primary state data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#PROGRESS" class="member-name-link">PROGRESS</a></code></td><td><div class="block">NBT compound key <code>progress</code> for progress data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#REQUIRES_RECALCULATION" class="member-name-link">REQUIRES_RECALCULATION</a></code></td><td><div class="block">NBT compound key <code>requires_recalculation</code> for requires recalculation data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#RESULT" class="member-name-link">RESULT</a></code></td><td><div class="block">NBT compound key <code>result</code> for result data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#SKYLIGHT_BLOCKING_BITS" class="member-name-link">SKYLIGHT_BLOCKING_BITS</a></code></td><td><div class="block">NBT compound key <code>skylight_blocking_bits</code> for skylight blocking bits data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#SLOTS" class="member-name-link">SLOTS</a></code></td><td><div class="block">NBT compound key <code>slots</code> for slots data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#SLOTTED_BIT_INVENTORY_DATA" class="member-name-link">SLOTTED_BIT_INVENTORY_DATA</a></code></td><td><div class="block">NBT compound key <code>slotted_bit_inventory_data</code> for slotted bit inventory data data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#SNAPSHOTS" class="member-name-link">SNAPSHOTS</a></code></td><td><div class="block">NBT compound key <code>snapshots</code> for snapshots data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#START" class="member-name-link">START</a></code></td><td><div class="block">NBT compound key <code>start</code> for start data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#STATE" class="member-name-link">STATE</a></code></td><td><div class="block">NBT compound key <code>state</code> for state data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#STATE_COUNTS" class="member-name-link">STATE_COUNTS</a></code></td><td><div class="block">NBT compound key <code>state_counts</code> for state counts data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#STATISTICS" class="member-name-link">STATISTICS</a></code></td><td><div class="block">NBT compound key <code>statistics</code> for statistics data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#STORAGE" class="member-name-link">STORAGE</a></code></td><td><div class="block">NBT compound key <code>storage</code> for storage data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#TO" class="member-name-link">TO</a></code></td><td><div class="block">NBT compound key <code>to</code> for to data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#TOOL" class="member-name-link">TOOL</a></code></td><td><div class="block">NBT compound key <code>tool</code> for tool data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#TOTAL_LIGHT_BLOCK_LEVEL" class="member-name-link">TOTAL_LIGHT_BLOCK_LEVEL</a></code></td><td><div class="block">NBT compound key <code>total_light_block_level</code> for total light block level data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#TOTAL_LIGHT_LEVEL" class="member-name-link">TOTAL_LIGHT_LEVEL</a></code></td><td><div class="block">NBT compound key <code>total_light_level</code> for total light level data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#TOTAL_USED_BLOCK_COUNT" class="member-name-link">TOTAL_USED_BLOCK_COUNT</a></code></td><td><div class="block">NBT compound key <code>total_used_block_count</code> for total used block count data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#TOTAL_USED_CHECKS_WEAK_POWER_COUNT" class="member-name-link">TOTAL_USED_CHECKS_WEAK_POWER_COUNT</a></code></td><td><div class="block">NBT compound key <code>total_used_checks_weak_power_count</code> for total used checks weak power count data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#VARIANT" class="member-name-link">VARIANT</a></code></td><td><div class="block">NBT compound key <code>variant</code> for variant data.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#VERSION" class="member-name-link">VERSION</a></code></td><td><div class="block">NBT compound key <code>version</code> for version data.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -118,6 +118,7 @@ Method Summary
 == VERSION
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">VERSION</span></div>
+NBT compound key <code>version</code> for version data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -138,6 +139,7 @@ Method Summary
 == SKYLIGHT_BLOCKING_BITS
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">SKYLIGHT_BLOCKING_BITS</span></div>
+NBT compound key <code>skylight_blocking_bits</code> for skylight blocking bits data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -158,6 +160,7 @@ Method Summary
 == HIGHEST_BIT
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">HIGHEST_BIT</span></div>
+NBT compound key <code>highestBit</code> for highest bit data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -178,6 +181,7 @@ Method Summary
 == HIGHEST_BIT_FRICTION
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">HIGHEST_BIT_FRICTION</span></div>
+NBT compound key <code>highestBitFriction</code> for highest bit friction data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -198,6 +202,7 @@ Method Summary
 == NONE_AIR_BITS
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">NONE_AIR_BITS</span></div>
+NBT compound key <code>none_air_bits</code> for none air bits data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -218,6 +223,7 @@ Method Summary
 == COLUMN_STATISTICS
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">COLUMN_STATISTICS</span></div>
+NBT compound key <code>column_statistics</code> for column statistics data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -238,6 +244,7 @@ Method Summary
 == CAN_PROPAGATE_SKYLIGHT_DOWN
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">CAN_PROPAGATE_SKYLIGHT_DOWN</span></div>
+NBT compound key <code>can_propagate_skylight_down</code> for can propagate skylight down data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -258,6 +265,7 @@ Method Summary
 == COLLISION_DATA
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">COLLISION_DATA</span></div>
+NBT compound key <code>collision_data</code> for collision data data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -278,6 +286,7 @@ Method Summary
 == CHISEL_ERROR
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">CHISEL_ERROR</span></div>
+NBT compound key <code>chisel_error</code> for chisel error data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -298,6 +307,7 @@ Method Summary
 == STATE
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">STATE</span></div>
+NBT compound key <code>state</code> for state data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -318,6 +328,7 @@ Method Summary
 == VARIANT
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">VARIANT</span></div>
+NBT compound key <code>variant</code> for variant data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -338,6 +349,7 @@ Method Summary
 == BITS
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">BITS</span></div>
+NBT compound key <code>bits</code> for bits data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -358,6 +370,7 @@ Method Summary
 == BLOCK_INFORMATION
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">BLOCK_INFORMATION</span></div>
+NBT compound key <code>block_information</code> for block information data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -378,6 +391,7 @@ Method Summary
 == BLOCK
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">BLOCK</span></div>
+NBT compound key <code>block</code> for block data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -398,6 +412,7 @@ Method Summary
 == DEFAULT_INSTANCE_INDICATOR
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">DEFAULT_INSTANCE_INDICATOR</span></div>
+NBT compound key <code>default_instance_indicator</code> for default instance indicator data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -418,6 +433,7 @@ Method Summary
 == EMITS_LIGHT_BASED_ON_FULL_BLOCK
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">EMITS_LIGHT_BASED_ON_FULL_BLOCK</span></div>
+NBT compound key <code>emits_light_based_on_full_block</code> for emits light based on full block data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -438,6 +454,7 @@ Method Summary
 == CAN_BE_FLOODED
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">CAN_BE_FLOODED</span></div>
+NBT compound key <code>can_be_flooded</code> for can be flooded data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -458,6 +475,7 @@ Method Summary
 == ENTRIES
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">ENTRIES</span></div>
+NBT compound key <code>entries</code> for entries data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -478,6 +496,7 @@ Method Summary
 == SLOTS
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">SLOTS</span></div>
+NBT compound key <code>slots</code> for slots data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -498,6 +517,7 @@ Method Summary
 == STORAGE
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">STORAGE</span></div>
+NBT compound key <code>storage</code> for storage data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -518,6 +538,7 @@ Method Summary
 == CAN_LOWEST_BIT_SUSTAIN_GRASS
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">CAN_LOWEST_BIT_SUSTAIN_GRASS</span></div>
+NBT compound key <code>can_lowest_bit_sustain_grass</code> for can lowest bit sustain grass data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -538,6 +559,7 @@ Method Summary
 == POSITION
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">POSITION</span></div>
+NBT compound key <code>position</code> for position data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -558,6 +580,7 @@ Method Summary
 == STATE_COUNTS
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">STATE_COUNTS</span></div>
+NBT compound key <code>state_counts</code> for state counts data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -578,6 +601,7 @@ Method Summary
 == TOTAL_USED_BLOCK_COUNT
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">TOTAL_USED_BLOCK_COUNT</span></div>
+NBT compound key <code>total_used_block_count</code> for total used block count data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -598,6 +622,7 @@ Method Summary
 == TOTAL_USED_CHECKS_WEAK_POWER_COUNT
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">TOTAL_USED_CHECKS_WEAK_POWER_COUNT</span></div>
+NBT compound key <code>total_used_checks_weak_power_count</code> for total used checks weak power count data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -618,6 +643,7 @@ Method Summary
 == REQUIRES_RECALCULATION
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">REQUIRES_RECALCULATION</span></div>
+NBT compound key <code>requires_recalculation</code> for requires recalculation data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -638,6 +664,7 @@ Method Summary
 == PAYLOAD
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">PAYLOAD</span></div>
+NBT compound key <code>payload</code> for payload data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -658,6 +685,7 @@ Method Summary
 == SLOTTED_BIT_INVENTORY_DATA
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">SLOTTED_BIT_INVENTORY_DATA</span></div>
+NBT compound key <code>slotted_bit_inventory_data</code> for slotted bit inventory data data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -678,6 +706,7 @@ Method Summary
 == MULTI_STATE_ITEM_STACK_DATA
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MULTI_STATE_ITEM_STACK_DATA</span></div>
+NBT compound key <code>multi_state_item_stack_data</code> for multi state item stack data data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -698,6 +727,7 @@ Method Summary
 == OWNER
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">OWNER</span></div>
+NBT compound key <code>owner</code> for owner data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -718,6 +748,7 @@ Method Summary
 == FROM
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">FROM</span></div>
+NBT compound key <code>from</code> for from data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -738,6 +769,7 @@ Method Summary
 == TO
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">TO</span></div>
+NBT compound key <code>to</code> for to data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -758,6 +790,7 @@ Method Summary
 == MODE
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MODE</span></div>
+NBT compound key <code>mode</code> for mode data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -778,6 +811,7 @@ Method Summary
 == LEVEL
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">LEVEL</span></div>
+NBT compound key <code>level</code> for level data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -798,6 +832,7 @@ Method Summary
 == TOOL
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">TOOL</span></div>
+NBT compound key <code>tool</code> for tool data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -818,6 +853,7 @@ Method Summary
 == PATTERN
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">PATTERN</span></div>
+NBT compound key <code>pattern</code> for pattern data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -838,6 +874,7 @@ Method Summary
 == RESULT
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">RESULT</span></div>
+NBT compound key <code>result</code> for result data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -858,6 +895,7 @@ Method Summary
 == PROGRESS
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">PROGRESS</span></div>
+NBT compound key <code>progress</code> for progress data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -878,6 +916,7 @@ Method Summary
 == SNAPSHOTS
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">SNAPSHOTS</span></div>
+NBT compound key <code>snapshots</code> for snapshots data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -898,6 +937,7 @@ Method Summary
 == START
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">START</span></div>
+NBT compound key <code>start</code> for start data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -918,6 +958,7 @@ Method Summary
 == END
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">END</span></div>
+NBT compound key <code>end</code> for end data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -938,6 +979,7 @@ Method Summary
 == BEFORE
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">BEFORE</span></div>
+NBT compound key <code>before</code> for before data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -958,6 +1000,7 @@ Method Summary
 == AFTER
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">AFTER</span></div>
+NBT compound key <code>after</code> for after data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -978,6 +1021,7 @@ Method Summary
 == HIGHLIGHT_START_TIME
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">HIGHLIGHT_START_TIME</span></div>
+NBT compound key <code>highlight_start_time</code> for highlight start time data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -998,6 +1042,7 @@ Method Summary
 == MEASURING_MODE
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MEASURING_MODE</span></div>
+NBT compound key <code>measuring_mode</code> for measuring mode data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1018,6 +1063,7 @@ Method Summary
 == PATTERN_PLACEMENT_TYPE
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">PATTERN_PLACEMENT_TYPE</span></div>
+NBT compound key <code>pattern_placement_type</code> for pattern placement type data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1038,6 +1084,7 @@ Method Summary
 == INTERACTION_TARGET
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">INTERACTION_TARGET</span></div>
+NBT compound key <code>interaction_target</code> for interaction target data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1058,6 +1105,7 @@ Method Summary
 == IS_SIMULATING
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">IS_SIMULATING</span></div>
+NBT compound key <code>is_simulating</code> for is simulating data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1078,6 +1126,7 @@ Method Summary
 == MODIFICATION_OPERATION
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">MODIFICATION_OPERATION</span></div>
+NBT compound key <code>modification_operation</code> for modification operation data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1098,6 +1147,7 @@ Method Summary
 == OPERATION
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">OPERATION</span></div>
+NBT compound key <code>operation</code> for operation data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1118,6 +1168,7 @@ Method Summary
 == IS_PREFERRED_PICKUP
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">IS_PREFERRED_PICKUP</span></div>
+NBT compound key <code>is_preferred_pickup</code> for is preferred pickup data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1138,6 +1189,7 @@ Method Summary
 == IS_FILTERED_PICKUP
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">IS_FILTERED_PICKUP</span></div>
+NBT compound key <code>is_filtered_pickup</code> for is filtered pickup data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1158,6 +1210,7 @@ Method Summary
 == PALETTE
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">PALETTE</span></div>
+NBT compound key <code>palette</code> for palette data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1178,6 +1231,7 @@ Method Summary
 == BLOCK_STATES
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">BLOCK_STATES</span></div>
+NBT compound key <code>block_states</code> for block states data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1198,6 +1252,7 @@ Method Summary
 == PRIMARY_STATE
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">PRIMARY_STATE</span></div>
+NBT compound key <code>primary_state</code> for primary state data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1218,6 +1273,7 @@ Method Summary
 == COUNT
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">COUNT</span></div>
+NBT compound key <code>count</code> for count data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1238,6 +1294,7 @@ Method Summary
 == STATISTICS
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">STATISTICS</span></div>
+NBT compound key <code>statistics</code> for statistics data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1258,6 +1315,7 @@ Method Summary
 == TOTAL_LIGHT_LEVEL
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">TOTAL_LIGHT_LEVEL</span></div>
+NBT compound key <code>total_light_level</code> for total light level data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1278,6 +1336,7 @@ Method Summary
 == TOTAL_LIGHT_BLOCK_LEVEL
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">TOTAL_LIGHT_BLOCK_LEVEL</span></div>
+NBT compound key <code>total_light_block_level</code> for total light block level data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1298,6 +1357,7 @@ Method Summary
 == CHISEL_MODE
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">CHISEL_MODE</span></div>
+NBT compound key <code>chisel_mode</code> for chisel mode data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1318,6 +1378,7 @@ Method Summary
 == COMPRESSED
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">COMPRESSED</span></div>
+NBT compound key <code>compressed</code> for compressed data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1338,6 +1399,7 @@ Method Summary
 == DATA
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">DATA</span></div>
+NBT compound key <code>data</code> for data data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1358,6 +1420,7 @@ Method Summary
 == HIGHLIGHT
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">HIGHLIGHT</span></div>
+NBT compound key <code>highlight</code> for highlight data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>
@@ -1378,6 +1441,7 @@ Method Summary
 == LEGACY_CHISELED_DATA
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">LEGACY_CHISELED_DATA</span></div>
+NBT compound key <code>chiseledData</code> for legacy chiseled data data.
 <dl class="notes">
 <dt>See Also:</dt>
 <dd>

@@ -14,7 +14,7 @@ extends <a href="IPermanentlyHighlightedNameItem.html" title="interface in mod.c
 
   
 
-  
+Contract for highlighted-name items that adapt their display stack dynamically.  
 
 <dl class="notes"></dl>  
 
@@ -27,7 +27,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#adaptItemStack(net.minecraft.world.item.ItemStack)" class="member-name-link">adaptItemStack</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;currentToolStack)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#adaptItemStack(net.minecraft.world.item.ItemStack)" class="member-name-link">adaptItemStack</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;currentToolStack)</code></td><td><div class="block">Adapts the current tool stack for the dynamic item name.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -36,7 +36,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#adaptItemStack(net.minecraft.world.item.ItemStack)" class="member-name-link">adaptItemStack</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;currentToolStack)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#adaptItemStack(net.minecraft.world.item.ItemStack)" class="member-name-link">adaptItemStack</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;currentToolStack)</code></td><td><div class="block">Adapts the current tool stack for the dynamic item name.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -45,7 +45,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#adaptItemStack(net.minecraft.world.item.ItemStack)" class="member-name-link">adaptItemStack</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;currentToolStack)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#adaptItemStack(net.minecraft.world.item.ItemStack)" class="member-name-link">adaptItemStack</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;currentToolStack)</code></td><td><div class="block">Adapts the current tool stack for the dynamic item name.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -71,6 +71,13 @@ Method Summary
 == adaptItemStack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">adaptItemStack</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;currentToolStack)</span></div>
+Adapts the current tool stack for the dynamic item name.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>currentToolStack</code> - item stack whose name is being displayed</dd>
+<dt>Returns:</dt>
+<dd>a stack adapted for generating the dynamic name</dd>
+</dl>
 </div>
 :::
 

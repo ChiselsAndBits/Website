@@ -14,7 +14,7 @@ extends <a href="IAreaAccessor.html" title="interface in mod.chiselsandbits.api.
 
   
 
-Represents a single block axis aligned area accessor  
+Represents a single block axis aligned area accessor.  
 
 <dl class="notes"></dl>  
 

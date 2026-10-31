@@ -24,7 +24,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code>default double</code></td><td><code><a href="#getAlphaChannel()" class="member-name-link">getAlphaChannel</a>()</code></td><td><div class="block">The alpha channel intensity to render with.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getColorVector()" class="member-name-link">getColorVector</a>()</code></td><td><div class="block">The color used to render.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getColorVector()" class="member-name-link">getColorVector</a>()</code></td><td><div class="block">The color used to render.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -34,7 +34,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code>default double</code></td><td><code><a href="#getAlphaChannel()" class="member-name-link">getAlphaChannel</a>()</code></td><td><div class="block">The alpha channel intensity to render with.</div><br></td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getColorVector()" class="member-name-link">getColorVector</a>()</code></td><td><div class="block">The color used to render.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getColorVector()" class="member-name-link">getColorVector</a>()</code></td><td><div class="block">The color used to render.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -43,7 +43,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getColorVector()" class="member-name-link">getColorVector</a>()</code></td><td><div class="block">The color used to render.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getColorVector()" class="member-name-link">getColorVector</a>()</code></td><td><div class="block">The color used to render.</div><br></td></tr>
   </tbody>
 </table>
 == Default Methods
@@ -77,8 +77,7 @@ Method Summary
 :::tabs
 == getColorVector
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getColorVector</span>()</div>
+<div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getColorVector</span>()</div>
 The color used to render.
 <dl class="notes">
 <dt>Returns:</dt>

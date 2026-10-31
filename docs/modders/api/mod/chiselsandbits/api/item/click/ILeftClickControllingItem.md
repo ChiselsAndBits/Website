@@ -86,8 +86,9 @@ Method Summary
  net.minecraft.core.Direction&nbsp;face,
  <a href="ClickProcessingState.html" title="class in mod.chiselsandbits.api.item.click">ClickProcessingState</a>&nbsp;currentState)</span></div>
 Callback invoked when a supported item is used to left click.
+<p>
 Allows for said item to take over the processing logic of the left clicking
-and can afterwards block the further vanilla processing.
+and can afterwards block the further vanilla processing.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The entity who left clicked.</dd>
@@ -136,6 +137,7 @@ event is cancelled.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player in question.</dd>
+<dd><code>stack</code> - Item stack on which the interaction is being performed.</dd>
 <dt>Returns:</dt>
 <dd>True when useable, false when not.</dd>
 </dl>

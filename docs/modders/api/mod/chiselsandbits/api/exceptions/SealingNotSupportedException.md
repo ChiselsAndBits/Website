@@ -16,7 +16,7 @@ java.lang.Object
 
   
 
-  
+Represents sealing not supported exception.  
 
 <dl class="notes"><br/>  
 <dt>See Also:</dt><br/>  
@@ -36,7 +36,7 @@ Constructor Summary
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">SealingNotSupportedException</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">SealingNotSupportedException</a>()</code></td><td><div class="block">Creates an exception indicating that the target pattern does not support sealing.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -70,6 +70,7 @@ Method Summary
 == SealingNotSupportedException
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">SealingNotSupportedException</span>()</div>
+Creates an exception indicating that the target pattern does not support sealing.
 </div>
 :::
 

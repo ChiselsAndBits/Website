@@ -14,7 +14,7 @@ extends <a href="../item/withmode/IToolMode.html" title="interface in mod.chisel
 
   
 
-  
+Describes a mode for selecting and displaying measurements in the world.  
 
 <dl class="notes"></dl>  
 
@@ -27,8 +27,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.world.item.DyeColor</code></td><td><code><a href="#getColor()" class="member-name-link">getColor</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="IMeasuringType.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringType</a></code></td><td><code><a href="#getType()" class="member-name-link">getType</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.world.item.DyeColor</code></td><td><code><a href="#getColor()" class="member-name-link">getColor</a>()</code></td><td><div class="block">Returns the color associated with this measuring mode.</div><br></td></tr>
+  <tr><td><code><a href="IMeasuringType.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringType</a></code></td><td><code><a href="#getType()" class="member-name-link">getType</a>()</code></td><td><div class="block">Returns the measuring type associated with this mode.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -37,8 +37,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.world.item.DyeColor</code></td><td><code><a href="#getColor()" class="member-name-link">getColor</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="IMeasuringType.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringType</a></code></td><td><code><a href="#getType()" class="member-name-link">getType</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.world.item.DyeColor</code></td><td><code><a href="#getColor()" class="member-name-link">getColor</a>()</code></td><td><div class="block">Returns the color associated with this measuring mode.</div><br></td></tr>
+  <tr><td><code><a href="IMeasuringType.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringType</a></code></td><td><code><a href="#getType()" class="member-name-link">getType</a>()</code></td><td><div class="block">Returns the measuring type associated with this mode.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -47,8 +47,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.world.item.DyeColor</code></td><td><code><a href="#getColor()" class="member-name-link">getColor</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="IMeasuringType.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringType</a></code></td><td><code><a href="#getType()" class="member-name-link">getType</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.world.item.DyeColor</code></td><td><code><a href="#getColor()" class="member-name-link">getColor</a>()</code></td><td><div class="block">Returns the color associated with this measuring mode.</div><br></td></tr>
+  <tr><td><code><a href="IMeasuringType.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringType</a></code></td><td><code><a href="#getType()" class="member-name-link">getType</a>()</code></td><td><div class="block">Returns the measuring type associated with this mode.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -94,6 +94,11 @@ Method Summary
 == getColor
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.item.DyeColor</span>&nbsp;<span class="element-name">getColor</span>()</div>
+Returns the color associated with this measuring mode.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>this mode's measurement color</dd>
+</dl>
 </div>
 :::
 
@@ -106,6 +111,11 @@ Method Summary
 == getType
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="IMeasuringType.html" title="interface in mod.chiselsandbits.api.measuring">IMeasuringType</a></span>&nbsp;<span class="element-name">getType</span>()</div>
+Returns the measuring type associated with this mode.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the measurement type configured for this mode</dd>
+</dl>
 </div>
 :::
 

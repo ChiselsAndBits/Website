@@ -24,11 +24,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></code></td><td><code><a href="#analyse(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">analyse</a><wbr>(@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Performs a chiselability analysis on the given block information.</div><br></td></tr>
-  <tr><td><code><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></code></td><td><code><a href="#analyse(net.minecraft.world.item.ItemStack)" class="member-name-link">analyse</a><wbr>(@NotNull net.minecraft.world.item.ItemStack&nbsp;provider)</code></td><td><div class="block">Performs a chiselability analysis on the given <code>ItemStack</code>.</div><br></td></tr>
-  <tr><td><code>default boolean</code></td><td><code><a href="#canBeChiseled(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">canBeChiseled</a><wbr>(@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Checks if a given block information can be chiseled or is already chiseled.</div><br></td></tr>
-  <tr><td><code>default boolean</code></td><td><code><a href="#canBeChiseled(net.minecraft.world.item.ItemStack)" class="member-name-link">canBeChiseled</a><wbr>(@NotNull net.minecraft.world.item.ItemStack&nbsp;provider)</code></td><td><div class="block">Checks if a given <code>ItemStack</code> can be chiseled or is already chiseled.</div><br></td></tr>
-  <tr><td><code>static <a href="IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></code></td><td><code><a href="#analyse(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">analyse</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Performs a chiselability analysis on the given block information.</div><br></td></tr>
+  <tr><td><code><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></code></td><td><code><a href="#analyse(net.minecraft.world.item.ItemStack)" class="member-name-link">analyse</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;provider)</code></td><td><div class="block">Performs a chiselability analysis on the given <code>ItemStack</code>.</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#canBeChiseled(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">canBeChiseled</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Checks if a given block information can be chiseled or is already chiseled.</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#canBeChiseled(net.minecraft.world.item.ItemStack)" class="member-name-link">canBeChiseled</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;provider)</code></td><td><div class="block">Checks if a given <code>ItemStack</code> can be chiseled or is already chiseled.</div><br></td></tr>
+  <tr><td><code>static <a href="IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the shared eligibility manager instance.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -37,7 +37,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the shared eligibility manager instance.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -46,10 +46,10 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></code></td><td><code><a href="#analyse(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">analyse</a><wbr>(@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Performs a chiselability analysis on the given block information.</div><br></td></tr>
-  <tr><td><code><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></code></td><td><code><a href="#analyse(net.minecraft.world.item.ItemStack)" class="member-name-link">analyse</a><wbr>(@NotNull net.minecraft.world.item.ItemStack&nbsp;provider)</code></td><td><div class="block">Performs a chiselability analysis on the given <code>ItemStack</code>.</div><br></td></tr>
-  <tr><td><code>default boolean</code></td><td><code><a href="#canBeChiseled(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">canBeChiseled</a><wbr>(@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Checks if a given block information can be chiseled or is already chiseled.</div><br></td></tr>
-  <tr><td><code>default boolean</code></td><td><code><a href="#canBeChiseled(net.minecraft.world.item.ItemStack)" class="member-name-link">canBeChiseled</a><wbr>(@NotNull net.minecraft.world.item.ItemStack&nbsp;provider)</code></td><td><div class="block">Checks if a given <code>ItemStack</code> can be chiseled or is already chiseled.</div><br></td></tr>
+  <tr><td><code><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></code></td><td><code><a href="#analyse(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">analyse</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Performs a chiselability analysis on the given block information.</div><br></td></tr>
+  <tr><td><code><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></code></td><td><code><a href="#analyse(net.minecraft.world.item.ItemStack)" class="member-name-link">analyse</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;provider)</code></td><td><div class="block">Performs a chiselability analysis on the given <code>ItemStack</code>.</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#canBeChiseled(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">canBeChiseled</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Checks if a given block information can be chiseled or is already chiseled.</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#canBeChiseled(net.minecraft.world.item.ItemStack)" class="member-name-link">canBeChiseled</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;provider)</code></td><td><div class="block">Checks if a given <code>ItemStack</code> can be chiseled or is already chiseled.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -58,8 +58,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></code></td><td><code><a href="#analyse(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">analyse</a><wbr>(@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Performs a chiselability analysis on the given block information.</div><br></td></tr>
-  <tr><td><code><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></code></td><td><code><a href="#analyse(net.minecraft.world.item.ItemStack)" class="member-name-link">analyse</a><wbr>(@NotNull net.minecraft.world.item.ItemStack&nbsp;provider)</code></td><td><div class="block">Performs a chiselability analysis on the given <code>ItemStack</code>.</div><br></td></tr>
+  <tr><td><code><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></code></td><td><code><a href="#analyse(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">analyse</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Performs a chiselability analysis on the given block information.</div><br></td></tr>
+  <tr><td><code><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></code></td><td><code><a href="#analyse(net.minecraft.world.item.ItemStack)" class="member-name-link">analyse</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;provider)</code></td><td><div class="block">Performs a chiselability analysis on the given <code>ItemStack</code>.</div><br></td></tr>
   </tbody>
 </table>
 == Default Methods
@@ -68,8 +68,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>default boolean</code></td><td><code><a href="#canBeChiseled(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">canBeChiseled</a><wbr>(@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Checks if a given block information can be chiseled or is already chiseled.</div><br></td></tr>
-  <tr><td><code>default boolean</code></td><td><code><a href="#canBeChiseled(net.minecraft.world.item.ItemStack)" class="member-name-link">canBeChiseled</a><wbr>(@NotNull net.minecraft.world.item.ItemStack&nbsp;provider)</code></td><td><div class="block">Checks if a given <code>ItemStack</code> can be chiseled or is already chiseled.</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#canBeChiseled(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">canBeChiseled</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Checks if a given block information can be chiseled or is already chiseled.</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#canBeChiseled(net.minecraft.world.item.ItemStack)" class="member-name-link">canBeChiseled</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;provider)</code></td><td><div class="block">Checks if a given <code>ItemStack</code> can be chiseled or is already chiseled.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -95,6 +95,11 @@ Method Summary
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IEligibilityManager.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
+Returns the shared eligibility manager instance.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the manager provided by the active Chisels &amp; Bits API instance</dd>
+</dl>
 </div>
 :::
 
@@ -106,8 +111,7 @@ Method Summary
 :::tabs
 == canBeChiseled
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canBeChiseled</span><wbr><span class="parameters">(@NotNull
- @NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
+<div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canBeChiseled</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
 Checks if a given block information can be chiseled or is already chiseled.
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -126,8 +130,7 @@ Checks if a given block information can be chiseled or is already chiseled.
 :::tabs
 == canBeChiseled
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canBeChiseled</span><wbr><span class="parameters">(@NotNull
- @NotNull net.minecraft.world.item.ItemStack&nbsp;provider)</span></div>
+<div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">canBeChiseled</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;provider)</span></div>
 Checks if a given <code>ItemStack</code> can be chiseled or is already chiseled.
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -146,8 +149,7 @@ Checks if a given <code>ItemStack</code> can be chiseled or is already chiseled.
 :::tabs
 == analyse
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="return-type"><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></span>&nbsp;<span class="element-name">analyse</span><wbr><span class="parameters">(@NotNull
- @NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
+<div class="member-signature"><span class="return-type"><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></span>&nbsp;<span class="element-name">analyse</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
 Performs a chiselability analysis on the given block information.
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -166,8 +168,7 @@ Performs a chiselability analysis on the given block information.
 :::tabs
 == analyse
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="return-type"><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></span>&nbsp;<span class="element-name">analyse</span><wbr><span class="parameters">(@NotNull
- @NotNull net.minecraft.world.item.ItemStack&nbsp;provider)</span></div>
+<div class="member-signature"><span class="return-type"><a href="IEligibilityAnalysisResult.html" title="interface in mod.chiselsandbits.api.chiseling.eligibility">IEligibilityAnalysisResult</a></span>&nbsp;<span class="element-name">analyse</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;provider)</span></div>
 Performs a chiselability analysis on the given <code>ItemStack</code>.
 <dl class="notes">
 <dt>Parameters:</dt>

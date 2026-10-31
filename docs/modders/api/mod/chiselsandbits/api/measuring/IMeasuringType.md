@@ -14,7 +14,7 @@ extends <a href="../item/withmode/group/IToolModeGroup.html" title="interface in
 
   
 
-  
+Defines how a measuring mode snaps clicked positions and measurement corners to a grid.  
 
 <dl class="notes"></dl>  
 
@@ -27,8 +27,8 @@ extends <a href="../item/withmode/group/IToolModeGroup.html" title="interface in
     <tr><th>Modifier and Type</th><th>Interface</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static interface&nbsp;</code></td><td><code><a href="IMeasuringType.IClickedPositionAdapter.html" class="type-name-link" title="interface in mod.chiselsandbits.api.measuring">IMeasuringType.IClickedPositionAdapter</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static interface&nbsp;</code></td><td><code><a href="IMeasuringType.IPositionAdapter.html" class="type-name-link" title="interface in mod.chiselsandbits.api.measuring">IMeasuringType.IPositionAdapter</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static interface&nbsp;</code></td><td><code><a href="IMeasuringType.IClickedPositionAdapter.html" class="type-name-link" title="interface in mod.chiselsandbits.api.measuring">IMeasuringType.IClickedPositionAdapter</a></code></td><td><div class="block">Adapts the location reported by a block hit before it becomes a measurement endpoint.</div><br></td></tr>
+  <tr><td><code>static interface&nbsp;</code></td><td><code><a href="IMeasuringType.IPositionAdapter.html" class="type-name-link" title="interface in mod.chiselsandbits.api.measuring">IMeasuringType.IPositionAdapter</a></code></td><td><div class="block">Adapts a pair of measurement endpoints using the clicked face.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -44,11 +44,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptClickedPosition(net.minecraft.world.phys.BlockHitResult)" class="member-name-link">adaptClickedPosition</a><wbr>(@NotNull net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptEndCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adaptEndCorner</a><wbr>(@NotNull net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> @NotNull net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> @NotNull net.minecraft.core.Direction&nbsp;hitFace)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptStartCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adaptStartCorner</a><wbr>(@NotNull net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> @NotNull net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> @NotNull net.minecraft.core.Direction&nbsp;hitFace)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getResolution()" class="member-name-link">getResolution</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isNeedsNormalization()" class="member-name-link">isNeedsNormalization</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptClickedPosition(net.minecraft.world.phys.BlockHitResult)" class="member-name-link">adaptClickedPosition</a><wbr>(net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult)</code></td><td><div class="block">Adapts the hit location used as the initial measurement point.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptEndCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adaptEndCorner</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> net.minecraft.core.Direction&nbsp;hitFace)</code></td><td><div class="block">Adapts the second corner of a measurement to this mode's grid.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptStartCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adaptStartCorner</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> net.minecraft.core.Direction&nbsp;hitFace)</code></td><td><div class="block">Adapts the first corner of a measurement to this mode's grid.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getResolution()" class="member-name-link">getResolution</a>()</code></td><td><div class="block">Returns the coordinate spacing used by this measuring mode.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isNeedsNormalization()" class="member-name-link">isNeedsNormalization</a>()</code></td><td><div class="block">Returns whether adapted measurement positions should be normalized.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -57,11 +57,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptClickedPosition(net.minecraft.world.phys.BlockHitResult)" class="member-name-link">adaptClickedPosition</a><wbr>(@NotNull net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptEndCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adaptEndCorner</a><wbr>(@NotNull net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> @NotNull net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> @NotNull net.minecraft.core.Direction&nbsp;hitFace)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptStartCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adaptStartCorner</a><wbr>(@NotNull net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> @NotNull net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> @NotNull net.minecraft.core.Direction&nbsp;hitFace)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getResolution()" class="member-name-link">getResolution</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isNeedsNormalization()" class="member-name-link">isNeedsNormalization</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptClickedPosition(net.minecraft.world.phys.BlockHitResult)" class="member-name-link">adaptClickedPosition</a><wbr>(net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult)</code></td><td><div class="block">Adapts the hit location used as the initial measurement point.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptEndCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adaptEndCorner</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> net.minecraft.core.Direction&nbsp;hitFace)</code></td><td><div class="block">Adapts the second corner of a measurement to this mode's grid.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptStartCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adaptStartCorner</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> net.minecraft.core.Direction&nbsp;hitFace)</code></td><td><div class="block">Adapts the first corner of a measurement to this mode's grid.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getResolution()" class="member-name-link">getResolution</a>()</code></td><td><div class="block">Returns the coordinate spacing used by this measuring mode.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isNeedsNormalization()" class="member-name-link">isNeedsNormalization</a>()</code></td><td><div class="block">Returns whether adapted measurement positions should be normalized.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -70,11 +70,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptClickedPosition(net.minecraft.world.phys.BlockHitResult)" class="member-name-link">adaptClickedPosition</a><wbr>(@NotNull net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptEndCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adaptEndCorner</a><wbr>(@NotNull net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> @NotNull net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> @NotNull net.minecraft.core.Direction&nbsp;hitFace)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptStartCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adaptStartCorner</a><wbr>(@NotNull net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> @NotNull net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> @NotNull net.minecraft.core.Direction&nbsp;hitFace)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getResolution()" class="member-name-link">getResolution</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isNeedsNormalization()" class="member-name-link">isNeedsNormalization</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptClickedPosition(net.minecraft.world.phys.BlockHitResult)" class="member-name-link">adaptClickedPosition</a><wbr>(net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult)</code></td><td><div class="block">Adapts the hit location used as the initial measurement point.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptEndCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adaptEndCorner</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> net.minecraft.core.Direction&nbsp;hitFace)</code></td><td><div class="block">Adapts the second corner of a measurement to this mode's grid.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adaptStartCorner(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adaptStartCorner</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> net.minecraft.core.Direction&nbsp;hitFace)</code></td><td><div class="block">Adapts the first corner of a measurement to this mode's grid.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getResolution()" class="member-name-link">getResolution</a>()</code></td><td><div class="block">Returns the coordinate spacing used by this measuring mode.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isNeedsNormalization()" class="member-name-link">isNeedsNormalization</a>()</code></td><td><div class="block">Returns whether adapted measurement positions should be normalized.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -115,9 +115,14 @@ Method Summary
 :::tabs
 == adaptClickedPosition
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">adaptClickedPosition</span><wbr><span class="parameters">(@NotNull
- @NotNull net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult)</span></div>
+<div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">adaptClickedPosition</span><wbr><span class="parameters">(net.minecraft.world.phys.BlockHitResult&nbsp;blockHitResult)</span></div>
+Adapts the hit location used as the initial measurement point.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>blockHitResult</code> - hit result for the clicked block</dd>
+<dt>Returns:</dt>
+<dd>the adapted measurement position</dd>
+</dl>
 </div>
 :::
 
@@ -129,13 +134,18 @@ Method Summary
 :::tabs
 == adaptStartCorner
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">adaptStartCorner</span><wbr><span class="parameters">(@NotNull
- @NotNull net.minecraft.world.phys.Vec3&nbsp;startPosition,
- @NotNull
- @NotNull net.minecraft.world.phys.Vec3&nbsp;endPosition,
- @NotNull
- @NotNull net.minecraft.core.Direction&nbsp;hitFace)</span></div>
+<div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">adaptStartCorner</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;startPosition,
+ net.minecraft.world.phys.Vec3&nbsp;endPosition,
+ net.minecraft.core.Direction&nbsp;hitFace)</span></div>
+Adapts the first corner of a measurement to this mode's grid.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>startPosition</code> - clicked start position</dd>
+<dd><code>endPosition</code> - other measurement endpoint</dd>
+<dd><code>hitFace</code> - face used to resolve alignment</dd>
+<dt>Returns:</dt>
+<dd>adapted start corner</dd>
+</dl>
 </div>
 :::
 
@@ -147,13 +157,18 @@ Method Summary
 :::tabs
 == adaptEndCorner
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">adaptEndCorner</span><wbr><span class="parameters">(@NotNull
- @NotNull net.minecraft.world.phys.Vec3&nbsp;startPosition,
- @NotNull
- @NotNull net.minecraft.world.phys.Vec3&nbsp;endPosition,
- @NotNull
- @NotNull net.minecraft.core.Direction&nbsp;hitFace)</span></div>
+<div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">adaptEndCorner</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;startPosition,
+ net.minecraft.world.phys.Vec3&nbsp;endPosition,
+ net.minecraft.core.Direction&nbsp;hitFace)</span></div>
+Adapts the second corner of a measurement to this mode's grid.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>startPosition</code> - other measurement endpoint</dd>
+<dd><code>endPosition</code> - clicked end position</dd>
+<dd><code>hitFace</code> - face used to resolve alignment</dd>
+<dt>Returns:</dt>
+<dd>adapted end corner</dd>
+</dl>
 </div>
 :::
 
@@ -166,6 +181,11 @@ Method Summary
 == getResolution
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">getResolution</span>()</div>
+Returns the coordinate spacing used by this measuring mode.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 
@@ -178,6 +198,11 @@ Method Summary
 == isNeedsNormalization
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">isNeedsNormalization</span>()</div>
+Returns whether adapted measurement positions should be normalized.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>whether the requested condition holds.</dd>
+</dl>
 </div>
 :::
 

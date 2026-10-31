@@ -12,8 +12,10 @@ _Package:_ [mod.chiselsandbits.api.config](index)
 
 All client configuration values that are relevant for the client side of C&amp;B.
 
+<p>
 These options are only available on the client, and are not synced between
-the server and the client.  
+the server and the client.
+</p>  
 
 <dl class="notes"></dl>  
 

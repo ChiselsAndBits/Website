@@ -34,9 +34,9 @@ This value can be independently set for how successful and failed placement rend
     <tr><th>Enum Constant</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#GHOST_BLOCK_MODEL" class="member-name-link">GHOST_BLOCK_MODEL</a></code></td><td><div class="block">Causes the preview to render as a ghost of the model of the block to be placed</div><br></td></tr>
-  <tr><td><code><a href="#GHOST_BLOCK_MODEL_SOLID_COLOR" class="member-name-link">GHOST_BLOCK_MODEL_SOLID_COLOR</a></code></td><td><div class="block">Causes the preview to render the model of the block, such that the block's textures are<br>ignored, and each quad  is rendered with the RGBA value specified by the result of placement</div><br></td></tr>
-  <tr><td><code><a href="#WIREFRAME" class="member-name-link">WIREFRAME</a></code></td><td><div class="block">Causes the preview to render a wireframe comprised of the edges of the block's model<br>with the RGB value specified by the result of placement</div><br></td></tr>
+  <tr><td><code><a href="#GHOST_BLOCK_MODEL" class="member-name-link">GHOST_BLOCK_MODEL</a></code></td><td><div class="block">Causes the preview to render as a ghost of the model of the block to be placed.</div><br></td></tr>
+  <tr><td><code><a href="#GHOST_BLOCK_MODEL_SOLID_COLOR" class="member-name-link">GHOST_BLOCK_MODEL_SOLID_COLOR</a></code></td><td><div class="block">Causes the preview to render the model of the block, such that the block's textures are<br>ignored, and each quad is rendered with the RGBA value specified by the result of placement.</div><br></td></tr>
+  <tr><td><code><a href="#WIREFRAME" class="member-name-link">WIREFRAME</a></code></td><td><div class="block">Causes the preview to render a wireframe comprised of the edges of the block's model<br>with the RGB value specified by the result of placement.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -52,9 +52,9 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>boolean</code></td><td><code><a href="#isColoredGhost()" class="member-name-link">isColoredGhost</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isGhost()" class="member-name-link">isGhost</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isWireframe()" class="member-name-link">isWireframe</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isColoredGhost()" class="member-name-link">isColoredGhost</a>()</code></td><td><div class="block">Reports whether this mode renders a solid-color ghost model.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isGhost()" class="member-name-link">isGhost</a>()</code></td><td><div class="block">Reports whether this mode renders the preview as a ghost model.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isWireframe()" class="member-name-link">isWireframe</a>()</code></td><td><div class="block">Reports whether this mode renders a wireframe.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></code></td><td><code><a href="#valueOf(java.lang.String)" class="member-name-link">valueOf</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Returns the enum constant of this class with the specified name.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a>[]</code></td><td><code><a href="#values()" class="member-name-link">values</a>()</code></td><td><div class="block">Returns an array containing the constants of this enum class, in<br>the order they are declared.</div><br></td></tr>
   </tbody>
@@ -75,9 +75,9 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>boolean</code></td><td><code><a href="#isColoredGhost()" class="member-name-link">isColoredGhost</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isGhost()" class="member-name-link">isGhost</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isWireframe()" class="member-name-link">isWireframe</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isColoredGhost()" class="member-name-link">isColoredGhost</a>()</code></td><td><div class="block">Reports whether this mode renders a solid-color ghost model.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isGhost()" class="member-name-link">isGhost</a>()</code></td><td><div class="block">Reports whether this mode renders the preview as a ghost model.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isWireframe()" class="member-name-link">isWireframe</a>()</code></td><td><div class="block">Reports whether this mode renders a wireframe.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -86,9 +86,9 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>boolean</code></td><td><code><a href="#isColoredGhost()" class="member-name-link">isColoredGhost</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isGhost()" class="member-name-link">isGhost</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isWireframe()" class="member-name-link">isWireframe</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isColoredGhost()" class="member-name-link">isColoredGhost</a>()</code></td><td><div class="block">Reports whether this mode renders a solid-color ghost model.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isGhost()" class="member-name-link">isGhost</a>()</code></td><td><div class="block">Reports whether this mode renders the preview as a ghost model.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isWireframe()" class="member-name-link">isWireframe</a>()</code></td><td><div class="block">Reports whether this mode renders a wireframe.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></code></td><td><code><a href="#valueOf(java.lang.String)" class="member-name-link">valueOf</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Returns the enum constant of this class with the specified name.</div><br></td></tr>
   <tr><td><code>static <a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a>[]</code></td><td><code><a href="#values()" class="member-name-link">values</a>()</code></td><td><div class="block">Returns an array containing the constants of this enum class, in<br>the order they are declared.</div><br></td></tr>
   </tbody>
@@ -114,7 +114,7 @@ Method Summary
 == GHOST_BLOCK_MODEL
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">GHOST_BLOCK_MODEL</span></div>
-Causes the preview to render as a ghost of the model of the block to be placed
+Causes the preview to render as a ghost of the model of the block to be placed.
 </div>
 :::
 
@@ -128,7 +128,7 @@ Causes the preview to render as a ghost of the model of the block to be placed
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">GHOST_BLOCK_MODEL_SOLID_COLOR</span></div>
 Causes the preview to render the model of the block, such that the block's textures are
-ignored, and each quad  is rendered with the RGBA value specified by the result of placement
+ignored, and each quad is rendered with the RGBA value specified by the result of placement.
 </div>
 :::
 
@@ -142,7 +142,7 @@ ignored, and each quad  is rendered with the RGBA value specified by the result 
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="PlacementPreviewRenderMode.html" title="enum class in mod.chiselsandbits.api.client.render.preview.placement">PlacementPreviewRenderMode</a></span>&nbsp;<span class="element-name">WIREFRAME</span></div>
 Causes the preview to render a wireframe comprised of the edges of the block's model
-with the RGB value specified by the result of placement
+with the RGB value specified by the result of placement.
 </div>
 :::
 
@@ -211,6 +211,11 @@ not permitted.)
 == isGhost
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isGhost</span>()</div>
+Reports whether this mode renders the preview as a ghost model.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>whether the requested condition holds.</dd>
+</dl>
 </div>
 :::
 
@@ -223,6 +228,11 @@ not permitted.)
 == isColoredGhost
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isColoredGhost</span>()</div>
+Reports whether this mode renders a solid-color ghost model.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>whether the requested condition holds.</dd>
+</dl>
 </div>
 :::
 
@@ -235,6 +245,11 @@ not permitted.)
 == isWireframe
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isWireframe</span>()</div>
+Reports whether this mode renders a wireframe.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>whether the requested condition holds.</dd>
+</dl>
 </div>
 :::
 

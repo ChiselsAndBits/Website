@@ -14,7 +14,7 @@ extends <a href="../../../util/IWithDisplayName.html" title="interface in mod.ch
 
   
 
-  
+Groups the tool modes available to an item.  
 
 <dl class="notes"></dl>  
 

@@ -19,9 +19,9 @@ package mod.chiselsandbits.api.item.withmode;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IRenderableMode" title="IRenderableMode">IRenderableMode</a></td><td>Represents a tool mode which can be rendered.</td></tr>
   <tr><td><a href="IWithModeItem" title="IWithModeItem">IWithModeItem</a></td><td>Represents an item with several operational modes.</td></tr>
-  <tr><td><a href="IToolMode" title="IToolMode">IToolMode</a></td><td>A mode of a given tool.</td></tr>
+  <tr><td><a href="IToolMode" title="IToolMode">IToolMode</a></td><td>A mode of a given tool, parameterized by the type of <br>{@link IToolModeGroup}<br> it belongs to.</td></tr>
+  <tr><td><a href="IRenderableMode" title="IRenderableMode">IRenderableMode</a></td><td>Represents a tool mode which can be rendered.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -30,9 +30,9 @@ package mod.chiselsandbits.api.item.withmode;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IRenderableMode" title="IRenderableMode">IRenderableMode</a></td><td>Represents a tool mode which can be rendered.</td></tr>
   <tr><td><a href="IWithModeItem" title="IWithModeItem">IWithModeItem</a></td><td>Represents an item with several operational modes.</td></tr>
-  <tr><td><a href="IToolMode" title="IToolMode">IToolMode</a></td><td>A mode of a given tool.</td></tr>
+  <tr><td><a href="IToolMode" title="IToolMode">IToolMode</a></td><td>A mode of a given tool, parameterized by the type of <br>{@link IToolModeGroup}<br> it belongs to.</td></tr>
+  <tr><td><a href="IRenderableMode" title="IRenderableMode">IRenderableMode</a></td><td>Represents a tool mode which can be rendered.</td></tr>
   </tbody>
 </table>
 == Classes

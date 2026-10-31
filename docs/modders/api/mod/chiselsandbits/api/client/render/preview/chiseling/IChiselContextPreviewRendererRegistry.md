@@ -25,7 +25,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code><a href="IChiselContextPreviewRenderer.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRenderer</a></code></td><td><code><a href="#getCurrent()" class="member-name-link">getCurrent</a>()</code></td><td><div class="block">The currently configured renderer as per configuration of the player.</div><br></td></tr>
-  <tr><td><code>static <a href="IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the shared chisel context preview renderer registry instance.</div><br></td></tr>
   <tr><td><code><a href="IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></code></td><td><code><a href="#register(mod.chiselsandbits.api.client.render.preview.chiseling.IChiselContextPreviewRenderer...)" class="member-name-link">register</a><wbr>(<a href="IChiselContextPreviewRenderer.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRenderer</a>...&nbsp;renderers)</code></td><td><div class="block">Adds the passed in renderer instances as possible candidates.</div><br></td></tr>
   </tbody>
 </table>
@@ -35,7 +35,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the shared chisel context preview renderer registry instance.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -81,6 +81,11 @@ Method Summary
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IChiselContextPreviewRendererRegistry.html" title="interface in mod.chiselsandbits.api.client.render.preview.chiseling">IChiselContextPreviewRendererRegistry</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
+Returns the shared chisel context preview renderer registry instance.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the registry provided by the active Chisels &amp; Bits API instance</dd>
+</dl>
 </div>
 :::
 

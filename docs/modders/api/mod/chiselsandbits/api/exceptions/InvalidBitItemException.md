@@ -36,7 +36,7 @@ Constructor Summary
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">InvalidBitItemException</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">InvalidBitItemException</a>()</code></td><td><div class="block">Creates an exception indicating that the supplied item is not a valid bit item.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -70,6 +70,7 @@ Method Summary
 == InvalidBitItemException
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">InvalidBitItemException</span>()</div>
+Creates an exception indicating that the supplied item is not a valid bit item.
 </div>
 :::
 

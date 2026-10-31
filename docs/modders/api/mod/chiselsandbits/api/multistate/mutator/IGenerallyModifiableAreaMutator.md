@@ -14,7 +14,7 @@ extends <a href="IAreaMutator.html" title="interface in mod.chiselsandbits.api.m
 
   
 
-  
+Mutator for changing block information throughout a multistate area.  
 
 <dl class="notes"></dl>  
 

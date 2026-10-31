@@ -10,7 +10,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.accessor](index)
 
   
 
-  
+Resolves state entries at positions within a multistate area.  
 
 <dl class="notes"></dl>  
 
@@ -73,8 +73,9 @@ Method Summary
 Gets the target state in the current area, using the offset from the area as well as the in area target offset.
 Note if this accessor potentially targets more than 1 block position (even if it does not in reality the potential is what matters here)
 you will need to pass in the world position exactly.
+<p>
 If this accessor can not potentially ever target more than 1 block position, you can pass in the relative position.
-This is a nasty implementation detail, and matters most when you are making new chisel or pattern placement modes!
+This is a nasty implementation detail, and matters most when you are making new chisel or pattern placement modes!</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inAreaTarget</code> - The in area offset.</dd>
@@ -97,8 +98,9 @@ This is a nasty implementation detail, and matters most when you are making new 
 Gets the target state in the current area, using the in area block position offset as well as the in block target offset to calculate the in area offset for setting.
 Note if this accessor potentially targets more than 1 block position (even if it does not in reality the potential is what matters here)
 you will need to pass in the world position exactly.
+<p>
 If this accessor can not potentially ever target more than 1 block position, you can pass in the relative position.
-This is a nasty implementation detail, and matters most when you are making new chisel or pattern placement modes!
+This is a nasty implementation detail, and matters most when you are making new chisel or pattern placement modes!</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inAreaBlockPosOffset</code> - The offset of blocks in the current area.</dd>

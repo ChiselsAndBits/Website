@@ -27,7 +27,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation(net.minecraft.world.item.ItemStack)" class="member-name-link">getBlockInformation</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Returns the block information which is contained in a stack with the<br>given bit item.</div><br></td></tr>
+  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation(net.minecraft.world.item.ItemStack)" class="member-name-link">getBlockInformation</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Returns the block information which is contained in a stack with the<br>given bit item.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#onMergeOperationWithBagBeginning()" class="member-name-link">onMergeOperationWithBagBeginning</a>()</code></td><td><div class="block">Invoked when a merge operation of a bit inside a bitbag is beginning during a shift-click interaction<br>in the bit bag UI.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#onMergeOperationWithBagEnding()" class="member-name-link">onMergeOperationWithBagEnding</a>()</code></td><td><div class="block">Invoked when a merge operation of a bit inside a bitbag is ending during a shift-click interaction<br>in the bit bag UI.</div><br></td></tr>
   </tbody>
@@ -38,7 +38,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation(net.minecraft.world.item.ItemStack)" class="member-name-link">getBlockInformation</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Returns the block information which is contained in a stack with the<br>given bit item.</div><br></td></tr>
+  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation(net.minecraft.world.item.ItemStack)" class="member-name-link">getBlockInformation</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Returns the block information which is contained in a stack with the<br>given bit item.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#onMergeOperationWithBagBeginning()" class="member-name-link">onMergeOperationWithBagBeginning</a>()</code></td><td><div class="block">Invoked when a merge operation of a bit inside a bitbag is beginning during a shift-click interaction<br>in the bit bag UI.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#onMergeOperationWithBagEnding()" class="member-name-link">onMergeOperationWithBagEnding</a>()</code></td><td><div class="block">Invoked when a merge operation of a bit inside a bitbag is ending during a shift-click interaction<br>in the bit bag UI.</div><br></td></tr>
   </tbody>
@@ -49,7 +49,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation(net.minecraft.world.item.ItemStack)" class="member-name-link">getBlockInformation</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Returns the block information which is contained in a stack with the<br>given bit item.</div><br></td></tr>
+  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation(net.minecraft.world.item.ItemStack)" class="member-name-link">getBlockInformation</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Returns the block information which is contained in a stack with the<br>given bit item.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#onMergeOperationWithBagBeginning()" class="member-name-link">onMergeOperationWithBagBeginning</a>()</code></td><td><div class="block">Invoked when a merge operation of a bit inside a bitbag is beginning during a shift-click interaction<br>in the bit bag UI.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#onMergeOperationWithBagEnding()" class="member-name-link">onMergeOperationWithBagEnding</a>()</code></td><td><div class="block">Invoked when a merge operation of a bit inside a bitbag is ending during a shift-click interaction<br>in the bit bag UI.</div><br></td></tr>
   </tbody>
@@ -88,8 +88,7 @@ Method Summary
 :::tabs
 == getBlockInformation
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getBlockInformation</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
+<div class="member-signature"><span class="return-type"><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getBlockInformation</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
 Returns the block information which is contained in a stack with the
 given bit item.
 <dl class="notes">

@@ -27,7 +27,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link">Set</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#getContainedStates()" class="member-name-link">getContainedStates</a>()</code></td><td><div class="block">Returns all states (without count) that are contained in the object</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link">Set</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#getContainedStates()" class="member-name-link">getContainedStates</a>()</code></td><td><div class="block">Returns all states (without count) that are contained in the object.</div><br></td></tr>
   <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getPrimaryState()" class="member-name-link">getPrimaryState</a>()</code></td><td><div class="block">The primary state of the mutli state itemstacks this statistics object<br>belongs to.</div><br></td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#isEmpty()" class="member-name-link">isEmpty</a>()</code></td><td><div class="block">Indicates if the multistate object is empty.</div><br></td></tr>
   </tbody>
@@ -38,7 +38,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link">Set</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#getContainedStates()" class="member-name-link">getContainedStates</a>()</code></td><td><div class="block">Returns all states (without count) that are contained in the object</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link">Set</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#getContainedStates()" class="member-name-link">getContainedStates</a>()</code></td><td><div class="block">Returns all states (without count) that are contained in the object.</div><br></td></tr>
   <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getPrimaryState()" class="member-name-link">getPrimaryState</a>()</code></td><td><div class="block">The primary state of the mutli state itemstacks this statistics object<br>belongs to.</div><br></td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#isEmpty()" class="member-name-link">isEmpty</a>()</code></td><td><div class="block">Indicates if the multistate object is empty.</div><br></td></tr>
   </tbody>
@@ -49,7 +49,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link">Set</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#getContainedStates()" class="member-name-link">getContainedStates</a>()</code></td><td><div class="block">Returns all states (without count) that are contained in the object</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link">Set</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#getContainedStates()" class="member-name-link">getContainedStates</a>()</code></td><td><div class="block">Returns all states (without count) that are contained in the object.</div><br></td></tr>
   <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getPrimaryState()" class="member-name-link">getPrimaryState</a>()</code></td><td><div class="block">The primary state of the mutli state itemstacks this statistics object<br>belongs to.</div><br></td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#isEmpty()" class="member-name-link">isEmpty</a>()</code></td><td><div class="block">Indicates if the multistate object is empty.</div><br></td></tr>
   </tbody>
@@ -116,7 +116,7 @@ Indicates if the multistate object is empty.
 == getContainedStates
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Set.html" title="class or interface in java.util" class="external-link">Set</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">getContainedStates</span>()</div>
-Returns all states (without count) that are contained in the object
+Returns all states (without count) that are contained in the object.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>All states in the object.</dd>

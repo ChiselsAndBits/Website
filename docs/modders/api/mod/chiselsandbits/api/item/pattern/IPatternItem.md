@@ -14,7 +14,7 @@ extends <a href="../multistate/IMultiStateItem.html" title="interface in mod.chi
 
   
 
-Represents an item that can be a pattern  
+Represents an item that can be a pattern.  
 
 <dl class="notes"></dl>  
 
@@ -208,6 +208,10 @@ Invoked to determine whether this replaces non-air bits of blocks, or only repla
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="../../placement/IPlacementProperties.html#overridesOccupiedBits(net.minecraft.world.item.ItemStack)">overridesOccupiedBits</a></code>&nbsp;in interface&nbsp;<code><a href="../../placement/IPlacementProperties.html" title="interface in mod.chiselsandbits.api.placement">IPlacementProperties</a></code></dd>
+<dt>Parameters:</dt>
+<dd><code>heldStack</code> - item stack whose placement behavior is being checked</dd>
+<dt>Returns:</dt>
+<dd><code>true</code> when placement may replace occupied bits</dd>
 </dl>
 </div>
 :::

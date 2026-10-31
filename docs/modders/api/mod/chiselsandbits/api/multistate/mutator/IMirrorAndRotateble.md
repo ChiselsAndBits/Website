@@ -10,7 +10,7 @@ _Package:_ [mod.chiselsandbits.api.multistate.mutator](index)
 
   
 
-  
+Contract for multistate storage that supports mirroring and rotation.  
 
 <dl class="notes"></dl>  
 

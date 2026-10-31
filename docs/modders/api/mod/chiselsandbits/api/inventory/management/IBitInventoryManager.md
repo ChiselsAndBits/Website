@@ -104,8 +104,9 @@ Gives access to the bit inventory manager.
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../bit/IBitInventory.html" title="interface in mod.chiselsandbits.api.inventory.bit">IBitInventory</a></span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</span></div>
 Creates a new bit inventory wrapping the inventory of the player.
+<p>
 This player inventory is aware of items which themselves can act
-as a bit inventory.
+as a bit inventory.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player inventory.</dd>
@@ -125,11 +126,13 @@ as a bit inventory.
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../bit/IBitInventory.html" title="interface in mod.chiselsandbits.api.inventory.bit">IBitInventory</a></span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;target)</span></div>
 Creates a new bit inventory wrapping the given <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link"><code>Object</code></a>.
+<p>
 This inventory is aware of items which themselves can act
 as a bit inventory.
+</p><p>
 This endpoint is platform specific and might or might not be able to convert the object given.
 Importantly on forge this endpoint is able to accept IItemHandlers, while on Fabric it will only support
-IInventory.
+IInventory.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>target</code> - The <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link"><code>Object</code></a>.</dd>
@@ -149,8 +152,9 @@ IInventory.
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type"><a href="../bit/IBitInventory.html" title="interface in mod.chiselsandbits.api.inventory.bit">IBitInventory</a></span>&nbsp;<span class="element-name">create</span><wbr><span class="parameters">(net.minecraft.world.Container&nbsp;inventory)</span></div>
 Creates a new bit inventory wrapping the given inventory.
+<p>
 This inventory is aware of items which themselves can act
-as a bit inventory.
+as a bit inventory.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>inventory</code> - The inventory.</dd>

@@ -14,7 +14,7 @@ extends <a href="../../item/withmode/group/IToolModeGroup.html" title="interface
 
   
 
-  
+Groups the operations that combine multistate pieces with glue.  
 
 <dl class="notes"></dl>  
 

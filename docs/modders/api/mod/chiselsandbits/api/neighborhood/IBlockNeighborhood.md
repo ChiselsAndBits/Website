@@ -40,7 +40,7 @@ Method Summary
   <tbody>
   <tr><td><code>static <a href="IBlockNeighborhood.html" title="interface in mod.chiselsandbits.api.neighborhood">IBlockNeighborhood</a></code></td><td><code><a href="#around(net.minecraft.world.level.block.entity.BlockEntity)" class="member-name-link">around</a><wbr>(net.minecraft.world.level.block.entity.BlockEntity&nbsp;blockEntity)</code></td><td><div class="block">Creates a block neighborhood around the given block entity.</div><br></td></tr>
   <tr><td><code>@Nullable <a href="../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a></code></td><td><code><a href="#getAreaAccessor(net.minecraft.core.Direction)" class="member-name-link">getAreaAccessor</a><wbr>(net.minecraft.core.Direction&nbsp;direction)</code></td><td><div class="block">Returns the blocks potential area accessor neighbor in the given direction.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation(net.minecraft.core.Direction)" class="member-name-link">getBlockInformation</a><wbr>(net.minecraft.core.Direction&nbsp;direction)</code></td><td><div class="block">Returns the blocks neighbor in the given direction.</div><br></td></tr>
+  <tr><td><code><a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation(net.minecraft.core.Direction)" class="member-name-link">getBlockInformation</a><wbr>(net.minecraft.core.Direction&nbsp;direction)</code></td><td><div class="block">Returns the blocks neighbor in the given direction.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -59,7 +59,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code>@Nullable <a href="../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a></code></td><td><code><a href="#getAreaAccessor(net.minecraft.core.Direction)" class="member-name-link">getAreaAccessor</a><wbr>(net.minecraft.core.Direction&nbsp;direction)</code></td><td><div class="block">Returns the blocks potential area accessor neighbor in the given direction.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation(net.minecraft.core.Direction)" class="member-name-link">getBlockInformation</a><wbr>(net.minecraft.core.Direction&nbsp;direction)</code></td><td><div class="block">Returns the blocks neighbor in the given direction.</div><br></td></tr>
+  <tr><td><code><a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation(net.minecraft.core.Direction)" class="member-name-link">getBlockInformation</a><wbr>(net.minecraft.core.Direction&nbsp;direction)</code></td><td><div class="block">Returns the blocks neighbor in the given direction.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -69,7 +69,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code>@Nullable <a href="../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a></code></td><td><code><a href="#getAreaAccessor(net.minecraft.core.Direction)" class="member-name-link">getAreaAccessor</a><wbr>(net.minecraft.core.Direction&nbsp;direction)</code></td><td><div class="block">Returns the blocks potential area accessor neighbor in the given direction.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation(net.minecraft.core.Direction)" class="member-name-link">getBlockInformation</a><wbr>(net.minecraft.core.Direction&nbsp;direction)</code></td><td><div class="block">Returns the blocks neighbor in the given direction.</div><br></td></tr>
+  <tr><td><code><a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockInformation(net.minecraft.core.Direction)" class="member-name-link">getBlockInformation</a><wbr>(net.minecraft.core.Direction&nbsp;direction)</code></td><td><div class="block">Returns the blocks neighbor in the given direction.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -129,8 +129,7 @@ Creates a block neighborhood around the given block entity.
 :::tabs
 == getBlockInformation
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getBlockInformation</span><wbr><span class="parameters">(net.minecraft.core.Direction&nbsp;direction)</span></div>
+<div class="member-signature"><span class="return-type"><a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getBlockInformation</span><wbr><span class="parameters">(net.minecraft.core.Direction&nbsp;direction)</span></div>
 Returns the blocks neighbor in the given direction.
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -149,8 +148,7 @@ Returns the blocks neighbor in the given direction.
 :::tabs
 == getAreaAccessor
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@Nullable
-</span><span class="return-type">@Nullable <a href="../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a></span>&nbsp;<span class="element-name">getAreaAccessor</span><wbr><span class="parameters">(net.minecraft.core.Direction&nbsp;direction)</span></div>
+<div class="member-signature"><span class="return-type">@Nullable <a href="../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a></span>&nbsp;<span class="element-name">getAreaAccessor</span><wbr><span class="parameters">(net.minecraft.core.Direction&nbsp;direction)</span></div>
 Returns the blocks potential area accessor neighbor in the given direction.
 <dl class="notes">
 <dt>Parameters:</dt>

@@ -14,7 +14,7 @@ extends <a href="IPatternItem.html" title="interface in mod.chiselsandbits.api.i
 
   
 
-  
+Contract for reusable pattern items that support unsealing.  
 
 <dl class="notes"></dl>  
 

@@ -136,6 +136,10 @@ By default converts this into a single use pattern.
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">writeDataTo</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
 Writes the state data to the itemstack.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>stack</code> - item stack associated with the operation.</dd>
+</dl>
 </div>
 :::
 

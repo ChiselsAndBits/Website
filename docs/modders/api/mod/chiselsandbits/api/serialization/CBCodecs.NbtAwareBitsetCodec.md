@@ -18,7 +18,7 @@ implements com.mojang.serialization.Codec&lt;<a href="https://docs.oracle.com/en
 
   
 
-  
+Reads legacy byte-array bitsets as well as the current long-stream representation.  
 
 <dl class="notes"></dl>  
 

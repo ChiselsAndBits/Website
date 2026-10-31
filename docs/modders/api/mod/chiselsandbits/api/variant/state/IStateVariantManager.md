@@ -115,8 +115,8 @@ Method Summary
 <div class="member-signature"><span class="return-type">com.mojang.serialization.Codec&lt;<a href="IStateVariantProvider.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariantProvider</a>&gt;</span>&nbsp;<span class="element-name">byNameCodec</span>()</div>
 The codec for the state variant provider.
 <p>
-    This codec is used to serialize and deserialize the state variant provider that created a given state variant.
-    It is used to store the state variant provider type in the serialized data.</p>
+This codec is used to serialize and deserialize the state variant provider that created a given state variant.
+It is used to store the state variant provider type in the serialized data.</p>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec.</dd>
@@ -135,8 +135,8 @@ The codec for the state variant provider.
 <div class="member-signature"><span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="IStateVariantProvider.html" title="interface in mod.chiselsandbits.api.variant.state">IStateVariantProvider</a>&gt;</span>&nbsp;<span class="element-name">byNameStreamCodec</span>()</div>
 The codec for the state variant provider.
 <p>
-    This codec is used to serialize and deserialize the state variant provider that created a given state variant.
-    It is used to store the state variant provider type in the serialized streaming data.</p>
+This codec is used to serialize and deserialize the state variant provider that created a given state variant.
+It is used to store the state variant provider type in the serialized streaming data.</p>
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>The codec.</dd>
@@ -380,6 +380,8 @@ Calculates and returns the beacon color multiplier for the given block informati
 <dd><code>levelReader</code> - The level reader.</dd>
 <dd><code>pos</code> - The position.</dd>
 <dd><code>beaconPos</code> - The beacon position.</dd>
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
 </dl>
 </div>
 :::

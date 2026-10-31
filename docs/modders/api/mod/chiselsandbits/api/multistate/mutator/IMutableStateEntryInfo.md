@@ -14,7 +14,7 @@ extends <a href="../accessor/IStateEntryInfo.html" title="interface in mod.chise
 
   
 
-  
+Mutable view of one state entry within a multistate area.  
 
 <dl class="notes"></dl>  
 
@@ -28,7 +28,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code>void</code></td><td><code><a href="#clear()" class="member-name-link">clear</a>()</code></td><td><div class="block">Clears the current state entries blockstate.</div><br></td></tr>
-  <tr><td><code>default void</code></td><td><code><a href="#overrideState(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">overrideState</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Overrides the current entries block information</div><br></td></tr>
+  <tr><td><code>default void</code></td><td><code><a href="#overrideState(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">overrideState</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Overrides the current entries block information.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#setBlockInformation(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">setBlockInformation</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Sets the current entries block information.</div><br></td></tr>
   </tbody>
 </table>
@@ -39,7 +39,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code>void</code></td><td><code><a href="#clear()" class="member-name-link">clear</a>()</code></td><td><div class="block">Clears the current state entries blockstate.</div><br></td></tr>
-  <tr><td><code>default void</code></td><td><code><a href="#overrideState(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">overrideState</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Overrides the current entries block information</div><br></td></tr>
+  <tr><td><code>default void</code></td><td><code><a href="#overrideState(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">overrideState</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Overrides the current entries block information.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#setBlockInformation(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">setBlockInformation</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Sets the current entries block information.</div><br></td></tr>
   </tbody>
 </table>
@@ -59,7 +59,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>default void</code></td><td><code><a href="#overrideState(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">overrideState</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Overrides the current entries block information</div><br></td></tr>
+  <tr><td><code>default void</code></td><td><code><a href="#overrideState(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">overrideState</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Overrides the current entries block information.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -123,7 +123,7 @@ Effectively setting the current blockstate to air.
 == overrideState
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">overrideState</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</span></div>
-Overrides the current entries block information
+Overrides the current entries block information.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>blockInformation</code> - The new block information of the entry.</dd>

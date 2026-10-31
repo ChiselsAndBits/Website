@@ -14,7 +14,7 @@ extends <a href="IChiselingItem.html" title="interface in mod.chiselsandbits.api
 
   
 
-  
+Contract for chisel items that select or perform chiseling modes.  
 
 <dl class="notes"></dl>  
 

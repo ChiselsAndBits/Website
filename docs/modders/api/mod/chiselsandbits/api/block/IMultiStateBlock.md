@@ -28,7 +28,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getPrimaryState(net.minecraft.world.level.BlockGetter,net.minecraft.core.BlockPos)" class="member-name-link">getPrimaryState</a><wbr>(@NotNull net.minecraft.world.level.BlockGetter&nbsp;world,<br> @NotNull net.minecraft.core.BlockPos&nbsp;pos)</code></td><td><div class="block">Returns the primary state of the block.</div><br></td></tr>
+  <tr><td><code><a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getPrimaryState(net.minecraft.world.level.BlockGetter,net.minecraft.core.BlockPos)" class="member-name-link">getPrimaryState</a><wbr>(net.minecraft.world.level.BlockGetter&nbsp;world,<br> net.minecraft.core.BlockPos&nbsp;pos)</code></td><td><div class="block">Returns the primary state of the block.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -37,7 +37,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getPrimaryState(net.minecraft.world.level.BlockGetter,net.minecraft.core.BlockPos)" class="member-name-link">getPrimaryState</a><wbr>(@NotNull net.minecraft.world.level.BlockGetter&nbsp;world,<br> @NotNull net.minecraft.core.BlockPos&nbsp;pos)</code></td><td><div class="block">Returns the primary state of the block.</div><br></td></tr>
+  <tr><td><code><a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getPrimaryState(net.minecraft.world.level.BlockGetter,net.minecraft.core.BlockPos)" class="member-name-link">getPrimaryState</a><wbr>(net.minecraft.world.level.BlockGetter&nbsp;world,<br> net.minecraft.core.BlockPos&nbsp;pos)</code></td><td><div class="block">Returns the primary state of the block.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -46,7 +46,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getPrimaryState(net.minecraft.world.level.BlockGetter,net.minecraft.core.BlockPos)" class="member-name-link">getPrimaryState</a><wbr>(@NotNull net.minecraft.world.level.BlockGetter&nbsp;world,<br> @NotNull net.minecraft.core.BlockPos&nbsp;pos)</code></td><td><div class="block">Returns the primary state of the block.</div><br></td></tr>
+  <tr><td><code><a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getPrimaryState(net.minecraft.world.level.BlockGetter,net.minecraft.core.BlockPos)" class="member-name-link">getPrimaryState</a><wbr>(net.minecraft.world.level.BlockGetter&nbsp;world,<br> net.minecraft.core.BlockPos&nbsp;pos)</code></td><td><div class="block">Returns the primary state of the block.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -83,19 +83,16 @@ asItem
 :::tabs
 == getPrimaryState
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getPrimaryState</span><wbr><span class="parameters">(@NotNull
- @NotNull net.minecraft.world.level.BlockGetter&nbsp;world,
- @NotNull
- @NotNull net.minecraft.core.BlockPos&nbsp;pos)</span></div>
+<div class="member-signature"><span class="return-type"><a href="../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getPrimaryState</span><wbr><span class="parameters">(net.minecraft.world.level.BlockGetter&nbsp;world,
+ net.minecraft.core.BlockPos&nbsp;pos)</span></div>
 Returns the primary state of the block.
 In terms of Chisels and Bits this is the blockstate that is represented the most inside the block.
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>world</code> - The world to read the data from. Required to get access to the tile entity with the backing data.</dd>
-<dd><code>pos</code> - The pos in the given world to get the primary blockstate from. Required to get access to the tile entity with the backing data.</dd>
+<dd><code>world</code> - The world to read the data from.Required to get access to the tile entity with the backing data.</dd>
+<dd><code>pos</code> - The pos in the given world to get the primary blockstate from.Required to get access to the tile entity with the backing data.</dd>
 <dt>Returns:</dt>
-<dd>The primary blockstate, or when not found the default state from the air block. <code>Block.defaultBlockState()</code></dd>
+<dd>The primary blockstate, or when not found the default state from the air block.<code>Block.defaultBlockState()</code></dd>
 </dl>
 </div>
 :::

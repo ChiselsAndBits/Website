@@ -18,7 +18,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base
 
   
 
-  
+Mutable integer vector with two coordinates and helpers for grid-distance calculations.  
 
 <dl class="notes"></dl>  
 
@@ -31,7 +31,7 @@ Field Summary
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&gt;</code></td><td><code><a href="#CODEC" class="member-name-link">CODEC</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&gt;</code></td><td><code><a href="#CODEC" class="member-name-link">CODEC</a></code></td><td><div class="block">Codec for a two-coordinate vector represented by an integer stream.</div><br></td></tr>
   <tr><td><code>static final <a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#NULL_VECTOR" class="member-name-link">NULL_VECTOR</a></code></td><td><div class="block">An immutable vector with zero as all coordinates.</div><br></td></tr>
   </tbody>
 </table>
@@ -47,8 +47,8 @@ Constructor Summary
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#%3Cinit%3E(double,double)" class="member-name-link">Vector2i</a><wbr>(double&nbsp;xIn,<br> double&nbsp;yIn)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#%3Cinit%3E(int,int)" class="member-name-link">Vector2i</a><wbr>(int&nbsp;xIn,<br> int&nbsp;yIn)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#%3Cinit%3E(double,double)" class="member-name-link">Vector2i</a><wbr>(double&nbsp;xIn,<br> double&nbsp;yIn)</code></td><td><div class="block">Creates a vector by flooring each coordinate to the nearest integer not greater than it.</div><br></td></tr>
+  <tr><td><code><a href="#%3Cinit%3E(int,int)" class="member-name-link">Vector2i</a><wbr>(int&nbsp;xIn,<br> int&nbsp;yIn)</code></td><td><div class="block">Creates a vector from integer coordinates.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -63,25 +63,25 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>int</code></td><td><code><a href="#compareTo(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">compareTo</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;p_compareTo_1_)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>double</code></td><td><code><a href="#distanceSq(double,double,boolean)" class="member-name-link">distanceSq</a><wbr>(double&nbsp;x,<br> double&nbsp;y,<br> boolean&nbsp;useCenter)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>double</code></td><td><code><a href="#distanceSq(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">distanceSq</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</code></td><td><div class="block">Calculate squared distance to the given Vector</div><br></td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down()" class="member-name-link">down</a>()</code></td><td><div class="block">Offset this BlockPos 1 block down</div><br></td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down(int)" class="member-name-link">down</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offset this BlockPos n blocks down</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#getCoordinatesAsString()" class="member-name-link">getCoordinatesAsString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#compareTo(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">compareTo</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;p_compareTo_1_)</code></td><td><div class="block">Orders vectors by y coordinate, then by x coordinate.</div><br></td></tr>
+  <tr><td><code>double</code></td><td><code><a href="#distanceSq(double,double,boolean)" class="member-name-link">distanceSq</a><wbr>(double&nbsp;x,<br> double&nbsp;y,<br> boolean&nbsp;useCenter)</code></td><td><div class="block">Calculates squared distance to a point, optionally measuring from this vector's cell center.</div><br></td></tr>
+  <tr><td><code>double</code></td><td><code><a href="#distanceSq(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">distanceSq</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</code></td><td><div class="block">Calculates squared distance from this cell's center to the given vector.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down()" class="member-name-link">down</a>()</code></td><td><div class="block">Returns this vector offset by one step downward.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down(int)" class="member-name-link">down</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Returns this vector offset downward by the requested number of steps.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</code></td><td><div class="block">Compares this vector with another object by x and y coordinates.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#getCoordinatesAsString()" class="member-name-link">getCoordinatesAsString</a>()</code></td><td><div class="block">Returns the coordinates as a comma-separated <code>x, y</code> string.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getX()" class="member-name-link">getX</a>()</code></td><td><div class="block">Gets the X coordinate.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getY()" class="member-name-link">getY</a>()</code></td><td><div class="block">Gets the Y coordinate.</div><br></td></tr>
-  <tr><td><code>int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>int</code></td><td><code><a href="#manhattanDistance(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">manhattanDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#offset(net.minecraft.core.Direction,int)" class="member-name-link">offset</a><wbr>(net.minecraft.core.Direction&nbsp;facing,<br> int&nbsp;n)</code></td><td><div class="block">Offsets this BlockPos n blocks in the given direction</div><br></td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash derived from this vector's coordinates.</div><br></td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#manhattanDistance(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">manhattanDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector)</code></td><td><div class="block">Calculates the Manhattan distance between this vector and another.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#offset(net.minecraft.core.Direction,int)" class="member-name-link">offset</a><wbr>(net.minecraft.core.Direction&nbsp;facing,<br> int&nbsp;n)</code></td><td><div class="block">Offsets this vector <code>n</code> steps in the given direction.</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#setX(int)" class="member-name-link">setX</a><wbr>(int&nbsp;xIn)</code></td><td><div class="block">Sets the X coordinate.</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#setY(int)" class="member-name-link">setY</a><wbr>(int&nbsp;yIn)</code></td><td><div class="block">Sets the Y coordinate.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up()" class="member-name-link">up</a>()</code></td><td><div class="block">Offset this BlockPos 1 block up</div><br></td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up(int)" class="member-name-link">up</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offset this BlockPos n blocks up</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(mod.chiselsandbits.api.util.Vector2i,double)" class="member-name-link">withinDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector,<br> double&nbsp;distance)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(net.minecraft.core.Position,double)" class="member-name-link">withinDistance</a><wbr>(net.minecraft.core.Position&nbsp;position,<br> double&nbsp;distance)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string containing this vector's x and y coordinates.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up()" class="member-name-link">up</a>()</code></td><td><div class="block">Returns this vector offset by one step upward.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up(int)" class="member-name-link">up</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offsets this vector <code>n</code> steps upward.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(mod.chiselsandbits.api.util.Vector2i,double)" class="member-name-link">withinDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector,<br> double&nbsp;distance)</code></td><td><div class="block">Tests whether the squared distance between the coordinates is less than the squared limit.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(net.minecraft.core.Position,double)" class="member-name-link">withinDistance</a><wbr>(net.minecraft.core.Position&nbsp;position,<br> double&nbsp;distance)</code></td><td><div class="block">Tests whether this vector's cell center is strictly within the given distance of a position.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -90,25 +90,25 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>int</code></td><td><code><a href="#compareTo(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">compareTo</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;p_compareTo_1_)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>double</code></td><td><code><a href="#distanceSq(double,double,boolean)" class="member-name-link">distanceSq</a><wbr>(double&nbsp;x,<br> double&nbsp;y,<br> boolean&nbsp;useCenter)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>double</code></td><td><code><a href="#distanceSq(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">distanceSq</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</code></td><td><div class="block">Calculate squared distance to the given Vector</div><br></td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down()" class="member-name-link">down</a>()</code></td><td><div class="block">Offset this BlockPos 1 block down</div><br></td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down(int)" class="member-name-link">down</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offset this BlockPos n blocks down</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#getCoordinatesAsString()" class="member-name-link">getCoordinatesAsString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#compareTo(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">compareTo</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;p_compareTo_1_)</code></td><td><div class="block">Orders vectors by y coordinate, then by x coordinate.</div><br></td></tr>
+  <tr><td><code>double</code></td><td><code><a href="#distanceSq(double,double,boolean)" class="member-name-link">distanceSq</a><wbr>(double&nbsp;x,<br> double&nbsp;y,<br> boolean&nbsp;useCenter)</code></td><td><div class="block">Calculates squared distance to a point, optionally measuring from this vector's cell center.</div><br></td></tr>
+  <tr><td><code>double</code></td><td><code><a href="#distanceSq(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">distanceSq</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</code></td><td><div class="block">Calculates squared distance from this cell's center to the given vector.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down()" class="member-name-link">down</a>()</code></td><td><div class="block">Returns this vector offset by one step downward.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down(int)" class="member-name-link">down</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Returns this vector offset downward by the requested number of steps.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</code></td><td><div class="block">Compares this vector with another object by x and y coordinates.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#getCoordinatesAsString()" class="member-name-link">getCoordinatesAsString</a>()</code></td><td><div class="block">Returns the coordinates as a comma-separated <code>x, y</code> string.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getX()" class="member-name-link">getX</a>()</code></td><td><div class="block">Gets the X coordinate.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getY()" class="member-name-link">getY</a>()</code></td><td><div class="block">Gets the Y coordinate.</div><br></td></tr>
-  <tr><td><code>int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>int</code></td><td><code><a href="#manhattanDistance(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">manhattanDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#offset(net.minecraft.core.Direction,int)" class="member-name-link">offset</a><wbr>(net.minecraft.core.Direction&nbsp;facing,<br> int&nbsp;n)</code></td><td><div class="block">Offsets this BlockPos n blocks in the given direction</div><br></td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash derived from this vector's coordinates.</div><br></td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#manhattanDistance(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">manhattanDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector)</code></td><td><div class="block">Calculates the Manhattan distance between this vector and another.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#offset(net.minecraft.core.Direction,int)" class="member-name-link">offset</a><wbr>(net.minecraft.core.Direction&nbsp;facing,<br> int&nbsp;n)</code></td><td><div class="block">Offsets this vector <code>n</code> steps in the given direction.</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#setX(int)" class="member-name-link">setX</a><wbr>(int&nbsp;xIn)</code></td><td><div class="block">Sets the X coordinate.</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#setY(int)" class="member-name-link">setY</a><wbr>(int&nbsp;yIn)</code></td><td><div class="block">Sets the Y coordinate.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up()" class="member-name-link">up</a>()</code></td><td><div class="block">Offset this BlockPos 1 block up</div><br></td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up(int)" class="member-name-link">up</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offset this BlockPos n blocks up</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(mod.chiselsandbits.api.util.Vector2i,double)" class="member-name-link">withinDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector,<br> double&nbsp;distance)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(net.minecraft.core.Position,double)" class="member-name-link">withinDistance</a><wbr>(net.minecraft.core.Position&nbsp;position,<br> double&nbsp;distance)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string containing this vector's x and y coordinates.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up()" class="member-name-link">up</a>()</code></td><td><div class="block">Returns this vector offset by one step upward.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up(int)" class="member-name-link">up</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offsets this vector <code>n</code> steps upward.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(mod.chiselsandbits.api.util.Vector2i,double)" class="member-name-link">withinDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector,<br> double&nbsp;distance)</code></td><td><div class="block">Tests whether the squared distance between the coordinates is less than the squared limit.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(net.minecraft.core.Position,double)" class="member-name-link">withinDistance</a><wbr>(net.minecraft.core.Position&nbsp;position,<br> double&nbsp;distance)</code></td><td><div class="block">Tests whether this vector's cell center is strictly within the given distance of a position.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -117,25 +117,25 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>int</code></td><td><code><a href="#compareTo(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">compareTo</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;p_compareTo_1_)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>double</code></td><td><code><a href="#distanceSq(double,double,boolean)" class="member-name-link">distanceSq</a><wbr>(double&nbsp;x,<br> double&nbsp;y,<br> boolean&nbsp;useCenter)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>double</code></td><td><code><a href="#distanceSq(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">distanceSq</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</code></td><td><div class="block">Calculate squared distance to the given Vector</div><br></td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down()" class="member-name-link">down</a>()</code></td><td><div class="block">Offset this BlockPos 1 block down</div><br></td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down(int)" class="member-name-link">down</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offset this BlockPos n blocks down</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#getCoordinatesAsString()" class="member-name-link">getCoordinatesAsString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#compareTo(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">compareTo</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;p_compareTo_1_)</code></td><td><div class="block">Orders vectors by y coordinate, then by x coordinate.</div><br></td></tr>
+  <tr><td><code>double</code></td><td><code><a href="#distanceSq(double,double,boolean)" class="member-name-link">distanceSq</a><wbr>(double&nbsp;x,<br> double&nbsp;y,<br> boolean&nbsp;useCenter)</code></td><td><div class="block">Calculates squared distance to a point, optionally measuring from this vector's cell center.</div><br></td></tr>
+  <tr><td><code>double</code></td><td><code><a href="#distanceSq(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">distanceSq</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</code></td><td><div class="block">Calculates squared distance from this cell's center to the given vector.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down()" class="member-name-link">down</a>()</code></td><td><div class="block">Returns this vector offset by one step downward.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#down(int)" class="member-name-link">down</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Returns this vector offset downward by the requested number of steps.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</code></td><td><div class="block">Compares this vector with another object by x and y coordinates.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#getCoordinatesAsString()" class="member-name-link">getCoordinatesAsString</a>()</code></td><td><div class="block">Returns the coordinates as a comma-separated <code>x, y</code> string.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getX()" class="member-name-link">getX</a>()</code></td><td><div class="block">Gets the X coordinate.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getY()" class="member-name-link">getY</a>()</code></td><td><div class="block">Gets the Y coordinate.</div><br></td></tr>
-  <tr><td><code>int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>int</code></td><td><code><a href="#manhattanDistance(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">manhattanDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#offset(net.minecraft.core.Direction,int)" class="member-name-link">offset</a><wbr>(net.minecraft.core.Direction&nbsp;facing,<br> int&nbsp;n)</code></td><td><div class="block">Offsets this BlockPos n blocks in the given direction</div><br></td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash derived from this vector's coordinates.</div><br></td></tr>
+  <tr><td><code>int</code></td><td><code><a href="#manhattanDistance(mod.chiselsandbits.api.util.Vector2i)" class="member-name-link">manhattanDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector)</code></td><td><div class="block">Calculates the Manhattan distance between this vector and another.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#offset(net.minecraft.core.Direction,int)" class="member-name-link">offset</a><wbr>(net.minecraft.core.Direction&nbsp;facing,<br> int&nbsp;n)</code></td><td><div class="block">Offsets this vector <code>n</code> steps in the given direction.</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#setX(int)" class="member-name-link">setX</a><wbr>(int&nbsp;xIn)</code></td><td><div class="block">Sets the X coordinate.</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#setY(int)" class="member-name-link">setY</a><wbr>(int&nbsp;yIn)</code></td><td><div class="block">Sets the Y coordinate.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up()" class="member-name-link">up</a>()</code></td><td><div class="block">Offset this BlockPos 1 block up</div><br></td></tr>
-  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up(int)" class="member-name-link">up</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offset this BlockPos n blocks up</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(mod.chiselsandbits.api.util.Vector2i,double)" class="member-name-link">withinDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector,<br> double&nbsp;distance)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(net.minecraft.core.Position,double)" class="member-name-link">withinDistance</a><wbr>(net.minecraft.core.Position&nbsp;position,<br> double&nbsp;distance)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string containing this vector's x and y coordinates.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up()" class="member-name-link">up</a>()</code></td><td><div class="block">Returns this vector offset by one step upward.</div><br></td></tr>
+  <tr><td><code><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></code></td><td><code><a href="#up(int)" class="member-name-link">up</a><wbr>(int&nbsp;n)</code></td><td><div class="block">Offsets this vector <code>n</code> steps upward.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(mod.chiselsandbits.api.util.Vector2i,double)" class="member-name-link">withinDistance</a><wbr>(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector,<br> double&nbsp;distance)</code></td><td><div class="block">Tests whether the squared distance between the coordinates is less than the squared limit.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#withinDistance(net.minecraft.core.Position,double)" class="member-name-link">withinDistance</a><wbr>(net.minecraft.core.Position&nbsp;position,<br> double&nbsp;distance)</code></td><td><div class="block">Tests whether this vector's cell center is strictly within the given distance of a position.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -159,6 +159,7 @@ Method Summary
 == CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&gt;</span>&nbsp;<span class="element-name">CODEC</span></div>
+Codec for a two-coordinate vector represented by an integer stream.
 </div>
 :::
 
@@ -190,6 +191,12 @@ An immutable vector with zero as all coordinates.
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">Vector2i</span><wbr><span class="parameters">(double&nbsp;xIn,
  double&nbsp;yIn)</span></div>
+Creates a vector by flooring each coordinate to the nearest integer not greater than it.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>xIn</code> - the x coordinate before flooring</dd>
+<dd><code>yIn</code> - the y coordinate before flooring</dd>
+</dl>
 </div>
 :::
 
@@ -203,6 +210,12 @@ An immutable vector with zero as all coordinates.
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">Vector2i</span><wbr><span class="parameters">(int&nbsp;xIn,
  int&nbsp;yIn)</span></div>
+Creates a vector from integer coordinates.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>xIn</code> - the x coordinate</dd>
+<dd><code>yIn</code> - the y coordinate</dd>
+</dl>
 </div>
 :::
 
@@ -222,6 +235,7 @@ An immutable vector with zero as all coordinates.
 == hashCode
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">hashCode</span>()</div>
+Returns a hash derived from this vector's coordinates.
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#hashCode()" title="class or interface in java.lang" class="external-link">hashCode</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></dd>
@@ -238,9 +252,14 @@ An immutable vector with zero as all coordinates.
 == equals
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">equals</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;p_equals_1_)</span></div>
+Compares this vector with another object by x and y coordinates.
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="class or interface in java.lang" class="external-link">equals</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></dd>
+<dt>Parameters:</dt>
+<dd><code>p_equals_1_</code> - the object to compare</dd>
+<dt>Returns:</dt>
+<dd><code>true</code> when the object is a vector with matching coordinates</dd>
 </dl>
 </div>
 :::
@@ -322,6 +341,7 @@ Sets the X coordinate.
 == toString
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">toString</span>()</div>
+Returns a string containing this vector's x and y coordinates.
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></dd>
@@ -338,9 +358,14 @@ Sets the X coordinate.
 == compareTo
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">compareTo</span><wbr><span class="parameters">(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;p_compareTo_1_)</span></div>
+Orders vectors by y coordinate, then by x coordinate.
 <dl class="notes">
 <dt>Specified by:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Comparable.html#compareTo(T)" title="class or interface in java.lang" class="external-link">compareTo</a></code>&nbsp;in interface&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Comparable.html" title="class or interface in java.lang" class="external-link">Comparable</a>&lt;<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&gt;</code></dd>
+<dt>Parameters:</dt>
+<dd><code>p_compareTo_1_</code> - the vector to compare with</dd>
+<dt>Returns:</dt>
+<dd>a negative value, zero, or a positive value according to the coordinate ordering</dd>
 </dl>
 </div>
 :::
@@ -354,7 +379,11 @@ Sets the X coordinate.
 == up
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">up</span>()</div>
-Offset this BlockPos 1 block up
+Returns this vector offset by one step upward.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the offset vector</dd>
+</dl>
 </div>
 :::
 
@@ -367,7 +396,13 @@ Offset this BlockPos 1 block up
 == up
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">up</span><wbr><span class="parameters">(int&nbsp;n)</span></div>
-Offset this BlockPos n blocks up
+Offsets this vector <code>n</code> steps upward.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>n</code> - number of steps to move</dd>
+<dt>Returns:</dt>
+<dd>the offset vector, or this vector when <code>n</code> is zero</dd>
+</dl>
 </div>
 :::
 
@@ -381,7 +416,14 @@ Offset this BlockPos n blocks up
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">offset</span><wbr><span class="parameters">(net.minecraft.core.Direction&nbsp;facing,
  int&nbsp;n)</span></div>
-Offsets this BlockPos n blocks in the given direction
+Offsets this vector <code>n</code> steps in the given direction.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>facing</code> - direction of movement</dd>
+<dd><code>n</code> - number of steps to move</dd>
+<dt>Returns:</dt>
+<dd>the offset vector, or this vector when <code>n</code> is zero</dd>
+</dl>
 </div>
 :::
 
@@ -394,7 +436,11 @@ Offsets this BlockPos n blocks in the given direction
 == down
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">down</span>()</div>
-Offset this BlockPos 1 block down
+Returns this vector offset by one step downward.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the offset vector</dd>
+</dl>
 </div>
 :::
 
@@ -407,7 +453,13 @@ Offset this BlockPos 1 block down
 == down
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a></span>&nbsp;<span class="element-name">down</span><wbr><span class="parameters">(int&nbsp;n)</span></div>
-Offset this BlockPos n blocks down
+Returns this vector offset downward by the requested number of steps.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>n</code> - number of steps to move</dd>
+<dt>Returns:</dt>
+<dd>the offset vector, or this vector when <code>n</code> is zero</dd>
+</dl>
 </div>
 :::
 
@@ -421,6 +473,14 @@ Offset this BlockPos n blocks down
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">withinDistance</span><wbr><span class="parameters">(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector,
  double&nbsp;distance)</span></div>
+Tests whether the squared distance between the coordinates is less than the squared limit.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>vector</code> - the other vector</dd>
+<dd><code>distance</code> - maximum distance</dd>
+<dt>Returns:</dt>
+<dd><code>true</code> when the vectors are strictly closer than <code>distance</code></dd>
+</dl>
 </div>
 :::
 
@@ -435,6 +495,15 @@ Offset this BlockPos n blocks down
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">distanceSq</span><wbr><span class="parameters">(double&nbsp;x,
  double&nbsp;y,
  boolean&nbsp;useCenter)</span></div>
+Calculates squared distance to a point, optionally measuring from this vector's cell center.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>x</code> - target x coordinate</dd>
+<dd><code>y</code> - target y coordinate</dd>
+<dd><code>useCenter</code> - whether to offset this vector's coordinates by one half</dd>
+<dt>Returns:</dt>
+<dd>squared Euclidean distance</dd>
+</dl>
 </div>
 :::
 
@@ -448,6 +517,14 @@ Offset this BlockPos n blocks down
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">withinDistance</span><wbr><span class="parameters">(net.minecraft.core.Position&nbsp;position,
  double&nbsp;distance)</span></div>
+Tests whether this vector's cell center is strictly within the given distance of a position.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>position</code> - the position to measure to</dd>
+<dd><code>distance</code> - maximum distance</dd>
+<dt>Returns:</dt>
+<dd><code>true</code> when the distance is less than <code>distance</code></dd>
+</dl>
 </div>
 :::
 
@@ -460,7 +537,13 @@ Offset this BlockPos n blocks down
 == distanceSq
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">distanceSq</span><wbr><span class="parameters">(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;to)</span></div>
-Calculate squared distance to the given Vector
+Calculates squared distance from this cell's center to the given vector.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>to</code> - target vector</dd>
+<dt>Returns:</dt>
+<dd>squared Euclidean distance</dd>
+</dl>
 </div>
 :::
 
@@ -473,6 +556,13 @@ Calculate squared distance to the given Vector
 == manhattanDistance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">int</span>&nbsp;<span class="element-name">manhattanDistance</span><wbr><span class="parameters">(<a href="Vector2i.html" title="class in mod.chiselsandbits.api.util">Vector2i</a>&nbsp;vector)</span></div>
+Calculates the Manhattan distance between this vector and another.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>vector</code> - the other vector</dd>
+<dt>Returns:</dt>
+<dd>the sum of absolute coordinate differences</dd>
+</dl>
 </div>
 :::
 
@@ -485,6 +575,11 @@ Calculate squared distance to the given Vector
 == getCoordinatesAsString
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">getCoordinatesAsString</span>()</div>
+Returns the coordinates as a comma-separated <code>x, y</code> string.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the x and y coordinates separated by a comma and space</dd>
+</dl>
 </div>
 :::
 

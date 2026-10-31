@@ -36,7 +36,7 @@ Constructor Summary
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">StateEntryInfoIsToBigException</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">StateEntryInfoIsToBigException</a>()</code></td><td><div class="block">Creates an exception indicating that state-entry information exceeds the supported size.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -70,6 +70,7 @@ Method Summary
 == StateEntryInfoIsToBigException
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">StateEntryInfoIsToBigException</span>()</div>
+Creates an exception indicating that state-entry information exceeds the supported size.
 </div>
 :::
 

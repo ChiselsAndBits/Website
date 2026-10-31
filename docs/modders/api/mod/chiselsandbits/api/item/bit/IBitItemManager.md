@@ -25,7 +25,7 @@ Method Summary
   <tbody>
   <tr><td><code>default net.minecraft.world.item.ItemStack</code></td><td><code><a href="#create(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">create</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation)</code></td><td><div class="block">Creates an itemstack that contains a bit of the given block information with a size of 1.</div><br></td></tr>
   <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#create(mod.chiselsandbits.api.blockinformation.BlockInformation,int)" class="member-name-link">create</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;blockInformation,<br> int&nbsp;count)</code></td><td><div class="block">Creates an itemstack that contains a bit of the given block information and is of the given size.</div><br></td></tr>
-  <tr><td><code>static <a href="IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the shared bit item manager instance.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -34,7 +34,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the shared bit item manager instance.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -88,6 +88,11 @@ Method Summary
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IBitItemManager.html" title="interface in mod.chiselsandbits.api.item.bit">IBitItemManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
+Returns the shared bit item manager instance.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the manager provided by the active Chisels &amp; Bits API instance</dd>
+</dl>
 </div>
 :::
 

@@ -36,7 +36,7 @@ Constructor Summary
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">SpaceOccupiedException</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">SpaceOccupiedException</a>()</code></td><td><div class="block">Creates an exception indicating that the target space is occupied.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -70,6 +70,7 @@ Method Summary
 == SpaceOccupiedException
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">SpaceOccupiedException</span>()</div>
+Creates an exception indicating that the target space is occupied.
 </div>
 :::
 

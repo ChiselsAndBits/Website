@@ -14,7 +14,7 @@ java.lang.Object
 
   
 
-  
+Numeric helpers for comparing and adjusting coordinate values.  
 
 <dl class="notes"></dl>  
 
@@ -27,11 +27,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static boolean</code></td><td><code><a href="#almostEqual(java.lang.Number,java.lang.Number)" class="member-name-link">almostEqual</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static boolean</code></td><td><code><a href="#almostEqual(java.lang.Number,java.lang.Number,java.lang.Number)" class="member-name-link">almostEqual</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;epsilon)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static double</code></td><td><code><a href="#makePositive(double)" class="member-name-link">makePositive</a><wbr>(double&nbsp;d)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static double</code></td><td><code><a href="#maximizeAwayFromZero(double,double)" class="member-name-link">maximizeAwayFromZero</a><wbr>(double&nbsp;l,<br> double&nbsp;r)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static double</code></td><td><code><a href="#minimizeTowardsZero(double,double)" class="member-name-link">minimizeTowardsZero</a><wbr>(double&nbsp;l,<br> double&nbsp;r)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static boolean</code></td><td><code><a href="#almostEqual(java.lang.Number,java.lang.Number)" class="member-name-link">almostEqual</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r)</code></td><td><div class="block">Compares two numbers using the utility's default floating-point tolerance.</div><br></td></tr>
+  <tr><td><code>static boolean</code></td><td><code><a href="#almostEqual(java.lang.Number,java.lang.Number,java.lang.Number)" class="member-name-link">almostEqual</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;epsilon)</code></td><td><div class="block">Compares two numbers using an explicit absolute-difference tolerance.</div><br></td></tr>
+  <tr><td><code>static double</code></td><td><code><a href="#makePositive(double)" class="member-name-link">makePositive</a><wbr>(double&nbsp;d)</code></td><td><div class="block">Adds whole units until a coordinate is non-negative.</div><br></td></tr>
+  <tr><td><code>static double</code></td><td><code><a href="#maximizeAwayFromZero(double,double)" class="member-name-link">maximizeAwayFromZero</a><wbr>(double&nbsp;l,<br> double&nbsp;r)</code></td><td><div class="block">Returns whichever value has the greater absolute magnitude.</div><br></td></tr>
+  <tr><td><code>static double</code></td><td><code><a href="#minimizeTowardsZero(double,double)" class="member-name-link">minimizeTowardsZero</a><wbr>(double&nbsp;l,<br> double&nbsp;r)</code></td><td><div class="block">Returns whichever value has the smaller absolute magnitude.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -40,11 +40,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static boolean</code></td><td><code><a href="#almostEqual(java.lang.Number,java.lang.Number)" class="member-name-link">almostEqual</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static boolean</code></td><td><code><a href="#almostEqual(java.lang.Number,java.lang.Number,java.lang.Number)" class="member-name-link">almostEqual</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;epsilon)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static double</code></td><td><code><a href="#makePositive(double)" class="member-name-link">makePositive</a><wbr>(double&nbsp;d)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static double</code></td><td><code><a href="#maximizeAwayFromZero(double,double)" class="member-name-link">maximizeAwayFromZero</a><wbr>(double&nbsp;l,<br> double&nbsp;r)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static double</code></td><td><code><a href="#minimizeTowardsZero(double,double)" class="member-name-link">minimizeTowardsZero</a><wbr>(double&nbsp;l,<br> double&nbsp;r)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static boolean</code></td><td><code><a href="#almostEqual(java.lang.Number,java.lang.Number)" class="member-name-link">almostEqual</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r)</code></td><td><div class="block">Compares two numbers using the utility's default floating-point tolerance.</div><br></td></tr>
+  <tr><td><code>static boolean</code></td><td><code><a href="#almostEqual(java.lang.Number,java.lang.Number,java.lang.Number)" class="member-name-link">almostEqual</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;epsilon)</code></td><td><div class="block">Compares two numbers using an explicit absolute-difference tolerance.</div><br></td></tr>
+  <tr><td><code>static double</code></td><td><code><a href="#makePositive(double)" class="member-name-link">makePositive</a><wbr>(double&nbsp;d)</code></td><td><div class="block">Adds whole units until a coordinate is non-negative.</div><br></td></tr>
+  <tr><td><code>static double</code></td><td><code><a href="#maximizeAwayFromZero(double,double)" class="member-name-link">maximizeAwayFromZero</a><wbr>(double&nbsp;l,<br> double&nbsp;r)</code></td><td><div class="block">Returns whichever value has the greater absolute magnitude.</div><br></td></tr>
+  <tr><td><code>static double</code></td><td><code><a href="#minimizeTowardsZero(double,double)" class="member-name-link">minimizeTowardsZero</a><wbr>(double&nbsp;l,<br> double&nbsp;r)</code></td><td><div class="block">Returns whichever value has the smaller absolute magnitude.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -53,11 +53,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static boolean</code></td><td><code><a href="#almostEqual(java.lang.Number,java.lang.Number)" class="member-name-link">almostEqual</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static boolean</code></td><td><code><a href="#almostEqual(java.lang.Number,java.lang.Number,java.lang.Number)" class="member-name-link">almostEqual</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;epsilon)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static double</code></td><td><code><a href="#makePositive(double)" class="member-name-link">makePositive</a><wbr>(double&nbsp;d)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static double</code></td><td><code><a href="#maximizeAwayFromZero(double,double)" class="member-name-link">maximizeAwayFromZero</a><wbr>(double&nbsp;l,<br> double&nbsp;r)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static double</code></td><td><code><a href="#minimizeTowardsZero(double,double)" class="member-name-link">minimizeTowardsZero</a><wbr>(double&nbsp;l,<br> double&nbsp;r)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static boolean</code></td><td><code><a href="#almostEqual(java.lang.Number,java.lang.Number)" class="member-name-link">almostEqual</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r)</code></td><td><div class="block">Compares two numbers using the utility's default floating-point tolerance.</div><br></td></tr>
+  <tr><td><code>static boolean</code></td><td><code><a href="#almostEqual(java.lang.Number,java.lang.Number,java.lang.Number)" class="member-name-link">almostEqual</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;epsilon)</code></td><td><div class="block">Compares two numbers using an explicit absolute-difference tolerance.</div><br></td></tr>
+  <tr><td><code>static double</code></td><td><code><a href="#makePositive(double)" class="member-name-link">makePositive</a><wbr>(double&nbsp;d)</code></td><td><div class="block">Adds whole units until a coordinate is non-negative.</div><br></td></tr>
+  <tr><td><code>static double</code></td><td><code><a href="#maximizeAwayFromZero(double,double)" class="member-name-link">maximizeAwayFromZero</a><wbr>(double&nbsp;l,<br> double&nbsp;r)</code></td><td><div class="block">Returns whichever value has the greater absolute magnitude.</div><br></td></tr>
+  <tr><td><code>static double</code></td><td><code><a href="#minimizeTowardsZero(double,double)" class="member-name-link">minimizeTowardsZero</a><wbr>(double&nbsp;l,<br> double&nbsp;r)</code></td><td><div class="block">Returns whichever value has the smaller absolute magnitude.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -88,6 +88,14 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">almostEqual</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r)</span></div>
+Compares two numbers using the utility's default floating-point tolerance.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>l</code> - the first number to compare</dd>
+<dd><code>r</code> - the second number to compare</dd>
+<dt>Returns:</dt>
+<dd><code>true</code> when the numbers differ by less than the default tolerance</dd>
+</dl>
 </div>
 :::
 
@@ -102,6 +110,15 @@ Method Summary
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">almostEqual</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;l,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;r,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Number.html" title="class or interface in java.lang" class="external-link">Number</a>&nbsp;epsilon)</span></div>
+Compares two numbers using an explicit absolute-difference tolerance.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>l</code> - the first number to compare</dd>
+<dd><code>r</code> - the second number to compare</dd>
+<dd><code>epsilon</code> - the largest accepted absolute difference</dd>
+<dt>Returns:</dt>
+<dd><code>true</code> when the absolute difference is less than <code>epsilon</code></dd>
+</dl>
 </div>
 :::
 
@@ -115,6 +132,14 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">minimizeTowardsZero</span><wbr><span class="parameters">(double&nbsp;l,
  double&nbsp;r)</span></div>
+Returns whichever value has the smaller absolute magnitude.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>l</code> - the first value</dd>
+<dd><code>r</code> - the second value</dd>
+<dt>Returns:</dt>
+<dd>the value closer to zero; ties return <code>l</code></dd>
+</dl>
 </div>
 :::
 
@@ -128,6 +153,14 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">maximizeAwayFromZero</span><wbr><span class="parameters">(double&nbsp;l,
  double&nbsp;r)</span></div>
+Returns whichever value has the greater absolute magnitude.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>l</code> - the first value</dd>
+<dd><code>r</code> - the second value</dd>
+<dt>Returns:</dt>
+<dd>the value farther from zero; ties return <code>l</code></dd>
+</dl>
 </div>
 :::
 
@@ -140,6 +173,13 @@ Method Summary
 == makePositive
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">makePositive</span><wbr><span class="parameters">(double&nbsp;d)</span></div>
+Adds whole units until a coordinate is non-negative.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>d</code> - the coordinate to adjust</dd>
+<dt>Returns:</dt>
+<dd>the equivalent coordinate in the range <code>[0, 1)</code></dd>
+</dl>
 </div>
 :::
 

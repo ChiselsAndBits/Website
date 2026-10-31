@@ -14,7 +14,7 @@ _Package:_ [mod.chiselsandbits.api.inventory.bit](index)
 
   
 
-  
+Display-ready summary of an item-backed bit inventory and whether the summary was truncated.  
 
 <dl class="notes"></dl>  
 
@@ -42,11 +42,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>boolean</code></td><td><code><a href="#clipped()" class="member-name-link">clipped</a>()</code></td><td><div class="block">Returns the value of the <code>clipped</code> record component.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.Component&gt;</code></td><td><code><a href="#displayComponents()" class="member-name-link">displayComponents</a>()</code></td><td><div class="block">Returns the value of the <code>displayComponents</code> record component.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#clipped()" class="member-name-link">clipped</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-clipped"><code>clipped</code></a> record component.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.Component&gt;</code></td><td><code><a href="#displayComponents()" class="member-name-link">displayComponents</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-displayComponents"><code>displayComponents</code></a> record component.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isEmpty()" class="member-name-link">isEmpty</a>()</code></td><td><div class="block">Returns the value of the <code>isEmpty</code> record component.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isEmpty()" class="member-name-link">isEmpty</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-isEmpty"><code>isEmpty</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -56,11 +56,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>boolean</code></td><td><code><a href="#clipped()" class="member-name-link">clipped</a>()</code></td><td><div class="block">Returns the value of the <code>clipped</code> record component.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.Component&gt;</code></td><td><code><a href="#displayComponents()" class="member-name-link">displayComponents</a>()</code></td><td><div class="block">Returns the value of the <code>displayComponents</code> record component.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#clipped()" class="member-name-link">clipped</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-clipped"><code>clipped</code></a> record component.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.Component&gt;</code></td><td><code><a href="#displayComponents()" class="member-name-link">displayComponents</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-displayComponents"><code>displayComponents</code></a> record component.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isEmpty()" class="member-name-link">isEmpty</a>()</code></td><td><div class="block">Returns the value of the <code>isEmpty</code> record component.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isEmpty()" class="member-name-link">isEmpty</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-isEmpty"><code>isEmpty</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -70,11 +70,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>boolean</code></td><td><code><a href="#clipped()" class="member-name-link">clipped</a>()</code></td><td><div class="block">Returns the value of the <code>clipped</code> record component.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.Component&gt;</code></td><td><code><a href="#displayComponents()" class="member-name-link">displayComponents</a>()</code></td><td><div class="block">Returns the value of the <code>displayComponents</code> record component.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#clipped()" class="member-name-link">clipped</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-clipped"><code>clipped</code></a> record component.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.Component&gt;</code></td><td><code><a href="#displayComponents()" class="member-name-link">displayComponents</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-displayComponents"><code>displayComponents</code></a> record component.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#isEmpty()" class="member-name-link">isEmpty</a>()</code></td><td><div class="block">Returns the value of the <code>isEmpty</code> record component.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#isEmpty()" class="member-name-link">isEmpty</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-isEmpty"><code>isEmpty</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -106,9 +106,9 @@ Method Summary
 Creates an instance of a <code>DisplayContents</code> record class.
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>displayComponents</code> - the value for the <code>displayComponents</code> record component</dd>
-<dd><code>isEmpty</code> - the value for the <code>isEmpty</code> record component</dd>
-<dd><code>clipped</code> - the value for the <code>clipped</code> record component</dd>
+<dd><code>displayComponents</code> - the value for the <a href="#param-displayComponents"><code>displayComponents</code></a> record component</dd>
+<dd><code>isEmpty</code> - the value for the <a href="#param-isEmpty"><code>isEmpty</code></a> record component</dd>
+<dd><code>clipped</code> - the value for the <a href="#param-clipped"><code>clipped</code></a> record component</dd>
 </dl>
 </div>
 :::
@@ -188,10 +188,10 @@ Indicates whether some other object is "equal to" this one. The objects are equa
 == displayComponents
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;net.minecraft.network.chat.Component&gt;</span>&nbsp;<span class="element-name">displayComponents</span>()</div>
-Returns the value of the <code>displayComponents</code> record component.
+Returns the value of the <a href="#param-displayComponents"><code>displayComponents</code></a> record component.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <code>displayComponents</code> record component</dd>
+<dd>the value of the <a href="#param-displayComponents"><code>displayComponents</code></a> record component</dd>
 </dl>
 </div>
 :::
@@ -205,10 +205,10 @@ Returns the value of the <code>displayComponents</code> record component.
 == isEmpty
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">isEmpty</span>()</div>
-Returns the value of the <code>isEmpty</code> record component.
+Returns the value of the <a href="#param-isEmpty"><code>isEmpty</code></a> record component.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <code>isEmpty</code> record component</dd>
+<dd>the value of the <a href="#param-isEmpty"><code>isEmpty</code></a> record component</dd>
 </dl>
 </div>
 :::
@@ -222,10 +222,10 @@ Returns the value of the <code>isEmpty</code> record component.
 == clipped
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">clipped</span>()</div>
-Returns the value of the <code>clipped</code> record component.
+Returns the value of the <a href="#param-clipped"><code>clipped</code></a> record component.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <code>clipped</code> record component</dd>
+<dd>the value of the <a href="#param-clipped"><code>clipped</code></a> record component</dd>
 </dl>
 </div>
 :::

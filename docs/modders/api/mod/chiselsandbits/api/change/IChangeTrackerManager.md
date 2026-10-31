@@ -14,7 +14,9 @@ The central change tracker manager which gives access to each players individual
 This data is not synced.
 On the client generally this data is only available for the current player, all other players return an empty change tracker.
 
-All change trackers are reset upon server restart or datapack reload.  
+<p>
+All change trackers are reset upon server restart or datapack reload.
+</p>  
 
 <dl class="notes"></dl>  
 
@@ -27,8 +29,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="IChangeTracker.html" title="interface in mod.chiselsandbits.api.change">IChangeTracker</a></code></td><td><code><a href="#getChangeTracker(net.minecraft.world.entity.player.Player)" class="member-name-link">getChangeTracker</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Gives access to the change tracker of the given player.</div><br></td></tr>
-  <tr><td><code>static @NotNull <a href="IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Short circuit method to get the manager instance from the api.</div><br></td></tr>
+  <tr><td><code><a href="IChangeTracker.html" title="interface in mod.chiselsandbits.api.change">IChangeTracker</a></code></td><td><code><a href="#getChangeTracker(net.minecraft.world.entity.player.Player)" class="member-name-link">getChangeTracker</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Gives access to the change tracker of the given player.</div><br></td></tr>
+  <tr><td><code>static <a href="IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Short circuit method to get the manager instance from the api.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -37,7 +39,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static @NotNull <a href="IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Short circuit method to get the manager instance from the api.</div><br></td></tr>
+  <tr><td><code>static <a href="IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Short circuit method to get the manager instance from the api.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -46,7 +48,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="IChangeTracker.html" title="interface in mod.chiselsandbits.api.change">IChangeTracker</a></code></td><td><code><a href="#getChangeTracker(net.minecraft.world.entity.player.Player)" class="member-name-link">getChangeTracker</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Gives access to the change tracker of the given player.</div><br></td></tr>
+  <tr><td><code><a href="IChangeTracker.html" title="interface in mod.chiselsandbits.api.change">IChangeTracker</a></code></td><td><code><a href="#getChangeTracker(net.minecraft.world.entity.player.Player)" class="member-name-link">getChangeTracker</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Gives access to the change tracker of the given player.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -55,7 +57,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="IChangeTracker.html" title="interface in mod.chiselsandbits.api.change">IChangeTracker</a></code></td><td><code><a href="#getChangeTracker(net.minecraft.world.entity.player.Player)" class="member-name-link">getChangeTracker</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Gives access to the change tracker of the given player.</div><br></td></tr>
+  <tr><td><code><a href="IChangeTracker.html" title="interface in mod.chiselsandbits.api.change">IChangeTracker</a></code></td><td><code><a href="#getChangeTracker(net.minecraft.world.entity.player.Player)" class="member-name-link">getChangeTracker</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player)</code></td><td><div class="block">Gives access to the change tracker of the given player.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -80,8 +82,7 @@ Method Summary
 :::tabs
 == getInstance
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="modifiers">static</span>&nbsp;<span class="return-type">@NotNull <a href="IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
+<div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IChangeTrackerManager.html" title="interface in mod.chiselsandbits.api.change">IChangeTrackerManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
 Short circuit method to get the manager instance from the api.
 <dl class="notes">
 <dt>Returns:</dt>
@@ -98,8 +99,7 @@ Short circuit method to get the manager instance from the api.
 :::tabs
 == getChangeTracker
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="IChangeTracker.html" title="interface in mod.chiselsandbits.api.change">IChangeTracker</a></span>&nbsp;<span class="element-name">getChangeTracker</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span></div>
+<div class="member-signature"><span class="return-type"><a href="IChangeTracker.html" title="interface in mod.chiselsandbits.api.change">IChangeTracker</a></span>&nbsp;<span class="element-name">getChangeTracker</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player)</span></div>
 Gives access to the change tracker of the given player.
 <dl class="notes">
 <dt>Parameters:</dt>

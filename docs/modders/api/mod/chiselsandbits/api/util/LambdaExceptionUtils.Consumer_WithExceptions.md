@@ -5,6 +5,10 @@ sidebar: false
 ---
 _Package:_ [mod.chiselsandbits.api.util](index)  
 # Interface Consumer_WithExceptions\<T,E extends Exception\>  
+**Type Parameters:**  
+T - type of value consumed  
+E - checked exception type that may be thrown  
+
 **Enclosing Class:**  
 [LambdaExceptionUtils](LambdaExceptionUtils)  
 
@@ -17,7 +21,7 @@ This is a functional interface and can therefore be used as the assignment targe
 
   
 
-  
+Consumer functional interface whose operation may throw a checked exception.  
 
 <dl class="notes"></dl>  
 
@@ -30,7 +34,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>void</code></td><td><code><a href="#accept(T)" class="member-name-link">accept</a><wbr>(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.Consumer_WithExceptions">T</a>&nbsp;t)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#accept(T)" class="member-name-link">accept</a><wbr>(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.Consumer_WithExceptions">T</a>&nbsp;t)</code></td><td><div class="block">Consumes a value and may throw the declared exception.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -39,7 +43,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>void</code></td><td><code><a href="#accept(T)" class="member-name-link">accept</a><wbr>(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.Consumer_WithExceptions">T</a>&nbsp;t)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#accept(T)" class="member-name-link">accept</a><wbr>(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.Consumer_WithExceptions">T</a>&nbsp;t)</code></td><td><div class="block">Consumes a value and may throw the declared exception.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -48,7 +52,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>void</code></td><td><code><a href="#accept(T)" class="member-name-link">accept</a><wbr>(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.Consumer_WithExceptions">T</a>&nbsp;t)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#accept(T)" class="member-name-link">accept</a><wbr>(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.Consumer_WithExceptions">T</a>&nbsp;t)</code></td><td><div class="block">Consumes a value and may throw the declared exception.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -75,9 +79,12 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">accept</span><wbr><span class="parameters">(<a href="#type-param-T" title="type parameter in LambdaExceptionUtils.Consumer_WithExceptions">T</a>&nbsp;t)</span>
      throws <span class="exceptions">E</span></div>
+Consumes a value and may throw the declared exception.
 <dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>t</code> - value to consume</dd>
 <dt>Throws:</dt>
-<dd><code>E</code></dd>
+<dd><code>E</code> - if the operation fails</dd>
 </dl>
 </div>
 :::

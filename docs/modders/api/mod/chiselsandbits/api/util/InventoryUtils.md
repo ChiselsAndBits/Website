@@ -14,7 +14,7 @@ java.lang.Object
 
   
 
-  
+Helpers for finding and extracting chiseled items from player inventories.  
 
 <dl class="notes"></dl>  
 
@@ -27,8 +27,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static void</code></td><td><code><a href="#extractChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)" class="member-name-link">extractChiseledStackMatchingSnapshot</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player,<br> <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static net.minecraft.world.item.ItemStack</code></td><td><code><a href="#getChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)" class="member-name-link">getChiseledStackMatchingSnapshot</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player,<br> <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static void</code></td><td><code><a href="#extractChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)" class="member-name-link">extractChiseledStackMatchingSnapshot</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player,<br> <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</code></td><td><div class="block">Removes one item from the first chiseled stack matching the supplied snapshot.</div><br></td></tr>
+  <tr><td><code>static net.minecraft.world.item.ItemStack</code></td><td><code><a href="#getChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)" class="member-name-link">getChiseledStackMatchingSnapshot</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player,<br> <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</code></td><td><div class="block">Finds a chiseled item whose shape identifier matches the supplied snapshot.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -37,8 +37,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static void</code></td><td><code><a href="#extractChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)" class="member-name-link">extractChiseledStackMatchingSnapshot</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player,<br> <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static net.minecraft.world.item.ItemStack</code></td><td><code><a href="#getChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)" class="member-name-link">getChiseledStackMatchingSnapshot</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player,<br> <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static void</code></td><td><code><a href="#extractChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)" class="member-name-link">extractChiseledStackMatchingSnapshot</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player,<br> <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</code></td><td><div class="block">Removes one item from the first chiseled stack matching the supplied snapshot.</div><br></td></tr>
+  <tr><td><code>static net.minecraft.world.item.ItemStack</code></td><td><code><a href="#getChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)" class="member-name-link">getChiseledStackMatchingSnapshot</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player,<br> <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</code></td><td><div class="block">Finds a chiseled item whose shape identifier matches the supplied snapshot.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -47,8 +47,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static void</code></td><td><code><a href="#extractChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)" class="member-name-link">extractChiseledStackMatchingSnapshot</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player,<br> <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static net.minecraft.world.item.ItemStack</code></td><td><code><a href="#getChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)" class="member-name-link">getChiseledStackMatchingSnapshot</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player,<br> <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static void</code></td><td><code><a href="#extractChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)" class="member-name-link">extractChiseledStackMatchingSnapshot</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player,<br> <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</code></td><td><div class="block">Removes one item from the first chiseled stack matching the supplied snapshot.</div><br></td></tr>
+  <tr><td><code>static net.minecraft.world.item.ItemStack</code></td><td><code><a href="#getChiseledStackMatchingSnapshot(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot)" class="member-name-link">getChiseledStackMatchingSnapshot</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;player,<br> <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</code></td><td><div class="block">Finds a chiseled item whose shape identifier matches the supplied snapshot.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -79,6 +79,14 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">getChiseledStackMatchingSnapshot</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player,
  <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</span></div>
+Finds a chiseled item whose shape identifier matches the supplied snapshot.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>player</code> - player whose inventory is searched</dd>
+<dd><code>snapshot</code> - snapshot providing the shape identifier to match</dd>
+<dt>Returns:</dt>
+<dd>the matching item stack, or <code>ItemStack.EMPTY</code> if none is present</dd>
+</dl>
 </div>
 :::
 
@@ -92,6 +100,12 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">extractChiseledStackMatchingSnapshot</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;player,
  <a href="../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;snapshot)</span></div>
+Removes one item from the first chiseled stack matching the supplied snapshot.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>player</code> - player whose inventory is searched</dd>
+<dd><code>snapshot</code> - snapshot providing the shape identifier to match</dd>
+</dl>
 </div>
 :::
 

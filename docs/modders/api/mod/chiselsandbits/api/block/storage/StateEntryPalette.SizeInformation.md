@@ -15,8 +15,9 @@ _Package:_ [mod.chiselsandbits.api.block.storage](index)
   
 
 Represents the size information of the palette.
+
 <p>
-    The size is only accurate if it has changed.
+The size is only accurate if it has changed.
 </p>  
 
 <dl class="notes"></dl>  
@@ -45,11 +46,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#changed(int)" class="member-name-link">changed</a><wbr>(int&nbsp;size)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#changed(int)" class="member-name-link">changed</a><wbr>(int&nbsp;size)</code></td><td><div class="block">Creates a result indicating that the palette size changed to the supplied value.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#hasChanged()" class="member-name-link">hasChanged</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-hasChanged"><code>hasChanged</code></a> record component.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>static <a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#notChanged()" class="member-name-link">notChanged</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#notChanged()" class="member-name-link">notChanged</a>()</code></td><td><div class="block">Creates a result indicating that the palette size did not change.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#size()" class="member-name-link">size</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-size"><code>size</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
@@ -60,8 +61,8 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#changed(int)" class="member-name-link">changed</a><wbr>(int&nbsp;size)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static <a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#notChanged()" class="member-name-link">notChanged</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#changed(int)" class="member-name-link">changed</a><wbr>(int&nbsp;size)</code></td><td><div class="block">Creates a result indicating that the palette size changed to the supplied value.</div><br></td></tr>
+  <tr><td><code>static <a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#notChanged()" class="member-name-link">notChanged</a>()</code></td><td><div class="block">Creates a result indicating that the palette size did not change.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -83,11 +84,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#changed(int)" class="member-name-link">changed</a><wbr>(int&nbsp;size)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#changed(int)" class="member-name-link">changed</a><wbr>(int&nbsp;size)</code></td><td><div class="block">Creates a result indicating that the palette size changed to the supplied value.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#hasChanged()" class="member-name-link">hasChanged</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-hasChanged"><code>hasChanged</code></a> record component.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code>static <a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#notChanged()" class="member-name-link">notChanged</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><code><a href="#notChanged()" class="member-name-link">notChanged</a>()</code></td><td><div class="block">Creates a result indicating that the palette size did not change.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#size()" class="member-name-link">size</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-size"><code>size</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
@@ -141,6 +142,11 @@ Creates an instance of a <code>SizeInformation</code> record class.
 == notChanged
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></span>&nbsp;<span class="element-name">notChanged</span>()</div>
+Creates a result indicating that the palette size did not change.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>size information with <code>hasChanged</code> false and size zero</dd>
+</dl>
 </div>
 :::
 
@@ -153,6 +159,13 @@ Creates an instance of a <code>SizeInformation</code> record class.
 == changed
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="StateEntryPalette.SizeInformation.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></span>&nbsp;<span class="element-name">changed</span><wbr><span class="parameters">(int&nbsp;size)</span></div>
+Creates a result indicating that the palette size changed to the supplied value.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>size</code> - new palette size</dd>
+<dt>Returns:</dt>
+<dd>size information containing the supplied size and a true change flag</dd>
+</dl>
 </div>
 :::
 

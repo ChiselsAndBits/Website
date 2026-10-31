@@ -105,7 +105,7 @@ and <code>size - 1</code> as max value.</p>
 <dt>Parameters:</dt>
 <dd><code>size</code> - The size of each axis for the block positions stream.</dd>
 <dt>Returns:</dt>
-<dd>A stream of blockpositions in the <code>size</code> cubed in area.</dd>
+<dd>A stream of block positions in the <code>size</code> cubed in area.</dd>
 </dl>
 </div>
 :::

@@ -5,6 +5,9 @@ sidebar: false
 ---
 _Package:_ [mod.chiselsandbits.api.item.withmode](index)  
 # Interface IToolMode\<G extends IToolModeGroup\>  
+**Type Parameters:**  
+G - The type of tool mode group that this mode is part of.  
+
 **All Extended Interfaces:**  
 [IRenderableMode](IRenderableMode), [IWithColor](../../util/IWithColor), [IWithDisplayName](../../util/IWithDisplayName), [IWithIcon](../../util/IWithIcon), [IWithIconAndColor](../../util/IWithIconAndColor)  
 
@@ -14,7 +17,7 @@ extends <a href="../../util/IWithDisplayName.html" title="interface in mod.chise
 
   
 
-A mode of a given tool.  
+A mode of a given tool, parameterized by the type of <a href="group/IToolModeGroup.html" title="interface in mod.chiselsandbits.api.item.withmode.group"><code>IToolModeGroup</code></a> it belongs to.  
 
 <dl class="notes"></dl>  
 
@@ -27,7 +30,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="#type-param-G" title="type parameter in IToolMode">G</a>&gt;</code></td><td><code><a href="#getGroup()" class="member-name-link">getGroup</a>()</code></td><td><div class="block">An optional which indicates the group this tool mode<br>is part of.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="#type-param-G" title="type parameter in IToolMode">G</a>&gt;</code></td><td><code><a href="#getGroup()" class="member-name-link">getGroup</a>()</code></td><td><div class="block">An optional which indicates the group this tool mode<br>is part of.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -36,7 +39,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="#type-param-G" title="type parameter in IToolMode">G</a>&gt;</code></td><td><code><a href="#getGroup()" class="member-name-link">getGroup</a>()</code></td><td><div class="block">An optional which indicates the group this tool mode<br>is part of.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="#type-param-G" title="type parameter in IToolMode">G</a>&gt;</code></td><td><code><a href="#getGroup()" class="member-name-link">getGroup</a>()</code></td><td><div class="block">An optional which indicates the group this tool mode<br>is part of.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -45,7 +48,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="#type-param-G" title="type parameter in IToolMode">G</a>&gt;</code></td><td><code><a href="#getGroup()" class="member-name-link">getGroup</a>()</code></td><td><div class="block">An optional which indicates the group this tool mode<br>is part of.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a><wbr>&lt;<a href="#type-param-G" title="type parameter in IToolMode">G</a>&gt;</code></td><td><code><a href="#getGroup()" class="member-name-link">getGroup</a>()</code></td><td><div class="block">An optional which indicates the group this tool mode<br>is part of.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -86,8 +89,7 @@ Method Summary
 :::tabs
 == getGroup
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="#type-param-G" title="type parameter in IToolMode">G</a>&gt;</span>&nbsp;<span class="element-name">getGroup</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Optional.html" title="class or interface in java.util" class="external-link">Optional</a>&lt;<a href="#type-param-G" title="type parameter in IToolMode">G</a>&gt;</span>&nbsp;<span class="element-name">getGroup</span>()</div>
 An optional which indicates the group this tool mode
 is part of.
 <dl class="notes">

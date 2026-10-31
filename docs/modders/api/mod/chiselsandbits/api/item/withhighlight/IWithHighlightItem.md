@@ -25,7 +25,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code>void</code></td><td><code><a href="#renderHighlight(net.minecraft.world.entity.player.Player,net.minecraft.client.renderer.LevelRenderer,com.mojang.blaze3d.vertex.PoseStack,net.minecraft.client.renderer.MultiBufferSource.BufferSource,net.minecraft.client.renderer.state.level.LevelRenderState,float)" class="member-name-link">renderHighlight</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> net.minecraft.client.renderer.LevelRenderer&nbsp;worldRenderer,<br> com.mojang.blaze3d.vertex.PoseStack&nbsp;matrixStack,<br> net.minecraft.client.renderer.MultiBufferSource.BufferSource&nbsp;bufferSource,<br> net.minecraft.client.renderer.state.level.LevelRenderState&nbsp;levelRenderState,<br> float&nbsp;partialTicks)</code></td><td><div class="block">Renders the highlight for the current item.</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#shouldDrawDefaultHighlight(net.minecraft.world.entity.player.Player)" class="member-name-link">shouldDrawDefaultHighlight</a><wbr>(@NotNull net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Indicates if the given player is allowed to use the<br>default render method.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#shouldDrawDefaultHighlight(net.minecraft.world.entity.player.Player)" class="member-name-link">shouldDrawDefaultHighlight</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Indicates if the given player is allowed to use the<br>default render method.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -35,7 +35,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code>void</code></td><td><code><a href="#renderHighlight(net.minecraft.world.entity.player.Player,net.minecraft.client.renderer.LevelRenderer,com.mojang.blaze3d.vertex.PoseStack,net.minecraft.client.renderer.MultiBufferSource.BufferSource,net.minecraft.client.renderer.state.level.LevelRenderState,float)" class="member-name-link">renderHighlight</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> net.minecraft.client.renderer.LevelRenderer&nbsp;worldRenderer,<br> com.mojang.blaze3d.vertex.PoseStack&nbsp;matrixStack,<br> net.minecraft.client.renderer.MultiBufferSource.BufferSource&nbsp;bufferSource,<br> net.minecraft.client.renderer.state.level.LevelRenderState&nbsp;levelRenderState,<br> float&nbsp;partialTicks)</code></td><td><div class="block">Renders the highlight for the current item.</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#shouldDrawDefaultHighlight(net.minecraft.world.entity.player.Player)" class="member-name-link">shouldDrawDefaultHighlight</a><wbr>(@NotNull net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Indicates if the given player is allowed to use the<br>default render method.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#shouldDrawDefaultHighlight(net.minecraft.world.entity.player.Player)" class="member-name-link">shouldDrawDefaultHighlight</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Indicates if the given player is allowed to use the<br>default render method.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -45,7 +45,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code>void</code></td><td><code><a href="#renderHighlight(net.minecraft.world.entity.player.Player,net.minecraft.client.renderer.LevelRenderer,com.mojang.blaze3d.vertex.PoseStack,net.minecraft.client.renderer.MultiBufferSource.BufferSource,net.minecraft.client.renderer.state.level.LevelRenderState,float)" class="member-name-link">renderHighlight</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> net.minecraft.client.renderer.LevelRenderer&nbsp;worldRenderer,<br> com.mojang.blaze3d.vertex.PoseStack&nbsp;matrixStack,<br> net.minecraft.client.renderer.MultiBufferSource.BufferSource&nbsp;bufferSource,<br> net.minecraft.client.renderer.state.level.LevelRenderState&nbsp;levelRenderState,<br> float&nbsp;partialTicks)</code></td><td><div class="block">Renders the highlight for the current item.</div><br></td></tr>
-  <tr><td><code>boolean</code></td><td><code><a href="#shouldDrawDefaultHighlight(net.minecraft.world.entity.player.Player)" class="member-name-link">shouldDrawDefaultHighlight</a><wbr>(@NotNull net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Indicates if the given player is allowed to use the<br>default render method.</div><br></td></tr>
+  <tr><td><code>boolean</code></td><td><code><a href="#shouldDrawDefaultHighlight(net.minecraft.world.entity.player.Player)" class="member-name-link">shouldDrawDefaultHighlight</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</code></td><td><div class="block">Indicates if the given player is allowed to use the<br>default render method.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -70,11 +70,11 @@ Method Summary
 :::tabs
 == shouldDrawDefaultHighlight
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldDrawDefaultHighlight</span><wbr><span class="parameters">(@NotNull
- @NotNull net.minecraft.world.entity.player.Player&nbsp;playerEntity)</span></div>
+<div class="member-signature"><span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldDrawDefaultHighlight</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity)</span></div>
 Indicates if the given player is allowed to use the
 default render method.
-If this is false. The default highlight rendering is cancelled.
+<p>
+If this is false.The default highlight rendering is cancelled.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player entity in question.</dd>

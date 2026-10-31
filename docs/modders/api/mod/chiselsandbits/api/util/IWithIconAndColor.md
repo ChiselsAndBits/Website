@@ -14,7 +14,7 @@ extends <a href="IWithIcon.html" title="interface in mod.chiselsandbits.api.util
 
   
 
-  
+Contract for values that provide an icon and its display color.  
 
 <dl class="notes"></dl>  
 

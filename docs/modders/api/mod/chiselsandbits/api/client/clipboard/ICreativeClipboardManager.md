@@ -10,7 +10,7 @@ _Package:_ [mod.chiselsandbits.api.client.clipboard](index)
 
   
 
-  
+Manages clipboard operations for creative-mode multistate items.  
 
 <dl class="notes"></dl>  
 
@@ -26,7 +26,7 @@ Method Summary
   <tr><td><code>void</code></td><td><code><a href="#addEntry(mod.chiselsandbits.api.item.multistate.IMultiStateItemStack,net.minecraft.core.HolderLookup.Provider)" class="member-name-link">addEntry</a><wbr>(<a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a>&nbsp;multiStateItemStack,<br> net.minecraft.core.HolderLookup.Provider&nbsp;provider)</code></td><td><div class="block">Adds an entry to the clipboard.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#clear(net.minecraft.core.HolderLookup.Provider)" class="member-name-link">clear</a><wbr>(net.minecraft.core.HolderLookup.Provider&nbsp;provider)</code></td><td><div class="block">Clears the entire clip board.</div><br></td></tr>
   <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a>&gt;</code></td><td><code><a href="#getClipboard()" class="member-name-link">getClipboard</a>()</code></td><td><div class="block">The clipboard contents.</div><br></td></tr>
-  <tr><td><code>static <a href="ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the clipboard manager exposed by the active API instance.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#removeEntry(int,net.minecraft.core.HolderLookup.Provider)" class="member-name-link">removeEntry</a><wbr>(int&nbsp;index,<br> net.minecraft.core.HolderLookup.Provider&nbsp;provider)</code></td><td><div class="block">Removes an entry from the clipboard.</div><br></td></tr>
   </tbody>
 </table>
@@ -36,7 +36,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></code></td><td><code><a href="#getInstance()" class="member-name-link">getInstance</a>()</code></td><td><div class="block">Returns the clipboard manager exposed by the active API instance.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -86,6 +86,11 @@ Method Summary
 == getInstance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="ICreativeClipboardManager.html" title="interface in mod.chiselsandbits.api.client.clipboard">ICreativeClipboardManager</a></span>&nbsp;<span class="element-name">getInstance</span>()</div>
+Returns the clipboard manager exposed by the active API instance.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 
@@ -120,7 +125,7 @@ Adds an entry to the clipboard.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>multiStateItemStack</code> - The multi-state item stack to add.</dd>
-<dd><code>provider</code> - The provider.</dd>
+<dd><code>provider</code> - registry lookup used to serialize the stack's contents</dd>
 </dl>
 </div>
 :::
@@ -139,6 +144,7 @@ Removes an entry from the clipboard.
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>index</code> - The index of the entry to remove.</dd>
+<dd><code>provider</code> - registry lookup used to update the serialized clipboard data</dd>
 </dl>
 </div>
 :::

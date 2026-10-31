@@ -19,7 +19,7 @@ package mod.chiselsandbits.api.cutting.operation;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="ICuttingOperationGroup" title="ICuttingOperationGroup">ICuttingOperationGroup</a></td><td></td></tr>
+  <tr><td><a href="ICuttingOperationGroup" title="ICuttingOperationGroup">ICuttingOperationGroup</a></td><td>Groups operations that cut or extract portions of multistate pieces.</td></tr>
   <tr><td><a href="ICuttingOperation" title="ICuttingOperation">ICuttingOperation</a></td><td>A Cutting operation that can be performed in the Cutting table.</td></tr>
   </tbody>
 </table>
@@ -29,7 +29,7 @@ package mod.chiselsandbits.api.cutting.operation;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="ICuttingOperationGroup" title="ICuttingOperationGroup">ICuttingOperationGroup</a></td><td></td></tr>
+  <tr><td><a href="ICuttingOperationGroup" title="ICuttingOperationGroup">ICuttingOperationGroup</a></td><td>Groups operations that cut or extract portions of multistate pieces.</td></tr>
   <tr><td><a href="ICuttingOperation" title="ICuttingOperation">ICuttingOperation</a></td><td>A Cutting operation that can be performed in the Cutting table.</td></tr>
   </tbody>
 </table>

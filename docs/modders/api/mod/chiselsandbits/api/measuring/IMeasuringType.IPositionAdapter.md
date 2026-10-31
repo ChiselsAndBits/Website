@@ -17,7 +17,7 @@ This is a functional interface and can therefore be used as the assignment targe
 
   
 
-  
+Adapts a pair of measurement endpoints using the clicked face.  
 
 <dl class="notes"></dl>  
 
@@ -30,7 +30,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adapt(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adapt</a><wbr>(@NotNull net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> @NotNull net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> @NotNull net.minecraft.core.Direction&nbsp;hitFace)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adapt(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adapt</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> net.minecraft.core.Direction&nbsp;hitFace)</code></td><td><div class="block">Adapts the two endpoints to the measuring mode's coordinate rules.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -39,7 +39,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adapt(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adapt</a><wbr>(@NotNull net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> @NotNull net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> @NotNull net.minecraft.core.Direction&nbsp;hitFace)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adapt(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adapt</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> net.minecraft.core.Direction&nbsp;hitFace)</code></td><td><div class="block">Adapts the two endpoints to the measuring mode's coordinate rules.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -48,7 +48,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>@NotNull net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adapt(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adapt</a><wbr>(@NotNull net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> @NotNull net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> @NotNull net.minecraft.core.Direction&nbsp;hitFace)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#adapt(net.minecraft.world.phys.Vec3,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">adapt</a><wbr>(net.minecraft.world.phys.Vec3&nbsp;startPosition,<br> net.minecraft.world.phys.Vec3&nbsp;endPosition,<br> net.minecraft.core.Direction&nbsp;hitFace)</code></td><td><div class="block">Adapts the two endpoints to the measuring mode's coordinate rules.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -73,13 +73,18 @@ Method Summary
 :::tabs
 == adapt
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">adapt</span><wbr><span class="parameters">(@NotNull
- @NotNull net.minecraft.world.phys.Vec3&nbsp;startPosition,
- @NotNull
- @NotNull net.minecraft.world.phys.Vec3&nbsp;endPosition,
- @NotNull
- @NotNull net.minecraft.core.Direction&nbsp;hitFace)</span></div>
+<div class="member-signature"><span class="return-type">net.minecraft.world.phys.Vec3</span>&nbsp;<span class="element-name">adapt</span><wbr><span class="parameters">(net.minecraft.world.phys.Vec3&nbsp;startPosition,
+ net.minecraft.world.phys.Vec3&nbsp;endPosition,
+ net.minecraft.core.Direction&nbsp;hitFace)</span></div>
+Adapts the two endpoints to the measuring mode's coordinate rules.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>startPosition</code> - first endpoint</dd>
+<dd><code>endPosition</code> - second endpoint</dd>
+<dd><code>hitFace</code> - face used to resolve alignment</dd>
+<dt>Returns:</dt>
+<dd>adapted position</dd>
+</dl>
 </div>
 :::
 

@@ -11,7 +11,7 @@ _Package:_ [mod.chiselsandbits.api.block.storage](index)
 
   
 
-  
+Maps block information to compact indices used by multistate storage.  
 
 <dl class="notes"></dl>  
 
@@ -24,7 +24,7 @@ _Package:_ [mod.chiselsandbits.api.block.storage](index)
     <tr><th>Modifier and Type</th><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final record&nbsp;</code></td><td><code><a href="StateEntryPalette.Entry.html" class="type-name-link" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final record&nbsp;</code></td><td><code><a href="StateEntryPalette.Entry.html" class="type-name-link" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a></code></td><td><div class="block">Palette entry pairing a packed palette index with its block information.</div><br></td></tr>
   <tr><td><code>static final record&nbsp;</code></td><td><code><a href="StateEntryPalette.Result.html" class="type-name-link" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a>&lt;<a href="StateEntryPalette.Result.html#type-param-T" title="type parameter in StateEntryPalette.Result">T</a>&gt;</code></td><td><div class="block">Represents the result of a palette operation.</div><br></td></tr>
   <tr><td><code>static final record&nbsp;</code></td><td><code><a href="StateEntryPalette.SizeInformation.html" class="type-name-link" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.SizeInformation</a></code></td><td><div class="block">Represents the size information of the palette.</div><br></td></tr>
   </tbody>
@@ -42,10 +42,10 @@ Field Summary
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&gt;</code></td><td><code><a href="#CODEC" class="member-name-link">CODEC</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&gt;</code></td><td><code><a href="#LEGACY_CODEC" class="member-name-link">LEGACY_CODEC</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final com.mojang.serialization.MapCodec<wbr>&lt;<a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&gt;</code></td><td><code><a href="#MAP_CODEC" class="member-name-link">MAP_CODEC</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&gt;</code></td><td><code><a href="#STREAM_CODEC" class="member-name-link">STREAM_CODEC</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&gt;</code></td><td><code><a href="#CODEC" class="member-name-link">CODEC</a></code></td><td><div class="block">Codec for serializing the palette's ordered entries.</div><br></td></tr>
+  <tr><td><code>static final com.mojang.serialization.Codec<wbr>&lt;<a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&gt;</code></td><td><code><a href="#LEGACY_CODEC" class="member-name-link">LEGACY_CODEC</a></code></td><td><div class="block">Codec for reading palettes written with the legacy entry format.</div><br></td></tr>
+  <tr><td><code>static final com.mojang.serialization.MapCodec<wbr>&lt;<a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&gt;</code></td><td><code><a href="#MAP_CODEC" class="member-name-link">MAP_CODEC</a></code></td><td><div class="block">Map codec for embedding this palette in another serialized object.</div><br></td></tr>
+  <tr><td><code>static final net.minecraft.network.codec.StreamCodec<wbr>&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&gt;</code></td><td><code><a href="#STREAM_CODEC" class="member-name-link">STREAM_CODEC</a></code></td><td><div class="block">Network codec for the ordered palette entries.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -60,10 +60,10 @@ Constructor Summary
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">StateEntryPalette</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#%3Cinit%3E(java.util.List)" class="member-name-link">StateEntryPalette</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;&nbsp;paletteEntries)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#%3Cinit%3E(java.util.List,java.util.Map)" class="member-name-link">StateEntryPalette</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;&nbsp;paletteEntries,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;&nbsp;paletteMap)</code></td><td><div class="block">Creates an instance of a <code>StateEntryPalette</code> record class.</div><br></td></tr>
-  <tr><td><code><a href="#%3Cinit%3E(mod.chiselsandbits.api.block.storage.StateEntryPalette)" class="member-name-link">StateEntryPalette</a><wbr>(<a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&nbsp;palette)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#%3Cinit%3E()" class="member-name-link">StateEntryPalette</a>()</code></td><td><div class="block">Creates an empty palette containing the required air entry.</div><br></td></tr>
+  <tr><td><code><a href="#%3Cinit%3E(java.util.List)" class="member-name-link">StateEntryPalette</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;&nbsp;paletteEntries)</code></td><td><div class="block">Creates a palette and lookup map from the supplied entries.</div><br></td></tr>
+  <tr><td><code><a href="#%3Cinit%3E(java.util.List,java.util.Map)" class="member-name-link">StateEntryPalette</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;&nbsp;paletteEntries,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;&nbsp;paletteMap)</code></td><td><div class="block">Creates a palette from its ordered entries and state lookup map, adding air if absent.</div><br></td></tr>
+  <tr><td><code><a href="#%3Cinit%3E(mod.chiselsandbits.api.block.storage.StateEntryPalette)" class="member-name-link">StateEntryPalette</a><wbr>(<a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&nbsp;palette)</code></td><td><div class="block">Copies the palette entries and lookup map from another palette.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -78,15 +78,15 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</code></td><td><code><a href="#clear()" class="member-name-link">clear</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</code></td><td><code><a href="#clear()" class="member-name-link">clear</a>()</code></td><td><div class="block">Clears all entries and restores the required air entry.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
-  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockState(int)" class="member-name-link">getBlockState</a><wbr>(int&nbsp;blockStateId)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</code></td><td><code><a href="#getIndex(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">getIndex</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;state)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockState(int)" class="member-name-link">getBlockState</a><wbr>(int&nbsp;blockStateId)</code></td><td><div class="block">Resolves a palette index to its block information, using air for invalid indices.</div><br></td></tr>
+  <tr><td><code><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</code></td><td><code><a href="#getIndex(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">getIndex</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;state)</code></td><td><div class="block">Returns the existing index for a state, adding it to the palette when absent.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#paletteEntries()" class="member-name-link">paletteEntries</a>()</code></td><td><div class="block">Returns the value of the <code>paletteEntries</code> record component.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#paletteMap()" class="member-name-link">paletteMap</a>()</code></td><td><div class="block">Returns the value of the <code>paletteMap</code> record component.</div><br></td></tr>
-  <tr><td><code>long</code></td><td><code><a href="#size()" class="member-name-link">size</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#states()" class="member-name-link">states</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#paletteEntries()" class="member-name-link">paletteEntries</a>()</code></td><td><div class="block">Returns the palette entries in index order as an unmodifiable list.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#paletteMap()" class="member-name-link">paletteMap</a>()</code></td><td><div class="block">Returns the block-information lookup as an unmodifiable map.</div><br></td></tr>
+  <tr><td><code>long</code></td><td><code><a href="#size()" class="member-name-link">size</a>()</code></td><td><div class="block">Returns the number of entries currently stored in the palette.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#states()" class="member-name-link">states</a>()</code></td><td><div class="block">Returns the block information values currently represented by this palette.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -96,15 +96,15 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</code></td><td><code><a href="#clear()" class="member-name-link">clear</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</code></td><td><code><a href="#clear()" class="member-name-link">clear</a>()</code></td><td><div class="block">Clears all entries and restores the required air entry.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
-  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockState(int)" class="member-name-link">getBlockState</a><wbr>(int&nbsp;blockStateId)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</code></td><td><code><a href="#getIndex(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">getIndex</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;state)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockState(int)" class="member-name-link">getBlockState</a><wbr>(int&nbsp;blockStateId)</code></td><td><div class="block">Resolves a palette index to its block information, using air for invalid indices.</div><br></td></tr>
+  <tr><td><code><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</code></td><td><code><a href="#getIndex(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">getIndex</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;state)</code></td><td><div class="block">Returns the existing index for a state, adding it to the palette when absent.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#paletteEntries()" class="member-name-link">paletteEntries</a>()</code></td><td><div class="block">Returns the value of the <code>paletteEntries</code> record component.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#paletteMap()" class="member-name-link">paletteMap</a>()</code></td><td><div class="block">Returns the value of the <code>paletteMap</code> record component.</div><br></td></tr>
-  <tr><td><code>long</code></td><td><code><a href="#size()" class="member-name-link">size</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#states()" class="member-name-link">states</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#paletteEntries()" class="member-name-link">paletteEntries</a>()</code></td><td><div class="block">Returns the palette entries in index order as an unmodifiable list.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#paletteMap()" class="member-name-link">paletteMap</a>()</code></td><td><div class="block">Returns the block-information lookup as an unmodifiable map.</div><br></td></tr>
+  <tr><td><code>long</code></td><td><code><a href="#size()" class="member-name-link">size</a>()</code></td><td><div class="block">Returns the number of entries currently stored in the palette.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#states()" class="member-name-link">states</a>()</code></td><td><div class="block">Returns the block information values currently represented by this palette.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -114,15 +114,15 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</code></td><td><code><a href="#clear()" class="member-name-link">clear</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</code></td><td><code><a href="#clear()" class="member-name-link">clear</a>()</code></td><td><div class="block">Clears all entries and restores the required air entry.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
-  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockState(int)" class="member-name-link">getBlockState</a><wbr>(int&nbsp;blockStateId)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</code></td><td><code><a href="#getIndex(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">getIndex</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;state)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></code></td><td><code><a href="#getBlockState(int)" class="member-name-link">getBlockState</a><wbr>(int&nbsp;blockStateId)</code></td><td><div class="block">Resolves a palette index to its block information, using air for invalid indices.</div><br></td></tr>
+  <tr><td><code><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a><wbr>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</code></td><td><code><a href="#getIndex(mod.chiselsandbits.api.blockinformation.BlockInformation)" class="member-name-link">getIndex</a><wbr>(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;state)</code></td><td><div class="block">Returns the existing index for a state, adding it to the palette when absent.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#paletteEntries()" class="member-name-link">paletteEntries</a>()</code></td><td><div class="block">Returns the value of the <code>paletteEntries</code> record component.</div><br></td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#paletteMap()" class="member-name-link">paletteMap</a>()</code></td><td><div class="block">Returns the value of the <code>paletteMap</code> record component.</div><br></td></tr>
-  <tr><td><code>long</code></td><td><code><a href="#size()" class="member-name-link">size</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#states()" class="member-name-link">states</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#paletteEntries()" class="member-name-link">paletteEntries</a>()</code></td><td><div class="block">Returns the palette entries in index order as an unmodifiable list.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</code></td><td><code><a href="#paletteMap()" class="member-name-link">paletteMap</a>()</code></td><td><div class="block">Returns the block-information lookup as an unmodifiable map.</div><br></td></tr>
+  <tr><td><code>long</code></td><td><code><a href="#size()" class="member-name-link">size</a>()</code></td><td><div class="block">Returns the number of entries currently stored in the palette.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</code></td><td><code><a href="#states()" class="member-name-link">states</a>()</code></td><td><div class="block">Returns the block information values currently represented by this palette.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -147,6 +147,7 @@ Method Summary
 == CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&gt;</span>&nbsp;<span class="element-name">CODEC</span></div>
+Codec for serializing the palette's ordered entries.
 </div>
 :::
 
@@ -159,6 +160,7 @@ Method Summary
 == LEGACY_CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">com.mojang.serialization.Codec&lt;<a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&gt;</span>&nbsp;<span class="element-name">LEGACY_CODEC</span></div>
+Codec for reading palettes written with the legacy entry format.
 </div>
 :::
 
@@ -171,6 +173,7 @@ Method Summary
 == MAP_CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">com.mojang.serialization.MapCodec&lt;<a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&gt;</span>&nbsp;<span class="element-name">MAP_CODEC</span></div>
+Map codec for embedding this palette in another serialized object.
 </div>
 :::
 
@@ -183,6 +186,7 @@ Method Summary
 == STREAM_CODEC
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type">net.minecraft.network.codec.StreamCodec&lt;net.minecraft.network.RegistryFriendlyByteBuf, <a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&gt;</span>&nbsp;<span class="element-name">STREAM_CODEC</span></div>
+Network codec for the ordered palette entries.
 </div>
 :::
 
@@ -200,6 +204,7 @@ Method Summary
 == StateEntryPalette
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">StateEntryPalette</span>()</div>
+Creates an empty palette containing the required air entry.
 </div>
 :::
 
@@ -212,6 +217,11 @@ Method Summary
 == StateEntryPalette
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">StateEntryPalette</span><wbr><span class="parameters">(<a href="StateEntryPalette.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette</a>&nbsp;palette)</span></div>
+Copies the palette entries and lookup map from another palette.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>palette</code> - palette whose entries and lookup map are copied</dd>
+</dl>
 </div>
 :::
 
@@ -224,6 +234,11 @@ Method Summary
 == StateEntryPalette
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">StateEntryPalette</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;&nbsp;paletteEntries)</span></div>
+Creates a palette and lookup map from the supplied entries.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>paletteEntries</code> - entries to store in palette-index order</dd>
+</dl>
 </div>
 :::
 
@@ -237,12 +252,7 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">StateEntryPalette</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;&nbsp;paletteEntries,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;&nbsp;paletteMap)</span></div>
-Creates an instance of a <code>StateEntryPalette</code> record class.
-<dl class="notes">
-<dt>Parameters:</dt>
-<dd><code>paletteEntries</code> - the value for the <code>paletteEntries</code> record component</dd>
-<dd><code>paletteMap</code> - the value for the <code>paletteMap</code> record component</dd>
-</dl>
+Creates a palette from its ordered entries and state lookup map, adding air if absent.
 </div>
 :::
 
@@ -262,10 +272,10 @@ Creates an instance of a <code>StateEntryPalette</code> record class.
 == paletteEntries
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</span>&nbsp;<span class="element-name">paletteEntries</span>()</div>
-Returns the value of the <code>paletteEntries</code> record component.
+Returns the palette entries in index order as an unmodifiable list.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <code>paletteEntries</code> record component</dd>
+<dd>an unmodifiable view of the entries in palette-index order</dd>
 </dl>
 </div>
 :::
@@ -279,10 +289,10 @@ Returns the value of the <code>paletteEntries</code> record component.
 == paletteMap
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Map.html" title="class or interface in java.util" class="external-link">Map</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>, <a href="StateEntryPalette.Entry.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Entry</a>&gt;</span>&nbsp;<span class="element-name">paletteMap</span>()</div>
-Returns the value of the <code>paletteMap</code> record component.
+Returns the block-information lookup as an unmodifiable map.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <code>paletteMap</code> record component</dd>
+<dd>an unmodifiable view mapping each block information value to its entry</dd>
 </dl>
 </div>
 :::
@@ -296,6 +306,11 @@ Returns the value of the <code>paletteMap</code> record component.
 == size
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">long</span>&nbsp;<span class="element-name">size</span>()</div>
+Returns the number of entries currently stored in the palette.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the number of palette entries, including the required air entry</dd>
+</dl>
 </div>
 :::
 
@@ -308,6 +323,13 @@ Returns the value of the <code>paletteMap</code> record component.
 == getIndex
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</span>&nbsp;<span class="element-name">getIndex</span><wbr><span class="parameters">(<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&nbsp;state)</span></div>
+Returns the existing index for a state, adding it to the palette when absent.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>state</code> - block information to look up or add</dd>
+<dt>Returns:</dt>
+<dd>the palette index and whether adding the state changed the palette size</dd>
+</dl>
 </div>
 :::
 
@@ -320,6 +342,13 @@ Returns the value of the <code>paletteMap</code> record component.
 == getBlockState
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a></span>&nbsp;<span class="element-name">getBlockState</span><wbr><span class="parameters">(int&nbsp;blockStateId)</span></div>
+Resolves a palette index to its block information, using air for invalid indices.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>blockStateId</code> - palette index to resolve</dd>
+<dt>Returns:</dt>
+<dd>the indexed block information, or air when the index is invalid</dd>
+</dl>
 </div>
 :::
 
@@ -332,6 +361,11 @@ Returns the value of the <code>paletteMap</code> record component.
 == clear
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="StateEntryPalette.Result.html" title="class in mod.chiselsandbits.api.block.storage">StateEntryPalette.Result</a>&lt;<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Integer.html" title="class or interface in java.lang" class="external-link">Integer</a>&gt;</span>&nbsp;<span class="element-name">clear</span>()</div>
+Clears all entries and restores the required air entry.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the palette index of the restored air entry and the resulting size change</dd>
+</dl>
 </div>
 :::
 
@@ -344,6 +378,11 @@ Returns the value of the <code>paletteMap</code> record component.
 == states
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;<a href="../../blockinformation/BlockInformation.html" title="class in mod.chiselsandbits.api.blockinformation">BlockInformation</a>&gt;</span>&nbsp;<span class="element-name">states</span>()</div>
+Returns the block information values currently represented by this palette.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the block information keys currently present in the palette lookup</dd>
+</dl>
 </div>
 :::
 

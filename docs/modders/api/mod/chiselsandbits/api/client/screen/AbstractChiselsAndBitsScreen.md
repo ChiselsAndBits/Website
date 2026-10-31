@@ -69,12 +69,12 @@ Method Summary
   <tr><td><code>&lt;T extends net.minecraft.client.gui.components.events.GuiEventListener &amp; net.minecraft.client.gui.components.Renderable &amp; net.minecraft.client.gui.narration.NarratableEntry&gt;<br>T</code></td><td><code><a href="#addRenderableWidget(T)" class="member-name-link">addRenderableWidget</a><wbr>(T&nbsp;button)</code></td><td>&nbsp;</td></tr>
   <tr><td><code>&lt;T extends net.minecraft.client.gui.components.events.GuiEventListener &amp; net.minecraft.client.gui.narration.NarratableEntry&gt;<br>T</code></td><td><code><a href="#addWidget(T)" class="member-name-link">addWidget</a><wbr>(T&nbsp;widget)</code></td><td>&nbsp;</td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#clearWidgets()" class="member-name-link">clearWidgets</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#extractRenderState(net.minecraft.client.gui.GuiGraphicsExtractor,int,int,float)" class="member-name-link">extractRenderState</a><wbr>(@NotNull net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;guiGraphics,<br> int&nbsp;mouseX,<br> int&nbsp;mouseY,<br> float&nbsp;partialTickTime)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#extractRenderState(net.minecraft.client.gui.GuiGraphicsExtractor,int,int,float)" class="member-name-link">extractRenderState</a><wbr>(net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;guiGraphics,<br> int&nbsp;mouseX,<br> int&nbsp;mouseY,<br> float&nbsp;partialTickTime)</code></td><td>&nbsp;</td></tr>
   <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="widget/IChiselsAndBitsWidget.html" title="interface in mod.chiselsandbits.api.client.screen.widget">IChiselsAndBitsWidget</a>&gt;</code></td><td><code><a href="#getWidgets()" class="member-name-link">getWidgets</a>()</code></td><td><div class="block">Returns the widgets which are included in the screen.</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#init()" class="member-name-link">init</a>()</code></td><td>&nbsp;</td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#isInitialized()" class="member-name-link">isInitialized</a>()</code></td><td><div class="block">Indicates if the screen has been initialized or not.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#removed()" class="member-name-link">removed</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#removeWidget(net.minecraft.client.gui.components.events.GuiEventListener)" class="member-name-link">removeWidget</a><wbr>(@NotNull net.minecraft.client.gui.components.events.GuiEventListener&nbsp;listener)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#removeWidget(net.minecraft.client.gui.components.events.GuiEventListener)" class="member-name-link">removeWidget</a><wbr>(net.minecraft.client.gui.components.events.GuiEventListener&nbsp;listener)</code></td><td>&nbsp;</td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -87,12 +87,12 @@ Method Summary
   <tr><td><code>&lt;T extends net.minecraft.client.gui.components.events.GuiEventListener &amp; net.minecraft.client.gui.components.Renderable &amp; net.minecraft.client.gui.narration.NarratableEntry&gt;<br>T</code></td><td><code><a href="#addRenderableWidget(T)" class="member-name-link">addRenderableWidget</a><wbr>(T&nbsp;button)</code></td><td>&nbsp;</td></tr>
   <tr><td><code>&lt;T extends net.minecraft.client.gui.components.events.GuiEventListener &amp; net.minecraft.client.gui.narration.NarratableEntry&gt;<br>T</code></td><td><code><a href="#addWidget(T)" class="member-name-link">addWidget</a><wbr>(T&nbsp;widget)</code></td><td>&nbsp;</td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#clearWidgets()" class="member-name-link">clearWidgets</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#extractRenderState(net.minecraft.client.gui.GuiGraphicsExtractor,int,int,float)" class="member-name-link">extractRenderState</a><wbr>(@NotNull net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;guiGraphics,<br> int&nbsp;mouseX,<br> int&nbsp;mouseY,<br> float&nbsp;partialTickTime)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#extractRenderState(net.minecraft.client.gui.GuiGraphicsExtractor,int,int,float)" class="member-name-link">extractRenderState</a><wbr>(net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;guiGraphics,<br> int&nbsp;mouseX,<br> int&nbsp;mouseY,<br> float&nbsp;partialTickTime)</code></td><td>&nbsp;</td></tr>
   <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="widget/IChiselsAndBitsWidget.html" title="interface in mod.chiselsandbits.api.client.screen.widget">IChiselsAndBitsWidget</a>&gt;</code></td><td><code><a href="#getWidgets()" class="member-name-link">getWidgets</a>()</code></td><td><div class="block">Returns the widgets which are included in the screen.</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#init()" class="member-name-link">init</a>()</code></td><td>&nbsp;</td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#isInitialized()" class="member-name-link">isInitialized</a>()</code></td><td><div class="block">Indicates if the screen has been initialized or not.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#removed()" class="member-name-link">removed</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#removeWidget(net.minecraft.client.gui.components.events.GuiEventListener)" class="member-name-link">removeWidget</a><wbr>(@NotNull net.minecraft.client.gui.components.events.GuiEventListener&nbsp;listener)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#removeWidget(net.minecraft.client.gui.components.events.GuiEventListener)" class="member-name-link">removeWidget</a><wbr>(net.minecraft.client.gui.components.events.GuiEventListener&nbsp;listener)</code></td><td>&nbsp;</td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -105,12 +105,12 @@ Method Summary
   <tr><td><code>&lt;T extends net.minecraft.client.gui.components.events.GuiEventListener &amp; net.minecraft.client.gui.components.Renderable &amp; net.minecraft.client.gui.narration.NarratableEntry&gt;<br>T</code></td><td><code><a href="#addRenderableWidget(T)" class="member-name-link">addRenderableWidget</a><wbr>(T&nbsp;button)</code></td><td>&nbsp;</td></tr>
   <tr><td><code>&lt;T extends net.minecraft.client.gui.components.events.GuiEventListener &amp; net.minecraft.client.gui.narration.NarratableEntry&gt;<br>T</code></td><td><code><a href="#addWidget(T)" class="member-name-link">addWidget</a><wbr>(T&nbsp;widget)</code></td><td>&nbsp;</td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#clearWidgets()" class="member-name-link">clearWidgets</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#extractRenderState(net.minecraft.client.gui.GuiGraphicsExtractor,int,int,float)" class="member-name-link">extractRenderState</a><wbr>(@NotNull net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;guiGraphics,<br> int&nbsp;mouseX,<br> int&nbsp;mouseY,<br> float&nbsp;partialTickTime)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#extractRenderState(net.minecraft.client.gui.GuiGraphicsExtractor,int,int,float)" class="member-name-link">extractRenderState</a><wbr>(net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;guiGraphics,<br> int&nbsp;mouseX,<br> int&nbsp;mouseY,<br> float&nbsp;partialTickTime)</code></td><td>&nbsp;</td></tr>
   <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;<a href="widget/IChiselsAndBitsWidget.html" title="interface in mod.chiselsandbits.api.client.screen.widget">IChiselsAndBitsWidget</a>&gt;</code></td><td><code><a href="#getWidgets()" class="member-name-link">getWidgets</a>()</code></td><td><div class="block">Returns the widgets which are included in the screen.</div><br></td></tr>
   <tr><td><code>protected void</code></td><td><code><a href="#init()" class="member-name-link">init</a>()</code></td><td>&nbsp;</td></tr>
   <tr><td><code>boolean</code></td><td><code><a href="#isInitialized()" class="member-name-link">isInitialized</a>()</code></td><td><div class="block">Indicates if the screen has been initialized or not.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#removed()" class="member-name-link">removed</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>void</code></td><td><code><a href="#removeWidget(net.minecraft.client.gui.components.events.GuiEventListener)" class="member-name-link">removeWidget</a><wbr>(@NotNull net.minecraft.client.gui.components.events.GuiEventListener&nbsp;listener)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>void</code></td><td><code><a href="#removeWidget(net.minecraft.client.gui.components.events.GuiEventListener)" class="member-name-link">removeWidget</a><wbr>(net.minecraft.client.gui.components.events.GuiEventListener&nbsp;listener)</code></td><td>&nbsp;</td></tr>
   </tbody>
 </table>
 :::
@@ -195,10 +195,8 @@ Creates a new screen, playing the narration message when opened.
 :::tabs
 == addRenderableWidget
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="modifiers">public</span>&nbsp;<span class="type-parameters">&lt;T extends net.minecraft.client.gui.components.events.GuiEventListener &amp; net.minecraft.client.gui.components.Renderable &amp; net.minecraft.client.gui.narration.NarratableEntry&gt;</span>
-<span class="return-type">T</span>&nbsp;<span class="element-name">addRenderableWidget</span><wbr><span class="parameters">(@NotNull
- T&nbsp;button)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="type-parameters">&lt;T extends net.minecraft.client.gui.components.events.GuiEventListener &amp; net.minecraft.client.gui.components.Renderable &amp; net.minecraft.client.gui.narration.NarratableEntry&gt;</span>
+<span class="return-type">T</span>&nbsp;<span class="element-name">addRenderableWidget</span><wbr><span class="parameters">(T&nbsp;button)</span></div>
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code>addRenderableWidget</code>&nbsp;in class&nbsp;<code>net.minecraft.client.gui.screens.Screen</code></dd>
@@ -214,10 +212,8 @@ Creates a new screen, playing the narration message when opened.
 :::tabs
 == addRenderableOnly
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="modifiers">protected</span>&nbsp;<span class="type-parameters">&lt;T extends net.minecraft.client.gui.components.Renderable&gt;</span>
-<span class="return-type">T</span>&nbsp;<span class="element-name">addRenderableOnly</span><wbr><span class="parameters">(@NotNull
- T&nbsp;widget)</span></div>
+<div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="type-parameters">&lt;T extends net.minecraft.client.gui.components.Renderable&gt;</span>
+<span class="return-type">T</span>&nbsp;<span class="element-name">addRenderableOnly</span><wbr><span class="parameters">(T&nbsp;widget)</span></div>
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code>addRenderableOnly</code>&nbsp;in class&nbsp;<code>net.minecraft.client.gui.screens.Screen</code></dd>
@@ -233,10 +229,8 @@ Creates a new screen, playing the narration message when opened.
 :::tabs
 == addWidget
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="modifiers">public</span>&nbsp;<span class="type-parameters">&lt;T extends net.minecraft.client.gui.components.events.GuiEventListener &amp; net.minecraft.client.gui.narration.NarratableEntry&gt;</span>
-<span class="return-type">T</span>&nbsp;<span class="element-name">addWidget</span><wbr><span class="parameters">(@NotNull
- T&nbsp;widget)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="type-parameters">&lt;T extends net.minecraft.client.gui.components.events.GuiEventListener &amp; net.minecraft.client.gui.narration.NarratableEntry&gt;</span>
+<span class="return-type">T</span>&nbsp;<span class="element-name">addWidget</span><wbr><span class="parameters">(T&nbsp;widget)</span></div>
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code>addWidget</code>&nbsp;in class&nbsp;<code>net.minecraft.client.gui.screens.Screen</code></dd>
@@ -252,8 +246,7 @@ Creates a new screen, playing the narration message when opened.
 :::tabs
 == removeWidget
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">removeWidget</span><wbr><span class="parameters">(@NotNull
- @NotNull net.minecraft.client.gui.components.events.GuiEventListener&nbsp;listener)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">removeWidget</span><wbr><span class="parameters">(net.minecraft.client.gui.components.events.GuiEventListener&nbsp;listener)</span></div>
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code>removeWidget</code>&nbsp;in class&nbsp;<code>net.minecraft.client.gui.screens.Screen</code></dd>
@@ -338,8 +331,7 @@ Returns the widgets which are included in the screen.
 :::tabs
 == extractRenderState
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">extractRenderState</span><wbr><span class="parameters">(@NotNull
- @NotNull net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;guiGraphics,
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="element-name">extractRenderState</span><wbr><span class="parameters">(net.minecraft.client.gui.GuiGraphicsExtractor&nbsp;guiGraphics,
  int&nbsp;mouseX,
  int&nbsp;mouseY,
  float&nbsp;partialTickTime)</span></div>

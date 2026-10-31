@@ -14,7 +14,7 @@ extends <a href="../IMutableStateEntryInfo.html" title="interface in mod.chisels
 
   
 
-  
+Mutable view of a multistate entry associated with a position in the world.  
 
 <dl class="notes"></dl>  
 

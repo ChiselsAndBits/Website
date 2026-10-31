@@ -27,7 +27,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code><a href="#type-param-M" title="type parameter in IWithModeItem">M</a></code></td><td><code><a href="#getMode(net.minecraft.world.item.ItemStack)" class="member-name-link">getMode</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Returns the current mode of the itemstack.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;<a href="#type-param-M" title="type parameter in IWithModeItem">M</a>&gt;</code></td><td><code><a href="#getPossibleModes()" class="member-name-link">getPossibleModes</a>()</code></td><td><div class="block">Returns all possible modes this item can have.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;<a href="#type-param-M" title="type parameter in IWithModeItem">M</a>&gt;</code></td><td><code><a href="#getPossibleModes()" class="member-name-link">getPossibleModes</a>()</code></td><td><div class="block">Returns all possible modes this item can have.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#requiresUpdateOnClosure()" class="member-name-link">requiresUpdateOnClosure</a>()</code></td><td><div class="block">Indicates to the ux system that this item requires an additional<br>update when the player closes the interface.</div><br></td></tr>
   <tr><td><code>default void</code></td><td><code><a href="#setMode(net.minecraft.world.item.ItemStack,int)" class="member-name-link">setMode</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack,<br> int&nbsp;modeIndex)</code></td><td><div class="block">Set the mode with the given index on the given itemstack.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#setMode(net.minecraft.world.item.ItemStack,M)" class="member-name-link">setMode</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack,<br> <a href="#type-param-M" title="type parameter in IWithModeItem">M</a>&nbsp;mode)</code></td><td><div class="block">Set the given mode on the given itemstack.</div><br></td></tr>
@@ -40,7 +40,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code><a href="#type-param-M" title="type parameter in IWithModeItem">M</a></code></td><td><code><a href="#getMode(net.minecraft.world.item.ItemStack)" class="member-name-link">getMode</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Returns the current mode of the itemstack.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;<a href="#type-param-M" title="type parameter in IWithModeItem">M</a>&gt;</code></td><td><code><a href="#getPossibleModes()" class="member-name-link">getPossibleModes</a>()</code></td><td><div class="block">Returns all possible modes this item can have.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;<a href="#type-param-M" title="type parameter in IWithModeItem">M</a>&gt;</code></td><td><code><a href="#getPossibleModes()" class="member-name-link">getPossibleModes</a>()</code></td><td><div class="block">Returns all possible modes this item can have.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#requiresUpdateOnClosure()" class="member-name-link">requiresUpdateOnClosure</a>()</code></td><td><div class="block">Indicates to the ux system that this item requires an additional<br>update when the player closes the interface.</div><br></td></tr>
   <tr><td><code>default void</code></td><td><code><a href="#setMode(net.minecraft.world.item.ItemStack,int)" class="member-name-link">setMode</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack,<br> int&nbsp;modeIndex)</code></td><td><div class="block">Set the mode with the given index on the given itemstack.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#setMode(net.minecraft.world.item.ItemStack,M)" class="member-name-link">setMode</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack,<br> <a href="#type-param-M" title="type parameter in IWithModeItem">M</a>&nbsp;mode)</code></td><td><div class="block">Set the given mode on the given itemstack.</div><br></td></tr>
@@ -53,7 +53,7 @@ Method Summary
   </thead>
   <tbody>
   <tr><td><code><a href="#type-param-M" title="type parameter in IWithModeItem">M</a></code></td><td><code><a href="#getMode(net.minecraft.world.item.ItemStack)" class="member-name-link">getMode</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack)</code></td><td><div class="block">Returns the current mode of the itemstack.</div><br></td></tr>
-  <tr><td><code>@NotNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;<a href="#type-param-M" title="type parameter in IWithModeItem">M</a>&gt;</code></td><td><code><a href="#getPossibleModes()" class="member-name-link">getPossibleModes</a>()</code></td><td><div class="block">Returns all possible modes this item can have.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a><wbr>&lt;<a href="#type-param-M" title="type parameter in IWithModeItem">M</a>&gt;</code></td><td><code><a href="#getPossibleModes()" class="member-name-link">getPossibleModes</a>()</code></td><td><div class="block">Returns all possible modes this item can have.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#setMode(net.minecraft.world.item.ItemStack,M)" class="member-name-link">setMode</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;stack,<br> <a href="#type-param-M" title="type parameter in IWithModeItem">M</a>&nbsp;mode)</code></td><td><div class="block">Set the given mode on the given itemstack.</div><br></td></tr>
   </tbody>
 </table>
@@ -107,8 +107,7 @@ update when the player closes the interface.
 :::tabs
 == getMode
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type"><a href="#type-param-M" title="type parameter in IWithModeItem">M</a></span>&nbsp;<span class="element-name">getMode</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
+<div class="member-signature"><span class="return-type"><a href="#type-param-M" title="type parameter in IWithModeItem">M</a></span>&nbsp;<span class="element-name">getMode</span><wbr><span class="parameters">(net.minecraft.world.item.ItemStack&nbsp;stack)</span></div>
 Returns the current mode of the itemstack.
 <dl class="notes">
 <dt>Parameters:</dt>
@@ -165,8 +164,7 @@ Set the mode with the given index on the given itemstack.
 :::tabs
 == getPossibleModes
 <div class="horizontal-scroll">
-<div class="member-signature"><span class="annotations">@NotNull
-</span><span class="return-type">@NotNull <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="#type-param-M" title="type parameter in IWithModeItem">M</a>&gt;</span>&nbsp;<span class="element-name">getPossibleModes</span>()</div>
+<div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="#type-param-M" title="type parameter in IWithModeItem">M</a>&gt;</span>&nbsp;<span class="element-name">getPossibleModes</span>()</div>
 Returns all possible modes this item can have.
 <dl class="notes">
 <dt>Returns:</dt>

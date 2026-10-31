@@ -11,7 +11,7 @@ _Package:_ [mod.chiselsandbits.api.util](index)
 
   
 
-  
+Translation keys for the mod's chisel modes, help text, UI labels, and operation feedback.  
 
 <dl class="notes"></dl>  
 
@@ -33,216 +33,216 @@ _Package:_ [mod.chiselsandbits.api.util](index)
     <tr><th>Enum Constant</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#AnyHelpBit" class="member-name-link">AnyHelpBit</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#BagPicksUpFirst" class="member-name-link">BagPicksUpFirst</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#BitBagEmpty" class="member-name-link">BitBagEmpty</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#BitBagEntry" class="member-name-link">BitBagEntry</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#BitBagMoreEntries" class="member-name-link">BitBagMoreEntries</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#BitOptionPlace" class="member-name-link">BitOptionPlace</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#BitOptionReplace" class="member-name-link">BitOptionReplace</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#CanNotRedo" class="member-name-link">CanNotRedo</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#CanNotUndo" class="member-name-link">CanNotUndo</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChangeTrackerOperations" class="member-name-link">ChangeTrackerOperations</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChangeTrackerOperationsButtonClearName" class="member-name-link">ChangeTrackerOperationsButtonClearName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChangeTrackerOperationsButtonRedoName" class="member-name-link">ChangeTrackerOperationsButtonRedoName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChangeTrackerOperationsButtonUndoName" class="member-name-link">ChangeTrackerOperationsButtonUndoName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselAttemptFailedAttemptTooHigh" class="member-name-link">ChiselAttemptFailedAttemptTooHigh</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselAttemptFailedAttemptTooLow" class="member-name-link">ChiselAttemptFailedAttemptTooLow</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselAttemptFailedChiselBroke" class="member-name-link">ChiselAttemptFailedChiselBroke</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselAttemptFailedNoBlock" class="member-name-link">ChiselAttemptFailedNoBlock</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselAttemptFailedNoPlaceableBitHeld" class="member-name-link">ChiselAttemptFailedNoPlaceableBitHeld</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselAttemptFailedNotEnoughBits" class="member-name-link">ChiselAttemptFailedNotEnoughBits</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselAttemptFailedNoValidStateFound" class="member-name-link">ChiselAttemptFailedNoValidStateFound</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselAttemptFailedTargetedBlockNotChiselable" class="member-name-link">ChiselAttemptFailedTargetedBlockNotChiselable</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselAttemptFailedWaitForCoolDown" class="member-name-link">ChiselAttemptFailedWaitForCoolDown</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselAttemptMissingChiselInOffhand" class="member-name-link">ChiselAttemptMissingChiselInOffhand</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiseledBlockItemName" class="member-name-link">ChiseledBlockItemName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeConnectedMaterial" class="member-name-link">ChiselModeConnectedMaterial</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeConnectedPlane" class="member-name-link">ChiselModeConnectedPlane</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeCubeFull" class="member-name-link">ChiselModeCubeFull</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeCubeLarge" class="member-name-link">ChiselModeCubeLarge</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeCubeMedium" class="member-name-link">ChiselModeCubeMedium</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeCubeSmall" class="member-name-link">ChiselModeCubeSmall</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeDrawnCube" class="member-name-link">ChiselModeDrawnCube</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeDrawnLine" class="member-name-link">ChiselModeDrawnLine</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeDrawnWallFat" class="member-name-link">ChiselModeDrawnWallFat</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeDrawnWallMedium" class="member-name-link">ChiselModeDrawnWallMedium</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeDrawnWallThin" class="member-name-link">ChiselModeDrawnWallThin</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeLine" class="member-name-link">ChiselModeLine</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeLine2" class="member-name-link">ChiselModeLine2</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeLine4" class="member-name-link">ChiselModeLine4</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeLine8" class="member-name-link">ChiselModeLine8</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineConnectedMaterial" class="member-name-link">ChiselModeMultiLineConnectedMaterial</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineConnectedPlane" class="member-name-link">ChiselModeMultiLineConnectedPlane</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineCubeFull" class="member-name-link">ChiselModeMultiLineCubeFull</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineCubeLarge" class="member-name-link">ChiselModeMultiLineCubeLarge</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineCubeMedium" class="member-name-link">ChiselModeMultiLineCubeMedium</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineCubeSmall" class="member-name-link">ChiselModeMultiLineCubeSmall</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineDrawnCube" class="member-name-link">ChiselModeMultiLineDrawnCube</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineDrawnLine" class="member-name-link">ChiselModeMultiLineDrawnLine</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineDrawnWallFat" class="member-name-link">ChiselModeMultiLineDrawnWallFat</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineDrawnWallMedium" class="member-name-link">ChiselModeMultiLineDrawnWallMedium</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineDrawnWallThin" class="member-name-link">ChiselModeMultiLineDrawnWallThin</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineLine" class="member-name-link">ChiselModeMultiLineLine</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineLine2" class="member-name-link">ChiselModeMultiLineLine2</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineLine4" class="member-name-link">ChiselModeMultiLineLine4</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineLine8" class="member-name-link">ChiselModeMultiLineLine8</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLinePlane" class="member-name-link">ChiselModeMultiLinePlane</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLinePlane2" class="member-name-link">ChiselModeMultiLinePlane2</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLinePlane4" class="member-name-link">ChiselModeMultiLinePlane4</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLinePlane8" class="member-name-link">ChiselModeMultiLinePlane8</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineReplace" class="member-name-link">ChiselModeMultiLineReplace</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineSameMaterial" class="member-name-link">ChiselModeMultiLineSameMaterial</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineSingle" class="member-name-link">ChiselModeMultiLineSingle</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineSnap2" class="member-name-link">ChiselModeMultiLineSnap2</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineSnap4" class="member-name-link">ChiselModeMultiLineSnap4</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineSnap8" class="member-name-link">ChiselModeMultiLineSnap8</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineSphereLarge" class="member-name-link">ChiselModeMultiLineSphereLarge</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineSphereMedium" class="member-name-link">ChiselModeMultiLineSphereMedium</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeMultiLineSphereSmall" class="member-name-link">ChiselModeMultiLineSphereSmall</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModePlane" class="member-name-link">ChiselModePlane</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModePlane2" class="member-name-link">ChiselModePlane2</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModePlane4" class="member-name-link">ChiselModePlane4</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModePlane8" class="member-name-link">ChiselModePlane8</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeReplace" class="member-name-link">ChiselModeReplace</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeSameMaterial" class="member-name-link">ChiselModeSameMaterial</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeSingle" class="member-name-link">ChiselModeSingle</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeSnap2" class="member-name-link">ChiselModeSnap2</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeSnap4" class="member-name-link">ChiselModeSnap4</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeSnap8" class="member-name-link">ChiselModeSnap8</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeSphereLarge" class="member-name-link">ChiselModeSphereLarge</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeSphereMedium" class="member-name-link">ChiselModeSphereMedium</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselModeSphereSmall" class="member-name-link">ChiselModeSphereSmall</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselsAndBitsName" class="member-name-link">ChiselsAndBitsName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselStationHelp" class="member-name-link">ChiselStationHelp</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselStationName" class="member-name-link">ChiselStationName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportCompatDeactivated" class="member-name-link">ChiselSupportCompatDeactivated</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportCustomCollision" class="member-name-link">ChiselSupportCustomCollision</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportFailureToAnalyze" class="member-name-link">ChiselSupportFailureToAnalyze</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportForcedSupported" class="member-name-link">ChiselSupportForcedSupported</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportForcedUnsupported" class="member-name-link">ChiselSupportForcedUnsupported</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportGenericFluidSupport" class="member-name-link">ChiselSupportGenericFluidSupport</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportGenericNotSupported" class="member-name-link">ChiselSupportGenericNotSupported</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportGenericSupported" class="member-name-link">ChiselSupportGenericSupported</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportHasBehaviour" class="member-name-link">ChiselSupportHasBehaviour</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportHasCustomDrops" class="member-name-link">ChiselSupportHasCustomDrops</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportIsAlreadyChiseled" class="member-name-link">ChiselSupportIsAlreadyChiseled</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportIsSlab" class="member-name-link">ChiselSupportIsSlab</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportLogicIgnored" class="member-name-link">ChiselSupportLogicIgnored</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportNoHardness" class="member-name-link">ChiselSupportNoHardness</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportNotFullBlock" class="member-name-link">ChiselSupportNotFullBlock</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportTagBlackListed" class="member-name-link">ChiselSupportTagBlackListed</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ChiselSupportTagWhitelisted" class="member-name-link">ChiselSupportTagWhitelisted</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#CommandFillCompleted" class="member-name-link">CommandFillCompleted</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#CommandFillingInProgress" class="member-name-link">CommandFillingInProgress</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#CommandGiveErrorBlockStateNotChiselable" class="member-name-link">CommandGiveErrorBlockStateNotChiselable</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#CommandProcessingBlockUpdates" class="member-name-link">CommandProcessingBlockUpdates</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#CommandToFill" class="member-name-link">CommandToFill</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ContainerBitBag" class="member-name-link">ContainerBitBag</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#Convert" class="member-name-link">Convert</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#CreativeTabBits" class="member-name-link">CreativeTabBits</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#CreativeTabClipboard" class="member-name-link">CreativeTabClipboard</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#DefaultChiseledBlockItemName" class="member-name-link">DefaultChiseledBlockItemName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#Empty" class="member-name-link">Empty</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#Filled" class="member-name-link">Filled</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#Filtered" class="member-name-link">Filtered</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#FilteredPickup" class="member-name-link">FilteredPickup</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpBagPickupMode" class="member-name-link">HelpBagPickupMode</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpBit" class="member-name-link">HelpBit</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpBitBag" class="member-name-link">HelpBitBag</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpBitSaw" class="member-name-link">HelpBitSaw</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpBitStorageEmpty" class="member-name-link">HelpBitStorageEmpty</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpBitStorageFilled" class="member-name-link">HelpBitStorageFilled</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpChisel" class="member-name-link">HelpChisel</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpChiseledBlock" class="member-name-link">HelpChiseledBlock</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpMagnifyingGlass" class="member-name-link">HelpMagnifyingGlass</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpQuill" class="member-name-link">HelpQuill</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpSealant" class="member-name-link">HelpSealant</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpSealedPattern" class="member-name-link">HelpSealedPattern</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpSimplePattern" class="member-name-link">HelpSimplePattern</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpTapeMeasure" class="member-name-link">HelpTapeMeasure</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpUnseal" class="member-name-link">HelpUnseal</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#HelpWrench" class="member-name-link">HelpWrench</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#leftAlt" class="member-name-link">leftAlt</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#leftShift" class="member-name-link">leftShift</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#LongChiselStationHelp" class="member-name-link">LongChiselStationHelp</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#LongHelpBit" class="member-name-link">LongHelpBit</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#LongHelpBitBag" class="member-name-link">LongHelpBitBag</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#LongHelpBitSaw" class="member-name-link">LongHelpBitSaw</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#LongHelpBitStorage" class="member-name-link">LongHelpBitStorage</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#LongHelpChisel" class="member-name-link">LongHelpChisel</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#LongHelpChiseledBlock" class="member-name-link">LongHelpChiseledBlock</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#LongHelpMagnifyingGlass" class="member-name-link">LongHelpMagnifyingGlass</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#LongHelpSealedPattern" class="member-name-link">LongHelpSealedPattern</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#LongHelpSimplePattern" class="member-name-link">LongHelpSimplePattern</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#LongHelpTapeMeasure" class="member-name-link">LongHelpTapeMeasure</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#LongHelpWrench" class="member-name-link">LongHelpWrench</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#LongModificationTableHelp" class="member-name-link">LongModificationTableHelp</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ModificationTableHelp" class="member-name-link">ModificationTableHelp</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#noBind" class="member-name-link">noBind</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#NonFiltered" class="member-name-link">NonFiltered</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#NonFilteredPickup" class="member-name-link">NonFilteredPickup</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#NonPreferredPickup" class="member-name-link">NonPreferredPickup</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternCuttingAcrossXAxis" class="member-name-link">PatternCuttingAcrossXAxis</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternCuttingAcrossYAxis" class="member-name-link">PatternCuttingAcrossYAxis</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternCuttingAcrossZAxis" class="member-name-link">PatternCuttingAcrossZAxis</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternExportFailedCouldNotWriteAtlas" class="member-name-link">PatternExportFailedCouldNotWriteAtlas</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternExportFailedCouldNotWriteChiselData" class="member-name-link">PatternExportFailedCouldNotWriteChiselData</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternExportFailedCouldNotWriteFile" class="member-name-link">PatternExportFailedCouldNotWriteFile</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternExportFailedGenericAtlasWriteFailure" class="member-name-link">PatternExportFailedGenericAtlasWriteFailure</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternImportFailedCompressedDataInWrongFormat" class="member-name-link">PatternImportFailedCompressedDataInWrongFormat</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternImportFailedCouldNotDecompressFile" class="member-name-link">PatternImportFailedCouldNotDecompressFile</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternImportFailedCouldNotReadFile" class="member-name-link">PatternImportFailedCouldNotReadFile</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternImportFailedFileNotFound" class="member-name-link">PatternImportFailedFileNotFound</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternImportFailedInvalidChiselData" class="member-name-link">PatternImportFailedInvalidChiselData</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternImportFailedUnknownVersion" class="member-name-link">PatternImportFailedUnknownVersion</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternImportInvokedFromTheServer" class="member-name-link">PatternImportInvokedFromTheServer</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternItemTooltipModeGrouped" class="member-name-link">PatternItemTooltipModeGrouped</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternItemTooltipModeSimple" class="member-name-link">PatternItemTooltipModeSimple</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternModificationAcrossXAxis" class="member-name-link">PatternModificationAcrossXAxis</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternModificationAcrossYAxis" class="member-name-link">PatternModificationAcrossYAxis</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternModificationAcrossZAxis" class="member-name-link">PatternModificationAcrossZAxis</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternModificationGroupMirror" class="member-name-link">PatternModificationGroupMirror</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternModificationGroupRotate" class="member-name-link">PatternModificationGroupRotate</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternPlacementCollision" class="member-name-link">PatternPlacementCollision</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternPlacementModeCarving" class="member-name-link">PatternPlacementModeCarving</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternPlacementModeImposement" class="member-name-link">PatternPlacementModeImposement</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternPlacementModeMerge" class="member-name-link">PatternPlacementModeMerge</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternPlacementModePlacement" class="member-name-link">PatternPlacementModePlacement</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternPlacementModeRemoval" class="member-name-link">PatternPlacementModeRemoval</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternPlacementNoBitSpace" class="member-name-link">PatternPlacementNoBitSpace</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternPlacementNotAChiseledBlock" class="member-name-link">PatternPlacementNotAChiseledBlock</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternPlacementNotAnAirBlock" class="member-name-link">PatternPlacementNotAnAirBlock</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternPlacementNotASolidBlock" class="member-name-link">PatternPlacementNotASolidBlock</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternPlacementNotASupportedBlock" class="member-name-link">PatternPlacementNotASupportedBlock</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PatternPlacementNotEnoughBits" class="member-name-link">PatternPlacementNotEnoughBits</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PlayerPicksUpFirst" class="member-name-link">PlayerPicksUpFirst</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PositivePatternAdditive" class="member-name-link">PositivePatternAdditive</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PositivePatternImpose" class="member-name-link">PositivePatternImpose</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PositivePatternPlacement" class="member-name-link">PositivePatternPlacement</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PositivePatternReplace" class="member-name-link">PositivePatternReplace</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#PreferredPickup" class="member-name-link">PreferredPickup</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ReallyTrash" class="member-name-link">ReallyTrash</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ReallyTrashItem" class="member-name-link">ReallyTrashItem</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#RedoSuccessful" class="member-name-link">RedoSuccessful</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#rightAlt" class="member-name-link">rightAlt</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#rightShift" class="member-name-link">rightShift</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ShiftDetails" class="member-name-link">ShiftDetails</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#Sort" class="member-name-link">Sort</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#TapeMeasureBit" class="member-name-link">TapeMeasureBit</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#TapeMeasureBlock" class="member-name-link">TapeMeasureBlock</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#TapeMeasureDistance" class="member-name-link">TapeMeasureDistance</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ToolMenuGroupSelectorName" class="member-name-link">ToolMenuGroupSelectorName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ToolMenuModeSelectorName" class="member-name-link">ToolMenuModeSelectorName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ToolMenuNextPageName" class="member-name-link">ToolMenuNextPageName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ToolMenuPageSelectorName" class="member-name-link">ToolMenuPageSelectorName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ToolMenuPreviousPageName" class="member-name-link">ToolMenuPreviousPageName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ToolMenuScreenName" class="member-name-link">ToolMenuScreenName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#ToolMenuSelectorName" class="member-name-link">ToolMenuSelectorName</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#Trash" class="member-name-link">Trash</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#TrashInvalidItem" class="member-name-link">TrashInvalidItem</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#TrashItem" class="member-name-link">TrashItem</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#UndoSuccessful" class="member-name-link">UndoSuccessful</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#AnyHelpBit" class="member-name-link">AnyHelpBit</a></code></td><td><div class="block">Translation key for help text for AnyHelpBit; resource id <code>mod.chiselsandbits.help.bit.any</code>.</div><br></td></tr>
+  <tr><td><code><a href="#BagPicksUpFirst" class="member-name-link">BagPicksUpFirst</a></code></td><td><div class="block">Translation key for localized text for bag picks up first; resource id <code>mod.chiselsandbits.bag-pick-up.bag-first</code>.</div><br></td></tr>
+  <tr><td><code><a href="#BitBagEmpty" class="member-name-link">BitBagEmpty</a></code></td><td><div class="block">Translation key for localized text for bit bag empty; resource id <code>mod.chiselsandbits.bit-bag-empty</code>.</div><br></td></tr>
+  <tr><td><code><a href="#BitBagEntry" class="member-name-link">BitBagEntry</a></code></td><td><div class="block">Translation key for localized text for bit bag entry; resource id <code>mod.chiselsandbits.bit-bag-entry</code>.</div><br></td></tr>
+  <tr><td><code><a href="#BitBagMoreEntries" class="member-name-link">BitBagMoreEntries</a></code></td><td><div class="block">Translation key for localized text for bit bag more entries; resource id <code>mod.chiselsandbits.bit-bag-more-entries</code>.</div><br></td></tr>
+  <tr><td><code><a href="#BitOptionPlace" class="member-name-link">BitOptionPlace</a></code></td><td><div class="block">Translation key for a bit placement option label; resource id <code>mod.chiselsandbits.bitoption.place</code>.</div><br></td></tr>
+  <tr><td><code><a href="#BitOptionReplace" class="member-name-link">BitOptionReplace</a></code></td><td><div class="block">Translation key for a bit placement option label; resource id <code>mod.chiselsandbits.bitoption.replace</code>.</div><br></td></tr>
+  <tr><td><code><a href="#CanNotRedo" class="member-name-link">CanNotRedo</a></code></td><td><div class="block">Translation key for change-tracking undo or redo feedback; resource id <code>mod.chiselsandbits.change-tracking.redo.failed</code>.</div><br></td></tr>
+  <tr><td><code><a href="#CanNotUndo" class="member-name-link">CanNotUndo</a></code></td><td><div class="block">Translation key for change-tracking undo or redo feedback; resource id <code>mod.chiselsandbits.change-tracking.undo.failed</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChangeTrackerOperations" class="member-name-link">ChangeTrackerOperations</a></code></td><td><div class="block">Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.change-tracker.operations.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChangeTrackerOperationsButtonClearName" class="member-name-link">ChangeTrackerOperationsButtonClearName</a></code></td><td><div class="block">Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.change-tracker.operations.clear.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChangeTrackerOperationsButtonRedoName" class="member-name-link">ChangeTrackerOperationsButtonRedoName</a></code></td><td><div class="block">Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.change-tracker.operations.redo.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChangeTrackerOperationsButtonUndoName" class="member-name-link">ChangeTrackerOperationsButtonUndoName</a></code></td><td><div class="block">Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.change-tracker.operations.undo.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselAttemptFailedAttemptTooHigh" class="member-name-link">ChiselAttemptFailedAttemptTooHigh</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.attempt-too-high</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselAttemptFailedAttemptTooLow" class="member-name-link">ChiselAttemptFailedAttemptTooLow</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.attempt-too-low</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselAttemptFailedChiselBroke" class="member-name-link">ChiselAttemptFailedChiselBroke</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.chisel-broke</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselAttemptFailedNoBlock" class="member-name-link">ChiselAttemptFailedNoBlock</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.no-block</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselAttemptFailedNoPlaceableBitHeld" class="member-name-link">ChiselAttemptFailedNoPlaceableBitHeld</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.no-placeable-bit-held</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselAttemptFailedNotEnoughBits" class="member-name-link">ChiselAttemptFailedNotEnoughBits</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.not-enough-bits</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselAttemptFailedNoValidStateFound" class="member-name-link">ChiselAttemptFailedNoValidStateFound</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.no-valid-state-found</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselAttemptFailedTargetedBlockNotChiselable" class="member-name-link">ChiselAttemptFailedTargetedBlockNotChiselable</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.targeted-block-not-chiselable</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselAttemptFailedWaitForCoolDown" class="member-name-link">ChiselAttemptFailedWaitForCoolDown</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.wait-for-cooldown</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselAttemptMissingChiselInOffhand" class="member-name-link">ChiselAttemptMissingChiselInOffhand</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.missing-chisel-in-offhand</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiseledBlockItemName" class="member-name-link">ChiseledBlockItemName</a></code></td><td><div class="block">Translation key for localized text for chiseled block item name; resource id <code>mod.chiselsandbits.chiseled-block-item.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeConnectedMaterial" class="member-name-link">ChiselModeConnectedMaterial</a></code></td><td><div class="block">Translation key for the connected material chisel mode; resource id <code>mod.chiselsandbits.chiselmode.connected_material</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeConnectedPlane" class="member-name-link">ChiselModeConnectedPlane</a></code></td><td><div class="block">Translation key for the connected plane chisel mode; resource id <code>mod.chiselsandbits.chiselmode.connected_plane</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeCubeFull" class="member-name-link">ChiselModeCubeFull</a></code></td><td><div class="block">Translation key for the cube full chisel mode; resource id <code>mod.chiselsandbits.chiselmode.cube_full</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeCubeLarge" class="member-name-link">ChiselModeCubeLarge</a></code></td><td><div class="block">Translation key for the cube large chisel mode; resource id <code>mod.chiselsandbits.chiselmode.cube_large</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeCubeMedium" class="member-name-link">ChiselModeCubeMedium</a></code></td><td><div class="block">Translation key for the cube medium chisel mode; resource id <code>mod.chiselsandbits.chiselmode.cube_medium</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeCubeSmall" class="member-name-link">ChiselModeCubeSmall</a></code></td><td><div class="block">Translation key for the cube small chisel mode; resource id <code>mod.chiselsandbits.chiselmode.cube_small</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeDrawnCube" class="member-name-link">ChiselModeDrawnCube</a></code></td><td><div class="block">Translation key for the drawn cube chisel mode; resource id <code>mod.chiselsandbits.chiselmode.drawn_cube</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeDrawnLine" class="member-name-link">ChiselModeDrawnLine</a></code></td><td><div class="block">Translation key for the drawn line chisel mode; resource id <code>mod.chiselsandbits.chiselmode.drawn_line</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeDrawnWallFat" class="member-name-link">ChiselModeDrawnWallFat</a></code></td><td><div class="block">Translation key for the drawn wall fat chisel mode; resource id <code>mod.chiselsandbits.chiselmode.drawn_wall_fat</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeDrawnWallMedium" class="member-name-link">ChiselModeDrawnWallMedium</a></code></td><td><div class="block">Translation key for the drawn wall medium chisel mode; resource id <code>mod.chiselsandbits.chiselmode.drawn_wall_medium</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeDrawnWallThin" class="member-name-link">ChiselModeDrawnWallThin</a></code></td><td><div class="block">Translation key for the drawn wall thin chisel mode; resource id <code>mod.chiselsandbits.chiselmode.drawn_wall_thin</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeLine" class="member-name-link">ChiselModeLine</a></code></td><td><div class="block">Translation key for the line chisel mode; resource id <code>mod.chiselsandbits.chiselmode.line</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeLine2" class="member-name-link">ChiselModeLine2</a></code></td><td><div class="block">Translation key for the line2 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.line2</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeLine4" class="member-name-link">ChiselModeLine4</a></code></td><td><div class="block">Translation key for the line4 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.line4</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeLine8" class="member-name-link">ChiselModeLine8</a></code></td><td><div class="block">Translation key for the line8 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.line8</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineConnectedMaterial" class="member-name-link">ChiselModeMultiLineConnectedMaterial</a></code></td><td><div class="block">Translation key for the multiline connected material chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.connected_material</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineConnectedPlane" class="member-name-link">ChiselModeMultiLineConnectedPlane</a></code></td><td><div class="block">Translation key for the multiline connected plane chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.connected_plane</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineCubeFull" class="member-name-link">ChiselModeMultiLineCubeFull</a></code></td><td><div class="block">Translation key for the multiline cube full chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.cube_full</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineCubeLarge" class="member-name-link">ChiselModeMultiLineCubeLarge</a></code></td><td><div class="block">Translation key for the multiline cube large chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.cube_large</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineCubeMedium" class="member-name-link">ChiselModeMultiLineCubeMedium</a></code></td><td><div class="block">Translation key for the multiline cube medium chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.cube_medium</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineCubeSmall" class="member-name-link">ChiselModeMultiLineCubeSmall</a></code></td><td><div class="block">Translation key for the multiline cube small chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.cube_small</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineDrawnCube" class="member-name-link">ChiselModeMultiLineDrawnCube</a></code></td><td><div class="block">Translation key for the multiline drawn cube chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.drawn_cube</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineDrawnLine" class="member-name-link">ChiselModeMultiLineDrawnLine</a></code></td><td><div class="block">Translation key for the multiline drawn line chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.drawn_line</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineDrawnWallFat" class="member-name-link">ChiselModeMultiLineDrawnWallFat</a></code></td><td><div class="block">Translation key for the multiline drawn wall fat chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.drawn_wall_fat</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineDrawnWallMedium" class="member-name-link">ChiselModeMultiLineDrawnWallMedium</a></code></td><td><div class="block">Translation key for the multiline drawn wall medium chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.drawn_wall_medium</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineDrawnWallThin" class="member-name-link">ChiselModeMultiLineDrawnWallThin</a></code></td><td><div class="block">Translation key for the multiline drawn wall thin chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.drawn_wall_thin</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineLine" class="member-name-link">ChiselModeMultiLineLine</a></code></td><td><div class="block">Translation key for the multiline line chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.line</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineLine2" class="member-name-link">ChiselModeMultiLineLine2</a></code></td><td><div class="block">Translation key for the multiline line2 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.line2</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineLine4" class="member-name-link">ChiselModeMultiLineLine4</a></code></td><td><div class="block">Translation key for the multiline line4 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.line4</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineLine8" class="member-name-link">ChiselModeMultiLineLine8</a></code></td><td><div class="block">Translation key for the multiline line8 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.line8</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLinePlane" class="member-name-link">ChiselModeMultiLinePlane</a></code></td><td><div class="block">Translation key for the multiline plane chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.plane</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLinePlane2" class="member-name-link">ChiselModeMultiLinePlane2</a></code></td><td><div class="block">Translation key for the multiline plane2 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.plane2</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLinePlane4" class="member-name-link">ChiselModeMultiLinePlane4</a></code></td><td><div class="block">Translation key for the multiline plane4 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.plane4</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLinePlane8" class="member-name-link">ChiselModeMultiLinePlane8</a></code></td><td><div class="block">Translation key for the multiline plane8 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.plane8</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineReplace" class="member-name-link">ChiselModeMultiLineReplace</a></code></td><td><div class="block">Translation key for the multiline replace chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.replace</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineSameMaterial" class="member-name-link">ChiselModeMultiLineSameMaterial</a></code></td><td><div class="block">Translation key for the multiline same material chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.same_material</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineSingle" class="member-name-link">ChiselModeMultiLineSingle</a></code></td><td><div class="block">Translation key for the multiline single chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.single</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineSnap2" class="member-name-link">ChiselModeMultiLineSnap2</a></code></td><td><div class="block">Translation key for the multiline snap2 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.snap2</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineSnap4" class="member-name-link">ChiselModeMultiLineSnap4</a></code></td><td><div class="block">Translation key for the multiline snap4 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.snap4</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineSnap8" class="member-name-link">ChiselModeMultiLineSnap8</a></code></td><td><div class="block">Translation key for the multiline snap8 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.snap8</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineSphereLarge" class="member-name-link">ChiselModeMultiLineSphereLarge</a></code></td><td><div class="block">Translation key for the multiline sphere large chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.sphere_large</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineSphereMedium" class="member-name-link">ChiselModeMultiLineSphereMedium</a></code></td><td><div class="block">Translation key for the multiline sphere medium chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.sphere_medium</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeMultiLineSphereSmall" class="member-name-link">ChiselModeMultiLineSphereSmall</a></code></td><td><div class="block">Translation key for the multiline sphere small chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.sphere_small</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModePlane" class="member-name-link">ChiselModePlane</a></code></td><td><div class="block">Translation key for the plane chisel mode; resource id <code>mod.chiselsandbits.chiselmode.plane</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModePlane2" class="member-name-link">ChiselModePlane2</a></code></td><td><div class="block">Translation key for the plane2 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.plane2</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModePlane4" class="member-name-link">ChiselModePlane4</a></code></td><td><div class="block">Translation key for the plane4 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.plane4</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModePlane8" class="member-name-link">ChiselModePlane8</a></code></td><td><div class="block">Translation key for the plane8 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.plane8</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeReplace" class="member-name-link">ChiselModeReplace</a></code></td><td><div class="block">Translation key for the replace chisel mode; resource id <code>mod.chiselsandbits.chiselmode.replace</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeSameMaterial" class="member-name-link">ChiselModeSameMaterial</a></code></td><td><div class="block">Translation key for the same material chisel mode; resource id <code>mod.chiselsandbits.chiselmode.same_material</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeSingle" class="member-name-link">ChiselModeSingle</a></code></td><td><div class="block">Translation key for the single chisel mode; resource id <code>mod.chiselsandbits.chiselmode.single</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeSnap2" class="member-name-link">ChiselModeSnap2</a></code></td><td><div class="block">Translation key for the snap2 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.snap2</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeSnap4" class="member-name-link">ChiselModeSnap4</a></code></td><td><div class="block">Translation key for the snap4 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.snap4</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeSnap8" class="member-name-link">ChiselModeSnap8</a></code></td><td><div class="block">Translation key for the snap8 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.snap8</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeSphereLarge" class="member-name-link">ChiselModeSphereLarge</a></code></td><td><div class="block">Translation key for the sphere large chisel mode; resource id <code>mod.chiselsandbits.chiselmode.sphere_large</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeSphereMedium" class="member-name-link">ChiselModeSphereMedium</a></code></td><td><div class="block">Translation key for the sphere medium chisel mode; resource id <code>mod.chiselsandbits.chiselmode.sphere_medium</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselModeSphereSmall" class="member-name-link">ChiselModeSphereSmall</a></code></td><td><div class="block">Translation key for the sphere small chisel mode; resource id <code>mod.chiselsandbits.chiselmode.sphere_small</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselsAndBitsName" class="member-name-link">ChiselsAndBitsName</a></code></td><td><div class="block">Translation key for localized text for chisels and bits name; resource id <code>mod.chiselsandbits.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselStationHelp" class="member-name-link">ChiselStationHelp</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.station.help</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselStationName" class="member-name-link">ChiselStationName</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.station.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportCompatDeactivated" class="member-name-link">ChiselSupportCompatDeactivated</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.compatibility.deactivated</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportCustomCollision" class="member-name-link">ChiselSupportCustomCollision</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.collision</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportFailureToAnalyze" class="member-name-link">ChiselSupportFailureToAnalyze</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.failure</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportForcedSupported" class="member-name-link">ChiselSupportForcedSupported</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.supported.forced</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportForcedUnsupported" class="member-name-link">ChiselSupportForcedUnsupported</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.forced</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportGenericFluidSupport" class="member-name-link">ChiselSupportGenericFluidSupport</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.supported.fluid</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportGenericNotSupported" class="member-name-link">ChiselSupportGenericNotSupported</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.generic</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportGenericSupported" class="member-name-link">ChiselSupportGenericSupported</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.supported.generic</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportHasBehaviour" class="member-name-link">ChiselSupportHasBehaviour</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.entity</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportHasCustomDrops" class="member-name-link">ChiselSupportHasCustomDrops</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.drops</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportIsAlreadyChiseled" class="member-name-link">ChiselSupportIsAlreadyChiseled</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.already-chiseled</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportIsSlab" class="member-name-link">ChiselSupportIsSlab</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.slab</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportLogicIgnored" class="member-name-link">ChiselSupportLogicIgnored</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.supported.code</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportNoHardness" class="member-name-link">ChiselSupportNoHardness</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.hardness</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportNotFullBlock" class="member-name-link">ChiselSupportNotFullBlock</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.shape</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportTagBlackListed" class="member-name-link">ChiselSupportTagBlackListed</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.tag</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ChiselSupportTagWhitelisted" class="member-name-link">ChiselSupportTagWhitelisted</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.supported.tag</code>.</div><br></td></tr>
+  <tr><td><code><a href="#CommandFillCompleted" class="member-name-link">CommandFillCompleted</a></code></td><td><div class="block">Translation key for feedback for a mod command; resource id <code>mod.chiselsandbits.command.fill.completed</code>.</div><br></td></tr>
+  <tr><td><code><a href="#CommandFillingInProgress" class="member-name-link">CommandFillingInProgress</a></code></td><td><div class="block">Translation key for feedback for a mod command; resource id <code>mod.chiselsandbits.command.fill.in-progress</code>.</div><br></td></tr>
+  <tr><td><code><a href="#CommandGiveErrorBlockStateNotChiselable" class="member-name-link">CommandGiveErrorBlockStateNotChiselable</a></code></td><td><div class="block">Translation key for feedback for a mod command; resource id <code>mod.chiselsandbits.command.give.blockstate.not-chiselable</code>.</div><br></td></tr>
+  <tr><td><code><a href="#CommandProcessingBlockUpdates" class="member-name-link">CommandProcessingBlockUpdates</a></code></td><td><div class="block">Translation key for feedback for a mod command; resource id <code>mod.chiselsandbits.command.fill.processing-block-updates</code>.</div><br></td></tr>
+  <tr><td><code><a href="#CommandToFill" class="member-name-link">CommandToFill</a></code></td><td><div class="block">Translation key for feedback for a mod command; resource id <code>mod.chiselsandbits.command.fill.to-fill</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ContainerBitBag" class="member-name-link">ContainerBitBag</a></code></td><td><div class="block">Translation key for a container title; resource id <code>mod.chiselsandbits.container.bit_bag</code>.</div><br></td></tr>
+  <tr><td><code><a href="#Convert" class="member-name-link">Convert</a></code></td><td><div class="block">Translation key for help text for Convert; resource id <code>mod.chiselsandbits.help.convert</code>.</div><br></td></tr>
+  <tr><td><code><a href="#CreativeTabBits" class="member-name-link">CreativeTabBits</a></code></td><td><div class="block">Translation key for a creative inventory tab title; resource id <code>mod.chiselsandbits.creative-tab.bits.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#CreativeTabClipboard" class="member-name-link">CreativeTabClipboard</a></code></td><td><div class="block">Translation key for a creative inventory tab title; resource id <code>mod.chiselsandbits.creative-tab.clipboard.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#DefaultChiseledBlockItemName" class="member-name-link">DefaultChiseledBlockItemName</a></code></td><td><div class="block">Translation key for localized text for default chiseled block item name; resource id <code>mod.chiselsandbits.default-chiseled-block-item.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#Empty" class="member-name-link">Empty</a></code></td><td><div class="block">Translation key for help text for Empty; resource id <code>mod.chiselsandbits.help.empty</code>.</div><br></td></tr>
+  <tr><td><code><a href="#Filled" class="member-name-link">Filled</a></code></td><td><div class="block">Translation key for help text for Filled; resource id <code>mod.chiselsandbits.help.filled</code>.</div><br></td></tr>
+  <tr><td><code><a href="#Filtered" class="member-name-link">Filtered</a></code></td><td><div class="block">Translation key for localized text for filtered; resource id <code>mod.chiselsandbits.bag-pick-up.filtered</code>.</div><br></td></tr>
+  <tr><td><code><a href="#FilteredPickup" class="member-name-link">FilteredPickup</a></code></td><td><div class="block">Translation key for help text for FilteredPickup; resource id <code>mod.chiselsandbits.help.filtered-pickup</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpBagPickupMode" class="member-name-link">HelpBagPickupMode</a></code></td><td><div class="block">Translation key for help text for BagPickupMode; resource id <code>mod.chiselsandbits.help.bit_bag.pickup-mode</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpBit" class="member-name-link">HelpBit</a></code></td><td><div class="block">Translation key for help text for Bit; resource id <code>mod.chiselsandbits.help.bit</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpBitBag" class="member-name-link">HelpBitBag</a></code></td><td><div class="block">Translation key for help text for BitBag; resource id <code>mod.chiselsandbits.help.bit_bag</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpBitSaw" class="member-name-link">HelpBitSaw</a></code></td><td><div class="block">Translation key for help text for BitSaw; resource id <code>mod.chiselsandbits.help.bitsaw</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpBitStorageEmpty" class="member-name-link">HelpBitStorageEmpty</a></code></td><td><div class="block">Translation key for help text for BitStorageEmpty; resource id <code>mod.chiselsandbits.help.bittank.empty</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpBitStorageFilled" class="member-name-link">HelpBitStorageFilled</a></code></td><td><div class="block">Translation key for help text for BitStorageFilled; resource id <code>mod.chiselsandbits.help.bittank.full</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpChisel" class="member-name-link">HelpChisel</a></code></td><td><div class="block">Translation key for help text for Chisel; resource id <code>mod.chiselsandbits.help.chisel</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpChiseledBlock" class="member-name-link">HelpChiseledBlock</a></code></td><td><div class="block">Translation key for help text for ChiseledBlock; resource id <code>mod.chiselsandbits.help.chiseled_block</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpMagnifyingGlass" class="member-name-link">HelpMagnifyingGlass</a></code></td><td><div class="block">Translation key for help text for MagnifyingGlass; resource id <code>mod.chiselsandbits.help.magnifying_glass</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpQuill" class="member-name-link">HelpQuill</a></code></td><td><div class="block">Translation key for help text for Quill; resource id <code>mod.chiselsandbits.help.quill</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpSealant" class="member-name-link">HelpSealant</a></code></td><td><div class="block">Translation key for help text for Sealant; resource id <code>mod.chiselsandbits.help.sealant</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpSealedPattern" class="member-name-link">HelpSealedPattern</a></code></td><td><div class="block">Translation key for help text for SealedPattern; resource id <code>mod.chiselsandbits.help.pattern.sealed</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpSimplePattern" class="member-name-link">HelpSimplePattern</a></code></td><td><div class="block">Translation key for help text for SimplePattern; resource id <code>mod.chiselsandbits.help.pattern.simple</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpTapeMeasure" class="member-name-link">HelpTapeMeasure</a></code></td><td><div class="block">Translation key for help text for TapeMeasure; resource id <code>mod.chiselsandbits.help.tape_measure</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpUnseal" class="member-name-link">HelpUnseal</a></code></td><td><div class="block">Translation key for help text for Unseal; resource id <code>mod.chiselsandbits.help.unseal</code>.</div><br></td></tr>
+  <tr><td><code><a href="#HelpWrench" class="member-name-link">HelpWrench</a></code></td><td><div class="block">Translation key for help text for Wrench; resource id <code>mod.chiselsandbits.help.wrench</code>.</div><br></td></tr>
+  <tr><td><code><a href="#leftAlt" class="member-name-link">leftAlt</a></code></td><td><div class="block">Translation key for help text for leftAlt; resource id <code>mod.chiselsandbits.help.leftalt</code>.</div><br></td></tr>
+  <tr><td><code><a href="#leftShift" class="member-name-link">leftShift</a></code></td><td><div class="block">Translation key for help text for leftShift; resource id <code>mod.chiselsandbits.help.leftshift</code>.</div><br></td></tr>
+  <tr><td><code><a href="#LongChiselStationHelp" class="member-name-link">LongChiselStationHelp</a></code></td><td><div class="block">Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.station.help.long</code>.</div><br></td></tr>
+  <tr><td><code><a href="#LongHelpBit" class="member-name-link">LongHelpBit</a></code></td><td><div class="block">Translation key for help text for Bit; resource id <code>mod.chiselsandbits.help.bit.long</code>.</div><br></td></tr>
+  <tr><td><code><a href="#LongHelpBitBag" class="member-name-link">LongHelpBitBag</a></code></td><td><div class="block">Translation key for help text for BitBag; resource id <code>mod.chiselsandbits.help.bit_bag.long</code>.</div><br></td></tr>
+  <tr><td><code><a href="#LongHelpBitSaw" class="member-name-link">LongHelpBitSaw</a></code></td><td><div class="block">Translation key for help text for BitSaw; resource id <code>mod.chiselsandbits.help.bitsaw.long</code>.</div><br></td></tr>
+  <tr><td><code><a href="#LongHelpBitStorage" class="member-name-link">LongHelpBitStorage</a></code></td><td><div class="block">Translation key for help text for BitStorage; resource id <code>mod.chiselsandbits.help.bittank.long</code>.</div><br></td></tr>
+  <tr><td><code><a href="#LongHelpChisel" class="member-name-link">LongHelpChisel</a></code></td><td><div class="block">Translation key for help text for Chisel; resource id <code>mod.chiselsandbits.help.chisel.long</code>.</div><br></td></tr>
+  <tr><td><code><a href="#LongHelpChiseledBlock" class="member-name-link">LongHelpChiseledBlock</a></code></td><td><div class="block">Translation key for help text for ChiseledBlock; resource id <code>mod.chiselsandbits.help.chiseled_block.long</code>.</div><br></td></tr>
+  <tr><td><code><a href="#LongHelpMagnifyingGlass" class="member-name-link">LongHelpMagnifyingGlass</a></code></td><td><div class="block">Translation key for help text for MagnifyingGlass; resource id <code>mod.chiselsandbits.help.magnifying_glass.long</code>.</div><br></td></tr>
+  <tr><td><code><a href="#LongHelpSealedPattern" class="member-name-link">LongHelpSealedPattern</a></code></td><td><div class="block">Translation key for help text for SealedPattern; resource id <code>mod.chiselsandbits.help.pattern.sealed.long</code>.</div><br></td></tr>
+  <tr><td><code><a href="#LongHelpSimplePattern" class="member-name-link">LongHelpSimplePattern</a></code></td><td><div class="block">Translation key for help text for SimplePattern; resource id <code>mod.chiselsandbits.help.pattern.simple.long</code>.</div><br></td></tr>
+  <tr><td><code><a href="#LongHelpTapeMeasure" class="member-name-link">LongHelpTapeMeasure</a></code></td><td><div class="block">Translation key for help text for TapeMeasure; resource id <code>mod.chiselsandbits.help.tape_measure.long</code>.</div><br></td></tr>
+  <tr><td><code><a href="#LongHelpWrench" class="member-name-link">LongHelpWrench</a></code></td><td><div class="block">Translation key for help text for Wrench; resource id <code>mod.chiselsandbits.help.wrench.long</code>.</div><br></td></tr>
+  <tr><td><code><a href="#LongModificationTableHelp" class="member-name-link">LongModificationTableHelp</a></code></td><td><div class="block">Translation key for localized text for long modification table help; resource id <code>mod.chiselsandbits.modification.table.help.long</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ModificationTableHelp" class="member-name-link">ModificationTableHelp</a></code></td><td><div class="block">Translation key for localized text for modification table help; resource id <code>mod.chiselsandbits.modification.table.help</code>.</div><br></td></tr>
+  <tr><td><code><a href="#noBind" class="member-name-link">noBind</a></code></td><td><div class="block">Translation key for help text for noBind; resource id <code>mod.chiselsandbits.help.nobind</code>.</div><br></td></tr>
+  <tr><td><code><a href="#NonFiltered" class="member-name-link">NonFiltered</a></code></td><td><div class="block">Translation key for localized text for non filtered; resource id <code>mod.chiselsandbits.bag-pick-up.non-filtered</code>.</div><br></td></tr>
+  <tr><td><code><a href="#NonFilteredPickup" class="member-name-link">NonFilteredPickup</a></code></td><td><div class="block">Translation key for help text for NonFilteredPickup; resource id <code>mod.chiselsandbits.help.non-filtered-pickup</code>.</div><br></td></tr>
+  <tr><td><code><a href="#NonPreferredPickup" class="member-name-link">NonPreferredPickup</a></code></td><td><div class="block">Translation key for help text for NonPreferredPickup; resource id <code>mod.chiselsandbits.help.non-preferred-pickup</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternCuttingAcrossXAxis" class="member-name-link">PatternCuttingAcrossXAxis</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.cutting.across.axis.x</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternCuttingAcrossYAxis" class="member-name-link">PatternCuttingAcrossYAxis</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.cutting.across.axis.y</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternCuttingAcrossZAxis" class="member-name-link">PatternCuttingAcrossZAxis</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.cutting.across.axis.z</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternExportFailedCouldNotWriteAtlas" class="member-name-link">PatternExportFailedCouldNotWriteAtlas</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.export.failed.could-not-write-atlas</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternExportFailedCouldNotWriteChiselData" class="member-name-link">PatternExportFailedCouldNotWriteChiselData</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.export.failed.could-not-write-chisel-data</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternExportFailedCouldNotWriteFile" class="member-name-link">PatternExportFailedCouldNotWriteFile</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.export.failed.could-not-write-file</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternExportFailedGenericAtlasWriteFailure" class="member-name-link">PatternExportFailedGenericAtlasWriteFailure</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.export.failed.generic-atlas-write-failure</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternImportFailedCompressedDataInWrongFormat" class="member-name-link">PatternImportFailedCompressedDataInWrongFormat</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.failed.compressed-data-in-wrong-format</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternImportFailedCouldNotDecompressFile" class="member-name-link">PatternImportFailedCouldNotDecompressFile</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.failed.could-not-decompress-file</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternImportFailedCouldNotReadFile" class="member-name-link">PatternImportFailedCouldNotReadFile</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.failed.could-not-read-file</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternImportFailedFileNotFound" class="member-name-link">PatternImportFailedFileNotFound</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.failed.file-not-found</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternImportFailedInvalidChiselData" class="member-name-link">PatternImportFailedInvalidChiselData</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.failed.invalid-chisel-data</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternImportFailedUnknownVersion" class="member-name-link">PatternImportFailedUnknownVersion</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.failed.unknown-version</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternImportInvokedFromTheServer" class="member-name-link">PatternImportInvokedFromTheServer</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.invoked-from-the-server</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternItemTooltipModeGrouped" class="member-name-link">PatternItemTooltipModeGrouped</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.item.tooltip.mode.grouped</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternItemTooltipModeSimple" class="member-name-link">PatternItemTooltipModeSimple</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.item.tooltip.mode.simple</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternModificationAcrossXAxis" class="member-name-link">PatternModificationAcrossXAxis</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.modification.across.axis.x</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternModificationAcrossYAxis" class="member-name-link">PatternModificationAcrossYAxis</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.modification.across.axis.y</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternModificationAcrossZAxis" class="member-name-link">PatternModificationAcrossZAxis</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.modification.across.axis.z</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternModificationGroupMirror" class="member-name-link">PatternModificationGroupMirror</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.modification.group.mirror</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternModificationGroupRotate" class="member-name-link">PatternModificationGroupRotate</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.modification.group.rotate</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternPlacementCollision" class="member-name-link">PatternPlacementCollision</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.collision</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternPlacementModeCarving" class="member-name-link">PatternPlacementModeCarving</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.mode.carving</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternPlacementModeImposement" class="member-name-link">PatternPlacementModeImposement</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.mode.imposement</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternPlacementModeMerge" class="member-name-link">PatternPlacementModeMerge</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.mode.merge</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternPlacementModePlacement" class="member-name-link">PatternPlacementModePlacement</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.mode.placement</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternPlacementModeRemoval" class="member-name-link">PatternPlacementModeRemoval</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.mode.removal</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternPlacementNoBitSpace" class="member-name-link">PatternPlacementNoBitSpace</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.no.bit.space</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternPlacementNotAChiseledBlock" class="member-name-link">PatternPlacementNotAChiseledBlock</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.not.a.chiseled.block</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternPlacementNotAnAirBlock" class="member-name-link">PatternPlacementNotAnAirBlock</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.not.a.air.block</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternPlacementNotASolidBlock" class="member-name-link">PatternPlacementNotASolidBlock</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.not.a.solid.block</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternPlacementNotASupportedBlock" class="member-name-link">PatternPlacementNotASupportedBlock</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.not.a.supported.block</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PatternPlacementNotEnoughBits" class="member-name-link">PatternPlacementNotEnoughBits</a></code></td><td><div class="block">Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.no.bits</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PlayerPicksUpFirst" class="member-name-link">PlayerPicksUpFirst</a></code></td><td><div class="block">Translation key for localized text for player picks up first; resource id <code>mod.chiselsandbits.bag-pick-up.player-first</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PositivePatternAdditive" class="member-name-link">PositivePatternAdditive</a></code></td><td><div class="block">Translation key for a positive-pattern mode label; resource id <code>mod.chiselsandbits.positivepatternmode.additive</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PositivePatternImpose" class="member-name-link">PositivePatternImpose</a></code></td><td><div class="block">Translation key for a positive-pattern mode label; resource id <code>mod.chiselsandbits.positivepatternmode.impose</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PositivePatternPlacement" class="member-name-link">PositivePatternPlacement</a></code></td><td><div class="block">Translation key for a positive-pattern mode label; resource id <code>mod.chiselsandbits.positivepatternmode.placement</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PositivePatternReplace" class="member-name-link">PositivePatternReplace</a></code></td><td><div class="block">Translation key for a positive-pattern mode label; resource id <code>mod.chiselsandbits.positivepatternmode.replace</code>.</div><br></td></tr>
+  <tr><td><code><a href="#PreferredPickup" class="member-name-link">PreferredPickup</a></code></td><td><div class="block">Translation key for help text for PreferredPickup; resource id <code>mod.chiselsandbits.help.preferred-pickup</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ReallyTrash" class="member-name-link">ReallyTrash</a></code></td><td><div class="block">Translation key for help text for ReallyTrash; resource id <code>mod.chiselsandbits.help.reallytrash</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ReallyTrashItem" class="member-name-link">ReallyTrashItem</a></code></td><td><div class="block">Translation key for help text for ReallyTrashItem; resource id <code>mod.chiselsandbits.help.reallytrash_blank</code>.</div><br></td></tr>
+  <tr><td><code><a href="#RedoSuccessful" class="member-name-link">RedoSuccessful</a></code></td><td><div class="block">Translation key for change-tracking undo or redo feedback; resource id <code>mod.chiselsandbits.change-tracking.redo.success</code>.</div><br></td></tr>
+  <tr><td><code><a href="#rightAlt" class="member-name-link">rightAlt</a></code></td><td><div class="block">Translation key for help text for rightAlt; resource id <code>mod.chiselsandbits.help.rightalt</code>.</div><br></td></tr>
+  <tr><td><code><a href="#rightShift" class="member-name-link">rightShift</a></code></td><td><div class="block">Translation key for help text for rightShift; resource id <code>mod.chiselsandbits.help.rightshift</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ShiftDetails" class="member-name-link">ShiftDetails</a></code></td><td><div class="block">Translation key for help text for ShiftDetails; resource id <code>mod.chiselsandbits.help.shiftdetails</code>.</div><br></td></tr>
+  <tr><td><code><a href="#Sort" class="member-name-link">Sort</a></code></td><td><div class="block">Translation key for help text for Sort; resource id <code>mod.chiselsandbits.help.sort</code>.</div><br></td></tr>
+  <tr><td><code><a href="#TapeMeasureBit" class="member-name-link">TapeMeasureBit</a></code></td><td><div class="block">Translation key for a tape-measure label; resource id <code>mod.chiselsandbits.tapemeasure.bit</code>.</div><br></td></tr>
+  <tr><td><code><a href="#TapeMeasureBlock" class="member-name-link">TapeMeasureBlock</a></code></td><td><div class="block">Translation key for a tape-measure label; resource id <code>mod.chiselsandbits.tapemeasure.block</code>.</div><br></td></tr>
+  <tr><td><code><a href="#TapeMeasureDistance" class="member-name-link">TapeMeasureDistance</a></code></td><td><div class="block">Translation key for a tape-measure label; resource id <code>mod.chiselsandbits.tapemeasure.distance</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ToolMenuGroupSelectorName" class="member-name-link">ToolMenuGroupSelectorName</a></code></td><td><div class="block">Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.tool-menu.group-selector.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ToolMenuModeSelectorName" class="member-name-link">ToolMenuModeSelectorName</a></code></td><td><div class="block">Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.tool-menu.mode-selector.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ToolMenuNextPageName" class="member-name-link">ToolMenuNextPageName</a></code></td><td><div class="block">Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.tool-menu.page-selector.next.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ToolMenuPageSelectorName" class="member-name-link">ToolMenuPageSelectorName</a></code></td><td><div class="block">Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.tool-menu.page-selector.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ToolMenuPreviousPageName" class="member-name-link">ToolMenuPreviousPageName</a></code></td><td><div class="block">Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.tool-menu.page-selector.previous.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ToolMenuScreenName" class="member-name-link">ToolMenuScreenName</a></code></td><td><div class="block">Translation key for a user-interface screen title; resource id <code>mod.chiselsandbits.ui-screens.tool-menu.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#ToolMenuSelectorName" class="member-name-link">ToolMenuSelectorName</a></code></td><td><div class="block">Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.tool-menu.selector.name</code>.</div><br></td></tr>
+  <tr><td><code><a href="#Trash" class="member-name-link">Trash</a></code></td><td><div class="block">Translation key for help text for Trash; resource id <code>mod.chiselsandbits.help.trash</code>.</div><br></td></tr>
+  <tr><td><code><a href="#TrashInvalidItem" class="member-name-link">TrashInvalidItem</a></code></td><td><div class="block">Translation key for help text for TrashInvalidItem; resource id <code>mod.chiselsandbits.help.trash.invalid</code>.</div><br></td></tr>
+  <tr><td><code><a href="#TrashItem" class="member-name-link">TrashItem</a></code></td><td><div class="block">Translation key for help text for TrashItem; resource id <code>mod.chiselsandbits.help.trashitem</code>.</div><br></td></tr>
+  <tr><td><code><a href="#UndoSuccessful" class="member-name-link">UndoSuccessful</a></code></td><td><div class="block">Translation key for change-tracking undo or redo feedback; resource id <code>mod.chiselsandbits.change-tracking.undo.success</code>.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -258,10 +258,10 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText(java.lang.Object...)" class="member-name-link">getText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.MutableComponent&gt;</code></td><td><code><a href="#getTextLines(java.lang.Object...)" class="member-name-link">getTextLines</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td><div class="block">Creates a translatable component for this key without format arguments.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText(java.lang.Object...)" class="member-name-link">getText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td><div class="block">Creates a translatable component for this key using the supplied format arguments.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.MutableComponent&gt;</code></td><td><code><a href="#getTextLines(java.lang.Object...)" class="member-name-link">getTextLines</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td><div class="block">Resolves this translation and returns one literal component for each newline-separated line.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns this key as its fully qualified translation identifier.</div><br></td></tr>
   <tr><td><code>static <a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></code></td><td><code><a href="#valueOf(java.lang.String)" class="member-name-link">valueOf</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Returns the enum constant of this class with the specified name.</div><br></td></tr>
   <tr><td><code>static <a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>[]</code></td><td><code><a href="#values()" class="member-name-link">values</a>()</code></td><td><div class="block">Returns an array containing the constants of this enum class, in<br>the order they are declared.</div><br></td></tr>
   </tbody>
@@ -282,10 +282,10 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText(java.lang.Object...)" class="member-name-link">getText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.MutableComponent&gt;</code></td><td><code><a href="#getTextLines(java.lang.Object...)" class="member-name-link">getTextLines</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td><div class="block">Creates a translatable component for this key without format arguments.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText(java.lang.Object...)" class="member-name-link">getText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td><div class="block">Creates a translatable component for this key using the supplied format arguments.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.MutableComponent&gt;</code></td><td><code><a href="#getTextLines(java.lang.Object...)" class="member-name-link">getTextLines</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td><div class="block">Resolves this translation and returns one literal component for each newline-separated line.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns this key as its fully qualified translation identifier.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -294,10 +294,10 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td>&nbsp;</td></tr>
-  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText(java.lang.Object...)" class="member-name-link">getText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.MutableComponent&gt;</code></td><td><code><a href="#getTextLines(java.lang.Object...)" class="member-name-link">getTextLines</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText()" class="member-name-link">getText</a>()</code></td><td><div class="block">Creates a translatable component for this key without format arguments.</div><br></td></tr>
+  <tr><td><code>net.minecraft.network.chat.MutableComponent</code></td><td><code><a href="#getText(java.lang.Object...)" class="member-name-link">getText</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td><div class="block">Creates a translatable component for this key using the supplied format arguments.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a><wbr>&lt;net.minecraft.network.chat.MutableComponent&gt;</code></td><td><code><a href="#getTextLines(java.lang.Object...)" class="member-name-link">getTextLines</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</code></td><td><div class="block">Resolves this translation and returns one literal component for each newline-separated line.</div><br></td></tr>
+  <tr><td><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns this key as its fully qualified translation identifier.</div><br></td></tr>
   <tr><td><code>static <a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></code></td><td><code><a href="#valueOf(java.lang.String)" class="member-name-link">valueOf</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></td><td><div class="block">Returns the enum constant of this class with the specified name.</div><br></td></tr>
   <tr><td><code>static <a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>[]</code></td><td><code><a href="#values()" class="member-name-link">values</a>()</code></td><td><div class="block">Returns an array containing the constants of this enum class, in<br>the order they are declared.</div><br></td></tr>
   </tbody>
@@ -323,6 +323,7 @@ Method Summary
 == ChiselModeSingle
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSingle</span></div>
+Translation key for the single chisel mode; resource id <code>mod.chiselsandbits.chiselmode.single</code>.
 </div>
 :::
 
@@ -335,6 +336,7 @@ Method Summary
 == ChiselModeSnap2
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSnap2</span></div>
+Translation key for the snap2 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.snap2</code>.
 </div>
 :::
 
@@ -347,6 +349,7 @@ Method Summary
 == ChiselModeSnap4
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSnap4</span></div>
+Translation key for the snap4 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.snap4</code>.
 </div>
 :::
 
@@ -359,6 +362,7 @@ Method Summary
 == ChiselModeSnap8
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSnap8</span></div>
+Translation key for the snap8 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.snap8</code>.
 </div>
 :::
 
@@ -371,6 +375,7 @@ Method Summary
 == ChiselModeLine
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeLine</span></div>
+Translation key for the line chisel mode; resource id <code>mod.chiselsandbits.chiselmode.line</code>.
 </div>
 :::
 
@@ -383,6 +388,7 @@ Method Summary
 == ChiselModeLine2
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeLine2</span></div>
+Translation key for the line2 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.line2</code>.
 </div>
 :::
 
@@ -395,6 +401,7 @@ Method Summary
 == ChiselModeLine4
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeLine4</span></div>
+Translation key for the line4 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.line4</code>.
 </div>
 :::
 
@@ -407,6 +414,7 @@ Method Summary
 == ChiselModeLine8
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeLine8</span></div>
+Translation key for the line8 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.line8</code>.
 </div>
 :::
 
@@ -419,6 +427,7 @@ Method Summary
 == ChiselModePlane
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModePlane</span></div>
+Translation key for the plane chisel mode; resource id <code>mod.chiselsandbits.chiselmode.plane</code>.
 </div>
 :::
 
@@ -431,6 +440,7 @@ Method Summary
 == ChiselModePlane2
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModePlane2</span></div>
+Translation key for the plane2 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.plane2</code>.
 </div>
 :::
 
@@ -443,6 +453,7 @@ Method Summary
 == ChiselModePlane4
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModePlane4</span></div>
+Translation key for the plane4 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.plane4</code>.
 </div>
 :::
 
@@ -455,6 +466,7 @@ Method Summary
 == ChiselModePlane8
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModePlane8</span></div>
+Translation key for the plane8 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.plane8</code>.
 </div>
 :::
 
@@ -467,6 +479,7 @@ Method Summary
 == ChiselModeConnectedPlane
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeConnectedPlane</span></div>
+Translation key for the connected plane chisel mode; resource id <code>mod.chiselsandbits.chiselmode.connected_plane</code>.
 </div>
 :::
 
@@ -479,6 +492,7 @@ Method Summary
 == ChiselModeConnectedMaterial
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeConnectedMaterial</span></div>
+Translation key for the connected material chisel mode; resource id <code>mod.chiselsandbits.chiselmode.connected_material</code>.
 </div>
 :::
 
@@ -491,6 +505,7 @@ Method Summary
 == ChiselModeCubeSmall
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeCubeSmall</span></div>
+Translation key for the cube small chisel mode; resource id <code>mod.chiselsandbits.chiselmode.cube_small</code>.
 </div>
 :::
 
@@ -503,6 +518,7 @@ Method Summary
 == ChiselModeCubeMedium
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeCubeMedium</span></div>
+Translation key for the cube medium chisel mode; resource id <code>mod.chiselsandbits.chiselmode.cube_medium</code>.
 </div>
 :::
 
@@ -515,6 +531,7 @@ Method Summary
 == ChiselModeCubeLarge
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeCubeLarge</span></div>
+Translation key for the cube large chisel mode; resource id <code>mod.chiselsandbits.chiselmode.cube_large</code>.
 </div>
 :::
 
@@ -527,6 +544,7 @@ Method Summary
 == ChiselModeCubeFull
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeCubeFull</span></div>
+Translation key for the cube full chisel mode; resource id <code>mod.chiselsandbits.chiselmode.cube_full</code>.
 </div>
 :::
 
@@ -539,6 +557,7 @@ Method Summary
 == ChiselModeSameMaterial
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSameMaterial</span></div>
+Translation key for the same material chisel mode; resource id <code>mod.chiselsandbits.chiselmode.same_material</code>.
 </div>
 :::
 
@@ -551,6 +570,7 @@ Method Summary
 == ChiselModeDrawnCube
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeDrawnCube</span></div>
+Translation key for the drawn cube chisel mode; resource id <code>mod.chiselsandbits.chiselmode.drawn_cube</code>.
 </div>
 :::
 
@@ -563,6 +583,7 @@ Method Summary
 == ChiselModeDrawnLine
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeDrawnLine</span></div>
+Translation key for the drawn line chisel mode; resource id <code>mod.chiselsandbits.chiselmode.drawn_line</code>.
 </div>
 :::
 
@@ -575,6 +596,7 @@ Method Summary
 == ChiselModeDrawnWallThin
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeDrawnWallThin</span></div>
+Translation key for the drawn wall thin chisel mode; resource id <code>mod.chiselsandbits.chiselmode.drawn_wall_thin</code>.
 </div>
 :::
 
@@ -587,6 +609,7 @@ Method Summary
 == ChiselModeDrawnWallMedium
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeDrawnWallMedium</span></div>
+Translation key for the drawn wall medium chisel mode; resource id <code>mod.chiselsandbits.chiselmode.drawn_wall_medium</code>.
 </div>
 :::
 
@@ -599,6 +622,7 @@ Method Summary
 == ChiselModeDrawnWallFat
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeDrawnWallFat</span></div>
+Translation key for the drawn wall fat chisel mode; resource id <code>mod.chiselsandbits.chiselmode.drawn_wall_fat</code>.
 </div>
 :::
 
@@ -611,6 +635,7 @@ Method Summary
 == ChiselModeReplace
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeReplace</span></div>
+Translation key for the replace chisel mode; resource id <code>mod.chiselsandbits.chiselmode.replace</code>.
 </div>
 :::
 
@@ -623,6 +648,7 @@ Method Summary
 == ChiselModeSphereSmall
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSphereSmall</span></div>
+Translation key for the sphere small chisel mode; resource id <code>mod.chiselsandbits.chiselmode.sphere_small</code>.
 </div>
 :::
 
@@ -635,6 +661,7 @@ Method Summary
 == ChiselModeSphereMedium
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSphereMedium</span></div>
+Translation key for the sphere medium chisel mode; resource id <code>mod.chiselsandbits.chiselmode.sphere_medium</code>.
 </div>
 :::
 
@@ -647,6 +674,7 @@ Method Summary
 == ChiselModeSphereLarge
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeSphereLarge</span></div>
+Translation key for the sphere large chisel mode; resource id <code>mod.chiselsandbits.chiselmode.sphere_large</code>.
 </div>
 :::
 
@@ -659,6 +687,7 @@ Method Summary
 == ChiselModeMultiLineSingle
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSingle</span></div>
+Translation key for the multiline single chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.single</code>.
 </div>
 :::
 
@@ -671,6 +700,7 @@ Method Summary
 == ChiselModeMultiLineSnap2
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSnap2</span></div>
+Translation key for the multiline snap2 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.snap2</code>.
 </div>
 :::
 
@@ -683,6 +713,7 @@ Method Summary
 == ChiselModeMultiLineSnap4
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSnap4</span></div>
+Translation key for the multiline snap4 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.snap4</code>.
 </div>
 :::
 
@@ -695,6 +726,7 @@ Method Summary
 == ChiselModeMultiLineSnap8
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSnap8</span></div>
+Translation key for the multiline snap8 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.snap8</code>.
 </div>
 :::
 
@@ -707,6 +739,7 @@ Method Summary
 == ChiselModeMultiLineLine
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineLine</span></div>
+Translation key for the multiline line chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.line</code>.
 </div>
 :::
 
@@ -719,6 +752,7 @@ Method Summary
 == ChiselModeMultiLineLine2
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineLine2</span></div>
+Translation key for the multiline line2 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.line2</code>.
 </div>
 :::
 
@@ -731,6 +765,7 @@ Method Summary
 == ChiselModeMultiLineLine4
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineLine4</span></div>
+Translation key for the multiline line4 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.line4</code>.
 </div>
 :::
 
@@ -743,6 +778,7 @@ Method Summary
 == ChiselModeMultiLineLine8
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineLine8</span></div>
+Translation key for the multiline line8 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.line8</code>.
 </div>
 :::
 
@@ -755,6 +791,7 @@ Method Summary
 == ChiselModeMultiLinePlane
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLinePlane</span></div>
+Translation key for the multiline plane chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.plane</code>.
 </div>
 :::
 
@@ -767,6 +804,7 @@ Method Summary
 == ChiselModeMultiLinePlane2
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLinePlane2</span></div>
+Translation key for the multiline plane2 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.plane2</code>.
 </div>
 :::
 
@@ -779,6 +817,7 @@ Method Summary
 == ChiselModeMultiLinePlane4
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLinePlane4</span></div>
+Translation key for the multiline plane4 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.plane4</code>.
 </div>
 :::
 
@@ -791,6 +830,7 @@ Method Summary
 == ChiselModeMultiLinePlane8
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLinePlane8</span></div>
+Translation key for the multiline plane8 chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.plane8</code>.
 </div>
 :::
 
@@ -803,6 +843,7 @@ Method Summary
 == ChiselModeMultiLineConnectedPlane
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineConnectedPlane</span></div>
+Translation key for the multiline connected plane chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.connected_plane</code>.
 </div>
 :::
 
@@ -815,6 +856,7 @@ Method Summary
 == ChiselModeMultiLineConnectedMaterial
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineConnectedMaterial</span></div>
+Translation key for the multiline connected material chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.connected_material</code>.
 </div>
 :::
 
@@ -827,6 +869,7 @@ Method Summary
 == ChiselModeMultiLineCubeSmall
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineCubeSmall</span></div>
+Translation key for the multiline cube small chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.cube_small</code>.
 </div>
 :::
 
@@ -839,6 +882,7 @@ Method Summary
 == ChiselModeMultiLineCubeMedium
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineCubeMedium</span></div>
+Translation key for the multiline cube medium chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.cube_medium</code>.
 </div>
 :::
 
@@ -851,6 +895,7 @@ Method Summary
 == ChiselModeMultiLineCubeLarge
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineCubeLarge</span></div>
+Translation key for the multiline cube large chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.cube_large</code>.
 </div>
 :::
 
@@ -863,6 +908,7 @@ Method Summary
 == ChiselModeMultiLineCubeFull
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineCubeFull</span></div>
+Translation key for the multiline cube full chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.cube_full</code>.
 </div>
 :::
 
@@ -875,6 +921,7 @@ Method Summary
 == ChiselModeMultiLineSameMaterial
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSameMaterial</span></div>
+Translation key for the multiline same material chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.same_material</code>.
 </div>
 :::
 
@@ -887,6 +934,7 @@ Method Summary
 == ChiselModeMultiLineDrawnCube
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineDrawnCube</span></div>
+Translation key for the multiline drawn cube chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.drawn_cube</code>.
 </div>
 :::
 
@@ -899,6 +947,7 @@ Method Summary
 == ChiselModeMultiLineDrawnLine
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineDrawnLine</span></div>
+Translation key for the multiline drawn line chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.drawn_line</code>.
 </div>
 :::
 
@@ -911,6 +960,7 @@ Method Summary
 == ChiselModeMultiLineDrawnWallThin
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineDrawnWallThin</span></div>
+Translation key for the multiline drawn wall thin chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.drawn_wall_thin</code>.
 </div>
 :::
 
@@ -923,6 +973,7 @@ Method Summary
 == ChiselModeMultiLineDrawnWallMedium
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineDrawnWallMedium</span></div>
+Translation key for the multiline drawn wall medium chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.drawn_wall_medium</code>.
 </div>
 :::
 
@@ -935,6 +986,7 @@ Method Summary
 == ChiselModeMultiLineDrawnWallFat
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineDrawnWallFat</span></div>
+Translation key for the multiline drawn wall fat chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.drawn_wall_fat</code>.
 </div>
 :::
 
@@ -947,6 +999,7 @@ Method Summary
 == ChiselModeMultiLineReplace
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineReplace</span></div>
+Translation key for the multiline replace chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.replace</code>.
 </div>
 :::
 
@@ -959,6 +1012,7 @@ Method Summary
 == ChiselModeMultiLineSphereSmall
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSphereSmall</span></div>
+Translation key for the multiline sphere small chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.sphere_small</code>.
 </div>
 :::
 
@@ -971,6 +1025,7 @@ Method Summary
 == ChiselModeMultiLineSphereMedium
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSphereMedium</span></div>
+Translation key for the multiline sphere medium chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.sphere_medium</code>.
 </div>
 :::
 
@@ -983,6 +1038,7 @@ Method Summary
 == ChiselModeMultiLineSphereLarge
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselModeMultiLineSphereLarge</span></div>
+Translation key for the multiline sphere large chisel mode; resource id <code>mod.chiselsandbits.chiselmode.multiline.sphere_large</code>.
 </div>
 :::
 
@@ -995,6 +1051,7 @@ Method Summary
 == ShiftDetails
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ShiftDetails</span></div>
+Translation key for help text for ShiftDetails; resource id <code>mod.chiselsandbits.help.shiftdetails</code>.
 </div>
 :::
 
@@ -1007,6 +1064,7 @@ Method Summary
 == Empty
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">Empty</span></div>
+Translation key for help text for Empty; resource id <code>mod.chiselsandbits.help.empty</code>.
 </div>
 :::
 
@@ -1019,6 +1077,7 @@ Method Summary
 == Filled
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">Filled</span></div>
+Translation key for help text for Filled; resource id <code>mod.chiselsandbits.help.filled</code>.
 </div>
 :::
 
@@ -1031,6 +1090,7 @@ Method Summary
 == HelpChiseledBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpChiseledBlock</span></div>
+Translation key for help text for ChiseledBlock; resource id <code>mod.chiselsandbits.help.chiseled_block</code>.
 </div>
 :::
 
@@ -1043,6 +1103,7 @@ Method Summary
 == LongHelpChiseledBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpChiseledBlock</span></div>
+Translation key for help text for ChiseledBlock; resource id <code>mod.chiselsandbits.help.chiseled_block.long</code>.
 </div>
 :::
 
@@ -1055,6 +1116,7 @@ Method Summary
 == HelpBitSaw
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpBitSaw</span></div>
+Translation key for help text for BitSaw; resource id <code>mod.chiselsandbits.help.bitsaw</code>.
 </div>
 :::
 
@@ -1067,6 +1129,7 @@ Method Summary
 == LongHelpBitSaw
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpBitSaw</span></div>
+Translation key for help text for BitSaw; resource id <code>mod.chiselsandbits.help.bitsaw.long</code>.
 </div>
 :::
 
@@ -1079,6 +1142,7 @@ Method Summary
 == HelpBitBag
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpBitBag</span></div>
+Translation key for help text for BitBag; resource id <code>mod.chiselsandbits.help.bit_bag</code>.
 </div>
 :::
 
@@ -1091,6 +1155,7 @@ Method Summary
 == LongHelpBitBag
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpBitBag</span></div>
+Translation key for help text for BitBag; resource id <code>mod.chiselsandbits.help.bit_bag.long</code>.
 </div>
 :::
 
@@ -1103,6 +1168,7 @@ Method Summary
 == ContainerBitBag
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ContainerBitBag</span></div>
+Translation key for a container title; resource id <code>mod.chiselsandbits.container.bit_bag</code>.
 </div>
 :::
 
@@ -1115,6 +1181,7 @@ Method Summary
 == HelpWrench
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpWrench</span></div>
+Translation key for help text for Wrench; resource id <code>mod.chiselsandbits.help.wrench</code>.
 </div>
 :::
 
@@ -1127,6 +1194,7 @@ Method Summary
 == LongHelpWrench
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpWrench</span></div>
+Translation key for help text for Wrench; resource id <code>mod.chiselsandbits.help.wrench.long</code>.
 </div>
 :::
 
@@ -1139,6 +1207,7 @@ Method Summary
 == HelpBit
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpBit</span></div>
+Translation key for help text for Bit; resource id <code>mod.chiselsandbits.help.bit</code>.
 </div>
 :::
 
@@ -1151,6 +1220,7 @@ Method Summary
 == LongHelpBit
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpBit</span></div>
+Translation key for help text for Bit; resource id <code>mod.chiselsandbits.help.bit.long</code>.
 </div>
 :::
 
@@ -1163,6 +1233,7 @@ Method Summary
 == AnyHelpBit
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">AnyHelpBit</span></div>
+Translation key for help text for AnyHelpBit; resource id <code>mod.chiselsandbits.help.bit.any</code>.
 </div>
 :::
 
@@ -1175,6 +1246,7 @@ Method Summary
 == HelpBitStorageFilled
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpBitStorageFilled</span></div>
+Translation key for help text for BitStorageFilled; resource id <code>mod.chiselsandbits.help.bittank.full</code>.
 </div>
 :::
 
@@ -1187,6 +1259,7 @@ Method Summary
 == HelpBitStorageEmpty
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpBitStorageEmpty</span></div>
+Translation key for help text for BitStorageEmpty; resource id <code>mod.chiselsandbits.help.bittank.empty</code>.
 </div>
 :::
 
@@ -1199,6 +1272,7 @@ Method Summary
 == LongHelpBitStorage
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpBitStorage</span></div>
+Translation key for help text for BitStorage; resource id <code>mod.chiselsandbits.help.bittank.long</code>.
 </div>
 :::
 
@@ -1211,6 +1285,7 @@ Method Summary
 == HelpSimplePattern
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpSimplePattern</span></div>
+Translation key for help text for SimplePattern; resource id <code>mod.chiselsandbits.help.pattern.simple</code>.
 </div>
 :::
 
@@ -1223,6 +1298,7 @@ Method Summary
 == LongHelpSimplePattern
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpSimplePattern</span></div>
+Translation key for help text for SimplePattern; resource id <code>mod.chiselsandbits.help.pattern.simple.long</code>.
 </div>
 :::
 
@@ -1235,6 +1311,7 @@ Method Summary
 == HelpSealedPattern
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpSealedPattern</span></div>
+Translation key for help text for SealedPattern; resource id <code>mod.chiselsandbits.help.pattern.sealed</code>.
 </div>
 :::
 
@@ -1247,6 +1324,7 @@ Method Summary
 == LongHelpSealedPattern
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpSealedPattern</span></div>
+Translation key for help text for SealedPattern; resource id <code>mod.chiselsandbits.help.pattern.sealed.long</code>.
 </div>
 :::
 
@@ -1259,6 +1337,7 @@ Method Summary
 == HelpChisel
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpChisel</span></div>
+Translation key for help text for Chisel; resource id <code>mod.chiselsandbits.help.chisel</code>.
 </div>
 :::
 
@@ -1271,6 +1350,7 @@ Method Summary
 == LongHelpChisel
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpChisel</span></div>
+Translation key for help text for Chisel; resource id <code>mod.chiselsandbits.help.chisel.long</code>.
 </div>
 :::
 
@@ -1283,6 +1363,7 @@ Method Summary
 == noBind
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">noBind</span></div>
+Translation key for help text for noBind; resource id <code>mod.chiselsandbits.help.nobind</code>.
 </div>
 :::
 
@@ -1295,6 +1376,7 @@ Method Summary
 == leftShift
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">leftShift</span></div>
+Translation key for help text for leftShift; resource id <code>mod.chiselsandbits.help.leftshift</code>.
 </div>
 :::
 
@@ -1307,6 +1389,7 @@ Method Summary
 == rightShift
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">rightShift</span></div>
+Translation key for help text for rightShift; resource id <code>mod.chiselsandbits.help.rightshift</code>.
 </div>
 :::
 
@@ -1319,6 +1402,7 @@ Method Summary
 == leftAlt
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">leftAlt</span></div>
+Translation key for help text for leftAlt; resource id <code>mod.chiselsandbits.help.leftalt</code>.
 </div>
 :::
 
@@ -1331,6 +1415,7 @@ Method Summary
 == rightAlt
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">rightAlt</span></div>
+Translation key for help text for rightAlt; resource id <code>mod.chiselsandbits.help.rightalt</code>.
 </div>
 :::
 
@@ -1343,6 +1428,7 @@ Method Summary
 == Sort
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">Sort</span></div>
+Translation key for help text for Sort; resource id <code>mod.chiselsandbits.help.sort</code>.
 </div>
 :::
 
@@ -1355,6 +1441,7 @@ Method Summary
 == Trash
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">Trash</span></div>
+Translation key for help text for Trash; resource id <code>mod.chiselsandbits.help.trash</code>.
 </div>
 :::
 
@@ -1367,6 +1454,7 @@ Method Summary
 == TrashItem
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">TrashItem</span></div>
+Translation key for help text for TrashItem; resource id <code>mod.chiselsandbits.help.trashitem</code>.
 </div>
 :::
 
@@ -1379,6 +1467,7 @@ Method Summary
 == ReallyTrash
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ReallyTrash</span></div>
+Translation key for help text for ReallyTrash; resource id <code>mod.chiselsandbits.help.reallytrash</code>.
 </div>
 :::
 
@@ -1391,6 +1480,7 @@ Method Summary
 == ReallyTrashItem
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ReallyTrashItem</span></div>
+Translation key for help text for ReallyTrashItem; resource id <code>mod.chiselsandbits.help.reallytrash_blank</code>.
 </div>
 :::
 
@@ -1403,6 +1493,7 @@ Method Summary
 == TrashInvalidItem
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">TrashInvalidItem</span></div>
+Translation key for help text for TrashInvalidItem; resource id <code>mod.chiselsandbits.help.trash.invalid</code>.
 </div>
 :::
 
@@ -1415,6 +1506,7 @@ Method Summary
 == Convert
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">Convert</span></div>
+Translation key for help text for Convert; resource id <code>mod.chiselsandbits.help.convert</code>.
 </div>
 :::
 
@@ -1427,6 +1519,7 @@ Method Summary
 == NonPreferredPickup
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">NonPreferredPickup</span></div>
+Translation key for help text for NonPreferredPickup; resource id <code>mod.chiselsandbits.help.non-preferred-pickup</code>.
 </div>
 :::
 
@@ -1439,6 +1532,7 @@ Method Summary
 == PreferredPickup
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PreferredPickup</span></div>
+Translation key for help text for PreferredPickup; resource id <code>mod.chiselsandbits.help.preferred-pickup</code>.
 </div>
 :::
 
@@ -1451,6 +1545,7 @@ Method Summary
 == FilteredPickup
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">FilteredPickup</span></div>
+Translation key for help text for FilteredPickup; resource id <code>mod.chiselsandbits.help.filtered-pickup</code>.
 </div>
 :::
 
@@ -1463,6 +1558,7 @@ Method Summary
 == NonFilteredPickup
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">NonFilteredPickup</span></div>
+Translation key for help text for NonFilteredPickup; resource id <code>mod.chiselsandbits.help.non-filtered-pickup</code>.
 </div>
 :::
 
@@ -1475,6 +1571,7 @@ Method Summary
 == PositivePatternReplace
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PositivePatternReplace</span></div>
+Translation key for a positive-pattern mode label; resource id <code>mod.chiselsandbits.positivepatternmode.replace</code>.
 </div>
 :::
 
@@ -1487,6 +1584,7 @@ Method Summary
 == PositivePatternAdditive
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PositivePatternAdditive</span></div>
+Translation key for a positive-pattern mode label; resource id <code>mod.chiselsandbits.positivepatternmode.additive</code>.
 </div>
 :::
 
@@ -1499,6 +1597,7 @@ Method Summary
 == PositivePatternPlacement
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PositivePatternPlacement</span></div>
+Translation key for a positive-pattern mode label; resource id <code>mod.chiselsandbits.positivepatternmode.placement</code>.
 </div>
 :::
 
@@ -1511,6 +1610,7 @@ Method Summary
 == PositivePatternImpose
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PositivePatternImpose</span></div>
+Translation key for a positive-pattern mode label; resource id <code>mod.chiselsandbits.positivepatternmode.impose</code>.
 </div>
 :::
 
@@ -1523,6 +1623,7 @@ Method Summary
 == HelpTapeMeasure
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpTapeMeasure</span></div>
+Translation key for help text for TapeMeasure; resource id <code>mod.chiselsandbits.help.tape_measure</code>.
 </div>
 :::
 
@@ -1535,6 +1636,7 @@ Method Summary
 == LongHelpTapeMeasure
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpTapeMeasure</span></div>
+Translation key for help text for TapeMeasure; resource id <code>mod.chiselsandbits.help.tape_measure.long</code>.
 </div>
 :::
 
@@ -1547,6 +1649,7 @@ Method Summary
 == HelpQuill
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpQuill</span></div>
+Translation key for help text for Quill; resource id <code>mod.chiselsandbits.help.quill</code>.
 </div>
 :::
 
@@ -1559,6 +1662,7 @@ Method Summary
 == HelpSealant
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpSealant</span></div>
+Translation key for help text for Sealant; resource id <code>mod.chiselsandbits.help.sealant</code>.
 </div>
 :::
 
@@ -1571,6 +1675,7 @@ Method Summary
 == HelpUnseal
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpUnseal</span></div>
+Translation key for help text for Unseal; resource id <code>mod.chiselsandbits.help.unseal</code>.
 </div>
 :::
 
@@ -1583,6 +1688,7 @@ Method Summary
 == TapeMeasureBit
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">TapeMeasureBit</span></div>
+Translation key for a tape-measure label; resource id <code>mod.chiselsandbits.tapemeasure.bit</code>.
 </div>
 :::
 
@@ -1595,6 +1701,7 @@ Method Summary
 == TapeMeasureBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">TapeMeasureBlock</span></div>
+Translation key for a tape-measure label; resource id <code>mod.chiselsandbits.tapemeasure.block</code>.
 </div>
 :::
 
@@ -1607,6 +1714,7 @@ Method Summary
 == TapeMeasureDistance
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">TapeMeasureDistance</span></div>
+Translation key for a tape-measure label; resource id <code>mod.chiselsandbits.tapemeasure.distance</code>.
 </div>
 :::
 
@@ -1619,6 +1727,7 @@ Method Summary
 == BitOptionPlace
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">BitOptionPlace</span></div>
+Translation key for a bit placement option label; resource id <code>mod.chiselsandbits.bitoption.place</code>.
 </div>
 :::
 
@@ -1631,6 +1740,7 @@ Method Summary
 == BitOptionReplace
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">BitOptionReplace</span></div>
+Translation key for a bit placement option label; resource id <code>mod.chiselsandbits.bitoption.replace</code>.
 </div>
 :::
 
@@ -1643,6 +1753,7 @@ Method Summary
 == HelpMagnifyingGlass
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpMagnifyingGlass</span></div>
+Translation key for help text for MagnifyingGlass; resource id <code>mod.chiselsandbits.help.magnifying_glass</code>.
 </div>
 :::
 
@@ -1655,6 +1766,7 @@ Method Summary
 == LongHelpMagnifyingGlass
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongHelpMagnifyingGlass</span></div>
+Translation key for help text for MagnifyingGlass; resource id <code>mod.chiselsandbits.help.magnifying_glass.long</code>.
 </div>
 :::
 
@@ -1667,6 +1779,7 @@ Method Summary
 == ChiselSupportIsAlreadyChiseled
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportIsAlreadyChiseled</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.already-chiseled</code>.
 </div>
 :::
 
@@ -1679,6 +1792,7 @@ Method Summary
 == ChiselSupportGenericNotSupported
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportGenericNotSupported</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.generic</code>.
 </div>
 :::
 
@@ -1691,6 +1805,7 @@ Method Summary
 == ChiselSupportLogicIgnored
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportLogicIgnored</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.supported.code</code>.
 </div>
 :::
 
@@ -1703,6 +1818,7 @@ Method Summary
 == ChiselSupportGenericSupported
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportGenericSupported</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.supported.generic</code>.
 </div>
 :::
 
@@ -1715,6 +1831,7 @@ Method Summary
 == ChiselSupportGenericFluidSupport
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportGenericFluidSupport</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.supported.fluid</code>.
 </div>
 :::
 
@@ -1727,6 +1844,7 @@ Method Summary
 == ChiselSupportCompatDeactivated
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportCompatDeactivated</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.compatibility.deactivated</code>.
 </div>
 :::
 
@@ -1739,6 +1857,7 @@ Method Summary
 == ChiselSupportCustomCollision
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportCustomCollision</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.collision</code>.
 </div>
 :::
 
@@ -1751,6 +1870,7 @@ Method Summary
 == ChiselSupportNoHardness
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportNoHardness</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.hardness</code>.
 </div>
 :::
 
@@ -1763,6 +1883,7 @@ Method Summary
 == ChiselSupportNotFullBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportNotFullBlock</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.shape</code>.
 </div>
 :::
 
@@ -1775,6 +1896,7 @@ Method Summary
 == ChiselSupportHasBehaviour
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportHasBehaviour</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.entity</code>.
 </div>
 :::
 
@@ -1787,6 +1909,7 @@ Method Summary
 == ChiselSupportIsSlab
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportIsSlab</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.slab</code>.
 </div>
 :::
 
@@ -1799,6 +1922,7 @@ Method Summary
 == ChiselSupportHasCustomDrops
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportHasCustomDrops</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.drops</code>.
 </div>
 :::
 
@@ -1811,6 +1935,7 @@ Method Summary
 == ChiselSupportFailureToAnalyze
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportFailureToAnalyze</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.failure</code>.
 </div>
 :::
 
@@ -1823,6 +1948,7 @@ Method Summary
 == ChiselSupportForcedUnsupported
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportForcedUnsupported</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.forced</code>.
 </div>
 :::
 
@@ -1835,6 +1961,7 @@ Method Summary
 == ChiselSupportForcedSupported
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportForcedSupported</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.supported.forced</code>.
 </div>
 :::
 
@@ -1847,6 +1974,7 @@ Method Summary
 == ChiselSupportTagBlackListed
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportTagBlackListed</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.not.supported.tag</code>.
 </div>
 :::
 
@@ -1859,6 +1987,7 @@ Method Summary
 == ChiselSupportTagWhitelisted
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselSupportTagWhitelisted</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.support.supported.tag</code>.
 </div>
 :::
 
@@ -1871,6 +2000,7 @@ Method Summary
 == ChiselStationName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselStationName</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.station.name</code>.
 </div>
 :::
 
@@ -1883,6 +2013,7 @@ Method Summary
 == ChiselStationHelp
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselStationHelp</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.station.help</code>.
 </div>
 :::
 
@@ -1895,6 +2026,7 @@ Method Summary
 == LongChiselStationHelp
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongChiselStationHelp</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.station.help.long</code>.
 </div>
 :::
 
@@ -1907,6 +2039,7 @@ Method Summary
 == ModificationTableHelp
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ModificationTableHelp</span></div>
+Translation key for localized text for modification table help; resource id <code>mod.chiselsandbits.modification.table.help</code>.
 </div>
 :::
 
@@ -1919,6 +2052,7 @@ Method Summary
 == LongModificationTableHelp
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">LongModificationTableHelp</span></div>
+Translation key for localized text for long modification table help; resource id <code>mod.chiselsandbits.modification.table.help.long</code>.
 </div>
 :::
 
@@ -1931,6 +2065,7 @@ Method Summary
 == CommandGiveErrorBlockStateNotChiselable
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CommandGiveErrorBlockStateNotChiselable</span></div>
+Translation key for feedback for a mod command; resource id <code>mod.chiselsandbits.command.give.blockstate.not-chiselable</code>.
 </div>
 :::
 
@@ -1943,6 +2078,7 @@ Method Summary
 == CommandFillCompleted
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CommandFillCompleted</span></div>
+Translation key for feedback for a mod command; resource id <code>mod.chiselsandbits.command.fill.completed</code>.
 </div>
 :::
 
@@ -1955,6 +2091,7 @@ Method Summary
 == CommandFillingInProgress
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CommandFillingInProgress</span></div>
+Translation key for feedback for a mod command; resource id <code>mod.chiselsandbits.command.fill.in-progress</code>.
 </div>
 :::
 
@@ -1967,6 +2104,7 @@ Method Summary
 == CommandToFill
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CommandToFill</span></div>
+Translation key for feedback for a mod command; resource id <code>mod.chiselsandbits.command.fill.to-fill</code>.
 </div>
 :::
 
@@ -1979,6 +2117,7 @@ Method Summary
 == CommandProcessingBlockUpdates
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CommandProcessingBlockUpdates</span></div>
+Translation key for feedback for a mod command; resource id <code>mod.chiselsandbits.command.fill.processing-block-updates</code>.
 </div>
 :::
 
@@ -1991,6 +2130,7 @@ Method Summary
 == PatternItemTooltipModeGrouped
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternItemTooltipModeGrouped</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.item.tooltip.mode.grouped</code>.
 </div>
 :::
 
@@ -2003,6 +2143,7 @@ Method Summary
 == PatternItemTooltipModeSimple
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternItemTooltipModeSimple</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.item.tooltip.mode.simple</code>.
 </div>
 :::
 
@@ -2015,6 +2156,7 @@ Method Summary
 == PatternPlacementModePlacement
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementModePlacement</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.mode.placement</code>.
 </div>
 :::
 
@@ -2027,6 +2169,7 @@ Method Summary
 == PatternPlacementModeRemoval
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementModeRemoval</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.mode.removal</code>.
 </div>
 :::
 
@@ -2039,6 +2182,7 @@ Method Summary
 == PatternPlacementModeImposement
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementModeImposement</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.mode.imposement</code>.
 </div>
 :::
 
@@ -2051,6 +2195,7 @@ Method Summary
 == PatternPlacementModeMerge
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementModeMerge</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.mode.merge</code>.
 </div>
 :::
 
@@ -2063,6 +2208,7 @@ Method Summary
 == PatternPlacementModeCarving
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementModeCarving</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.mode.carving</code>.
 </div>
 :::
 
@@ -2075,6 +2221,7 @@ Method Summary
 == PatternPlacementCollision
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementCollision</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.collision</code>.
 </div>
 :::
 
@@ -2087,6 +2234,7 @@ Method Summary
 == PatternPlacementNoBitSpace
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementNoBitSpace</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.no.bit.space</code>.
 </div>
 :::
 
@@ -2099,6 +2247,7 @@ Method Summary
 == PatternPlacementNotEnoughBits
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementNotEnoughBits</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.no.bits</code>.
 </div>
 :::
 
@@ -2111,6 +2260,7 @@ Method Summary
 == PatternPlacementNotASolidBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementNotASolidBlock</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.not.a.solid.block</code>.
 </div>
 :::
 
@@ -2123,6 +2273,7 @@ Method Summary
 == PatternPlacementNotAChiseledBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementNotAChiseledBlock</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.not.a.chiseled.block</code>.
 </div>
 :::
 
@@ -2135,6 +2286,7 @@ Method Summary
 == PatternPlacementNotAnAirBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementNotAnAirBlock</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.not.a.air.block</code>.
 </div>
 :::
 
@@ -2147,6 +2299,7 @@ Method Summary
 == PatternPlacementNotASupportedBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternPlacementNotASupportedBlock</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.placement.failure.not.a.supported.block</code>.
 </div>
 :::
 
@@ -2159,6 +2312,7 @@ Method Summary
 == PatternModificationGroupMirror
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternModificationGroupMirror</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.modification.group.mirror</code>.
 </div>
 :::
 
@@ -2171,6 +2325,7 @@ Method Summary
 == PatternModificationGroupRotate
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternModificationGroupRotate</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.modification.group.rotate</code>.
 </div>
 :::
 
@@ -2183,6 +2338,7 @@ Method Summary
 == PatternModificationAcrossXAxis
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternModificationAcrossXAxis</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.modification.across.axis.x</code>.
 </div>
 :::
 
@@ -2195,6 +2351,7 @@ Method Summary
 == PatternModificationAcrossYAxis
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternModificationAcrossYAxis</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.modification.across.axis.y</code>.
 </div>
 :::
 
@@ -2207,6 +2364,7 @@ Method Summary
 == PatternModificationAcrossZAxis
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternModificationAcrossZAxis</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.modification.across.axis.z</code>.
 </div>
 :::
 
@@ -2219,6 +2377,7 @@ Method Summary
 == CanNotUndo
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CanNotUndo</span></div>
+Translation key for change-tracking undo or redo feedback; resource id <code>mod.chiselsandbits.change-tracking.undo.failed</code>.
 </div>
 :::
 
@@ -2231,6 +2390,7 @@ Method Summary
 == UndoSuccessful
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">UndoSuccessful</span></div>
+Translation key for change-tracking undo or redo feedback; resource id <code>mod.chiselsandbits.change-tracking.undo.success</code>.
 </div>
 :::
 
@@ -2243,6 +2403,7 @@ Method Summary
 == CanNotRedo
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CanNotRedo</span></div>
+Translation key for change-tracking undo or redo feedback; resource id <code>mod.chiselsandbits.change-tracking.redo.failed</code>.
 </div>
 :::
 
@@ -2255,6 +2416,7 @@ Method Summary
 == RedoSuccessful
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">RedoSuccessful</span></div>
+Translation key for change-tracking undo or redo feedback; resource id <code>mod.chiselsandbits.change-tracking.redo.success</code>.
 </div>
 :::
 
@@ -2267,6 +2429,7 @@ Method Summary
 == ToolMenuPageSelectorName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuPageSelectorName</span></div>
+Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.tool-menu.page-selector.name</code>.
 </div>
 :::
 
@@ -2279,6 +2442,7 @@ Method Summary
 == ToolMenuPreviousPageName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuPreviousPageName</span></div>
+Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.tool-menu.page-selector.previous.name</code>.
 </div>
 :::
 
@@ -2291,6 +2455,7 @@ Method Summary
 == ToolMenuNextPageName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuNextPageName</span></div>
+Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.tool-menu.page-selector.next.name</code>.
 </div>
 :::
 
@@ -2303,6 +2468,7 @@ Method Summary
 == ToolMenuGroupSelectorName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuGroupSelectorName</span></div>
+Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.tool-menu.group-selector.name</code>.
 </div>
 :::
 
@@ -2315,6 +2481,7 @@ Method Summary
 == ToolMenuModeSelectorName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuModeSelectorName</span></div>
+Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.tool-menu.mode-selector.name</code>.
 </div>
 :::
 
@@ -2327,6 +2494,7 @@ Method Summary
 == ToolMenuSelectorName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuSelectorName</span></div>
+Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.tool-menu.selector.name</code>.
 </div>
 :::
 
@@ -2339,6 +2507,7 @@ Method Summary
 == ToolMenuScreenName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ToolMenuScreenName</span></div>
+Translation key for a user-interface screen title; resource id <code>mod.chiselsandbits.ui-screens.tool-menu.name</code>.
 </div>
 :::
 
@@ -2351,6 +2520,7 @@ Method Summary
 == ChangeTrackerOperations
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChangeTrackerOperations</span></div>
+Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.change-tracker.operations.name</code>.
 </div>
 :::
 
@@ -2363,6 +2533,7 @@ Method Summary
 == ChangeTrackerOperationsButtonUndoName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChangeTrackerOperationsButtonUndoName</span></div>
+Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.change-tracker.operations.undo.name</code>.
 </div>
 :::
 
@@ -2375,6 +2546,7 @@ Method Summary
 == ChangeTrackerOperationsButtonRedoName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChangeTrackerOperationsButtonRedoName</span></div>
+Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.change-tracker.operations.redo.name</code>.
 </div>
 :::
 
@@ -2387,6 +2559,7 @@ Method Summary
 == ChangeTrackerOperationsButtonClearName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChangeTrackerOperationsButtonClearName</span></div>
+Translation key for a user-interface component label; resource id <code>mod.chiselsandbits.ui-components.change-tracker.operations.clear.name</code>.
 </div>
 :::
 
@@ -2399,6 +2572,7 @@ Method Summary
 == CreativeTabClipboard
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CreativeTabClipboard</span></div>
+Translation key for a creative inventory tab title; resource id <code>mod.chiselsandbits.creative-tab.clipboard.name</code>.
 </div>
 :::
 
@@ -2411,6 +2585,7 @@ Method Summary
 == CreativeTabBits
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">CreativeTabBits</span></div>
+Translation key for a creative inventory tab title; resource id <code>mod.chiselsandbits.creative-tab.bits.name</code>.
 </div>
 :::
 
@@ -2423,6 +2598,7 @@ Method Summary
 == PatternExportFailedCouldNotWriteAtlas
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternExportFailedCouldNotWriteAtlas</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.export.failed.could-not-write-atlas</code>.
 </div>
 :::
 
@@ -2435,6 +2611,7 @@ Method Summary
 == PatternExportFailedGenericAtlasWriteFailure
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternExportFailedGenericAtlasWriteFailure</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.export.failed.generic-atlas-write-failure</code>.
 </div>
 :::
 
@@ -2447,6 +2624,7 @@ Method Summary
 == PatternExportFailedCouldNotWriteChiselData
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternExportFailedCouldNotWriteChiselData</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.export.failed.could-not-write-chisel-data</code>.
 </div>
 :::
 
@@ -2459,6 +2637,7 @@ Method Summary
 == PatternExportFailedCouldNotWriteFile
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternExportFailedCouldNotWriteFile</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.export.failed.could-not-write-file</code>.
 </div>
 :::
 
@@ -2471,6 +2650,7 @@ Method Summary
 == PatternImportFailedFileNotFound
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportFailedFileNotFound</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.failed.file-not-found</code>.
 </div>
 :::
 
@@ -2483,6 +2663,7 @@ Method Summary
 == PatternImportFailedCouldNotReadFile
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportFailedCouldNotReadFile</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.failed.could-not-read-file</code>.
 </div>
 :::
 
@@ -2495,6 +2676,7 @@ Method Summary
 == PatternImportFailedCouldNotDecompressFile
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportFailedCouldNotDecompressFile</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.failed.could-not-decompress-file</code>.
 </div>
 :::
 
@@ -2507,6 +2689,7 @@ Method Summary
 == PatternImportFailedCompressedDataInWrongFormat
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportFailedCompressedDataInWrongFormat</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.failed.compressed-data-in-wrong-format</code>.
 </div>
 :::
 
@@ -2519,6 +2702,7 @@ Method Summary
 == PatternImportFailedInvalidChiselData
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportFailedInvalidChiselData</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.failed.invalid-chisel-data</code>.
 </div>
 :::
 
@@ -2531,6 +2715,7 @@ Method Summary
 == PatternImportFailedUnknownVersion
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportFailedUnknownVersion</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.failed.unknown-version</code>.
 </div>
 :::
 
@@ -2543,6 +2728,7 @@ Method Summary
 == PatternImportInvokedFromTheServer
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternImportInvokedFromTheServer</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.patterns.import.invoked-from-the-server</code>.
 </div>
 :::
 
@@ -2555,6 +2741,7 @@ Method Summary
 == ChiselAttemptFailedNoBlock
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedNoBlock</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.no-block</code>.
 </div>
 :::
 
@@ -2567,6 +2754,7 @@ Method Summary
 == ChiselAttemptFailedTargetedBlockNotChiselable
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedTargetedBlockNotChiselable</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.targeted-block-not-chiselable</code>.
 </div>
 :::
 
@@ -2579,6 +2767,7 @@ Method Summary
 == ChiselAttemptFailedChiselBroke
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedChiselBroke</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.chisel-broke</code>.
 </div>
 :::
 
@@ -2591,6 +2780,7 @@ Method Summary
 == ChiselAttemptFailedNoValidStateFound
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedNoValidStateFound</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.no-valid-state-found</code>.
 </div>
 :::
 
@@ -2603,6 +2793,7 @@ Method Summary
 == ChiselAttemptFailedNoPlaceableBitHeld
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedNoPlaceableBitHeld</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.no-placeable-bit-held</code>.
 </div>
 :::
 
@@ -2615,6 +2806,7 @@ Method Summary
 == ChiselAttemptFailedNotEnoughBits
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedNotEnoughBits</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.not-enough-bits</code>.
 </div>
 :::
 
@@ -2627,6 +2819,7 @@ Method Summary
 == ChiselAttemptFailedAttemptTooHigh
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedAttemptTooHigh</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.attempt-too-high</code>.
 </div>
 :::
 
@@ -2639,6 +2832,7 @@ Method Summary
 == ChiselAttemptFailedAttemptTooLow
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedAttemptTooLow</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.attempt-too-low</code>.
 </div>
 :::
 
@@ -2651,6 +2845,7 @@ Method Summary
 == ChiselAttemptFailedWaitForCoolDown
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptFailedWaitForCoolDown</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.wait-for-cooldown</code>.
 </div>
 :::
 
@@ -2663,6 +2858,7 @@ Method Summary
 == ChiselAttemptMissingChiselInOffhand
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselAttemptMissingChiselInOffhand</span></div>
+Translation key for chiseling support, station, or attempt feedback; resource id <code>mod.chiselsandbits.chisel.attempt.failed.missing-chisel-in-offhand</code>.
 </div>
 :::
 
@@ -2675,6 +2871,7 @@ Method Summary
 == PatternCuttingAcrossXAxis
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternCuttingAcrossXAxis</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.cutting.across.axis.x</code>.
 </div>
 :::
 
@@ -2687,6 +2884,7 @@ Method Summary
 == PatternCuttingAcrossYAxis
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternCuttingAcrossYAxis</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.cutting.across.axis.y</code>.
 </div>
 :::
 
@@ -2699,6 +2897,7 @@ Method Summary
 == PatternCuttingAcrossZAxis
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PatternCuttingAcrossZAxis</span></div>
+Translation key for pattern placement, editing, import, export, or cutting feedback; resource id <code>mod.chiselsandbits.pattern.cutting.across.axis.z</code>.
 </div>
 :::
 
@@ -2711,6 +2910,7 @@ Method Summary
 == DefaultChiseledBlockItemName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">DefaultChiseledBlockItemName</span></div>
+Translation key for localized text for default chiseled block item name; resource id <code>mod.chiselsandbits.default-chiseled-block-item.name</code>.
 </div>
 :::
 
@@ -2723,6 +2923,7 @@ Method Summary
 == ChiseledBlockItemName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiseledBlockItemName</span></div>
+Translation key for localized text for chiseled block item name; resource id <code>mod.chiselsandbits.chiseled-block-item.name</code>.
 </div>
 :::
 
@@ -2735,6 +2936,7 @@ Method Summary
 == ChiselsAndBitsName
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">ChiselsAndBitsName</span></div>
+Translation key for localized text for chisels and bits name; resource id <code>mod.chiselsandbits.name</code>.
 </div>
 :::
 
@@ -2747,6 +2949,7 @@ Method Summary
 == BitBagEmpty
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">BitBagEmpty</span></div>
+Translation key for localized text for bit bag empty; resource id <code>mod.chiselsandbits.bit-bag-empty</code>.
 </div>
 :::
 
@@ -2759,6 +2962,7 @@ Method Summary
 == BitBagEntry
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">BitBagEntry</span></div>
+Translation key for localized text for bit bag entry; resource id <code>mod.chiselsandbits.bit-bag-entry</code>.
 </div>
 :::
 
@@ -2771,6 +2975,7 @@ Method Summary
 == BitBagMoreEntries
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">BitBagMoreEntries</span></div>
+Translation key for localized text for bit bag more entries; resource id <code>mod.chiselsandbits.bit-bag-more-entries</code>.
 </div>
 :::
 
@@ -2783,6 +2988,7 @@ Method Summary
 == BagPicksUpFirst
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">BagPicksUpFirst</span></div>
+Translation key for localized text for bag picks up first; resource id <code>mod.chiselsandbits.bag-pick-up.bag-first</code>.
 </div>
 :::
 
@@ -2795,6 +3001,7 @@ Method Summary
 == PlayerPicksUpFirst
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">PlayerPicksUpFirst</span></div>
+Translation key for localized text for player picks up first; resource id <code>mod.chiselsandbits.bag-pick-up.player-first</code>.
 </div>
 :::
 
@@ -2807,6 +3014,7 @@ Method Summary
 == Filtered
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">Filtered</span></div>
+Translation key for localized text for filtered; resource id <code>mod.chiselsandbits.bag-pick-up.filtered</code>.
 </div>
 :::
 
@@ -2819,6 +3027,7 @@ Method Summary
 == NonFiltered
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">NonFiltered</span></div>
+Translation key for localized text for non filtered; resource id <code>mod.chiselsandbits.bag-pick-up.non-filtered</code>.
 </div>
 :::
 
@@ -2831,6 +3040,7 @@ Method Summary
 == HelpBagPickupMode
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a></span>&nbsp;<span class="element-name">HelpBagPickupMode</span></div>
+Translation key for help text for BagPickupMode; resource id <code>mod.chiselsandbits.help.bit_bag.pickup-mode</code>.
 </div>
 :::
 
@@ -2899,6 +3109,7 @@ not permitted.)
 == toString
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">toString</span>()</div>
+Returns this key as its fully qualified translation identifier.
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html#toString()" title="class or interface in java.lang" class="external-link">toString</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Enum.html" title="class or interface in java.lang" class="external-link">Enum</a>&lt;<a href="LocalStrings.html" title="enum class in mod.chiselsandbits.api.util">LocalStrings</a>&gt;</code></dd>
@@ -2915,6 +3126,11 @@ not permitted.)
 == getText
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.chat.MutableComponent</span>&nbsp;<span class="element-name">getText</span>()</div>
+Creates a translatable component for this key without format arguments.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the requested value.</dd>
+</dl>
 </div>
 :::
 
@@ -2927,6 +3143,13 @@ not permitted.)
 == getText
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.chat.MutableComponent</span>&nbsp;<span class="element-name">getText</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</span></div>
+Creates a translatable component for this key using the supplied format arguments.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>args</code> - values substituted into the translation template</dd>
+<dt>Returns:</dt>
+<dd>the translatable component</dd>
+</dl>
 </div>
 :::
 
@@ -2939,6 +3162,13 @@ not permitted.)
 == getTextLines
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/List.html" title="class or interface in java.util" class="external-link">List</a>&lt;net.minecraft.network.chat.MutableComponent&gt;</span>&nbsp;<span class="element-name">getTextLines</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>...&nbsp;args)</span></div>
+Resolves this translation and returns one literal component for each newline-separated line.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>args</code> - values substituted into the translation template</dd>
+<dt>Returns:</dt>
+<dd>translated lines as literal components</dd>
+</dl>
 </div>
 :::
 

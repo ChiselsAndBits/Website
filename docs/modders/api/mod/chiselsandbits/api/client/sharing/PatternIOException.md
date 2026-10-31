@@ -16,7 +16,7 @@ java.lang.Object
 
   
 
-  
+I/O failure that carries both a user-facing component and a diagnostic log message.  
 
 <dl class="notes"><br/>  
 <dt>See Also:</dt><br/>  
@@ -36,8 +36,8 @@ Constructor Summary
     <tr><th>Constructor</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="#%3Cinit%3E(net.minecraft.network.chat.Component,java.lang.String)" class="member-name-link">PatternIOException</a><wbr>(net.minecraft.network.chat.Component&nbsp;errorMessage,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;logMessage)</code></td><td>&nbsp;</td></tr>
-  <tr><td><code><a href="#%3Cinit%3E(net.minecraft.network.chat.Component,java.lang.String,java.lang.Throwable)" class="member-name-link">PatternIOException</a><wbr>(net.minecraft.network.chat.Component&nbsp;errorMessage,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;message,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html" title="class or interface in java.lang" class="external-link">Throwable</a>&nbsp;cause)</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="#%3Cinit%3E(net.minecraft.network.chat.Component,java.lang.String)" class="member-name-link">PatternIOException</a><wbr>(net.minecraft.network.chat.Component&nbsp;errorMessage,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;logMessage)</code></td><td><div class="block">Creates a pattern I/O exception with a user message and a log message.</div><br></td></tr>
+  <tr><td><code><a href="#%3Cinit%3E(net.minecraft.network.chat.Component,java.lang.String,java.lang.Throwable)" class="member-name-link">PatternIOException</a><wbr>(net.minecraft.network.chat.Component&nbsp;errorMessage,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;message,<br> <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html" title="class or interface in java.lang" class="external-link">Throwable</a>&nbsp;cause)</code></td><td><div class="block">Creates a pattern I/O exception with a user message, log message, and underlying cause.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -52,7 +52,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getErrorMessage()" class="member-name-link">getErrorMessage</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getErrorMessage()" class="member-name-link">getErrorMessage</a>()</code></td><td><div class="block">Returns the localized component intended to be shown to the user.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -61,7 +61,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getErrorMessage()" class="member-name-link">getErrorMessage</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getErrorMessage()" class="member-name-link">getErrorMessage</a>()</code></td><td><div class="block">Returns the localized component intended to be shown to the user.</div><br></td></tr>
   </tbody>
 </table>
 == Concrete Methods
@@ -70,7 +70,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getErrorMessage()" class="member-name-link">getErrorMessage</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>net.minecraft.network.chat.Component</code></td><td><code><a href="#getErrorMessage()" class="member-name-link">getErrorMessage</a>()</code></td><td><div class="block">Returns the localized component intended to be shown to the user.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -101,6 +101,12 @@ Method Summary
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">PatternIOException</span><wbr><span class="parameters">(net.minecraft.network.chat.Component&nbsp;errorMessage,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;logMessage)</span></div>
+Creates a pattern I/O exception with a user message and a log message.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>errorMessage</code> - localized message suitable for displaying to the user</dd>
+<dd><code>logMessage</code> - diagnostic message for logs and the exception detail</dd>
+</dl>
 </div>
 :::
 
@@ -115,6 +121,13 @@ Method Summary
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="element-name">PatternIOException</span><wbr><span class="parameters">(net.minecraft.network.chat.Component&nbsp;errorMessage,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;message,
  <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Throwable.html" title="class or interface in java.lang" class="external-link">Throwable</a>&nbsp;cause)</span></div>
+Creates a pattern I/O exception with a user message, log message, and underlying cause.
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>errorMessage</code> - localized message suitable for displaying to the user</dd>
+<dd><code>message</code> - diagnostic message for logs and the exception detail</dd>
+<dd><code>cause</code> - underlying I/O or parsing failure</dd>
+</dl>
 </div>
 :::
 
@@ -134,6 +147,11 @@ Method Summary
 == getErrorMessage
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.network.chat.Component</span>&nbsp;<span class="element-name">getErrorMessage</span>()</div>
+Returns the localized component intended to be shown to the user.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the user-facing error component</dd>
+</dl>
 </div>
 :::
 

@@ -20,7 +20,7 @@ package mod.chiselsandbits.api.modification.operation;
   </thead>
   <tbody>
   <tr><td><a href="IModificationOperation" title="IModificationOperation">IModificationOperation</a></td><td>A modification operation that can be performed in the modification table.</td></tr>
-  <tr><td><a href="IModificationOperationGroup" title="IModificationOperationGroup">IModificationOperationGroup</a></td><td></td></tr>
+  <tr><td><a href="IModificationOperationGroup" title="IModificationOperationGroup">IModificationOperationGroup</a></td><td>Groups operations that modify multistate block contents.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -30,7 +30,7 @@ package mod.chiselsandbits.api.modification.operation;
   </thead>
   <tbody>
   <tr><td><a href="IModificationOperation" title="IModificationOperation">IModificationOperation</a></td><td>A modification operation that can be performed in the modification table.</td></tr>
-  <tr><td><a href="IModificationOperationGroup" title="IModificationOperationGroup">IModificationOperationGroup</a></td><td></td></tr>
+  <tr><td><a href="IModificationOperationGroup" title="IModificationOperationGroup">IModificationOperationGroup</a></td><td>Groups operations that modify multistate block contents.</td></tr>
   </tbody>
 </table>
 == Classes

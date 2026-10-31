@@ -15,8 +15,9 @@ extends com.communi.suggestu.scena.core.registries.ICustomRegistryEntry, <a href
   
 
 Represents a chiselable operation that can be completed by a chisel or bit for example.
+
 <p>
-    Has to be immutable as it is used in data components.
+Has to be immutable as it is used in data components.
 </p>  
 
 <dl class="notes"></dl>  
@@ -199,7 +200,8 @@ Invoked by the system when a chisel or a bit is left clicked to perform an assoc
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onStoppedLeftClicking</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</span></div>
 Invoked by the system when the player has released the left click button.
-Currently not invoked by the system. Future endpoint.
+<p>
+Currently not invoked by the system.Future endpoint.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player who released the button.</dd>
@@ -240,7 +242,8 @@ Invoked by the system when a chisel or a bit is right clicked to perform an asso
 <div class="member-signature"><span class="return-type">void</span>&nbsp;<span class="element-name">onStoppedRightClicking</span><wbr><span class="parameters">(net.minecraft.world.entity.player.Player&nbsp;playerEntity,
  <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</span></div>
 Invoked by the system when the player has released the right click button.
-Currently not invoked by the system. Future endpoint.
+<p>
+Currently not invoked by the system.Future endpoint.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>playerEntity</code> - The player who released the button.</dd>

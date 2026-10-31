@@ -10,7 +10,7 @@ _Package:_ [mod.chiselsandbits.api.placement](index)
 
   
 
-  
+Contract for values that can be placed into the world.  
 
 <dl class="notes"></dl>  
 

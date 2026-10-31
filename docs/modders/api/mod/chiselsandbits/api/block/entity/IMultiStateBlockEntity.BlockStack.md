@@ -14,7 +14,7 @@ _Package:_ [mod.chiselsandbits.api.block.entity](index)
 
   
 
-  
+Placement stack pairing the ordinary block item with its multi-state payload.  
 
 <dl class="notes"></dl>  
 
@@ -42,11 +42,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="IMultiStateBlockEntity.BlockStack.html" title="class in mod.chiselsandbits.api.block.entity">IMultiStateBlockEntity.BlockStack</a></code></td><td><code><a href="#copy()" class="member-name-link">copy</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="IMultiStateBlockEntity.BlockStack.html" title="class in mod.chiselsandbits.api.block.entity">IMultiStateBlockEntity.BlockStack</a></code></td><td><code><a href="#copy()" class="member-name-link">copy</a>()</code></td><td><div class="block">Copies both the item stack and the associated multi-state item data.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code><a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></code></td><td><code><a href="#multiStateItemStack()" class="member-name-link">multiStateItemStack</a>()</code></td><td><div class="block">Returns the value of the <code>multiStateItemStack</code> record component.</div><br></td></tr>
-  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#stack()" class="member-name-link">stack</a>()</code></td><td><div class="block">Returns the value of the <code>stack</code> record component.</div><br></td></tr>
+  <tr><td><code><a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></code></td><td><code><a href="#multiStateItemStack()" class="member-name-link">multiStateItemStack</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-multiStateItemStack"><code>multiStateItemStack</code></a> record component.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#stack()" class="member-name-link">stack</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-stack"><code>stack</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -56,11 +56,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="IMultiStateBlockEntity.BlockStack.html" title="class in mod.chiselsandbits.api.block.entity">IMultiStateBlockEntity.BlockStack</a></code></td><td><code><a href="#copy()" class="member-name-link">copy</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="IMultiStateBlockEntity.BlockStack.html" title="class in mod.chiselsandbits.api.block.entity">IMultiStateBlockEntity.BlockStack</a></code></td><td><code><a href="#copy()" class="member-name-link">copy</a>()</code></td><td><div class="block">Copies both the item stack and the associated multi-state item data.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code><a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></code></td><td><code><a href="#multiStateItemStack()" class="member-name-link">multiStateItemStack</a>()</code></td><td><div class="block">Returns the value of the <code>multiStateItemStack</code> record component.</div><br></td></tr>
-  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#stack()" class="member-name-link">stack</a>()</code></td><td><div class="block">Returns the value of the <code>stack</code> record component.</div><br></td></tr>
+  <tr><td><code><a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></code></td><td><code><a href="#multiStateItemStack()" class="member-name-link">multiStateItemStack</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-multiStateItemStack"><code>multiStateItemStack</code></a> record component.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#stack()" class="member-name-link">stack</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-stack"><code>stack</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -70,11 +70,11 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code><a href="IMultiStateBlockEntity.BlockStack.html" title="class in mod.chiselsandbits.api.block.entity">IMultiStateBlockEntity.BlockStack</a></code></td><td><code><a href="#copy()" class="member-name-link">copy</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code><a href="IMultiStateBlockEntity.BlockStack.html" title="class in mod.chiselsandbits.api.block.entity">IMultiStateBlockEntity.BlockStack</a></code></td><td><code><a href="#copy()" class="member-name-link">copy</a>()</code></td><td><div class="block">Copies both the item stack and the associated multi-state item data.</div><br></td></tr>
   <tr><td><code>final boolean</code></td><td><code><a href="#equals(java.lang.Object)" class="member-name-link">equals</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a>&nbsp;o)</code></td><td><div class="block">Indicates whether some other object is "equal to" this one.</div><br></td></tr>
   <tr><td><code>final int</code></td><td><code><a href="#hashCode()" class="member-name-link">hashCode</a>()</code></td><td><div class="block">Returns a hash code value for this object.</div><br></td></tr>
-  <tr><td><code><a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></code></td><td><code><a href="#multiStateItemStack()" class="member-name-link">multiStateItemStack</a>()</code></td><td><div class="block">Returns the value of the <code>multiStateItemStack</code> record component.</div><br></td></tr>
-  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#stack()" class="member-name-link">stack</a>()</code></td><td><div class="block">Returns the value of the <code>stack</code> record component.</div><br></td></tr>
+  <tr><td><code><a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></code></td><td><code><a href="#multiStateItemStack()" class="member-name-link">multiStateItemStack</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-multiStateItemStack"><code>multiStateItemStack</code></a> record component.</div><br></td></tr>
+  <tr><td><code>net.minecraft.world.item.ItemStack</code></td><td><code><a href="#stack()" class="member-name-link">stack</a>()</code></td><td><div class="block">Returns the value of the <a href="#param-stack"><code>stack</code></a> record component.</div><br></td></tr>
   <tr><td><code>final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></td><td><code><a href="#toString()" class="member-name-link">toString</a>()</code></td><td><div class="block">Returns a string representation of this record class.</div><br></td></tr>
   </tbody>
 </table>
@@ -105,8 +105,8 @@ Method Summary
 Creates an instance of a <code>BlockStack</code> record class.
 <dl class="notes">
 <dt>Parameters:</dt>
-<dd><code>stack</code> - the value for the <code>stack</code> record component</dd>
-<dd><code>multiStateItemStack</code> - the value for the <code>multiStateItemStack</code> record component</dd>
+<dd><code>stack</code> - the value for the <a href="#param-stack"><code>stack</code></a> record component</dd>
+<dd><code>multiStateItemStack</code> - the value for the <a href="#param-multiStateItemStack"><code>multiStateItemStack</code></a> record component</dd>
 </dl>
 </div>
 :::
@@ -127,6 +127,11 @@ Creates an instance of a <code>BlockStack</code> record class.
 == copy
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="IMultiStateBlockEntity.BlockStack.html" title="class in mod.chiselsandbits.api.block.entity">IMultiStateBlockEntity.BlockStack</a></span>&nbsp;<span class="element-name">copy</span>()</div>
+Copies both the item stack and the associated multi-state item data.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>an independent copy of this placement stack</dd>
+</dl>
 </div>
 :::
 
@@ -198,10 +203,10 @@ Indicates whether some other object is "equal to" this one. The objects are equa
 == stack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">net.minecraft.world.item.ItemStack</span>&nbsp;<span class="element-name">stack</span>()</div>
-Returns the value of the <code>stack</code> record component.
+Returns the value of the <a href="#param-stack"><code>stack</code></a> record component.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <code>stack</code> record component</dd>
+<dd>the value of the <a href="#param-stack"><code>stack</code></a> record component</dd>
 </dl>
 </div>
 :::
@@ -215,10 +220,10 @@ Returns the value of the <code>stack</code> record component.
 == multiStateItemStack
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="../../item/multistate/IMultiStateItemStack.html" title="interface in mod.chiselsandbits.api.item.multistate">IMultiStateItemStack</a></span>&nbsp;<span class="element-name">multiStateItemStack</span>()</div>
-Returns the value of the <code>multiStateItemStack</code> record component.
+Returns the value of the <a href="#param-multiStateItemStack"><code>multiStateItemStack</code></a> record component.
 <dl class="notes">
 <dt>Returns:</dt>
-<dd>the value of the <code>multiStateItemStack</code> record component</dd>
+<dd>the value of the <a href="#param-multiStateItemStack"><code>multiStateItemStack</code></a> record component</dd>
 </dl>
 </div>
 :::

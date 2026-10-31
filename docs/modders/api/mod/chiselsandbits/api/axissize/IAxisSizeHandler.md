@@ -24,7 +24,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="IAxisSizeHandler.html" title="interface in mod.chiselsandbits.api.axissize">IAxisSizeHandler</a></code></td><td><code><a href="#empty()" class="member-name-link">empty</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IAxisSizeHandler.html" title="interface in mod.chiselsandbits.api.axissize">IAxisSizeHandler</a></code></td><td><code><a href="#empty()" class="member-name-link">empty</a>()</code></td><td><div class="block">Creates an axis-size handler with no configured sizes.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getHighest()" class="member-name-link">getHighest</a>()</code></td><td><div class="block">The highest set value on the axis of the size handler.</div><br></td></tr>
   <tr><td><code>int</code></td><td><code><a href="#getLowest()" class="member-name-link">getLowest</a>()</code></td><td><div class="block">The lowest set value on the axis of the size handler.</div><br></td></tr>
   </tbody>
@@ -35,7 +35,7 @@ Method Summary
     <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static <a href="IAxisSizeHandler.html" title="interface in mod.chiselsandbits.api.axissize">IAxisSizeHandler</a></code></td><td><code><a href="#empty()" class="member-name-link">empty</a>()</code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static <a href="IAxisSizeHandler.html" title="interface in mod.chiselsandbits.api.axissize">IAxisSizeHandler</a></code></td><td><code><a href="#empty()" class="member-name-link">empty</a>()</code></td><td><div class="block">Creates an axis-size handler with no configured sizes.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -81,6 +81,11 @@ Method Summary
 == empty
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">static</span>&nbsp;<span class="return-type"><a href="IAxisSizeHandler.html" title="interface in mod.chiselsandbits.api.axissize">IAxisSizeHandler</a></span>&nbsp;<span class="element-name">empty</span>()</div>
+Creates an axis-size handler with no configured sizes.
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>a handler whose lowest and highest values are both zero</dd>
+</dl>
 </div>
 :::
 

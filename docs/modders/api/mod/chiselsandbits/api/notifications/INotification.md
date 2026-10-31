@@ -14,7 +14,7 @@ extends <a href="../util/IWithIcon.html" title="interface in mod.chiselsandbits.
 
   
 
-  
+Describes a notification that can be presented to a player.  
 
 <dl class="notes"></dl>  
 

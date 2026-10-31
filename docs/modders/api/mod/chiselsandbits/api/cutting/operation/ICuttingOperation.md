@@ -143,8 +143,10 @@ The underlying registry that contains the different Cutting modes that can be pe
 <div class="member-signature"><span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Collection.html" title="class or interface in java.util" class="external-link">Collection</a>&lt;<a href="../../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&gt;</span>&nbsp;<span class="element-name">apply</span><wbr><span class="parameters">(<a href="../../multistate/accessor/IAreaAccessor.html" title="interface in mod.chiselsandbits.api.multistate.accessor">IAreaAccessor</a>&nbsp;source)</span></div>
 Performs a Cutting on the snapshot.
 The returned collection contains the individual pieces that result of this cut.
+<p>
 In total a maximum 64 pieces can be returned.
-Note: The cutter generates a bundle if more than one unique piece is cut.
+</p><p>
+Note: The cutter generates a bundle if more than one unique piece is cut.</p>
 <dl class="notes">
 <dt>Parameters:</dt>
 <dd><code>source</code> - The mutator to modify.</dd>

@@ -14,7 +14,7 @@ java.lang.Object
 
   
 
-  
+Common <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Predicate.html" title="class or interface in java.util.function" class="external-link"><code>Predicate</code></a> instances for filtering <code>BlockState</code> values.  
 
 <dl class="notes"></dl>  
 
@@ -27,9 +27,9 @@ Field Summary
     <tr><th>Modifier and Type</th><th>Field</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Predicate.html" title="class or interface in java.util.function" class="external-link">Predicate</a><wbr>&lt;net.minecraft.world.level.block.state.BlockState&gt;</code></td><td><code><a href="#ALL" class="member-name-link">ALL</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Predicate.html" title="class or interface in java.util.function" class="external-link">Predicate</a><wbr>&lt;net.minecraft.world.level.block.state.BlockState&gt;</code></td><td><code><a href="#COLLIDEABLE_ONLY" class="member-name-link">COLLIDEABLE_ONLY</a></code></td><td>&nbsp;</td></tr>
-  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Predicate.html" title="class or interface in java.util.function" class="external-link">Predicate</a><wbr>&lt;net.minecraft.world.level.block.state.BlockState&gt;</code></td><td><code><a href="#NOT_AIR" class="member-name-link">NOT_AIR</a></code></td><td>&nbsp;</td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Predicate.html" title="class or interface in java.util.function" class="external-link">Predicate</a><wbr>&lt;net.minecraft.world.level.block.state.BlockState&gt;</code></td><td><code><a href="#ALL" class="member-name-link">ALL</a></code></td><td><div class="block">A predicate that always matches, regardless of the evaluated <code>BlockState</code>.</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Predicate.html" title="class or interface in java.util.function" class="external-link">Predicate</a><wbr>&lt;net.minecraft.world.level.block.state.BlockState&gt;</code></td><td><code><a href="#COLLIDEABLE_ONLY" class="member-name-link">COLLIDEABLE_ONLY</a></code></td><td><div class="block">A predicate matching only states that occupy space — non-air with an empty fluid state (excluding air and liquids/gases).</div><br></td></tr>
+  <tr><td><code>static final <a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Predicate.html" title="class or interface in java.util.function" class="external-link">Predicate</a><wbr>&lt;net.minecraft.world.level.block.state.BlockState&gt;</code></td><td><code><a href="#NOT_AIR" class="member-name-link">NOT_AIR</a></code></td><td><div class="block">A predicate matching any non-air <code>BlockState</code>.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -57,6 +57,7 @@ Method Summary
 == NOT_AIR
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Predicate.html" title="class or interface in java.util.function" class="external-link">Predicate</a>&lt;net.minecraft.world.level.block.state.BlockState&gt;</span>&nbsp;<span class="element-name">NOT_AIR</span></div>
+A predicate matching any non-air <code>BlockState</code>.
 </div>
 :::
 
@@ -69,6 +70,7 @@ Method Summary
 == ALL
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Predicate.html" title="class or interface in java.util.function" class="external-link">Predicate</a>&lt;net.minecraft.world.level.block.state.BlockState&gt;</span>&nbsp;<span class="element-name">ALL</span></div>
+A predicate that always matches, regardless of the evaluated <code>BlockState</code>.
 </div>
 :::
 
@@ -81,6 +83,8 @@ Method Summary
 == COLLIDEABLE_ONLY
 <div class="horizontal-scroll">
 <div class="member-signature"><span class="modifiers">public static final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/function/Predicate.html" title="class or interface in java.util.function" class="external-link">Predicate</a>&lt;net.minecraft.world.level.block.state.BlockState&gt;</span>&nbsp;<span class="element-name">COLLIDEABLE_ONLY</span></div>
+A predicate matching only states that occupy space — non-air with an empty fluid state (excluding air and liquids/gases).
+Okey,
 </div>
 :::
 

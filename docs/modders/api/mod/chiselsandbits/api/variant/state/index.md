@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.variant.state;
 ```
+Additional per-instance information associated with block states.
+
 ### Package Contents
 
 :::tabs key:PackageContents

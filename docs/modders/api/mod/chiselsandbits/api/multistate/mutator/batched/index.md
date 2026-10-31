@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.multistate.mutator.batched;
 ```
+Batched modifications of multistate areas.
+
 ### Package Contents
 
 :::tabs key:PackageContents

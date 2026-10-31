@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.multistate.statistics;
 ```
+Aggregate statistics describing multistate objects.
+
 ### Package Contents
 
 :::tabs key:PackageContents

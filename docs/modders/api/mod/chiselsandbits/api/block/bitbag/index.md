@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.block.bitbag;
 ```
+Block interactions with bit bags.
+
 ### Package Contents
 
 :::tabs key:PackageContents

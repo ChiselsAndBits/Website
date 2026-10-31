@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.inventory.bit.watchable;
 ```
+Change observation for bit inventories.
+
 ### Package Contents
 
 :::tabs key:PackageContents

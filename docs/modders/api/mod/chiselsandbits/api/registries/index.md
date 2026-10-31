@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.registries;
 ```
+Access to the registries used by Chisels and Bits.
+
 ### Package Contents
 
 :::tabs key:PackageContents

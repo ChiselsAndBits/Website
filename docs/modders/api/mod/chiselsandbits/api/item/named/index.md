@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.item.named;
 ```
+Highlighted item names and dynamic display stacks.
+
 ### Package Contents
 
 :::tabs key:PackageContents

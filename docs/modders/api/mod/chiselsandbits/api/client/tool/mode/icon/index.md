@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.client.tool.mode.icon;
 ```
+Client-side rendering of selected tool-mode icons on the hotbar.
+
 ### Package Contents
 
 :::tabs key:PackageContents

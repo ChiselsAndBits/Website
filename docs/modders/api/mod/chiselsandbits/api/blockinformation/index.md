@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.blockinformation;
 ```
+Immutable descriptions of the materials stored in multistate objects.
+
 ### Package Contents
 
 :::tabs key:PackageContents

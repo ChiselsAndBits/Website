@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.voxelshape;
 ```
+Voxel-shape calculation for multistate blocks and areas.
+
 ### Package Contents
 
 :::tabs key:PackageContents

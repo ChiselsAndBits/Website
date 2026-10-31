@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.inventory.management;
 ```
+Services for obtaining and managing bit inventories.
+
 ### Package Contents
 
 :::tabs key:PackageContents

@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.client.screen;
 ```
+Client-side screen contracts and base implementations.
+
 ### Package Contents
 
 :::tabs key:PackageContents
@@ -19,8 +21,8 @@ package mod.chiselsandbits.api.client.screen;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="AbstractChiselsAndBitsScreen" title="AbstractChiselsAndBitsScreen">AbstractChiselsAndBitsScreen</a></td><td>Custom screens which inherit from this class implement custom logic related to chisels and bits widgets and buttons.</td></tr>
   <tr><td><a href="IChiselsAndBitsScreen" title="IChiselsAndBitsScreen">IChiselsAndBitsScreen</a></td><td>A screen for chisels and bits.</td></tr>
+  <tr><td><a href="AbstractChiselsAndBitsScreen" title="AbstractChiselsAndBitsScreen">AbstractChiselsAndBitsScreen</a></td><td>Custom screens which inherit from this class implement custom logic related to chisels and bits widgets and buttons.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -54,6 +56,6 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="widget/index" title="mod.chiselsandbits.api.client.screen.widget">mod.chiselsandbits.api.client.screen.widget</a></td><td></td></tr>
+  <tr><td><a href="widget/index" title="mod.chiselsandbits.api.client.screen.widget">mod.chiselsandbits.api.client.screen.widget</a></td><td>Client-side widgets and buttons for Chisels and Bits screens.</td></tr>
   </tbody>
 </table>

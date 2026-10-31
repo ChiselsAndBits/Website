@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.item.withhighlight;
 ```
+Item-specific custom highlight behavior.
+
 ### Package Contents
 
 :::tabs key:PackageContents

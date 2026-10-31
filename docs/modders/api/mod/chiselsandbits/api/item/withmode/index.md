@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.item.withmode;
 ```
+Items with selectable tool modes and renderable mode descriptions.
+
 ### Package Contents
 
 :::tabs key:PackageContents
@@ -50,6 +52,6 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="group/index" title="mod.chiselsandbits.api.item.withmode.group">mod.chiselsandbits.api.item.withmode.group</a></td><td></td></tr>
+  <tr><td><a href="group/index" title="mod.chiselsandbits.api.item.withmode.group">mod.chiselsandbits.api.item.withmode.group</a></td><td>Grouping of selectable item tool modes.</td></tr>
   </tbody>
 </table>

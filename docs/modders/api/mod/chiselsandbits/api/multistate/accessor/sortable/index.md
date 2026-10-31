@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.multistate.accessor.sortable;
 ```
+Coordinate transformations that control state-entry traversal order.
+
 ### Package Contents
 
 :::tabs key:PackageContents

@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.multistate.mutator.world;
 ```
+Modification of multistate areas located in a world.
+
 ### Package Contents
 
 :::tabs key:PackageContents

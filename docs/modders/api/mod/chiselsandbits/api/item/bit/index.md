@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.item.bit;
 ```
+Bit items and services for creating their item stacks.
+
 ### Package Contents
 
 :::tabs key:PackageContents

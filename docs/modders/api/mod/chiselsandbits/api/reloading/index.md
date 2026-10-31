@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.reloading;
 ```
+Cache invalidation during reloads.
+
 ### Package Contents
 
 :::tabs key:PackageContents

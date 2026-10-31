@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.item.tool;
 ```
+Tools for creating, sealing, and unsealing patterns.
+
 ### Package Contents
 
 :::tabs key:PackageContents

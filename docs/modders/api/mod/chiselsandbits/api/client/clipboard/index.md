@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.client.clipboard;
 ```
+Client-side clipboard services for creative-mode multistate items.
+
 ### Package Contents
 
 :::tabs key:PackageContents

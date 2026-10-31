@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.item.wireframe;
 ```
+Item-provided wireframes for previews and other rendering.
+
 ### Package Contents
 
 :::tabs key:PackageContents

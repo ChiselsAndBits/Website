@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.pattern.placement;
 ```
+Strategies for placing patterns in the world.
+
 ### Package Contents
 
 :::tabs key:PackageContents

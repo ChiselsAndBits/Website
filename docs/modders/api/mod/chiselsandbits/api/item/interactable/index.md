@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.item.interactable;
 ```
+Interactions between items held in opposite hands.
+
 ### Package Contents
 
 :::tabs key:PackageContents

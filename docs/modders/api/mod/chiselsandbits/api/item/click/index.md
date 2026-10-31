@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.item.click;
 ```
+Item-controlled left- and right-click processing.
+
 ### Package Contents
 
 :::tabs key:PackageContents
@@ -19,10 +21,10 @@ package mod.chiselsandbits.api.item.click;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IRightClickControllingItem" title="IRightClickControllingItem">IRightClickControllingItem</a></td><td>Deals with the way items are able to handle left click interactions.</td></tr>
+  <tr><td><a href="ClickProcessingState.ProcessingResult" title="ProcessingResult">ProcessingResult</a></td><td>The processing result of the click interaction.</td></tr>
   <tr><td><a href="ClickProcessingState" title="ClickProcessingState">ClickProcessingState</a></td><td>Represents the continuous processing state of a click interaction.</td></tr>
   <tr><td><a href="ILeftClickControllingItem" title="ILeftClickControllingItem">ILeftClickControllingItem</a></td><td>Deals with the way items are able to handle left click interactions.</td></tr>
-  <tr><td><a href="ClickProcessingState.ProcessingResult" title="ProcessingResult">ProcessingResult</a></td><td>The processing result of the click interaction.</td></tr>
+  <tr><td><a href="IRightClickControllingItem" title="IRightClickControllingItem">IRightClickControllingItem</a></td><td>Deals with the way items are able to handle left click interactions.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -31,8 +33,8 @@ package mod.chiselsandbits.api.item.click;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IRightClickControllingItem" title="IRightClickControllingItem">IRightClickControllingItem</a></td><td>Deals with the way items are able to handle left click interactions.</td></tr>
   <tr><td><a href="ILeftClickControllingItem" title="ILeftClickControllingItem">ILeftClickControllingItem</a></td><td>Deals with the way items are able to handle left click interactions.</td></tr>
+  <tr><td><a href="IRightClickControllingItem" title="IRightClickControllingItem">IRightClickControllingItem</a></td><td>Deals with the way items are able to handle left click interactions.</td></tr>
   </tbody>
 </table>
 == Classes

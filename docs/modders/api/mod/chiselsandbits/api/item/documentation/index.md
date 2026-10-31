@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.item.documentation;
 ```
+Item integration with the documentation export system.
+
 ### Package Contents
 
 :::tabs key:PackageContents

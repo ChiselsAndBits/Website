@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.neighborhood;
 ```
+Block-neighborhood descriptions for environment-dependent cache keys.
+
 ### Package Contents
 
 :::tabs key:PackageContents

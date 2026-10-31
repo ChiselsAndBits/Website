@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.item.change;
 ```
+Item support for change-tracking key bindings.
+
 ### Package Contents
 
 :::tabs key:PackageContents

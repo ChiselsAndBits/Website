@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.chiseling.mode;
 ```
+Chiseling modes used by chisels and bits.
+
 ### Package Contents
 
 :::tabs key:PackageContents

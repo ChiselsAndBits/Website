@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.item.withmode.group;
 ```
+Grouping of selectable item tool modes.
+
 ### Package Contents
 
 :::tabs key:PackageContents

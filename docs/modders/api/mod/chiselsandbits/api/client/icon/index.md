@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.client.icon;
 ```
+Client-side access to interface and interaction-overlay sprites.
+
 ### Package Contents
 
 :::tabs key:PackageContents

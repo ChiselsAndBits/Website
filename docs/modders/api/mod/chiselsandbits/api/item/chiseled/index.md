@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.item.chiseled;
 ```
+Item representations of harvested chiseled blocks.
+
 ### Package Contents
 
 :::tabs key:PackageContents

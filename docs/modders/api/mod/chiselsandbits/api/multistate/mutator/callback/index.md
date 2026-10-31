@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.multistate.mutator.callback;
 ```
+Callbacks for setting and clearing individual bit states.
+
 ### Package Contents
 
 :::tabs key:PackageContents

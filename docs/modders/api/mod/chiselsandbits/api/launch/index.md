@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.launch;
 ```
+Properties that affect game launch and runtime behavior.
+
 ### Package Contents
 
 :::tabs key:PackageContents

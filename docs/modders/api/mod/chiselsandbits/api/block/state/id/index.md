@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.block.state.id;
 ```
+Session-local identifiers for Minecraft block states.
+
 ### Package Contents
 
 :::tabs key:PackageContents

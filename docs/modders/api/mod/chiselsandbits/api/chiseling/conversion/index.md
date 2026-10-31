@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.chiseling.conversion;
 ```
+Conversion between ordinary blocks and chiseled representations.
+
 ### Package Contents
 
 :::tabs key:PackageContents

@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.client.render.preview.placement;
 ```
+Client-side rendering modes for block and pattern placement previews.
+
 ### Package Contents
 
 :::tabs key:PackageContents

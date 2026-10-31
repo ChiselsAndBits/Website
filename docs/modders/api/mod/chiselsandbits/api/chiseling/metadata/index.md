@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.chiseling.metadata;
 ```
+Typed keys for additional chiseling-context data.
+
 ### Package Contents
 
 :::tabs key:PackageContents

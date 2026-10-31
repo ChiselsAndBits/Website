@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.axissize;
 ```
+Axis bounds and occupancy rules for multistate objects.
+
 ### Package Contents
 
 :::tabs key:PackageContents

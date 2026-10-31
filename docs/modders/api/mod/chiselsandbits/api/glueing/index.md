@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.glueing;
 ```
+Block-entity support for structures connected with glue.
+
 ### Package Contents
 
 :::tabs key:PackageContents
@@ -46,6 +48,6 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="operation/index" title="mod.chiselsandbits.api.glueing.operation">mod.chiselsandbits.api.glueing.operation</a></td><td></td></tr>
+  <tr><td><a href="operation/index" title="mod.chiselsandbits.api.glueing.operation">mod.chiselsandbits.api.glueing.operation</a></td><td>Glueing-table operations and their tool-mode groups.</td></tr>
   </tbody>
 </table>

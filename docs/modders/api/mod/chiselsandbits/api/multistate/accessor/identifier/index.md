@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.multistate.accessor.identifier;
 ```
+Identifiers for the shape of multistate area contents.
+
 ### Package Contents
 
 :::tabs key:PackageContents
@@ -19,9 +21,9 @@ package mod.chiselsandbits.api.multistate.accessor.identifier;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
+  <tr><td><a href="ISingleStateAreaShareIdentifier" title="ISingleStateAreaShareIdentifier">ISingleStateAreaShareIdentifier</a></td><td>Indicates that the area shape identifier can not be subdivided and as such change<br>its underlying bit layout, when used in a combining fashion.</td></tr>
   <tr><td><a href="IArrayBackedAreaShapeIdentifier" title="IArrayBackedAreaShapeIdentifier">IArrayBackedAreaShapeIdentifier</a></td><td>Indicates that the <br>{@link IAreaShapeIdentifier}<br> is backed by a long array and as such its core data can directly be used to<br>compare the identifiers.</td></tr>
   <tr><td><a href="IAreaShapeIdentifier" title="IAreaShapeIdentifier">IAreaShapeIdentifier</a></td><td>Marker interface that uniquely identifies the shape of the contents that can be accessed<br>via a given <br>{@link IAreaAccessor}<br>.</td></tr>
-  <tr><td><a href="ISingleStateAreaShareIdentifier" title="ISingleStateAreaShareIdentifier">ISingleStateAreaShareIdentifier</a></td><td>Indicates that the area shape identifier can not be subdivided and as such change<br>its underlying bit layout, when used in a combining fashion.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -30,9 +32,9 @@ package mod.chiselsandbits.api.multistate.accessor.identifier;
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
+  <tr><td><a href="ISingleStateAreaShareIdentifier" title="ISingleStateAreaShareIdentifier">ISingleStateAreaShareIdentifier</a></td><td>Indicates that the area shape identifier can not be subdivided and as such change<br>its underlying bit layout, when used in a combining fashion.</td></tr>
   <tr><td><a href="IArrayBackedAreaShapeIdentifier" title="IArrayBackedAreaShapeIdentifier">IArrayBackedAreaShapeIdentifier</a></td><td>Indicates that the <br>{@link IAreaShapeIdentifier}<br> is backed by a long array and as such its core data can directly be used to<br>compare the identifiers.</td></tr>
   <tr><td><a href="IAreaShapeIdentifier" title="IAreaShapeIdentifier">IAreaShapeIdentifier</a></td><td>Marker interface that uniquely identifies the shape of the contents that can be accessed<br>via a given <br>{@link IAreaAccessor}<br>.</td></tr>
-  <tr><td><a href="ISingleStateAreaShareIdentifier" title="ISingleStateAreaShareIdentifier">ISingleStateAreaShareIdentifier</a></td><td>Indicates that the area shape identifier can not be subdivided and as such change<br>its underlying bit layout, when used in a combining fashion.</td></tr>
   </tbody>
 </table>
 == Classes

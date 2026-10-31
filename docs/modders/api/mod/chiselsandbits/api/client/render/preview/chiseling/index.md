@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.client.render.preview.chiseling;
 ```
+Client-side renderers for chiseling-context previews.
+
 ### Package Contents
 
 :::tabs key:PackageContents

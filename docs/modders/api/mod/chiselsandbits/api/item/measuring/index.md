@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.item.measuring;
 ```
+Measuring-tool item contracts.
+
 ### Package Contents
 
 :::tabs key:PackageContents

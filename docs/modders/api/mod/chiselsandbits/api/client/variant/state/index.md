@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.client.variant.state;
 ```
+Client-specific behavior for block-state variants.
+
 ### Package Contents
 
 :::tabs key:PackageContents

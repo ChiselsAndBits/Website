@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.glueing.operation;
 ```
+Glueing-table operations and their tool-mode groups.
+
 ### Package Contents
 
 :::tabs key:PackageContents

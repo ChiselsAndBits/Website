@@ -10,6 +10,8 @@ sidebar: false
 ```
 package mod.chiselsandbits.api.aabb;
 ```
+Contracts for objects with axis-aligned bounding boxes.
+
 ### Package Contents
 
 :::tabs key:PackageContents

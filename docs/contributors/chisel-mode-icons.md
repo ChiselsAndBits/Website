@@ -7,11 +7,14 @@ order: 4
 import { withBase } from 'vitepress'
 
 const icon = (id) => withBase(`/icons/chiselmodes/design/${id}.svg`)
+const ui = (id) => withBase(`/icons/ui/design/${id}.svg`)
 
 const showcase = [
   'single_bit', 'medium_bit_aligned', 'drawn_wall_medium', 'line_4', 'plane_2',
   'connected_plane_4', 'connected_material_4', 'medium_sphere', 'replace'
 ]
+
+const uiShowcase = ['pattern_impose', 'roll_x', 'mirror', 'trash', 'undo', 'bag_mode_filter']
 
 const backgrounds = [
   { name: 'Website light', color: '#F6F6F7' },
@@ -52,7 +55,8 @@ const backgrounds = [
 
 This page defines the visual language for the chisel mode icons shown in the
 radial menu in game and on the [chisel mode pages](../players/chiselmodes/index.md)
-of this website. It applies to every new or redrawn chisel mode icon.
+of this website. It applies to every new or redrawn chisel mode icon, and to
+the mod's other [UI and tool icons](#ui-and-tool-icons).
 
 The production icons in `public/icons/chiselmodes/` are 128 × 128 PNGs, one
 per mode, named after the mode id. They are rendered from the SVG sources in
@@ -62,8 +66,16 @@ which was mostly white and disappeared on light backgrounds, drew spheres as
 flat discs, relied on red against blue alone, and shared one icon between
 several size variants.
 
-To change an icon, edit its SVG source and re-export it to a 128 × 128 PNG
-with the same name in `public/icons/chiselmodes/`.
+The same PNGs ship in the mod at
+`core/src/main/resources/assets/chiselsandbits/textures/icons/`, where they are
+stitched into the `chiselsandbits:icons` sprite atlas. Each mode in
+`ModChiselModes` references its icon by mode id through `setIconName(...)`, and
+each radial menu group in `ModChiselModeGroups` references a `group_*` icon.
+
+All icons are generated from code by the [icon generator](#icon-generator).
+To change an icon, edit its geometry in the generator and re-run it. It
+rewrites the SVG sources and PNGs on this website and can copy the PNGs into
+the mod's icon folder.
 
 <div :class="$style.gallery" style="background: var(--vp-c-bg-soft)">
   <img v-for="id in showcase" :key="id" :src="icon(id)" :alt="id" :title="id" width="64" height="64" />
@@ -91,7 +103,7 @@ Every icon must meet these four requirements. The rest of this page explains how
 | Clear edge | Keep 2 px clear on all sides. Nothing, including the Halo, may touch the outer 2 px. |
 | Background | Fully transparent. Do not add a backing plate, glow, or drop shadow. |
 | Text | Do not use font text. Draw numerals with the [pixel numerals](#size-badge) as shapes. |
-| File name | The mode id, for example `connected_plane_4.png`. Each mode gets its own icon, so variants no longer share files. |
+| File name | The mode id, for example `connected_plane_4.png`, or `group_<name>.png` for a [group icon](#group-icons). Each mode gets its own icon, so variants no longer share files. |
 | Anti-aliasing | Allowed and expected at 128 px. Keep every structural edge on the projection grid so edges stay crisp when scaled down. |
 
 Icons are scaled down at runtime. The website shows them at 64 px, and the
@@ -297,6 +309,10 @@ only.
 | **Drag path** | A dashed Ink line (`6 5`) on a Halo underlay, from a seed marker to a diamond handle | Click-and-drag definition |
 | **Direction arrow** | A solid Ink arrow with a Halo outline | The direction of the operation |
 | **Size badge** | An Ink plate with Halo pixel numerals | The exact size variant |
+| **Qualifier badge** | The same plate carrying an axis letter (`X`, `Z`), an ordinal (`1`, `2`), or a glyph (funnel) | A variant of a [UI icon](#ui-and-tool-icons). It is never a size. |
+| **Rotation ring** | An Ink ring with a Halo outline and an arrowhead around a solid. The part behind the solid is hidden by it. | Rotation about the ring's axis |
+| **Dimension line** | An Ink line with perpendicular end caps on a Halo underlay | A measurement |
+| **Removed bits** | A dashed cobalt-on-Ink wireframe | Bits a pattern takes away |
 
 **Geometry modes** show the Ghost block. **Material-aware modes** (Extrude
 and Replace) show solid stone material instead. Players can see at a glance
@@ -343,6 +359,65 @@ light and dark mode to check both.
 | <img :src="icon('large_sphere')" :class="$style.cell" alt="large_sphere" /> | `large_sphere` | As above, drawn diameter 16 | 16 |
 | <img :src="icon('replace')" :class="$style.cell" alt="replace" /> | `replace` | Stone cube with a seed marker, an arrow, and a hatched amber cube | none |
 
+### Group icons
+
+The radial menu shows one icon for each mode group. A group icon is the
+group's representative mode drawn **without a size badge**, because a badge
+would wrongly suggest one particular variant. Groups that use a size use
+the 4-bit variant (8 for spheres) for legibility.
+
+| Specimen | Icon | Group | Based on |
+| --- | --- | --- | --- |
+| <img :src="icon('group_cubed')" :class="$style.cell" alt="group_cubed" /> | `group_cubed` | Cubed | `medium_bit` |
+| <img :src="icon('group_cubed_aligned')" :class="$style.cell" alt="group_cubed_aligned" /> | `group_cubed_aligned` | Cubed Aligned | `medium_bit_aligned` |
+| <img :src="icon('group_draw')" :class="$style.cell" alt="group_draw" /> | `group_draw` | Draw | `drawn_cube` |
+| <img :src="icon('group_line')" :class="$style.cell" alt="group_line" /> | `group_line` | Line | `line_4` |
+| <img :src="icon('group_plane')" :class="$style.cell" alt="group_plane" /> | `group_plane` | Plane | `plane_4` |
+| <img :src="icon('group_connected_plane')" :class="$style.cell" alt="group_connected_plane" /> | `group_connected_plane` | Connected Plane | `connected_plane_4` |
+| <img :src="icon('group_connected_material')" :class="$style.cell" alt="group_connected_material" /> | `group_connected_material` | Extrude (Connected Material) | `connected_material_4` |
+| <img :src="icon('group_sphere')" :class="$style.cell" alt="group_sphere" /> | `group_sphere` | Sphere | `medium_sphere` |
+
+## UI and tool icons
+
+The remaining icons in the mod's icon folder belong to the bit bag screen, the
+change tracker, patterns, and the tape measure. They follow the same canvas,
+palette, keylines, and projection. Their SVG sources are in
+[`public/icons/ui/design/`](https://github.com/ChiselsAndBits/Website/tree/main/public/icons/ui/design)
+and the 128 × 128 PNGs are in `public/icons/ui/`. The file names match the
+mod's icon names, so the Java code needs no changes when an icon is redrawn.
+
+Use a 3D composition whenever the action changes bits or blocks. Pure UI
+actions (undo, redo) may use a flat Ink glyph with a Halo outline, like the
+direction arrow.
+
+| Specimen | Icon | Used by | Composition |
+| --- | --- | --- | --- |
+| <img :src="ui('bit')" :class="$style.cell" alt="bit" /> | `bit` | Tape measure: Bit | Selection cube in the Ghost block with a dimension line |
+| <img :src="ui('block')" :class="$style.cell" alt="block" /> | `block` | Tape measure: Block | Block-sized Selection cube with a dimension line |
+| <img :src="ui('line')" :class="$style.cell" alt="line" /> | `line` | Tape measure: Distance | Two seed markers joined by a dimension line across the Ghost block |
+| <img :src="ui('rotate')" :class="$style.cell" alt="rotate" /> | `rotate` | Rotate pattern operation groups | Stone block with a horizontal rotation ring |
+| <img :src="ui('roll_x')" :class="$style.cell" alt="roll_x" /> | `roll_x` | Rotate X clockwise | Stone cube in the Ghost block with a rotation ring around X, badge `X` |
+| <img :src="ui('roll_z')" :class="$style.cell" alt="roll_z" /> | `roll_z` | Rotate Z clockwise | As above, ring around Z, badge `Z` |
+| <img :src="ui('mirror')" :class="$style.cell" alt="mirror" /> | `mirror` | Mirror pattern operation group | Two stone stairs, mirror images of each other, on either side of a cobalt mirror plane seen edge-on |
+| <img :src="ui('pattern_place')" :class="$style.cell" alt="pattern_place" /> | `pattern_place` | Pattern placement: Placement | Selection solid dropped into the empty Ghost block with a down arrow |
+| <img :src="ui('pattern_merge')" :class="$style.cell" alt="pattern_merge" /> | `pattern_merge` | Pattern placement: Merge | Notched stone block with the Selection filling only the notch |
+| <img :src="ui('pattern_impose')" :class="$style.cell" alt="pattern_impose" /> | `pattern_impose` | Pattern placement: Imposement | Selection cube pressed into a full stone block, overriding it, with a down arrow |
+| <img :src="ui('pattern_remove')" :class="$style.cell" alt="pattern_remove" /> | `pattern_remove` | Pattern placement: Removal | Notched stone block, removed bits wireframe, and an arrow out of it |
+| <img :src="ui('pattern_carve')" :class="$style.cell" alt="pattern_carve" /> | `pattern_carve` | Pattern placement: Carving | Stone block with a full-height channel carved out, shown with the removed bits wireframe |
+| <img :src="ui('place')" :class="$style.cell" alt="place" /> | `place` | Bit bag: Convert | Selection cube on a stone slab with a down arrow |
+| <img :src="ui('sort')" :class="$style.cell" alt="sort" /> | `sort` | Bit bag: Sort | Three Selection bars stacked from long to short with a down arrow |
+| <img :src="ui('trash')" :class="$style.cell" alt="trash" /> | `trash` | Bit bag, change tracker: Clear | Ribbed stone bin with a lid |
+| <img :src="ui('swap')" :class="$style.cell" alt="swap" /> | `swap` | Swap (API) | Stone cube and hatched amber cube with two exchange arrows |
+| <img :src="ui('undo')" :class="$style.cell" alt="undo" /> | `undo` | Change tracker: Undo | Hooked Ink arrow pointing back (left) |
+| <img :src="ui('redo')" :class="$style.cell" alt="redo" /> | `redo` | Change tracker: Redo | Mirror image of `undo` |
+| <img :src="ui('bag_mode_normal')" :class="$style.cell" alt="bag_mode_normal" /> | `bag_mode_normal` | Bit bag: unfiltered pickup | Shaded stone bag with an Ink tie |
+| <img :src="ui('bag_mode_filter')" :class="$style.cell" alt="bag_mode_filter" /> | `bag_mode_filter` | Bit bag: filtered pickup | Bag with a funnel badge |
+| <img :src="ui('bag_mode_first')" :class="$style.cell" alt="bag_mode_first" /> | `bag_mode_first` | Bit bag: bag picks up first | Bag with badge `1` |
+| <img :src="ui('bag_mode_second')" :class="$style.cell" alt="bag_mode_second" /> | `bag_mode_second` | Bit bag: inventory picks up first | Bag with badge `2` |
+
+`white.png` is the exception. It is a plain white square that the game tints
+with each tape measure colour, so it must stay pure white with no keylines.
+
 ## Background stress test
 
 Every icon must stay legible on all of these backgrounds at both 64 px and
@@ -351,6 +426,7 @@ Every icon must stay legible on all of these backgrounds at both 64 px and
 <template v-for="bg in backgrounds" :key="bg.name">
   <div :class="$style.gallery" :style="{ background: bg.color }">
     <img v-for="id in showcase" :key="id" :src="icon(id)" :alt="id" width="64" height="64" />
+    <img v-for="id in uiShowcase" :key="'ui-' + id" :src="ui(id)" :alt="id" width="64" height="64" />
     <img v-for="id in showcase" :key="id + '-32'" :src="icon(id)" :alt="id" width="32" height="32" />
   </div>
   <p :class="$style.caption">{{ bg.name }} <code>{{ bg.color }}</code></p>
@@ -368,6 +444,58 @@ before export.
   <img :src="icon('construction_template')" alt="Construction template" width="256" height="256" />
 </div>
 
+## Icon generator
+
+The icons are not drawn by hand. They are generated by
+[`docs/contributors/icon-tools/generate_icons.py`](https://github.com/ChiselsAndBits/Website/blob/main/docs/contributors/icon-tools/generate_icons.py),
+which encodes this page as code: the projection `P(x, y, z)`, the palette, the
+keyline widths, the legibility scale, the badge font, and a helper for each
+motif (`ghost`, `box`, `prism`, `sphere`, `arrow`, `seed`, `drag`, `ticks`,
+`badge`, `spin`, `dim`, `outline_box`). Every icon is a few lines that combine
+these helpers. Using them keeps a new icon consistent with the rest of the set.
+
+Install the dependencies (CairoSVG, NumPy, Pillow, and Shapely) once:
+
+```sh
+python -m venv .venv-icons
+.venv-icons/bin/pip install -r docs/contributors/icon-tools/requirements.txt
+```
+
+Regenerate everything from the website repository root:
+
+```sh
+# Website only: SVG sources and 128 × 128 PNGs in public/icons/
+.venv-icons/bin/python docs/contributors/icon-tools/generate_icons.py
+
+# Also copy the PNGs into the mod (adjust the path to your checkout)
+.venv-icons/bin/python docs/contributors/icon-tools/generate_icons.py \
+  --mod-icons ../Chisels-and-Bits/core/src/main/resources/assets/chiselsandbits/textures/icons
+```
+
+| Output | Contents |
+| --- | --- |
+| `public/icons/chiselmodes/design/*.svg` | Chisel mode and group sources, plus `construction_template.svg` |
+| `public/icons/chiselmodes/*.png` | Chisel mode and group icons, 128 × 128 |
+| `public/icons/ui/design/*.svg` | UI and tool icon sources |
+| `public/icons/ui/*.png` | UI and tool icons, 128 × 128 |
+
+The output is deterministic, so the diff after a run shows only the icons you
+changed. The generator never writes `white.png`, and it does not delete icons
+that it no longer produces.
+
+[`preview.py`](https://github.com/ChiselsAndBits/Website/blob/main/docs/contributors/icon-tools/preview.py)
+in the same folder produces the review evidence the checklist asks for:
+
+```sh
+T=docs/contributors/icon-tools
+# Contact sheet at in-game size on a dark background
+.venv-icons/bin/python $T/preview.py sheet public/icons/ui/design sheet.png --size 32 --bg "#1B1B1F"
+# Protanopia, deuteranopia, tritanopia, and grayscale on website light and dark
+.venv-icons/bin/python $T/preview.py cvd public/icons/chiselmodes/design cvd.png --names replace,medium_bit
+# Every background from the stress test at 128 and 32 px
+.venv-icons/bin/python $T/preview.py stress public/icons/chiselmodes/design out/
+```
+
 ## Review checklist
 
 Before you submit an icon, check all of the following and include the
@@ -384,5 +512,5 @@ evidence in your pull request:
 - [ ] The icon passes a grayscale check and a protanopia, deuteranopia, and tritanopia simulation (for example the
       [Coblis simulator](https://www.color-blindness.com/coblis-color-blindness-simulator/) or browser
       DevTools' *Emulate vision deficiencies*). Every icon in the family still reads differently.
-- [ ] The SVG source in `design/` and the exported PNG are both updated.
+- [ ] The icon is defined in `generate_icons.py`, and the regenerated SVG and PNG are committed here and copied to the mod's `textures/icons/` folder.
 - [ ] The `summary.icon` frontmatter of the matching page in `docs/players/chiselmodes/` points to the PNG.

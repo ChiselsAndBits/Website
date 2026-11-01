@@ -136,3 +136,6 @@ dist
 .pnp.*
 
 **/example
+# Icon generator virtualenv and Python caches
+.venv-icons/
+__pycache__/

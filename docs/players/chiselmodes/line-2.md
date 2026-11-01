@@ -7,8 +7,6 @@ summary:
 
 # Line 2 x 2
 
-![Line 2 icon](/icons/chiselmodes/line2.png)
-
 Extends a 2 × 2 thick line from the targeted bit along the hit direction.
 
 ## Details

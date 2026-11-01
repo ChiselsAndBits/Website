@@ -7,8 +7,6 @@ summary:
 
 # Line 1 x 1
 
-![Line icon](/icons/chiselmodes/line.png)
-
 Extends a single-bit-wide line from the targeted bit all the way along the hit direction until it hits the edge of the block or an obstructing bit.
 
 ## Details

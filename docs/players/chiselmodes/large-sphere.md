@@ -7,8 +7,6 @@ summary:
 
 # Large Sphere
 
-![Large Sphere icon](/icons/chiselmodes/sphere_large.png)
-
 Creates or removes the largest spherical volume — a full 16-bit (full block width) diameter sphere, potentially spanning multiple adjacent chiseled blocks.
 
 ## Details

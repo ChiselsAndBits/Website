@@ -7,8 +7,6 @@ summary:
 
 # Drawn Wall (Medium)
 
-![Drawn Wall Medium icon](/icons/chiselmodes/drawn_wall_2.png)
-
 Drag to draw a wall along your path. This variant has a **2-bit** half-width (5 bits total across).
 
 ## Details

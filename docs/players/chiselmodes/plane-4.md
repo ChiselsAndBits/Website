@@ -7,8 +7,6 @@ summary:
 
 # Plane 4
 
-![Plane 4 icon](/icons/chiselmodes/plane4.png)
-
 Edits a full 16 × 16 bit face slab that is 4 bits deep from the hit surface.
 
 ## Details

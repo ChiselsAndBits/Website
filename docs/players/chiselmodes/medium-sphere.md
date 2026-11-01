@@ -7,8 +7,6 @@ summary:
 
 # Medium Sphere
 
-![Medium Sphere icon](/icons/chiselmodes/sphere_medium.png)
-
 Creates or removes a medium spherical volume. Diameter is 8 bits — half a block wide.
 
 ## Details

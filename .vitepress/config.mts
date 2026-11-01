@@ -1,13 +1,11 @@
 import {defineConfig} from 'vitepress'
-// @ts-ignore
-import vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite';
 import {PrimeVueResolver} from '@primevue/auto-import-resolver';
 import {generateSidebar} from "vitepress-sidebar";
 import {tabsMarkdownPlugin} from "vitepress-plugin-tabs";
 
 // https://vitepress.dev/reference/site-config
-const BASE_PATH: string | null = process.env.BASE || null;
+const BASE_PATH: string | undefined = process.env.BASE || undefined;
 
 export default defineConfig({
   title: "Chisels & Bits - Documentation",

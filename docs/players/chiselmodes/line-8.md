@@ -7,8 +7,6 @@ summary:
 
 # Line 8 x 8
 
-![Line 8 icon](/icons/chiselmodes/line8.png)
-
 Extends the widest line — an 8 × 8 thick column — from the targeted bit along the hit direction.
 
 ## Details

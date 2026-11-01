@@ -7,8 +7,6 @@ summary:
 
 # Extrude 8
 
-![Extrude icon](/icons/chiselmodes/connected_material.png)
-
 Selects connected same-material bits and extrudes/intrudes by up to 8 bits along the hit face — the deepest extrude option.
 
 ## Details

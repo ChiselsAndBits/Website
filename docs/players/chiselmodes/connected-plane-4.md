@@ -7,8 +7,6 @@ summary:
 
 # Connected Plane 4
 
-![Connected Plane icon](/icons/chiselmodes/connected_plane.png)
-
 Connected Plane flood-fill extended to 4 bits of depth from the hit surface.
 
 ## Details

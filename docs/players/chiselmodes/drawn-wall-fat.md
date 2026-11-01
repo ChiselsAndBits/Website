@@ -7,8 +7,6 @@ summary:
 
 # Drawn Wall (Fat)
 
-![Drawn Wall Fat icon](/icons/chiselmodes/drawn_wall_3.png)
-
 Drag to draw a wall along your path. This variant has a **3-bit** half-width (7 bits total across) — the widest drawn wall available.
 
 ## Details

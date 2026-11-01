@@ -7,8 +7,6 @@ summary:
 
 # Single Bit
 
-![Single Bit icon](/icons/chiselmodes/bit.png)
-
 The most precise chisel mode. Targets exactly one bit (1/16th of a block side) at a time.
 
 ## Details

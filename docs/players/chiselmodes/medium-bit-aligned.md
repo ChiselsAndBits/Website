@@ -7,8 +7,6 @@ summary:
 
 # Medium Bit Aligned
 
-![Medium Bit Aligned icon](/icons/chiselmodes/snap4.png)
-
 A 4 × 4 × 4 cube that snaps to a fixed 1/4-block grid.
 
 ## Details

@@ -7,8 +7,6 @@ summary:
 
 # Small Bit
 
-![Small Bit icon](/icons/chiselmodes/cube_small.png)
-
 Targets a 2 × 2 × 2 cube of bits centered around the targeted position.
 
 ## Details

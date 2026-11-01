@@ -7,8 +7,6 @@ summary:
 
 # Large Bit Aligned
 
-![Large Bit Aligned icon](/icons/chiselmodes/snap8.png)
-
 An 8 × 8 × 8 cube that snaps to a fixed 1/2-block grid.
 
 ## Details

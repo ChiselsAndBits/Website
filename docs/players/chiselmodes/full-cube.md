@@ -7,8 +7,6 @@ summary:
 
 # Full Cube
 
-![Full Cube icon](/icons/chiselmodes/same_material.png)
-
 Selects the full 16 × 16 × 16 bit volume — the entire block — aligned to block boundaries.
 
 ## Details

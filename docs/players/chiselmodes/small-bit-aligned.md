@@ -7,8 +7,6 @@ summary:
 
 # Small Bit Aligned
 
-![Small Bit Aligned icon](/icons/chiselmodes/snap2.png)
-
 A 2 × 2 × 2 cube that snaps to a fixed 1/8-block grid rather than free-placing at the cursor position.
 
 ## Details

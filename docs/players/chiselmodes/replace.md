@@ -7,8 +7,6 @@ summary:
 
 # Replace
 
-![Replace icon](/icons/chiselmodes/replace.png)
-
 Replaces every bit of the same material as the targeted bit within the entire block with the material currently held in your hand. Unlike other modes, both left- and right-click perform the same operation.
 
 ## Details

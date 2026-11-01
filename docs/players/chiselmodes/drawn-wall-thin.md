@@ -7,8 +7,6 @@ summary:
 
 # Drawn Wall (Thin)
 
-![Drawn Wall Thin icon](/icons/chiselmodes/drawn_wall_1.png)
-
 Drag to draw a wall along your path. The wall follows the drag path in the horizontal plane and extends vertically to match the drag height. This variant has a **1-bit** half-width (3 bits total across).
 
 ## Details

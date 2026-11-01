@@ -7,8 +7,6 @@ summary:
 
 # Connected Plane 8
 
-![Connected Plane icon](/icons/chiselmodes/connected_plane.png)
-
 Connected Plane flood-fill at maximum depth — 8 bits from the hit surface (half the block).
 
 ## Details

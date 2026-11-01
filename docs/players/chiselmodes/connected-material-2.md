@@ -7,8 +7,6 @@ summary:
 
 # Extrude 2
 
-![Extrude icon](/icons/chiselmodes/connected_material.png)
-
 Selects connected same-material bits and extrudes/intrudes by 2 bits along the hit face.
 
 ## Details

@@ -7,8 +7,6 @@ summary:
 
 # Drawn Cube
 
-![Drawn Cube icon](/icons/chiselmodes/drawn_cube.png)
-
 Click and drag to define a custom cuboid selection. The first click sets the anchor corner; releasing the button applies the operation to the entire drawn box.
 
 ## Details

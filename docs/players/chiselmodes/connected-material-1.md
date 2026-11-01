@@ -7,8 +7,6 @@ summary:
 
 # Extrude 1
 
-![Extrude icon](/icons/chiselmodes/connected_material.png)
-
 Selects the connected region of the same material as the targeted bit and extrudes or intrudes it by 1 bit along the hit face direction. Air bits within the connected region are also included during placement.
 
 ## Details

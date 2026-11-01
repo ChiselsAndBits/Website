@@ -7,8 +7,6 @@ summary:
 
 # Plane 1 (Thin)
 
-![Plane icon](/icons/chiselmodes/plane.png)
-
 Edits the entire face of a block at the targeted depth, producing a flat 16 × 16 bit slab that is 1 bit deep.
 
 ## Details

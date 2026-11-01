@@ -7,8 +7,6 @@ summary:
 
 # Connected Plane 1
 
-![Connected Plane icon](/icons/chiselmodes/connected_plane.png)
-
 Like the Plane mode, but only affects bits that are connected to the targeted bit on the face — non-contiguous regions are left untouched. Depth is 1 bit.
 
 ## Details

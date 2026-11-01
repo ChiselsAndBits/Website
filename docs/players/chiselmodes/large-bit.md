@@ -7,8 +7,6 @@ summary:
 
 # Large Bit
 
-![Large Bit icon](/icons/chiselmodes/cube_large.png)
-
 Targets a large 8 × 8 × 8 cube of bits centered around the targeted position.
 
 ## Details

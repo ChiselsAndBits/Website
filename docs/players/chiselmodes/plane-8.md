@@ -7,8 +7,6 @@ summary:
 
 # Plane 8
 
-![Plane 8 icon](/icons/chiselmodes/plane8.png)
-
 Edits the deepest plane — a full 16 × 16 bit face slab that is 8 bits (half the block) deep from the hit surface.
 
 ## Details

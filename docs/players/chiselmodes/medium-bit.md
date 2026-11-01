@@ -7,8 +7,6 @@ summary:
 
 # Medium Bit
 
-![Medium Bit icon](/icons/chiselmodes/cube_medium.png)
-
 Targets a 4 × 4 × 4 cube of bits centered around the targeted position.
 
 ## Details

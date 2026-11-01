@@ -7,8 +7,6 @@ summary:
 
 # Line 4 x 4
 
-![Line 4 icon](/icons/chiselmodes/line4.png)
-
 Extends a 4 × 4 thick column from the targeted bit along the hit direction.
 
 ## Details

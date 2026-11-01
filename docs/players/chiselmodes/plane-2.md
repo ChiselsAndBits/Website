@@ -7,8 +7,6 @@ summary:
 
 # Plane 2
 
-![Plane 2 icon](/icons/chiselmodes/plane2.png)
-
 Edits a full 16 × 16 bit face slab that is 2 bits deep from the hit surface.
 
 ## Details

@@ -7,8 +7,6 @@ summary:
 
 # Small Sphere
 
-![Small Sphere icon](/icons/chiselmodes/sphere_small.png)
-
 Creates or removes a compact spherical volume. The sphere is centered on the targeted bit and has a diameter of 4 bits.
 
 ## Details

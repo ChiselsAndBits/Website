@@ -2,7 +2,7 @@
 title: Small Bit
 order: 1
 summary:
-  icon: icons/chiselmodes/cube_small.png
+  icon: /icons/chiselmodes/cube_small.png
 ---
 
 # Small Bit

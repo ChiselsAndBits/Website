@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {useData} from 'vitepress';
+import {useData, withBase} from 'vitepress';
 import DefaultTheme from 'vitepress/theme'
 import RecipeDisplay from "./RecipeDisplay.vue";
 import {Recipe} from "./DisplayRecipe";
@@ -34,7 +34,7 @@ const frontmatter : Frontmatter = data.frontmatter
     <template #aside-outline-before>
       <div class="page-summary" v-if="frontmatter.summary">
         <div class="summary-icon">
-          <img :src="frontmatter.summary.icon" alt="icon" v-if="frontmatter.summary.icon"/>
+          <img :src="withBase(frontmatter.summary.icon)" alt="icon" v-if="frontmatter.summary.icon"/>
         </div>
         <div class="summary-description">
           <h1>{{ frontmatter.title ?? frontmatter.summary.title }}</h1>

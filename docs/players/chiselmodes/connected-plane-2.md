@@ -2,7 +2,7 @@
 title: Connected Plane 2
 order: 22
 summary:
-  icon: /icons/chiselmodes/connected_plane.png
+  icon: /icons/chiselmodes/connected_plane_2.png
 ---
 
 # Connected Plane 2

@@ -2,7 +2,7 @@
 title: Medium Bit
 order: 2
 summary:
-  icon: /icons/chiselmodes/cube_medium.png
+  icon: /icons/chiselmodes/medium_bit.png
 ---
 
 # Medium Bit

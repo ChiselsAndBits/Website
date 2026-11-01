@@ -2,7 +2,7 @@
 title: Plane 8
 order: 20
 summary:
-  icon: /icons/chiselmodes/plane8.png
+  icon: /icons/chiselmodes/plane_8.png
 ---
 
 # Plane 8

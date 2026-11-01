@@ -2,7 +2,7 @@
 title: Line 8 x 8
 order: 16
 summary:
-  icon: /icons/chiselmodes/line8.png
+  icon: /icons/chiselmodes/line_8.png
 ---
 
 # Line 8 x 8

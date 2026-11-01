@@ -2,7 +2,7 @@
 title: Extrude 2
 order: 26
 summary:
-  icon: /icons/chiselmodes/connected_material.png
+  icon: /icons/chiselmodes/connected_material_2.png
 ---
 
 # Extrude 2

@@ -2,7 +2,7 @@
 title: Drawn Wall (Medium)
 order: 11
 summary:
-  icon: /icons/chiselmodes/drawn_wall_2.png
+  icon: /icons/chiselmodes/drawn_wall_medium.png
 ---
 
 # Drawn Wall (Medium)

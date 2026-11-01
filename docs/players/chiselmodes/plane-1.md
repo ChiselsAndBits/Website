@@ -2,7 +2,7 @@
 title: Plane 1
 order: 17
 summary:
-  icon: /icons/chiselmodes/plane.png
+  icon: /icons/chiselmodes/plane_1.png
 ---
 
 # Plane 1 (Thin)

@@ -2,7 +2,7 @@
 title: Line 1 x 1
 order: 13
 summary:
-  icon: /icons/chiselmodes/line.png
+  icon: /icons/chiselmodes/line_1.png
 ---
 
 # Line 1 x 1

@@ -2,7 +2,7 @@
 title: Medium Bit Aligned
 order: 5
 summary:
-  icon: /icons/chiselmodes/snap4.png
+  icon: /icons/chiselmodes/medium_bit_aligned.png
 ---
 
 # Medium Bit Aligned

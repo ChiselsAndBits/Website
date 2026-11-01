@@ -2,7 +2,7 @@
 title: Medium Sphere
 order: 30
 summary:
-  icon: /icons/chiselmodes/sphere_medium.png
+  icon: /icons/chiselmodes/medium_sphere.png
 ---
 
 # Medium Sphere

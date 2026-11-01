@@ -2,7 +2,7 @@
 title: Full Cube
 order: 7
 summary:
-  icon: /icons/chiselmodes/same_material.png
+  icon: /icons/chiselmodes/full_cube.png
 ---
 
 # Full Cube

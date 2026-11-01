@@ -2,7 +2,7 @@
 title: Drawn Wall (Fat)
 order: 12
 summary:
-  icon: /icons/chiselmodes/drawn_wall_3.png
+  icon: /icons/chiselmodes/drawn_wall_fat.png
 ---
 
 # Drawn Wall (Fat)

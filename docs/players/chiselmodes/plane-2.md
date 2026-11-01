@@ -2,7 +2,7 @@
 title: Plane 2
 order: 18
 summary:
-  icon: /icons/chiselmodes/plane2.png
+  icon: /icons/chiselmodes/plane_2.png
 ---
 
 # Plane 2

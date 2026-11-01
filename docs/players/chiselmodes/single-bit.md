@@ -2,7 +2,7 @@
 title: Single Bit
 order: 0
 summary:
-  icon: /icons/chiselmodes/bit.png
+  icon: /icons/chiselmodes/single_bit.png
 ---
 
 # Single Bit

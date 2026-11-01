@@ -2,7 +2,7 @@
 title: Line 4 x 4
 order: 15
 summary:
-  icon: /icons/chiselmodes/line4.png
+  icon: /icons/chiselmodes/line_4.png
 ---
 
 # Line 4 x 4

@@ -2,7 +2,7 @@
 title: Large Sphere
 order: 31
 summary:
-  icon: /icons/chiselmodes/sphere_large.png
+  icon: /icons/chiselmodes/large_sphere.png
 ---
 
 # Large Sphere

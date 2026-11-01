@@ -2,7 +2,7 @@
 title: Large Bit
 order: 3
 summary:
-  icon: /icons/chiselmodes/cube_large.png
+  icon: /icons/chiselmodes/large_bit.png
 ---
 
 # Large Bit

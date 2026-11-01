@@ -14,6 +14,7 @@ A compiling patch alone is not a finished contribution.
 | Follow the repository's formatting and static rules | [Code style and Immaculate](./code-style.md) |
 | Reproduce the problem and validate the result | [Validating your work](./validation.md) |
 | Document every API element and its contract | [API documentation](./api-documentation.md) |
+| Draw or redraw a chisel mode icon | [Chisel mode icon design](./chisel-mode-icons.md) |
 
 ## Get a development checkout
 

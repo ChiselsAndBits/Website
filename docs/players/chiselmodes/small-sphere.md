@@ -2,7 +2,7 @@
 title: Small Sphere
 order: 29
 summary:
-  icon: /icons/chiselmodes/sphere_small.png
+  icon: /icons/chiselmodes/small_sphere.png
 ---
 
 # Small Sphere

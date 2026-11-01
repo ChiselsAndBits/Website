@@ -2,7 +2,7 @@
 title: Drawn Wall (Thin)
 order: 10
 summary:
-  icon: /icons/chiselmodes/drawn_wall_1.png
+  icon: /icons/chiselmodes/drawn_wall_thin.png
 ---
 
 # Drawn Wall (Thin)

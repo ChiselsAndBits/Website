@@ -2,7 +2,7 @@
 title: Small Bit Aligned
 order: 4
 summary:
-  icon: /icons/chiselmodes/snap2.png
+  icon: /icons/chiselmodes/small_bit_aligned.png
 ---
 
 # Small Bit Aligned

@@ -2,7 +2,7 @@
 title: Large Bit Aligned
 order: 6
 summary:
-  icon: /icons/chiselmodes/snap8.png
+  icon: /icons/chiselmodes/large_bit_aligned.png
 ---
 
 # Large Bit Aligned

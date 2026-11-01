@@ -2,7 +2,7 @@
 title: Extrude 8
 order: 28
 summary:
-  icon: /icons/chiselmodes/connected_material.png
+  icon: /icons/chiselmodes/connected_material_8.png
 ---
 
 # Extrude 8

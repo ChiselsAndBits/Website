@@ -2,7 +2,7 @@
 title: Plane 4
 order: 19
 summary:
-  icon: /icons/chiselmodes/plane4.png
+  icon: /icons/chiselmodes/plane_4.png
 ---
 
 # Plane 4

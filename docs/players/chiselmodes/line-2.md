@@ -2,7 +2,7 @@
 title: Line 2 x 2
 order: 14
 summary:
-  icon: /icons/chiselmodes/line2.png
+  icon: /icons/chiselmodes/line_2.png
 ---
 
 # Line 2 x 2

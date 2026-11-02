@@ -42,6 +42,7 @@ Method Summary
   <tr><td><code>void</code></td><td><code><a href="#onStoppedLeftClicking(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.IChiselingContext)" class="member-name-link">onStoppedLeftClicking</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</code></td><td><div class="block">Invoked by the system when the player has released the left click button.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#onStoppedRightClicking(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.IChiselingContext)" class="member-name-link">onStoppedRightClicking</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</code></td><td><div class="block">Invoked by the system when the player has released the right click button.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#requiresPlaceableEditStack()" class="member-name-link">requiresPlaceableEditStack</a>()</code></td><td><div class="block">Indicates that this mode is only available on a stack which has a placeable mode.</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#shouldRenderOnHotBar()" class="member-name-link">shouldRenderOnHotBar</a>()</code></td><td><div class="block">Indicates whether this group should render as a mode icon on the player hotbar.</div><br></td></tr>
   </tbody>
 </table>
 == Static Methods
@@ -69,6 +70,7 @@ Method Summary
   <tr><td><code>void</code></td><td><code><a href="#onStoppedLeftClicking(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.IChiselingContext)" class="member-name-link">onStoppedLeftClicking</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</code></td><td><div class="block">Invoked by the system when the player has released the left click button.</div><br></td></tr>
   <tr><td><code>void</code></td><td><code><a href="#onStoppedRightClicking(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.IChiselingContext)" class="member-name-link">onStoppedRightClicking</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context)</code></td><td><div class="block">Invoked by the system when the player has released the right click button.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#requiresPlaceableEditStack()" class="member-name-link">requiresPlaceableEditStack</a>()</code></td><td><div class="block">Indicates that this mode is only available on a stack which has a placeable mode.</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#shouldRenderOnHotBar()" class="member-name-link">shouldRenderOnHotBar</a>()</code></td><td><div class="block">Indicates whether this group should render as a mode icon on the player hotbar.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -94,6 +96,7 @@ Method Summary
   <tr><td><code>default boolean</code></td><td><code><a href="#isSingleClickUse()" class="member-name-link">isSingleClickUse</a>()</code></td><td><div class="block">Indicates if this mode requires a single click to trigger or not.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#isStillValid(net.minecraft.world.entity.player.Player,mod.chiselsandbits.api.chiseling.IChiselingContext,mod.chiselsandbits.api.chiseling.ChiselingOperation)" class="member-name-link">isStillValid</a><wbr>(net.minecraft.world.entity.player.Player&nbsp;playerEntity,<br> <a href="../IChiselingContext.html" title="interface in mod.chiselsandbits.api.chiseling">IChiselingContext</a>&nbsp;context,<br> <a href="../ChiselingOperation.html" title="enum class in mod.chiselsandbits.api.chiseling">ChiselingOperation</a>&nbsp;modeOfOperation)</code></td><td><div class="block">Checks if the passed context is still valid for the given entity.</div><br></td></tr>
   <tr><td><code>default boolean</code></td><td><code><a href="#requiresPlaceableEditStack()" class="member-name-link">requiresPlaceableEditStack</a>()</code></td><td><div class="block">Indicates that this mode is only available on a stack which has a placeable mode.</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#shouldRenderOnHotBar()" class="member-name-link">shouldRenderOnHotBar</a>()</code></td><td><div class="block">Indicates whether this group should render as a mode icon on the player hotbar.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -347,6 +350,30 @@ Indicates if this mode requires a single click to trigger or not.
 <dl class="notes">
 <dt>Returns:</dt>
 <dd>True if single click, false if multiple clicks are needed.</dd>
+</dl>
+</div>
+:::
+
+
+</section>
+
+<section id="shouldRenderOnHotBar()">
+
+:::tabs
+== shouldRenderOnHotBar
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldRenderOnHotBar</span>()</div>
+<div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../util/IWithIcon.html#shouldRenderOnHotBar()">IWithIcon</a></code></span></div>
+Indicates whether this group should render as a mode icon on the player hotbar.
+<p>
+By default, this is disabled.
+Only specific gameplay aspects which have icons turn this on to aid the player.
+</p>
+<dl class="notes">
+<dt>Specified by:</dt>
+<dd><code><a href="../../util/IWithIcon.html#shouldRenderOnHotBar()">shouldRenderOnHotBar</a></code>&nbsp;in interface&nbsp;<code><a href="../../util/IWithIcon.html" title="interface in mod.chiselsandbits.api.util">IWithIcon</a></code></dd>
+<dt>Returns:</dt>
+<dd><code>true</code> when we should render it on the hotbar.</dd>
 </dl>
 </div>
 :::

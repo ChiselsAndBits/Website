@@ -30,6 +30,7 @@ Method Summary
   <tr><td><code>net.minecraft.world.phys.shapes.VoxelShape</code></td><td><code><a href="#buildVoxelShapeForWireframe(mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">buildVoxelShapeForWireframe</a><wbr>(<a href="../../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;sourceSnapshot,<br> net.minecraft.world.entity.player.Player&nbsp;player,<br> net.minecraft.world.phys.Vec3&nbsp;targetedPoint,<br> net.minecraft.core.Direction&nbsp;hitFace)</code></td><td><div class="block">Used to build a voxelshape for rendering in the preview.</div><br></td></tr>
   <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" class="member-name-link">getTargetedPosition</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack,<br> net.minecraft.world.entity.player.Player&nbsp;player,<br> net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</code></td><td><div class="block">Invoked to determine where the targeted position of the placement type is.</div><br></td></tr>
   <tr><td><code><a href="../../placement/PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#performPlacement(mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,net.minecraft.world.item.context.BlockPlaceContext,boolean)" class="member-name-link">performPlacement</a><wbr>(<a href="../../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;source,<br> net.minecraft.world.item.context.BlockPlaceContext&nbsp;context,<br> boolean&nbsp;simulate)</code></td><td><div class="block">Invoked to perform the actual placement of the pattern in the world.</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#shouldRenderOnHotBar()" class="member-name-link">shouldRenderOnHotBar</a>()</code></td><td><div class="block">Indicates whether this group should render as a mode icon on the player hotbar.</div><br></td></tr>
   </tbody>
 </table>
 == Instance Methods
@@ -41,6 +42,7 @@ Method Summary
   <tr><td><code>net.minecraft.world.phys.shapes.VoxelShape</code></td><td><code><a href="#buildVoxelShapeForWireframe(mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">buildVoxelShapeForWireframe</a><wbr>(<a href="../../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;sourceSnapshot,<br> net.minecraft.world.entity.player.Player&nbsp;player,<br> net.minecraft.world.phys.Vec3&nbsp;targetedPoint,<br> net.minecraft.core.Direction&nbsp;hitFace)</code></td><td><div class="block">Used to build a voxelshape for rendering in the preview.</div><br></td></tr>
   <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" class="member-name-link">getTargetedPosition</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack,<br> net.minecraft.world.entity.player.Player&nbsp;player,<br> net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</code></td><td><div class="block">Invoked to determine where the targeted position of the placement type is.</div><br></td></tr>
   <tr><td><code><a href="../../placement/PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#performPlacement(mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,net.minecraft.world.item.context.BlockPlaceContext,boolean)" class="member-name-link">performPlacement</a><wbr>(<a href="../../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;source,<br> net.minecraft.world.item.context.BlockPlaceContext&nbsp;context,<br> boolean&nbsp;simulate)</code></td><td><div class="block">Invoked to perform the actual placement of the pattern in the world.</div><br></td></tr>
+  <tr><td><code>default boolean</code></td><td><code><a href="#shouldRenderOnHotBar()" class="member-name-link">shouldRenderOnHotBar</a>()</code></td><td><div class="block">Indicates whether this group should render as a mode icon on the player hotbar.</div><br></td></tr>
   </tbody>
 </table>
 == Abstract Methods
@@ -52,6 +54,15 @@ Method Summary
   <tr><td><code>net.minecraft.world.phys.shapes.VoxelShape</code></td><td><code><a href="#buildVoxelShapeForWireframe(mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.Vec3,net.minecraft.core.Direction)" class="member-name-link">buildVoxelShapeForWireframe</a><wbr>(<a href="../../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;sourceSnapshot,<br> net.minecraft.world.entity.player.Player&nbsp;player,<br> net.minecraft.world.phys.Vec3&nbsp;targetedPoint,<br> net.minecraft.core.Direction&nbsp;hitFace)</code></td><td><div class="block">Used to build a voxelshape for rendering in the preview.</div><br></td></tr>
   <tr><td><code>net.minecraft.world.phys.Vec3</code></td><td><code><a href="#getTargetedPosition(net.minecraft.world.item.ItemStack,net.minecraft.world.entity.player.Player,net.minecraft.world.phys.BlockHitResult)" class="member-name-link">getTargetedPosition</a><wbr>(net.minecraft.world.item.ItemStack&nbsp;heldStack,<br> net.minecraft.world.entity.player.Player&nbsp;player,<br> net.minecraft.world.phys.BlockHitResult&nbsp;blockRayTraceResult)</code></td><td><div class="block">Invoked to determine where the targeted position of the placement type is.</div><br></td></tr>
   <tr><td><code><a href="../../placement/PlacementResult.html" title="class in mod.chiselsandbits.api.placement">PlacementResult</a></code></td><td><code><a href="#performPlacement(mod.chiselsandbits.api.multistate.snapshot.IMultiStateSnapshot,net.minecraft.world.item.context.BlockPlaceContext,boolean)" class="member-name-link">performPlacement</a><wbr>(<a href="../../multistate/snapshot/IMultiStateSnapshot.html" title="interface in mod.chiselsandbits.api.multistate.snapshot">IMultiStateSnapshot</a>&nbsp;source,<br> net.minecraft.world.item.context.BlockPlaceContext&nbsp;context,<br> boolean&nbsp;simulate)</code></td><td><div class="block">Invoked to perform the actual placement of the pattern in the world.</div><br></td></tr>
+  </tbody>
+</table>
+== Default Methods
+<table class="stretched-table">
+  <thead>
+    <tr><th>Modifier and Type</th><th>Method</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+  <tr><td><code>default boolean</code></td><td><code><a href="#shouldRenderOnHotBar()" class="member-name-link">shouldRenderOnHotBar</a>()</code></td><td><div class="block">Indicates whether this group should render as a mode icon on the player hotbar.</div><br></td></tr>
   </tbody>
 </table>
 :::
@@ -163,6 +174,30 @@ Invoked to determine where the targeted position of the placement type is.
 <dd><code>blockRayTraceResult</code> - The block ray trace result in the current context.</dd>
 <dt>Returns:</dt>
 <dd>The position of the potential placement.</dd>
+</dl>
+</div>
+:::
+
+
+</section>
+
+<section id="shouldRenderOnHotBar()">
+
+:::tabs
+== shouldRenderOnHotBar
+<div class="horizontal-scroll">
+<div class="member-signature"><span class="modifiers">default</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="element-name">shouldRenderOnHotBar</span>()</div>
+<div class="block"><span class="description-from-type-label">Description copied from interface:&nbsp;<code><a href="../../util/IWithIcon.html#shouldRenderOnHotBar()">IWithIcon</a></code></span></div>
+Indicates whether this group should render as a mode icon on the player hotbar.
+<p>
+By default, this is disabled.
+Only specific gameplay aspects which have icons turn this on to aid the player.
+</p>
+<dl class="notes">
+<dt>Specified by:</dt>
+<dd><code><a href="../../util/IWithIcon.html#shouldRenderOnHotBar()">shouldRenderOnHotBar</a></code>&nbsp;in interface&nbsp;<code><a href="../../util/IWithIcon.html" title="interface in mod.chiselsandbits.api.util">IWithIcon</a></code></dd>
+<dt>Returns:</dt>
+<dd><code>true</code> when we should render it on the hotbar.</dd>
 </dl>
 </div>
 :::

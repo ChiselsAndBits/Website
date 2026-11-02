@@ -21,9 +21,9 @@ Tracking and grouping of edits to multistate blocks.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChangeTracker" title="IChangeTracker">IChangeTracker</a></td><td>The change tracker for tracking changes to bit blocks.</td></tr>
-  <tr><td><a href="IChangeTrackerManager" title="IChangeTrackerManager">IChangeTrackerManager</a></td><td>The central change tracker manager which gives access to each players individual change tracker if applicable.</td></tr>
   <tr><td><a href="ICombiningChangeTracker" title="ICombiningChangeTracker">ICombiningChangeTracker</a></td><td>Represents a change tracker which is used to combine several change steps into one action.</td></tr>
+  <tr><td><a href="IChangeTrackerManager" title="IChangeTrackerManager">IChangeTrackerManager</a></td><td>The central change tracker manager which gives access to each players individual change tracker if applicable.</td></tr>
+  <tr><td><a href="IChangeTracker" title="IChangeTracker">IChangeTracker</a></td><td>The change tracker for tracking changes to bit blocks.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -32,9 +32,9 @@ Tracking and grouping of edits to multistate blocks.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChangeTracker" title="IChangeTracker">IChangeTracker</a></td><td>The change tracker for tracking changes to bit blocks.</td></tr>
-  <tr><td><a href="IChangeTrackerManager" title="IChangeTrackerManager">IChangeTrackerManager</a></td><td>The central change tracker manager which gives access to each players individual change tracker if applicable.</td></tr>
   <tr><td><a href="ICombiningChangeTracker" title="ICombiningChangeTracker">ICombiningChangeTracker</a></td><td>Represents a change tracker which is used to combine several change steps into one action.</td></tr>
+  <tr><td><a href="IChangeTrackerManager" title="IChangeTrackerManager">IChangeTrackerManager</a></td><td>The central change tracker manager which gives access to each players individual change tracker if applicable.</td></tr>
+  <tr><td><a href="IChangeTracker" title="IChangeTracker">IChangeTracker</a></td><td>The change tracker for tracking changes to bit blocks.</td></tr>
   </tbody>
 </table>
 == Classes

@@ -21,10 +21,10 @@ Timing and profiling of Chisels and Bits operations.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IProfilerSection" title="IProfilerSection">IProfilerSection</a></td><td>Represents a resource used for try-resource blocks that represents a<br>section of profileable code.</td></tr>
-  <tr><td><a href="IProfilingManager" title="IProfilingManager">IProfilingManager</a></td><td>A profiling manager to handle the profiling of different interactions or managements.</td></tr>
   <tr><td><a href="IProfilerResult" title="IProfilerResult">IProfilerResult</a></td><td>The result of a profiling operation.</td></tr>
+  <tr><td><a href="IProfilerSection" title="IProfilerSection">IProfilerSection</a></td><td>Represents a resource used for try-resource blocks that represents a<br>section of profileable code.</td></tr>
   <tr><td><a href="IProfiler" title="IProfiler">IProfiler</a></td><td>A profiler used to track the time certain operations inside Chisels and Bits take.</td></tr>
+  <tr><td><a href="IProfilingManager" title="IProfilingManager">IProfilingManager</a></td><td>A profiling manager to handle the profiling of different interactions or managements.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -33,10 +33,10 @@ Timing and profiling of Chisels and Bits operations.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IProfilerSection" title="IProfilerSection">IProfilerSection</a></td><td>Represents a resource used for try-resource blocks that represents a<br>section of profileable code.</td></tr>
-  <tr><td><a href="IProfilingManager" title="IProfilingManager">IProfilingManager</a></td><td>A profiling manager to handle the profiling of different interactions or managements.</td></tr>
   <tr><td><a href="IProfilerResult" title="IProfilerResult">IProfilerResult</a></td><td>The result of a profiling operation.</td></tr>
+  <tr><td><a href="IProfilerSection" title="IProfilerSection">IProfilerSection</a></td><td>Represents a resource used for try-resource blocks that represents a<br>section of profileable code.</td></tr>
   <tr><td><a href="IProfiler" title="IProfiler">IProfiler</a></td><td>A profiler used to track the time certain operations inside Chisels and Bits take.</td></tr>
+  <tr><td><a href="IProfilingManager" title="IProfilingManager">IProfilingManager</a></td><td>A profiling manager to handle the profiling of different interactions or managements.</td></tr>
   </tbody>
 </table>
 == Classes

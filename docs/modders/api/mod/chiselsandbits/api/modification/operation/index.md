@@ -21,8 +21,8 @@ Modification-table operations and their tool-mode groups.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IModificationOperationGroup" title="IModificationOperationGroup">IModificationOperationGroup</a></td><td>Groups operations that modify multistate block contents.</td></tr>
   <tr><td><a href="IModificationOperation" title="IModificationOperation">IModificationOperation</a></td><td>A modification operation that can be performed in the modification table.</td></tr>
+  <tr><td><a href="IModificationOperationGroup" title="IModificationOperationGroup">IModificationOperationGroup</a></td><td>Groups operations that modify multistate block contents.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -31,8 +31,8 @@ Modification-table operations and their tool-mode groups.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IModificationOperationGroup" title="IModificationOperationGroup">IModificationOperationGroup</a></td><td>Groups operations that modify multistate block contents.</td></tr>
   <tr><td><a href="IModificationOperation" title="IModificationOperation">IModificationOperation</a></td><td>A modification operation that can be performed in the modification table.</td></tr>
+  <tr><td><a href="IModificationOperationGroup" title="IModificationOperationGroup">IModificationOperationGroup</a></td><td>Groups operations that modify multistate block contents.</td></tr>
   </tbody>
 </table>
 == Classes

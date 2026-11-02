@@ -26,7 +26,7 @@ Method Summary
 :::::
 <!-- JavaMarkContainer Depth: 1 -->
 ::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="IWithIcon.html" title="interface in mod.chiselsandbits.api.util">IWithIcon</a>
-<a href="IWithIcon.html#getIcon()" title="getIcon()">getIcon</a>
+<a href="IWithIcon.html#getIcon()" title="getIcon()">getIcon</a>, <a href="IWithIcon.html#shouldRenderOnHotBar()" title="shouldRenderOnHotBar()">shouldRenderOnHotBar</a>
 :::::
   
   

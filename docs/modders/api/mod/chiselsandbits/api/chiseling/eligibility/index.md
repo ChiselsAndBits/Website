@@ -22,8 +22,8 @@ Analysis of whether blocks and items support chiseling.
   </thead>
   <tbody>
   <tr><td><a href="IEligibilityOptions" title="IEligibilityOptions">IEligibilityOptions</a></td><td>Determines the additional eligibility options for a given platform.</td></tr>
-  <tr><td><a href="IEligibilityAnalysisResult" title="IEligibilityAnalysisResult">IEligibilityAnalysisResult</a></td><td>The results of an eligibility analysis.</td></tr>
   <tr><td><a href="IEligibilityManager" title="IEligibilityManager">IEligibilityManager</a></td><td>An object which can manage the eligibility of chiseling of blocks, blockstates,<br>or itemstacks (which contain blocks eligible) for chiseling.</td></tr>
+  <tr><td><a href="IEligibilityAnalysisResult" title="IEligibilityAnalysisResult">IEligibilityAnalysisResult</a></td><td>The results of an eligibility analysis.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -33,8 +33,8 @@ Analysis of whether blocks and items support chiseling.
   </thead>
   <tbody>
   <tr><td><a href="IEligibilityOptions" title="IEligibilityOptions">IEligibilityOptions</a></td><td>Determines the additional eligibility options for a given platform.</td></tr>
-  <tr><td><a href="IEligibilityAnalysisResult" title="IEligibilityAnalysisResult">IEligibilityAnalysisResult</a></td><td>The results of an eligibility analysis.</td></tr>
   <tr><td><a href="IEligibilityManager" title="IEligibilityManager">IEligibilityManager</a></td><td>An object which can manage the eligibility of chiseling of blocks, blockstates,<br>or itemstacks (which contain blocks eligible) for chiseling.</td></tr>
+  <tr><td><a href="IEligibilityAnalysisResult" title="IEligibilityAnalysisResult">IEligibilityAnalysisResult</a></td><td>The results of an eligibility analysis.</td></tr>
   </tbody>
 </table>
 == Classes

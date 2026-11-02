@@ -21,8 +21,8 @@ Client-specific behavior for block-state variants.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IClientStateVariantProvider" title="IClientStateVariantProvider">IClientStateVariantProvider</a></td><td>A state variant provider for client side interactions.</td></tr>
   <tr><td><a href="IClientStateVariantManager" title="IClientStateVariantManager">IClientStateVariantManager</a></td><td>The state variant provider for the client.</td></tr>
+  <tr><td><a href="IClientStateVariantProvider" title="IClientStateVariantProvider">IClientStateVariantProvider</a></td><td>A state variant provider for client side interactions.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -31,8 +31,8 @@ Client-specific behavior for block-state variants.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IClientStateVariantProvider" title="IClientStateVariantProvider">IClientStateVariantProvider</a></td><td>A state variant provider for client side interactions.</td></tr>
   <tr><td><a href="IClientStateVariantManager" title="IClientStateVariantManager">IClientStateVariantManager</a></td><td>The state variant provider for the client.</td></tr>
+  <tr><td><a href="IClientStateVariantProvider" title="IClientStateVariantProvider">IClientStateVariantProvider</a></td><td>A state variant provider for client side interactions.</td></tr>
   </tbody>
 </table>
 == Classes

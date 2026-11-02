@@ -25,6 +25,10 @@ Method Summary
 <a href="../../item/withmode/IRenderableMode.html#getColorVector()" title="getColorVector()">getColorVector</a>, <a href="../../item/withmode/IRenderableMode.html#getPositionVector()" title="getPositionVector()">getPositionVector</a>, <a href="../../item/withmode/IRenderableMode.html#getScaleVector()" title="getScaleVector()">getScaleVector</a>, <a href="../../item/withmode/IRenderableMode.html#isActive()" title="isActive()">isActive</a>, <a href="../../item/withmode/IRenderableMode.html#shouldRenderDisplayNameInMenu()" title="shouldRenderDisplayNameInMenu()">shouldRenderDisplayNameInMenu</a>, <a href="../../item/withmode/IRenderableMode.html#shouldRenderName()" title="shouldRenderName()">shouldRenderName</a>
 :::::
 <!-- JavaMarkContainer Depth: 1 -->
+::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.item.withmode.group.<a href="../../item/withmode/group/IToolModeGroup.html" title="interface in mod.chiselsandbits.api.item.withmode.group">IToolModeGroup</a>
+<a href="../../item/withmode/group/IToolModeGroup.html#shouldRenderOnHotBar()" title="shouldRenderOnHotBar()">shouldRenderOnHotBar</a>
+:::::
+<!-- JavaMarkContainer Depth: 1 -->
 ::::: tip Methods inherited from interface&nbsp;mod.chiselsandbits.api.util.<a href="../../util/IWithColor.html" title="interface in mod.chiselsandbits.api.util">IWithColor</a>
 <a href="../../util/IWithColor.html#getAlphaChannel()" title="getAlphaChannel()">getAlphaChannel</a>
 :::::

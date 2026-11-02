@@ -48,8 +48,8 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="storage/index" title="mod.chiselsandbits.api.block.storage">mod.chiselsandbits.api.block.storage</a></td><td>Palette-based storage for multistate block contents.</td></tr>
   <tr><td><a href="bitbag/index" title="mod.chiselsandbits.api.block.bitbag">mod.chiselsandbits.api.block.bitbag</a></td><td>Block interactions with bit bags.</td></tr>
   <tr><td><a href="entity/index" title="mod.chiselsandbits.api.block.entity">mod.chiselsandbits.api.block.entity</a></td><td>Block-entity contracts for multistate data and network updates.</td></tr>
+  <tr><td><a href="storage/index" title="mod.chiselsandbits.api.block.storage">mod.chiselsandbits.api.block.storage</a></td><td>Palette-based storage for multistate block contents.</td></tr>
   </tbody>
 </table>

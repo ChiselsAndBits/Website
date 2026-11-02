@@ -21,8 +21,8 @@ Modification of multistate areas located in a world.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IWorldAreaMutator" title="IWorldAreaMutator">IWorldAreaMutator</a></td><td>Allows for a given area in the world to be mutated.</td></tr>
   <tr><td><a href="IInWorldMutableStateEntryInfo" title="IInWorldMutableStateEntryInfo">IInWorldMutableStateEntryInfo</a></td><td>Mutable view of a multistate entry associated with a position in the world.</td></tr>
+  <tr><td><a href="IWorldAreaMutator" title="IWorldAreaMutator">IWorldAreaMutator</a></td><td>Allows for a given area in the world to be mutated.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -31,8 +31,8 @@ Modification of multistate areas located in a world.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IWorldAreaMutator" title="IWorldAreaMutator">IWorldAreaMutator</a></td><td>Allows for a given area in the world to be mutated.</td></tr>
   <tr><td><a href="IInWorldMutableStateEntryInfo" title="IInWorldMutableStateEntryInfo">IInWorldMutableStateEntryInfo</a></td><td>Mutable view of a multistate entry associated with a position in the world.</td></tr>
+  <tr><td><a href="IWorldAreaMutator" title="IWorldAreaMutator">IWorldAreaMutator</a></td><td>Allows for a given area in the world to be mutated.</td></tr>
   </tbody>
 </table>
 == Classes

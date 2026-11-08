@@ -21,8 +21,8 @@ Items that initiate chiseling and select chiseling modes.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChiselItem" title="IChiselItem">IChiselItem</a></td><td>Contract for chisel items that select or perform chiseling modes.</td></tr>
   <tr><td><a href="IChiselingItem" title="IChiselingItem">IChiselingItem</a></td><td>Contract for items that initiate chiseling interactions.</td></tr>
+  <tr><td><a href="IChiselItem" title="IChiselItem">IChiselItem</a></td><td>Contract for chisel items that select or perform chiseling modes.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -31,8 +31,8 @@ Items that initiate chiseling and select chiseling modes.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChiselItem" title="IChiselItem">IChiselItem</a></td><td>Contract for chisel items that select or perform chiseling modes.</td></tr>
   <tr><td><a href="IChiselingItem" title="IChiselingItem">IChiselingItem</a></td><td>Contract for items that initiate chiseling interactions.</td></tr>
+  <tr><td><a href="IChiselItem" title="IChiselItem">IChiselItem</a></td><td>Contract for chisel items that select or perform chiseling modes.</td></tr>
   </tbody>
 </table>
 == Classes

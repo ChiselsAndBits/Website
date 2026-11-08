@@ -56,8 +56,8 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
+  <tr><td><a href="callback/index" title="mod.chiselsandbits.api.multistate.mutator.callback">mod.chiselsandbits.api.multistate.mutator.callback</a></td><td>Callbacks for setting and clearing individual bit states.</td></tr>
   <tr><td><a href="world/index" title="mod.chiselsandbits.api.multistate.mutator.world">mod.chiselsandbits.api.multistate.mutator.world</a></td><td>Modification of multistate areas located in a world.</td></tr>
   <tr><td><a href="batched/index" title="mod.chiselsandbits.api.multistate.mutator.batched">mod.chiselsandbits.api.multistate.mutator.batched</a></td><td>Batched modifications of multistate areas.</td></tr>
-  <tr><td><a href="callback/index" title="mod.chiselsandbits.api.multistate.mutator.callback">mod.chiselsandbits.api.multistate.mutator.callback</a></td><td>Callbacks for setting and clearing individual bit states.</td></tr>
   </tbody>
 </table>

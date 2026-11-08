@@ -48,9 +48,9 @@ No types found.
     <tr><th>Package</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="snapshot/index" title="mod.chiselsandbits.api.multistate.snapshot">mod.chiselsandbits.api.multistate.snapshot</a></td><td>Snapshots of multistate area contents and their registered types.</td></tr>
-  <tr><td><a href="statistics/index" title="mod.chiselsandbits.api.multistate.statistics">mod.chiselsandbits.api.multistate.statistics</a></td><td>Aggregate statistics describing multistate objects.</td></tr>
   <tr><td><a href="mutator/index" title="mod.chiselsandbits.api.multistate.mutator">mod.chiselsandbits.api.multistate.mutator</a></td><td>Modification of multistate areas and individual state entries.</td></tr>
+  <tr><td><a href="snapshot/index" title="mod.chiselsandbits.api.multistate.snapshot">mod.chiselsandbits.api.multistate.snapshot</a></td><td>Snapshots of multistate area contents and their registered types.</td></tr>
   <tr><td><a href="accessor/index" title="mod.chiselsandbits.api.multistate.accessor">mod.chiselsandbits.api.multistate.accessor</a></td><td>Read access to multistate areas and their individual state entries.</td></tr>
+  <tr><td><a href="statistics/index" title="mod.chiselsandbits.api.multistate.statistics">mod.chiselsandbits.api.multistate.statistics</a></td><td>Aggregate statistics describing multistate objects.</td></tr>
   </tbody>
 </table>

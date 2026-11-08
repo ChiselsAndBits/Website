@@ -21,8 +21,8 @@ Pattern items and reusable pattern behavior.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IMultiUsePatternItem" title="IMultiUsePatternItem">IMultiUsePatternItem</a></td><td>Contract for reusable pattern items that support unsealing.</td></tr>
   <tr><td><a href="IPatternItem" title="IPatternItem">IPatternItem</a></td><td>Represents an item that can be a pattern.</td></tr>
+  <tr><td><a href="IMultiUsePatternItem" title="IMultiUsePatternItem">IMultiUsePatternItem</a></td><td>Contract for reusable pattern items that support unsealing.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -31,8 +31,8 @@ Pattern items and reusable pattern behavior.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IMultiUsePatternItem" title="IMultiUsePatternItem">IMultiUsePatternItem</a></td><td>Contract for reusable pattern items that support unsealing.</td></tr>
   <tr><td><a href="IPatternItem" title="IPatternItem">IPatternItem</a></td><td>Represents an item that can be a pattern.</td></tr>
+  <tr><td><a href="IMultiUsePatternItem" title="IMultiUsePatternItem">IMultiUsePatternItem</a></td><td>Contract for reusable pattern items that support unsealing.</td></tr>
   </tbody>
 </table>
 == Classes

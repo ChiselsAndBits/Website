@@ -21,8 +21,8 @@ Tools for creating, sealing, and unsealing patterns.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="ISealantItem" title="ISealantItem">ISealantItem</a></td><td>Represents a sealant item that is used to seal single use patterns.</td></tr>
   <tr><td><a href="IUnsealItem" title="IUnsealItem">IUnsealItem</a></td><td>Represents a unsealing item that is used to unseal multi use patterns.</td></tr>
+  <tr><td><a href="ISealantItem" title="ISealantItem">ISealantItem</a></td><td>Represents a sealant item that is used to seal single use patterns.</td></tr>
   <tr><td><a href="IQuillItem" title="IQuillItem">IQuillItem</a></td><td>Represents a quill that can be used to create patterns.</td></tr>
   </tbody>
 </table>
@@ -32,8 +32,8 @@ Tools for creating, sealing, and unsealing patterns.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="ISealantItem" title="ISealantItem">ISealantItem</a></td><td>Represents a sealant item that is used to seal single use patterns.</td></tr>
   <tr><td><a href="IUnsealItem" title="IUnsealItem">IUnsealItem</a></td><td>Represents a unsealing item that is used to unseal multi use patterns.</td></tr>
+  <tr><td><a href="ISealantItem" title="ISealantItem">ISealantItem</a></td><td>Represents a sealant item that is used to seal single use patterns.</td></tr>
   <tr><td><a href="IQuillItem" title="IQuillItem">IQuillItem</a></td><td>Represents a quill that can be used to create patterns.</td></tr>
   </tbody>
 </table>

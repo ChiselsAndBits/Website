@@ -21,9 +21,9 @@ Permission checks for player edits to world areas.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="ICheckerRegistration" title="ICheckerRegistration">ICheckerRegistration</a></td><td>A marker interface which can be used to dynamically register and un-register<br>a <br>{@link IPermissionChecker}<br> to the <br>{@link IPermissionHandler}<br>.</td></tr>
   <tr><td><a href="IPermissionChecker" title="IPermissionChecker">IPermissionChecker</a></td><td>Represents a permission checker, which can indicate if a particular<br>area is allowed to be edited or not.</td></tr>
   <tr><td><a href="IPermissionHandler" title="IPermissionHandler">IPermissionHandler</a></td><td>Permission handler for checking if a particular user can manipulate a particular area.</td></tr>
+  <tr><td><a href="ICheckerRegistration" title="ICheckerRegistration">ICheckerRegistration</a></td><td>A marker interface which can be used to dynamically register and un-register<br>a <br>{@link IPermissionChecker}<br> to the <br>{@link IPermissionHandler}<br>.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -32,9 +32,9 @@ Permission checks for player edits to world areas.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="ICheckerRegistration" title="ICheckerRegistration">ICheckerRegistration</a></td><td>A marker interface which can be used to dynamically register and un-register<br>a <br>{@link IPermissionChecker}<br> to the <br>{@link IPermissionHandler}<br>.</td></tr>
   <tr><td><a href="IPermissionChecker" title="IPermissionChecker">IPermissionChecker</a></td><td>Represents a permission checker, which can indicate if a particular<br>area is allowed to be edited or not.</td></tr>
   <tr><td><a href="IPermissionHandler" title="IPermissionHandler">IPermissionHandler</a></td><td>Permission handler for checking if a particular user can manipulate a particular area.</td></tr>
+  <tr><td><a href="ICheckerRegistration" title="ICheckerRegistration">ICheckerRegistration</a></td><td>A marker interface which can be used to dynamically register and un-register<br>a <br>{@link IPermissionChecker}<br> to the <br>{@link IPermissionHandler}<br>.</td></tr>
   </tbody>
 </table>
 == Classes

@@ -21,8 +21,8 @@ Undoable and redoable changes and their registered types.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChange" title="IChange">IChange</a></td><td>Represents a single change that has been created with bits.</td></tr>
   <tr><td><a href="IChangeType" title="IChangeType">IChangeType</a></td><td>The type of registry entry that represents a change.</td></tr>
+  <tr><td><a href="IChange" title="IChange">IChange</a></td><td>Represents a single change that has been created with bits.</td></tr>
   <tr><td><a href="IllegalChangeAttempt" title="IllegalChangeAttempt">IllegalChangeAttempt</a></td><td>Exception thrown when change attempt is made before checking if the change attempt is possible.</td></tr>
   <tr><td><a href="IChangeHandler" title="IChangeHandler">IChangeHandler</a></td><td>Represents an entry point for a change that can be undone and redone.</td></tr>
   </tbody>
@@ -33,8 +33,8 @@ Undoable and redoable changes and their registered types.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="IChange" title="IChange">IChange</a></td><td>Represents a single change that has been created with bits.</td></tr>
   <tr><td><a href="IChangeType" title="IChangeType">IChangeType</a></td><td>The type of registry entry that represents a change.</td></tr>
+  <tr><td><a href="IChange" title="IChange">IChange</a></td><td>Represents a single change that has been created with bits.</td></tr>
   <tr><td><a href="IChangeHandler" title="IChangeHandler">IChangeHandler</a></td><td>Represents an entry point for a change that can be undone and redone.</td></tr>
   </tbody>
 </table>

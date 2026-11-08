@@ -21,9 +21,9 @@ Client-side widgets and buttons for Chisels and Bits screens.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
+  <tr><td><a href="AbstractChiselsAndBitsButton" title="AbstractChiselsAndBitsButton">AbstractChiselsAndBitsButton</a></td><td>An abstract chisels and bits button.</td></tr>
   <tr><td><a href="IChiselsAndBitsWidget" title="IChiselsAndBitsWidget">IChiselsAndBitsWidget</a></td><td>Contract for widgets integrated with Chisels <br>&amp;<br> Bits screens.</td></tr>
   <tr><td><a href="AbstractChiselsAndBitsWidget" title="AbstractChiselsAndBitsWidget">AbstractChiselsAndBitsWidget</a></td><td>All chisels and bits widgets inherit from this class.</td></tr>
-  <tr><td><a href="AbstractChiselsAndBitsButton" title="AbstractChiselsAndBitsButton">AbstractChiselsAndBitsButton</a></td><td>An abstract chisels and bits button.</td></tr>
   </tbody>
 </table>
 == Interfaces
@@ -41,8 +41,8 @@ Client-side widgets and buttons for Chisels and Bits screens.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="AbstractChiselsAndBitsWidget" title="AbstractChiselsAndBitsWidget">AbstractChiselsAndBitsWidget</a></td><td>All chisels and bits widgets inherit from this class.</td></tr>
   <tr><td><a href="AbstractChiselsAndBitsButton" title="AbstractChiselsAndBitsButton">AbstractChiselsAndBitsButton</a></td><td>An abstract chisels and bits button.</td></tr>
+  <tr><td><a href="AbstractChiselsAndBitsWidget" title="AbstractChiselsAndBitsWidget">AbstractChiselsAndBitsWidget</a></td><td>All chisels and bits widgets inherit from this class.</td></tr>
   </tbody>
 </table>
 == Enums

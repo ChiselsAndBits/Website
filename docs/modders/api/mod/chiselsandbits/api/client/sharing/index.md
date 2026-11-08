@@ -21,8 +21,8 @@ Client-side pattern sharing and its I/O error reporting.
     <tr><th>Class</th><th>Description</th></tr>
   </thead>
   <tbody>
-  <tr><td><a href="PatternIOException" title="PatternIOException">PatternIOException</a></td><td>I/O failure that carries both a user-facing component and a diagnostic log message.</td></tr>
   <tr><td><a href="IPatternSharingManager" title="IPatternSharingManager">IPatternSharingManager</a></td><td>Central manager which handles sharing of patterns.</td></tr>
+  <tr><td><a href="PatternIOException" title="PatternIOException">PatternIOException</a></td><td>I/O failure that carries both a user-facing component and a diagnostic log message.</td></tr>
   </tbody>
 </table>
 == Interfaces
